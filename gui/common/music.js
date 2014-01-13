@@ -53,8 +53,8 @@ Music.prototype.resetTracks = function()
 	this.tracks = {
 		MENU: ["To_the_Ends_of_the_Earth.ogg"],
 		PEACE: [],
-		BATTLE: ["Taiko_1.ogg", "Taiko_2.ogg"],
-		VICTORY : ["You_are_Victorious!.ogg"],
+		BATTLE: ["Valor.ogg", "Taiko_2.ogg"],
+		VICTORY : ["On_the_Road_to_Adventures.ogg"],
 		DEFEAT : ["Dried_Tears.ogg"]
 	};
 };
