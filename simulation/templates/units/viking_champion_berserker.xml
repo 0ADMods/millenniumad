@@ -16,6 +16,8 @@
     <SpecificName>Gaesata</SpecificName>
     <History>A fanatic Celtic warrior, devoted to war and his Celtic liege lord. These bloodthirsty young men roamed Gaul in search of battle.</History>
     <Icon>units/celt_fanatic.png</Icon>
+    <RequiredTechnology>unlock_champion_units</RequiredTechnology>
+	<SelectionGroupName>units/viking_champion_berserker</SelectionGroupName>
   </Identity>
   <UnitMotion>
     <WalkSpeed>11.0</WalkSpeed>

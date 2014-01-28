@@ -1,23 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_house">
+    <Attack>
+    <Ranged>
+      <Hack>0.0</Hack>
+      <Pierce>10.0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>45.0</MaxRange>
+      <MinRange>5.0</MinRange>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <PrepareTime>2400</PrepareTime>
+      <RepeatTime>3000</RepeatTime>
+      <Spread>1.5</Spread>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>2</DefaultArrowCount>
+    <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
+  </BuildingAI>
+    <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+  <Cost>
+    <PopulationBonus>10</PopulationBonus>
+    <BuildTime>45</BuildTime>
+    <Resources>
+      <wood>200</wood>
+    </Resources>
+  </Cost>
   <Footprint replace="">
-    <Square width="12.5" depth="12.5"/>
+    <Square width="25" depth="12.5"/>
     <Height>5.0</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>10</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Infantry Cavalry</List>
+    <BuffHeal>1</BuffHeal>
+    <LoadingRange>1</LoadingRange>
+  </GarrisonHolder>
+  <Health>
+    <Max>1200</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_4x2</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>viking</Civ>
     <SpecificName>Annedd</SpecificName>
     <History>Celts generally lived in round stone or wattle and daub walled structures with thatched roof.</History>
   </Identity>
   <Obstruction>
-    <Static width="12.0" depth="12.0"/>
+    <Static width="24.0" depth="12.0"/>
   </Obstruction>
   <TerritoryInfluence>
     <Radius>16</Radius>
     <Weight>65536</Weight>
   </TerritoryInfluence>
+    <ProductionQueue>
+    <Entities datatype="tokens">
+	  units/viking_infantry_swordsman_b
+	  units/{civ}_support_female_citizen
+	  -units/{civ}_support_female_citizen_house
+    </Entities>
+	  <Technologies datatype="tokens">
+      -unlock_females_house
+    </Technologies>
+  </ProductionQueue>
+    <ResourceDropsite>
+    <Types>food wood</Types>
+  </ResourceDropsite>
+  <TerritoryInfluence>
+    <Root>true</Root>
+    <Radius>100</Radius>
+    <Weight>65536</Weight>
+  </TerritoryInfluence>  
+  <Vision>
+    <Range>40</Range>
+  </Vision>  
   <VisualActor>
     <Actor>structures/gauls/house.xml</Actor>
-    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
+    <FoundationActor>structures/fndn_4x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

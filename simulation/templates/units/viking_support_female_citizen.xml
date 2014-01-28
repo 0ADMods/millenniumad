@@ -7,7 +7,8 @@
   </Attack>
   <Builder>
     <Entities datatype="tokens">
-    </Entities>
+    -structures/{civ}_farmstead
+	</Entities>
   </Builder>
   <Health>
     <Max>75</Max>

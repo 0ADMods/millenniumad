@@ -18,12 +18,11 @@
   </Sound>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/gaul_hero_brennus
-      units/gaul_hero_britomartus
-      units/gaul_hero_vercingetorix
-      units/gaul_champion_cavalry
-      units/gaul_champion_infantry
-      units/gaul_mechanical_siege_ram
+      units/viking_hero_brennus
+      units/viking_hero_britomartus
+      units/viking_champion_berserker
+      units/viking_champion_huscarl
+      units/viking_mechanical_siege_ram
     </Entities>
     <Technologies datatype="tokens">
       pair_siege_attack_cost
