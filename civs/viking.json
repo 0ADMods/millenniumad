@@ -88,7 +88,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/viking_house" 
+			"Template": "structures/viking_civil_centre" 
 		},
 		{
 			"Template": "units/viking_support_female_citizen",
@@ -103,7 +103,8 @@
 			"Count": 2 
 		},
 		{
-			"Template": "units/viking_infantry_swordsman_b" 
+			"Template": "units/viking_infantry_swordsman_b" ,
+			"Count": 2
 		}
 	],
 	"Formations":
