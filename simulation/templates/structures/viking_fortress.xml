@@ -18,18 +18,11 @@
   </Sound>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/viking_hero_brennus
-      units/viking_hero_britomartus
-      units/viking_champion_berserker
-      units/viking_champion_huscarl
-      units/viking_mechanical_siege_ram
+
     </Entities>
-    <Technologies datatype="tokens">
-      pair_siege_attack_cost
-      pair_siege_cost_armor
-    </Technologies>
+
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/gauls/fortress_gallic.xml</Actor>
+    <Actor></Actor>
   </VisualActor>
 </Entity>

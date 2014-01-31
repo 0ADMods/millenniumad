@@ -6,6 +6,7 @@
   <Builder>
     <Entities datatype="tokens">
 	-structures/{civ}_farmstead
+	-structures/{civ}_fortress
 	</Entities>
   </Builder>
   <Identity>
