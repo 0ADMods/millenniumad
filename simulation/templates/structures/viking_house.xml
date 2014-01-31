@@ -63,6 +63,7 @@
     </Entities>
 	  <Technologies datatype="tokens">
       -unlock_females_house
+      phase_town_generic 
     </Technologies>
   </ProductionQueue>
     <ResourceDropsite>
