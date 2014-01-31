@@ -65,12 +65,6 @@
     </Classes>
 </Identity>
   
-    <SoundGroups>
-      <select>interface/select/building/sel_fortress.xml</select>
-      <constructed>interface/complete/building/complete_fortress.xml</constructed>
-      <attack>attack/weapon/arrowfly.xml</attack>
-      <death>attack/destruction/building_collapse_large.xml</death>
-    </SoundGroups>
   
   <Health>
     <SpawnEntityOnDeath>rubble/rubble_celt_cc</SpawnEntityOnDeath>
