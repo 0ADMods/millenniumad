@@ -1,0 +1,8 @@
+{
+	"affects":["Unit"],
+	"affectedPlayers":["Player"],
+	"modifications":[{"value":"Looter/Resource/food","multiply":1.25}]
+	"modifications":[{"value":"Looter/Resource/wood","multiply":1.25}]
+	"modifications":[{"value":"Looter/Resource/metal","multiply":1.25}]
+	"modifications":[{"value":"Looter/Resource/stone","multiply":1.25}]
+}
