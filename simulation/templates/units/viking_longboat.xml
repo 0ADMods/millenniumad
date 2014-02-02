@@ -12,7 +12,10 @@
     <History>To be done.</History>
     <Icon>units/viking_longboat.png</Icon>
   </Identity>
-    <ProductionQueue>
+    <ResourceDropsite>
+    <Types>food wood stone metal</Types>
+  </ResourceDropsite>
+      <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/viking_infantry_swordsman_b
