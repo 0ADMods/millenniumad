@@ -10,6 +10,12 @@
       <metal>80</metal>
     </Resources>
   </Cost>
+   <Bonuses>
+    <BonusBuilding>
+      <Classes>Structure</Classes>
+      <Multiplier>2.0</Multiplier>
+    </BonusBuilding>
+    </Bonuses>
   <Identity>
     <Civ>viking</Civ>
     <GenericName>Naked Fanatic</GenericName>

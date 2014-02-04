@@ -10,6 +10,12 @@
 	-structures/{civ}_wonder
 	</Entities>
   </Builder>
+   <Bonuses>
+    <BonusBuilding>
+      <Classes>Structure</Classes>
+      <Multiplier>2.0</Multiplier>
+    </BonusBuilding>
+    </Bonuses>
   <Identity>
     <Civ>viking</Civ>
 	<SelectionGroupName>units/viking_infantry_spearman_b</SelectionGroupName>
@@ -20,10 +26,22 @@
   <Promotion>
     <Entity>units/viking_infantry_spearman_a</Entity>
   </Promotion>
-  <UnitMotion>
-    <WalkSpeed>8.2</WalkSpeed>
+  <ResourceGatherer>
+    <Rates>
+      <food.fruit>0.4</food.fruit>
+      <food.grain>0.20</food.grain>
+      <food.meat>0.8</food.meat>
+    <wood.tree>0.60</wood.tree>
+    <wood.ruins>4</wood.ruins>
+      <stone.rock>0.60</stone.rock>
+    <stone.ruins>1.5</stone.ruins>
+      <metal.ore>0.60</metal.ore>
+    </Rates>
+  </ResourceGatherer>
+   <UnitMotion>
+    <WalkSpeed>10</WalkSpeed>
     <Run>
-      <Speed>24.6</Speed>
+      <Speed>22</Speed>
     </Run>
   </UnitMotion>
   <VisualActor>
