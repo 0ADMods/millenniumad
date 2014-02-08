@@ -4,21 +4,31 @@
     <Hack>1</Hack>
   </Armour>
   <Builder>
-    <Entities datatype="tokens">
-	-structures/{civ}_farmstead
-	-structures/{civ}_fortress
-	-structures/{civ}_wonder
-	</Entities>
+    <Entities datatype="tokens">-structures/{civ}_farmstead
+  -structures/{civ}_fortress
+  -structures/{civ}_wonder</Entities>
   </Builder>
-   <Bonuses>
-    <BonusBuilding>
-      <Classes>Structure</Classes>
-      <Multiplier>2.0</Multiplier>
-    </BonusBuilding>
-    </Bonuses>
+  <Attack>
+    <Melee>
+      <Bonuses>
+        <BonusBuilding>
+          <Classes>Structure</Classes>
+          <Multiplier>2.0</Multiplier>
+        </BonusBuilding>
+      </Bonuses>
+    </Melee>
+    <Charge>
+      <Bonuses>
+        <BonusCharge>
+          <Classes>Cavalry</Classes>
+          <Multiplier>2.0</Multiplier>
+        </BonusCharge>
+      </Bonuses>
+    </Charge>
+  </Attack>
   <Identity>
     <Civ>viking</Civ>
-	<SelectionGroupName>units/viking_infantry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/viking_infantry_spearman_b</SelectionGroupName>
     <SpecificName>Gaeroa</SpecificName>
     <History>The spear was the main weapon of the Celts, arming the bulk of their forces. The average Celt would only have to take up his long spear and body shield to be ready for battle. While armor was rare the rabid fighting spirit of the Celts more than made up for in vigor what was lost in protection.</History>
     <Icon>units/celt_infantry_spearman.png</Icon>
@@ -31,14 +41,14 @@
       <food.fruit>0.4</food.fruit>
       <food.grain>0.20</food.grain>
       <food.meat>0.8</food.meat>
-    <wood.tree>0.60</wood.tree>
-    <wood.ruins>4</wood.ruins>
+      <wood.tree>0.60</wood.tree>
+      <wood.ruins>4</wood.ruins>
       <stone.rock>0.60</stone.rock>
-    <stone.ruins>1.5</stone.ruins>
+      <stone.ruins>1.5</stone.ruins>
       <metal.ore>0.60</metal.ore>
     </Rates>
   </ResourceGatherer>
-   <UnitMotion>
+  <UnitMotion>
     <WalkSpeed>10</WalkSpeed>
     <Run>
       <Speed>22</Speed>
