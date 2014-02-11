@@ -67,6 +67,6 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/romans/infantry_swordsman_b.xml</Actor>
+    <Actor>units/viking/infantry_swordsman_b.xml</Actor>
   </VisualActor>
 </Entity>
