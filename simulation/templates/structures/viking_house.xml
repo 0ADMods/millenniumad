@@ -22,14 +22,14 @@
   </BuildRestrictions>
   <Cost>
     <PopulationBonus>10</PopulationBonus>
-    <BuildTime>45</BuildTime>
+    <BuildTime>150</BuildTime>
     <Resources>
       <wood>200</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
-    <Square width="25" depth="12.5"/>
-    <Height>5.0</Height>
+    <Square width="30" depth="30"/>
+    <Height>10.0</Height>
   </Footprint>
   <GarrisonHolder>
     <Max>10</Max>
@@ -45,11 +45,12 @@
   </Health>
   <Identity>
     <Civ>viking</Civ>
-    <SpecificName>Annedd</SpecificName>
-    <History>Celts generally lived in round stone or wattle and daub walled structures with thatched roof.</History>
+    <SpecificName>Longhouse</SpecificName>
+    <History>Later Celts constructed larger dwellings, called long houses, which could house more than one family.</History>
+
   </Identity>
   <Obstruction>
-    <Static width="24.0" depth="12.0"/>
+    <Static width="30.0" depth="25.0"/>
   </Obstruction>
   <TerritoryInfluence>
     <Radius>16</Radius>
@@ -78,7 +79,7 @@
     <Range>40</Range>
   </Vision>  
   <VisualActor>
-    <Actor>structures/gauls/house.xml</Actor>
+    <Actor>structures/viking/longhouse.xml</Actor>
     <FoundationActor>structures/fndn_4x2.xml</FoundationActor>
   </VisualActor>
 </Entity>
