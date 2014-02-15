@@ -55,7 +55,7 @@ Music.prototype.resetTracks = function()
 		PEACE: [],
 		BATTLE: ["Valor.ogg", "Taiko_2.ogg"],
 		VICTORY : ["On_the_Road_to_Adventures.ogg"],
-		DEFEAT : ["Dried_Tears.ogg"]
+		DEFEAT : ["Ominous_Revelations.ogg"]
 	};
 };
 
