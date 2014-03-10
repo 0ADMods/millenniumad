@@ -12,38 +12,14 @@ Feel free to contact us if you want to contribute or suggest something, etc.
 
 
 ### Credits:
-
- 
-**Creators** <br />
-NoMolester <br />
-Belisarivs <br />
- 
-**Project Leader** <br />
-NoMolester <br />
-  
-**Advisor** <br />
-Lion.Kanzen <br />
-Sanderd17   <br />
- 
-**Researchers** <br />
 NoMolester <br />
 Belisarivs <br />
 Abadu <br />
-niektb <br />
-   
-**Programmers** <br />
-NoMolester <br />
-niektb <br />
- 
-**Designers** <br />
 Arishia <br />
-niektb <br />
-Lion.Kanzen <br />
+And all members from 0 A.D. Council of Modders <br />
 
-**Sound** <br />
-niektb <br />
 Antti Martikainen <br />
-A special thanks goes to Antii for giving permission to use his awesome music. <br />
+A special thanks goes to Antii for giving permission to use his awesome music.<br />
 You can find him here: <br />
 http://anttimartikainen.bandcamp.com/ <br />
 http://www.youtube.com/user/AJMartikainen <br />
