@@ -63,7 +63,7 @@
 	  -units/{civ}_support_female_citizen_house
     </Entities>
 	  <Technologies datatype="tokens">
-      -unlock_females_house
+      -pair_house_02
       phase_town_generic 
     </Technologies>
   </ProductionQueue>
