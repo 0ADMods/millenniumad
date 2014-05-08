@@ -75,10 +75,10 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-	    units/viking_infantry_swordsman_b
+	  units/viking_infantry_swordsman_b
       units/viking_infantry_spearman_b
-	    units/viking_infantry_archer_a
-	    units/viking_hero_brennus
+	  units/viking_infantry_archer_a
+	  units/viking_hero_brennus
       units/viking_hero_britomartus
       units/viking_champion_berserker
       units/viking_champion_huscarl
