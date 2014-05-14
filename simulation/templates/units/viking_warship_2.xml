@@ -8,8 +8,8 @@
   </Auras>
   <Identity>
     <Civ>viking</Civ>
-    <SpecificName>Longboat</SpecificName>
-    <History>To be done.</History>
+    <SpecificName>Snekkja</SpecificName>
+    <History>Medium Warship, bonuses loot in the area</History>
     <Icon>units/viking_longboat.png</Icon>
   </Identity>
     <ResourceDropsite>
@@ -22,6 +22,6 @@
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/viking/longboat.xml</Actor>
+    <Actor>structures/viking/snekkja.xml</Actor>
   </VisualActor>
 </Entity>
