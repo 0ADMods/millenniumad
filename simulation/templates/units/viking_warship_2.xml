@@ -12,15 +12,6 @@
     <History>Medium Warship, bonuses loot in the area</History>
     <Icon>units/viking_longboat.png</Icon>
   </Identity>
-    <ResourceDropsite>
-    <Types>food wood stone metal</Types>
-  </ResourceDropsite>
-      <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
-    <Entities datatype="tokens">
-      units/viking_infantry_swordsman_b
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/viking/snekkja.xml</Actor>
   </VisualActor>
