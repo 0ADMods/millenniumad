@@ -3,15 +3,8 @@
   <castshadow/>
   <float/>
   <group>
-     <variant frequency="1" name="Longboat">
-      <animations>
-        <animation file="mechanical/viking_longboat_move.dae" name="Walk" speed="6"/>
-        <animation file="mechanical/viking_longboat_move.dae" name="Run" speed="8"/>
-      </animations>
-      <mesh>structural/viking_snekkja.dae</mesh>
-      <props>
-        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
-      </props>
+    <variant frequency="100" name="fishing boat">
+      <mesh>structural/viking_fishing_boat.dae</mesh>
       <textures>
         <texture file="structural/viking_longboat.png" name="baseTex"/>
         <texture file="structural/viking_longboat_norm.png" name="normTex"/>
