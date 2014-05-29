@@ -17,6 +17,14 @@
     <DefaultArrowCount>2</DefaultArrowCount>
     <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
   </BuildingAI>
+    <BuildRestrictions>
+    <Territory>own neutral</Territory>
+    <Category>CivilCentre</Category>
+    <Distance>
+      <FromClass>CivilCentre</FromClass>
+      <MinDistance>180</MinDistance>
+    </Distance>
+  </BuildRestrictions>
   <Cost>
     <PopulationBonus>10</PopulationBonus>
     <BuildTime>150</BuildTime>
@@ -43,25 +51,36 @@
   <Identity>
     <Civ>viking</Civ>
     <SpecificName>Longhouse</SpecificName>
+    <GenericName>Civic Center</GenericName>
     <History>Later Celts constructed larger dwellings, called long houses, which could house more than one family.</History>
 
   </Identity>
   <Obstruction>
     <Static width="30.0" depth="25.0"/>
   </Obstruction>
+  <TerritoryInfluence>
+    <Radius>16</Radius>
+    <Weight>65536</Weight>
+  </TerritoryInfluence>
     <ProductionQueue>
     <Entities datatype="tokens">
 	  units/viking_infantry_swordsman_b
 	  units/{civ}_support_female_citizen
 	  -units/{civ}_support_female_citizen_house
     </Entities>
-	<Technologies datatype="tokens">
+	  <Technologies datatype="tokens">
       -pair_house_02
+      phase_town_generic 
     </Technologies>
   </ProductionQueue>
     <ResourceDropsite>
     <Types>food wood</Types>
   </ResourceDropsite>
+  <TerritoryInfluence>
+    <Root>true</Root>
+    <Radius>100</Radius>
+    <Weight>65536</Weight>
+  </TerritoryInfluence>  
   <Vision>
     <Range>40</Range>
   </Vision>  
