@@ -23,7 +23,7 @@
   </Attack>
   
     <BuildRestrictions>
-    <Territory>own</Territory>
+    <Territory>own neutral</Territory>
     <Category>CivilCentre</Category>
     <Distance>
       <FromClass>CivilCentre</FromClass>
