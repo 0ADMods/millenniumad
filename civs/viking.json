@@ -121,22 +121,22 @@
 	],
 	"AINames":
 	[
-		"Britomartos",
-		"Brennos",
-		"Uerkingetorix",
-		"Divico",
-		"Ambiorix",
-		"Ariovistus",
-		"Cassivellaunus",
-		"Liscus",
-		"Valetiacos"
+		"Leif Ericson",
+		"King Gutfred",
+		"Erik the Red",
+		"Cnut the Great",
+		"Harald Hardrada",
+		"Harald Bluetooth",
+		"Rollo of Normandy",
+		"Ragnar Lodbrok",
+		"Bagsegc"
 	],
 		"SkirmishReplacements":
 	{
 		"skirmish/units/default_cavalry": "units/viking_infantry_swordsman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/viking_infantry_archer_b",
 		"skirmish/structures/default_house_10": "structures/{civ}_house",
-		"skirmish/structures/default_civil_center": "structures/viking_house_centre"
+		"skirmish/structures/default_civil_centre": "structures/viking_house_centre"
 	},
 	"SelectableInGameSetup": true
 }
