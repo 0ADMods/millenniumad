@@ -17,7 +17,7 @@
     <DefaultArrowCount>2</DefaultArrowCount>
     <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
   </BuildingAI>
-    <BuildRestrictions>
+  <BuildRestrictions>
     <Territory>own neutral</Territory>
     <Category>CivilCentre</Category>
     <Distance>
@@ -53,7 +53,10 @@
     <SpecificName>Longhouse</SpecificName>
     <GenericName>Civic Center</GenericName>
     <History>Later Celts constructed larger dwellings, called long houses, which could house more than one family.</History>
-
+    <Classes datatype="tokens">
+      Defensive
+      CivCentre
+    </Classes>
   </Identity>
   <Obstruction>
     <Static width="30.0" depth="25.0"/>
