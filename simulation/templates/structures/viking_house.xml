@@ -18,10 +18,10 @@
     <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
   </BuildingAI>
   <Cost>
-    <PopulationBonus>10</PopulationBonus>
+    <PopulationBonus>20</PopulationBonus>
     <BuildTime>150</BuildTime>
     <Resources>
-      <wood>200</wood>
+      <wood>500</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -29,7 +29,7 @@
     <Height>10.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>10</Max>
+    <Max>15</Max>
     <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <List datatype="tokens">Support Infantry Cavalry</List>

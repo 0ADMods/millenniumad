@@ -26,10 +26,10 @@
     </Distance>
   </BuildRestrictions>
   <Cost>
-    <PopulationBonus>10</PopulationBonus>
+    <PopulationBonus>20</PopulationBonus>
     <BuildTime>150</BuildTime>
     <Resources>
-      <wood>200</wood>
+      <wood>500</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -37,7 +37,7 @@
     <Height>10.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>10</Max>
+    <Max>15</Max>
     <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <List datatype="tokens">Support Infantry Cavalry</List>
@@ -45,7 +45,7 @@
     <LoadingRange>1</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>1200</Max>
+    <Max>2000</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_4x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -68,6 +68,7 @@
     <ProductionQueue>
     <Entities datatype="tokens">
 	  units/viking_infantry_swordsman_b
+	  units/viking_infantry_spearman_b
 	  units/{civ}_support_female_citizen
 	  -units/{civ}_support_female_citizen_house
     </Entities>
