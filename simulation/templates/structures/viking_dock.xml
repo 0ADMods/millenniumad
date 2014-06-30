@@ -21,6 +21,7 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/viking_warship_2
+      units/viking_warship_3
     </Entities>
   </ProductionQueue>
   <VisualActor>
