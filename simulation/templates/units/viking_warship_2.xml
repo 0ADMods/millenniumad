@@ -1,32 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship_bireme">
-
-  <Cost>
-    <BuildTime>40</BuildTime>
-  </Cost>
-  <Footprint>
-    <Square width="12.0" depth="36.0"/>
-    <Height>8.0</Height>
-  </Footprint>
-  <GarrisonHolder>
-    <Max>40</Max>
-  </GarrisonHolder>
-  <Health>
-    <Max>1600</Max>
-  </Health>
+  <Auras>
+    <unit_loot_25>
+      <Type>range</Type>
+      <Radius>80</Radius>
+    </unit_loot_25>
+  </Auras>
   <Identity>
     <Civ>viking</Civ>
-    <SpecificName>Venetic Ponti</SpecificName>
-    <Tooltip>Classes: Medium Warship Ranged
-Transport many soldiers across the sea.</Tooltip>
-        <Icon>units/celt_ship_trireme.png</Icon>
+    <SpecificName>Snekkja</SpecificName>
+    <History>Medium Warship, bonuses loot in the area</History>
+    <Icon>units/viking_longboat.png</Icon>
   </Identity>
-  <Obstruction>
-    <Unit radius="6.0"/>
-  </Obstruction>
-  <UnitMotion>
-    <WalkSpeed>12.5</WalkSpeed>
-  </UnitMotion>
   <VisualActor>
     <Actor>structures/viking/snekkja.xml</Actor>
   </VisualActor>
