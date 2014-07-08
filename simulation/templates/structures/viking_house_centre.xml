@@ -69,8 +69,8 @@
     <Entities datatype="tokens">
 	  units/viking_infantry_swordsman_b
 	  units/viking_infantry_spearman_b
-	  units/{civ}_support_female_citizen
-	  -units/{civ}_support_female_citizen_house
+	  units/viking_support_female_citizen
+	  units/viking_support_female_citizen
     </Entities>
 	  <Technologies datatype="tokens">
       -pair_house_02

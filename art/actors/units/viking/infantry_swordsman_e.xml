@@ -51,7 +51,15 @@
         <prop actor="props/units/shields/celt_round_e.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/viking_sword.xml" attachpoint="r_hand"/>
       </props>
-      <textures><texture file="skeletal/viking_basic.png" name="baseTex"/></textures>
+
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="chainmail-01">
+      <textures><texture file="skeletal/celt_isw_e_01.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="chainmail-02">
+      <textures><texture file="skeletal/celt_isw_e_02.dds" name="baseTex"/></textures>
     </variant>
   </group>
   <group>
