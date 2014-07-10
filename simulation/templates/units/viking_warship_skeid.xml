@@ -30,16 +30,12 @@
   </Health>
   <Identity>
     <Civ>viking</Civ>
-<<<<<<< HEAD:simulation/templates/units/viking_warship_skeid.xml
     <SpecificName>Skeid</SpecificName>
-    <Tooltip>Classes: Medium Warship Ranged
-Transport many soldiers across the sea.</Tooltip>
+    <Tooltip>Classes: Medium Warship Ranged Transport many soldiers across the sea.</Tooltip>
         <Icon>units/celt_ship_trireme.png</Icon>
-=======
     <SpecificName>Drekár</SpecificName>
     <Tooltip>Classes: Medium Warship Ranged Transport many soldiers across the sea.</Tooltip>
     <Icon>units/celt_ship_trireme.png</Icon>
->>>>>>> origin/master:simulation/templates/units/viking_warship_3.xml
   </Identity>
   <Obstruction>
     <Unit radius="6.0"/>
