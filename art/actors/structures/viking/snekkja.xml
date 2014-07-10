@@ -5,17 +5,17 @@
   <group>
      <variant frequency="1" name="Longboat">
       <animations>
-        <animation file="mechanical/viking_longboat_move.dae" name="Walk" speed="6"/>
-        <animation file="mechanical/viking_longboat_move.dae" name="Run" speed="8"/>
+        <animation file="mechanical/viking_snekkja_move.dae" name="Walk" speed="6"/>
+        <animation file="mechanical/viking_snekkja_move.dae" name="Run" speed="8"/>
       </animations>
       <mesh>structural/viking_snekkja.dae</mesh>
       <props>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
       <textures>
-        <texture file="structural/viking_longboat.png" name="baseTex"/>
-        <texture file="structural/viking_longboat_norm.png" name="normTex"/>
-        <texture file="structural/viking_longboat_spec.png" name="specTex"/>
+        <texture file="structural/viking_snekkja.png" name="baseTex"/>
+        <texture file="structural/viking_snekkja_norm.png" name="normTex"/>
+        <texture file="structural/viking_snekkja_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
