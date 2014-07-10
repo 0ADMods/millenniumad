@@ -9,7 +9,7 @@
   <Identity>
     <Civ>viking</Civ>
     <SpecificName>Snekkja</SpecificName>
-    <History>Medium Warship, bonuses loot in the area</History>
+    <History>Light Warship, bonuses loot in the area</History>
     <Icon>units/viking_longboat.png</Icon>
   </Identity>
   <VisualActor>
