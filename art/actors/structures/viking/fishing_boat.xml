@@ -6,9 +6,9 @@
     <variant frequency="100" name="fishing boat">
       <mesh>structural/viking_fishing_boat.dae</mesh>
       <textures>
-        <texture file="structural/viking_longboat.png" name="baseTex"/>
-        <texture file="structural/viking_longboat_norm.png" name="normTex"/>
-        <texture file="structural/viking_longboat_spec.png" name="specTex"/>
+        <texture file="structural/viking_snekkja.png" name="baseTex"/>
+        <texture file="structural/viking_snekkja_norm.png" name="normTex"/>
+        <texture file="structural/viking_snekkja_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
