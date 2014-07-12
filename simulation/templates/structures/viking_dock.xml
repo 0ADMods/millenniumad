@@ -20,9 +20,8 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-	  units/viking_warship_hybrid_karvi
+      units/viking_hybrid_karvi
       units/viking_warship_snekkja
-      units/viking_warship_skeid
       units/viking_warship_drekar
     </Entities>
   </ProductionQueue>

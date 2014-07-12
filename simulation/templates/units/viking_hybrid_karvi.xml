@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_bireme">
+	<Identity>
+    	<Civ>viking</Civ>
+    	<SpecificName>Karvi</SpecificName>
+    	<History>A Hybrid Trader/Warship</History>
+    	<Icon>units/viking_longboat.png</Icon>
+  	</Identity>
+  	<ResourceGatherer>
+    	<MaxDistance>12.0</MaxDistance>
+    	<Capacities>
+      		<food>75</food>
+      		<wood>75</wood>
+      		<stone>50</stone>
+      		<metal>50</metal>
+    	</Capacities>
+  	</ResourceGatherer>
+  	<Trader>
+    	<GainMultiplier>1.0</GainMultiplier>
+  	</Trader>
+  	<VisualActor>
+    	<Actor>structures/viking/longboat.xml</Actor>
+  	</VisualActor>
+</Entity>

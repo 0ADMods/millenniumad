@@ -42,14 +42,16 @@
   </UnitMotion>
   <ResourceDropsite>
     <Types>food wood stone metal</Types>
-  </ResourceDropsite><ProductionQueue>
+  </ResourceDropsite>
+  <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/viking_champion_berserker
-      units/viking_champion_huscarl
-      units/viking_mechanical_siege_ram
+      units/viking_infantry_swordsman_b
+      units/viking_infantry_spearman_b
+      units/viking_infantry_archer_b
     </Entities>
-  </ProductionQueue><VisualActor>
+  </ProductionQueue>
+  <VisualActor>
     <Actor>structures/romans/quinquereme.xml</Actor>
   </VisualActor>
 </Entity>

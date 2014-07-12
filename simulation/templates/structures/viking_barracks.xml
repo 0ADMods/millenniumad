@@ -13,23 +13,29 @@
   <Identity>
     <Civ>viking</Civ>
     <SpecificName>Gwersyllty</SpecificName>
-	<History>All able-bodied male Celts were expected to heed their liege lord's call to battle when need arose.</History>
+    <GenericName>Barracks</GenericName>
+    <History>?</History>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Classes datatype="tokens">
+      Town
+    </Classes>
   </Identity>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-	  units/viking_infantry_swordsman_b
+      units/viking_infantry_swordsman_b
       units/viking_infantry_spearman_b
-	  units/viking_infantry_archer_a
+      units/viking_infantry_archer_b
+      units/viking_champion_berserker
     </Entities>
     <Technologies datatype="tokens">
-	  upgrade_rank_advanced_infantry
+      upgrade_rank_advanced_infantry
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/celts/barracks.xml</Actor>
-    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+    <Actor>structures/celts/tavern.xml</Actor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>
