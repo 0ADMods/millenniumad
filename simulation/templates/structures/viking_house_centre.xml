@@ -61,16 +61,12 @@
   <Obstruction>
     <Static width="30.0" depth="25.0"/>
   </Obstruction>
-  <TerritoryInfluence>
-    <Radius>16</Radius>
-    <Weight>65536</Weight>
-  </TerritoryInfluence>
-    <ProductionQueue>
+  <ProductionQueue>
     <Entities datatype="tokens">
-	  units/viking_infantry_swordsman_b
-	  units/viking_infantry_spearman_b
-	  units/{civ}_support_female_citizen
-	  -units/{civ}_support_female_citizen_house
+      units/viking_infantry_swordsman_b
+      units/viking_infantry_spearman_b
+      units/{civ}_support_female_citizen
+      -units/{civ}_support_female_citizen_house
     </Entities>
 	  <Technologies datatype="tokens">
       -pair_house_02
