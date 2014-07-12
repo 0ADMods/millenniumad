@@ -49,8 +49,8 @@
       units/viking_champion_berserker
       units/biking_champion_huscarl
     </Entities>
-  </VisualActor>
-  </ProductionQueue><VisualActor>
+  </ProductionQueue>
+  <VisualActor>
     <Actor>structures/celts/warship.xml</Actor>
   </VisualActor>
 </Entity>
