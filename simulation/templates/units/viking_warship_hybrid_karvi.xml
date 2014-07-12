@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship_bireme">
-  <Auras>
-    <Aura1>
-      <Type>range</Type>
-      <Radius>80</Radius>
-      <Affects>Unit</Affects>
-      <Modifications>
-        <Looter.Resource.food> <Multiply>1.25</Multiply> </Looter.Resource.food>
-        <Looter.Resource.metal> <Multiply>1.25</Multiply> </Looter.Resource.metal>
-        <Looter.Resource.wood> <Multiply>1.25</Multiply> </Looter.Resource.wood>
-        <Looter.Resource.stone> <Multiply>1.25</Multiply> </Looter.Resource.stone>
-      </Modifications>
-      <AuraName>Unit Loot</AuraName>
-      <AuraDescription>Looters receive +25% more loot in the area.</AuraDescription>
-    </Aura1>
-  </Auras>
-  <Identity>
+    <Identity>
     <Civ>viking</Civ>
     <SpecificName>Karvi</SpecificName>
     <History>A Hybrid Trader/Warship</History>
