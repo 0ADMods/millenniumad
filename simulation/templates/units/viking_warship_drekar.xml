@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_ship_trireme">
+<Entity parent="template_unit_mechanical_ship_quinquereme">
   <Cost>
-    <BuildTime>40</BuildTime>
+    <BuildTime>80</BuildTime>
   </Cost>
   <Footprint>
     <Square width="12.0" depth="36.0"/>
@@ -23,16 +23,16 @@
     </Aura1>
   </Auras>
   <GarrisonHolder>
-    <Max>40</Max>
+    <Max>100</Max>
   </GarrisonHolder>
   <Health>
-    <Max>1600</Max>
+    <Max>4000</Max>
   </Health>
   <Identity>
     <Civ>viking</Civ>
-    <SpecificName>Skeid</SpecificName>
-    <Tooltip>Classes: Medium Warship Ranged Transport many soldiers across the sea.</Tooltip>
-        <Icon>units/celt_ship_trireme.png</Icon>
+    <SpecificName>Drekár</SpecificName>
+    <Tooltip>Classes: Heavy Warship Ranged Transport many soldiers across the sea.</Tooltip>
+    <Icon>units/rome_ship_quinquereme.png</Icon>
   </Identity>
   <Obstruction>
     <Unit radius="6.0"/>
@@ -42,15 +42,14 @@
   </UnitMotion>
   <ResourceDropsite>
     <Types>food wood stone metal</Types>
-  </ResourceDropsite>
-  <ProductionQueue>
+  </ResourceDropsite><ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/viking_champion_berserker
-      units/biking_champion_huscarl
+      units/viking_champion_huscarl
+      units/viking_mechanical_siege_ram
     </Entities>
-  </VisualActor>
   </ProductionQueue><VisualActor>
-    <Actor>structures/celts/warship.xml</Actor>
+    <Actor>structures/romans/quinquereme.xml</Actor>
   </VisualActor>
 </Entity>
