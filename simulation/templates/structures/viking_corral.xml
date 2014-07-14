@@ -13,6 +13,6 @@
     <Static width="10.0" depth="20.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/celts/plot_corral.xml</Actor>
+    <Actor>structures/viking/corral.xml</Actor>
   </VisualActor>
 </Entity>
