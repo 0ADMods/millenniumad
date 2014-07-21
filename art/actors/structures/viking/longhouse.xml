@@ -6,7 +6,7 @@
 			<mesh>structural/viking_longhouse.dae</mesh>
 			<props>
 				<prop actor="props/special/eyecandy/campfire.xml" attachpoint="main"/>
-				<prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+				<prop actor="props/structures/decals/dirt_6x4.xml" attachpoint="root"/>
 				<prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
 			</props>
 			<textures>
