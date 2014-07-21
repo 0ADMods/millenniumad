@@ -36,6 +36,10 @@
         <animation event="0.43" file="infantry/general/mine.psa" name="gather_ore" speed="250"/>
         <animation event="0.43" file="infantry/general/mine.psa" name="gather_ruins" speed="250"/>
         <animation event="0.6" file="infantry/general/dude/dudebuild.psa" name="Build" speed="300"/>
+        <animation file="biped/inf_idle_testudo_front.dae" name="idle_testudo_front" speed="40"/>
+        <animation file="biped/inf_idle_testudo_top.dae" name="idle_testudo_top" speed="40"/>
+        <animation file="biped/inf_walk_testudo_front.dae" name="walk_testudo_front" speed="40"/>
+        <animation file="biped/inf_walk_testudo_top.dae" name="walk_testudo_top" speed="40"/>
         <animation file="infantry/general/death/inf_01.psa" name="Death" speed="400"/>
         <animation file="infantry/general/death/inf_02.psa" name="Death" speed="700"/>
         <animation file="infantry/general/death/inf_03.psa" name="Death" speed="500"/>

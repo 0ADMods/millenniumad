@@ -58,10 +58,7 @@
       <Speed>22</Speed>
     </Run>
   </UnitMotion>
-  <Formations datatype="tokens">
-    formations/shieldwall
-  </Formations>
   <VisualActor>
-    <Actor>units/celts/infantry_spearman_b.xml</Actor>
+    <Actor>units/viking/infantry_spearman_b.xml</Actor>
   </VisualActor>
 </Entity>

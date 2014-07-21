@@ -38,9 +38,6 @@
       <Speed>21.0</Speed>
     </Run>
   </UnitMotion>
-  <Formations datatype="tokens">
-    formations/shieldwall
-  </Formations>
   <VisualActor>
     <Actor>units/viking/champion_huscarl.xml</Actor>
   </VisualActor>

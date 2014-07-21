@@ -63,9 +63,6 @@
       <Speed>22</Speed>
     </Run>
   </UnitMotion>
-  <Formations datatype="tokens">
-    formations/shieldwall
-  </Formations>
   <VisualActor>
     <Actor>units/viking/infantry_swordsman_b.xml</Actor>
   </VisualActor>

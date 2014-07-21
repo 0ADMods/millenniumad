@@ -29,6 +29,10 @@
         <animation event="0.5" file="infantry/sword/attack/isw_s_def_06.psa" name="attack_melee" speed="100"/>
         <animation event="0.5" file="infantry/sword/attack/isw_s_off_05.psa" name="attack_slaughter" speed="100"/>
         <animation event="0.23" file="infantry/general/chop.psa" name="gather_tree" speed="250"/>
+        <animation file="biped/inf_idle_testudo_front.dae" name="idle_testudo_front" speed="40"/>
+        <animation file="biped/inf_idle_testudo_top.dae" name="idle_testudo_top" speed="40"/>
+        <animation file="biped/inf_walk_testudo_front.dae" name="walk_testudo_front" speed="40"/>
+        <animation file="biped/inf_walk_testudo_top.dae" name="walk_testudo_top" speed="40"/>
         <animation file="biped/hoe.psa" name="gather_grain" speed="300"/>
         <animation file="infantry/general/forage.psa" name="gather_fruit" speed="125"/>
         <animation file="infantry/general/forage.psa" name="gather_meat" speed="125"/>
