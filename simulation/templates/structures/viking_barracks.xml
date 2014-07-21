@@ -13,7 +13,7 @@
   <Identity>
     <Civ>viking</Civ>
     <SpecificName>Gwersyllty</SpecificName>
-    <GenericName>Barracks</GenericName>
+    <GenericName>Tavern</GenericName>
     <History>?</History>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Classes datatype="tokens">
