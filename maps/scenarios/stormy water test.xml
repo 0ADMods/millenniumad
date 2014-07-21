@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="5">
+	<Environment>
+		<SkySet>stormy</SkySet>
+		<SunColour r="0.501961" g="0.501961" b="0.501961"/>
+		<SunElevation angle="0.785398"/>
+		<SunRotation angle="-0.785396"/>
+		<TerrainAmbientColour r="0" g="0.247059" b="0"/>
+		<UnitsAmbientColour r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0.00320312</FogFactor>
+			<FogThickness>0.34375</FogThickness>
+			<FogColour r="0.301961" g="0.337255" b="0.384314"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Colour r="0.192157" g="0.392157" b="0.286275"/>
+				<Tint r="0.247059" g="0.501961" b="0.501961"/>
+				<Height>35.6721</Height>
+				<Waviness>10</Waviness>
+				<Murkiness>0.75</Murkiness>
+				<WindAngle>1.61988</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>-0.015625</Brightness>
+			<Contrast>1.5</Contrast>
+			<Saturation>0.453125</Saturation>
+			<Bloom>0.071875</Bloom>
+			<PostEffect>hdr</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="637.138" y="302.395" z="59.7185"/>
+		<Rotation angle="0.0801602"/>
+		<Declination angle="0.610865"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "Name": "Unnamed map",
+  "Description": "Give an interesting description of your map.",
+  "PlayerData": [
+    {
+      "Civ": "athen"
+    },
+    {
+      "Civ": "cart"
+    },
+    {
+      "Civ": "celt"
+    },
+    {
+      "Civ": "iber"
+    },
+    {
+      "Civ": "mace"
+    },
+    {
+      "Civ": "pers"
+    },
+    {
+      "Civ": "rome"
+    },
+    {
+      "Civ": "spart"
+    }
+  ],
+  "CircularMap": true
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="13">
+			<Template>units/viking_ship_fishing</Template>
+			<Player>2</Player>
+			<Position x="672.71387" z="440.09333"/>
+			<Orientation y="-2.05576"/>
+			<Actor seed="82"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>
