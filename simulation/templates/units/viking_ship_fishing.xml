@@ -4,7 +4,7 @@
     <Civ>viking</Civ>
     <SpecificName>?</SpecificName>
     <History>?</History>
-    <Icon>units/celt_ship_fishing.png</Icon>
+    <Icon>units/viking_fishing_ship.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/viking/fishing_boat.xml</Actor>
