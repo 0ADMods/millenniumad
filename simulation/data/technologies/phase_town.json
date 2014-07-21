@@ -1,0 +1,8 @@
+{
+	"genericName": "Town Phase",
+	"requirements": { "any": [{"tech":"phase_town_generic"}, {"tech":"phase_town_athen"}, {"tech":"phase_town_viking"}]},
+	"autoResearch": true,
+	"modifications": [{"value": "TerritoryInfluence/Radius", "multiply": 1.30}],
+	"affects": ["CivCentre"],
+	"soundComplete": "interface/alarm/alarm_phase.xml"
+}

@@ -1,0 +1,11 @@
+{
+	"genericName": "Advanced Plundering",
+	"autoResearch": false, //should be true when the tech is implemented
+	"description": "Vikings were masters in plundering. Therefore all Melee units deal additional damage vs. buildings.",
+	"requirements": {"civ" : "viking"},
+	"modifications": [
+		{"" : ""} 	//attack vs. buildings x1.5
+					//also need to create technologies for decreased gathering (for citizen soldiers) and increased walking speed (for all soldiers). This makes maintaining easier (as templates change due balancing) and removes a lot of duplicate code from the template files.
+	],
+	"affects": ["Unit Melee"]
+}
