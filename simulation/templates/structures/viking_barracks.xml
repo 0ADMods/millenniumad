@@ -32,6 +32,7 @@
     </Entities>
     <Technologies datatype="tokens">
       upgrade_rank_advanced_infantry
+      upgrade_rank_elite_infantry
     </Technologies>
   </ProductionQueue>
   <VisualActor>
