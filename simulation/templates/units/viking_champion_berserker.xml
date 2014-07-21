@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_infantry_spearman">
+<Entity parent="template_unit_champion_infantry_swordsman">
   <Armour>
     <Hack>1</Hack>
     <Pierce>2</Pierce>
@@ -30,9 +30,9 @@
   </Attack>
   <Identity>
     <Civ>viking</Civ>
-    <GenericName>Naked Fanatic</GenericName>
-    <SpecificName>Gaesata</SpecificName>
-    <History>A fanatic Celtic warrior, devoted to war and his Celtic liege lord. These bloodthirsty young men roamed Gaul in search of battle.</History>
+    <GenericName>Berserker</GenericName>
+    <SpecificName>Berserker</SpecificName>
+    <History>?</History>
     <Icon>units/celt_fanatic.png</Icon>
     <RequiredTechnology>unlock_champion_units</RequiredTechnology>
     <SelectionGroupName>units/viking_champion_berserker</SelectionGroupName>

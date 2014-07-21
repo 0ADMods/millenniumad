@@ -117,7 +117,8 @@
 		"formations/flank",
 		"formations/skirmish",
 		"formations/wedge",
-		"formations/battle_line"
+		"formations/battle_line",
+		"formations/shieldwall"
 	],
 	"AINames":
 	[

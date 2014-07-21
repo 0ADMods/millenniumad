@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_formation">
+  <Formation>
+    <Icon>formations/testudo.png</Icon>
+    <RequiredMemberCount>10</RequiredMemberCount>
+    <DisabledTooltip>10 melee infantry units required</DisabledTooltip>
+    <SpeedMultiplier>0.5</SpeedMultiplier>
+    <FormationName>Shieldwall</FormationName>
+    <UnitSeparationWidthMultiplier>0.5</UnitSeparationWidthMultiplier>
+    <UnitSeparationDepthMultiplier>0.7</UnitSeparationDepthMultiplier>
+    <WidthDepthRatio>5</WidthDepthRatio>
+    <Animations>
+      <idle>
+        1..-1,1..-1: idle_testudo_front
+      </idle>
+      <walk>
+        1..-1,1..-1: walk_testudo_front
+      </walk>
+    </Animations>
+  </Formation>
+  <FormationAttack>
+    <CanAttackAsFormation>true</CanAttackAsFormation>
+  </FormationAttack>
+</Entity>

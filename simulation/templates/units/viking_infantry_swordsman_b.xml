@@ -9,27 +9,24 @@
         <Multiplier>2.0</Multiplier>
       </BonusBuilding>
     </Bonuses>
-
-
-
-
     </Melee>
     <Charge>
       <Hack>24.0</Hack>
-          <Bonuses>
+        <Bonuses>
         <BonusCharge>
-          <Classes>Cavalry</Classes>
+          <Classes>Structure</Classes>
           <Multiplier>2.0</Multiplier>
         </BonusCharge>
       </Bonuses>
     </Charge>
-
   </Attack>
   <Builder>
     <Entities datatype="tokens">
-      -structures/{civ}_farmstead
+      -structures/{civ}_corral
       -structures/{civ}_fortress
       -structures/{civ}_wonder
+      -structures/{civ}_defense_tower
+      -structures/{civ}_wallset_stone
     </Entities>
   </Builder>
   <Cost>
@@ -40,10 +37,10 @@
   <Identity>
     <Civ>viking</Civ>
     <SelectionGroupName>units/viking_infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Roman Swordsman</GenericName>
-    <SpecificName>Hastatus</SpecificName>
+    <GenericName>Viking Axeman</GenericName>
+    <SpecificName>?</SpecificName>
     <Icon>units/rome_infantry_swordsman.png</Icon>
-    <History>The hastati were the first line of heavy infantry in the early Republican Roman army. They used pila and gladii as their main weapons, throwing the former into the enemy formation and then closing with the sword. For defense they used a large shield called a scutum and wore the best armor they could afford. Hastati were recruited from the young men of Rome, a small part of the 700,000 troops Rome could bring to bear against its opponents.</History>
+    <History>?</History>
   </Identity>
   <Promotion>
     <Entity>units/viking_infantry_swordsman_a</Entity>
@@ -66,6 +63,9 @@
       <Speed>22</Speed>
     </Run>
   </UnitMotion>
+  <Formations datatype="tokens">
+    formations/shieldwall
+  </Formations>
   <VisualActor>
     <Actor>units/viking/infantry_swordsman_b.xml</Actor>
   </VisualActor>

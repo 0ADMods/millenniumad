@@ -2,24 +2,25 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Builder>
     <Entities datatype="tokens">
-    -structures/{civ}_farmstead
-	-structures/{civ}_fortress
-	-structures/{civ}_wonder
-	</Entities>
+      -structures/{civ}_corral
+      -structures/{civ}_fortress
+      -structures/{civ}_wonder
+      -structures/{civ}_defense_tower
+      -structures/{civ}_wallset_stone
+    </Entities>
   </Builder>
   <Cost>
     <Resources>
-      <food>50</food>
-      <metal>50</metal>
+      <food>60</food>
     </Resources>
   </Cost>
   <Identity>
     <Civ>viking</Civ>
 	<SelectionGroupName>units/viking_infantry_archer_b</SelectionGroupName>
     <Classes datatype="tokens">Mercenary</Classes>
-    <GenericName>Cretan Mercenary Archer</GenericName>
-    <SpecificName>Toxótēs Krētikós</SpecificName>
-    <History>Mercenary archers from the big island of Crete. They were widely regarded as the best archers in all of Hellas and had a long tradition of hiring themselves out to Hellenic states such as Athens for use aboard Triremes naval vessels. Alexander hired them to accompany him on his world conquest march and while in his service they dueled admirably with the greatly feared eastern archers.</History>
+    <GenericName>Viking Archer</GenericName>
+    <SpecificName>?</SpecificName>
+    <History>?</History>
     <Icon>units/hele_infantry_archer.png</Icon>
   </Identity>
   <Promotion>
@@ -30,10 +31,10 @@
       <food.fruit>0.4</food.fruit>
       <food.grain>0.20</food.grain>
       <food.meat>0.8</food.meat>
-    <wood.tree>0.60</wood.tree>
-    <wood.ruins>4</wood.ruins>
+      <wood.tree>0.60</wood.tree>
+      <wood.ruins>4</wood.ruins>
       <stone.rock>0.60</stone.rock>
-    <stone.ruins>1.5</stone.ruins>
+      <stone.ruins>1.5</stone.ruins>
       <metal.ore>0.60</metal.ore>
     </Rates>
   </ResourceGatherer>

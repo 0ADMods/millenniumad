@@ -4,9 +4,13 @@
     <Hack>1</Hack>
   </Armour>
   <Builder>
-    <Entities datatype="tokens">-structures/{civ}_farmstead
-  -structures/{civ}_fortress
-  -structures/{civ}_wonder</Entities>
+    <Entities datatype="tokens">
+      -structures/{civ}_corral
+      -structures/{civ}_fortress
+      -structures/{civ}_wonder
+      -structures/{civ}_defense_tower
+      -structures/{civ}_wallset_stone
+    </Entities>
   </Builder>
   <Attack>
     <Melee>
@@ -29,8 +33,8 @@
   <Identity>
     <Civ>viking</Civ>
     <SelectionGroupName>units/viking_infantry_spearman_b</SelectionGroupName>
-    <SpecificName>Gaeroa</SpecificName>
-    <History>The spear was the main weapon of the Celts, arming the bulk of their forces. The average Celt would only have to take up his long spear and body shield to be ready for battle. While armor was rare the rabid fighting spirit of the Celts more than made up for in vigor what was lost in protection.</History>
+    <SpecificName>Viking Spearman</SpecificName>
+    <History>?</History>
     <Icon>units/celt_infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
@@ -54,6 +58,9 @@
       <Speed>22</Speed>
     </Run>
   </UnitMotion>
+  <Formations datatype="tokens">
+    formations/shieldwall
+  </Formations>
   <VisualActor>
     <Actor>units/celts/infantry_spearman_b.xml</Actor>
   </VisualActor>
