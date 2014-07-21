@@ -3,22 +3,15 @@
 	<Identity>
     	<Civ>viking</Civ>
     	<SpecificName>Karvi</SpecificName>
-    	<History>A Hybrid Trader/Warship</History>
+    	<History>?</History>
     	<Icon>units/viking_longboat.png</Icon>
+      <Classes datatype="tokens">Trader</Classes>
+      <Tooltip>A Hybrid Trader/Warship</Tooltip>
   	</Identity>
-  	<ResourceGatherer>
-    	<MaxDistance>12.0</MaxDistance>
-    	<Capacities>
-      		<food>75</food>
-      		<wood>75</wood>
-      		<stone>50</stone>
-      		<metal>50</metal>
-    	</Capacities>
-  	</ResourceGatherer>
   	<Trader>
     	<GainMultiplier>1.0</GainMultiplier>
   	</Trader>
   	<VisualActor>
-    	<Actor>structures/viking/longboat.xml</Actor>
+    	<Actor>structures/celts/warship.xml</Actor>
   	</VisualActor>
 </Entity>

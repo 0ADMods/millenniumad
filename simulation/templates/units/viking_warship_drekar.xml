@@ -31,7 +31,7 @@
   <Identity>
     <Civ>viking</Civ>
     <SpecificName>Drekár</SpecificName>
-    <Tooltip>Classes: Heavy Warship Ranged Transport many soldiers across the sea.</Tooltip>
+    <Tooltip>Elite Warship. Trains units and is a resource dropsite.</Tooltip>
     <Icon>units/rome_ship_quinquereme.png</Icon>
   </Identity>
   <Obstruction>
@@ -52,6 +52,6 @@
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/romans/quinquereme.xml</Actor>
+    <Actor>structures/celts/warship.xml</Actor>
   </VisualActor>
 </Entity>
