@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_farmstead">
+  <Footprint>
+    <Square width="14.0" depth="24.0"/>
+    <Height>5.0</Height>
+  </Footprint>
   <Cost>
     <PopulationBonus>2</PopulationBonus>
   </Cost>
@@ -13,8 +17,8 @@
   </GarrisonHolder>
   <Identity>
     <Civ>viking</Civ>
-    <SpecificName>Ffermdy</SpecificName>
-    <History>Farming typically revolved around small hamlets and farmsteads with enclosed rectilinear fields - each having areas of pasture, farmland and wood. Ploughing became more efficient with the arrival of the iron share (plough point ? courtesy of our Celts) and a two field rotation was introduced; crops one year followed by a fallow that was grazed by livestock. This lead to surprisingly high yields and fuelled population growth. The image of a farmstead would most likely be a house with some out-buildings. Storage of crops was either in pits or in raised stores and harvest was over several months - weeds, grain and then straw.</History>
+    <SpecificName>Cavalidos</SpecificName>
+    <History>A place for a farmer to pen his animals. Garrison a sheep, goat, or cow here to gain a trickle of the food resource. Garrisoning an animal here also "fattens" them so that they may be slaughtered and gathered for a quick burst of food.</History>
     <Tooltip>Dropsite for the food resource. Research food gathering improvements. Raise herd animals for food.</Tooltip>
     <VisibleClasses datatype="tokens">Resource</VisibleClasses>
   </Identity>
@@ -28,6 +32,6 @@
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/celts/farmstead.xml</Actor>
+    <Actor>structures/viking/corral.xml</Actor>
   </VisualActor>
 </Entity>
