@@ -33,7 +33,7 @@
     </Resources>
   </Cost>
   <Footprint replace="">
-    <Square width="30" depth="30"/>
+    <Square width="25" depth="25"/>
     <Height>10.0</Height>
   </Footprint>
   <GarrisonHolder>
@@ -59,7 +59,7 @@
     </Classes>
   </Identity>
   <Obstruction>
-    <Static width="30.0" depth="25.0"/>
+    <Static width="25.0" depth="20.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
