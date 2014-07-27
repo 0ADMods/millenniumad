@@ -8,7 +8,7 @@
     <Height>5.0</Height>
   </Footprint>
   <Health>
-    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>rubble/rubble_stone_6x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>viking</Civ>
@@ -21,7 +21,7 @@
     </Classes>
   </Identity>
   <Obstruction>
-    <Static width="20.0" depth="20.0"/>
+    <Static width="25.0" depth="20.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
@@ -36,7 +36,7 @@
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/celts/tavern.xml</Actor>
-    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+    <Actor>structures/viking/barracks.xml</Actor>
+    <FoundationActor>structures/fndn_6x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

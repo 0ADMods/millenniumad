@@ -30,8 +30,8 @@
   </Attack>
   <Identity>
     <Civ>viking</Civ>
-    <GenericName>Berserker</GenericName>
-    <SpecificName>Berserker</SpecificName>
+    <GenericName>Berserkr</GenericName>
+    <SpecificName>Fanatic</SpecificName>
     <History>?</History>
     <Icon>units/celt_fanatic.png</Icon>
     <RequiredTechnology>unlock_champion_units</RequiredTechnology>

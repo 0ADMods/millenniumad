@@ -16,8 +16,7 @@
   </Cost>
   <Identity>
     <Civ>viking</Civ>
-	<SelectionGroupName>units/viking_infantry_archer_b</SelectionGroupName>
-    <Classes datatype="tokens">Mercenary</Classes>
+    <SelectionGroupName>units/viking_infantry_archer_b</SelectionGroupName>
     <GenericName>Viking Archer</GenericName>
     <SpecificName>?</SpecificName>
     <History>?</History>
