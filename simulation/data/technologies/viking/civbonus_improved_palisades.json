@@ -1,11 +1,11 @@
 {
 	"genericName": "Improved palisades",
-	"autoResearch": false, //should be true when the tech is implemented
+	"autoResearch": true,
 	"description": "In exchange for having no stone walls they receive stronger palisades that cost more time to build.",
 	"requirements": {"civ" : "viking"},
 	"modifications": [
-		{"" : ""} 	//25% stronger palisades (hitpoints) in exchange for 10% longer buildtime
-					//also need to create technologies for decreased gathering (for citizen soldiers) and increased walking speed (for all soldiers). This makes maintaining easier (as templates change due balancing) and removes a lot of duplicate code from the template files.
+		{"value": "Health/Max", "multiply": 1.25},
+		{"value": "Cost/BuildTime", "multiply": 1.1}
 	],
-	"affects": ["Unit Melee"]
+	"affects": ["Outpost Palisade"]
 }

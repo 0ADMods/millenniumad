@@ -10,15 +10,15 @@
       <Bonuses>
         <BonusBuilding>
           <Classes>Structure</Classes>
-          <Multiplier>2.0</Multiplier>
+          <Multiplier>1.25</Multiplier>
         </BonusBuilding>
       </Bonuses>
     </Melee>
     <Charge>
       <Bonuses>
         <BonusCharge>
-          <Classes>Cavalry</Classes>
-          <Multiplier>2.0</Multiplier>
+          <Classes>Structure</Classes>
+          <Multiplier>1.25</Multiplier>
         </BonusCharge>
       </Bonuses>
     </Charge>

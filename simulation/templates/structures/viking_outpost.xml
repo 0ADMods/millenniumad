@@ -2,7 +2,7 @@
 <Entity parent="template_structure_defense_outpost">
   <Identity>
     <Civ>viking</Civ>
-    <SpecificName>Gallic Outpost</SpecificName>
+    <SpecificName>Viking Outpost</SpecificName>
     <History>*I could not find any evidence of a celtic tower, but I'm giving them one for gameplay reasons.*</History>
   </Identity>
   <VisualActor>

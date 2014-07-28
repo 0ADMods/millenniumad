@@ -22,7 +22,7 @@
     <Charge>
       <Bonuses>
         <BonusCharge>
-          <Classes>Cavalry</Classes>
+          <Classes>Structure</Classes>
           <Multiplier>2.0</Multiplier>
         </BonusCharge>
       </Bonuses>

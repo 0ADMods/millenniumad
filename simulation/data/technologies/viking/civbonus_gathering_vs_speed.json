@@ -1,10 +1,12 @@
 {
-	"genericName": "?",
-	"autoResearch": false, //should be true when the tech is implemented
+	"genericName": "Running Speed vs. Gathering Speed",
+	"autoResearch": true,
 	"description": "The Citizen Soldiers are slow gatherers, still they move faster than most infantry.",
 	"requirements": {"civ" : "viking"},
 	"modifications": [
-		{" " : " "} 	//gather speed x0.8 (-20%) and movement speed x1.2 (+20%) for Citizen Soldiers
+		{"value" : "ResourceGatherer/Rates", "multiply": 0.8},
+		{"value" : "UnitMotion/WalkSpeed", "multiply": 1.2},
+		{"value" : "UnitMotion/Run/Speed", "multiply": 1.2}
 	],
-	"affects": ["Unit Melee"]
+	"affects": ["CitizenSoldier"]
 }
