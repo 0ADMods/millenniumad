@@ -4,7 +4,7 @@
 	"description": "The Citizen Soldiers are slow gatherers, still they move faster than most infantry.",
 	"requirements": {"civ" : "viking"},
 	"modifications": [
-		{"" : ""} 	//gather speed x0.8 (-20%) and movement speed x1.2 (+20%) for Citizen Soldiers
+		{" " : " "} 	//gather speed x0.8 (-20%) and movement speed x1.2 (+20%) for Citizen Soldiers
 	],
 	"affects": ["Unit Melee"]
 }
