@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+
+  <group>
+    <variant frequency="1" name="base">
+      <textures>
+        <texture file="structural/viking_snekkja.png" name="baseTex"/>
+        <texture file="structural/viking_snekkja_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>  
+  <group>
+    <variant frequency="1" name="shield-E">
+      <mesh>props/shield_viking_round_a.dae</mesh>
+    </variant>
+    <variant frequency="1" name="shield-G">
+      <mesh>props/shield_viking_round_b.dae</mesh>
+    </variant>
+    <variant frequency="1" name="shield-K">
+      <mesh>props/shield_viking_round_c.dae</mesh>
+    </variant>
+    <variant frequency="1" name="shield-M">
+      <mesh>props/shield_viking_round_d.dae</mesh>
+    </variant>
+  </group>
+
+  <material>player_trans_spec.xml</material>
+
+</actor>
