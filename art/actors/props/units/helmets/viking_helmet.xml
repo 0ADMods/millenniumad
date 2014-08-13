@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="50" name="Helmet_A">
+      <mesh>props/viking_helmet_a.dae</mesh>
+      <textures>
+        <texture file="props/viking_helmet.png" name="baseTex"/>
+        <texture file="props/viking_helmet_spec.png" name="specTex"/>		
+        <texture file="props/viking_helmet_norm.png" name="normTex"/>		
+      </textures>
+    </variant>
+    <variant frequency="50" name="Helmet_B">
+      <mesh>props/viking_helmet_b.dae</mesh>
+      <textures>
+        <texture file="props/viking_helmet.png" name="baseTex"/>
+        <texture file="props/viking_helmet_spec.png" name="specTex"/>		
+        <texture file="props/viking_helmet_norm.png" name="normTex"/>	
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_parallax_spec.xml</material>
+</actor>

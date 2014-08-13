@@ -7,6 +7,7 @@
     <variant frequency="1" name="base">
       <textures>
         <texture file="structural/viking_snekkja.png" name="baseTex"/>
+        <texture file="structural/viking_snekkja_norm.png" name="normTex"/>
         <texture file="structural/viking_snekkja_spec.png" name="specTex"/>
       </textures>
     </variant>
@@ -26,6 +27,6 @@
     </variant>
   </group>
 
-  <material>player_trans_spec.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 
 </actor>
