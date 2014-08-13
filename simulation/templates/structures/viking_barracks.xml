@@ -4,9 +4,12 @@
     <PopulationBonus>4</PopulationBonus>
   </Cost>
   <Footprint>
-    <Square width="22.0" depth="22.0"/>
+    <Square width="20.0" depth="35.0"/>
     <Height>5.0</Height>
   </Footprint>
+  <Obstruction>
+    <Static width="20.0" depth="35.0"/>
+  </Obstruction>
   <Health>
     <SpawnEntityOnDeath>rubble/rubble_stone_6x4</SpawnEntityOnDeath>
   </Health>
