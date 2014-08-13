@@ -26,7 +26,7 @@
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/celts/dock_new.xml</Actor>
+    <Actor>structures/viking/dock.xml</Actor>
     <FoundationActor>structures/fndn_celt_dock.xml</FoundationActor>
   </VisualActor>
 </Entity>
