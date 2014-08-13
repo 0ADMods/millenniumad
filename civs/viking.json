@@ -88,7 +88,7 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/viking_house_centre" 
+			"Template": "structures/viking_civil_centre" 
 		},
 		{
 			"Template": "units/viking_support_female_citizen",
@@ -137,7 +137,7 @@
 		"skirmish/units/default_cavalry": "units/viking_infantry_swordsman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/viking_infantry_archer_b",
 		"skirmish/structures/default_house_10": "structures/{civ}_house",
-		"skirmish/structures/default_civil_centre": "structures/viking_house_centre"
+		"skirmish/structures/default_civil_centre": "structures/viking_civil_centre"
 	},
 	"SelectableInGameSetup": true
 }
