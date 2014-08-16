@@ -63,6 +63,18 @@
     </variant>
   </group>
   <group>
+      <variant frequency="50" name="Cap_var">
+      <props>
+        <prop actor="props/units/helmets/viking_cap.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="20" name="helmet_var">
+      <props>
+        <prop actor="props/units/helmets/viking_helmet.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
     <variant frequency="100" name="Idle"/>
     <variant name="attack_melee">
       <props>
