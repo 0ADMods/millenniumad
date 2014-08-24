@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="100" name="Carolingian Long House">
+			<mesh>structural/caro_longhouse.dae</mesh>
+			<props>
+			</props>
+			<textures>
+			<texture file="structural/caro_struct.png" name="baseTex"/>
+			<texture file="structural/ao/caro_longhouse_ao.png" name="aoTex"/>
+			</textures>
+		</variant>
+	</group>
+  <material>player_trans_ao.xml</material>
+</actor>
