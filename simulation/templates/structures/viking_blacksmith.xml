@@ -3,6 +3,13 @@
   <Cost>
     <PopulationBonus>4</PopulationBonus>
   </Cost>
+  <Footprint>
+    <Square width="15" depth="15"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="12" depth="12"/>
+  </Obstruction>  
   <Identity>
     <Civ>viking</Civ>
     <SpecificName>Amoridas</SpecificName>
@@ -20,6 +27,6 @@
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/celts/blacksmith.xml</Actor>
+    <Actor>structures/viking/blacksmith.xml</Actor>
   </VisualActor>
 </Entity>
