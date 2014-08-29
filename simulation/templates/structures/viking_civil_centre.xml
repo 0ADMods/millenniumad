@@ -75,6 +75,8 @@
       pair_siege_attack_cost
       pair_siege_cost_armor
       pair_champ_02
+      -phase_town_generic
+      phase_town_viking
     </Technologies>
   </ProductionQueue>
   <VisualActor>
