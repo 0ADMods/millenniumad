@@ -33,7 +33,7 @@
       </animations>
       <mesh>skeletal/m_pants_tunic.dae</mesh>
       <props>
-        <prop actor="props/units/heads/celt_helmet_b.xml" attachpoint="helmet"/>
+
         <prop actor="props/units/heads/head_celt.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/bow_long.xml" attachpoint="l_hand"/>
         <prop actor="props/units/quiver_back.xml" attachpoint="back"/>
@@ -49,6 +49,18 @@
     </variant>
     <variant frequency="1" name="chainmail-3">
       <textures><texture file="skeletal/celt_su3_soldurii_3.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+      <variant frequency="20" name="Cap_var">
+      <props>
+        <prop actor="props/units/helmets/viking_cap.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="50" name="helmet_var">
+      <props>
+        <prop actor="props/units/helmets/viking_helmet.xml" attachpoint="helmet"/>
+      </props>
     </variant>
   </group>
   <group>
