@@ -33,9 +33,9 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="465.12" y="132.654" z="564.943"/>
-		<Rotation angle="-2.00314"/>
-		<Declination angle="0.610866"/>
+		<Position x="414.239" y="130.806" z="688.908"/>
+		<Rotation angle="-2.70977"/>
+		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
@@ -84,13 +84,6 @@
 			<Position x="521.32251" z="438.5569"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="5372"/>
-		</Entity>
-		<Entity uid="15">
-			<Template>structures/viking_house_centre</Template>
-			<Player>2</Player>
-			<Position x="309.82258" z="518.98053"/>
-			<Orientation y="0.80507"/>
-			<Actor seed="10700"/>
 		</Entity>
 		<Entity uid="16">
 			<Template>structures/viking_outpost</Template>
@@ -179,7 +172,7 @@
 		<Entity uid="30">
 			<Template>gaia/flora_tree_pine</Template>
 			<Player>2</Player>
-			<Position x="344.31791" z="512.61597"/>
+			<Position x="344.67576" z="510.04746"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="58734"/>
 		</Entity>
@@ -305,8 +298,8 @@
 		<Entity uid="48">
 			<Template>units/viking_ship_merchant</Template>
 			<Player>2</Player>
-			<Position x="378.38425" z="445.41816"/>
-			<Orientation y="2.35621"/>
+			<Position x="377.65537" z="429.10822"/>
+			<Orientation y="0.80282"/>
 			<Actor seed="4452"/>
 		</Entity>
 		<Entity uid="49">
@@ -525,6 +518,20 @@
 			<Position x="303.72126" z="553.49628"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="2650"/>
+		</Entity>
+		<Entity uid="92">
+			<Template>structures/viking_house</Template>
+			<Player>2</Player>
+			<Position x="310.9531" z="517.82313"/>
+			<Orientation y="0.76584"/>
+			<Actor seed="33200"/>
+		</Entity>
+		<Entity uid="93">
+			<Template>structures/viking_blacksmith</Template>
+			<Player>2</Player>
+			<Position x="338.23935" z="520.9004"/>
+			<Orientation y="-0.77918"/>
+			<Actor seed="27012"/>
 		</Entity>
 	</Entities>
 	<Paths/>

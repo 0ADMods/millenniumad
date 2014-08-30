@@ -46,12 +46,7 @@
   <Identity>
     <Civ>viking</Civ>
     <SpecificName>Longhouse</SpecificName>
-    <GenericName>Civic Center</GenericName>
     <History>Later Celts constructed larger dwellings, called long houses, which could house more than one family.</History>
-    <Classes datatype="tokens">
-      Defensive
-      CivCentre
-    </Classes>
   </Identity>
   <Obstruction>
     <Static width="25.0" depth="20.0"/>
