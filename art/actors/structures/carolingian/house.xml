@@ -8,6 +8,9 @@
 			<texture file="structural/caro_struct.png" name="baseTex"/>
 			<texture file="structural/ao/caro_house_a_ao.png" name="aoTex"/>
 			</textures>
+			<props>
+				<prop actor="particle/smoke_curved.xml" attachpoint="smoke"/>
+			</props>
 		</variant>
 		<variant frequency="100" name="Carolingian House B">
 			<mesh>structural/caro_house_b.dae</mesh>
