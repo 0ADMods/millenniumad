@@ -72,35 +72,35 @@
 ]]></ScriptSettings>
 	<Entities>
 		<Entity uid="13">
-			<Template>units/viking_ship_fishing</Template>
+			<Template>units/norse_ship_fishing</Template>
 			<Player>2</Player>
 			<Position x="672.71387" z="440.09333"/>
 			<Orientation y="-2.05576"/>
 			<Actor seed="82"/>
 		</Entity>
 		<Entity uid="14">
-			<Template>units/viking_warship_snekkja</Template>
+			<Template>units/norse_warship_snekkja</Template>
 			<Player>2</Player>
 			<Position x="521.32251" z="438.5569"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="5372"/>
 		</Entity>
 		<Entity uid="16">
-			<Template>structures/viking_outpost</Template>
+			<Template>structures/norse_outpost</Template>
 			<Player>2</Player>
 			<Position x="321.03287" z="417.71833"/>
 			<Orientation y="-0.00776"/>
 			<Actor seed="48612"/>
 		</Entity>
 		<Entity uid="17">
-			<Template>structures/viking_farmstead</Template>
+			<Template>structures/norse_farmstead</Template>
 			<Player>2</Player>
 			<Position x="338.32541" z="544.56556"/>
 			<Orientation y="-2.30462"/>
 			<Actor seed="48202"/>
 		</Entity>
 		<Entity uid="20">
-			<Template>structures/viking_dock</Template>
+			<Template>structures/norse_dock</Template>
 			<Player>2</Player>
 			<Position x="365.20179" z="444.67872"/>
 			<Orientation y="2.31905"/>
@@ -296,7 +296,7 @@
 			<Actor seed="12432"/>
 		</Entity>
 		<Entity uid="48">
-			<Template>units/viking_ship_merchant</Template>
+			<Template>units/norse_ship_merchant</Template>
 			<Player>2</Player>
 			<Position x="377.65537" z="429.10822"/>
 			<Orientation y="0.80282"/>
@@ -513,21 +513,21 @@
 			<Actor seed="7796"/>
 		</Entity>
 		<Entity uid="91">
-			<Template>structures/viking_barracks</Template>
+			<Template>structures/norse_barracks</Template>
 			<Player>2</Player>
 			<Position x="303.72126" z="553.49628"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="2650"/>
 		</Entity>
 		<Entity uid="92">
-			<Template>structures/viking_house</Template>
+			<Template>structures/norse_house</Template>
 			<Player>2</Player>
 			<Position x="310.9531" z="517.82313"/>
 			<Orientation y="0.76584"/>
 			<Actor seed="33200"/>
 		</Entity>
 		<Entity uid="93">
-			<Template>structures/viking_blacksmith</Template>
+			<Template>structures/norse_blacksmith</Template>
 			<Player>2</Player>
 			<Position x="338.23935" z="520.9004"/>
 			<Orientation y="-0.77918"/>

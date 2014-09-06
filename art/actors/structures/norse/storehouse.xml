@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+    <castshadow/>
+    <group>
+        <variant frequency="100" name="Norse Storehouse">
+            <mesh>structural/norse_storehouse.dae</mesh>
+            <props>
+                <prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
+                <prop actor="props/special/eyecandy/handcart_1.xml" attachpoint="cart"/>
+                <prop actor="props/special/eyecandy/hay_a.xml" attachpoint="hay"/>
+                <prop actor="props/special/eyecandy/awning_wood_large.xml" attachpoint="lawning"/>
+                <prop actor="props/special/eyecandy/awning_wood_small.xml" attachpoint="sawning1"/>
+                <prop actor="props/special/eyecandy/awning_wood_small.xml" attachpoint="sawning2"/>
+                <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="barrel1"/>
+                <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="barrel2"/>
+                <prop actor="props/special/eyecandy/crate_a.xml" attachpoint="crate1"/>
+                <prop actor="props/special/eyecandy/crate_a.xml" attachpoint="crate2"/>
+                <prop actor="props/special/eyecandy/blocks_granite_pile_a.xml" attachpoint="stone1"/>
+                <prop actor="props/special/eyecandy/blocks_granite_pile_a.xml" attachpoint="stone2"/>
+             </props>
+             <textures>
+				<texture file="structural/norse_struct.png" name="baseTex"/>
+				<texture file="structural/norse_struct_norm.png" name="normTex"/>
+				<texture file="structural/norse_struct_spec.png" name="specTex"/>			 
+			 </textures>
+          </variant>
+     </group>
+     <material>player_trans_parallax_spec.xml</material>
+</actor>
+
