@@ -2,7 +2,7 @@
 	"genericName": "Running Speed vs. Gathering Speed",
 	"autoResearch": true,
 	"description": "The Citizen Soldiers are slow gatherers, still they move faster than most infantry.",
-	"requirements": {"civ" : "viking"},
+	"requirements": {"civ" : "norse"},
 	"modifications": [
 		{"value" : "ResourceGatherer/Rates", "multiply": 0.8},
 		{"value" : "UnitMotion/WalkSpeed", "multiply": 1.2},

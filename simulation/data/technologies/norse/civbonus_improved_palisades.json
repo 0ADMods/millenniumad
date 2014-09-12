@@ -2,7 +2,7 @@
 	"genericName": "Improved palisades",
 	"autoResearch": true,
 	"description": "In exchange for having no stone walls they receive stronger palisades that cost more time to build.",
-	"requirements": {"civ" : "viking"},
+	"requirements": {"civ" : "norse"},
 	"modifications": [
 		{"value": "Health/Max", "multiply": 1.25},
 		{"value": "Cost/BuildTime", "multiply": 1.1}
