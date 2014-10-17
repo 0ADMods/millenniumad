@@ -33,9 +33,9 @@
     <SelectionGroupName>units/norse_champion_huscarl</SelectionGroupName>
   </Identity>
   <UnitMotion>
-    <WalkSpeed>7.0</WalkSpeed>
+    <WalkSpeed>9.5</WalkSpeed>
     <Run>
-      <Speed>21.0</Speed>
+      <Speed>16.0</Speed>
     </Run>
   </UnitMotion>
   <VisualActor>

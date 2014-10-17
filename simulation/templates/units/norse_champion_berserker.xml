@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
   <Armour>
-    <Hack>1</Hack>
-    <Pierce>2</Pierce>
+    <Hack>2</Hack>
+    <Pierce>4</Pierce>
   </Armour>
   <Cost>
     <Resources>
       <food>80</food>
+      <wood>80</wood>
       <metal>80</metal>
     </Resources>
   </Cost>
@@ -15,7 +16,7 @@
       <Bonuses>
         <BonusBuilding>
           <Classes>Structure</Classes>
-          <Multiplier>2.0</Multiplier>
+          <Multiplier>1.25</Multiplier>
         </BonusBuilding>
       </Bonuses>
     </Melee>
@@ -23,15 +24,15 @@
       <Bonuses>
         <BonusCharge>
           <Classes>Structure</Classes>
-          <Multiplier>2.0</Multiplier>
+          <Multiplier>1.25</Multiplier>
         </BonusCharge>
       </Bonuses>
     </Charge>
   </Attack>
   <Identity>
     <Civ>norse</Civ>
-    <GenericName>Berserkr</GenericName>
-    <SpecificName>Fanatic</SpecificName>
+    <GenericName>Fanatic</GenericName>
+    <SpecificName>Berserkr</SpecificName>
     <History>?</History>
     <Icon>units/celt_fanatic.png</Icon>
     <RequiredTechnology>unlock_champion_units</RequiredTechnology>
@@ -40,7 +41,7 @@
   <UnitMotion>
     <WalkSpeed>11.0</WalkSpeed>
     <Run>
-      <Speed>22.0</Speed>
+      <Speed>17.0</Speed>
     </Run>
   </UnitMotion>
   <VisualActor>

@@ -26,9 +26,9 @@
     <Entity>units/norse_infantry_archer_a</Entity>
   </Promotion>
   <UnitMotion>
-    <WalkSpeed>10</WalkSpeed>
+    <WalkSpeed>11</WalkSpeed>
     <Run>
-      <Speed>22</Speed>
+      <Speed>17</Speed>
     </Run>
   </UnitMotion>
   <VisualActor>

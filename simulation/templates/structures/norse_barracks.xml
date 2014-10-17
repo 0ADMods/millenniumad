@@ -33,10 +33,6 @@
       units/norse_infantry_archer_b
       units/norse_champion_berserker
     </Entities>
-    <Technologies datatype="tokens">
-      upgrade_rank_advanced_infantry
-      upgrade_rank_elite_infantry
-    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/norse/barracks.xml</Actor>
