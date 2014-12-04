@@ -20,10 +20,6 @@
 	  Village
 	</Classes>
   </Identity>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-    </Technologies>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/norse/blacksmith.xml</Actor>
   </VisualActor>

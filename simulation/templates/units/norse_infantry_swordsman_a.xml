@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/norse_infantry_swordsman_b">
   <Armour>
-    <Hack>5</Hack>
-    <Pierce>2</Pierce>
+    <Hack>4</Hack>
+    <Pierce>5</Pierce>
     <Crush>4</Crush>
   </Armour>
   <Attack>
@@ -14,11 +14,11 @@
     </Charge>
   </Attack>
   <Health>
-    <Max>110</Max>
+    <Max>130</Max>
   </Health>
   <Identity>
     <Rank>Advanced</Rank>
-    <SpecificName>norse Warrior</SpecificName>
+    <SpecificName>Warrior</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/norse_infantry_swordsman_e</Entity>
@@ -27,7 +27,7 @@
     <BaseSpeed>0.75</BaseSpeed>
   </ResourceGatherer>
   <UnitMotion>
-    <WalkSpeed>7.0</WalkSpeed>
+    <WalkSpeed>8.5</WalkSpeed>
     <Run>
       <Speed>14.0</Speed>
     </Run>

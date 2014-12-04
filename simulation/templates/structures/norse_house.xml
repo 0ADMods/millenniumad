@@ -5,7 +5,7 @@
       <Hack>0.0</Hack>
       <Pierce>10.0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>45.0</MaxRange>
+      <MaxRange>36.0</MaxRange>
       <MinRange>5.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>2400</PrepareTime>
@@ -58,6 +58,7 @@
       -units/{civ}_support_female_citizen_house
     </Entities>
 	  <Technologies datatype="tokens">
+	  	-unlock_females_house
     </Technologies>
   </ProductionQueue>
     <ResourceDropsite>
@@ -69,7 +70,7 @@
     <Weight>65536</Weight>
   </TerritoryInfluence>  
   <Vision>
-    <Range>40</Range>
+    <Range>60</Range>
   </Vision>  
   <VisualActor>
     <Actor>structures/norse/longhouse.xml</Actor>

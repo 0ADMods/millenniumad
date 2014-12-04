@@ -23,7 +23,7 @@
     <SpecificName>Cavalidos</SpecificName>
     <History>A place for a farmer to pen his animals. Garrison a sheep, goat, or cow here to gain a trickle of the food resource. Garrisoning an animal here also "fattens" them so that they may be slaughtered and gathered for a quick burst of food.</History>
     <Tooltip>Dropsite for the food resource. Research food gathering improvements. Raise herd animals for food.</Tooltip>
-    <VisibleClasses datatype="tokens">Resource</VisibleClasses>
+    <VisibleClasses datatype="tokens">Village Farmstead Resource</VisibleClasses>
   </Identity>
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
@@ -32,6 +32,8 @@
     </Entities>
     <Technologies datatype="tokens">
       gather_animals_stockbreeding
+      speed_cavalry_01
+      speed_cavalry_02
     </Technologies>
   </ProductionQueue>
   <VisualActor>

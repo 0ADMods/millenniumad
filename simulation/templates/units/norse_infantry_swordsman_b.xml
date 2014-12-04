@@ -2,7 +2,6 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Attack>
     <Melee>
-      <Hack>12.0</Hack>
     <Bonuses>
       <BonusBuilding>
         <Classes>Structure</Classes>
@@ -11,7 +10,6 @@
     </Bonuses>
     </Melee>
     <Charge>
-      <Hack>24.0</Hack>
         <Bonuses>
         <BonusCharge>
           <Classes>Structure</Classes>
@@ -31,13 +29,13 @@
   </Builder>
   <Cost>
     <Resources>
-      <metal>60</metal>
+      <metal>40</metal>
     </Resources>
   </Cost>
   <Identity>
     <Civ>norse</Civ>
     <SelectionGroupName>units/norse_infantry_swordsman_b</SelectionGroupName>
-    <GenericName>norse Axeman</GenericName>
+    <GenericName>Axeman</GenericName>
     <SpecificName>?</SpecificName>
     <Icon>units/rome_infantry_swordsman.png</Icon>
     <History>?</History>
@@ -45,12 +43,6 @@
   <Promotion>
     <Entity>units/norse_infantry_swordsman_a</Entity>
   </Promotion>
-  <UnitMotion>
-    <WalkSpeed>10</WalkSpeed>
-    <Run>
-      <Speed>22</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/norse/infantry_swordsman_b.xml</Actor>
   </VisualActor>
