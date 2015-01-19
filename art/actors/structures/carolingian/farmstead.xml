@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="100" name="Carolingian House A">
+			<mesh>structural/caro_farmstead.dae</mesh>
+			<textures>
+			<texture file="structural/caro_struct.png" name="baseTex"/>
+			<texture file="structural/ao/caro_farmstead_ao.png" name="aoTex"/>
+			</textures>
+			<props>
+				<prop actor="particle/smoke_curved.xml" attachpoint="smoke"/>
+				<prop actor="props/structures/celts/rotary_mill_grinder.xml" attachpoint="grinder" maxheight="20" minheight="-20"/>
+			</props>
+		</variant>
+	</group>
+  <material>player_trans_ao.xml</material>
+</actor>

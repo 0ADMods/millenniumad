@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="100" name="Carolingian StoreHouse">
+			<mesh>structural/caro_storehouse.dae</mesh>
+			<textures>
+			<texture file="structural/caro_struct.png" name="baseTex"/>
+			<texture file="structural/ao/caro_storehouse_ao.png" name="aoTex"/>
+			</textures>
+		</variant>
+	</group>
+  <material>player_trans_ao.xml</material>
+</actor>
