@@ -6,7 +6,7 @@
       <mesh>structural/norse_corral.dae</mesh>
       <props>
      <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-     <prop actor="props/structures/norse/norse_corral_decal.xml" attachpoint="decal"/>
+     <prop actor="props/structures/norse/corral_decal.xml" attachpoint="decal"/>
      <prop actor="props/structures/norse/blacksmith_bucket.xml" attachpoint="bucket"/>
      <prop actor="props/structures/celts/blacksmith_bucket_water.xml" attachpoint="bucket"/>
      <prop actor="fauna/pig1.xml" attachpoint="pig001"/>
