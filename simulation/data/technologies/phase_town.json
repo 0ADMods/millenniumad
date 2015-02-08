@@ -4,5 +4,6 @@
 	"autoResearch": true,
 	"modifications": [{"value": "TerritoryInfluence/Radius", "multiply": 1.30}],
 	"affects": ["CivCentre"],
-	"soundComplete": "interface/alarm/alarm_phase.xml"
+	"soundComplete": "interface/alarm/alarm_phase.xml",
+	"icon": "town_phase.png"
 }

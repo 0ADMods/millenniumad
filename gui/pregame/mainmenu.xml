@@ -40,35 +40,6 @@
 			z="3"
 		/>
 		
-		<object	name="backgroundPers1-1"
-			type="image"
-			sprite="background-persians1-1"
-			hidden="true"
-			ghost="true"
-			z="1"
-		/>
-		<object	name="backgroundPers1-2"
-			type="image"
-			sprite="background-persians1-2"
-			hidden="true"
-			ghost="true"
-			z="2"
-		/>
-		<object	name="backgroundPers1-3"
-			type="image"
-			sprite="background-persians1-3"
-			hidden="true"
-			ghost="true"
-			z="3"
-		/>
-		<object	name="backgroundPers1-4"
-			type="image"
-			sprite="background-persians1-4"
-			hidden="true"
-			ghost="true"
-			z="4"
-		/>
-
 		<!--
 		==========================================
 		- MAIN MENU - STATIC TOOLTIP WINDOW
@@ -168,6 +139,66 @@
 			size="60 50%-100 300 50%+100"
 			hidden="true"
 		>
+			<!-- submenuLearnToPlay -->
+			<object name="submenuLearn"
+				type="image"
+				size="0 4 100%-4 100%-4"
+				tooltip_style="pgToolTip"
+				hidden="true"
+			>
+				<!-- LEARN TO PLAY BUTTON -->
+				<object name="menuManualButton"
+					type="button"
+					style="StoneButtonFancy"
+					size="0 0 100% 28"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption">Manual</translatableAttribute>
+					<translatableAttribute id="tooltip">Open the 0 A.D. Game Manual.</translatableAttribute>
+					<action on="Press">
+						closeMenu();
+						<![CDATA[
+							Engine.PushGuiPage("page_manual.xml", {"page":"manual/intro", "title":getManual(), "url":"http://trac.wildfiregames.com/wiki/0adManual"});
+						]]>
+					</action>
+				</object>
+
+				<!-- STRUCTREE BUTTON -->
+				<object name="menuStrucTreeButton"
+					style="StoneButtonFancy"
+					type="button"
+					size="0 32 100% 60"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption">Structure Tree</translatableAttribute>
+					<translatableAttribute id="tooltip">View the structure tree of civilizations featured in 0 A.D.</translatableAttribute>
+					<action on="Press">
+						closeMenu();
+						<![CDATA[
+							Engine.PushGuiPage("page_structree.xml");
+						]]>
+					</action>
+				</object>
+
+				<!-- HISTORY BUTTON -->
+				<object name="menuHistoryButton"
+					style="StoneButtonFancy"
+					type="button"
+					size="0 64 100% 92"
+					tooltip_style="pgToolTip"
+				>
+					<translatableAttribute id="caption">History</translatableAttribute>
+					<translatableAttribute id="tooltip">Learn about the many civilizations featured in 0 A.D.</translatableAttribute>
+					<action on="Press">
+						closeMenu();
+						<![CDATA[
+							Engine.PushGuiPage("page_civinfo.xml");
+						]]>
+					</action>
+				</object>
+
+			</object>
+			
 			<!-- submenuSinglePlayer -->
 			<object name="submenuSinglePlayer"
 				type="image"
@@ -196,7 +227,7 @@
 					enabled="false"
 				>
 					<translatableAttribute id="caption">Campaigns</translatableAttribute>
-					<translatableAttribute id="tooltip">Relive history through historical military campaigns. [NOT YET IMPLEMENTED]</translatableAttribute>
+					<translatableAttribute id="tooltip">Relive history through historical military campaigns. \[NOT YET IMPLEMENTED]</translatableAttribute>
 					<action on="Press">
 					closeMenu();
 						<![CDATA[
@@ -235,7 +266,7 @@
 					size="0 0 100% 28"
 					tooltip_style="pgToolTip"
 				>
-					<translatableAttribute id="caption">Join Game</translatableAttribute>
+					<translatableAttribute id="caption" comment="Join a game by specifying the host's IP address.">Join Game</translatableAttribute>
 					<translatableAttribute id="tooltip">Joining an existing multiplayer game.</translatableAttribute>
 					<action on="Press">
 						closeMenu();
@@ -403,20 +434,19 @@
 				size="8 156 100%-8 356"
 				ghost="false"
 			>
-				<!-- LEARN TO PLAY BUTTON -->
+
+				<!-- LEARN BUTTON -->
 				<object name="menuLearnToPlayButton"
-					type="button"
 					style="StoneButtonFancy"
+					type="button"
 					size="4 4 100%-4 32"
 					tooltip_style="pgToolTip"
 				>
 					<translatableAttribute id="caption">Learn To Play</translatableAttribute>
-					<translatableAttribute id="tooltip">Open the 0 A.D. Game Manual.</translatableAttribute>
+					<translatableAttribute id="tooltip">Learn how to play, discover the technology trees, and the history behind the civilizations</translatableAttribute>
 					<action on="Press">
 						closeMenu();
-						<![CDATA[
-							Engine.PushGuiPage("page_manual.xml", {"page":"manual/intro", "title":getManual(), "url":"http://trac.wildfiregames.com/wiki/0adManual"});
-						]]>
+						openMenu("submenuLearn", (this.parent.size.top+this.size.top), (this.size.bottom-this.size.top), 3);
 					</action>
 				</object>
 
@@ -465,28 +495,11 @@
 					</action>
 				</object>
 
-				<!-- HISTORY BUTTON -->
-				<object name="menuHistoryButton"
-					style="StoneButtonFancy"
-					type="button"
-					size="4 132 100%-4 160"
-					tooltip_style="pgToolTip"
-				>
-					<translatableAttribute id="caption">History</translatableAttribute>
-					<translatableAttribute id="tooltip">Learn about the many civilizations featured in 0 A.D.</translatableAttribute>
-					<action on="Press">
-						closeMenu();
-						<![CDATA[
-							Engine.PushGuiPage("page_civinfo.xml");
-						]]>
-					</action>
-				</object>
-
 				<!-- EXIT BUTTON -->
 				<object name="menuExitButton"
 					type="button"
 					style="StoneButtonFancy"
-					size="4 164 100%-4 192"
+					size="4 132 100%-4 160"
 					tooltip_style="pgToolTip"
 				>
 					<translatableAttribute id="caption">Exit</translatableAttribute>
@@ -514,7 +527,7 @@
 						<keep>[font="sans-bold-16"]</keep>
 						<translate>1,000 A. D. (CoM)</translate>
 						<keep>[/font]\n\n</keep>
-						<translate>WARNING: This is an early version of the mod. Some features have not been added yet.</translate>
+						<translate>WARNING: This is an early development version of the mod. Many features have not been added yet.</translate>
 						<keep>\n\n</keep>
 						<translate>Get involved at: play0ad.com</translate>
 					</attribute>
