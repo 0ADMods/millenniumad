@@ -72,6 +72,6 @@
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/gauls/fortress_gallic.xml</Actor>
+    <Actor>structures/norse/fortress_gallic.xml</Actor>
   </VisualActor>
 </Entity>
