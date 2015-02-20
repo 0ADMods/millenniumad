@@ -65,8 +65,8 @@
       units/norse_champion_huscarl
       units/norse_mechanical_siege_ram	  
     </Entities>
-	 <Technologies datatype="tokens">
-		attack_soldiers_will
+    <Technologies datatype="tokens">
+      attack_soldiers_will
       -phase_town_generic
       phase_town_norse
     </Technologies>

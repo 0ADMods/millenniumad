@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="100" name="helmetA">
+			<mesh>props/helmet/chin_archer_helmet_a.dae</mesh>
+			<textures>
+				<texture file="props/helmet/chin_archer_helmet_a.png" name="baseTex"/>
+				<texture file="props/helmet/chin_archer_helmet_a_norm.png" name="normTex"/>
+				<texture file="props/helmet/chin_archer_helmet_a_spec.png" name="specTex"/>
+				<texture file="props/ao/chin_archer_helmet_a_ao.png" name="aoTex"/>	  
+			</textures>
+		</variant>
+	</group>
+	<material>player_trans_ao_parallax_spec.xml</material>
+</actor>
