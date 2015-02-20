@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="100" name="Carolingian Blacksmith">
+			<mesh>structural/caro_blacksmith.dae</mesh>
+			<props>
+				<prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+				<prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke2"/>
+				<prop actor="particle/smoke_curved.xml" attachpoint="smoke"/>
+				<prop actor="particle/flame.xml" attachpoint="fire"/>
+				<prop actor="units/norse/forger.xml" attachpoint="forger"/>
+				<prop actor="props/structures/celts/blacksmith_bucket_water.xml" attachpoint="bucket"/>
+				<prop actor="props/structures/celts/blacksmith_bucket.xml" attachpoint="bucket"/>
+			</props>
+			<textures>
+			<texture file="structural/caro_struct.png" name="baseTex"/>
+			<texture file="structural/ao/caro_blacksmith_ao.png" name="aoTex"/>
+			</textures>
+		</variant>
+	</group>
+  <material>player_trans_ao.xml</material>
+</actor>

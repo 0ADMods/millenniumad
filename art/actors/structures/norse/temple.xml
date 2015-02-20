@@ -6,6 +6,7 @@
 			<mesh>structural/norse_temple_base.dae</mesh>
 			<props>
 				<prop actor="props/structures/norse/temple_roof.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/gravel_4x5.xml" attachpoint="root"/>
 			</props>
 			<textures>
 				<texture file="structural/norse_struct.png" name="baseTex"/>
