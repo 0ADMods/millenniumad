@@ -4,11 +4,14 @@
 	<group>
 		<variant frequency="100" name="Base">
 			<mesh>structural/caro_civil_centre.dae</mesh>
+			<props>
+				<prop actor="props/structures/decals/dirt_6x4.xml" attachpoint="root"/>
+			</props>
 			<textures>
-			<texture file="structural/caro_struct.png" name="baseTex"/>
-			<texture file="structural/ao/caro_civ_center_ao.png" name="aoTex"/>
+				<texture file="structural/caro_struct.png" name="baseTex"/>
+				<texture file="structural/ao/caro_civ_center_ao.png" name="aoTex"/>
 			</textures>
 		</variant>
 	</group>
-  <material>player_trans_ao.xml</material>
+	<material>player_trans_ao.xml</material>
 </actor>
