@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="1" name="base">
+			<textures>
+				<texture file="props/caro_shields.png" name="baseTex"/>
+			</textures>
+		</variant>
+	</group>  
+	<group>
+		<variant frequency="1" name="shield-E">
+			<mesh>props/shield_caro_round_back_a.dae</mesh>
+		</variant>
+	</group>
+	<material>player_trans.xml</material>
+</actor>
