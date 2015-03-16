@@ -3,20 +3,20 @@
 <Scenario version="5">
 	<Environment>
 		<SkySet>stormy</SkySet>
-		<SunColour r="0.501961" g="0.501961" b="0.501961"/>
+		<SunColor r="0.501961" g="0.501961" b="0.501961"/>
 		<SunElevation angle="0.785398"/>
 		<SunRotation angle="-0.785396"/>
-		<TerrainAmbientColour r="0.501961" g="0.501961" b="0.501961"/>
-		<UnitsAmbientColour r="0.501961" g="0.501961" b="0.501961"/>
+		<TerrainAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<UnitsAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
 		<Fog>
 			<FogFactor>0.00320312</FogFactor>
 			<FogThickness>0.34375</FogThickness>
-			<FogColour r="0.301961" g="0.337255" b="0.384314"/>
+			<FogColor r="0.301961" g="0.337255" b="0.384314"/>
 		</Fog>
 		<Water>
 			<WaterBody>
 				<Type>ocean</Type>
-				<Colour r="0.192157" g="0.392157" b="0.286275"/>
+				<Color r="0.192157" g="0.392157" b="0.286275"/>
 				<Tint r="0.247059" g="0.501961" b="0.501961"/>
 				<Height>35.6721</Height>
 				<Waviness>10</Waviness>
