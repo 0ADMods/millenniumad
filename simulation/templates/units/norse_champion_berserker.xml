@@ -34,7 +34,7 @@
     <GenericName>Fanatic</GenericName>
     <SpecificName>Berserkr</SpecificName>
     <History>?</History>
-    <Icon>units/celt_fanatic.png</Icon>
+    <Icon>units/norse_berserker.png</Icon>
     <RequiredTechnology>unlock_champion_units</RequiredTechnology>
     <SelectionGroupName>units/norse_champion_berserker</SelectionGroupName>
   </Identity>

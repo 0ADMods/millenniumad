@@ -14,7 +14,7 @@
       <Bonuses>
         <BonusBuilding>
           <Classes>Structure</Classes>
-          <Multiplier>1.25</Multiplier>
+          <Multiplier>1.1</Multiplier>
         </BonusBuilding>
       </Bonuses>
     </Melee>
@@ -22,7 +22,7 @@
       <Bonuses>
         <BonusCharge>
           <Classes>Structure</Classes>
-          <Multiplier>1.25</Multiplier>
+          <Multiplier>1.1</Multiplier>
         </BonusCharge>
       </Bonuses>
     </Charge>
@@ -30,9 +30,10 @@
   <Identity>
     <Civ>norse</Civ>
     <SelectionGroupName>units/norse_infantry_spearman_b</SelectionGroupName>
-    <SpecificName>Spearman</SpecificName>
+    <GenericName>Spearman</GenericName>
+    <SpecificName>?</SpecificName>
     <History>?</History>
-    <Icon>units/celt_infantry_spearman.png</Icon>
+    <Icon>units/norse_infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/norse_infantry_spearman_a</Entity>

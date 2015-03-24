@@ -5,8 +5,8 @@
 	"requirements": {"civ" : "norse"},
 	"modifications": [
 		{"value" : "ResourceGatherer/Rates", "multiply": 0.8},
-		{"value" : "UnitMotion/WalkSpeed", "multiply": 1.2},
-		{"value" : "UnitMotion/Run/Speed", "multiply": 1.2}
+		{"value" : "UnitMotion/WalkSpeed", "multiply": 1.1},
+		{"value" : "UnitMotion/Run/Speed", "multiply": 1.1}
 	],
 	"affects": ["CitizenSoldier"]
 }

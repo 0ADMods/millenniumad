@@ -10,7 +10,7 @@
       <Bonuses>
         <BonusBuilding>
           <Classes>Structure</Classes>
-          <Multiplier>1.25</Multiplier>
+          <Multiplier>1.1</Multiplier>
         </BonusBuilding>
       </Bonuses>
     </Melee>
@@ -18,7 +18,7 @@
       <Bonuses>
         <BonusCharge>
           <Classes>Structure</Classes>
-          <Multiplier>1.25</Multiplier>
+          <Multiplier>1.1</Multiplier>
         </BonusCharge>
       </Bonuses>
     </Charge>
@@ -28,7 +28,7 @@
     <GenericName>Bodyguard</GenericName>
     <SpecificName>Huskárl</SpecificName>
     <History>?</History>
-    <Icon>units/celt_champion_infantry_gaul.png</Icon>
+    <Icon>units/norse_huskarl.png</Icon>
     <RequiredTechnology>unlock_champion_units</RequiredTechnology>
     <SelectionGroupName>units/norse_champion_huscarl</SelectionGroupName>
   </Identity>

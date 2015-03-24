@@ -55,7 +55,7 @@
         <prop actor="props/units/shields/norse_round.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/norse_sword.xml" attachpoint="r_hand"/>
       </props>
-      <textures><texture file="skeletal/norse_basic.png" name="baseTex"/></textures>
+      <textures><texture file="skeletal/celt_isw_e_01.dds" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

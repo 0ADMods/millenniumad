@@ -17,10 +17,10 @@
   <Identity>
     <Civ>norse</Civ>
     <SelectionGroupName>units/norse_infantry_archer_b</SelectionGroupName>
-    <GenericName>norse Archer</GenericName>
+    <GenericName>Hunter</GenericName>
     <SpecificName>?</SpecificName>
     <History>?</History>
-    <Icon>units/hele_infantry_archer.png</Icon>
+    <Icon>units/norse_infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/norse_infantry_archer_a</Entity>
