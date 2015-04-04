@@ -25,12 +25,6 @@
   <Promotion>
     <Entity>units/norse_infantry_archer_a</Entity>
   </Promotion>
-  <UnitMotion>
-    <WalkSpeed>11</WalkSpeed>
-    <Run>
-      <Speed>17</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/norse/infantry_archer_b.xml</Actor>
   </VisualActor>
