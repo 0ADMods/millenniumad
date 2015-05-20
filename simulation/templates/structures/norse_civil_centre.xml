@@ -67,7 +67,7 @@
     </Entities>
     <Technologies datatype="tokens">
       attack_soldiers_will
-      -phase_town_generic
+      -phase_town
       phase_town_norse
     </Technologies>
   </ProductionQueue>
