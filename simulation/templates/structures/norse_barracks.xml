@@ -20,7 +20,7 @@
 		<History>?</History>
 		<RequiredTechnology>phase_town</RequiredTechnology>
 		<Classes datatype="tokens">
-      Town
+      Town -Village
 		</Classes>
 	</Identity>
 	<ProductionQueue>
