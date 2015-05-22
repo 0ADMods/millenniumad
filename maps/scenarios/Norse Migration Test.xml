@@ -63069,13 +63069,13 @@
 			<Orientation y="-2.3562"/>
 		</Entity>
 		<Entity uid="12244">
-			<Template>units/norse_hero_britomartus</Template>
+			<Template>units/norse_champion_berserker</Template>
 			<Player>1</Player>
 			<Position x="1702.44227" z="1037.39954"/>
 			<Orientation y="-1.74183"/>
 		</Entity>
 		<Entity uid="12245">
-			<Template>units/norse_warship_2</Template>
+			<Template>units/norse_warship_snekkja</Template>
 			<Player>1</Player>
 			<Position x="1744.50342" z="1047.20484"/>
 			<Orientation y="-2.0082"/>
@@ -63120,7 +63120,7 @@
 			<Actor seed="51066"/>
 		</Entity>
 		<Entity uid="12255">
-			<Template>units/norse_hero_brennus</Template>
+			<Template>units/norse_champion_berserker</Template>
 			<Player>1</Player>
 			<Position x="1703.23646" z="1039.3932"/>
 			<Orientation y="-1.83996"/>
@@ -63133,21 +63133,21 @@
 			<Orientation y="-2.145"/>
 		</Entity>
 		<Entity uid="12260">
-			<Template>units/norse_warship_2</Template>
+			<Template>units/norse_warship_snekkja</Template>
 			<Player>2</Player>
 			<Position x="1611.68348" z="1669.97181"/>
 			<Orientation y="-2.0109"/>
 			<Actor seed="26958"/>
 		</Entity>
 		<Entity uid="12261">
-			<Template>units/norse_hero_britomartus</Template>
+			<Template>units/norse_champion_berserker</Template>
 			<Player>2</Player>
 			<Position x="1564.1183" z="1648.08521"/>
 			<Orientation y="-2.0199"/>
 			<Actor seed="46614"/>
 		</Entity>
 		<Entity uid="12262">
-			<Template>units/norse_hero_brennus</Template>
+			<Template>units/norse_champion_berserker</Template>
 			<Player>2</Player>
 			<Position x="1565.69507" z="1651.71717"/>
 			<Orientation y="-2.00057"/>
