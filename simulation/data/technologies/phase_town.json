@@ -1,9 +1,0 @@
-{
-	"genericName": "Town Phase",
-	"requirements": { "any": [{"tech":"phase_town_generic"}, {"tech":"phase_town_athen"}, {"tech":"phase_town_norse"}]},
-	"autoResearch": true,
-	"modifications": [{"value": "TerritoryInfluence/Radius", "multiply": 1.30}],
-	"affects": ["CivCentre"],
-	"soundComplete": "interface/alarm/alarm_phase.xml",
-	"icon": "town_phase.png"
-}

@@ -6,8 +6,7 @@
   </Armour>
   <Cost>
     <Resources>
-      <food>80</food>
-      <wood>80</wood>
+      <food>0</food>
       <metal>80</metal>
     </Resources>
   </Cost>
@@ -16,7 +15,7 @@
       <Bonuses>
         <BonusBuilding>
           <Classes>Structure</Classes>
-          <Multiplier>1.25</Multiplier>
+          <Multiplier>1.1</Multiplier>
         </BonusBuilding>
       </Bonuses>
     </Melee>
@@ -24,7 +23,7 @@
       <Bonuses>
         <BonusCharge>
           <Classes>Structure</Classes>
-          <Multiplier>1.25</Multiplier>
+          <Multiplier>1.1</Multiplier>
         </BonusCharge>
       </Bonuses>
     </Charge>
@@ -38,12 +37,6 @@
     <RequiredTechnology>unlock_champion_units</RequiredTechnology>
     <SelectionGroupName>units/norse_champion_berserker</SelectionGroupName>
   </Identity>
-  <UnitMotion>
-    <WalkSpeed>11.0</WalkSpeed>
-    <Run>
-      <Speed>17.0</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/norse/champion_berserker.xml</Actor>
   </VisualActor>

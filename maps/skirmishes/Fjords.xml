@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Scenario version="5">
+<Scenario version="6">
 	<Environment>
 		<SkySet>stormy</SkySet>
 		<SunColor r="0.74902" g="0.74902" b="0.74902"/>
@@ -2233,13 +2233,13 @@
 			<Actor seed="12468"/>
 		</Entity>
 		<Entity uid="7573">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="297.00895" z="519.52204"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="26822"/>
 		</Entity>
 		<Entity uid="7575">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="295.90342" z="521.78113"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="6262"/>
@@ -2473,31 +2473,31 @@
 			<Actor seed="22126"/>
 		</Entity>
 		<Entity uid="7620">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="257.34894" z="389.45792"/>
 			<Orientation y="-2.0308"/>
 			<Actor seed="55880"/>
 		</Entity>
 		<Entity uid="7621">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="256.46366" z="388.51734"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="32358"/>
 		</Entity>
 		<Entity uid="7622">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="274.77692" z="381.41202"/>
 			<Orientation y="-2.2647"/>
 			<Actor seed="20794"/>
 		</Entity>
 		<Entity uid="7623">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="272.89164" z="382.25547"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="5912"/>
 		</Entity>
 		<Entity uid="7624">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="297.89261" z="509.09818"/>
 			<Orientation y="0.92986"/>
 			<Actor seed="5844"/>
@@ -13765,79 +13765,79 @@
 			<Actor seed="13840"/>
 		</Entity>
 		<Entity uid="22955">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="494.64066" z="1085.10865"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="23630"/>
 		</Entity>
 		<Entity uid="22956">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="494.45392" z="1086.4751"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="38050"/>
 		</Entity>
 		<Entity uid="22957">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="494.00651" z="1087.88172"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="4348"/>
 		</Entity>
 		<Entity uid="22958">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="493.90018" z="1089.27283"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="51794"/>
 		</Entity>
 		<Entity uid="22959">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="493.72565" z="1090.70484"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="47110"/>
 		</Entity>
 		<Entity uid="22960">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="493.6049" z="1083.43946"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="13098"/>
 		</Entity>
 		<Entity uid="22961">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="493.18842" z="1084.93482"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="49370"/>
 		</Entity>
 		<Entity uid="22962">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="492.82438" z="1086.54358"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="14042"/>
 		</Entity>
 		<Entity uid="22963">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="492.65561" z="1087.85962"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41618"/>
 		</Entity>
 		<Entity uid="22964">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="486.0044" z="1075.50257"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="62878"/>
 		</Entity>
 		<Entity uid="22965">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="485.378" z="1076.89161"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48056"/>
 		</Entity>
 		<Entity uid="22966">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="485.70347" z="1078.29175"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="9750"/>
 		</Entity>
 		<Entity uid="22967">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="486.79737" z="1077.26795"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="16850"/>
@@ -14319,37 +14319,37 @@
 			<Actor seed="2756"/>
 		</Entity>
 		<Entity uid="23063">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="525.42981" z="973.0672"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="38692"/>
 		</Entity>
 		<Entity uid="23064">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="523.81293" z="971.9333"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="2538"/>
 		</Entity>
 		<Entity uid="23065">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="510.34531" z="981.60633"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="45874"/>
 		</Entity>
 		<Entity uid="23066">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="512.04462" z="981.32465"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="864"/>
 		</Entity>
 		<Entity uid="23067">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="511.66477" z="982.74433"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48174"/>
 		</Entity>
 		<Entity uid="23068">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="513.28663" z="982.66236"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="28068"/>
@@ -19846,19 +19846,19 @@
 			<Actor seed="48450"/>
 		</Entity>
 		<Entity uid="24080">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="454.92756" z="290.2204"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="29594"/>
 		</Entity>
 		<Entity uid="24081">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="457.6309" z="291.91413"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="59140"/>
 		</Entity>
 		<Entity uid="24082">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="454.67093" z="287.68528"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="7440"/>
@@ -38331,19 +38331,19 @@
 			<Actor seed="62530"/>
 		</Entity>
 		<Entity uid="44477">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="936.23938" z="716.36023"/>
 			<Orientation y="-2.92107"/>
 			<Actor seed="65078"/>
 		</Entity>
 		<Entity uid="44478">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="937.52881" z="712.85499"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="27198"/>
 		</Entity>
 		<Entity uid="44479">
-			<Template>actor|props/structures/chin_barrel.xml</Template>
+			<Template>actor|props/special/eyecandy/barrel_a.xml</Template>
 			<Position x="933.6822" z="711.23316"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="4408"/>

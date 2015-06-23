@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Scenario version="5">
+<Scenario version="6">
 	<Environment>
 		<SkySet>stormy</SkySet>
 		<SunColor r="0.501961" g="0.501961" b="0.501961"/>
@@ -40,34 +40,24 @@
 	<ScriptSettings><![CDATA[
 {
   "CircularMap": true,
-  "Description": "Give an interesting description of your map.",
-  "Name": "Unnamed map",
+  "Description": "A Showcase Map designed by niektb. Not playable.",
+  "GameType": "endless",
+  "Keywords": [
+    "demo"
+  ],
+  "LockTeams": false,
+  "Name": "Stormy Water",
   "PlayerData": [
+    "",
     {
-      "Civ": "athen"
+      "Civ": "norse"
     },
     {
-      "Civ": "cart"
-    },
-    {
-      "Civ": "celt"
-    },
-    {
-      "Civ": "iber"
-    },
-    {
-      "Civ": "mace"
-    },
-    {
-      "Civ": "pers"
-    },
-    {
-      "Civ": "rome"
-    },
-    {
-      "Civ": "spart"
+      "Civ": "norse"
     }
-  ]
+  ],
+  "Preview": "",
+  "RevealMap": true
 }
 ]]></ScriptSettings>
 	<Entities>
