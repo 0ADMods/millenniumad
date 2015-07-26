@@ -19,16 +19,14 @@
 		<GenericName>Tavern</GenericName>
 		<History>?</History>
 		<RequiredTechnology>phase_town</RequiredTechnology>
-		<Classes datatype="tokens">
-      Town -Village
-		</Classes>
+		<Classes datatype="tokens">Town</Classes>
 	</Identity>
 	<ProductionQueue>
 		<Entities datatype="tokens">
-      units/norse_infantry_swordsman_b
-      units/norse_infantry_spearman_b
-      units/norse_infantry_archer_b
-      units/norse_champion_berserker
+			units/norse_infantry_swordsman_b
+			units/norse_infantry_spearman_b
+			units/norse_infantry_archer_b
+			units/norse_champion_berserker
 		</Entities>
 	</ProductionQueue>
 	<VisualActor>

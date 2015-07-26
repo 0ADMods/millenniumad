@@ -33,7 +33,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="30.0" depth="30.0"/>
+    <Square width="32.0" depth="24.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Health>
@@ -53,7 +53,7 @@
     </VisibleClasses>
   </Identity>
   <Obstruction>
-    <Static width="25.0" depth="25.0"/>
+    <Static width="32.0" depth="16.0"/>
   </Obstruction>
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
@@ -72,6 +72,6 @@
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/norse/fortress_gallic.xml</Actor>
+    <Actor>structures/norse/jarls_hold.xml</Actor>
   </VisualActor>
 </Entity>

@@ -3,7 +3,7 @@
     <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>10.0</Pierce>
+      <Pierce>7.5</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>36.0</MaxRange>
       <MinRange>5.0</MinRange>
@@ -14,25 +14,25 @@
     </Ranged>
   </Attack>
   <BuildingAI>
-    <DefaultArrowCount>2</DefaultArrowCount>
+    <DefaultArrowCount>0</DefaultArrowCount>
     <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
   </BuildingAI>
   <BuildRestrictions>
     <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Cost>
-    <PopulationBonus>20</PopulationBonus>
+    <PopulationBonus>10</PopulationBonus>
     <BuildTime>150</BuildTime>
     <Resources>
-      <wood>500</wood>
+      <wood>200</wood>
     </Resources>
   </Cost>
   <Footprint replace="">
-    <Square width="25" depth="25"/>
+    <Square width="8.0" depth="12.0"/>
     <Height>10.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>15</Max>
+    <Max>10</Max>
     <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <List datatype="tokens">Support Infantry Cavalry</List>
@@ -40,8 +40,8 @@
     <LoadingRange>1</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>2000</Max>
-    <SpawnEntityOnDeath>rubble/rubble_stone_4x2</SpawnEntityOnDeath>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>norse</Civ>
@@ -49,11 +49,11 @@
     <History>Later Celts constructed larger dwellings, called long houses, which could house more than one family.</History>
   </Identity>
   <Obstruction>
-    <Static width="25.0" depth="20.0"/>
+    <Static width="8.0" depth="12.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/norse_infantry_swordsman_b
+      units/norse_infantry_swordsman_b_house
       units/{civ}_support_female_citizen
       -units/{civ}_support_female_citizen_house
     </Entities>
@@ -66,14 +66,14 @@
   </ResourceDropsite>
   <TerritoryInfluence>
     <Root>true</Root>
-    <Radius>60</Radius>
-    <Weight>65536</Weight>
+    <Radius>40</Radius>
+    <Weight>65535</Weight>
   </TerritoryInfluence>  
   <Vision>
-    <Range>60</Range>
+    <Range>40</Range>
   </Vision>  
   <VisualActor>
     <Actor>structures/norse/longhouse.xml</Actor>
-    <FoundationActor>structures/fndn_4x2.xml</FoundationActor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>
