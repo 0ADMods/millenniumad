@@ -12,6 +12,6 @@
     	<GainMultiplier>1.0</GainMultiplier>
   	</Trader>
   	<VisualActor>
-    	<Actor>structures/celts/warship.xml</Actor>
+    	<Actor>structures/celts/skiff.xml</Actor>
   	</VisualActor>
 </Entity>
