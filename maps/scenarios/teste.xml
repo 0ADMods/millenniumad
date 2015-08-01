@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="5">
+	<Environment>
+		<SkySet>mountainous</SkySet>
+		<SunColour r="0.74902" g="0.74902" b="0.74902"/>
+		<SunElevation angle="0.300078"/>
+		<SunRotation angle="-0.872136"/>
+		<TerrainAmbientColour r="0.501961" g="0.501961" b="0.501961"/>
+		<UnitsAmbientColour r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0.0028125</FogFactor>
+			<FogThickness>0.113281</FogThickness>
+			<FogColour r="0.752941" g="0.752941" b="0.752941"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Colour r="0.180392" g="0.360784" b="0.27451"/>
+				<Tint r="0" g="0.501961" b="0.25098"/>
+				<Height>26.0197</Height>
+				<Waviness>10</Waviness>
+				<Murkiness>0.75</Murkiness>
+				<WindAngle>-0.638136</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>-0.0234375</Brightness>
+			<Contrast>0.976563</Contrast>
+			<Saturation>0.671875</Saturation>
+			<Bloom>0.2</Bloom>
+			<PostEffect>hdr</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="106.105" y="46.937" z="324.95"/>
+		<Rotation angle="2.24273"/>
+		<Declination angle="0.23322"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "Name": "Unnamed map",
+  "Description": "Give an interesting description of your map.",
+  "PlayerData": [
+    {
+      "Civ": "athen"
+    },
+    {
+      "Civ": "cart"
+    },
+    {
+      "Civ": "celt"
+    },
+    {
+      "Civ": "iber"
+    },
+    {
+      "Civ": "mace"
+    },
+    {
+      "Civ": "pers"
+    },
+    {
+      "Civ": "rome"
+    },
+    {
+      "Civ": "spart"
+    }
+  ],
+  "CircularMap": true
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="12">
+			<Template>units/norse_ship_merchant</Template>
+			<Player>2</Player>
+			<Position x="341.9452" z="145.48832"/>
+			<Orientation y="-1.14934"/>
+			<Actor seed="47826"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>
