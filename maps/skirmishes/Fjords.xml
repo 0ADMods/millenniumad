@@ -33,9 +33,9 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="824.44" y="78.5681" z="749.683"/>
-		<Rotation angle="2.19105"/>
-		<Declination angle="0.486868"/>
+		<Position x="860.193" y="111.859" z="780.461"/>
+		<Rotation angle="2.44152"/>
+		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
@@ -14266,6 +14266,7 @@
 			<Player>0</Player>
 			<Position x="511.75083" z="975.72413"/>
 			<Orientation y="3.14043"/>
+			<Obstruction group="23787"/>
 			<Actor seed="9532"/>
 		</Entity>
 		<Entity uid="23055">
@@ -38242,13 +38243,6 @@
 			<Orientation y="-0.52594"/>
 			<Actor seed="60688"/>
 		</Entity>
-		<Entity uid="44459">
-			<Template>structures/norse_house</Template>
-			<Player>0</Player>
-			<Position x="943.71753" z="712.95014"/>
-			<Orientation y="-0.78266"/>
-			<Actor seed="16354"/>
-		</Entity>
 		<Entity uid="44460">
 			<Template>structures/norse_blacksmith</Template>
 			<Player>0</Player>
@@ -62050,6 +62044,13 @@
 			<Position x="619.8371" z="992.14545"/>
 			<Orientation y="1.39649"/>
 			<Actor seed="35722"/>
+		</Entity>
+		<Entity uid="48623">
+			<Template>structures/norse_civil_centre</Template>
+			<Player>0</Player>
+			<Position x="945.34913" z="712.78357"/>
+			<Orientation y="-0.77643"/>
+			<Actor seed="12652"/>
 		</Entity>
 	</Entities>
 	<Paths/>
