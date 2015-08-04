@@ -35,11 +35,23 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="chainmail-1">
-      <textures><texture file="skeletal/celt_isw_e_01.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="chainmail-A1">
+      <textures><texture file="skeletal/norse/huscarl/norse_huskarl_ca1.png" name="baseTex"/></textures>
     </variant>
-    <variant frequency="1" name="chainmail-2">
-      <textures><texture file="skeletal/celt_isw_e_02.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="chainmail-A2">
+      <textures><texture file="skeletal/norse/huscarl/norse_huskarl_ca2.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="chainmail-A3">
+      <textures><texture file="skeletal/norse/huscarl/norse_huskarl_ca3.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="chainmail-B1">
+      <textures><texture file="skeletal/norse/huscarl/norse_huskarl_cb1.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="chainmail-B2">
+      <textures><texture file="skeletal/norse/huscarl/norse_huskarl_cb2.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="chainmail-B3">
+      <textures><texture file="skeletal/norse/huscarl/norse_huskarl_cb3.png" name="baseTex"/></textures>
     </variant>
   </group>
   <material>player_trans.xml</material>
