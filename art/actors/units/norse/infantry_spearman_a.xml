@@ -37,7 +37,7 @@
         <animation file="infantry/general/death/inf_07.psa" name="Death" speed="400"/>
         <animation file="biped/inf_salute_c.psa" name="Promotion" speed="450"/>
       </animations>
-      <mesh>skeletal/m_pants_celt.dae</mesh>
+      <mesh>skeletal/m_pants_tunic.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_celt.xml" attachpoint="head"/>
         <prop actor="props/units/shields/celt_scutum_a.xml" attachpoint="shield"/>
@@ -46,38 +46,80 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Clothes-1">
-      <textures><texture file="skeletal/celt_isw_a_01.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="A1">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a1.png" name="baseTex"/></textures>
     </variant>
-    <variant frequency="1" name="Clothes-2">
-      <textures><texture file="skeletal/celt_isw_a_02.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="A2">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a2.png" name="baseTex"/></textures>
     </variant>
-    <variant frequency="1" name="Clothes-3">
-      <textures><texture file="skeletal/celt_isw_a_03.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="A3">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a3.png" name="baseTex"/></textures>
     </variant>
-    <variant frequency="1" name="Clothes-4">
-      <textures><texture file="skeletal/celt_isw_a_04.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="A4">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a4.png" name="baseTex"/></textures>
     </variant>
-    <variant frequency="1" name="Clothes-5">
-      <textures><texture file="skeletal/celt_isw_a_05.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="A5">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a5.png" name="baseTex"/></textures>
     </variant>
-    <variant frequency="1" name="Clothes-6">
-      <textures><texture file="skeletal/celt_isw_a_06.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="A6">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a6.png" name="baseTex"/></textures>
     </variant>
-    <variant frequency="1" name="Clothes-7">
-      <textures><texture file="skeletal/celt_isw_a_07.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="A7">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a7.png" name="baseTex"/></textures>
     </variant>
-    <variant frequency="3" name="Clothes-8">
-      <textures><texture file="skeletal/celt_isw_a_08.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="A8">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a8.png" name="baseTex"/></textures>
     </variant>
-    <variant frequency="1" name="Clothes-9">
-      <textures><texture file="skeletal/celt_isw_a_09.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="A9">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a9.png" name="baseTex"/></textures>
     </variant>
-    <variant frequency="1" name="Clothes-10">
-      <textures><texture file="skeletal/celt_isw_a_10.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="A10">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a10.png" name="baseTex"/></textures>
     </variant>
-    <variant frequency="1" name="Clothes-11">
-      <textures><texture file="skeletal/celt_isw_a_11.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="A11">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a11.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A12">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a12.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A13">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a13.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A14">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a14.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A15">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a15.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A16">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a16.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A17">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a17.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A18">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a18.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A19">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a19.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A20">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a20.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A21">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a21.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A22">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a22.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A23">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a23.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A24">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a24.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A25">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a25.png" name="baseTex"/></textures>
     </variant>
   </group>
     <group>
