@@ -54,9 +54,28 @@
         <prop actor="props/units/shields/norse_round.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/norse_axe.xml" attachpoint="r_hand"/>
       </props>
-      <textures><texture file="skeletal/norse_basic.png" name="baseTex"/></textures>
 	</variant>
 	</group>
+  <group>
+    <variant frequency="1" name="b1">
+      <textures><texture file="skeletal/norse/swordsman/basic/norse_swordsman_b1.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="b2">
+      <textures><texture file="skeletal/norse/swordsman/basic/norse_swordsman_b2.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="b3">
+      <textures><texture file="skeletal/norse/swordsman/basic/norse_swordsman_b3.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="b4">
+      <textures><texture file="skeletal/norse/swordsman/basic/norse_swordsman_b4.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="b5">
+      <textures><texture file="skeletal/norse/swordsman/basic/norse_swordsman_b5.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="b6">
+      <textures><texture file="skeletal/norse/swordsman/basic/norse_swordsman_b6.png" name="baseTex"/></textures>
+    </variant>
+  </group>
 	<group>
 		<variant frequency="50" name="Cap_var">
 			<props>

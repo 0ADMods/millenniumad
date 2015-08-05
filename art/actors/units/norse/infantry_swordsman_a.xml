@@ -54,7 +54,26 @@
         <prop actor="props/units/shields/norse_round.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/norse_axe.xml" attachpoint="r_hand"/>
       </props>
-      <textures><texture file="skeletal/celt_su3_soldurii_1.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="a1">
+      <textures><texture file="skeletal/norse/swordsman/advanced/norse_swordsman_a1.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="a2">
+      <textures><texture file="skeletal/norse/swordsman/advanced/norse_swordsman_a2.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="a3">
+      <textures><texture file="skeletal/norse/swordsman/advanced/norse_swordsman_a3.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="a4">
+      <textures><texture file="skeletal/norse/swordsman/advanced/norse_swordsman_a4.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="a5">
+      <textures><texture file="skeletal/norse/swordsman/advanced/norse_swordsman_a5.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="a6">
+      <textures><texture file="skeletal/norse/swordsman/advanced/norse_swordsman_a6.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>
