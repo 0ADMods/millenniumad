@@ -37,7 +37,26 @@
         <prop actor="props/units/weapons/bow_long.xml" attachpoint="l_hand"/>
         <prop actor="props/units/quiver_back.xml" attachpoint="back"/>
       </props>
-      <textures><texture file="skeletal/norse_basic.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="B1">
+      <textures><texture file="skeletal/norse/archer/basic/norse_archer_b1.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="B2">
+      <textures><texture file="skeletal/norse/archer/basic/norse_archer_b2.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="B3">
+      <textures><texture file="skeletal/norse/archer/basic/norse_archer_b3.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="B4">
+      <textures><texture file="skeletal/norse/archer/basic/norse_archer_b4.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="B5">
+      <textures><texture file="skeletal/norse/archer/basic/norse_archer_b5.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="B6">
+      <textures><texture file="skeletal/norse/archer/basic/norse_archer_b6.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

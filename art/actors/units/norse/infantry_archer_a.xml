@@ -41,14 +41,50 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="chainmail-1">
-      <textures><texture file="skeletal/celt_su3_soldurii_1.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="A1">
+      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a1.png" name="baseTex"/></textures>
     </variant>
-    <variant frequency="1" name="chainmail-2">
-      <textures><texture file="skeletal/celt_su3_soldurii_2.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="A2">
+      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a2.png" name="baseTex"/></textures>
     </variant>
-    <variant frequency="1" name="chainmail-3">
-      <textures><texture file="skeletal/celt_su3_soldurii_3.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="A3">
+      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a3.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A4">
+      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a4.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A5">
+      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a5.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A6">
+      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a6.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A7">
+      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a7.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A8">
+      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a8.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A9">
+      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a9.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A10">
+      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a10.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A11">
+      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a11.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A12">
+      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a12.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A13">
+      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a13.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A14">
+      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a14.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="A15">
+      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a15.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

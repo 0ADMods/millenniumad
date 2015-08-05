@@ -38,7 +38,26 @@
         <prop actor="props/units/quiver_back.xml" attachpoint="back"/>
         <prop actor="props/units/shields/norse_round.xml" attachpoint="shield"/>
       </props>
-      <textures><texture file="skeletal/celt_su3_soldurii_3.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="E1">
+      <textures><texture file="skeletal/norse/archer/elite/norse_archer_e1.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="E2">
+      <textures><texture file="skeletal/norse/archer/elite/norse_archer_e2.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="E3">
+      <textures><texture file="skeletal/norse/archer/elite/norse_archer_e3.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="E4">
+      <textures><texture file="skeletal/norse/archer/elite/norse_archer_e4.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="E5">
+      <textures><texture file="skeletal/norse/archer/elite/norse_archer_e5.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="E6">
+      <textures><texture file="skeletal/norse/archer/elite/norse_archer_e6.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>
