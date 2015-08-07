@@ -88,7 +88,7 @@
     </variant>
   </group>
   <group>
-      <variant frequency="20" name="Cap_var">
+      <variant frequency="10" name="Cap_var">
       <props>
         <prop actor="props/units/helmets/norse_cap.xml" attachpoint="helmet"/>
       </props>
