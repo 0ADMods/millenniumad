@@ -40,7 +40,7 @@
       <mesh>skeletal/m_pants_tunic.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_celt.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/norse_round.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/norse_round_2.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/spear.xml" attachpoint="r_hand"/>
       </props>
     </variant>
@@ -120,6 +120,10 @@
     </variant>
     <variant frequency="1" name="A25">
       <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a25.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="4" name="FUR">
+      <textures><texture file="skeletal/norse/spearman/advanced/norse_spearman_a25.png" name="baseTex"/></textures>
+      <props><prop actor="props/units/cape_hd_pelt.xml" attachpoint="shoulders"/></props>
     </variant>
   </group>
     <group>
