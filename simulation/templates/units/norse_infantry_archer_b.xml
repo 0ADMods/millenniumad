@@ -6,6 +6,7 @@
       -structures/{civ}_fortress
       -structures/{civ}_wonder
       -structures/{civ}_defense_tower
+      -structures/{civ}_wooden_tower  
       -structures/{civ}_wallset_stone
     </Entities>
   </Builder>
