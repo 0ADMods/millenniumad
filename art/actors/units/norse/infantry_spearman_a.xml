@@ -143,7 +143,7 @@
     <variant name="attack_melee">
       <props>
         <prop actor="" attachpoint="l_hand"/>
-        <prop actor="props/units/shields/celt_scutum_a.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/norse_round_2.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/spear.xml" attachpoint="r_hand"/>
       </props>
     </variant>

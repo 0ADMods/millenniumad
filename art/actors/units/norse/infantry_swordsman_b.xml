@@ -76,18 +76,23 @@
       <textures><texture file="skeletal/norse/swordsman/basic/norse_swordsman_b6.png" name="baseTex"/></textures>
     </variant>
   </group>
-	<group>
-		<variant frequency="50" name="Cap_var">
-			<props>
-				<prop actor="props/units/helmets/norse_cap.xml" attachpoint="helmet"/>
-			</props>
-		</variant>
-		<variant frequency="20" name="helmet_var">
-			<props>
-				<prop actor="props/units/helmets/norse_helmet.xml" attachpoint="helmet"/>
-			</props>
-		</variant>
-	</group>
+  <group>
+      <variant frequency="50" name="Cap_var">
+      <props>
+        <prop actor="props/units/helmets/norse_cap.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="20" name="helmet_var">
+      <props>
+        <prop actor="props/units/helmets/norse_helmet.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="30" name="nohelmet_var">
+      <props>
+        <prop attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
   <group>
     <variant frequency="1" name="Idle"/>
     <variant name="gather_tree">

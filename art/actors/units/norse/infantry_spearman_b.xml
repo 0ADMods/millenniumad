@@ -76,13 +76,18 @@
         <prop actor="props/units/helmets/norse_helmet.xml" attachpoint="helmet"/>
       </props>
     </variant>
+    <variant frequency="30" name="nohelmet_var">
+      <props>
+        <prop attachpoint="helmet"/>
+      </props>
+    </variant>
   </group>
   <group>
     <variant frequency="100" name="Idle"/>
     <variant name="attack_melee">
       <props>
         <prop actor="" attachpoint="l_hand"/>
-        <prop actor="props/units/shields/celt_scutum_b.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/norse_round.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/spear.xml" attachpoint="r_hand"/>
       </props>
     </variant>
