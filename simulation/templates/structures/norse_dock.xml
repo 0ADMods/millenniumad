@@ -4,7 +4,7 @@
     <PopulationBonus>2</PopulationBonus>
   </Cost>
   <Footprint>
-    <Square width="12.0" depth="24.0"/>
+    <Square width="27.0" depth="29.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Health>
@@ -16,11 +16,11 @@
     <History></History>
   </Identity>
   <Obstruction>
-    <Static width="10.0" depth="22.0"/>
+    <Static width="24.0" depth="28.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/norse_hybrid_karvi
+      units/norse_warship_merchant_karvi
       units/norse_warship_snekkja
       units/norse_warship_drekar
     </Entities>
