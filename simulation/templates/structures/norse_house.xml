@@ -14,15 +14,15 @@
     </Ranged>
   </Attack>
   <BuildingAI>
-    <DefaultArrowCount>0</DefaultArrowCount>
+    <DefaultArrowCount>1</DefaultArrowCount>
     <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
   </BuildingAI>
   <BuildRestrictions>
     <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Cost>
-    <PopulationBonus>10</PopulationBonus>
-    <BuildTime>150</BuildTime>
+    <PopulationBonus>5</PopulationBonus>
+    <BuildTime>100</BuildTime>
     <Resources>
       <wood>200</wood>
     </Resources>
@@ -32,7 +32,7 @@
     <Height>10.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>10</Max>
+    <Max>5</Max>
     <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <List datatype="tokens">Support Infantry Cavalry</List>
