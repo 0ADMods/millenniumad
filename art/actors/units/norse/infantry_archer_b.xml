@@ -144,7 +144,6 @@
       <props>
         <prop actor="props/units/shuttle_basket.xml" attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
-        <prop attachpoint="helmet"/>
         <prop attachpoint="shield"/>
       </props>
     </variant>
@@ -152,7 +151,6 @@
       <props>
         <prop actor="props/units/shuttle_meat.xml" attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
-        <prop attachpoint="helmet"/>
         <prop attachpoint="shield"/>
       </props>
     </variant>
@@ -160,7 +158,6 @@
       <props>
         <prop actor="props/units/shuttle_wood.xml" attachpoint="r_hand"/>
         <prop actor="" attachpoint="l_hand"/>
-        <prop attachpoint="helmet"/>
         <prop attachpoint="shield"/>
       </props>
     </variant>
@@ -168,7 +165,6 @@
       <props>
         <prop actor="props/units/shuttle_stone.xml" attachpoint="r_hand"/>
         <prop actor="" attachpoint="l_hand"/>
-        <prop attachpoint="helmet"/>
         <prop attachpoint="shield"/>
       </props>
     </variant>
@@ -176,7 +172,6 @@
       <props>
         <prop actor="props/units/shuttle_metal.xml" attachpoint="r_hand"/>
         <prop actor="" attachpoint="l_hand"/>
-        <prop attachpoint="helmet"/>
         <prop attachpoint="shield"/>
       </props>
     </variant>

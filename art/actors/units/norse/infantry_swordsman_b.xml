@@ -100,7 +100,6 @@
         <prop actor="props/units/tools/axe.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
-        <prop attachpoint="helmet"/>
       </props>
     </variant>
     <variant name="gather_grain">
@@ -108,7 +107,6 @@
         <prop actor="props/units/tools/hoe.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
-        <prop attachpoint="helmet"/>
       </props>
     </variant>
     <variant name="gather_fruit">
@@ -116,12 +114,10 @@
         <prop actor="props/units/tools/basket.xml" attachpoint="l_leg"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
-        <prop attachpoint="helmet"/>
       </props>
     </variant>
     <variant name="gather_meat">
       <props>
-        <prop attachpoint="helmet"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
         <prop actor="props/units/tools/basket.xml" attachpoint="l_leg"/>
@@ -132,7 +128,6 @@
         <prop actor="props/units/tools/pick.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
-        <prop attachpoint="helmet"/>
       </props>
     </variant>
     <variant name="gather_ore">
@@ -140,7 +135,6 @@
         <prop actor="props/units/tools/pick.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
-        <prop attachpoint="helmet"/>
       </props>
     </variant>
     <variant name="gather_ruins">
@@ -148,7 +142,6 @@
         <prop actor="props/units/tools/pick.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
-        <prop attachpoint="helmet"/>
       </props>
     </variant>
     <variant name="Build">
@@ -156,14 +149,12 @@
         <prop actor="props/units/tools/mallet.xml" attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
         <prop attachpoint="shield"/>
-        <prop attachpoint="helmet"/>
       </props>
     </variant>
     <variant name="carry_food">
       <props>
         <prop actor="props/units/shuttle_basket.xml" attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
-        <prop attachpoint="helmet"/>
         <prop attachpoint="shield"/>
       </props>
     </variant>
@@ -171,7 +162,6 @@
       <props>
         <prop actor="props/units/shuttle_meat.xml" attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
-        <prop attachpoint="helmet"/>
         <prop attachpoint="shield"/>
       </props>
     </variant>
@@ -179,7 +169,6 @@
       <props>
         <prop actor="props/units/shuttle_wood.xml" attachpoint="r_hand"/>
         <prop actor="" attachpoint="l_hand"/>
-        <prop attachpoint="helmet"/>
         <prop attachpoint="shield"/>
       </props>
     </variant>
@@ -187,7 +176,6 @@
       <props>
         <prop actor="props/units/shuttle_stone.xml" attachpoint="r_hand"/>
         <prop actor="" attachpoint="l_hand"/>
-        <prop attachpoint="helmet"/>
         <prop attachpoint="shield"/>
       </props>
     </variant>
@@ -195,7 +183,6 @@
       <props>
         <prop actor="props/units/shuttle_metal.xml" attachpoint="r_hand"/>
         <prop actor="" attachpoint="l_hand"/>
-        <prop attachpoint="helmet"/>
         <prop attachpoint="shield"/>
       </props>
     </variant>
