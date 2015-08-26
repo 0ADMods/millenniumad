@@ -11,6 +11,6 @@
     <Icon>units/celt_support_trader.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/celts/trader.xml</Actor>
+    <Actor>units/norse/trader.xml</Actor>
   </VisualActor>
 </Entity>
