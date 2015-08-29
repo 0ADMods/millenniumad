@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Cape Black">
+      <textures>
+        <texture file="props/cape_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="25" name="Cape-Ragged">
+      <mesh>props/cape_hd_ragged.dae</mesh>
+    </variant>
+    <variant frequency="25" name="Cape-Long">
+      <mesh>props/cape_hd_long.dae</mesh>
+    </variant>
+    <variant frequency="75" name="Cape-Medium">
+      <mesh>props/cape_hd_medium.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="25" name="Color1_Brown">
+      <color>218 202 201</color>
+    </variant>
+    <variant frequency="25" name="Color2_Brown">
+      <color>167 126 124</color>
+    </variant>
+    <variant frequency="25" name="Color3_Brown">
+      <color>112 78 75</color>
+    </variant>
+    <variant frequency="25" name="Color1_Green">
+      <color>207 218 210</color>
+    </variant>
+    <variant frequency="25" name="Color2_Green">
+      <color>134 162 141</color>
+    </variant>
+    <variant frequency="25" name="Color3_Green">
+      <color>89 115 96</color>
+    </variant>
+  </group>
+  <material>objectcolor.xml</material>
+</actor>

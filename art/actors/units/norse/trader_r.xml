@@ -16,6 +16,20 @@
     </variant>
   </group>
   <group>
+    <variant frequency="1" name="backpack">
+      <props>
+        <prop actor="props/units/backpack_celt.xml" attachpoint="back"/>
+        <prop actor="" attachpoint="shoulders"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="cape">
+      <props>
+        <prop actor="" attachpoint="back"/>
+        <prop actor="props/units/cape_b.xml" attachpoint="shoulders"/>
+      </props>
+    </variant>
+  </group>
+  <group>
     <variant frequency="1" name="1">
       <textures><texture file="skeletal/norse/trader/trader_1.png" name="baseTex"/></textures>
     </variant>
