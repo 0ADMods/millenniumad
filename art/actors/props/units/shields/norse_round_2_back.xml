@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="1" name="A">
+			<textures><texture file="props/shields/raven-black_shield-player.png" name="baseTex"/></textures>
+		</variant>
+		<variant frequency="1" name="B">
+			<textures><texture file="props/shields/raven-player_shield-white.png" name="baseTex"/></textures>
+		</variant>
+		<variant frequency="1" name="C">
+			<textures><texture file="props/shields/shield07_a-player_b-black.png" name="baseTex"/></textures>
+		</variant>
+		<variant frequency="1" name="D">
+			<textures><texture file="props/shields/shield07_a-player_b-white.png" name="baseTex"/></textures>
+		</variant>
+	</group>  
+	<group>
+		<variant frequency="1" name="shield-E">
+			<mesh>props/shield_norse_round_e_back.dae</mesh>
+		</variant>
+	</group>
+	<material>player_trans.xml</material>
+</actor>
