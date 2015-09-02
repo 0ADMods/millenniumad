@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>props/weap_norse_spear_banner.dae</mesh>
+      <textures><texture file="props/prop_weap.dds" name="baseTex"/></textures>
+      <props>
+      	<prop actor="props/units/weapons/banner_spear.xml" attachpoint="banner"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_spec.xml</material>
+</actor>
+
+
+
