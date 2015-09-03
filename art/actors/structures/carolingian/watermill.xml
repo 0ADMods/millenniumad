@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="100" name="Carolingian StoreHouse">
+			<mesh>structural/caro_watermill.dae</mesh>
+			<textures>
+				<texture file="structural/caro_struct.png" name="baseTex"/>
+				<texture file="structural/ao/caro_watermill_ao.png" name="aoTex"/>
+			</textures>
+			<props>
+				<prop actor="particle/smoke_curved.xml" attachpoint="smoke"/>
+				<prop actor="props/structures/carolingian/caro_watermill_wheel.xml" attachpoint="root"/>
+			</props>
+		</variant>
+	</group>
+	<material>player_trans_ao.xml</material>
+</actor>

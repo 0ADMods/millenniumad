@@ -11,7 +11,7 @@
 				<animation event=".5" file="quadraped/horse_idle_a.psa" name="attack_melee" speed="20"/>
 				<animation file="quadraped/horse_death.psa" name="Death" speed="240"/>
 			</animations>
-			<mesh>skeletal/horse.pmd</mesh>
+			<mesh>skeletal/horse_new.dae</mesh>
 			<props>
 				<prop actor="units/caro/cavalry_spearman_a_r.xml" attachpoint="rider"/>
 			</props>

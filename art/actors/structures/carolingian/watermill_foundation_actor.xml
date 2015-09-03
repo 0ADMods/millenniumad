@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="1" name="foundation 4x4 a">
+			<mesh>structural/found_4x4_a.dae</mesh>
+			<textures>
+				<texture file="structural/foundation.dds" name="baseTex"/>
+			</textures>		
+		</variant>
+		<variant frequency="1" name="foundation 4x4 b">
+			<mesh>structural/found_4x4_b.dae</mesh>
+			<textures>
+				<texture file="structural/foundation.dds" name="baseTex"/>
+			</textures>		
+		</variant>
+	</group>
+	<group>
+		<variant frequency="1" name="Idle">
+		</variant>
+		<variant name="scaffold">
+			<props>
+				<prop actor="props/structures/carolingian/watermill_foundation.xml" attachpoint="root"/>
+				<prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+				<prop actor="particle/construction_dust.xml" attachpoint="root"/>
+			</props>
+		</variant>
+	</group>
+	<material>basic_trans.xml</material>
+</actor>
