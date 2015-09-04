@@ -24,6 +24,9 @@
       units/norse_warship_snekkja
       units/norse_warship_drekar
     </Entities>
+    <Technologies datatype="tokens">
+      norse/speed_ships_clinker
+    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/norse/dock.xml</Actor>

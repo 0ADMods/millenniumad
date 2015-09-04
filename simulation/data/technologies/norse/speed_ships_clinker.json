@@ -1,0 +1,13 @@
+{
+	"genericName": "Clinker construction",
+	"description": "Increases movement speed of ships",
+	"cost": {"food": 0, "wood": 500, "stone": 0, "metal": 200},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "clinker.png",
+	"researchTime": 40,
+	"tooltip": "Ships +10% Movement Speed",
+	"modifications": [{"value": "UnitMotion/WalkSpeed", "multiply": 1.25}],
+	"affects": ["Ship"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
