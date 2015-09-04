@@ -53,7 +53,7 @@
     </VisibleClasses>
   </Identity>
   <Obstruction>
-    <Static width="32.0" depth="16.0"/>
+    <Static width="30.0" depth="16.0"/>
   </Obstruction>
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
