@@ -12,6 +12,6 @@
     	<GainMultiplier>1.0</GainMultiplier>
   	</Trader>
   	<VisualActor>
-    	<Actor>structures/celts/skiff.xml</Actor>
+    	<Actor>structures/norse/karvi.xml</Actor>
   	</VisualActor>
 </Entity>
