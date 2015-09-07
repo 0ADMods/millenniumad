@@ -73,7 +73,7 @@
     <Range>40</Range>
   </Vision>  
   <VisualActor>
-    <Actor>structures/norse/longhouse.xml</Actor>
+    <Actor>structures/norse/house.xml</Actor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>
