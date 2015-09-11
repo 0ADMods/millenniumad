@@ -5,8 +5,8 @@
   <group>
      <variant frequency="1" name="Norse Longboat">
       <animations>
-        <animation file="mechanical/norse_snekkja_move.dae" name="Walk" speed="6"/>
-        <animation file="mechanical/norse_snekkja_move.dae" name="Run" speed="8"/>
+        <animation file="mechanical/norse_snekkja_move.dae" name="Walk" speed="18"/>
+        <animation file="mechanical/norse_snekkja_move.dae" name="Run" speed="24"/>
       </animations>
       <mesh>structural/norse_snekkja.dae</mesh>
       <props>
