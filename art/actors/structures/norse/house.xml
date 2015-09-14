@@ -2,7 +2,7 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant frequency="100" name="Norse House A">
+		<variant frequency="33" name="Norse House A">
 			<mesh>structural/norse_house_a.dae</mesh>
 			<textures>
 				<texture file="structural/norse_struct.png" name="baseTex"/>
@@ -16,7 +16,7 @@
 				<prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
 			</props>
 		</variant>
-		<variant frequency="100" name="Norse House B">
+		<variant frequency="33" name="Norse House B">
 			<mesh>structural/norse_house_b.dae</mesh>
 			<textures>
 				<texture file="structural/norse_struct.png" name="baseTex"/>
@@ -30,7 +30,7 @@
 				<prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
 			</props>
 		</variant>
-		<variant frequency="100" name="Norse House C">
+		<variant frequency="33" name="Norse House C">
 			<mesh>structural/norse_house_c.dae</mesh>
 			<textures>
 				<texture file="structural/norse_struct.png" name="baseTex"/>
@@ -56,5 +56,5 @@
   			</props>
    		</variant>
   	</group>
- 	<material>player_trans_parallax_spec.xml</material>
+ 	<material>player_trans_ao_parallax_spec.xml</material>
 </actor>
