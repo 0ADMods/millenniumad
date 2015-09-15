@@ -28,7 +28,7 @@
     </Resources>
   </Cost>
   <Footprint replace="">
-    <Square width="16.0" depth="16.0"/>
+    <Square width="15.0" depth="15.0"/>
     <Height>10.0</Height>
   </Footprint>
   <GarrisonHolder>
@@ -49,7 +49,7 @@
     <History>Later Celts constructed larger dwellings, called long houses, which could house more than one family.</History>
   </Identity>
   <Obstruction>
-    <Static width="16.0" depth="16.0"/>
+    <Static width="14.0" depth="14.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
