@@ -4,12 +4,12 @@
 	<group>
 		<variant frequency="100" name="Base">
 			<animations>
-				<animation file="quadraped/horse_idle_a.psa" name="Idle" speed="50"/>
-				<animation file="quadraped/horse_walk.psa" name="Walk" speed="120"/>
-				<animation file="quadraped/horse_gallop.psa" name="Run" speed="50"/>
-				<animation file="quadraped/horse_walk.psa" name="carry_meat" speed="120"/>
-				<animation event=".5" file="quadraped/horse_idle_a.psa" name="attack_melee" speed="20"/>
-				<animation file="quadraped/horse_death.psa" name="Death" speed="240"/>
+				<animation file="quadraped/horse_new_idle_a.dae" name="Idle" speed="20"/>
+				<animation file="quadraped/horse_new_walk.dae" name="Walk" speed="120"/>
+				<animation file="quadraped/horse_new_gallop.dae" name="Run" speed="50"/>
+				<animation file="quadraped/horse_new_walk.dae" name="carry_meat" speed="120"/>
+				<animation event=".5" file="quadraped/horse_new_idle_a.dae" name="attack_melee" speed="20"/>
+				<animation file="quadraped/horse_new_die.dae" name="Death" speed="240"/>
 			</animations>
 			<mesh>skeletal/horse_new.dae</mesh>
 			<props>
