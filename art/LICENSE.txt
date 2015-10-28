@@ -1,4 +1,4 @@
-This files in this directory are copyright (C) 2015 The Council of Modders.
+This files in this directory are copyright (C) 2015 The Council of Modders, Fallen Empire Studio, Scion Development.
 
 If not noted otherwise then the files are licensed under the Creative Commons Attribution-Share Alike 3.0
 (CC-BY-SA) license, available at http://creativecommons.org/licenses/by-sa/3.0/
@@ -12,7 +12,7 @@ Briefly, this means:
   in the credits screen of a game or a video, or in a text file accompanying
   the files). The attribution must include:
   * A link to http://creativecommons.org/licenses/by-sa/3.0/
-  * The name "The Council of Modders" as the original authors
+  * The name "The Council of Modders, Fallen Empire Studio, Scion Development" as the original authors
   * A link to http://www.wildfiregames.com/
 
 * If you distribute one of these files, you must release it (and any
