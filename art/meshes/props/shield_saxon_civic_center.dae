@@ -2,11 +2,11 @@
 <COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
   <asset>
     <contributor>
-      <author>Blender User</author>
+      <author>Stanislas Daniel Claude Dolcini</author>
       <authoring_tool>Blender 2.76.0 commit date:2015-10-11, commit time:06:55, hash:48f7dd6</authoring_tool>
     </contributor>
-    <created>2015-11-10T15:00:14</created>
-    <modified>2015-11-10T15:00:14</modified>
+    <created>2015-11-10T23:19:23</created>
+    <modified>2015-11-10T23:19:23</modified>
     <unit name="centimeter" meter="0.01"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -93,7 +93,7 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="default_000" name="default_000" type="NODE">
-        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <matrix sid="transform">-1 -1.50996e-7 0 0 1.50996e-7 -1 0 0 0 0 1 0 0 0 0 1</matrix>
         <instance_geometry url="#longboat_001-mesh" name="default_000">
           <bind_material>
             <technique_common>
