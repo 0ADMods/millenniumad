@@ -13,7 +13,7 @@
 			</animations>
 			<mesh>skeletal/horse.dae</mesh>
 			<props>
-				<prop actor="units/caro/cavalry_spearman_b_r.xml" attachpoint="rider"/>
+				<prop actor="units/caro/cavalry_spearman_a_r.xml" attachpoint="rider"/>
 			</props>
 		</variant>
 	</group>
