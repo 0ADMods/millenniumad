@@ -4,16 +4,16 @@
 	<group>
 		<variant frequency="100" name="Base">
 			<animations>
-				<animation file="quadraped/horse_new_idle_a.dae" name="Idle" speed="20"/>
-				<animation file="quadraped/horse_new_walk.dae" name="Walk" speed="120"/>
-				<animation file="quadraped/horse_new_gallop.dae" name="Run" speed="50"/>
-				<animation file="quadraped/horse_new_walk.dae" name="carry_meat" speed="120"/>
-				<animation event=".5" file="quadraped/horse_new_idle_a.dae" name="attack_melee" speed="20"/>
-				<animation file="quadraped/horse_new_die.dae" name="Death" speed="240"/>
+				<animation file="quadraped/horse_idle_a.dae" name="Idle" speed="20"/>
+				<animation file="quadraped/horse_walk.dae" name="Walk" speed="120"/>
+				<animation file="quadraped/horse_gallop.dae" name="Run" speed="50"/>
+				<animation file="quadraped/horse_walk.dae" name="carry_meat" speed="120"/>
+				<animation event=".5" file="quadraped/horse_idle_a.dae" name="attack_melee" speed="20"/>
+				<animation file="quadraped/horse_death.dae" name="Death" speed="240"/>
 			</animations>
-			<mesh>skeletal/horse_new.dae</mesh>
+			<mesh>skeletal/horse.dae</mesh>
 			<props>
-				<prop actor="units/caro/cavalry_spearman_a_r.xml" attachpoint="rider"/>
+				<prop actor="units/caro/cavalry_spearman_b_r.xml" attachpoint="rider"/>
 			</props>
 		</variant>
 	</group>

@@ -5,7 +5,7 @@
 		<variant frequency="100" name="Carolingian House A">
 			<mesh>structural/caro_church.dae</mesh>
 			<textures>
-			<texture file="structural/caro_struct.png" name="baseTex"/>
+				<texture file="structural/caro_struct.png" name="baseTex"/>
 			</textures>
 		</variant>
 	</group>
