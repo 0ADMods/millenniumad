@@ -37,16 +37,6 @@
         <texture file="props/shields/rusty_iron_triswirl_black.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="25" name="3_iron_raven">
-      <textures>
-        <texture file="props/shields/iron_raven.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="25" name="3_rusty_iron_raven">
-      <textures>
-        <texture file="props/shields/rusty_iron_raven.png" name="baseTex"/>
-      </textures>
-    </variant>
     <variant frequency="25" name="4_iron_tiwaz">
       <textures>
         <texture file="props/shields/iron_tiwaz.png" name="baseTex"/>
