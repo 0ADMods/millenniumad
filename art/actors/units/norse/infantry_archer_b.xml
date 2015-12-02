@@ -126,11 +126,6 @@
         <prop actor="props/units/helmets/norse_cap.xml" attachpoint="helmet"/>
       </props>
     </variant>
-    <variant frequency="0" name="Helmet">
-      <props>
-        <prop actor="props/units/helmets/norse_helmet.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
     <variant frequency="75" name="None">
       <props>
         <prop attachpoint="helmet"/>

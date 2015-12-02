@@ -106,17 +106,6 @@
       <props>
         <prop actor="props/units/helmets/norse_helmet.xml" attachpoint="helmet"/>
       </props>
-    </variant>
-    <variant frequency="0" name="Cape">
-      <props>
-        <prop actor="props/units/cape_b.xml" attachpoint="shoulders"/>
-      </props>
-    </variant>
-    <variant frequency="0" name="Cloak">
-      <props>
-        <prop actor="props/units/cape_hd_pelt.xml" attachpoint="shoulders"/>
-      </props>
-    </variant>
     <variant frequency="50" name="Helmet + Cape">
       <props>
         <prop actor="props/units/helmets/norse_helmet.xml" attachpoint="helmet"/>
