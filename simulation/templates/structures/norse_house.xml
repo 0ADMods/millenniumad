@@ -28,7 +28,7 @@
     </Resources>
   </Cost>
   <Footprint replace="">
-    <Square width="8.0" depth="12.0"/>
+    <Square width="15.0" depth="15.0"/>
     <Height>10.0</Height>
   </Footprint>
   <GarrisonHolder>
@@ -39,17 +39,22 @@
     <BuffHeal>1</BuffHeal>
     <LoadingRange>1</LoadingRange>
   </GarrisonHolder>
+  <BuildRestrictions>
+    <Category>Longhouse</Category>
+  </BuildRestrictions>
   <Health>
     <Max>1000</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
+    <Classes datatype="tokens">Longhouse</Classes>
+    <VisibleClasses datatype="tokens">Longhouse</VisibleClasses>
     <Civ>norse</Civ>
     <SpecificName>Longhouse</SpecificName>
     <History>Later Celts constructed larger dwellings, called long houses, which could house more than one family.</History>
   </Identity>
   <Obstruction>
-    <Static width="8.0" depth="12.0"/>
+    <Static width="14.0" depth="14.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
@@ -73,7 +78,7 @@
     <Range>40</Range>
   </Vision>  
   <VisualActor>
-    <Actor>structures/norse/longhouse.xml</Actor>
+    <Actor>structures/norse/house.xml</Actor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

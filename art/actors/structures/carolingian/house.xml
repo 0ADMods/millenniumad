@@ -2,7 +2,7 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant frequency="100" name="Carolingian House A">
+		<variant frequency="50" name="Carolingian House A">
 			<mesh>structural/caro_house_a.dae</mesh>
 			<textures>
 			<texture file="structural/caro_struct.png" name="baseTex"/>
@@ -12,7 +12,7 @@
 				<prop actor="particle/smoke_curved.xml" attachpoint="smoke"/>
 			</props>
 		</variant>
-		<variant frequency="100" name="Carolingian House B">
+		<variant frequency="50" name="Carolingian House B">
 			<mesh>structural/caro_house_b.dae</mesh>
 			<textures>
 			<texture file="structural/caro_struct.png" name="baseTex"/>
