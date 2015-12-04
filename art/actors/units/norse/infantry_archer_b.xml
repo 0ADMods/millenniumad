@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="25" name="Shorthair">
+    <variant frequency="40" name="Shorthair">
       <animations>
         <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="100"/>
         <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="97"/>
@@ -37,7 +37,7 @@
         <prop actor="props/units/quiver_back.xml" attachpoint="back"/>
       </props>
     </variant>
-    <variant frequency="75" name="Longhair">
+    <variant frequency="60" name="Longhair">
       <animations>
         <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="100"/>
         <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="97"/>

@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="25" name="Shorthair">
+    <variant frequency="40" name="Shorthair">
       <animations>
         <animation file="infantry/spear/idle/isp_01.psa" name="Idle" speed="200"/>
         <animation file="biped/walk_spearshield.psa" name="Walk" speed="120"/>
@@ -44,7 +44,7 @@
         <prop actor="props/units/weapons/spear.xml" attachpoint="r_hand"/>
       </props>
     </variant>
-    <variant frequency="75" name="Longhair">
+    <variant frequency="60" name="Longhair">
       <animations>
         <animation file="infantry/spear/idle/isp_01.psa" name="Idle" speed="200"/>
         <animation file="biped/walk_spearshield.psa" name="Walk" speed="120"/>

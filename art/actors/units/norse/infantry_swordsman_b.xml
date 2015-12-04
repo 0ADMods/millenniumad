@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="25" name="Shorthair">
+    <variant frequency="40" name="Shorthair">
       <animations>
         <animation file="biped/inf_sword_ready_e.dae" name="Idle" speed="100"/>
         <animation file="biped/inf_sword_ready_e.dae" name="Idle" speed="90"/>
@@ -55,7 +55,7 @@
         <prop actor="props/units/weapons/norse_axe.xml" attachpoint="r_hand"/>
       </props>
     </variant>
-    <variant frequency="75" name="Longhair">
+    <variant frequency="60" name="Longhair">
       <animations>
         <animation file="biped/inf_sword_ready_e.dae" name="Idle" speed="100"/>
         <animation file="biped/inf_sword_ready_e.dae" name="Idle" speed="90"/>
@@ -160,11 +160,6 @@
     <variant frequency="50" name="Cap">
       <props>
         <prop actor="props/units/helmets/norse_cap.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="0" name="Helmet">
-      <props>
-        <prop actor="props/units/helmets/norse_helmet.xml" attachpoint="helmet"/>
       </props>
     </variant>
     <variant frequency="75" name="None">
