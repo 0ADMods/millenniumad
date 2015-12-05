@@ -2,12 +2,23 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="100" name="Base">
+    <variant frequency="25" name="Norse">
       <mesh>props/norse_cap.dae</mesh>
       <textures>
         <texture file="props/norse_cap.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
-  <material>basic_trans.xml</material>
+  <group>
+    <variant frequency="25" name="Dark Brown">
+      <color>95 77 63</color>
+    </variant>
+    <variant frequency="25" name="Dark Green">
+      <color>87 94 74</color>
+    </variant>
+    <variant frequency="25" name="Black">
+      <color>41 41 41</color>
+    </variant>
+  </group>
+  <material>objectcolor.xml</material>
 </actor>

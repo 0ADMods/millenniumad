@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Cape">
+      <textures>
+        <texture file="props/cape_player_bright.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="75" name="Cape-Medium">
+      <mesh>props/cape_hd_long.dae</mesh>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

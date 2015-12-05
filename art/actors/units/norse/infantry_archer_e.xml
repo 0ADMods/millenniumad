@@ -32,32 +32,77 @@
       </animations>
       <mesh>skeletal/m_pants_celt.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/norse_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/head_celt.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/bow_long.xml" attachpoint="l_hand"/>
         <prop actor="props/units/quiver_back.xml" attachpoint="back"/>
-        <prop actor="props/units/shields/norse_round_2.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/norse_archer_e.xml" attachpoint="shield"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="E1">
-      <textures><texture file="skeletal/norse/archer/elite/norse_archer_e1.png" name="baseTex"/></textures>
+    <variant frequency="75" name="Chainmail1a">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail1a.png" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="1" name="E2">
-      <textures><texture file="skeletal/norse/archer/elite/norse_archer_e2.png" name="baseTex"/></textures>
+    <variant frequency="75" name="Chainmail1b">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail1b.png" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="1" name="E3">
-      <textures><texture file="skeletal/norse/archer/elite/norse_archer_e3.png" name="baseTex"/></textures>
+    <variant frequency="75" name="Chainmail1c">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail1c.png" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="1" name="E4">
-      <textures><texture file="skeletal/norse/archer/elite/norse_archer_e4.png" name="baseTex"/></textures>
+    <variant frequency="75" name="Chainmail5c">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail5c.png" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="1" name="E5">
-      <textures><texture file="skeletal/norse/archer/elite/norse_archer_e5.png" name="baseTex"/></textures>
+    <variant frequency="75" name="Chainmail5c">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail5c.png" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="1" name="E6">
-      <textures><texture file="skeletal/norse/archer/elite/norse_archer_e6.png" name="baseTex"/></textures>
+    <variant frequency="75" name="Chainmail5c">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail5c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="75" name="Chainmail6c">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail6c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="75" name="Chainmail6c">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail6c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="75" name="Chainmail6c">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail6c.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="75" name="Helmet">
+      <props>
+        <prop actor="props/units/helmets/norse_helmet.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="50" name="Helmet + Cape">
+      <props>
+        <prop actor="props/units/helmets/norse_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/cape_b.xml" attachpoint="shoulders"/>
+      </props>
+    </variant>
+    <variant frequency="50" name="Helmet + Cloak">
+      <props>
+        <prop actor="props/units/helmets/norse_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/cape_hd_pelt.xml" attachpoint="shoulders"/>
+      </props>
     </variant>
   </group>
   <group>
@@ -71,100 +116,128 @@
     </variant>
     <variant name="attack_slaughter">
       <props>
+        <prop attachpoint="helmet"/>
         <prop actor="props/units/weapons/knife.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/shields/norse_archer_e_back.xml" attachpoint="back"/>
       </props>
     </variant>
     <variant name="gather_tree">
       <props>
+        <prop attachpoint="helmet"/>
         <prop actor="props/units/tools/axe.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
+        <prop actor="props/units/shields/norse_archer_e_back.xml" attachpoint="back"/>
       </props>
     </variant>
     <variant name="gather_grain">
       <props>
+        <prop attachpoint="helmet"/>
         <prop actor="props/units/tools/hoe.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
+        <prop actor="props/units/shields/norse_archer_e_back.xml" attachpoint="back"/>
       </props>
     </variant>
     <variant name="gather_fruit">
       <props>
+        <prop attachpoint="helmet"/>
         <prop actor="props/units/tools/basket.xml" attachpoint="l_leg"/>
         <prop attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
+        <prop actor="props/units/shields/norse_archer_e_back.xml" attachpoint="back"/>
       </props>
     </variant>
     <variant name="gather_meat">
       <props>
+        <prop attachpoint="helmet"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
         <prop actor="props/units/tools/basket.xml" attachpoint="l_leg"/>
         <prop attachpoint="shield"/>
+        <prop actor="props/units/shields/norse_archer_e_back.xml" attachpoint="back"/>
       </props>
     </variant>
     <variant name="gather_rock">
       <props>
+        <prop attachpoint="helmet"/>
         <prop actor="props/units/tools/pick.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
+        <prop actor="props/units/shields/norse_archer_e_back.xml" attachpoint="back"/>
       </props>
     </variant>
     <variant name="gather_ore">
       <props>
+        <prop attachpoint="helmet"/>
         <prop actor="props/units/tools/pick.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
+        <prop actor="props/units/shields/norse_archer_e_back.xml" attachpoint="back"/>
       </props>
     </variant>
     <variant name="gather_ruins">
       <props>
+        <prop attachpoint="helmet"/>
         <prop actor="props/units/tools/pick.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="shield"/>
+        <prop actor="props/units/shields/norse_archer_e_back.xml" attachpoint="back"/>
       </props>
     </variant>
     <variant name="Build">
       <props>
+        <prop attachpoint="helmet"/>
         <prop actor="props/units/tools/mallet.xml" attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
         <prop attachpoint="shield"/>
+        <prop actor="props/units/shields/norse_archer_e_back.xml" attachpoint="back"/>
       </props>
     </variant>
     <variant name="carry_food">
       <props>
+        <prop attachpoint="helmet"/>
         <prop actor="props/units/shuttle_basket.xml" attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
         <prop attachpoint="shield"/>
+        <prop actor="props/units/shields/norse_archer_e_back.xml" attachpoint="back"/>
       </props>
     </variant>
     <variant name="carry_meat">
       <props>
+        <prop attachpoint="helmet"/>
         <prop actor="props/units/shuttle_meat.xml" attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
         <prop attachpoint="shield"/>
+        <prop actor="props/units/shields/norse_archer_e_back.xml" attachpoint="back"/>
       </props>
     </variant>
     <variant name="carry_wood">
       <props>
+        <prop attachpoint="helmet"/>
         <prop actor="props/units/shuttle_wood.xml" attachpoint="r_hand"/>
         <prop actor="" attachpoint="l_hand"/>
         <prop attachpoint="shield"/>
+        <prop actor="props/units/shields/norse_archer_e_back.xml" attachpoint="back"/>
       </props>
     </variant>
     <variant name="carry_stone">
       <props>
+        <prop attachpoint="helmet"/>
         <prop actor="props/units/shuttle_stone.xml" attachpoint="r_hand"/>
         <prop actor="" attachpoint="l_hand"/>
         <prop attachpoint="shield"/>
+        <prop actor="props/units/shields/norse_archer_e_back.xml" attachpoint="back"/>
       </props>
     </variant>
     <variant name="carry_metal">
       <props>
+        <prop attachpoint="helmet"/>
         <prop actor="props/units/shuttle_metal.xml" attachpoint="r_hand"/>
         <prop actor="" attachpoint="l_hand"/>
         <prop attachpoint="shield"/>
+        <prop actor="props/units/shields/norse_archer_e_back.xml" attachpoint="back"/>
       </props>
     </variant>
   </group>

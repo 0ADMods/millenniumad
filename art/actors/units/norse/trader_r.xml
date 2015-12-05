@@ -30,14 +30,35 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="1">
-      <textures><texture file="skeletal/norse/trader/trader_1.png" name="baseTex"/></textures>
+    <variant frequency="25" name="transparent_shirt1">
+      <textures>
+        <texture file="skeletal/norse/advanced/transparent_shirt1.png" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="1" name="2">
-      <textures><texture file="skeletal/norse/trader/trader_2.png" name="baseTex"/></textures>
+    <variant frequency="25" name="transparent_shirt2">
+      <textures>
+        <texture file="skeletal/norse/advanced/transparent_shirt2.png" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="1" name="3">
-      <textures><texture file="skeletal/norse/trader/trader_3.png" name="baseTex"/></textures>
+    <variant frequency="25" name="transparent_shirt3">
+      <textures>
+        <texture file="skeletal/norse/advanced/transparent_shirt3.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="25" name="footwraps1">
+      <textures>
+        <texture file="skeletal/norse/advanced/footwraps1.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="25" name="footwraps2">
+      <textures>
+        <texture file="skeletal/norse/advanced/footwraps2.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="25" name="footwraps3">
+      <textures>
+        <texture file="skeletal/norse/advanced/footwraps3.png" name="baseTex"/>
+      </textures>
     </variant>
   </group>
   <material>player_trans.xml</material>

@@ -33,7 +33,6 @@
       </animations>
       <mesh>skeletal/m_pants_celt.dae</mesh>
       <props>
-
         <prop actor="props/units/heads/head_celt.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/bow_long.xml" attachpoint="l_hand"/>
         <prop actor="props/units/quiver_back.xml" attachpoint="back"/>
@@ -41,61 +40,82 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="A1">
-      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a1.png" name="baseTex"/></textures>
+    <variant frequency="25" name="transparent_shirt1">
+      <textures>
+        <texture file="skeletal/norse/advanced/transparent_shirt1.png" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="1" name="A2">
-      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a2.png" name="baseTex"/></textures>
+    <variant frequency="25" name="transparent_shirt2">
+      <textures>
+        <texture file="skeletal/norse/advanced/transparent_shirt2.png" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="1" name="A3">
-      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a3.png" name="baseTex"/></textures>
+    <variant frequency="25" name="transparent_shirt3">
+      <textures>
+        <texture file="skeletal/norse/advanced/transparent_shirt3.png" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="1" name="A4">
-      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a4.png" name="baseTex"/></textures>
+    <variant frequency="25" name="footwraps1">
+      <textures>
+        <texture file="skeletal/norse/advanced/footwraps1.png" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="1" name="A5">
-      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a5.png" name="baseTex"/></textures>
+    <variant frequency="25" name="footwraps2">
+      <textures>
+        <texture file="skeletal/norse/advanced/footwraps2.png" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="1" name="A6">
-      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a6.png" name="baseTex"/></textures>
+    <variant frequency="25" name="footwraps3">
+      <textures>
+        <texture file="skeletal/norse/advanced/footwraps3.png" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="1" name="A7">
-      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a7.png" name="baseTex"/></textures>
+    <variant frequency="25" name="padded1">
+      <textures>
+        <texture file="skeletal/norse/advanced/padded1.png" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="1" name="A8">
-      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a8.png" name="baseTex"/></textures>
+    <variant frequency="25" name="padded2">
+      <textures>
+        <texture file="skeletal/norse/advanced/padded2.png" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="1" name="A9">
-      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a9.png" name="baseTex"/></textures>
+    <variant frequency="25" name="padded3">
+      <textures>
+        <texture file="skeletal/norse/advanced/padded3.png" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="1" name="A10">
-      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a10.png" name="baseTex"/></textures>
+    <variant frequency="25" name="padded_footwraps1">
+      <textures>
+        <texture file="skeletal/norse/advanced/padded_footwraps1.png" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="1" name="A11">
-      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a11.png" name="baseTex"/></textures>
+    <variant frequency="25" name="padded_footwraps2">
+      <textures>
+        <texture file="skeletal/norse/advanced/padded_footwraps2.png" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="1" name="A12">
-      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a12.png" name="baseTex"/></textures>
-    </variant>
-    <variant frequency="1" name="A13">
-      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a13.png" name="baseTex"/></textures>
-    </variant>
-    <variant frequency="1" name="A14">
-      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a14.png" name="baseTex"/></textures>
-    </variant>
-    <variant frequency="1" name="A15">
-      <textures><texture file="skeletal/norse/archer/advanced/norse_archer_a15.png" name="baseTex"/></textures>
+    <variant frequency="25" name="padded_footwraps3">
+      <textures>
+        <texture file="skeletal/norse/advanced/padded_footwraps3.png" name="baseTex"/>
+      </textures>
     </variant>
   </group>
   <group>
-      <variant frequency="10" name="Cap_var">
-      <props>
-        <prop actor="props/units/helmets/norse_cap.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="50" name="helmet_var">
+    <variant frequency="75" name="Helmet">
       <props>
         <prop actor="props/units/helmets/norse_helmet.xml" attachpoint="helmet"/>
+      </props>
+    <variant frequency="50" name="Helmet + Cape">
+      <props>
+        <prop actor="props/units/helmets/norse_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/cape_b.xml" attachpoint="shoulders"/>
+      </props>
+    </variant>
+    <variant frequency="50" name="Helmet + Cloak">
+      <props>
+        <prop actor="props/units/helmets/norse_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/cape_hd_pelt.xml" attachpoint="shoulders"/>
       </props>
     </variant>
   </group>
@@ -110,23 +130,27 @@
     </variant>
     <variant name="attack_slaughter">
       <props>
+        <prop attachpoint="helmet"/>
         <prop actor="props/units/weapons/knife.xml" attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="gather_tree">
       <props>
+        <prop attachpoint="helmet"/>
         <prop actor="props/units/tools/axe.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="gather_grain">
       <props>
+        <prop attachpoint="helmet"/>
         <prop actor="props/units/tools/hoe.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="gather_fruit">
       <props>
+        <prop attachpoint="helmet"/>
         <prop actor="props/units/tools/basket.xml" attachpoint="l_leg"/>
         <prop attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
@@ -134,6 +158,7 @@
     </variant>
     <variant name="gather_meat">
       <props>
+        <prop attachpoint="helmet"/>
         <prop attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
         <prop actor="props/units/tools/basket.xml" attachpoint="l_leg"/>
@@ -141,24 +166,28 @@
     </variant>
     <variant name="gather_rock">
       <props>
+        <prop attachpoint="helmet"/>
         <prop actor="props/units/tools/pick.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="gather_ore">
       <props>
+        <prop attachpoint="helmet"/>
         <prop actor="props/units/tools/pick.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="gather_ruins">
       <props>
+        <prop attachpoint="helmet"/>
         <prop actor="props/units/tools/pick.xml" attachpoint="l_hand"/>
         <prop attachpoint="r_hand"/>
       </props>
     </variant>
     <variant name="Build">
       <props>
+        <prop attachpoint="helmet"/>
         <prop actor="props/units/tools/mallet.xml" attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
       </props>
@@ -167,6 +196,7 @@
       <props>
         <prop actor="props/units/shuttle_basket.xml" attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
+        <prop attachpoint="helmet"/>
         <prop attachpoint="shield"/>
       </props>
     </variant>
@@ -174,6 +204,7 @@
       <props>
         <prop actor="props/units/shuttle_meat.xml" attachpoint="r_hand"/>
         <prop attachpoint="l_hand"/>
+        <prop attachpoint="helmet"/>
         <prop attachpoint="shield"/>
       </props>
     </variant>
@@ -181,6 +212,7 @@
       <props>
         <prop actor="props/units/shuttle_wood.xml" attachpoint="r_hand"/>
         <prop actor="" attachpoint="l_hand"/>
+        <prop attachpoint="helmet"/>
         <prop attachpoint="shield"/>
       </props>
     </variant>
@@ -188,6 +220,7 @@
       <props>
         <prop actor="props/units/shuttle_stone.xml" attachpoint="r_hand"/>
         <prop actor="" attachpoint="l_hand"/>
+        <prop attachpoint="helmet"/>
         <prop attachpoint="shield"/>
       </props>
     </variant>
@@ -195,6 +228,7 @@
       <props>
         <prop actor="props/units/shuttle_metal.xml" attachpoint="r_hand"/>
         <prop actor="" attachpoint="l_hand"/>
+        <prop attachpoint="helmet"/>
         <prop attachpoint="shield"/>
       </props>
     </variant>

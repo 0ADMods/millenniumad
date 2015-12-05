@@ -20,23 +20,23 @@
     </variant>
   </group>
   <group>
-    <variant frequency="25" name="Color1_Brown">
-      <color>218 202 201</color>
+    <variant frequency="25" name="light_brown">
+      <color>198 185 174</color>
     </variant>
-    <variant frequency="25" name="Color2_Brown">
-      <color>167 126 124</color>
+    <variant frequency="25" name="dark_brown">
+      <color>115 96 83</color>
     </variant>
-    <variant frequency="25" name="Color3_Brown">
-      <color>112 78 75</color>
+    <variant frequency="25" name="dull_green">
+      <color>116 128 98</color>
     </variant>
-    <variant frequency="25" name="Color1_Green">
-      <color>207 218 210</color>
+    <variant frequency="25" name="white">
+      <color>255 255 255</color>
     </variant>
-    <variant frequency="25" name="Color2_Green">
-      <color>134 162 141</color>
+    <variant frequency="25" name="black">
+      <color>60 60 60</color>
     </variant>
-    <variant frequency="25" name="Color3_Green">
-      <color>89 115 96</color>
+    <variant frequency="25" name="tan">
+      <color>203 173 133</color>
     </variant>
   </group>
   <material>objectcolor.xml</material>
