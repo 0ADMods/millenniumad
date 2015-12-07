@@ -106,6 +106,7 @@
       <props>
         <prop actor="props/units/helmets/norse_helmet.xml" attachpoint="helmet"/>
       </props>
+    </variant>
     <variant frequency="50" name="Helmet + Cape">
       <props>
         <prop actor="props/units/helmets/norse_helmet.xml" attachpoint="helmet"/>

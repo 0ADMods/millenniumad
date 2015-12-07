@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_hero_infantry_javelinist">
+<Entity parent="template_unit_hero_infantry_swordsman">
   <Auras>
 	<Aura1>
       <Type>range</Type>
@@ -14,10 +14,13 @@
   </Auras>
   <Identity>
     <Civ>norse</Civ>
-	<GenericName>Erik the Red</GenericName>
-    <SpecificName>?</SpecificName>
+	  <GenericName>Erik the Red</GenericName>
+    <SpecificName>Eiríkr hinn rauði</SpecificName>
     <Icon>units/hele_hero_xenophon.png</Icon>
   </Identity>
+  <Vision>
+    <Range>120</Range>
+  </Vision>
   <VisualActor>
     <Actor>units/norse/erik_the_red.xml</Actor>
   </VisualActor>
