@@ -63,7 +63,8 @@
       units/norse_infantry_archer_b
       units/norse_champion_berserker
       units/norse_champion_huscarl
-      units/norse_mechanical_siege_ram	  
+      units/norse_mechanical_siege_ram
+      units/norse_hero_erik_the_red	  
     </Entities>
     <Technologies datatype="tokens">
       attack_soldiers_will
