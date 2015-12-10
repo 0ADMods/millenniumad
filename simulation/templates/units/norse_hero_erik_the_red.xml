@@ -14,9 +14,9 @@
   </Auras>
   <Identity>
     <Civ>norse</Civ>
-	  <GenericName>Erik the Red</GenericName>
+	  <GenericName>Eric the Red</GenericName>
     <SpecificName>Eiríkr hinn rauði</SpecificName>
-    <Icon>units/hele_hero_xenophon.png</Icon>
+    <Icon>units/norse_erik_the_red.png</Icon>
   </Identity>
   <Vision>
     <Range>120</Range>
