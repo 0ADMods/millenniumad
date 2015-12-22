@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Cost>
+    <PopulationBonus>12</PopulationBonus>
+  </Cost>
+  <Identity>
+    <Civ>saxo</Civ>
+    <SpecificName>?</SpecificName>
+    <Tooltip>?</Tooltip>
+    <History>?</History>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_fortress.xml</select>
+      <constructed>interface/complete/building/complete_fortress.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_hero_brennus
+      units/{civ}_hero_britomartus
+      units/{civ}_hero_vercingetorix
+      units/{civ}_champion_cavalry
+      units/{civ}_champion_infantry
+    </Entities>
+    <Technologies datatype="tokens">
+      siege_attack
+      siege_armor
+      siege_cost_metal
+      siege_cost_wood
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/gauls/fortress_gallic.xml</Actor>
+  </VisualActor>
+</Entity>
