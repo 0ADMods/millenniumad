@@ -5,7 +5,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Identity>
-    <Civ>saxo</Civ>
+    <Civ>saxon</Civ>
     <SpecificName>?</SpecificName>
     <History>?</History>
   </Identity>
@@ -23,6 +23,6 @@
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/gauls/civic_centre.xml</Actor>
+    <Actor>structures/saxon/civil_center.xml</Actor>
   </VisualActor>
 </Entity>

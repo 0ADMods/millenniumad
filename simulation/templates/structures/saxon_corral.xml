@@ -5,7 +5,7 @@
     <Height>5.0</Height>
   </Footprint>
   <Identity>
-    <Civ>saxo</Civ>
+    <Civ>saxon</Civ>
     <SpecificName>?</SpecificName>
     <History>?</History>
   </Identity>
@@ -13,6 +13,6 @@
     <Static width="10.0" depth="20.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/celts/plot_corral.xml</Actor>
+    <Actor>structures/saxon/corral.xml</Actor>
   </VisualActor>
 </Entity>

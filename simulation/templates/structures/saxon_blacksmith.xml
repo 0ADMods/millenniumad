@@ -4,9 +4,9 @@
     <PopulationBonus>4</PopulationBonus>
   </Cost>
   <Identity>
-    <Civ>saxo</Civ>
-    <SpecificName>=</SpecificName>
-	<History>=</History>
+    <Civ>saxon</Civ>
+    <SpecificName>?</SpecificName>
+	  <History>/</History>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <VisibleClasses datatype="tokens">Town</VisibleClasses>
   </Identity>

@@ -15,7 +15,7 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
 </Health>
   <Identity>
-    <Civ>saxo</Civ>
+    <Civ>saxon</Civ>
     <SpecificName>?</SpecificName>
     <History>?</History>
   </Identity>

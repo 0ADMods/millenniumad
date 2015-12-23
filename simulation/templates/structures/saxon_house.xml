@@ -5,7 +5,7 @@
     <Height>5.0</Height>
   </Footprint>
   <Identity>
-    <Civ>saxo</Civ>
+    <Civ>saxon</Civ>
     <SpecificName>?</SpecificName>
     <History>?</History>
   </Identity>
@@ -17,7 +17,7 @@
     <Weight>65535</Weight>
   </TerritoryInfluence>
   <VisualActor>
-    <Actor>structures/gauls/house.xml</Actor>
+    <Actor>structures/saxon/house.xml</Actor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>
