@@ -1,16 +1,18 @@
 {
 	"genericName": "Town Phase",
 	"description": "Advances from a small village to a bustling town, ready to expand rapidly.",
-	"cost": { "food": 800, "wood": 800, "stone": 0, "metal": 0 },
+	"cost": { "food": 500, "wood": 500, "stone": 0, "metal": 0 },
 	"requirements": { "class": "Village", "number": 4 },
 	"requirementsTooltip": "Requires 4 Village Phase structures (except Palisades and Farm Fields).",
 	"supersedes": "phase_village",
 	"replaces": ["phase_town"],
 	"icon": "town_phase.png",
-	"researchTime": 80,
+	"researchTime": 30,
 	"tooltip": "Advance to Town Phase, which unlocks more structures and units. Territory radius for Civic Centers increased by +30%",
-	"modifications": [{"value": "TerritoryInfluence/Radius", "multiply": 1.30},
-		{"value": "Health/Max", "multiply": 1.2, "affects": "CitizenSoldier"}],
-	"affects": ["CivCentre", "Infantry", "Cavalry"], 
+	"modifications": [
+		{"value": "TerritoryInfluence/Radius", "multiply": 1.30, "affects": "CivCentre"},
+		{"value": "Health/Max", "multiply": 1.2, "affects": "CitizenSoldier"},
+		{"value": "Capturable/GarrisonRegenRate", "add": 2.0, "affects": "Structure"}
+	],
 	"soundComplete": "interface/alarm/alarm_phase.xml"
 }
