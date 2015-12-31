@@ -12,14 +12,14 @@
 			</textures>
 			<props>
 				<prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-				<prop actor="" attachpoint="food_box"/>
-				<prop actor="" attachpoint="hay_pile"/>
-				<prop actor="" attachpoint="little_building"/>
-				<prop actor="" attachpoint="pig001"/>
-				<prop actor="" attachpoint="pig002"/>
-				<prop actor="" attachpoint="pig003"/>
+				<prop actor="props/structures/saxon/saxon_corral_food_box.xml" attachpoint="food_box"/>
+				<prop actor="props/structures/saxon/saxon_corral_hay_pile.xml" attachpoint="hay_pile"/>
+				<prop actor="props/structures/saxon/saxon_corral_little_building.xml" attachpoint="little_building"/>
+				<prop actor="fauna/pig1.xml" attachpoint="pig001"/>
+				<prop actor="fauna/pig1.xml" attachpoint="pig002"/>
+				<prop actor="fauna/pig1.xml" attachpoint="pig003"/>
 				<prop actor="" attachpoint="shield"/>
-				<prop actor="" attachpoint="water_bucket"/>
+				<prop actor="props/special/eyecandy/waterbin_a.xml" attachpoint="water_bucket"/>
 			</props>
 		</variant>
 	</group>
