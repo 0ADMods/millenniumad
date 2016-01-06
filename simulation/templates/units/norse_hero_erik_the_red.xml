@@ -9,7 +9,7 @@
         <UnitMotion.WalkSpeed> <Multiply>1.15</Multiply> </UnitMotion.WalkSpeed>
       </Modifications>
       <AuraName>Voyager</AuraName>
-      <AuraDescription>All units in his formation +15% speed.</AuraDescription>
+      <AuraDescription>All units in his range move +15% faster.</AuraDescription>
     </Aura1>
   </Auras>
   <Identity>
