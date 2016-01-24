@@ -4,7 +4,7 @@
     <PopulationBonus>4</PopulationBonus>
   </Cost>
   <Identity>
-    <Civ>saxon</Civ>
+    <Civ>anglo</Civ>
     <SpecificName>?</SpecificName>
 	  <History>/</History>
     <RequiredTechnology>phase_town</RequiredTechnology>

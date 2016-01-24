@@ -11,7 +11,7 @@
     <SpawnEntityOnDeath>rubble/rubble_celt_dock</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>saxon</Civ>
+    <Civ>anglo</Civ>
     <SpecificName>?</SpecificName>
     <History>?</History>
   </Identity>
