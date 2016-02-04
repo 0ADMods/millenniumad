@@ -2,10 +2,13 @@
 	"Code": "anglo",
 	"Culture": "anglo",
 	"Name": "Anglo-Saxons",
-	"Emblem": "session/portraits/emblems/emblem_norse.png",
+	"Emblem": "session/portraits/emblems/emblem_anglo.png",
 	"History": "N/A",
 	"Music":[
-			
+			{"File":"The_Road_Ahead.ogg", "Type":"peace"},
+			{"File":"Celtic_Pride.ogg", "Type":"peace"},
+			{"File":"Cisalpine_Gaul.ogg", "Type":"peace"},
+			{"File":"Water's_Edge.ogg", "Type":"peace"}
 		],
 	"Factions":
 	[
@@ -14,17 +17,21 @@
 			"Description": "N/A",
 			"Technologies":
 			[
-
+				{
+					"Name":"Thingstead",
+					"History":"?",
+					"Description":"?"
+				}
 			],
 			"Heroes":
 			[
 
 				{
-					"Name": "Brennos",
+					"Name": "Alfred the Great",
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Brennus is the name which the Roman historians give to the famous leader of the Gauls who took Rome in the time of Camillus. According to Geoffrey, the brothers invaded Gaul and sacked Rome in 390 B.C., 'proving' that Britons had conquered Rome, the greatest civilization in the world, long before Rome conquered the Britons. We know from many ancient sources which predate Geoffrey that Rome was indeed sacked, but in 387 not 390, and that the raid was led by a man named Brennos (which was latinized to Brennus), but he and his invading horde were Gallic Senones, not British. In this episode several features of Geoffrey's editing method can be seen: he modified the historical Brennus/Brennos, created the brother Belinus, borrowed the Gallic invasion, but omitted the parts where the Celts seemed weak or foolish. His technique is both additive and subtractive. Like the tale of Trojan origin, the story of the sack of Rome is not pure fabrication; it is a creative rearrangement of the available facts, with details added as necessary. By virtue of their historical association, Beli and Bran are often muddled with the earlier brothers Belinus and Brennus (the sons of Porrex) who contended for power in northern Britain in around 390 B.C., and were regarded as gods in old Celtic tradition." 
+					"History": "?" 
 				}
 			] 
 		} 
@@ -32,9 +39,9 @@
 	"CivBonuses":
 	[
 		{
-			"Name": "Gathering vs. Speed",
+			"Name": "?",
 			"History": "N/A",
-			"Description": "The Citizen Soldiers are slow (-20%) gatherers, still they move faster than most infantry. (+10%)" 
+			"Description": "?" 
 		}
 	],
 	"TeamBonuses":
@@ -45,7 +52,24 @@
 	],
 	"StartEntities":
 	[
-
+		{
+			"Template": "structures/anglo_civil_centre" 
+		},
+		{
+			"Template": "units/anglo_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/anglo_infantry_spearman_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/anglo_infantry_archer_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/anglo_cavalry_spearman_b" 
+		}
 	],
 	"Formations":
 	[
@@ -70,8 +94,9 @@
 		"Æthelstan",
 		"Edward the Elder"
 	],
-		"SkirmishReplacements":
+	"SkirmishReplacements":
 	{
+		"skirmish/structures/default_house_5": "structures/{civ}_house"
 	},
 	"SelectableInGameSetup": false
 }
