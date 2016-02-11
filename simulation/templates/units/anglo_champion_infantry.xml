@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Identity>
+    <Civ>anglo</Civ>
+    <GenericName>Anglo-Saxon Royal Thane</GenericName>
+    <SpecificName>Cynges Thegn</SpecificName>
+	<SelectionGroupName>units/anglo_champion_infantry</SelectionGroupName>
+    <History>?</History>
+    <Icon>units/celt_champion_infantry_gaul.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/celts/champion_unit_1.xml</Actor>
+  </VisualActor>
+</Entity>

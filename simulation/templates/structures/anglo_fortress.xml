@@ -5,9 +5,9 @@
   </Cost>
   <Identity>
     <Civ>anglo</Civ>
-    <SpecificName>?</SpecificName>
-    <Tooltip>?</Tooltip>
-    <History>?</History>
+    <SpecificName>Burh</SpecificName>
+    <Tooltip>Train heroes, champions, and siege weapons. Research siege weapon improvements. Garrison: 20.</Tooltip>
+    <History>Fortified places called "Burhs" were built across the lands of Alfred the Great during his reign to help guard the land against Viking invaders. Burhs also served as shelter for people from nearby farms or villages during raids. The common distance between hamlets and a Burh was no more than 20 miles (32 km) away from each other, so that the villagers can quickly flee to safety during times of hostilities.</History>
   </Identity>
   <Sound>
     <SoundGroups>
@@ -21,7 +21,6 @@
       units/{civ}_hero_brennus
       units/{civ}_hero_britomartus
       units/{civ}_hero_vercingetorix
-      units/{civ}_champion_cavalry
       units/{civ}_champion_infantry
     </Entities>
     <Technologies datatype="tokens">
