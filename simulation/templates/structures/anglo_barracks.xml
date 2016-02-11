@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
   <Cost>
-    <PopulationBonus>4</PopulationBonus>
+    <PopulationBonus>8</PopulationBonus>
   </Cost>
   <Footprint>
     <Square width="22.0" depth="22.0"/>
@@ -18,12 +18,6 @@
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-	  units/{civ}_champion_infantry_barracks
-	  units/{civ}_champion_cavalry_barracks
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/celts/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
