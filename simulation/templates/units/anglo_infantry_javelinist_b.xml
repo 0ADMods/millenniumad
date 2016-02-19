@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_javelinist">
+  <Builder>
+    <Entities datatype="tokens">
+      -structures/{civ}_wonder
+      -structures/{civ}_defense_tower
+      -structures/{civ}_wallset_stone
+    </Entities>
+  </Builder>
   <Armour>
     <Hack>2.0</Hack>
   </Armour>

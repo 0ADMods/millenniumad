@@ -64,7 +64,7 @@
 			"Count": 2 
 		},
 		{
-			"Template": "units/anglo_infantry_archer_b",
+			"Template": "units/anglo_infantry_javelinist_b",
 			"Count": 2 
 		},
 		{
@@ -96,7 +96,9 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_5": "structures/{civ}_house"
+		"skirmish/structures/default_house_5": "structures/{civ}_house",
+		"skirmish/units/default_cavalry": "units/{civ}_cavalry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/anglo_infantry_javelinist_b"
 	},
-	"SelectableInGameSetup": false
+	"SelectableInGameSetup": true
 }

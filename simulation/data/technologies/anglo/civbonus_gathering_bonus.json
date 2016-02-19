@@ -1,0 +1,10 @@
+{
+	"genericName": "Anglo Civ trait",
+	"autoResearch": true,
+	"description": "Fast gathering, all rates +5%",
+	"requirements": {"civ" : "anglo"},
+	"modifications": [
+		{"value" : "ResourceGatherer/Rates", "multiply": 1.05}
+	],
+	"affects": ["Unit"]
+}
