@@ -39,9 +39,19 @@
 	"CivBonuses":
 	[
 		{
-			"Name": "?",
+			"Name": "Gathering Bonus",
 			"History": "N/A",
-			"Description": "?" 
+			"Description": "All gathering rates +10%." 
+		},
+		{
+			"Name": "Poor land trading",
+			"History": "N/A",
+			"Description": "Trade gain -10%." 
+		},
+		{
+			"Name": "Weak structures",
+			"History": "N/A",
+			"Description": "Anglo-Saxons cannot build stone walls or defence towers. Structures have -10% Health." 
 		}
 	],
 	"TeamBonuses":
