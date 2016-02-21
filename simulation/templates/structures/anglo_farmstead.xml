@@ -17,6 +17,6 @@
 	</Obstruction>
 	<VisualActor>
 		<FoundationActor>structures/fndn_4x4.xml</FoundationActor>
-		<Actor>structures/gauls/farmstead.xml</Actor>
+		<Actor>structures/anglo/farmstead.xml</Actor>
 	</VisualActor>
 </Entity>

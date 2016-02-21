@@ -9,6 +9,6 @@
     <History>?</History>
   </Identity>
   <VisualActor>
-    <Actor>structures/celts/storehouse.xml</Actor>
+    <Actor>structures/anglo/storehouse.xml</Actor>
   </VisualActor>
 </Entity>
