@@ -2,7 +2,7 @@
 <Entity parent="template_structure_resource_field">
   <Identity>
     <Civ>norse</Civ>
-    <SpecificName>Varmo</SpecificName>
-    <History>A farmer's field. The Celts were good farmers.</History>
+    <SpecificName>Hveitiakr</SpecificName>
+    <History>A farmer's field.</History>
   </Identity>
 </Entity>

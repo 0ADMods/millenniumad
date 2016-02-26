@@ -2,6 +2,7 @@
 <Entity parent="template_structure_defense_wooden_tower">
   <Identity>
     <Civ>norse</Civ>
+    <SpecificName>Gnæfa</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/celts/wooden_tower.xml</Actor>

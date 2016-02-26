@@ -20,8 +20,8 @@
   </GarrisonHolder>
   <Identity>
     <Civ>norse</Civ>
-    <SpecificName>Cavalidos</SpecificName>
-    <History>A place for a farmer to pen his animals. Garrison a sheep, goat, or cow here to gain a trickle of the food resource. Garrisoning an animal here also "fattens" them so that they may be slaughtered and gathered for a quick burst of food.</History>
+    <SpecificName>Tún</SpecificName>
+    <History>A place for a farmer to pen his animals.</History>
     <Tooltip>Dropsite for the food resource. Research food gathering improvements. Raise herd animals for food.</Tooltip>
     <VisibleClasses datatype="tokens">Village Farmstead Resource</VisibleClasses>
   </Identity>

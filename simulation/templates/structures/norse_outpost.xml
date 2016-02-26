@@ -2,8 +2,8 @@
 <Entity parent="template_structure_defense_outpost">
   <Identity>
     <Civ>norse</Civ>
-    <SpecificName>Norse Outpost</SpecificName>
-    <History>*I could not find any evidence of a celtic tower, but I'm giving them one for gameplay reasons.*</History>
+    <SpecificName>Gnæfa</SpecificName>
+    <History>?</History>
   </Identity>
   <VisualActor>
     <Actor>structures/norse/outpost.xml</Actor>

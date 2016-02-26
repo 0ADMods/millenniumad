@@ -47,11 +47,9 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Classes datatype="tokens">Longhouse</Classes>
-    <VisibleClasses datatype="tokens">Longhouse</VisibleClasses>
     <Civ>norse</Civ>
-    <SpecificName>Longhouse</SpecificName>
-    <History>Later Celts constructed larger dwellings, called long houses, which could house more than one family.</History>
+    <SpecificName>bær</SpecificName>
+    <History>?</History>
   </Identity>
   <Obstruction>
     <Static width="14.0" depth="14.0"/>
