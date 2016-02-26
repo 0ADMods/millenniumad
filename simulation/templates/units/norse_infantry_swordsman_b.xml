@@ -36,7 +36,7 @@
     <Civ>norse</Civ>
     <SelectionGroupName>units/norse_infantry_swordsman_b</SelectionGroupName>
     <GenericName>Axeman</GenericName>
-    <SpecificName>?</SpecificName>
+    <SpecificName>Seggr</SpecificName>
     <Icon>units/norse_infantry_swordsman.png</Icon>
     <History>Attack bonus against buildings</History>
   </Identity>

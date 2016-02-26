@@ -17,8 +17,8 @@
   <Identity>
     <Civ>norse</Civ>
     <SelectionGroupName>units/norse_infantry_archer_b</SelectionGroupName>
-    <GenericName>Hunter</GenericName>
-    <SpecificName>?</SpecificName>
+    <GenericName>Huntsman</GenericName>
+    <SpecificName>Veiðimaðr</SpecificName>
     <History>?</History>
     <Icon>units/norse_infantry_archer.png</Icon>
   </Identity>
