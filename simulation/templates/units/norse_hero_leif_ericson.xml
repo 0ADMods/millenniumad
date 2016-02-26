@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Auras>
+    <Aura1>
+      <Type>global</Type>
+      <Affects>Unit</Affects>
+      <Modifications>
+        <Cost.BuildTime> <Multiply>0.9</Multiply> </Cost.BuildTime>
+      </Modifications>
+      <AuraName>Training Aura</AuraName>
+      <AuraDescription>Units cost -10% time to train during his lifespan.</AuraDescription>
+    </Aura1>
+  </Auras>
+  <Identity>
+    <Civ>norse</Civ>
+	<GenericName>Leif Erikson</GenericName>
+    <History>Leif Erikson was the son of Erik the Red and he is known for discovering Vinland (which is part of North America).</History>
+    <SpecificName>Leifr Eiríksson</SpecificName>
+    <Icon>units/norse_erik_the_red.png</Icon>
+  </Identity>
+  <Vision>
+    <Range>150</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/norse/erik_the_red.xml</Actor>
+  </VisualActor>
+</Entity>
