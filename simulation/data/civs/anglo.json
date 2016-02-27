@@ -3,7 +3,7 @@
 	"Culture": "anglo",
 	"Name": "Anglo-Saxons",
 	"Emblem": "session/portraits/emblems/emblem_anglo.png",
-	"History": "N/A",
+	"History": "The Anglo-Saxons were a people who inhabited Great-Britain from the 5th century till the Norman Conquest in 1066. They consisted of Germanic tribes that migrated from the European mainland and native British people. During the period the Anglo-Saxon kingdoms suffered from Norse raids.",
 	"Music":[
 			{"File":"The_Road_Ahead.ogg", "Type":"peace"},
 			{"File":"Celtic_Pride.ogg", "Type":"peace"},
