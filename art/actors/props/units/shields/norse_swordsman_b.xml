@@ -12,6 +12,26 @@
         <texture file="props/shields/wood_player.png" name="baseTex"/>
       </textures>
     </variant>
+    <variant frequency="25" name="rusty_swirl_04_white">
+      <textures>
+        <texture file="props/shields/rusty_swirl_04_white.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="25" name="rusty_swirl_04_black">
+      <textures>
+        <texture file="props/shields/rusty_swirl_04_black.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="25" name="swirl_04_white">
+      <textures>
+        <texture file="props/shields/swirl_04_white.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="25" name="swirl_04_black">
+      <textures>
+        <texture file="props/shields/swirl_04_black.png" name="baseTex"/>
+      </textures>
+    </variant>
     <variant frequency="25" name="rusty_wood_player">
       <textures>
         <texture file="props/shields/rusty_wood_player.png" name="baseTex"/>
