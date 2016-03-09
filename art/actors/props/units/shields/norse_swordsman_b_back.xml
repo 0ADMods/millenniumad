@@ -7,26 +7,6 @@
     </variant>
   </group>
   <group>
-    <variant frequency="0" name="wood_light">
-      <textures>
-        <texture file="props/shields/wood_light.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="wood_dark">
-      <textures>
-        <texture file="props/shields/wood_dark.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="rusty_wood_light">
-      <textures>
-        <texture file="props/shields/rusty_wood_light.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="rusty_wood_dark">
-      <textures>
-        <texture file="props/shields/rusty_wood_dark.png" name="baseTex"/>
-      </textures>
-    </variant>
     <variant frequency="25" name="wood_player">
       <textures>
         <texture file="props/shields/wood_player.png" name="baseTex"/>
