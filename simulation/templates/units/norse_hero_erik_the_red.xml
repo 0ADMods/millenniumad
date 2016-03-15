@@ -10,6 +10,7 @@
       </Modifications>
       <AuraName>Voyager</AuraName>
       <AuraDescription>All units in his range move +15% faster.</AuraDescription>
+      <OverlayIcon>art/textures/ui/session/auras/attack_bonus.png</OverlayIcon>
     </Aura1>
   </Auras>
   <Identity>
