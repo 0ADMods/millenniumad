@@ -85,6 +85,11 @@
       <textures>
         <texture file="props/banner_norse.png" name="baseTex"/>
       </textures>
+    </variant>
+    <variant name="anglo">
+      <textures>
+        <texture file="props/banner_norse.png" name="baseTex"/>
+      </textures>
     </variant>    
   </group>
   <material>basic_trans.xml</material>
