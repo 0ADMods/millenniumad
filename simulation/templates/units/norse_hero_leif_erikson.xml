@@ -17,6 +17,7 @@
     <History>Leif Erikson was the son of Erik the Red and he is known for discovering Vinland (which is part of North America).</History>
     <SpecificName>Leifr Eiríksson</SpecificName>
     <Icon>units/norse_erik_the_red.png</Icon>
+    <RequiredTechnology>germanic_thingstead</RequiredTechnology>
   </Identity>
   <Vision>
     <Range>150</Range>

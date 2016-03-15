@@ -70,6 +70,7 @@
     </Entities>
     <Technologies datatype="tokens">
       attack_soldiers_will
+      germanic_thingstead
       -phase_town
       phase_town_norse
     </Technologies>
