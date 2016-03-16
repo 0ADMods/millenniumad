@@ -39,6 +39,7 @@
   </UnitMotion>
   <ResourceDropsite>
     <Types>food wood stone metal</Types>
+	<Sharable>false</Sharable>
   </ResourceDropsite>
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>

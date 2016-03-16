@@ -12,6 +12,7 @@
   </Identity>
   <ResourceDropsite>
     <Types>food wood stone metal</Types>
+    <Sharable>true</Sharable> 
   </ResourceDropsite>
   <VisualActor>
     <Actor>structures/norse/knarr.xml</Actor>

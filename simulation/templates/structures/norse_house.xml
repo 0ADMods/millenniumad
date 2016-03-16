@@ -64,8 +64,9 @@
 	  	-unlock_females_house
     </Technologies>
   </ProductionQueue>
-    <ResourceDropsite>
+  <ResourceDropsite>
     <Types>food wood</Types>
+    <Sharable>true</Sharable> 
   </ResourceDropsite>
   <TerritoryInfluence>
     <Root>true</Root>
