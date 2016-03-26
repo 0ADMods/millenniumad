@@ -88,7 +88,7 @@
     </variant>
     <variant name="anglo">
       <textures>
-        <texture file="props/banner_norse.png" name="baseTex"/>
+        <texture file="props/banner_anglo.png" name="baseTex"/>
       </textures>
     </variant>    
   </group>
