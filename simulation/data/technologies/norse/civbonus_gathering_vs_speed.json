@@ -4,7 +4,7 @@
 	"description": "The Citizen Soldiers are slow gatherers, still they move faster than most infantry.",
 	"requirements": {"civ" : "norse"},
 	"modifications": [
-		{"value" : "ResourceGatherer/Rates", "multiply": 0.8},
+		{"value" : "ResourceGatherer/BaseSpeed", "multiply": 0.8},
 		{"value" : "UnitMotion/WalkSpeed", "multiply": 1.1},
 		{"value" : "UnitMotion/Run/Speed", "multiply": 1.1}
 	],

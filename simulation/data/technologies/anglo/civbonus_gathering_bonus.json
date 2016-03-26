@@ -4,7 +4,7 @@
 	"description": "Fast gathering, all rates +10%",
 	"requirements": {"civ" : "anglo"},
 	"modifications": [
-		{"value" : "ResourceGatherer/Rates", "multiply": 1.10}
+		{"value" : "ResourceGatherer/BaseSpeed", "multiply": 1.10}
 	],
 	"affects": ["Unit"]
 }
