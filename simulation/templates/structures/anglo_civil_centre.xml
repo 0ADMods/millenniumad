@@ -20,6 +20,7 @@
       units/{civ}_infantry_spearman_b
       units/{civ}_infantry_javelinist_b
       units/{civ}_cavalry_spearman_b
+      units/{civ}_hero_alfred
     </Entities>
     <Technologies datatype="tokens">
       germanic_thingstead
