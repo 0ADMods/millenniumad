@@ -18,6 +18,11 @@
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/anglo_champion_infantry_barracks
+    </Entities>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/anglo/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
