@@ -6,6 +6,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/celts/infantry_javelinist_e.xml</Actor>
+    <Actor>units/anglo/infantry_javelinist_e.xml</Actor>
   </VisualActor>
 </Entity>

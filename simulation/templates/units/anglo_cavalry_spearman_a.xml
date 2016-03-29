@@ -7,6 +7,6 @@
     <Entity>units/anglo_cavalry_spearman_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/iberians/cavalry_spearman_a.xml</Actor>
+    <Actor>units/anglo/cavalry_spearman_a.xml</Actor>
   </VisualActor>
 </Entity>

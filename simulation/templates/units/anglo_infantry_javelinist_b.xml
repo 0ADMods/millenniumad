@@ -21,6 +21,6 @@
     <Entity>units/anglo_infantry_javelinist_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/celts/infantry_javelinist_b.xml</Actor>
+    <Actor>units/anglo/infantry_javelinist_b.xml</Actor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="75" name="shorthair">
+      <animations>
+        <animation file="infantry/spear/idle/isp_01.psa" name="Idle" speed="200"/>
+        <animation file="biped/walk_spearshield.psa" name="Walk" speed="120"/>
+        <animation file="biped/walk_spearshield.psa" name="carry_food" speed="120"/>
+        <animation file="biped/walk_spearshield.psa" name="carry_meat" speed="120"/>
+        <animation file="biped/walk_spearshield.psa" name="carry_wood" speed="120"/>
+        <animation file="biped/walk_spearshield.psa" name="carry_stone" speed="120"/>
+        <animation file="biped/walk_spearshield.psa" name="carry_metal" speed="120"/>
+        <animation event="0.5" file="biped/inf_spear_shield_atk_a.psa" name="attack_melee" speed="100"/>
+        <animation event="0.5" file="biped/inf_spear_shield_atk_b.psa" name="attack_melee" speed="100"/>
+        <animation event="0.5" file="biped/inf_spear_shield_atk_a.psa" name="attack_slaughter" speed="100"/>
+        <animation file="infantry/sword/move/run/isw_s_off_01.psa" name="Run" speed="30"/>
+        <animation file="infantry/sword/move/run/isw_s_def_02.psa" name="Run" speed="40"/>
+        <animation file="infantry/sword/move/run/isw_s_em_03.psa" name="Run" speed="40"/>
+        <animation event="0.23" file="infantry/general/chop.psa" name="gather_tree" speed="250"/>
+        <animation file="biped/inf_idle_testudo_front.dae" name="idle_testudo_front" speed="40"/>
+        <animation file="biped/inf_idle_testudo_top.dae" name="idle_testudo_top" speed="40"/>
+        <animation file="biped/inf_walk_testudo_front.dae" name="walk_testudo_front" speed="40"/>
+        <animation file="biped/inf_walk_testudo_top.dae" name="walk_testudo_top" speed="40"/>
+        <animation file="biped/hoe.psa" name="gather_grain" speed="300"/>
+        <animation file="infantry/general/forage.psa" name="gather_fruit" speed="110"/>
+        <animation file="infantry/general/forage.psa" name="gather_meat" speed="110"/>
+        <animation event="0.43" file="infantry/general/mine.psa" name="gather_rock" speed="250"/>
+        <animation event="0.43" file="infantry/general/mine.psa" name="gather_ore" speed="250"/>
+        <animation event="0.43" file="infantry/general/mine.psa" name="gather_ruins" speed="250"/>
+        <animation event="0.6" file="infantry/general/dude/dudebuild.psa" name="Build" speed="220"/>
+        <animation file="infantry/general/death/inf_01.psa" name="Death" speed="400"/>
+        <animation file="infantry/general/death/inf_02.psa" name="Death" speed="700"/>
+        <animation file="infantry/general/death/inf_03.psa" name="Death" speed="500"/>
+        <animation file="infantry/general/death/inf_04.psa" name="Death" speed="400"/>
+        <animation file="infantry/general/death/inf_06.psa" name="Death" speed="500"/>
+        <animation file="infantry/general/death/inf_07.psa" name="Death" speed="400"/>
+        <animation file="biped/inf_salute_c.psa" name="Promotion" speed="450"/>
+      </animations>
+      <mesh>skeletal/m_pants_celt.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/norse_huscarl_iron.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/head_celt.xml" attachpoint="head"/>
+        <prop actor="props/units/cape_player_b.xml" attachpoint="shoulders"/>
+        <prop actor="props/units/shields/anglo_champion_infantry.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/spear.xml" attachpoint="r_hand"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="25" name="Chainmail1a">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail1a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="Chainmail1b">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail1b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="75" name="Chainmail1c">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail1c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="125" name="Chainmail2a">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail2a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="150" name="Chainmail2b">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail2b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="125" name="Chainmail2c">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail2c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="25" name="Chainmail3a">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail3a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="Chainmail3b">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail3b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="75" name="Chainmail3c">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail3c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="125" name="Chainmail4a">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail4a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="150" name="Chainmail4b">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail4b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="125" name="Chainmail4c">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail4c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="25" name="Chainmail5a">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail5a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="Chainmail5b">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail5b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="75" name="Chainmail5c">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail5c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="125" name="Chainmail6a">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail6a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="150" name="Chainmail6b">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail6b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="125" name="Chainmail6c">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail6c.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

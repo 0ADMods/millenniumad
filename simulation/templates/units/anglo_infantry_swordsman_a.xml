@@ -7,6 +7,6 @@
     <Entity>units/anglo_infantry_swordsman_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/romans/infantry_swordsman_a.xml</Actor>
+    <Actor>units/anglo/infantry_swordsman_a.xml</Actor>
   </VisualActor>
 </Entity>

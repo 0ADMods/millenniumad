@@ -6,6 +6,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/norse/infantry_spearman_e.xml</Actor>
+    <Actor>units/anglo/infantry_spearman_e.xml</Actor>
   </VisualActor>
 </Entity>

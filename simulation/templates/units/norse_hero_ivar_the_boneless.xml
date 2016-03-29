@@ -27,6 +27,6 @@
     <Range>120</Range>
   </Vision>
   <VisualActor>
-    <Actor>units/norse/erik_the_red.xml</Actor>
+    <Actor>units/norse/ivar_the_boneless.xml</Actor>
   </VisualActor>
 </Entity>

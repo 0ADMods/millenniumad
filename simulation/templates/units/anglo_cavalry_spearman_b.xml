@@ -13,6 +13,6 @@
     <Entity>units/anglo_cavalry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/iberians/cavalry_spearman_b.xml</Actor>
+    <Actor>units/anglo/cavalry_spearman_b.xml</Actor>
   </VisualActor>
 </Entity>

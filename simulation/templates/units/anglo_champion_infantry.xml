@@ -9,6 +9,6 @@
     <Icon>units/celt_champion_infantry_gaul.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/carthaginians/champion_spearman.xml</Actor>
+    <Actor>units/anglo/champion_infantry.xml</Actor>
   </VisualActor>
 </Entity>
