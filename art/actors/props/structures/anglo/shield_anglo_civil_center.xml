@@ -5,12 +5,10 @@
 		<variant frequency="100" name="Anglo Lantern">
 			<mesh>props/shield_anglo_civil_center.dae</mesh>
 			<textures>
-				<texture file="structural/anglo_struct.png" name="baseTex"/>
-				<texture file="structural/anglo_struct_norm.png" name="normTex"/>
-				<texture file="structural/anglo_struct_spec.png" name="specTex"/>
+				<texture file="props/shields/anglo/elite/iron_cross_02_red.png" name="baseTex"/>
 			</textures>
 		</variant>
 	</group>
-	<material>player_trans_parallax_spec.xml</material>
+  <material>player_trans.xml</material>
 </actor>
 
