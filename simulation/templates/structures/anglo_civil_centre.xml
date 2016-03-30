@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_civil_centre">
   <Footprint>
-    <Square width="28.0" depth="28.0"/>
+    <Square width="38.0" depth="21	.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Identity>
@@ -13,7 +13,7 @@
     <SpawnEntityOnDeath>rubble/rubble_celt_cc</SpawnEntityOnDeath>
   </Health>
   <Obstruction>
-    <Static width="25.0" depth="25.0"/>
+    <Static width="37.0" depth="20.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
