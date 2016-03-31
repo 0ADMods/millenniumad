@@ -53,7 +53,7 @@
 		{
 			"Name": "Player 7",
 			"Civ": "pers",
-			"Color": { "r": 206, "g": 82, "b": 6 },
+			"Color": { "r": 205, "g": 115, "b": 16 },
 			"AI": "petra",
 			"AIDiff": 3
 		},
