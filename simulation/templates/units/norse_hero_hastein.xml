@@ -5,17 +5,17 @@
       <Type>global</Type>
       <Affects>Unit</Affects>
       <Modifications>
-        <Cost.BuildTime> <Multiply>0.9</Multiply> </Cost.BuildTime>
+        <Looter.Resource.metal> <Add>10</Add> </Looter.Resource.metal>
       </Modifications>
-      <AuraName>Training Aura</AuraName>
-      <AuraDescription>Units cost -10% time to train during his lifespan.</AuraDescription>
+      <AuraName>Hero Aura</AuraName>
+      <AuraDescription>+10 Metal loot for every enemy unit killed.</AuraDescription>
     </Aura1>
   </Auras>
   <Identity>
     <Civ>norse</Civ>
-	<GenericName>Leif Erikson</GenericName>
-    <History>Leif Erikson was the son of Erik the Red and he is known for discovering Vinland (which is part of North America).</History>
-    <SpecificName>Leifr Eiríksson</SpecificName>
+	<GenericName>Hastein</GenericName>
+    <History>Hastein was a notable Norse Chieftain that made several raiding voyages during the late 9th century. He's particularly known for his raids in the Mediterranean area.</History>
+    <SpecificName>Hæsten</SpecificName>
     <Icon>units/norse_erik_the_red.png</Icon>
     <RequiredTechnology>germanic_thingstead</RequiredTechnology>
   </Identity>
