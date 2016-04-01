@@ -5,7 +5,7 @@
       <Type>global</Type>
       <Affects>Structure</Affects>
       <Modifications>
-        <Capturable.RegenRate> <Multiply>1.1</Multiply> </Health.RegenRate>
+        <Capturable.RegenRate> <Multiply>1.1</Multiply> </Capturable.RegenRate>
 		<Capturable.GarrisonRegenRate> <Multiply>1.1</Multiply> </Capturable.GarrisonRegenRate>
 		<Capturable.CapturePoints> <Multiply>1.1</Multiply> </Capturable.CapturePoints>
       </Modifications>
