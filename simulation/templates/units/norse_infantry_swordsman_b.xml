@@ -29,7 +29,7 @@
   </Builder>
   <Cost>
     <Resources>
-      <metal>40</metal>
+      <metal>20</metal>
     </Resources>
   </Cost>
   <Identity>
@@ -38,7 +38,7 @@
     <GenericName>Axeman</GenericName>
     <SpecificName>Seggr</SpecificName>
     <Icon>units/norse_infantry_swordsman.png</Icon>
-    <History>Attack bonus against buildings</History>
+    <History>+10% Attack against structures</History>
   </Identity>
   <Promotion>
     <Entity>units/norse_infantry_swordsman_a</Entity>
