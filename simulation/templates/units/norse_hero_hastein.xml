@@ -16,13 +16,13 @@
 	<GenericName>Hastein</GenericName>
     <History>Hastein was a notable Norse Chieftain that made several raiding voyages during the late 9th century. He's particularly known for his raids in the Mediterranean area.</History>
     <SpecificName>Hæsten</SpecificName>
-    <Icon>units/norse_erik_the_red.png</Icon>
+    <Icon>units/norse_hastein.png</Icon>
     <RequiredTechnology>germanic_thingstead</RequiredTechnology>
   </Identity>
   <Vision>
     <Range>150</Range>
   </Vision>
   <VisualActor>
-    <Actor>units/norse/erik_the_red.xml</Actor>
+    <Actor>units/norse/hastein.xml</Actor>
   </VisualActor>
 </Entity>

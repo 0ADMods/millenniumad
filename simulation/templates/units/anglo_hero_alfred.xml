@@ -17,10 +17,10 @@
     <Civ>brit</Civ>
     <SpecificName>Alfred the Great</SpecificName>
     <History>?</History>
-    <Icon>units/celt_hero_cunobelin.png</Icon>
+    <Icon>units/anglo_hero_alfred.png</Icon>
     <RequiredTechnology>germanic_thingstead</RequiredTechnology>
   </Identity>
   <VisualActor>
-    <Actor>units/celts/cunobelin_horse.xml</Actor>
+    <Actor>units/anglo/hero_alfred.xml</Actor>
   </VisualActor>
 </Entity>

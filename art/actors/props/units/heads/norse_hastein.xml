@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>props/head_boudicca.dae</mesh>
+      <textures>
+        <texture file="props/head/norse_longhair.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="50" name="brown">
+      <color>77 66 55</color>
+    </variant>
+  </group>
+  <material>objectcolor.xml</material>
+</actor>
