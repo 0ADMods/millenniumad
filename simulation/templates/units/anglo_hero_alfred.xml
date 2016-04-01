@@ -2,21 +2,22 @@
 <Entity parent="template_unit_hero_cavalry_swordsman">
   <Auras>
     <Aura1>
-      <Type>range</Type>
-      <Radius>60</Radius>
-      <Affects>Unit</Affects>
+      <Type>global</Type>
+      <Affects>Structure</Affects>
       <Modifications>
-        <Health.RegenRate> <Add>1</Add> </Health.RegenRate>
+        <Capturable.RegenRate> <Multiply>1.1</Multiply> </Health.RegenRate>
+		<Capturable.GarrisonRegenRate> <Multiply>1.1</Multiply> </Capturable.GarrisonRegenRate>
+		<Capturable.CapturePoints> <Multiply>1.1</Multiply> </Capturable.CapturePoints>
       </Modifications>
-      <AuraName>Hero Aura</AuraName>
-      <AuraDescription>+1 HP per second healing rate for all units.</AuraDescription>
-      <OverlayIcon>art/textures/ui/session/auras/heal.png</OverlayIcon>
+      <AuraName>Secure Borders Aura</AuraName>
+      <AuraDescription>During his lifetime, all structures are 10% harder to capture</AuraDescription>
+      <OverlayIcon>art/textures/ui/session/auras/attack_bonus.png</OverlayIcon>
     </Aura1>
   </Auras>
   <Identity>
-    <Civ>brit</Civ>
+    <Civ>anglo</Civ>
     <SpecificName>Alfred the Great</SpecificName>
-    <History>?</History>
+    <History>Alfred the Great was the King of Wessex in the late 9th century. He defended his kingdom succesfully against the Norse attacks. He also encouraged education and improved legal system, military structure and his people's quality of life.</History>
     <Icon>units/anglo_hero_alfred.png</Icon>
     <RequiredTechnology>germanic_thingstead</RequiredTechnology>
   </Identity>
