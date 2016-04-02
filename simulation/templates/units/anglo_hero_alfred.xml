@@ -6,11 +6,11 @@
       <Affects>Structure</Affects>
       <Modifications>
         <Capturable.RegenRate> <Multiply>1.1</Multiply> </Capturable.RegenRate>
-		<Capturable.GarrisonRegenRate> <Multiply>1.1</Multiply> </Capturable.GarrisonRegenRate>
-		<Capturable.CapturePoints> <Multiply>1.1</Multiply> </Capturable.CapturePoints>
+		    <Capturable.GarrisonRegenRate> <Multiply>1.1</Multiply> </Capturable.GarrisonRegenRate>
+		    <Capturable.CapturePoints> <Multiply>1.1</Multiply> </Capturable.CapturePoints>
       </Modifications>
       <AuraName>Secure Borders Aura</AuraName>
-      <AuraDescription>During his lifetime, all structures are 10% harder to capture</AuraDescription>
+      <AuraDescription>During his lifetime, all structures are 10% harder to capture.</AuraDescription>
       <OverlayIcon>art/textures/ui/session/auras/attack_bonus.png</OverlayIcon>
     </Aura1>
   </Auras>

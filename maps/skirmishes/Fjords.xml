@@ -2335,13 +2335,13 @@
 			<Actor seed="54414"/>
 		</Entity>
 		<Entity uid="7593">
-			<Template>actor|props/units/shields/norse_round.xml</Template>
+			<Template>actor|props/units/shields/norse_swordsman_b.xml</Template>
 			<Position x="235.82053" z="381.6338"/>
 			<Orientation y="2.10894"/>
 			<Actor seed="3824"/>
 		</Entity>
 		<Entity uid="7595">
-			<Template>actor|props/units/shields/norse_round.xml</Template>
+			<Template>actor|props/units/shields/norse_swordsman_b.xml</Template>
 			<Position x="241.75489" z="384.16428"/>
 			<Orientation y="2.9694"/>
 			<Actor seed="13286"/>
