@@ -23,10 +23,10 @@
 	</Identity>
 	<ProductionQueue>
 		<Entities datatype="tokens">
-			units/norse_infantry_swordsman_b
-			units/norse_infantry_spearman_b
-			units/norse_infantry_archer_b
-			units/norse_champion_berserker_barracks
+			units/{civ}_infantry_swordsman_b
+			units/{civ}_infantry_spearman_b
+			units/{civ}_infantry_archer_b
+			units/{civ}_champion_berserker_barracks
 		</Entities>
 	</ProductionQueue>
 	<VisualActor>
