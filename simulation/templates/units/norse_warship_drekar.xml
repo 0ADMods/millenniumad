@@ -7,21 +7,7 @@
     <Square width="12.0" depth="36.0"/>
     <Height>8.0</Height>
   </Footprint>
-  <Auras>
-    <Aura1>
-      <Type>range</Type>
-      <Radius>80</Radius>
-      <Affects>Unit</Affects>
-      <Modifications>
-        <Looter.Resource.food> <Multiply>1.25</Multiply> </Looter.Resource.food>
-        <Looter.Resource.metal> <Multiply>1.25</Multiply> </Looter.Resource.metal>
-        <Looter.Resource.wood> <Multiply>1.25</Multiply> </Looter.Resource.wood>
-        <Looter.Resource.stone> <Multiply>1.25</Multiply> </Looter.Resource.stone>
-      </Modifications>
-      <AuraName>Unit Loot</AuraName>
-      <AuraDescription>Looters receive +25% more loot in the area.</AuraDescription>
-    </Aura1>
-  </Auras>
+  <Auras datatype="tokens">norse_warship_loot</Auras>
   <GarrisonHolder>
     <Max>100</Max>
   </GarrisonHolder>
@@ -39,7 +25,7 @@
   </UnitMotion>
   <ResourceDropsite>
     <Types>food wood stone metal</Types>
-	<Sharable>false</Sharable>
+	  <Sharable>false</Sharable>
   </ResourceDropsite>
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>

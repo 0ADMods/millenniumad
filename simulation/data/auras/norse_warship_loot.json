@@ -1,0 +1,14 @@
+{
+	"type": "range",
+	"radius": 80,
+	"affects": ["Unit"],
+	"modifications": [
+	{ "value": "Looter/Resource/metal", "multiply": 1.25 },
+	{ "value": "Looter/Resource/wood", "multiply": 1.25 },
+	{ "value": "Looter/Resource/food", "multiply": 1.25 },
+	{ "value": "Looter/Resource/stone", "multiply": 1.25 }	
+	],
+	"auraName": "Unit Loot",
+	"auraDescription": "Looters receive +25% more loot in the area.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_cavalry_swordsman">
-  <Auras>
-    <Aura1>
-      <Type>global</Type>
-      <Affects>Structure</Affects>
-      <Modifications>
-        <Capturable.RegenRate> <Multiply>1.1</Multiply> </Capturable.RegenRate>
-		    <Capturable.GarrisonRegenRate> <Multiply>1.1</Multiply> </Capturable.GarrisonRegenRate>
-		    <Capturable.CapturePoints> <Multiply>1.1</Multiply> </Capturable.CapturePoints>
-      </Modifications>
-      <AuraName>Secure Borders Aura</AuraName>
-      <AuraDescription>During his lifetime, all structures are 10% harder to capture.</AuraDescription>
-      <OverlayIcon>art/textures/ui/session/auras/attack_bonus.png</OverlayIcon>
-    </Aura1>
-  </Auras>
+  <Auras datatype="tokens">anglo_hero_alfred</Auras>
   <Identity>
     <Civ>anglo</Civ>
     <SpecificName>Alfred the Great</SpecificName>
