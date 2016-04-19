@@ -24,7 +24,7 @@
     <SpecificName>Huskárl</SpecificName>
     <History>?</History>
     <Icon>units/norse_huskarl.png</Icon>
-    <RequiredTechnology>unlock_champion_units</RequiredTechnology>
+    <RequiredTechnology>unlock_champion_units_modded</RequiredTechnology>
     <SelectionGroupName>units/norse_champion_huscarl</SelectionGroupName>
   </Identity>
   <VisualActor>

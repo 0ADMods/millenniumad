@@ -28,6 +28,9 @@
 			units/{civ}_infantry_archer_b
 			units/{civ}_champion_berserker_barracks
 		</Entities>
+	    <Technologies datatype="tokens">
+	      unlock_champion_units_modded
+	    </Technologies>
 	</ProductionQueue>
 	<VisualActor>
 		<Actor>structures/norse/barracks.xml</Actor>

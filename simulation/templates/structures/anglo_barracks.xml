@@ -22,6 +22,9 @@
     <Entities datatype="tokens">
       units/anglo_champion_infantry_barracks
     </Entities>
+    <Technologies datatype="tokens">
+      unlock_champion_units_modded
+    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/anglo/barracks.xml</Actor>

@@ -2,7 +2,7 @@
 	"genericName": "Town Phase",
 	"description": "Advances from a small village to a bustling town, ready to expand rapidly.",
 	"cost": { "food": 500, "wood": 500, "stone": 0, "metal": 0 },
-	"requirements": { "class": "Village", "number": 4 },
+	"requirements": { "all": [{ "class": "Village", "number": 4 }, { "civ": "norse" }] },
 	"requirementsTooltip": "Requires 4 Village Phase structures (except Palisades and Farm Fields).",
 	"supersedes": "phase_village",
 	"replaces": ["phase_town"],

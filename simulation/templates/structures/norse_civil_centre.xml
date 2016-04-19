@@ -73,6 +73,9 @@
       germanic_thingstead
       -phase_town
       phase_town_norse
+      -phase_city
+      phase_city_norse
+      unlock_champion_units_modded
     </Technologies>
   </ProductionQueue>
   <VisualActor>

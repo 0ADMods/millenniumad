@@ -34,7 +34,7 @@
     <SpecificName>Berserkr</SpecificName>
     <History>?</History>
     <Icon>units/norse_berserker.png</Icon>
-    <RequiredTechnology>unlock_champion_units</RequiredTechnology>
+    <RequiredTechnology>unlock_champion_units_modded</RequiredTechnology>
     <SelectionGroupName>units/norse_champion_berserker</SelectionGroupName>
   </Identity>
  <UnitMotion> 
