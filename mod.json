@@ -1,9 +1,9 @@
 {
 	"name": "millenniumad",
-	"version": "0.0.20",
+	"version": "0.0.21",
 	"label": "0 A.D. Medieval Extension",
 	"url": "forum.wildfiregames.com",
 	"description": "Adds medieval content like civilizations + maps.",
-    "dependencies": ["0ad=0.0.20"],
+    "dependencies": ["0ad=0.0.21"],
 	"type": "content mod"
 }
