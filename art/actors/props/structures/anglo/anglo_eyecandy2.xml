@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="100" name="Anglo Eyecandy 1">
+			<mesh>props/anglo_eyecandy2.dae</mesh>
+			<textures>
+				<texture file="structural/anglo_struct.png" name="baseTex"/>
+			</textures>
+			<props>
+				<prop actor="props/structures/anglo/anglo_eyecandy2_shield1.xml" attachpoint="root"/>
+				<prop actor="props/structures/anglo/anglo_eyecandy2_shield2.xml" attachpoint="root"/>
+				<prop actor="props/structures/anglo/anglo_eyecandy2_shield3.xml" attachpoint="root"/>
+			</props>
+		</variant>
+	</group>
+	<material>player_trans.xml</material>
+</actor>

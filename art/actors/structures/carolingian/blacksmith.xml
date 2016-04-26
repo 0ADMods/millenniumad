@@ -14,8 +14,8 @@
 				<prop actor="props/structures/celts/blacksmith_bucket.xml" attachpoint="bucket"/>
 			</props>
 			<textures>
-			<texture file="structural/caro_struct.png" name="baseTex"/>
-			<texture file="structural/ao/caro_blacksmith_ao.png" name="aoTex"/>
+				<texture file="structural/caro_struct.png" name="baseTex"/>
+				<texture file="structural/ao/caro_blacksmith_ao.png" name="aoTex"/>
 			</textures>
 		</variant>
 	</group>

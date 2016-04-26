@@ -2,8 +2,8 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant frequency="100" name="Anglo Corral Hay Pile">
-			<mesh>props/anglo_corral_hay_pile.dae</mesh>
+		<variant frequency="100" name="Anglo Stables Hay Pile">
+			<mesh>props/anglo_stables_hay_pile.dae</mesh>
 			<textures>
 				<texture file="structural/anglo_struct.png" name="baseTex"/>
 				<texture file="structural/anglo_struct_norm.png" name="normTex"/>
