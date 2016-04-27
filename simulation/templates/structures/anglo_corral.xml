@@ -12,6 +12,12 @@
   <Obstruction>
     <Static width="17.0" depth="19.0"/>
   </Obstruction>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      -speed_cavalry_01
+      -speed_cavalry_02
+    </Technologies>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/anglo/corral.xml</Actor>
   </VisualActor>
