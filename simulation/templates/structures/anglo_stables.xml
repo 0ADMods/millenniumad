@@ -16,6 +16,7 @@
     <SpecificName>?</SpecificName>
 	<History>?</History>
     <Icon>structures/stables.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
