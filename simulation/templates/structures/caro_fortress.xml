@@ -36,12 +36,6 @@
       units/{civ}_infantry_archer_a
       units/{civ}_support_trader
     </Entities>
-    <Technologies datatype="tokens">
-      -siege_attack
-      -siege_armor
-      -siege_cost_metal
-      -siege_cost_wood
-    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/anglo/fortress.xml</Actor>
