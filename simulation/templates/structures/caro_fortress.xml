@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <BuildRestrictions>
+    <Category>Market</Category>
+  </BuildRestrictions>
+  <Cost>
+    <PopulationBonus>12</PopulationBonus>
+  </Cost>
+  <Identity>
+    <Civ>caro</Civ>
+    <SpecificName>Castle</SpecificName>
+    <Tooltip>Train advanced infantry units. The Castle is a small economical center and functions as a dropsite and a market (but with a lower trading gain). Garrison: 20.</Tooltip>
+    <History>?</History>
+    <Classes datatype="tokens">BarterMarket</Classes>
+    <VisibleClasses datatype="tokens">Market</VisibleClasses>
+  </Identity>
+  <Market>
+    <TradeType>land</TradeType>
+    <InternationalBonus>0.1</InternationalBonus>
+  </Market>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_fortress.xml</select>
+      <constructed>interface/complete/building/complete_fortress.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <ResourceDropsite>
+    <Types>food wood stone metal</Types>
+    <Sharable>true</Sharable>
+  </ResourceDropsite>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_infantry_spearman_a
+      units/{civ}_infantry_swordsman_a
+      units/{civ}_infantry_archer_a
+      units/{civ}_support_trader
+    </Entities>
+    <Technologies datatype="tokens">
+      -siege_attack
+      -siege_armor
+      -siege_cost_metal
+      -siege_cost_wood
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/anglo/fortress.xml</Actor>
+  </VisualActor>
+</Entity>
