@@ -8,7 +8,7 @@
   </Identity>
   <Minimap>
     <Type>metal</Type>
-    <Color r="206" g="82" b="6"/>
+    <Color b="141" g="141" r="227"/>
   </Minimap>
   <ResourceSupply>
     <KillBeforeGather>false</KillBeforeGather>
