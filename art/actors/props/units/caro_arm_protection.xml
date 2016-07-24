@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="1" name="Cape Black">
+			<mesh>props/caro_arm_protection.dae</mesh>
+			<textures>
+				<texture file="props/caro_arm_protection.png" name="baseTex"/>
+				<texture file="props/caro_arm_protection_spec.png" name="specTex"/>
+			</textures>
+		</variant>
+	</group>
+	<material>basic_spec.xml</material>
+</actor>

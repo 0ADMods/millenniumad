@@ -38,6 +38,6 @@
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/anglo/fortress.xml</Actor>
+    <Actor>structures/carolingian/fortress.xml</Actor>
   </VisualActor>
-</Entity>
+</Entity> 

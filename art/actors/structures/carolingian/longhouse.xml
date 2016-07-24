@@ -4,13 +4,12 @@
 	<group>
 		<variant frequency="100" name="Carolingian Long House">
 			<mesh>structural/caro_longhouse.dae</mesh>
-			<props>
-			</props>
 			<textures>
-			<texture file="structural/caro_struct.png" name="baseTex"/>
-			<texture file="structural/ao/caro_longhouse_ao.png" name="aoTex"/>
+				<texture file="structural/caro_struct.png" name="baseTex"/>
+				<texture file="structural/caro_struct_norm.png" name="normTex"/>
+				<texture file="structural/ao/caro_longhouse_ao.png" name="aoTex"/>
 			</textures>
 		</variant>
 	</group>
-  <material>player_trans_ao.xml</material>
+  <material>player_trans_ao_parallax.xml</material>
 </actor>

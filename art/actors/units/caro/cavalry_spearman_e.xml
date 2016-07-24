@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="100" name="Base">
+			<animations>
+				<animation file="quadraped/horse_idle_a.dae" name="Idle" speed="20"/>
+				<animation file="quadraped/horse_walk.dae" name="Walk" speed="120"/>
+				<animation file="quadraped/horse_gallop.dae" name="Run" speed="50"/>
+				<animation file="quadraped/horse_walk.dae" name="carry_meat" speed="120"/>
+				<animation event=".5" file="quadraped/horse_idle_a.dae" name="attack_melee" speed="20"/>
+				<animation file="quadraped/horse_death.dae" name="Death" speed="240"/>
+			</animations>
+			<mesh>skeletal/horse.dae</mesh>
+			<props>
+				<prop actor="units/caro/cavalry_spearman_e_r.xml" attachpoint="rider"/>
+			</props>
+		</variant>
+	</group>
+	<group>
+		<variant frequency="7" name="feet">
+			<textures><texture file="skeletal/horse_celt_feet_a.dds" name="baseTex"/></textures>
+		</variant>
+		<variant frequency="5" name="blaze">
+			<textures><texture file="skeletal/horse_celt_blaze_a.dds" name="baseTex"/></textures>
+		</variant>
+		<variant frequency="5" name="face">
+			<textures><texture file="skeletal/horse_celt_face_a.dds" name="baseTex"/></textures>
+		</variant>
+		<variant frequency="7" name="star">
+			<textures><texture file="skeletal/horse_celt_star_a.dds" name="baseTex"/></textures>
+		</variant>
+		<variant frequency="3" name="dapple">
+			<textures><texture file="skeletal/horse_celt_dapple_a.dds" name="baseTex"/></textures>
+		</variant>
+		<variant frequency="2" name="snip">
+			<textures><texture file="skeletal/horse_celt_snip_a.dds" name="baseTex"/></textures>
+		</variant>
+		<variant frequency="5" name="stripe">
+			<textures><texture file="skeletal/horse_celt_stripe_a.dds" name="baseTex"/></textures>
+		</variant>
+	</group>
+	<group>
+		<variant frequency="1" name="horse-color-black">
+			<color>41 41 41</color>
+		</variant>
+		<variant frequency="1" name="horse-color-beige">
+			<color>247 213 111</color>
+		</variant>
+		<variant frequency="1" name="horse-color-gray">
+			<color>253 253 253</color>
+		</variant>
+		<variant frequency="1" name="horse-color-brown">
+			<color>211 123 44</color>
+		</variant>
+	</group>
+  <group>
+		<variant frequency="100" name="Idle"/>
+		<variant name="Walk">
+			<props>
+				<prop actor="particle/dust_cav.xml" attachpoint="root"/>
+			</props>
+		</variant>
+		<variant name="Run">
+			<props>
+				<prop actor="particle/dust_cav.xml" attachpoint="root"/>
+			</props>
+		</variant>
+	</group>
+	<material>objectcolor.xml</material>
+</actor>
