@@ -2,7 +2,7 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant frequency="100" name="Norse Barracks">
+		<variant name="Norse Blacksmith">
 			<mesh>structural/norse_blacksmith.dae</mesh>
 			<props>
 				<prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
@@ -18,4 +18,5 @@
 			</textures>
 		</variant>
 	</group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+	<material>player_trans_ao_parallax_spec.xml</material>
+</actor>
