@@ -14,6 +14,8 @@
 				<prop actor="props/structures/decals/dirt_6x4.xml" attachpoint="root"/>
 				<prop actor="props/structures/anglo/shield_anglo_civil_center.xml" attachpoint="root"/>
 				<prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+				<prop actor="props/structures/anglo/anglo_eyecandy2.xml" attachpoint="eyecandy"/>
+				<prop actor="props/structures/anglo/anglo_eyecandy2.xml" attachpoint="eyecandy2"/>
 			</props>
 		</variant>
 	</group>
