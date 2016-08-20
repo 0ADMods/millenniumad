@@ -2,15 +2,14 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Builder>
     <Entities datatype="tokens">
-      structures/sele_military_colony
-      structures/sele_library
-      structures/sele_wonder
+      structures/caro_palace
+      structures/caro_special
     </Entities>
   </Builder>
   <Identity>
-    <Civ>sele</Civ>
+    <Civ>caro</Civ>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/sele_infantry_swordsman_merc_b</SelectionGroupName>
+    <SelectionGroupName>units/caro_infantry_swordsman_b</SelectionGroupName>
     <GenericName>Infantry Swordsman</GenericName>
     <SpecificName>?</SpecificName>
     <Icon>units/sele_infantry_swordsman.png</Icon>

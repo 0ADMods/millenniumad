@@ -11,7 +11,7 @@
     <PopulationBonus>2</PopulationBonus>
   </Cost>
   <Identity>
-    <Civ>norse</Civ>
+    <Civ>caro</Civ>
     <VisibleClasses datatype="tokens">Village Farmstead Resource</VisibleClasses>
   </Identity>
   <VisualActor>
