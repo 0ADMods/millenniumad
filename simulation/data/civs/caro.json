@@ -1,0 +1,115 @@
+{
+	"Code": "caro",
+	"Culture": "caro",
+	"Name": "Carolingians",
+	"Emblem": "session/portraits/emblems/emblem_carolingians.png",
+	"History": "N/A",
+	"Music":[
+			{"File":"The_Land_of_Eternal_Winter.ogg", "Type":"peace"},
+			{"File":"To_Valhalla.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name": "Carolingians",
+			"Description": "The inhabitants of France.",
+			"Technologies":
+			[
+				{
+					"Name": "N/A",
+					"History": "N/A",
+					"Description": "N/A" 
+				}
+			],
+			"Heroes":
+			[
+				{
+					"Name": "Charlemagne",
+					"Class": "?",
+					"Armament": "",
+					"Emblem": "",
+					"History": "?"
+				},
+				{
+					"Name": "TBD",
+					"Class": "?",
+					"Armament": "",
+					"Emblem": "",
+					"History": "?" 
+				},
+				{
+					"Name": "TDB 2",
+					"Class": "?",
+					"Armament": "",
+					"Emblem": "",
+					"History": "?"					
+				}
+			] 
+		} 
+	],
+	"CivBonuses":
+	[
+		{
+			"Name": "Palace",
+			"History": "N/A",
+			"Description": "Carolingians can build a special building that generates metal, trains heroes and builds siege weapons." 
+		},
+		{
+			"Name": "Improved Logistics",
+			"History": "N/A",
+			"Description": "All heroes have a movement speed aura. Gatherers have a slightly bigger gather capacity." 
+		}
+	],
+	"TeamBonuses":
+	[
+	],
+	"Structures":
+	[
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/caro_civil_centre" 
+		},
+		{
+			"Template": "units/caro_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/caro_infantry_swordsman_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/caro_infantry_swordsman_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/caro_cavalry_spearman_b" 
+		}
+	],
+	"Formations":
+	[
+		"formations/null",
+		"formations/box",
+		"formations/column_closed",
+		"formations/line_closed",
+		"formations/column_open",
+		"formations/line_open",
+		"formations/flank",
+		"formations/skirmish",
+		"formations/wedge",
+		"formations/battle_line",
+		"formations/shieldwall"
+	],
+	"AINames":
+	[
+		"Charlemagne"
+	],
+		"SkirmishReplacements":
+	{
+		"skirmish/units/default_cavalry": "units/caro_infantry_swordsman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/caro_infantry_swordsman_b",
+		"skirmish/structures/default_house_10": "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": true
+}
