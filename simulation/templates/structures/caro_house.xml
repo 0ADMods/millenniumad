@@ -8,17 +8,8 @@
 		<Static width="15.0" />
 	</Obstruction>	
 	<Identity>
-		<Civ>norse</Civ>
-	</Identity> 
-	<ProductionQueue>
-		<Entities datatype="tokens">
-      units/{civ}_support_female_citizen
-      -units/{civ}_support_female_citizen_house
-		</Entities>
-		<Technologies datatype="tokens">
-	  	-unlock_females_house
-		</Technologies>
-	</ProductionQueue>
+		<Civ>caro</Civ>
+	</Identity>
 	<VisualActor>
 		<Actor>structures/carolingian/house.xml</Actor>
 		<FoundationActor>structures/fndn_4x2.xml</FoundationActor>
