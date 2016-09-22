@@ -103,9 +103,20 @@
 	],
 	"AINames":
 	[
-		"Charlemagne"
+		"Charles Martel",
+		"Charlemagne",
+		"Charles the Bald",
+		"Louis the Pious",
+		"Pepin the Short",
+		"Carloman I",
+		"Lothair I",
+		"Pepin of Italy",
+		"Pepin I of Aquitaine",
+		"Pepin the Hunchback",
+		"Charles the Younger",
+		"Louis the German"
 	],
-		"SkirmishReplacements":
+	"SkirmishReplacements":
 	{
 		"skirmish/units/default_cavalry": "units/caro_infantry_swordsman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/caro_infantry_swordsman_b",
