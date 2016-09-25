@@ -9,14 +9,6 @@
         </BonusBuilding>
       </Bonuses>
     </Melee>
-    <Charge>
-      <Bonuses>
-        <BonusCharge>
-          <Classes>Structure</Classes>
-          <Multiplier>1.1</Multiplier>
-        </BonusCharge>
-      </Bonuses>
-    </Charge>
   </Attack>
   <Identity>
     <Civ>norse</Civ>
