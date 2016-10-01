@@ -11,7 +11,7 @@
 				<texture file="structural/ao/anglo_stables_ao.png" name="aoTex"/>
 			</textures>
 			<props>
-				<prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+				<prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
 				<prop actor="props/structures/anglo/anglo_stables_hay_pile.xml" attachpoint="hay_pile"/>
 				<prop actor="fauna/horse_a.xml" attachpoint="horse1"/>
 				<prop actor="fauna/horse_a.xml" attachpoint="horse2"/>

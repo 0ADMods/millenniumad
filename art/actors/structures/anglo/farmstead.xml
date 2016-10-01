@@ -4,6 +4,9 @@
 	<group>
 		<variant frequency="100" name="Anglo ">
 			<mesh>structural/anglo_farmstead.dae</mesh>
+			<props>
+				<prop actor="props/structures/decals/dirt_4x2.xml" attachpoint="root"/>
+			</props>
 			<textures>
 				<texture file="structural/anglo_struct.png" name="baseTex"/>
 				<texture file="structural/anglo_struct_norm.png" name="normTex"/>

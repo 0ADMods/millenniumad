@@ -7,6 +7,7 @@
 			<props>
 				<prop actor="props/structures/anglo/anglo_hc_nature.xml" attachpoint="root"/>
 				<prop actor="props/structures/anglo/anglo_barracks_bench_right.xml" attachpoint="bench"/>
+				<prop actor="props/structures/decals/dirt_2x4.xml" attachpoint="root"/>
 			</props>
 			<textures>
 				<texture file="structural/anglo_struct.png" name="baseTex"/>
