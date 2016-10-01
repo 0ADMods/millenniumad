@@ -10,7 +10,7 @@
     <History>?</History>
   </Identity>
   <Health>
-    <SpawnEntityOnDeath>rubble/rubble_celt_cc</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>rubble/rubble_6x4</SpawnEntityOnDeath>
   </Health>
   <Obstruction>
     <Static width="37.0" depth="20.0"/>
@@ -28,5 +28,6 @@
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/anglo/civil_center.xml</Actor>
+    <FoundationActor>structures/fndn_6x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

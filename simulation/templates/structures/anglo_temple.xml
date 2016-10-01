@@ -8,11 +8,11 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="24.5" depth="24.5"/>
+    <Square width="13.0" depth="24.0"/>
     <Height>8.0</Height>
   </Footprint>
 <Health>
-    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>rubble/rubble_stone_3x5</SpawnEntityOnDeath>
 </Health>
   <Identity>
     <Civ>anglo</Civ>
@@ -20,10 +20,10 @@
     <History>?</History>
   </Identity>
   <Obstruction>
-    <Static width="22.5" depth="22.5"/>
+    <Static width="12.0" depth="23.0"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/anglo/temple.xml</Actor>
-    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+    <FoundationActor>structures/fndn_2x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

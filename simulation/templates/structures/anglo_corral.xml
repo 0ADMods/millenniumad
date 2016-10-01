@@ -20,5 +20,6 @@
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/anglo/corral.xml</Actor>
+    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
   </VisualActor>
 </Entity>
