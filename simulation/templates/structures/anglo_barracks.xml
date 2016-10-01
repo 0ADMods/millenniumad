@@ -4,7 +4,7 @@
     <PopulationBonus>8</PopulationBonus>
   </Cost>
   <Footprint>
-    <Square width="22.0" depth="26.0"/>
+    <Square width="26.0" depth="22.0"/>
     <Height>5.0</Height>
   </Footprint>
   <Health>
@@ -17,7 +17,7 @@
     <Icon>structures/barracks_infantry.png</Icon>
   </Identity>
   <Obstruction>
-    <Static width="20.0" depth="24.0"/>
+    <Static width="24.0" depth="20.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">s
