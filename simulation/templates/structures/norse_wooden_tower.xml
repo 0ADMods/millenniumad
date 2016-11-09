@@ -4,6 +4,7 @@
     <Civ>norse</Civ>
     <SpecificName>Gnæfa</SpecificName>
   </Identity>
+  <Upgrade disable=""/>
   <VisualActor>
     <Actor>structures/celts/wooden_tower.xml</Actor>
   </VisualActor>
