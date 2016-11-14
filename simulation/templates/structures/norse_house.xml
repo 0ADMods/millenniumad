@@ -56,7 +56,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/norse_infantry_swordsman_b_house
+      units/{civ}_infantry_swordsman_b_house
       units/{civ}_support_female_citizen
       -units/{civ}_support_female_citizen_house
     </Entities>

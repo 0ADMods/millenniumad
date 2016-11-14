@@ -21,7 +21,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">s
-      units/anglo_champion_infantry_barracks
+      units/{civ}_champion_infantry_barracks
       -units/{civ}_cavalry_spearman_b
     </Entities>
     <Technologies datatype="tokens">

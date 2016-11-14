@@ -49,15 +49,15 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/norse_infantry_swordsman_b
-      units/norse_infantry_spearman_b
-      units/norse_infantry_archer_b
-      units/norse_champion_berserker
-      units/norse_champion_huscarl
-      units/norse_mechanical_siege_ram
-      units/norse_hero_erik_the_red
-      units/norse_hero_ivar_the_boneless
-      units/norse_hero_hastein
+      units/{civ}_infantry_swordsman_b
+      units/{civ}_infantry_spearman_b
+      units/{civ}_infantry_archer_b
+      units/{civ}_champion_berserker
+      units/{civ}_champion_huscarl
+      units/{civ}_mechanical_siege_ram
+      units/{civ}_hero_erik_the_red
+      units/{civ}_hero_ivar_the_boneless
+      units/{civ}_hero_hastein
     </Entities>
     <Technologies datatype="tokens">
       attack_soldiers_will
