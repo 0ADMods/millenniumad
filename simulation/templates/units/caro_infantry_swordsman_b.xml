@@ -4,6 +4,7 @@
     <Entities datatype="tokens">
       structures/caro_palace
       structures/caro_special
+      -structures/{civ}_wonder
     </Entities>
   </Builder>
   <Identity>

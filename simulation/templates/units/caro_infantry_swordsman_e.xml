@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/sele_infantry_swordsman_merc_a">
+<Entity parent="units/caro_infantry_swordsman_a">
   <Identity>
     <Rank>Elite</Rank>
   </Identity>
