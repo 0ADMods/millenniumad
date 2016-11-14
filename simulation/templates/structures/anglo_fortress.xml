@@ -18,9 +18,6 @@
   </Sound>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_hero_brennus
-      units/{civ}_hero_britomartus
-      units/{civ}_hero_vercingetorix
       units/{civ}_champion_infantry
     </Entities>
     <Technologies datatype="tokens">
