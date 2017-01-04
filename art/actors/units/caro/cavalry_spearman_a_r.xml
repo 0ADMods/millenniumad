@@ -22,6 +22,9 @@
 				<prop actor="props/units/shields/caro_round.xml" attachpoint="shield"/>
 				<prop actor="props/units/weapons/caro_sheath_sword.xml" attachpoint="l_hip"/>
 			</props>
+			<textures>
+				<texture file="skeletal/caro_cavalry_a.png" name="baseTex"/>
+			</textures>
 		</variant>
 	</group>
 	<group>
@@ -29,13 +32,6 @@
 			<props>
 				<prop actor="props/units/weapons/caro_cavalry_spear.xml" attachpoint="r_hand"/>
 			</props>
-		</variant>
-	</group>
-	<group>
-		<variant frequency="1" name="BRider-Texture_1">
-			<textures>
-				<texture file="skeletal/caro_cavalry_a.png" name="baseTex"/>
-			</textures>
 		</variant>
 	</group>
 	<group>
