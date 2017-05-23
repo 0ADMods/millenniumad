@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_resource_field">
-	<Identity>
-		<Civ>caro</Civ>
-	</Identity>
+  <Identity>
+    <Civ>brit</Civ>
+    <SpecificName>?</SpecificName>
+    <History>A farmer's field.</History>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/plot_field_temp.xml</Actor>
+  </VisualActor>
 </Entity>
