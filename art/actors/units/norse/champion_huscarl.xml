@@ -2,135 +2,112 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Base">
-      <animations>
-        <animation file="biped/inf_2_hand_sword_ready_c.dae" name="Idle" speed="100"/>
-        <animation file="biped/inf_2_hand_sword_ready_a.dae" name="Idle" speed="99"/>
-        <animation file="biped/inf_2_hand_sword_ready_a.dae" name="Idle" speed="93"/>
-        <animation file="biped/inf_2_hand_sword_ready_a.dae" name="Idle" speed="85"/>
-        <animation file="biped/inf_2_hand_sword_ready_a.dae" name="Idle" speed="80"/>
-        <animation file="biped/inf_2_hand_sword_ready_a.dae" name="Idle" speed="75"/>
-        <animation file="biped/dudewalk_swordshield.psa" name="Walk" speed="110"/>
-        <animation file="infantry/sword/move/run/isw_s_em_03.psa" name="Run" speed="8"/>
-        <animation event="0.3" file="biped/not used/inf_2sword_attack_e.dae" name="attack_melee" speed="40"/>
-        <animation event="0.43" file="infantry/general/mine.dae" name="attack_melee" speed="40"/>
-        <animation file="infantry/general/death/inf_01.psa" name="Death" speed="200"/>
-        <animation file="infantry/general/death/inf_02.psa" name="Death" speed="400"/>
-        <animation file="infantry/general/death/inf_03.psa" name="Death" speed="200"/>
-      </animations>
-      <mesh>skeletal/m_pants_celt.dae</mesh>
+    <variant file="biped/base_swordsman_2hand_relax.xml">
+      <mesh>skeletal/new/m_armor_pants_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/helmets/norse_huscarl.xml" attachpoint="helmet"/>
-        <prop actor="props/units/heads/thrac_a.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/norse_2h_axe.xml" attachpoint="r_hand"/>
-        <prop actor="props/temp/l_sheath.xml" attachpoint="l_hip"/>
+        <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/norse_champion_huscarl_back.xml" attachpoint="back"/>
+        <prop actor="props/units/weapons/norse_2h_axe.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="25" name="Chainmail1a">
+    <variant frequency="1" name="Chainmail1a">
       <textures>
         <texture file="skeletal/norse/elite/chainmail1a.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="Chainmail1b">
+    <variant frequency="1" name="Chainmail1b">
       <textures>
         <texture file="skeletal/norse/elite/chainmail1b.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="75" name="Chainmail1c">
+    <variant frequency="1" name="Chainmail1c">
       <textures>
         <texture file="skeletal/norse/elite/chainmail1c.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="125" name="Chainmail2a">
+    <variant frequency="1" name="Chainmail2a">
       <textures>
         <texture file="skeletal/norse/elite/chainmail2a.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="150" name="Chainmail2b">
+    <variant frequency="1" name="Chainmail2b">
       <textures>
         <texture file="skeletal/norse/elite/chainmail2b.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="125" name="Chainmail2c">
+    <variant frequency="1" name="Chainmail2c">
       <textures>
         <texture file="skeletal/norse/elite/chainmail2c.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="25" name="Chainmail3a">
-      <textures>
-        <texture file="skeletal/norse/elite/chainmail3a.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="100" name="Chainmail3b">
-      <textures>
-        <texture file="skeletal/norse/elite/chainmail3b.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="75" name="Chainmail3c">
-      <textures>
-        <texture file="skeletal/norse/elite/chainmail3c.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="125" name="Chainmail4a">
+    <variant frequency="1" name="Chainmail4a">
       <textures>
         <texture file="skeletal/norse/elite/chainmail4a.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="150" name="Chainmail4b">
+    <variant frequency="1" name="Chainmail4b">
       <textures>
         <texture file="skeletal/norse/elite/chainmail4b.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="125" name="Chainmail4c">
+    <variant frequency="1" name="Chainmail4c">
       <textures>
         <texture file="skeletal/norse/elite/chainmail4c.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="25" name="Chainmail5a">
+    <variant frequency="0" name="Chainmail5a">
+      <props>
+        <prop actor="props/units/helmets/norse_huscarl.xml" attachpoint="helmet"/>
+      </props>
       <textures>
         <texture file="skeletal/norse/elite/chainmail5a.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="Chainmail5b">
+    <variant frequency="0" name="Chainmail5b">
+      <props>
+        <prop actor="props/units/helmets/norse_huscarl.xml" attachpoint="helmet"/>
+      </props>
       <textures>
         <texture file="skeletal/norse/elite/chainmail5b.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="75" name="Chainmail5c">
+    <variant frequency="0" name="Chainmail5c">
+      <props>
+        <prop actor="props/units/helmets/norse_huscarl.xml" attachpoint="helmet"/>
+      </props>
       <textures>
         <texture file="skeletal/norse/elite/chainmail5c.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="125" name="Chainmail6a">
-      <textures>
-        <texture file="skeletal/norse/elite/chainmail6a.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="150" name="Chainmail6b">
-      <textures>
-        <texture file="skeletal/norse/elite/chainmail6b.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="125" name="Chainmail6c">
-      <textures>
-        <texture file="skeletal/norse/elite/chainmail6c.png" name="baseTex"/>
-      </textures>
-    </variant>
   </group>
   <group>
-    <variant frequency="75" name="Shield">
-      <props>
-        <prop actor="props/units/shields/norse_champion_huscarl_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant frequency="25" name="Shield+Cape">
-      <props>
-        <prop actor="props/units/shields/norse_champion_huscarl_back_cape.xml" attachpoint="back"/>
-        <prop actor="props/units/cape_player_b.xml" attachpoint="shoulders"/>
-      </props>
-    </variant>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/gather_tree.xml"/>
+    <variant file="biped/gather_grain.xml"/>
+    <variant file="biped/gather_fruit.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/gather_rock.xml"/>
+    <variant file="biped/gather_ore.xml"/>
+    <variant file="biped/gather_ruins.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
+    <variant file="biped/carry_food.xml"/>
+    <variant file="biped/carry_meat.xml"/>
+    <variant file="biped/carry_wood.xml"/>
+    <variant file="biped/carry_stone.xml"/>
+    <variant file="biped/carry_metal.xml"/>
+    <variant file="biped/carry_food_idle.xml"/>
+    <variant file="biped/carry_meat_idle.xml"/>
+    <variant file="biped/carry_wood_idle.xml"/>
+    <variant file="biped/carry_stone_idle.xml"/>
+    <variant file="biped/carry_metal_idle.xml"/>
+    <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans.xml</material>
 </actor>
