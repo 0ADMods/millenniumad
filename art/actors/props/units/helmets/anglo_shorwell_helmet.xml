@@ -4,6 +4,9 @@
   <group>
     <variant frequency="50" name="Helmet_A">
       <mesh>props/anglo_shorwell_helmet.dae</mesh>
+      <textures>
+        <texture file="props/anglo_shorwell_helmet_norm.png" name="normTex"/>
+      </textures>
     </variant>
   </group>
   <group>
@@ -26,5 +29,5 @@
       </textures>
     </variant>
   </group>
-  <material>objectcolor_specmap.xml</material>
+  <material>basic_trans_parallax_spec.xml</material>
 </actor>
