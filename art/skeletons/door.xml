@@ -1,0 +1,42 @@
+<skeletons>
+	<standard_skeleton title="Door Skeleton" id="door">
+		<bone name="origin">
+			<bone name="door_right">
+				<bone name="lock_right"></bone>
+			</bone>
+			<bone name="door_left">
+				<bone name="lock_left"></bone>
+			</bone>
+		</bone>
+		<bone name="origin2">
+			<bone name="door_right2">
+				<bone name="lock_right2"></bone>
+			</bone>
+			<bone name="door_left2">
+				<bone name="lock_left2"></bone>
+			</bone>
+		</bone>
+	</standard_skeleton>
+
+	<skeleton title="Door Skeleton" target="door"> 
+		<identifier> 
+			<root>door</root> 
+		</identifier> 
+		<bone name="origin"><target>origin</target>
+			<bone name="door_right"><target>door_right</target>
+				<bone name="lock_right"><target>lock_right</target></bone>
+			</bone>
+			<bone name="door_left"><target>door_left</target>
+				<bone name="lock_left"><target>lock_left</target></bone>
+			</bone>
+			<bone name="origin2"><target>origin2</target>
+			<bone name="door_right2"><target>door_right2</target>
+				<bone name="lock_right2"><target>lock_right2</target></bone>
+			</bone>
+			<bone name="door_left2"><target>door_left2</target>
+				<bone name="lock_left2"><target>lock_left2</target></bone>
+			</bone>
+			</bone>
+		</bone>
+	</skeleton>
+</skeletons>

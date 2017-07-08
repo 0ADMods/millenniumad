@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Wall Short">
+      <mesh>structural/anglo_wall_short.dae</mesh>
+	  <props>
+        <prop actor="props/units/weapons/norse_axe.xml" attachpoint="axe"/>
+        <prop actor="props/units/weapons/spear.xml" attachpoint="spear"/>
+		<prop actor="props/units/weapons/norse_axe.xml" attachpoint="axe2"/>
+        <prop actor="props/units/weapons/spear.xml" attachpoint="spear3"/>
+		<prop actor="props/units/weapons/norse_axe.xml" attachpoint="axe3"/>
+        <prop actor="props/units/weapons/spear.xml" attachpoint="spear2"/>
+		<prop actor="props/structures/anglo/wall_short_turf.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/anglo_wall.png" name="baseTex"/>
+        <texture file="structural/anglo_wall_norm.png" name="normTex"/>
+        <texture file="structural/anglo_wall_spec.png" name="specTex"/>
+		<texture file="structural/ao/anglo_wall_short_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

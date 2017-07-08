@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_wall_medium">
+  <Footprint>
+    <Square width="26.0" depth="7.0"/>
+    <Height>9.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>anglo</Civ>
+    <SelectionGroupName>structures/athen_wallset_stone</SelectionGroupName>
+    <SpecificName>Teîkhos</SpecificName>
+    <History>Athens was surrounded by stone walls for protection against enemy raids. Some of these fortifications, like the Athenian Long Walls, for example, were massive structures.</History>
+  </Identity>
+  <GarrisonHolder>
+    <Max>3</Max>
+    <List datatype="tokens">Ranged+Infantry</List>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <BuffHeal>0</BuffHeal>
+    <LoadingRange>2</LoadingRange>
+    <VisibleGarrisonPoints>
+      <Archer1>
+        <X>0</X><Y>9.5</Y><Z>0</Z>
+      </Archer1>
+      <Archer2>
+        <X>4</X><Y>9.5</Y><Z>0</Z>
+      </Archer2>
+      <Archer3>
+        <X>-4</X><Y>9.5</Y><Z>0</Z>
+      </Archer3>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>
+  <Obstruction>
+    <Static width="24.0" depth="6.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/anglo/wall_medium.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>24.0</Length>
+  </WallPiece>
+</Entity>

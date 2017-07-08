@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_wall_gate">
+  <Footprint>
+    <Square width="39.0" depth="8.0"/>
+    <Height>9.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>norse</Civ>
+    <SpecificName>Pýlai</SpecificName>
+    <History>The Athenian city wall was pierced by numerous gates and posterns of various sizes and importance. The "Sacred Gate" was the gate on the road to Eleusis. Another gate was the Dipylon Gate, whose name literally means "Double Gate."</History>
+  </Identity>
+  <Obstruction>
+    <Obstructions>
+      <Right width="12" depth="6.5" x="12.5" z="0"/>
+      <Left width="12" depth="6.5" x="-12.5" z="0"/>
+      <Door width="13" depth="6.5" x="0" z="0"/>
+    </Obstructions>
+  </Obstruction>
+  <GarrisonHolder>
+    <Max>11</Max>
+    <List datatype="tokens">Ranged+Infantry</List>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <BuffHeal>0</BuffHeal>
+	<LoadingRange>0.5</LoadingRange>
+    <VisibleGarrisonPoints>
+      <Archer1>
+        <X>0</X><Y>9.7</Y><Z>0</Z>
+      </Archer1>
+      <Archer2>
+        <X>12</X><Y>9.7</Y><Z>0</Z>
+      </Archer2>
+      <Archer3>
+        <X>-12</X><Y>9.7</Y><Z>0</Z>
+      </Archer3>
+      <Archer4>
+        <X>4</X><Y>9.7</Y><Z>0</Z>
+      </Archer4>
+      <Archer5>
+        <X>-4</X><Y>9.7</Y><Z>0</Z>
+      </Archer5>
+	  <Archer6>
+        <X>0</X><Y>10.3</Y><Z>4</Z>
+      </Archer6>
+	  <Archer7>
+        <X>4</X><Y>10.3</Y><Z>4</Z>
+      </Archer7>
+      <Archer8>
+        <X>-4</X><Y>10.3</Y><Z>4</Z>
+	  </Archer8>
+	  <Archer9>
+        <X>0</X><Y>10.3</Y><Z>6</Z>
+      </Archer9>
+	  <Archer10>
+        <X>4</X><Y>10.3</Y><Z>6</Z>
+      </Archer10>
+      <Archer11>
+        <X>-4</X><Y>10.3</Y><Z>6</Z>
+      </Archer11>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>
+  <VisualActor>
+    <Actor>structures/norse/wall_gate.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>38.0</Length>
+  </WallPiece>
+</Entity>

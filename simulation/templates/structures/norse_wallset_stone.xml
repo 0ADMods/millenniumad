@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_wallset">
+  <Identity>
+    <Civ>norse</Civ>
+    <SpecificName>Trelleborg</SpecificName>
+    <History>?</History>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/norse_wall_tower</Tower>
+      <WallLong>structures/norse_wall_long</WallLong>
+      <WallMedium>structures/norse_wall_medium</WallMedium>
+      <WallShort>structures/norse_wall_short</WallShort>
+	  <Gate>structures/norse_wall_gate</Gate>
+    </Templates>
+    <MaxTowerOverlap>0.90</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+  </WallSet>
+</Entity>
