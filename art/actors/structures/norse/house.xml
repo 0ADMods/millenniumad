@@ -11,7 +11,8 @@
 				<texture file="structural/ao/norse_house_a_ao.png" name="aoTex"/>
 			</textures>
 			<props>
-				<prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
+				<prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
+				<prop actor="props/structures/norse/house_fence_a.xml" attachpoint="root"/>
 				<prop actor="particle/smoke_curved.xml" attachpoint="smoke"/>
 				<prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
 			</props>
@@ -25,7 +26,8 @@
 				<texture file="structural/ao/norse_house_b_ao.png" name="aoTex"/>
 			</textures>
 			<props>
-				<prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
+				<prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
+				<prop actor="props/structures/norse/house_fence_a.xml" attachpoint="root"/>
 				<prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
 				<prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
 			</props>
@@ -39,7 +41,8 @@
 				<texture file="structural/ao/norse_house_c_ao.png" name="aoTex"/>
 			</textures>
 			<props>
-				<prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
+				<prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
+				<prop actor="props/structures/norse/house_fence_a.xml" attachpoint="root"/>
 				<prop actor="particle/smoke_curved.xml" attachpoint="smoke"/>
 				<prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
 			</props>
