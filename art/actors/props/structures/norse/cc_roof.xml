@@ -8,6 +8,7 @@
 				<texture file="structural/norse_roof_b.png" name="baseTex"/>
 				<texture file="structural/norse_roof_b_norm.png" name="normTex"/>
 				<texture file="structural/norse_roof_b_spec.png" name="specTex"/>
+				<texture file="structural/ao/norse_longhouse_roof_tiles_ao.png" name="aoTex"/>
 			 </textures>
 		  </variant>
 		<variant frequency="100" name="Roof Hay">
@@ -16,9 +17,10 @@
 				<texture file="structural/norse_struct.png" name="baseTex"/>
 				<texture file="structural/norse_struct_norm.png" name="normTex"/>
 				<texture file="structural/norse_struct_spec.png" name="specTex"/>
+				<texture file="structural/ao/norse_longhouse_roof_hay_ao.png" name="aoTex"/>
 			</textures>
 		</variant>
 	 </group>
-	 <material>basic_trans_parallax_spec.xml</material>
+	 <material>player_trans_ao_parallax_spec.xml</material>
 </actor>
 

@@ -7,7 +7,6 @@
   <Attack>
     <Ranged>
       <Pierce op="add">4.0</Pierce>
-      <MinRange op="add">-2.0</MinRange>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
     </Ranged>
   </Attack>
