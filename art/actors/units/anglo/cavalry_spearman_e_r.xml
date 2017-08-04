@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="75" name="Shorthair">
+    <variant name="Shorthair">
       <animations>
         <animation file="biped/cavalryidle.psa" name="Idle" speed="50"/>
         <animation file="biped/cavalryidle.psa" name="Walk" speed="18"/>
@@ -14,7 +14,7 @@
       </animations>
       <mesh>skeletal/m_pants_celt.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/anglo_copper_gate_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/anglo_pioneer_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/head_celt.xml" attachpoint="head"/>
         <prop actor="props/units/cape_player_b.xml" attachpoint="shoulders"/>
         <prop actor="props/units/shields/anglo_champion_infantry.xml" attachpoint="shield"/>
@@ -23,64 +23,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="0" name="transparent_shirt1">
+    <variant frequency="1" name="padded-dyed_shirt1a">
       <textures>
-        <texture file="skeletal/norse/advanced/transparent_shirt1.png" name="baseTex"/>
+        <texture file="skeletal/norse/advanced/dyed/padded1a.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="0" name="transparent_shirt2">
+    <variant frequency="1" name="padded-dyed_shirt1b">
       <textures>
-        <texture file="skeletal/norse/advanced/transparent_shirt2.png" name="baseTex"/>
+        <texture file="skeletal/norse/advanced/dyed/padded1b.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="0" name="transparent_shirt3">
+    <variant frequency="1" name="padded-dyed_shirt1c">
       <textures>
-        <texture file="skeletal/norse/advanced/transparent_shirt3.png" name="baseTex"/>
+        <texture file="skeletal/norse/advanced/dyed/padded1c.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="0" name="footwraps1">
+    <variant frequency="1" name="padded-dyed_shirt1d">
       <textures>
-        <texture file="skeletal/norse/advanced/footwraps1.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="footwraps2">
-      <textures>
-        <texture file="skeletal/norse/advanced/footwraps2.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="footwraps3">
-      <textures>
-        <texture file="skeletal/norse/advanced/footwraps3.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="25" name="padded1">
-      <textures>
-        <texture file="skeletal/norse/advanced/padded1.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="25" name="padded2">
-      <textures>
-        <texture file="skeletal/norse/advanced/padded2.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="25" name="padded3">
-      <textures>
-        <texture file="skeletal/norse/advanced/padded3.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="25" name="padded_footwraps1">
-      <textures>
-        <texture file="skeletal/norse/advanced/padded_footwraps1.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="25" name="padded_footwraps2">
-      <textures>
-        <texture file="skeletal/norse/advanced/padded_footwraps2.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="25" name="padded_footwraps3">
-      <textures>
-        <texture file="skeletal/norse/advanced/padded_footwraps3.png" name="baseTex"/>
+        <texture file="skeletal/norse/advanced/dyed/padded1d.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
