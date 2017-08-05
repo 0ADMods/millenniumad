@@ -1,0 +1,23 @@
+<skeletons>
+<standard_skeleton id="Bow" title="Bow Skeleton">
+<bone name="string">
+</bone>
+<bone name="base">
+</bone>
+<bone name="topBranch">
+</bone>
+<bone name="botBranch">
+</bone>
+</standard_skeleton>
+<skeleton target="Bow" title="Bow Skeleton">
+<identifier><root>string</root></identifier>
+<bone name="string"><target>string</target>
+</bone>
+<bone name="base"><target>base</target>
+</bone>
+<bone name="topBranch"><target>topBranch</target>
+</bone>
+<bone name="botBranch"><target>botBranch</target>
+</bone>
+</skeleton>
+</skeletons>
