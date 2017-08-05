@@ -3,20 +3,13 @@
   <castshadow/>
   <group>
     <variant frequency="50" name="Base">
-      <mesh>props/norse_axe_a.dae</mesh>
-    <textures>
-        <texture file="structural/norse_struct.png" name="baseTex"/>
-    </textures>
-	</variant>
-	<variant frequency="50" name="Base_2">
-      <mesh>props/norse_axe_b.dae</mesh>
-	<textures>
-        <texture file="structural/norse_struct.png" name="baseTex"/>
-	</textures>
+      <mesh>props/weap_norse_axe.dae</mesh>
+      <textures>
+        <texture file="props/prop_weap.dds" name="baseTex"/>
+      </textures>
     </variant>
   </group>
   <material>basic_spec.xml</material>
 </actor>
-
 
 
