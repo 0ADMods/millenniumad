@@ -10,6 +10,7 @@
         <prop actor="props/units/shields/anglo_spearman_a.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/jav_loaded.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="ammo"/>
+        <prop actor="props/units/weapons/norse_seax.xml" attachpoint="sheath_R"/>
       </props>
     </variant>
   </group>
