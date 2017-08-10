@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="50" name="Carolingian Abbey">
+			<mesh>structural/caro_abbey.dae</mesh>
+			<textures>
+				<texture file="structural/caro_struct_b.png" name="baseTex"/>
+				<texture file="structural/caro_struct_b_norm.png" name="normTex"/>
+				<texture file="structural/ao/caro_abbey_ao.png" name="aoTex"/>
+			</textures>
+			<props>
+				<prop actor="props/structures/decals/dirt_6x4.xml" attachpoint="root"/>
+				<prop actor="props/structures/carolingian/caro_school_roof.xml" attachpoint="root"/>
+				<prop actor="props/structures/carolingian/caro_school_props.xml" attachpoint="root"/>
+				<prop actor="props/structures/carolingian/caro_school_nature.xml" attachpoint="root"/>
+			</props>
+		</variant>
+	</group>
+	<material>player_trans_ao_parallax.xml</material>
+</actor>
