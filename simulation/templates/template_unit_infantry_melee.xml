@@ -18,9 +18,9 @@
     <GenericName>Melee Infantry</GenericName>
     <VisibleClasses datatype="tokens">Melee</VisibleClasses>
     <Formations datatype="tokens">
-      	formations/phalanx
-      	formations/testudo
-		    formations/shieldwall
+      special/formations/phalanx
+      special/formations/testudo
+      special/formations/shieldwall
     </Formations>
   </Identity>
 </Entity>
