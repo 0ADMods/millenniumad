@@ -10,7 +10,7 @@
     <History>?</History>
   </Identity>
   <Health>
-    <SpawnEntityOnDeath>rubble/rubble_6x4</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_6x4</SpawnEntityOnDeath>
   </Health>
   <Obstruction>
     <Static width="37.0" depth="20.0"/>
