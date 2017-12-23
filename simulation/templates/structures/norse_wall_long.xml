@@ -17,6 +17,6 @@
     <Actor>structures/norse/wall_long.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>37.0</Length>
+    <Length>32.9</Length>
   </WallPiece>
 </Entity>

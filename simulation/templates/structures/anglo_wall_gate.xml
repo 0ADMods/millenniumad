@@ -20,6 +20,6 @@
     <Actor>structures/anglo/wall_gate.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>38.0</Length>
+    <Length>34.2</Length>
   </WallPiece>
 </Entity>

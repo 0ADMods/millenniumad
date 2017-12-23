@@ -11,7 +11,8 @@
       <WallLong>structures/norse_wall_long</WallLong>
       <WallMedium>structures/norse_wall_medium</WallMedium>
       <WallShort>structures/norse_wall_short</WallShort>
-	  <Gate>structures/norse_wall_gate</Gate>
+      <Gate>structures/norse_wall_gate</Gate>
+      <Fort>structures/norse_wall_tower</Fort>
     </Templates>
     <MaxTowerOverlap>0.90</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>

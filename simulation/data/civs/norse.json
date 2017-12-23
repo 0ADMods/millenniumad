@@ -66,6 +66,11 @@
 	"Structures":
 	[
 	],
+	"WallSets":
+	[
+		"other/wallset_palisade",
+		"structures/norse_wallset_stone"
+	],
 	"StartEntities":
 	[
 		{

@@ -38,4 +38,8 @@
     <Actor>structures/anglo/fortress.xml</Actor>
 	<FoundationActor>structures/fndn_6x4.xml</FoundationActor>
   </VisualActor>
+  <WallPiece>
+    <Length>45.6</Length>
+    <Orientation>0.5</Orientation>
+  </WallPiece>
 </Entity>

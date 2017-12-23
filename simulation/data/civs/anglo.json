@@ -60,6 +60,11 @@
 	"Structures":
 	[
 	],
+	"WallSets":
+	[
+		"other/wallset_palisade",
+		"structures/anglo_wallset_stone"
+	],
 	"StartEntities":
 	[
 		{

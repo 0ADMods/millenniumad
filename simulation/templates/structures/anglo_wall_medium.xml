@@ -36,6 +36,6 @@
     <Actor>structures/anglo/wall_medium.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>24.0</Length>
+    <Length>22.3</Length>
   </WallPiece>
 </Entity>

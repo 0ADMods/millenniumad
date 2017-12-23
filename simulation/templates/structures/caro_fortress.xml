@@ -40,4 +40,7 @@
   <VisualActor>
     <Actor>structures/carolingian/fortress.xml</Actor>
   </VisualActor>
+  <WallPiece>
+    <Length>30</Length>
+  </WallPiece>
 </Entity> 
