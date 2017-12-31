@@ -6,10 +6,20 @@
   <Identity>
     <Civ>anglo</Civ>
     <SpecificName>?</SpecificName>
-	  <History>/</History>
+	  <History>?</History>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <VisibleClasses datatype="tokens">Town</VisibleClasses>
   </Identity>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      -attack_cavalry_melee_01
+      -attack_cavalry_melee_02
+      -attack_cavalry_ranged_01
+      -attack_cavalry_ranged_02
+      -armor_cav_01
+      -armor_cav_02    
+    </Technologies>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/anglo/blacksmith.xml</Actor>
   </VisualActor>

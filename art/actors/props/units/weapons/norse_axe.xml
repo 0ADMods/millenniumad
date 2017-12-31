@@ -2,13 +2,14 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="100" name="Base">
+    <variant frequency="50" name="Base">
       <mesh>props/weap_norse_axe.dae</mesh>
-      <textures><texture file="props/prop_weap.dds" name="baseTex"/></textures>
+      <textures>
+        <texture file="props/prop_weap.dds" name="baseTex"/>
+      </textures>
     </variant>
   </group>
   <material>basic_spec.xml</material>
 </actor>
-
 
 

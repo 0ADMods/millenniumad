@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant name="Carolingian Sword Base">
+			<textures>
+				<texture file="props/prop_weap.dds" name="baseTex"/>
+				<texture file="props/prop_weap_spec.png" name="specTex"/>
+			</textures>
+		</variant>
+	</group>
+	<group>
+		<variant name="Carolingian Sword A">
+			<mesh>props/caro_infantry_sword_a.dae</mesh>
+		</variant>
+		<variant name="Carolingian Sword B">
+			<mesh>props/caro_infantry_sword_b.dae</mesh>
+		</variant>
+		<variant name="Carolingian Sword C">
+			<mesh>props/caro_infantry_sword_c.dae</mesh>
+		</variant>
+		<variant name="Carolingian Sword D">
+			<mesh>props/caro_infantry_sword_d.dae</mesh>
+		</variant>
+		<variant name="Carolingian Sword E">
+			<mesh>props/caro_infantry_sword_e.dae</mesh>
+		</variant>
+	</group>
+	<material>player_trans_spec.xml</material>
+</actor>
+
+
+

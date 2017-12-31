@@ -1,56 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_civil_centre">
-  <Attack>
-    <Ranged>
-      <Hack>0.0</Hack>
-      <Pierce>25.0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>85.0</MaxRange>
-      <MinRange>8.0</MinRange>
-      <ProjectileSpeed>75.0</ProjectileSpeed>
-      <PrepareTime>1200</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
-      <Spread>1.5</Spread>
-      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
-    </Ranged>
-  </Attack>
-  <BuildRestrictions>
-    <Territory>own neutral</Territory>
-    <Category>CivilCentre</Category>
-    <Distance>
-      <FromClass>CivilCentre</FromClass>
-      <MinDistance>240</MinDistance>
-    </Distance>
-  </BuildRestrictions>
-  <Cost>
-    <PopulationBonus>20</PopulationBonus>
-    <BuildTime>500</BuildTime>
-    <Resources>
-      <food>0</food>
-      <wood>500</wood>
-      <stone>500</stone>
-      <metal>500</metal>
-    </Resources>
-  </Cost>
   <Footprint>
     <Square width="35.0" depth="15.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <Max>3750</Max>
-    <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>norse</Civ>
-    <SpecificName>Jarl's Hold</SpecificName>
-    <History>This was be the center of the town, a great hall where the clan leader resided. All political matters were probably performed inside such a structure.</History>
-  	<Icon>structures/fortress.png</Icon>
-  	<Classes datatype="tokens">GarrisonFortress</Classes>
-    <VisibleClasses datatype="tokens">
-      Defensive
-      City
-      Fortress
-    </VisibleClasses>
+    <Civ>caro</Civ>
+    <SpecificName>?</SpecificName>
+    <History>?</History>
   </Identity>
   <Obstruction>
     <Static width="33.0" depth="15.0"/>
@@ -58,10 +18,8 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
+      units/{civ}_infantry_swordsman_b
     </Entities>
-    <Technologies datatype="tokens">
-      phase_town_generic
-    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/carolingian/civil_centre.xml</Actor>

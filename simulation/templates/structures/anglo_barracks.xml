@@ -4,24 +4,29 @@
     <PopulationBonus>8</PopulationBonus>
   </Cost>
   <Footprint>
-    <Square width="22.0" depth="22.0"/>
+    <Square width="26.0" depth="22.0"/>
     <Height>5.0</Height>
   </Footprint>
   <Health>
-    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>anglo</Civ>
     <SpecificName>?</SpecificName>
-	<History>?</History>
+	  <History>?</History>
+    <Icon>structures/barracks_infantry.png</Icon>
   </Identity>
   <Obstruction>
-    <Static width="20.0" depth="20.0"/>
+    <Static width="24.0" depth="20.0"/>
   </Obstruction>
   <ProductionQueue>
-    <Entities datatype="tokens">
-      units/anglo_champion_infantry_barracks
+    <Entities datatype="tokens">s
+      units/{civ}_champion_infantry_barracks
+      -units/{civ}_cavalry_spearman_b
     </Entities>
+    <Technologies datatype="tokens">
+      unlock_champion_units_modded
+    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/anglo/barracks.xml</Actor>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_dock">
+	<Auras datatype="tokens">structures/rotary_mill</Auras>
 	<Cost>
 		<PopulationBonus>2</PopulationBonus>
 	</Cost>
@@ -7,20 +8,17 @@
 		<Square width="20.0" depth="17.0"/>
 		<Height>8.0</Height>
 	</Footprint>
-	<Health>
-	</Health>
+  	<GarrisonHolder disable=""/>
 	<Identity>
 		<Civ>caro</Civ>
+    	<Classes datatype="tokens">-ConquestCritical</Classes>
+    	<Icon>structures/rotarymill.png</Icon>
 	</Identity>
 	<Obstruction>
 		<Static width="20.0" depth="17.0"/>
 	</Obstruction>
-	<ProductionQueue>
-		<Entities datatype="tokens">
-  -units/{civ}_ship_merchant
-  -units/{civ}_ship_fishing
-		</Entities>
-	</ProductionQueue>
+  	<ProductionQueue disable=""/>
+  	<RallyPoint disable=""/>
 	<VisualActor>
 		<Actor>structures/carolingian/watermill.xml</Actor>
 		<FoundationActor>structures/carolingian/watermill_foundation_actor.xml</FoundationActor>

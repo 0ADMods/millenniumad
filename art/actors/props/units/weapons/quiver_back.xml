@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+
+  <group>
+    <variant frequency="100" name="Base">
+      <animations/>
+      <mesh>props/weap_quiver_back.dae</mesh>
+      <props/>
+      <textures><texture file="props/quiver_dark.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+
+</actor>

@@ -7,47 +7,47 @@
     </variant>
   </group>
   <group>
-    <variant frequency="25" name="stripes-light">
+    <variant frequency="0" name="stripes-light">
       <textures>
         <texture file="props/shields/anglo/basic/rusty_wood_light_stripes.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="25" name="stripes-dark">
+    <variant frequency="0" name="stripes-dark">
       <textures>
         <texture file="props/shields/anglo/basic/rusty_wood_dark_stripes.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="25" name="ring-light">
+    <variant frequency="0" name="ring-light">
       <textures>
         <texture file="props/shields/anglo/basic/rusty_wood_light_ring.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="25" name="ring-dark">
+    <variant frequency="0" name="ring-dark">
       <textures>
         <texture file="props/shields/anglo/basic/rusty_wood_dark_ring.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="25" name="quadrant-light">
+    <variant frequency="0" name="quadrant-light">
       <textures>
         <texture file="props/shields/anglo/basic/rusty_wood_light_quadrant.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="25" name="quadrant-dark">
+    <variant frequency="0" name="quadrant-dark">
       <textures>
         <texture file="props/shields/anglo/basic/rusty_wood_dark_quadrant.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="25" name="cross-light">
+    <variant frequency="1" name="cross-light">
       <textures>
         <texture file="props/shields/anglo/basic/rusty_wood_light_cross.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="25" name="cross-dark">
+    <variant frequency="1" name="cross-dark">
       <textures>
         <texture file="props/shields/anglo/basic/rusty_wood_dark_cross.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="25" name="wood-light">
+    <variant frequency="1" name="wood-light">
       <textures>
         <texture file="props/shields/anglo/basic/rusty_wood_light.png" name="baseTex"/>
       </textures>

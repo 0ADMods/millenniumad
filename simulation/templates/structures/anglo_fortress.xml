@@ -16,11 +16,15 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
+  <Footprint>
+    <Square width="45.5" depth="50.0"/>
+    <Height>9.0</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="45.5" depth="50.0"/>
+  </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_hero_brennus
-      units/{civ}_hero_britomartus
-      units/{civ}_hero_vercingetorix
       units/{civ}_champion_infantry
     </Entities>
     <Technologies datatype="tokens">
@@ -32,5 +36,10 @@
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/anglo/fortress.xml</Actor>
+	<FoundationActor>structures/fndn_6x4.xml</FoundationActor>
   </VisualActor>
+  <WallPiece>
+    <Length>45.6</Length>
+    <Orientation>0.5</Orientation>
+  </WallPiece>
 </Entity>

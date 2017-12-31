@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_abbey">
+  <Cost>
+    <PopulationBonus>7</PopulationBonus>
+    <Resources>
+      <stone>450</stone>
+    </Resources>
+  </Cost>
+	<Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x5</SpawnEntityOnDeath>
+	</Health>
+  <Identity>
+    <Civ>caro</Civ>
+    <SpecificName>Lorsch Abbey</SpecificName>
+    <History>?</History>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/carolingian/school.xml</Actor>
+    <FoundationActor>structures/fndn_2x4.xml</FoundationActor>
+  </VisualActor>
+</Entity>

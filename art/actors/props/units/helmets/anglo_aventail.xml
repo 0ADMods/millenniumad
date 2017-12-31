@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="50" name="Helmet_A">
+      <mesh>props/anglo_aventail.dae</mesh>
+    </variant>
+  </group>
+<group>
+	<variant frequency="1" name="Standard">
+      <textures>
+        <texture file="props/anglo_copper_gate_helmet.png" name="baseTex"/>
+        <texture file="props/anglo_helmets_spec.png" name="specTex"/>
+      </textures>
+	</variant>
+</group>
+ <material>player_trans_spec.xml</material>
+</actor>

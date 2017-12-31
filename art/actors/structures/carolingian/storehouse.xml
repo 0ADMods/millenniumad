@@ -5,10 +5,11 @@
 		<variant frequency="100" name="Carolingian StoreHouse">
 			<mesh>structural/caro_storehouse.dae</mesh>
 			<textures>
-			<texture file="structural/caro_struct.png" name="baseTex"/>
-			<texture file="structural/ao/caro_storehouse_ao.png" name="aoTex"/>
+				<texture file="structural/caro_struct.png" name="baseTex"/>
+				<texture file="structural/caro_struct_norm.png" name="normTex"/>
+				<texture file="structural/ao/caro_storehouse_ao.png" name="aoTex"/>
 			</textures>
 		</variant>
 	</group>
-  <material>player_trans_ao.xml</material>
+  <material>player_trans_ao_parallax.xml</material>
 </actor>

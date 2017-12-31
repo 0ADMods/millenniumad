@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_wonder">
+  <Footprint>
+    <Square width="29.0" depth="59.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <Max>4400</Max>
+  </Health>
+  <Identity>
+    <Civ>caro</Civ>
+    <SpecificName></SpecificName>
+    <History></History>
+  </Identity>
+  <Obstruction>
+    <Static width="27.0" depth="57.0"/>
+  </Obstruction>
+  <StatusBars>
+    <BarWidth>6.0</BarWidth>
+    <BarHeight>0.6</BarHeight>
+    <HeightOffset>12.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
+    <Actor>structures/carolingian/wonder.xml</Actor>
+  </VisualActor>
+</Entity>

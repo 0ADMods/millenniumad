@@ -3,8 +3,8 @@
   <Cost>
     <Population>0</Population>
   </Cost>
-  <Footprint>
-    <Circle radius="1.5"/>
+  <Footprint replace="">
+    <Square width="1.75" depth="3.5"/>
     <Height>2.25</Height>
   </Footprint>
   <Identity>
@@ -16,7 +16,7 @@
   <Loot disable=""/>
   <Minimap>
     <Type>food</Type>
-    <Color b="141" g="141" r="227"/>
+    <Color r="155" g="204" b="102"/>
   </Minimap>
   <ResourceGatherer disable=""/>
   <UnitAI>

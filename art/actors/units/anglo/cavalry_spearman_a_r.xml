@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="75" name="Shorthair">
+    <variant name="Shorthair">
       <animations>
         <animation file="biped/cavalryidle.psa" name="Idle" speed="50"/>
         <animation file="biped/cavalryidle.psa" name="Walk" speed="18"/>
@@ -19,86 +19,33 @@
         <prop actor="props/units/weapons/spear.xml" attachpoint="r_hand"/>
       </props>
     </variant>
-    <variant frequency="25" name="Longhair">
-      <animations>
-        <animation file="biped/cavalryidle.psa" name="Idle" speed="50"/>
-        <animation file="biped/cavalryidle.psa" name="Walk" speed="18"/>
-        <animation file="biped/rider_gallop.psa" name="Run" speed="40"/>
-        <animation event="0.5" file="cavalry/spear/attack/rider_spear_shield_atk_a.psa" name="attack_melee" speed="400"/>
-        <animation event="0.5" file="cavalry/spear/attack/rider_spear_shield_atk_a.psa" name="attack_slaughter" speed="400"/>
-        <animation event="0.5" file="cavalry/spear/attack/rider_spear_shield_atk_a.psa" name="gather_meat" speed="400"/>
-        <animation file="biped/rider_sword_death_a.psa" name="death" speed="230"/>
-      </animations>
-      <mesh>skeletal/m_pants_celt.dae</mesh>
-      <props>
-        <prop actor="props/units/heads/norse_longhair.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/anglo_spearman_e.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/spear.xml" attachpoint="r_hand"/>
-      </props>
-    </variant>
   </group>
   <group>
-    <variant frequency="25" name="transparent_shirt1">
+    <variant frequency="1" name="transparent_shirt1">
       <textures>
         <texture file="skeletal/norse/basic/transparent_shirt1.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="25" name="transparent_shirt2">
+    <variant frequency="1" name="transparent_shirt2">
       <textures>
         <texture file="skeletal/norse/basic/transparent_shirt2.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="25" name="transparent_shirt3">
+    <variant frequency="1" name="transparent_shirt3">
       <textures>
         <texture file="skeletal/norse/basic/transparent_shirt3.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="0" name="transparent_pants1">
-      <textures>
-        <texture file="skeletal/norse/basic/transparent_pants1.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="transparent_pants2">
-      <textures>
-        <texture file="skeletal/norse/basic/transparent_pants2.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="transparent_pants3">
-      <textures>
-        <texture file="skeletal/norse/basic/transparent_pants3.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="50" name="footwraps1">
-      <textures>
-        <texture file="skeletal/norse/basic/footwraps1.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="50" name="footwraps2">
-      <textures>
-        <texture file="skeletal/norse/basic/footwraps2.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="50" name="footwraps3">
-      <textures>
-        <texture file="skeletal/norse/basic/footwraps3.png" name="baseTex"/>
-      </textures>
-    </variant>
   </group>
   <group>
-    <variant frequency="0" name="Cap">
-      <props>
-        <prop actor="props/units/helmets/norse_cap_player.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
     <variant frequency="0" name="Helmet">
       <props>
-        <prop actor="props/units/helmets/norse_helmet.xml" attachpoint="helmet"/>
-        <prop actor="props/units/cape_player_b.xml" attachpoint="shoulders"/>
+        <prop actor="props/units/helmets/anglo_pioneer_helmet.xml" attachpoint="helmet"/>
       </props>
     </variant>
-    <variant frequency="25" name="Helmet+Cape">
+    <variant frequency="1" name="Helmet+Cape">
       <props>
-        <prop actor="props/units/helmets/norse_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/anglo_pioneer_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/cape_player_b.xml" attachpoint="shoulders"/>
       </props>
     </variant>
@@ -119,18 +66,6 @@
     </variant>
   </group>
   <group>
-    <variant frequency="0" name="white">
-      <color>255 255 255</color>
-    </variant>
-    <variant frequency="0" name="offwhite">
-      <color>220 206 190</color>
-    </variant>
-    <variant frequency="0" name="tan">
-      <color>234 191 134</color>
-    </variant>
-    <variant frequency="0" name="brown">
-      <color>181 151 117</color>
-    </variant>
     <variant frequency="25" name="weld">
       <color>225 176 64</color>
     </variant>

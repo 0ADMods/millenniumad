@@ -2,16 +2,17 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant frequency="1" name="base">
+		<variant name="base">
 			<textures>
-				<texture file="props/caro_shields.png" name="baseTex"/>
+				<texture file="props/shields/shield06_a-player_b-black.png" name="baseTex"/>
+				<texture file="props/shields/caro_metallic_shield_spec.png" name="specTex"/>
 			</textures>
 		</variant>
 	</group>  
 	<group>
-		<variant frequency="1" name="shield-E">
+		<variant name="shield-E">
 			<mesh>props/shield_caro_round_a.dae</mesh>
 		</variant>
 	</group>
-	<material>player_trans.xml</material>
+	<material>player_trans_spec.xml</material>
 </actor>

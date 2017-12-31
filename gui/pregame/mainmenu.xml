@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <objects>
-	<script file="gui/common/music.js"/>
-	<script file="gui/common/functions_global_object.js"/>
-	<script file="gui/common/functions_utility_error.js"/>
-	<script file="gui/pregame/mainmenu.js"/>
+	<script directory="gui/common/"/>
+	<script directory="gui/pregame/"/>
 	<script directory="gui/pregame/backgrounds/"/>
 
 
@@ -532,7 +530,7 @@
 					<!-- IMPORTANT: remember to update session/session.xml in sync with this: -->
 					<attribute id="caption">
 						<keep>[font="sans-bold-16"]</keep>
-						<translate>1,000 A.D. Alpha XX: Brytenwealda</translate>
+						<translate>1,000 A.D. Alpha XXII: Dellingr</translate>
 						<keep>[/font]\n\n</keep>
 						<translate>WARNING: This is an early development version of the mod. Many features have not been added yet.</translate>
 						<keep>\n\n</keep>

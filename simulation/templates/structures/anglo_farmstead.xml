@@ -4,7 +4,7 @@
 		<PopulationBonus>2</PopulationBonus>
 	</Cost>
 	<Footprint>
-		<Square width="20" depth="20"/>
+		<Square width="24.0" depth="16.0"/>
 		<Height>8.0</Height>
 	</Footprint>
 	<Identity>
@@ -13,10 +13,10 @@
 		<History>?</History>
 	</Identity>
 	<Obstruction>
-		<Static width="21" depth="20"/>
+		<Static width="22.0" depth="14.0"/>
 	</Obstruction>
 	<VisualActor>
-		<FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+		<FoundationActor>structures/fndn_4x2.xml</FoundationActor>
 		<Actor>structures/anglo/farmstead.xml</Actor>
 	</VisualActor>
 </Entity>

@@ -3,7 +3,7 @@
   <Builder>
     <Entities datatype="tokens">
       -structures/{civ}_wonder
-      -structures/{civ}_wallset_stone
+      structures/{civ}_stables
     </Entities>
   </Builder>
   <Identity>

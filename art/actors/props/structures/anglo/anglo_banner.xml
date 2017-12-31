@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="100" name="Anglo Eyecandy 1">
+			<mesh>props/anglo_banner_animated.dae</mesh>
+			<animations>
+				<animation file="mechanical/anglo_banner_idle.dae" name="idle" speed="65"/>
+			</animations>
+			<textures>
+				<texture file="props/banner_anglo_civ.png" name="baseTex"/>
+			</textures>
+		</variant>
+	</group>
+	<material>player_trans.xml</material>
+</actor>

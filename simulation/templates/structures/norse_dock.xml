@@ -8,7 +8,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <SpawnEntityOnDeath>rubble/rubble_celt_dock</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_celt_dock</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>norse</Civ>
@@ -20,9 +20,9 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/norse_warship_merchant_karvi
-      units/norse_warship_snekkja
-      units/norse_warship_drekar
+      units/{civ}_warship_merchant_karvi
+      units/{civ}_warship_snekkja
+      units/{civ}_warship_drekar
     </Entities>
     <Technologies datatype="tokens">
       norse/speed_ships_clinker

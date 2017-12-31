@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry_swordsman">
-  <Auras>
-	<Aura1>
-      <Type>range</Type>
-      <Radius>60</Radius>
-      <Affects>Unit</Affects>
-      <Modifications>
-        <UnitMotion.WalkSpeed> <Multiply>1.15</Multiply> </UnitMotion.WalkSpeed>
-      </Modifications>
-      <AuraName>Voyager</AuraName>
-      <AuraDescription>All units in his range move +15% faster.</AuraDescription>
-      <OverlayIcon>art/textures/ui/session/auras/attack_bonus.png</OverlayIcon>
-    </Aura1>
-  </Auras>
+  <Auras datatype="tokens">norse_hero_erik_the_red</Auras>
   <Identity>
     <Civ>norse</Civ>
-	  <GenericName>Erik the Red</GenericName>
+	<GenericName>Erik the Red</GenericName>
     <SpecificName>Eiríkr hinn rauði</SpecificName>
     <Icon>units/norse_erik_the_red.png</Icon>
     <RequiredTechnology>germanic_thingstead</RequiredTechnology>

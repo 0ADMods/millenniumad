@@ -34,7 +34,7 @@ function Music()
 		MENU : 1,
 		PEACE : 2,
 		BATTLE : 3,
-		VICTORY :4,
+		VICTORY : 4,
 		DEFEAT : 5
 	};
 
@@ -79,7 +79,7 @@ Music.prototype.updateState = function()
 			break;
 
 		case this.states.MENU:
-			this.switchMusic(this.getRandomTrack(this.tracks.MENU), 0.0, true);
+			this.switchMusic(pickRandom(this.tracks.MENU), 0, true);
 			break;
 
 		case this.states.PEACE:
@@ -99,7 +99,7 @@ Music.prototype.updateState = function()
 			break;
 
 		default:
-			warn("Music.updateState(): Unknown music state: " + this.currentState);
+			warn(sprintf("%(functionName)s: Unknown music state: %(state)s", { functionName: "Music.updateState()", state: this.currentState }));
 			break;
 		}
 	}
@@ -108,7 +108,7 @@ Music.prototype.updateState = function()
 Music.prototype.storeTracks = function(civMusic)
 {
 	this.resetTracks();
-	for each (var music in civMusic)
+	for (var music of civMusic)
 	{
 		var type = undefined;
 		for (var i in this.MUSIC)
@@ -122,7 +122,7 @@ Music.prototype.storeTracks = function(civMusic)
 
 		if (type === undefined)
 		{
-			warn("Music.storeTracks(): Unrecognized music type: " + music.Type);
+			warn(sprintf("%(functionName)s: Unrecognized music type: %(musicType)s", { functionName: "Music.storeTracks()", musicType: music.Type }));
 			continue;
 		}
 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Wall long">
+      <mesh>structural/anglo_wall_gate_door.dae</mesh>
+	  <animations>
+		<animation file="mechanical/anglo_gate_open.dae" name="gate_open" speed="65"/>
+        <animation file="mechanical/anglo_gate_closed.dae" name="gate_closed" speed="65"/>
+		<animation file="mechanical/anglo_gate_opening.dae" name="gate_opening" speed="65"/>
+		<animation file="mechanical/anglo_gate_closing.dae" name="gate_closing" speed="65"/>
+      </animations>
+      <textures>
+        <texture file="structural/anglo_wall.png" name="baseTex"/>
+        <texture file="structural/anglo_wall_norm.png" name="normTex"/>
+        <texture file="structural/anglo_wall_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

@@ -2,7 +2,7 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant frequency="100" name="Norse Barracks">
+		<variant name="Norse Blacksmith">
 			<mesh>structural/norse_blacksmith.dae</mesh>
 			<props>
 				<prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
@@ -11,12 +11,12 @@
 				<prop actor="units/norse/forger.xml" attachpoint="blacksmith"/>
 			</props>
 			<textures>
-			<texture file="structural/norse_struct.png" name="baseTex"/>
-			<texture file="structural/norse_struct_norm.png" name="normTex"/>
-			<texture file="structural/norse_struct_spec.png" name="specTex"/>
-			<texture file="structural/ao/norse_blacksmith_ao.png" name="aoTex"/>
+				<texture file="structural/norse_struct.png" name="baseTex"/>
+				<texture file="structural/norse_struct_norm.png" name="normTex"/>
+				<texture file="structural/norse_struct_spec.png" name="specTex"/>
+				<texture file="structural/ao/caro_fortress_palisade.png" name="aoTex"/>
 			</textures>
 		</variant>
 	</group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+	<material>player_trans_ao_parallax_spec.xml</material>
 </actor>

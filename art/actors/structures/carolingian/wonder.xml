@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="100" name="Carolingian Wonder">
+			<mesh>structural/Cathedral_Aachen_main_structure.dae</mesh>
+			<textures>
+				<texture file="structural/caro_struct_b.png" name="baseTex"/>
+				<texture file="structural/caro_struct_b_norm.png" name="normTex"/>
+				<texture file="structural/caro_struct_b_spec.png" name="specTex"/>
+				<texture file="structural/ao/caro_wonder_ao.png" name="aoTex"/>
+			</textures>
+			<props>
+				<prop actor="props/structures/carolingian/wonder_roof.xml" attachpoint="root"/>
+				<prop actor="props/structures/carolingian/wonder_entrance.xml" attachpoint="root"/>
+			</props>
+		</variant>
+	</group>
+	<group>
+    <variant name="alive" frequency="1"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="smoke"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="smoke"/>
+        <prop actor="particle/destruction_dust_med_gray.xml" attachpoint="smoke"/>
+		<prop actor="props/structures/carolingian/caro_wonder_roof.xml" attachpoint="root"/>
+		<prop actor="props/structures/carolingian/caro_wonder_entrance.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>
