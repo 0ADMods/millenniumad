@@ -5,7 +5,7 @@
   </Cost>
   <Identity>
     <Civ>anglo</Civ>
-    <SpecificName>?</SpecificName>
+    <SpecificName>Smiþþe</SpecificName>
 	  <History>?</History>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <VisibleClasses datatype="tokens">Town</VisibleClasses>
