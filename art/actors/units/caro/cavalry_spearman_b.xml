@@ -2,15 +2,7 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant frequency="100" name="Base">
-			<animations>
-				<animation file="quadraped/horse_idle_a.dae" name="Idle" speed="20"/>
-				<animation file="quadraped/horse_walk.dae" name="Walk" speed="120"/>
-				<animation file="quadraped/horse_gallop.dae" name="Run" speed="50"/>
-				<animation file="quadraped/horse_walk.dae" name="carry_meat" speed="120"/>
-				<animation event=".5" file="quadraped/horse_idle_a.dae" name="attack_melee" speed="20"/>
-				<animation file="quadraped/horse_death.dae" name="Death" speed="240"/>
-			</animations>
+		<variant frequency="1" file="quadraped/base_horse_spearman.xml" name="Base">
 			<mesh>skeletal/horse.dae</mesh>
 			<props>
 				<prop actor="units/caro/cavalry_spearman_b_r.xml" attachpoint="rider"/>
@@ -56,11 +48,6 @@
 	</group>
   <group>
 		<variant frequency="100" name="Idle"/>
-		<variant name="Walk">
-			<props>
-				<prop actor="particle/dust_cav.xml" attachpoint="root"/>
-			</props>
-		</variant>
 		<variant name="Run">
 			<props>
 				<prop actor="particle/dust_cav.xml" attachpoint="root"/>

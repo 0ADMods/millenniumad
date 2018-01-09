@@ -13,9 +13,6 @@
 		<variant name="Carolingian Sword Sheath A">
 			<mesh>props/caro_sheath_sword_a.dae</mesh>
 		</variant>
-		<variant name="Carolingian Sword Sheath B">
-			<mesh>props/caro_sheath_sword_b.dae</mesh>
-		</variant>
 		<variant name="Carolingian Sword Sheath C">
 			<mesh>props/caro_sheath_sword_c.dae</mesh>
 		</variant>
