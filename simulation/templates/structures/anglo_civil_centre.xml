@@ -7,7 +7,6 @@
   <Identity>
     <Civ>anglo</Civ>
     <SpecificName>?</SpecificName>
-    <History>?</History>
   </Identity>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_6x4</SpawnEntityOnDeath>

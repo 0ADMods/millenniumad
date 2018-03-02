@@ -10,7 +10,6 @@
     <Civ>caro</Civ>
     <SpecificName>Castle</SpecificName>
     <Tooltip>Train advanced infantry units. The Castle is a small economical center and functions as a dropsite and a market (but with a lower trading gain). Garrison: 20.</Tooltip>
-    <History>?</History>
     <Classes datatype="tokens">BarterMarket</Classes>
     <VisibleClasses datatype="tokens">Market</VisibleClasses>
   </Identity>

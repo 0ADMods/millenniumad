@@ -30,7 +30,6 @@
     <GenericName>Axeman</GenericName>
     <SpecificName>Seggr</SpecificName>
     <Icon>units/norse_infantry_swordsman.png</Icon>
-    <History>+10% Attack against structures</History>
     <Tooltip>Counters: 1.1x vs. Structures.</Tooltip>
   </Identity>
   <Promotion>

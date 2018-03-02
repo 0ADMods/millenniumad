@@ -12,7 +12,6 @@
   <Identity>
     <Civ>caro</Civ>
     <SpecificName>Lorsch Abbey</SpecificName>
-    <History>?</History>
   </Identity>
   <VisualActor>
     <Actor>structures/carolingian/school.xml</Actor>

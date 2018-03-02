@@ -4,7 +4,6 @@
     <Civ>norse</Civ>
     <SelectionGroupName>units/norse_support_healer_b</SelectionGroupName>
     <SpecificName>Ellri</SpecificName>
-    <History>?</History>
     <Icon>units/celt_support_healer.png</Icon>
     <Rank>Basic</Rank>
   </Identity>

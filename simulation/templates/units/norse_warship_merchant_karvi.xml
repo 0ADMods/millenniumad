@@ -3,7 +3,6 @@
 	<Identity>
     	<Civ>norse</Civ>
     	<SpecificName>Karvi</SpecificName>
-    	<History>?</History>
     	<Icon>units/viking_longboat.png</Icon>
       <Classes datatype="tokens">Trader</Classes>
       <Tooltip>A Hybrid Trader/Warship</Tooltip>

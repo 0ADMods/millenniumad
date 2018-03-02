@@ -5,7 +5,6 @@
     <GenericName>Anglo-Saxon Royal Thane</GenericName>
     <SpecificName>Cynges Thegn</SpecificName>
 	<SelectionGroupName>units/anglo_champion_infantry</SelectionGroupName>
-    <History>?</History>
     <Icon>units/anglo_champion_infantry.png</Icon>
   </Identity>
   <VisualActor>

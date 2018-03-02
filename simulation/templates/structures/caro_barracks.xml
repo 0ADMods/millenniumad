@@ -17,7 +17,6 @@
 		<Civ>caro</Civ>
 		<SpecificName>Gwersyllty</SpecificName>
 		<GenericName>Long House</GenericName>
-		<History>?</History>
 		<RequiredTechnology>phase_town</RequiredTechnology>
 		<Classes datatype="tokens">
       		Town

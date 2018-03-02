@@ -4,7 +4,6 @@
 		<Civ>caro</Civ>
 		<SelectionGroupName>units/caro_cavalry_spearman_b</SelectionGroupName>
 		<GenericName>Cavalry Spearman</GenericName>
-		<History>Needs history.</History>
 		<Icon>units/anglo_cavalry_spearman.png</Icon>
 	</Identity>
 	<Promotion disable="" />

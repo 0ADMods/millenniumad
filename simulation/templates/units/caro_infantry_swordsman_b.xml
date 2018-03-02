@@ -14,7 +14,6 @@
     <GenericName>Infantry Swordsman</GenericName>
     <SpecificName>?</SpecificName>
     <Icon>units/sele_infantry_swordsman.png</Icon>
-    <History></History>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>

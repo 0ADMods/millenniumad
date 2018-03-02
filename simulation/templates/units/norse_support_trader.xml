@@ -7,7 +7,6 @@
   <Identity>
     <Civ>norse</Civ>
     <SpecificName>Kaupmaðr</SpecificName>
-    <History>?</History>
     <Icon>units/celt_support_trader.png</Icon>
   </Identity>
   <VisualActor>

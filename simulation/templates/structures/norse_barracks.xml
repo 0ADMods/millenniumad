@@ -17,7 +17,6 @@
 		<Civ>norse</Civ>
 		<SpecificName>Salr</SpecificName>
 		<GenericName>Mead Hall</GenericName>
-		<History>?</History>
 		<RequiredTechnology>phase_town</RequiredTechnology>
 		<Classes datatype="tokens">Town</Classes>
 	</Identity>

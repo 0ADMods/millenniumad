@@ -12,7 +12,6 @@
     <GenericName>Anglo-Saxon Nobleman's Thane</GenericName>
     <SpecificName>Thegn</SpecificName>
     <Icon>units/anglo_infantry_swordsman.png</Icon>
-    <History>?</History>
   </Identity>
   <Promotion>
     <Entity>units/anglo_infantry_swordsman_a</Entity>

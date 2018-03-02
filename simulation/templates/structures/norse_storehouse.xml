@@ -6,7 +6,6 @@
   <Identity>
     <Civ>norse</Civ>
     <SpecificName>Birgja</SpecificName>
-    <History>?</History>
   </Identity>
   <VisualActor>
     <Actor>structures/norse/storehouse.xml</Actor>

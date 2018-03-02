@@ -28,7 +28,6 @@
     <Classes datatype="tokens">
 	  Palace
 	</Classes>
-    <History>?</History>
     <Icon>structures/palace.png</Icon>
     <Tooltip>Gain a trickle of metal resources. Train Carolingian heroes and Siege Equipment.</Tooltip>
   </Identity>

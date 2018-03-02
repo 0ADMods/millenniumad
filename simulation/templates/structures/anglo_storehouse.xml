@@ -6,7 +6,6 @@
   <Identity>
     <Civ>anglo</Civ>
     <SpecificName>?</SpecificName>
-    <History>?</History>
   </Identity>
   <VisualActor>
     <Actor>structures/anglo/storehouse.xml</Actor>
