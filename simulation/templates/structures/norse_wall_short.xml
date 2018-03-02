@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>norse</Civ>
-    <SelectionGroupName>structures/athen_wallset_stone</SelectionGroupName>
+    <SelectionGroupName>structures/norse_wallset_stone</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="13.0" depth="6.0"/>

@@ -11,7 +11,7 @@
 		<PopulationBonus>2</PopulationBonus>
 	</Cost>
 	<Identity>
-		<Civ>norse</Civ>
+		<Civ>caro</Civ>
 	</Identity>
 	<VisualActor>
 		<Actor>structures/carolingian/storehouse.xml</Actor>

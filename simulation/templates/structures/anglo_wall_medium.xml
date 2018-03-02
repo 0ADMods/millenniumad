@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>anglo</Civ>
-    <SelectionGroupName>structures/athen_wallset_stone</SelectionGroupName>
+    <SelectionGroupName>structures/anglo_wallset_stone</SelectionGroupName>
   </Identity>
   <GarrisonHolder>
     <Max>3</Max>

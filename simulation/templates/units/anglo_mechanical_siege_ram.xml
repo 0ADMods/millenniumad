@@ -8,7 +8,7 @@
     <Max>10</Max>
   </GarrisonHolder>
   <Identity>
-    <Civ>Anglo</Civ>
+    <Civ>anglo</Civ>
     <Icon>units/celt_mechanical_siege_ram.png</Icon>
   </Identity>
   <VisualActor>
