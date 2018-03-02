@@ -7,6 +7,7 @@
     <Square width="1.75" depth="3.5"/>
     <Height>2.25</Height>
   </Footprint>
+  <Guard disable=""/>
   <Identity>
     <GenericName>Fauna</GenericName>
     <Classes datatype="tokens">Animal Organic -ConquestCritical</Classes>
@@ -20,8 +21,8 @@
   </Minimap>
   <ResourceGatherer disable=""/>
   <UnitAI>
-    <AlertReactiveLevel>99</AlertReactiveLevel>
     <CanGuard>false</CanGuard>
+    <CanPatrol>false</CanPatrol>
     <RoamDistance>8.0</RoamDistance>
     <FleeDistance>24.0</FleeDistance>
     <RoamTimeMin>2000</RoamTimeMin>
@@ -29,11 +30,10 @@
     <FeedTimeMin>15000</FeedTimeMin>
     <FeedTimeMax>60000</FeedTimeMax>
   </UnitAI>
-  <Guard disable=""/>
   <UnitMotion>
-    <WalkSpeed>6.5</WalkSpeed>
+    <WalkSpeed op="mul">0.7</WalkSpeed>
     <Run>
-      <Speed>15.0</Speed>
+      <Speed op="mul">0.7</Speed>
     </Run>
   </UnitMotion>
   <Visibility>
@@ -42,7 +42,4 @@
   <Vision>
     <Range>0</Range>
   </Vision>
-  <VisualActor>
-    <SilhouetteDisplay>false</SilhouetteDisplay>
-  </VisualActor>
 </Entity>
