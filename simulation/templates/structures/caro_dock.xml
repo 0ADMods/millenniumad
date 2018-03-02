@@ -12,7 +12,6 @@
   </Health>
   <Identity>
     <Civ>caro</Civ>
-    <SpecificName>?</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="30.0" depth="30.0"/>

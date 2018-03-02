@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>anglo</Civ>
-    <SpecificName>?</SpecificName>
   </Identity>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_6x4</SpawnEntityOnDeath>

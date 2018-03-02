@@ -7,7 +7,6 @@
   <Identity>
     <Civ>caro</Civ>
     <SelectionGroupName>structures/athen_wallset_stone</SelectionGroupName>
-    <SpecificName>Teîkhos</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="6.0"/>

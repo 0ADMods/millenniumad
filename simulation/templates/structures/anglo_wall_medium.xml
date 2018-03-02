@@ -7,7 +7,6 @@
   <Identity>
     <Civ>anglo</Civ>
     <SelectionGroupName>structures/athen_wallset_stone</SelectionGroupName>
-    <SpecificName>Teîkhos</SpecificName>
   </Identity>
   <GarrisonHolder>
     <Max>3</Max>

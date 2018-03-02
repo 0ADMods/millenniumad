@@ -15,7 +15,6 @@
   </Health>
   <Identity>
     <Civ>anglo</Civ>
-    <SpecificName>?</SpecificName>
     <Tooltip>Transport many soldiers across the sea.</Tooltip>
     <Icon>units/celt_ship_trireme.png</Icon>
   </Identity>

@@ -9,7 +9,6 @@
 	</Footprint>
 	<Identity>
 		<Civ>anglo</Civ>
-		<SpecificName>?</SpecificName>
 	</Identity>
 	<Obstruction>
 		<Static width="22.0" depth="14.0"/>

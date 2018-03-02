@@ -12,7 +12,6 @@
   </Health>
   <Identity>
     <Civ>anglo</Civ>
-    <SpecificName>?</SpecificName>
     <Icon>structures/barracks_infantry.png</Icon>
   </Identity>
   <Obstruction>

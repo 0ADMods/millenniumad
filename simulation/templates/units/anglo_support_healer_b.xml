@@ -3,7 +3,6 @@
   <Identity>
     <Civ>anglo</Civ>
     <SelectionGroupName>units/anglo_support_healer_b</SelectionGroupName>
-    <SpecificName>?</SpecificName>
     <Icon>units/celt_support_healer.png</Icon>
     <Rank>Basic</Rank>
   </Identity>

@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>Anglo</Civ>
-    <SpecificName>?</SpecificName>
     <Icon>units/norse_merchant.png</Icon>
   </Identity>
   <VisualActor>

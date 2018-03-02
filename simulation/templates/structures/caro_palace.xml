@@ -24,7 +24,6 @@
   <Identity>
     <Civ>caro</Civ>
     <GenericName>Carolingian Palace</GenericName>
-    <SpecificName>?</SpecificName>
     <Classes datatype="tokens">
 	  Palace
 	</Classes>
