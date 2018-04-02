@@ -7,9 +7,6 @@
       <props>
         <prop actor="props/units/heads/new/head_female_celt.xml" attachpoint="head"/>
       </props>
-      <textures>
-        <texture file="skeletal/celt_fem.dds" name="baseTex"/>
-      </textures>
     </variant>
   </group>
   <group>
@@ -53,7 +50,7 @@
     <variant file="biped/female_carry_metal.xml"/>
   </group>
   <group>
-    <variant name="Idle" frequency="1"/>
+    <variant frequency="1" name="Idle"/>
     <variant file="biped/attack_melee_female.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/female_death.xml"/>
