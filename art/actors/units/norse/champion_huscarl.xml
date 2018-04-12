@@ -79,5 +79,9 @@
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/base_2h_axe_attack.xml" name="combat"/>
+  </group>
   <material>player_trans.xml</material>
 </actor>

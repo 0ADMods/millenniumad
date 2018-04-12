@@ -13,6 +13,12 @@
 			<props>
 				<prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
 				<prop actor="props/structures/norse/house_fence_a.xml" attachpoint="root"/>
+        <prop actor="props/structures/norse/basket_a.xml" attachpoint="basket_b"/>
+        <prop actor="props/structures/norse/basket_b.xml" attachpoint="basket_a"/>
+        <prop actor="props/structures/norse/basket_c.xml" attachpoint="basket_c"/>
+        <prop actor="props/structures/norse/table.xml" attachpoint="table"/>
+        <prop actor="props/structures/norse/skin.xml" attachpoint="skin"/>
+        <prop actor="props/structures/norse/shelf.xml" attachpoint="shelf"/>
 				<prop actor="particle/smoke_curved.xml" attachpoint="smoke"/>
 				<prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
 			</props>
