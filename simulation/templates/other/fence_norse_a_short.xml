@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure">
+  <Armour>
+    <Hack>1</Hack>
+    <Pierce>10</Pierce>
+    <Crush>1</Crush>
+  </Armour>
+  <BuildRestrictions>
+    <Category>Special</Category>
+  </BuildRestrictions>
+  <Capturable disable=""/>
+  <Footprint>
+    <Square width="0.8" depth="6.5"/>
+    <Height>4.0</Height>
+  </Footprint>
+  <Health>
+    <Max>50</Max>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <GenericName>Fence</GenericName>
+    <SpecificName>Short Wooden Fence</SpecificName>
+    <Icon>gaia/special_fence.png</Icon>
+  </Identity>
+  <Minimap>
+    <Color r="119" g="82" b="46"/>
+  </Minimap>
+  <Obstruction>
+    <Static width="1.5" depth="6.5"/>
+  </Obstruction>
+  <ProductionQueue disable=""/>
+  <StatusBars>
+    <HeightOffset>6.0</HeightOffset>
+  </StatusBars>
+  <TerritoryDecay disable=""/>
+  <Visibility>
+    <RetainInFog>true</RetainInFog>
+  </Visibility>
+  <Vision>
+    <Range>4</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>props/structures/norse/fence_a_short.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>6</Length>
+    <Orientation>0.5</Orientation>
+  </WallPiece>
+</Entity>

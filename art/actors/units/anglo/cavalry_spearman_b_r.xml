@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_cavalry_spearman_generic_shield.xml" frequency="1" name="Base">
+    <variant>
       <mesh>skeletal/new/m_pants.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
@@ -56,15 +56,6 @@
     </variant>
   </group>
   <group>
-    <variant frequency="100" name="Idle"/>
-    <variant name="carry_meat">
-      <props>
-        <prop actor="props/units/shuttle_meat.xml" attachpoint="weapon_R"/>
-        <prop attachpoint="shield"/>
-      </props>
-    </variant>
-  </group>
-  <group>
     <variant frequency="0" name="white">
       <color>255 255 255</color>
     </variant>
@@ -86,6 +77,17 @@
     <variant frequency="25" name="woad">
       <color>165 206 228</color>
     </variant>
+  </group>
+  <group>
+    <variant file="biped/base_cavalry_spearman_ready_shield.xml"/>
+    <variant file="biped/rider/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/promotion_shield.xml" />
+    <variant file="biped/rider/attack_slaughter_shield_hele.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death_shield_a.xml"/>
   </group>
   <material>objectcolor.xml</material>
 </actor>

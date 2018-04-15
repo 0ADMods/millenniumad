@@ -43,105 +43,23 @@
     </variant>
   </group>
   <group>
+    <variant file="biped/base_fisherman.xml"/>
+  </group>
+	<group>
     <variant frequency="1" name="Idle"/>
+    <variant file="biped/base_fisherman_gather_fish.xml"></variant>
     <variant file="biped/attack_capture.xml"/>
-    <variant file="biped/attack_slaughter.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_b_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-	<variant file="biped/base_fisherman_gather_fish.xml"></variant>
-	<variant file="biped/gather_meat.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_b_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-	<variant file="biped/gather_fruit.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_b_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-	<variant file="biped/gather_grain.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_b_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-	<variant file="biped/gather_rock.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_b_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/gather_rock.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_b_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/gather_ore.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_b_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/gather_ruins.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_b_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/gather_tree.xml"/>
+    <variant file="biped/gather_grain.xml"/>
+    <variant file="biped/gather_fruit.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/gather_rock.xml"/>
+    <variant file="biped/gather_ore.xml"/>
+    <variant file="biped/gather_ruins.xml"/>
     <variant file="biped/gather_praise.xml"/>
-    <variant file="biped/build.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_b_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/build_farm.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_b_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_meat.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_b_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_wood.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_b_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_stone.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_b_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_metal.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_b_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_food_idle.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_b_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_meat_idle.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_b_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_wood_idle.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_b_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_stone_idle.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_b_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_metal_idle.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_b_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
   <group>

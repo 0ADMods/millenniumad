@@ -13,6 +13,6 @@
     <Icon>units/celt_mechanical_siege_ram.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/celts/siege_ram.xml</Actor>
+    <Actor>structures/norse/siege_ram.xml</Actor>
   </VisualActor>
 </Entity>
