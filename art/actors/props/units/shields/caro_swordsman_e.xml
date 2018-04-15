@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="base">
+      <mesh>props/shield_norse_round_e.dae</mesh>
+      <textures>
+        <texture file="props/shields/iron_shield_leather_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="1_iron_leather_full">
+      <textures>
+        <texture file="props/shields/iron_leather_full.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="checkered_white">
+      <textures>
+        <texture file="props/shields/caro/elite/checkered_white.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="checkered_black">
+      <textures>
+        <texture file="props/shields/caro/elite/checkered_black.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="petals_small_white">
+      <textures>
+        <texture file="props/shields/caro/elite/petals_small_white.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="petals_small_player">
+      <textures>
+        <texture file="props/shields/caro/elite/petals_small_player.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="petals_white">
+      <textures>
+        <texture file="props/shields/caro/elite/petals_white.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="petals_player">
+      <textures>
+        <texture file="props/shields/caro/elite/petals_player.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

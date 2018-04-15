@@ -7,9 +7,9 @@
       <props>
         <prop actor="props/units/helmets/anglo_shorwell_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/caro_swordsman_e.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/caro_infantry_sword.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/weapons/caro_infantry_sheath.xml" attachpoint="sheath_L"/>
+        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/norse_bow.xml" attachpoint="weapon_L"/>
+        <prop actor="props/temp/quiver.xml" attachpoint="back"/>
       </props>
     </variant>
   </group>
@@ -26,7 +26,7 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_swordsman_shield_relax.xml"/>
+    <variant file="biped/base_archer_ready.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
@@ -35,6 +35,7 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_ranged_archer.xml"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_tree.xml"/>
