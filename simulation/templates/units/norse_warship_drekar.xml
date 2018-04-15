@@ -43,6 +43,6 @@
     </TechCostMultiplier>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/celts/warship.xml</Actor>
+    <Actor>structures/norse/drakkar.xml</Actor>
   </VisualActor>
 </Entity>

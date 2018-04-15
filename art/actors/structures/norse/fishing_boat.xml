@@ -5,48 +5,48 @@
   <group>
     <variant frequency="100" name="Norse fishing boat">
       <mesh>structural/norse_fishing_boat.dae</mesh>
-	  <animations>
-		<animation file="mechanical/fishing_boat_move.dae" name="Idle" speed="80"/>
+      <animations>
+        <animation file="mechanical/fishing_boat_move.dae" name="Idle" speed="80"/>
       </animations>
-	  <props>
-		<prop actor="units/norse/infantry_fisherman.xml" attachpoint="fisherman"/>
-		<prop actor="" attachpoint="basket"/>
+      <props>
+        <prop actor="units/norse/infantry_fisherman.xml" attachpoint="fisherman"/>
+        <prop actor="" attachpoint="basket"/>
       </props>
       <textures>
-        <texture file="structural/norse_snekkja.png" name="baseTex"/>
-        <texture file="structural/norse_snekkja_norm.png" name="normTex"/>
-        <texture file="structural/norse_snekkja_spec.png" name="specTex"/>
+        <texture file="structural/norse_ship_old.png" name="baseTex"/>
+        <texture file="structural/norse_ship_old_norm.png" name="normTex"/>
+        <texture file="structural/norse_ship_old_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="idle"/>
-	<variant frequency="1" name="move">
-	  <animations>
-		<animation file="mechanical/fishing_boat_move.dae" name="Walk" speed="10"/>
-		<animation file="mechanical/fishing_boat_move.dae" name="Run" speed="10"/>
+    <variant frequency="1" name="move">
+      <animations>
+        <animation file="mechanical/fishing_boat_move.dae" name="Walk" speed="10"/>
+        <animation file="mechanical/fishing_boat_move.dae" name="Run" speed="10"/>
       </animations>
-	  <props>
-		<prop actor="units/norse/infantry_fisherman.xml" attachpoint="fisherman"/>
-		<prop actor="" attachpoint="basket"/>
+        <props>
+        <prop actor="units/norse/infantry_fisherman.xml" attachpoint="fisherman"/>
+        <prop actor="" attachpoint="basket"/>
       </props>
     </variant>
-	<variant frequency="1" name="carry_food">
-	  <animations>
-		<animation file="mechanical/fishing_boat_move.dae" name="Carry_food" speed="10"/>
+    <variant frequency="1" name="carry_food">
+      <animations>
+        <animation file="mechanical/fishing_boat_move.dae" name="Carry_food" speed="10"/>
       </animations>
-	  <props>
-		<prop actor="units/norse/infantry_fisherman.xml" attachpoint="fisherman"/>
-		<prop actor="props/structures/ptolemies/fishing_boat_basket.xml" attachpoint="basket"/>
+      <props>
+        <prop actor="units/norse/infantry_fisherman.xml" attachpoint="fisherman"/>
+        <prop actor="props/structures/ptolemies/fishing_boat_basket.xml" attachpoint="basket"/>
       </props>
     </variant>
-	<variant frequency="1" name="gather_fish">
-	  <animations>
-		<animation file="mechanical/fishing_boat_move.dae" name="Idle" speed="80"/>
+    <variant frequency="1" name="gather_fish">
+      <animations>
+        <animation file="mechanical/fishing_boat_move.dae" name="Idle" speed="80"/>
       </animations>
-	  <props>
-		<prop actor="units/norse/infantry_fisherman.xml" attachpoint="fisherman"/>
-		<prop actor="props/structures/ptolemies/fishing_boat_basket.xml" attachpoint="basket"/>
+      <props>
+        <prop actor="units/norse/infantry_fisherman.xml" attachpoint="fisherman"/>
+        <prop actor="props/structures/ptolemies/fishing_boat_basket.xml" attachpoint="basket"/>
       </props>
     </variant>
   </group>

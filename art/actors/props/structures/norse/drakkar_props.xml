@@ -4,12 +4,12 @@
   <float/>
   <group>
     <variant frequency="1" name="Norse Longboat">
-      <mesh>props/norse_snekkja_props.dae</mesh>
+      <mesh>props/norse_drakkar_props.dae</mesh>
       <textures>
         <texture file="structural/norse_snekkja.png" name="baseTex"/>
       </textures>
       <props>
-        <prop actor="props/structures/norse/snekkja_sail.xml" attachpoint="sail"/>
+        <prop actor="props/structures/norse/drakkar_sail.xml" attachpoint="sail"/>
       </props>
     </variant>
   </group>

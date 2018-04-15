@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship_bireme">
-	<Identity>
+    <Footprint>
+      <Square width="7.0" depth="20.0"/>
+      <Height>10.0</Height>
+    </Footprint>
+    <Identity>
     	<Civ>norse</Civ>
     	<SpecificName>Karvi</SpecificName>
     	<Icon>units/viking_longboat.png</Icon>
@@ -10,6 +14,9 @@
   	<Trader>
     	<GainMultiplier>1.0</GainMultiplier>
   	</Trader>
+    <UnitMotion>
+      <PassabilityClass>ship-small</PassabilityClass>
+    </UnitMotion>
   	<VisualActor>
     	<Actor>structures/norse/karvi.xml</Actor>
   	</VisualActor>

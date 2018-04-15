@@ -4,13 +4,10 @@
   <float/>
   <group>
     <variant frequency="1" name="Norse Longboat">
-      <mesh>props/norse_snekkja_props.dae</mesh>
+      <mesh>props/norse_snekkja_head.dae</mesh>
       <textures>
         <texture file="structural/norse_snekkja.png" name="baseTex"/>
       </textures>
-      <props>
-        <prop actor="props/structures/norse/snekkja_sail.xml" attachpoint="sail"/>
-      </props>
     </variant>
   </group>
   <material>player_trans.xml</material>

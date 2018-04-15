@@ -4,7 +4,7 @@
   <float/>
   <group>
     <variant name="Norse sail">
-      <mesh>props/norse_snekkja_sail.dae</mesh>
+      <mesh>props/norse_drakkar_sail.dae</mesh>
       <animations>
         <animation file="other/norse_sail_idle.dae" name="idle" speed="50"/>
         <animation file="other/norse_sail_move.dae" name="Walk" speed="5"/>
