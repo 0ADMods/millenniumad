@@ -13,14 +13,14 @@
 			<props>
 				<prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
 				<prop actor="props/structures/anglo/anglo_stables_hay_pile.xml" attachpoint="hay_pile"/>
-				<prop actor="fauna/horse_a.xml" attachpoint="horse1"/>
-				<prop actor="fauna/horse_a.xml" attachpoint="horse2"/>
-				<prop actor="fauna/horse_a.xml" attachpoint="horse3"/>
-				<prop actor="fauna/horse_a.xml" attachpoint="horse4"/>
-				<prop actor="fauna/horse_a.xml" attachpoint="horse5"/>
-				<prop actor="fauna/horse_a.xml" attachpoint="horse6"/>
-				<prop actor="fauna/horse_a.xml" attachpoint="horse7"/>
-				<prop actor="fauna/horse_a.xml" attachpoint="horse8"/>
+				<prop actor="props/structures/persians/stable_horse_a.xml" attachpoint="horse1"/>
+        <prop actor="props/structures/persians/stable_horse_b.xml" attachpoint="horse2"/>
+        <prop actor="props/structures/persians/stable_horse_c.xml" attachpoint="horse3"/>
+        <prop actor="props/structures/persians/stable_horse_b.xml" attachpoint="horse4"/>
+        <prop actor="props/structures/persians/stable_horse_c.xml" attachpoint="horse5"/>
+        <prop actor="props/structures/persians/stable_horse_a.xml" attachpoint="horse6"/>
+        <prop actor="props/structures/persians/stable_horse_c.xml" attachpoint="horse7"/>
+        <prop actor="props/structures/persians/stable_horse_b.xml" attachpoint="horse8"/>
 				<prop actor="props/structures/anglo/anglo_stables_shield.xml" attachpoint="shield"/>
 			</props>
 		</variant>

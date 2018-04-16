@@ -4,7 +4,7 @@
     <PopulationBonus>2</PopulationBonus>
   </Cost>
   <Footprint>
-    <Square width="27.0" depth="29.0"/>
+    <Square width="35.0" depth="39.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Health>
@@ -15,7 +15,7 @@
     <SpecificName>Hǫfn</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="24.0" depth="28.0"/>
+    <Static width="35.0" depth="40.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
@@ -28,6 +28,6 @@
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/norse/dock.xml</Actor>
+    <Actor>structures/norse/dock_base.xml</Actor>
   </VisualActor>
 </Entity>

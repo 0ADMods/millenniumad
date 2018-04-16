@@ -4,71 +4,68 @@
   <group>
     <variant frequency="5" name="Anglo fortress A">
       <mesh>structural/anglo_fortress.dae</mesh>
-	  <textures>
-	    <texture file="structural/anglo_struct.png" name="baseTex"/>
-		<texture file="structural/anglo_struct_norm.png" name="normTex"/>
-		<texture file="structural/anglo_struct_spec.png" name="specTex"/>
-		<texture file="structural/ao/anglo_fortress_ao.png" name="aoTex"/>
-	</textures>
-	<props>
-	<prop actor="props/structures/anglo/anglo_cross.xml" attachpoint="cross"/>
-	<prop actor="props/units/helmets/anglo_pioneer_aventail_helmet.xml" attachpoint="helmet"/>
-	<prop actor="props/units/helmets/anglo_pioneer_aventail_helmet.xml" attachpoint="helmet2"/>
-	<prop actor="props/units/helmets/anglo_copper_gate_helmet.xml" attachpoint="helmet3"/>
-	</props>
+      <textures>
+        <texture file="structural/anglo_struct.png" name="baseTex"/>
+        <texture file="structural/anglo_struct_norm.png" name="normTex"/>
+        <texture file="structural/anglo_struct_spec.png" name="specTex"/>
+        <texture file="structural/ao/anglo_fortress_ao.png" name="aoTex"/>
+      </textures>
+      <props>
+        <prop actor="props/structures/anglo/anglo_cross.xml" attachpoint="cross"/>
+        <prop actor="props/units/helmets/anglo_pioneer_aventail_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/anglo_pioneer_aventail_helmet.xml" attachpoint="helmet2"/>
+        <prop actor="props/units/helmets/anglo_copper_gate_helmet.xml" attachpoint="helmet3"/>
+      </props>
     </variant>
-	<variant frequency="5" name="Anglo fortress B">
+    <variant frequency="5" name="Anglo fortress B">
       <mesh>structural/anglo_fortress_b.dae</mesh>
-	  <textures>
-	    <texture file="structural/anglo_struct.png" name="baseTex"/>
-		<texture file="structural/anglo_struct_norm.png" name="normTex"/>
-		<texture file="structural/anglo_struct_spec.png" name="specTex"/>
-		<texture file="structural/ao/anglo_fortress_b_ao.png" name="aoTex"/>
-	</textures>
-	<props>
-	<prop actor="props/structures/anglo/anglo_well.xml" attachpoint="cross"/>
-	<prop actor="fauna/horse_a.xml" attachpoint="horse"/>
-	</props>
+      <textures>
+        <texture file="structural/anglo_struct.png" name="baseTex"/>
+        <texture file="structural/anglo_struct_norm.png" name="normTex"/>
+        <texture file="structural/anglo_struct_spec.png" name="specTex"/>
+        <texture file="structural/ao/anglo_fortress_b_ao.png" name="aoTex"/>
+      </textures>
+      <props>
+        <prop actor="props/structures/anglo/anglo_well.xml" attachpoint="cross"/>
+        <prop actor="fauna/horse.xml" attachpoint="horse"/>
+      </props>
     </variant>
-	<variant frequency="5" name="Anglo fortress C">
+    <variant frequency="5" name="Anglo fortress C">
       <mesh>structural/anglo_fortress_c.dae</mesh>
-	  <textures>
-	    <texture file="structural/anglo_struct.png" name="baseTex"/>
-		<texture file="structural/anglo_struct_norm.png" name="normTex"/>
-		<texture file="structural/anglo_struct_spec.png" name="specTex"/>
-		<texture file="structural/ao/anglo_fortress_c_ao.png" name="aoTex"/>
-	</textures>
-	<props>
-	<prop actor="props/structures/anglo/anglo_well.xml" attachpoint="cross"/>
-	<prop actor="props/special/eyecandy/hay_cart.xml" attachpoint="hay"/>
-	<prop actor="props/structures/anglo/anglo_eyecandy2.xml" attachpoint="shields"/>
-	</props>
+      <textures>
+        <texture file="structural/anglo_struct.png" name="baseTex"/>
+        <texture file="structural/anglo_struct_norm.png" name="normTex"/>
+        <texture file="structural/anglo_struct_spec.png" name="specTex"/>
+        <texture file="structural/ao/anglo_fortress_c_ao.png" name="aoTex"/>
+      </textures>
+      <props>
+        <prop actor="props/structures/anglo/anglo_well.xml" attachpoint="cross"/>
+        <prop actor="props/special/eyecandy/hay_cart.xml" attachpoint="hay"/>
+        <prop actor="props/structures/anglo/anglo_eyecandy2.xml" attachpoint="shields"/>
+      </props>
     </variant>
   </group>
   <group>
-	<variant>
-	<props>
+    <variant>
+      <props>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
-		<prop actor="props/structures/anglo/anglo_barracks_bench_right.xml" attachpoint="bench_right"/>
-		<prop actor="props/structures/anglo/fortress_palisade.xml" attachpoint="root"/>
-		<prop actor="props/structures/anglo/fortress_roof.xml" attachpoint="roof"/>
-		<prop actor="props/structures/anglo/fortress_turf.xml" attachpoint="root"/>
-		<prop actor="props/structures/anglo/fortress_tower.xml" attachpoint="tower" selectable="true"/>
-		<prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
-		<prop actor="props/structures/anglo/road_fortress.xml" attachpoint="road"/>
-		<prop actor="props/structures/anglo/road_fortress.xml" attachpoint="road2"/>
-		<prop actor="props/structures/anglo/road_fortress.xml" attachpoint="road3"/>
-		<prop actor="props/structures/anglo/road_fortress.xml" attachpoint="road4"/>
-		<prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="dirt-tower"/>
-		<prop actor="props/structures/decals/dirt_3x6.xml" attachpoint="dirt-fortress"/>
-		<prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="dirt-armory"/>
-		<prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="dirt-house"/>
-    </props>
-	<animations>
-		<animation event="0.5" load="0.0" name="attack_ranged" speed="100"/>
-	</animations>
-	</variant>
+	      <prop actor="props/structures/anglo/anglo_barracks_bench_right.xml" attachpoint="bench_right"/>
+	      <prop actor="props/structures/anglo/fortress_palisade.xml" attachpoint="root"/>
+	      <prop actor="props/structures/anglo/fortress_roof.xml" attachpoint="roof"/>
+	      <prop actor="props/structures/anglo/fortress_turf.xml" attachpoint="root"/>
+	      <prop actor="props/structures/anglo/fortress_tower.xml" attachpoint="tower" selectable="true"/>
+	      <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
+	      <prop actor="props/structures/anglo/road_fortress.xml" attachpoint="road"/>
+	      <prop actor="props/structures/anglo/road_fortress.xml" attachpoint="road2"/>
+	      <prop actor="props/structures/anglo/road_fortress.xml" attachpoint="road3"/>
+	      <prop actor="props/structures/anglo/road_fortress.xml" attachpoint="road4"/>
+	      <prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="dirt-tower"/>
+	      <prop actor="props/structures/decals/dirt_3x6.xml" attachpoint="dirt-fortress"/>
+	      <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="dirt-armory"/>
+	      <prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="dirt-house"/>
+      </props>
+    </variant>
   </group>
   <group>
     <variant frequency="100" name="Idle"/>
