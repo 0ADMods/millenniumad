@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="shield_C">
+      <mesh>props/shield_caro_round.dae</mesh>
+      <textures>
+        <texture file="props/shields/caro/lenticular/caro_lenticular_spec_leather_elite.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="leather-a">
+      <textures>
+        <texture file="props/shields/caro/lenticular/caro_leather_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="leather-b">
+      <textures>
+        <texture file="props/shields/caro/lenticular/caro_leather_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="leather-white">
+      <textures>
+        <texture file="props/shields/caro/lenticular/caro_leather_white.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>
