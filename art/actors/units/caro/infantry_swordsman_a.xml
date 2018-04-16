@@ -5,23 +5,48 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/anglo_shorwell_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/caro_cavalry_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/caro_swordsman_e.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/caro_lenticular_swordsman_e.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/caro_infantry_sword.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/caro_infantry_sheath.xml" attachpoint="sheath_L"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="player-padded2-dark">
+    <variant frequency="0" name="player-padded2-dark">
       <textures>
         <texture file="skeletal/norse/advanced/player/padded2dark.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="player-padded3">
+    <variant frequency="0" name="player-padded3">
       <textures>
         <texture file="skeletal/norse/advanced/player/padded3.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="dyed_shirt1a">
+      <textures>
+        <texture file="skeletal/caro/advanced/dyed/dyed1a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="dyed_shirt1b">
+      <textures>
+        <texture file="skeletal/caro/advanced/dyed/dyed1b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="dyed_shirt1c">
+      <textures>
+        <texture file="skeletal/caro/advanced/dyed/dyed1c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="dyed_shirt1d">
+      <textures>
+        <texture file="skeletal/caro/advanced/dyed/dyed1d.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="dyed_shirt1e">
+      <textures>
+        <texture file="skeletal/caro/advanced/dyed/dyed1e.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
