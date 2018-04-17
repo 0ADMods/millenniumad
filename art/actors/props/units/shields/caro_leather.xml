@@ -3,7 +3,7 @@
 	<castshadow/>
   <group>
 		<variant name="shield_C">
-			<mesh>props/shield_caro_round.dae</mesh>
+			<mesh>props/shield/shield_caro_round.dae</mesh>
 		</variant>
 	</group>
 	<group>

@@ -3,41 +3,41 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Base">
-      <mesh>props/norse_helmet_huscarl.dae</mesh>
+      <mesh>props/helmet/norse_helmet_huscarl.dae</mesh>
       <textures>
-        <texture file="props/norse_helmet_huscarl.png" name="baseTex"/>
-        <texture file="props/norse_helmet_spec.png" name="specTex"/>
-        <texture file="props/norse_helmet_norm.png" name="normTex"/>
+        <texture file="props/helmet/norse_helmet_huscarl.png" name="baseTex"/>
+        <texture file="props/helmet/norse_helmet_spec.png" name="specTex"/>
+        <texture file="props/helmet/norse_helmet_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="Standard">
       <textures>
-        <texture file="props/norse_helmet.png" name="baseTex"/>
-        <texture file="props/norse_helmet_spec.png" name="specTex"/>
-        <texture file="props/norse_helmet_norm.png" name="normTex"/>
+        <texture file="props/helmet/norse_helmet.png" name="baseTex"/>
+        <texture file="props/helmet/norse_helmet_spec.png" name="specTex"/>
+        <texture file="props/helmet/norse_helmet_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Dark">
       <textures>
-        <texture file="props/norse_helmet_dark.png" name="baseTex"/>
-        <texture file="props/norse_helmet_spec.png" name="specTex"/>
-        <texture file="props/norse_helmet_norm.png" name="normTex"/>
+        <texture file="props/helmet/norse_helmet_dark.png" name="baseTex"/>
+        <texture file="props/helmet/norse_helmet_spec.png" name="specTex"/>
+        <texture file="props/helmet/norse_helmet_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Rusty">
       <textures>
-        <texture file="props/norse_helmet_rusty.png" name="baseTex"/>
-        <texture file="props/norse_helmet_spec.png" name="specTex"/>
-        <texture file="props/norse_helmet_norm.png" name="normTex"/>
+        <texture file="props/helmet/norse_helmet_rusty.png" name="baseTex"/>
+        <texture file="props/helmet/norse_helmet_spec.png" name="specTex"/>
+        <texture file="props/helmet/norse_helmet_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Very Dark">
       <textures>
-        <texture file="props/norse_helmet_verydark.png" name="baseTex"/>
-        <texture file="props/norse_helmet_spec.png" name="specTex"/>
-        <texture file="props/norse_helmet_norm.png" name="normTex"/>
+        <texture file="props/helmet/norse_helmet_verydark.png" name="baseTex"/>
+        <texture file="props/helmet/norse_helmet_spec.png" name="specTex"/>
+        <texture file="props/helmet/norse_helmet_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>

@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant name="base">
-      <mesh>props/shield_norse_round_e.dae</mesh>
+      <mesh>props/shield/shield_norse_round_e.dae</mesh>
       <textures>
         <texture file="props/shields/iron_shield_leather_spec.png" name="specTex"/>
       </textures>

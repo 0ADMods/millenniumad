@@ -3,17 +3,17 @@
   <castshadow/>
   <group>
     <variant frequency="50" name="Helmet_A">
-      <mesh>props/anglo_copper_gate_helmet.dae</mesh>
+      <mesh>props/helmet/anglo_copper_gate_helmet.dae</mesh>
     </variant>
     <variant frequency="50" name="Helmet_B">
-      <mesh>props/anglo_copper_gate_helmet_b.dae</mesh>
+      <mesh>props/helmet/anglo_copper_gate_helmet_b.dae</mesh>
     </variant>
   </group>
 <group>
 	<variant frequency="1" name="Standard">
       <textures>
-        <texture file="props/anglo_copper_gate_helmet.png" name="baseTex"/>
-        <texture file="props/anglo_helmets_spec.png" name="specTex"/>
+        <texture file="props/helmet/anglo_copper_gate_helmet.png" name="baseTex"/>
+        <texture file="props/helmet/anglo_helmets_spec.png" name="specTex"/>
       </textures>
 	  </variant>
 </group>

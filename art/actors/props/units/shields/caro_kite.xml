@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="base">
-      <mesh>props/shield_kite.dae</mesh>
+      <mesh>props/shield/shield_kite.dae</mesh>
     </variant>
   </group>
   <group>

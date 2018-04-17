@@ -11,7 +11,7 @@
 	</group>  
 	<group>
 		<variant name="shield-E">
-			<mesh>props/shield_caro_round_a.dae</mesh>
+			<mesh>props/shield/shield_caro_round_a.dae</mesh>
 		</variant>
 	</group>
 	<material>player_trans_spec.xml</material>

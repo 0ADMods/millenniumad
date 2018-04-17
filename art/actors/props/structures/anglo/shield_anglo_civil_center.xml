@@ -3,7 +3,7 @@
 	<castshadow/>
 	<group>
 		<variant frequency="100" name="Anglo Lantern">
-			<mesh>props/shield_anglo_civil_center.dae</mesh>
+			<mesh>props/shield/shield_anglo_civil_center.dae</mesh>
 			<textures>
 				<texture file="props/shields/anglo/elite/iron_cross_02_red.png" name="baseTex"/>
 			</textures>
