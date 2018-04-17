@@ -2,12 +2,12 @@
 <actor version="1">	
 	<castshadow/> 
 	<group>
-		<variant file="biped/base_cavalry_spearman_ready_shield.xml" frequency="1" name="Base">
+		<variant>
 			<mesh>skeletal/new/m_tunic_short.dae</mesh>
 			<props>
 				<prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
 				<prop actor="props/units/helmets/caro_cavalry_helmet.xml" attachpoint="helmet"/>
-				<prop actor="props/units/shields/caro_round.xml" attachpoint="shield"/>
+				<prop actor="props/units/shields/caro_lenticular_swordsman_b.xml" attachpoint="shield"/>
 				<prop actor="props/units/weapons/caro_sheath_sword.xml" attachpoint="sheath_L"/>
 				<prop actor="props/units/weapons/caro_cavalry_spear.xml" attachpoint="weapon_R"/>
 			</props>
@@ -16,16 +16,16 @@
 			</textures>
 		</variant>
 	</group>
+  <group>
+    <variant file="biped/base_cavalry_spearman_ready_shield.xml"/>
+    <variant file="biped/rider/carry_meat.xml"/>
+  </group>
 	<group>
-		<variant frequency="100" name="Idle"/>
-		<variant name="carry_meat">
-			<props>
-				<prop actor="props/units/shuttle_meat.xml" attachpoint="weapon_R"/>
-				<prop attachpoint="helmet"/>
-				<prop attachpoint="shield"/>
-				<prop actor="props/units/shields/caro_round_back.xml" attachpoint="back"/>
-			</props>
-		</variant>
-	</group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/promotion_shield.xml" />
+    <variant file="biped/rider/attack_slaughter_shield_hele.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death_shield_a.xml"/>
+  </group>
 	<material>player_trans.xml</material>
 </actor>
