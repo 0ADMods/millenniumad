@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_wonder">
   <Footprint>
-    <Square width="43.0" depth="59.0"/>
+    <Square width="65.2" depth="25.2"/>
     <Height>12.0</Height>
   </Footprint>
   <Health>
     <Max>4400</Max>
   </Health>
   <Identity>
-    <Civ>caro</Civ>
-    <SpecificName>Cathedral of Aix-la-Chapelle</SpecificName>
+    <Civ>anglo</Civ>
+    <SpecificName>Brixworth</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="43.0" depth="59.0"/>
+    <Static width="65.2" depth="25.2"/>
   </Obstruction>
   <StatusBars>
     <BarWidth>6.0</BarWidth>
@@ -21,6 +21,6 @@
   </StatusBars>
   <VisualActor>
     <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
-    <Actor>structures/carolingian/wonder.xml</Actor>
+    <Actor>structures/anglo/wonder.xml</Actor>
   </VisualActor>
 </Entity>

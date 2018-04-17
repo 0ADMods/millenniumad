@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_abbey">
+<Entity parent="template_structure_civic_temple">
   <Cost>
     <PopulationBonus>7</PopulationBonus>
     <Resources>
@@ -14,7 +14,7 @@
     <SpecificName>Lorsch Abbey</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/carolingian/school.xml</Actor>
+    <Actor>structures/carolingian/lorsch_abbey.xml</Actor>
     <FoundationActor>structures/fndn_2x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

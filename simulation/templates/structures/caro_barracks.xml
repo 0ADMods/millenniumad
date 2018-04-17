@@ -28,6 +28,6 @@
 	</ProductionQueue>
 	<VisualActor>
 		<Actor>structures/carolingian/longhouse.xml</Actor>
-		<FoundationActor>structures/fndn_6x4.xml</FoundationActor>
+		<FoundationActor>structures/fndn_3x6.xml</FoundationActor>
 	</VisualActor>
 </Entity>

@@ -2,17 +2,17 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant name="Carolingian Wonder">
-			<mesh>structural/caro_wonder.dae</mesh>
+		<variant frequency="100" name="Anglo Wonder">
+			<mesh>structural/anglo_wonder.dae</mesh>
 			<textures>
 				<texture file="structural/caro_struct_b.png" name="baseTex"/>
 				<texture file="structural/caro_struct_b_norm.png" name="normTex"/>
 				<texture file="structural/caro_struct_b_spec.png" name="specTex"/>
-				<texture file="structural/ao/caro_wonder.png" name="aoTex"/>
+				<texture file="structural/ao/anglo_wonder.png" name="aoTex"/>
 			</textures>
 			<props>
-				<prop actor="props/structures/carolingian/wonder_roof.xml" attachpoint="root"/>
-				<prop actor="props/structures/carolingian/wonder_entrance.xml" attachpoint="root"/>
+				<prop actor="props/structures/anglo/wonder_roof.xml" attachpoint="root"/>
+				<prop actor="props/structures/anglo/wonder_roof_2.xml" attachpoint="root"/>
 			</props>
 		</variant>
 	</group>
@@ -23,8 +23,8 @@
         <prop actor="particle/destruction_smoke_med.xml" attachpoint="smoke"/>
         <prop actor="particle/destruction_dust_med.xml" attachpoint="smoke"/>
         <prop actor="particle/destruction_dust_med_gray.xml" attachpoint="smoke"/>
-        <prop actor="props/structures/carolingian/caro_wonder_roof.xml" attachpoint="root"/>
-        <prop actor="props/structures/carolingian/caro_wonder_entrance.xml" attachpoint="root"/>
+        <prop actor="props/structures/anglo/wonder_roof.xml" attachpoint="root"/>
+        <prop actor="props/structures/anglo/wonder_roof_2.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

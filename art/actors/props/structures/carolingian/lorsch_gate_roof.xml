@@ -2,12 +2,12 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant frequency="50" name="Carolingian Abbey Roof">
+		<variant name="Carolingian Abbey Roof">
 			<mesh>props/caro_abbey_roof.dae</mesh>
 			<textures>
 				<texture file="structural/maur_struct_b.png" name="baseTex"/>
 				<texture file="structural/maur_struct_b_norm.png" name="normTex"/>
-				<texture file="structural/ao/caro_abbey_ao.png" name="aoTex"/>
+				<texture file="structural/ao/caro_lorsch_gate.png" name="aoTex"/>
 			</textures>
 		</variant>
 	</group>
