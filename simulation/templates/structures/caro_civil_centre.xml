@@ -21,5 +21,6 @@
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/carolingian/civil_centre.xml</Actor>
+    <FoundationActor>structures/fndn_6x3.xml</FoundationActor>
   </VisualActor>
 </Entity>
