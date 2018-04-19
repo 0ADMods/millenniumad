@@ -23,6 +23,6 @@
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/anglo/dock.xml</Actor>
-    <FoundationActor>structures/fndn_celt_dock.xml</FoundationActor>
+    <FoundationActor>structures/fndn_4x4_dock.xml</FoundationActor>
   </VisualActor>
 </Entity>

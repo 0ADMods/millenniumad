@@ -11,6 +11,6 @@
     <Static width="7.5" depth="7.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/gauls/scout_tower.xml</Actor>
+    <Actor>structures/carolingian/defense_tower.xml</Actor>
   </VisualActor>
 </Entity>

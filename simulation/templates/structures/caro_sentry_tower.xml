@@ -4,6 +4,6 @@
     <Civ>caro</Civ>
   </Identity>
   <VisualActor>
-    <Actor>structures/celts/wooden_tower.xml</Actor>
+    <Actor>structures/carolingian/sentry_tower.xml</Actor>
   </VisualActor>
 </Entity>
