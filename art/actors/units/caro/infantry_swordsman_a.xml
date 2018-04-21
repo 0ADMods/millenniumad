@@ -14,16 +14,6 @@
     </variant>
   </group>
   <group>
-    <variant frequency="0" name="player-padded2-dark">
-      <textures>
-        <texture file="skeletal/norse/advanced/player/padded2dark.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="player-padded3">
-      <textures>
-        <texture file="skeletal/norse/advanced/player/padded3.png" name="baseTex"/>
-      </textures>
-    </variant>
     <variant frequency="1" name="dyed_shirt1a">
       <textures>
         <texture file="skeletal/caro/advanced/dyed/dyed1a.png" name="baseTex"/>

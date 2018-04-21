@@ -14,14 +14,34 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="player-padded2-dark">
+    <variant frequency="0" name="player-padded1-dark">
+      <textures>
+        <texture file="skeletal/norse/advanced/player/padded1dark.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="player-padded2-dark">
       <textures>
         <texture file="skeletal/norse/advanced/player/padded2dark.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="player-padded3">
+    <variant frequency="1" name="dyed_padded_armor_1a">
       <textures>
-        <texture file="skeletal/norse/advanced/player/padded3.png" name="baseTex"/>
+        <texture file="skeletal/norse/advanced/dyed/padded1a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="dyed_padded_armor_1b">
+      <textures>
+        <texture file="skeletal/norse/advanced/dyed/padded1b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="dyed_padded_armor_1c">
+      <textures>
+        <texture file="skeletal/norse/advanced/dyed/padded1c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="dyed_padded_armor_1d">
+      <textures>
+        <texture file="skeletal/norse/advanced/dyed/padded1c.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

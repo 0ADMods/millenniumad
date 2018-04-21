@@ -5,7 +5,6 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/anglo_shorwell_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/norse_bow.xml" attachpoint="weapon_L"/>
@@ -14,19 +13,29 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="transparent_shirt1">
+    <variant frequency="1" name="dyed_shirt1a">
       <textures>
-        <texture file="skeletal/norse/basic/transparent_shirt1.png" name="baseTex"/>
+        <texture file="skeletal/caro/basic/dyed/dyed1a.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="transparent_shirt2">
+    <variant frequency="1" name="dyed_shirt1b">
       <textures>
-        <texture file="skeletal/norse/basic/transparent_shirt2.png" name="baseTex"/>
+        <texture file="skeletal/caro/basic/dyed/dyed1b.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="transparent_shirt3">
+    <variant frequency="1" name="dyed_shirt1c">
       <textures>
-        <texture file="skeletal/norse/basic/transparent_shirt3.png" name="baseTex"/>
+        <texture file="skeletal/caro/basic/dyed/dyed1c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="dyed_shirt1d">
+      <textures>
+        <texture file="skeletal/caro/basic/dyed/dyed1d.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="dyed_shirt1e">
+      <textures>
+        <texture file="skeletal/caro/basic/dyed/dyed1e.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -55,19 +64,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <group>
-    <variant frequency="1" name="green_light">
-      <color>208 222 165</color>
-    </variant>
-    <variant frequency="1" name="green_dark">
-      <color>132 142 100</color>
-    </variant>
-    <variant frequency="1" name="brown_light">
-      <color>210 192 157</color>
-    </variant>
-    <variant frequency="1" name="brown_dark">
-      <color>147 116 87</color>
-    </variant>
-  </group>
-  <material>objectcolor.xml</material>
+  <material>player_trans.xml</material>
 </actor>

@@ -13,39 +13,29 @@
     </variant>
   </group>
   <group>
-    <variant frequency="0" name="player-padded2-dark">
-      <textures>
-        <texture file="skeletal/norse/advanced/player/padded2dark.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="player-padded3">
-      <textures>
-        <texture file="skeletal/norse/advanced/player/padded3.png" name="baseTex"/>
-      </textures>
-    </variant>
     <variant frequency="1" name="dyed_shirt1a">
       <textures>
-        <texture file="skeletal/caro/advanced/dyed/dyed1a.png" name="baseTex"/>
+        <texture file="skeletal/caro/basic/dyed/dyed1a.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="dyed_shirt1b">
       <textures>
-        <texture file="skeletal/caro/advanced/dyed/dyed1b.png" name="baseTex"/>
+        <texture file="skeletal/caro/basic/dyed/dyed1b.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="dyed_shirt1c">
       <textures>
-        <texture file="skeletal/caro/advanced/dyed/dyed1c.png" name="baseTex"/>
+        <texture file="skeletal/caro/basic/dyed/dyed1c.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="dyed_shirt1d">
       <textures>
-        <texture file="skeletal/caro/advanced/dyed/dyed1d.png" name="baseTex"/>
+        <texture file="skeletal/caro/basic/dyed/dyed1d.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="dyed_shirt1e">
       <textures>
-        <texture file="skeletal/caro/advanced/dyed/dyed1e.png" name="baseTex"/>
+        <texture file="skeletal/caro/basic/dyed/dyed1e.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
