@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>structural/anglo_fortress_tower.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="root"/>
+        <prop actor="props/flora/bush_tempe_underbrush.xml" attachpoint="root"/>
+        <prop actor="props/units/shields/anglo_spearman_e.xml" attachpoint="shield_a"/>
+        <prop actor="props/units/shields/anglo_spearman_e.xml" attachpoint="shield_b"/>
+        <prop actor="props/units/shields/anglo_spearman_e.xml" attachpoint="shield_c"/>
+				<prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+      </props>
+        <textures>
+          <texture file="structural/rome_struct_2.png" name="baseTex"/>
+          <texture file="structural/rome_struct_2_norm.png" name="normTex"/>
+          <texture file="structural/rome_struct_2_spec.png" name="specTex"/>
+        <texture file="structural/ao/anglo_fortress_tower_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/special/common/garrison_flag_celt.xml" attachpoint="garrisoned"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop attachpoint="garrisoned"/>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>
