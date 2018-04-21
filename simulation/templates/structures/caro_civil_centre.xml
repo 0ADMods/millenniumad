@@ -16,7 +16,7 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_infantry_swordsman_b
+      units/{civ}_infantry_archer_b
       units/{civ}_infantry_spearman_b
     </Entities>
   </ProductionQueue>
