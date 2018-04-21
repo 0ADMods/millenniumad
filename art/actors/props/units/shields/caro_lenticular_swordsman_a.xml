@@ -20,47 +20,47 @@
         <texture file="props/shields/caro/lenticular/lenticular_leather_player_light.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="checkered-white">
+    <variant frequency="0" name="checkered-white">
       <textures>
         <texture file="props/shields/caro/lenticular/lenticular_checkered_white.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="checkered-black">
+    <variant frequency="0" name="checkered-black">
       <textures>
         <texture file="props/shields/caro/lenticular/lenticular_checkered_black.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="chiro-player-white">
+    <variant frequency="0" name="chiro-player-white">
       <textures>
         <texture file="props/shields/caro/lenticular/lenticular_chiro_player_white.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="chiro-white">
+    <variant frequency="0" name="chiro-white">
       <textures>
         <texture file="props/shields/caro/lenticular/lenticular_chiro_white.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="chiro-black">
+    <variant frequency="0" name="chiro-black">
       <textures>
         <texture file="props/shields/caro/lenticular/lenticular_chiro_black.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="petal-small-player-white">
+    <variant frequency="0" name="petal-small-player-white">
       <textures>
         <texture file="props/shields/caro/lenticular/lenticular_petal_small_player_white.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="petal-small-black">
+    <variant frequency="0" name="petal-small-black">
       <textures>
         <texture file="props/shields/caro/lenticular/lenticular_petal_small_black.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="petal-player-white">
+    <variant frequency="0" name="petal-player-white">
       <textures>
         <texture file="props/shields/caro/lenticular/lenticular_petal_player_white.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="petal-white">
+    <variant frequency="0" name="petal-white">
       <textures>
         <texture file="props/shields/caro/lenticular/lenticular_petal_white.png" name="baseTex"/>
       </textures>
