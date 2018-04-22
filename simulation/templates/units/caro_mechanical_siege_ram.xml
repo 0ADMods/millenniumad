@@ -8,10 +8,11 @@
     <Max>10</Max>
   </GarrisonHolder>
   <Identity>
-    <Civ>anglo</Civ>
+    <Civ>norse</Civ>
+    <SpecificName>Rambukk</SpecificName>
     <Icon>units/celt_mechanical_siege_ram.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/anglo/siege_ram.xml</Actor>
+    <Actor>structures/carolingian/siege_ram.xml</Actor>
   </VisualActor>
 </Entity>
