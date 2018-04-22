@@ -6,10 +6,9 @@
       <mesh>skeletal/horse.dae</mesh>
       <props>
         <prop actor="units/caro/cavalry_spearman_c_r.xml" attachpoint="rider"/>
-        <prop actor="props/units/horse/horse_chest_colorband.xml" attachpoint="chest"/>
         <prop actor="props/horse/cav_blanket_rome.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_rein_spearman_shield.xml" attachpoint="head"/>
-        <prop actor="props/horse/cav_armor_iber.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_armor_caro.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
