@@ -7,7 +7,7 @@
   <Identity>
     <Civ>caro</Civ>
     <SpecificName>Charlemagne</SpecificName>
-    <Icon>units/gaul_hero_vercingetorix.png</Icon>
+    <Icon>units/caro_hero_charlemagne.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/caro/hero_cavalry_swordsman_charlemagne_m.xml</Actor>

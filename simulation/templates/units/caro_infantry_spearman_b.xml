@@ -21,7 +21,7 @@
     <SelectionGroupName>units/caro_infantry_spearman_b</SelectionGroupName>
     <GenericName>Spearman</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/norse_infantry_spearman.png</Icon>
+    <Icon>units/caro_infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/caro_infantry_spearman_a</Entity>

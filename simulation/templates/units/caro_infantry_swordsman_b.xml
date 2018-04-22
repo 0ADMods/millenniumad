@@ -11,7 +11,7 @@
     <Lang>greek</Lang>
     <SelectionGroupName>units/caro_infantry_swordsman_b</SelectionGroupName>
     <GenericName>Infantry Swordsman</GenericName>
-    <Icon>units/sele_infantry_swordsman.png</Icon>
+    <Icon>units/caro_infantry_swordsman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
