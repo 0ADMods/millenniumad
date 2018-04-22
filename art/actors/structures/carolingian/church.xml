@@ -34,5 +34,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_parallax.xml</material>
+  <material>player_trans_ao_parallax.xml</material>
 </actor>
