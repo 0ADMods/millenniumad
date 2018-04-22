@@ -18,6 +18,8 @@
     <Entities datatype="tokens">
       units/{civ}_infantry_archer_b
       units/{civ}_infantry_spearman_b
+	  units/{civ}_hero_charlemagne
+	  units/{civ}_champion_cavalry
     </Entities>
   </ProductionQueue>
   <VisualActor>
