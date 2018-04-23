@@ -17,7 +17,7 @@
   <Identity>
     <Civ>caro</Civ>
     <GenericName>Woman</GenericName>
-    <Icon>units/celt_support_female_citizen.png</Icon>
+    <Icon>units/caro_support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/caro/female_citizen.xml</Actor>

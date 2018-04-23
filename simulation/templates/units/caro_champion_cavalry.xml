@@ -2,10 +2,10 @@
 <Entity parent="template_unit_champion_cavalry_spearman">
   <Identity>
     <Civ>caro</Civ>
-    <GenericName>Scara</GenericName>
-    <SpecificName>Scara</SpecificName>
+    <GenericName>Royal Companion Cavalry</GenericName>
+    <SpecificName>Schola Palatina</SpecificName>
     <SelectionGroupName>units/caro_champion_cavalry</SelectionGroupName>
-    <Icon>units/gaul_champion_cavalry.png</Icon>
+    <Icon>units/caro_champion_cavalry.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/caro/cavalry_spearman_c_m.xml</Actor>

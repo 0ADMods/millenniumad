@@ -6,7 +6,8 @@
   </Auras>
   <Identity>
     <Civ>caro</Civ>
-    <SpecificName>Charlemagne</SpecificName>
+	<GenericName>Charlemagne</GenericName>
+    <SpecificName>Carolus Magnus</SpecificName>
     <Icon>units/caro_hero_charlemagne.png</Icon>
   </Identity>
   <VisualActor>
