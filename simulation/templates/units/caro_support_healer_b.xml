@@ -3,7 +3,7 @@
   <Identity>
     <Civ>caro</Civ>
     <SelectionGroupName>units/caro_support_healer_b</SelectionGroupName>
-    <Icon>units/caro_healer.png</Icon>
+    <Icon>units/caro_support_healer.png</Icon>
     <Rank>Basic</Rank>
   </Identity>
   <Promotion>
