@@ -20,6 +20,6 @@
     <Icon>units/celt_support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/norse/female_citizen.xml</Actor>
+    <Actor>units/caro/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>
