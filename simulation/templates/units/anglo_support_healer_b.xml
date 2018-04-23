@@ -3,13 +3,13 @@
   <Identity>
     <Civ>anglo</Civ>
     <SelectionGroupName>units/anglo_support_healer_b</SelectionGroupName>
-    <Icon>units/celt_support_healer.png</Icon>
+    <Icon>units/caro_support_healer.png</Icon>
     <Rank>Basic</Rank>
   </Identity>
   <Promotion>
     <Entity>units/anglo_support_healer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/celts/healer.xml</Actor>
+    <Actor>units/caro/healer.xml</Actor>
   </VisualActor>
 </Entity>
