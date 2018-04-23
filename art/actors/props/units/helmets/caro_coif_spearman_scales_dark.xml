@@ -7,9 +7,10 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="coif-leather">
+    <variant frequency="1" name="coif-scales-dark">
       <textures>
-        <texture file="props/helmet/coif_leather.png" name="baseTex"/>
+        <texture file="props/helmet/coif_scales_dark.png" name="baseTex"/>
+        <texture file="props/helmet/coif_scales_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -37,5 +38,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>basic_trans.xml</material>
+  <material>basic_trans_spec.xml</material>
 </actor>

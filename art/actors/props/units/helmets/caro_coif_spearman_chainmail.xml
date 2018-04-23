@@ -7,9 +7,9 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="base">
+    <variant frequency="1" name="coif-chainmail">
       <textures>
-        <texture file="props/helmet/coil_scales.png" name="baseTex"/>
+        <texture file="props/helmet/coif_chainmail.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -37,5 +37,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
- <material>basic_trans.xml</material>
+  <material>basic_trans.xml</material>
 </actor>
