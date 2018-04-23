@@ -30,10 +30,11 @@
   </ResourceDropsite>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_infantry_spearman_a
-      units/{civ}_infantry_swordsman_a
-      units/{civ}_infantry_archer_a
+      units/{civ}_infantry_spearman_e
+      units/{civ}_infantry_swordsman_e
+      units/{civ}_infantry_archer_e
 	  units/{civ}_champion_cavalry
+	  units/{civ}_champion_infantry
       units/{civ}_support_trader
     </Entities>
   </ProductionQueue>

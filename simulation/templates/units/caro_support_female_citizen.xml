@@ -17,6 +17,7 @@
   <Identity>
     <Civ>caro</Civ>
     <GenericName>Woman</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/caro_support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

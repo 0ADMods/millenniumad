@@ -9,7 +9,8 @@
   </GarrisonHolder>
   <Identity>
     <Civ>norse</Civ>
-    <SpecificName>Rambukk</SpecificName>
+    <GenericName>Battering Ram</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/celt_mechanical_siege_ram.png</Icon>
   </Identity>
   <VisualActor>

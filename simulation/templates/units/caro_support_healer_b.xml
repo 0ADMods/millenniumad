@@ -3,6 +3,8 @@
   <Identity>
     <Civ>caro</Civ>
     <SelectionGroupName>units/caro_support_healer_b</SelectionGroupName>
+	<GenericName>Christian Clergy</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/caro_support_healer.png</Icon>
     <Rank>Basic</Rank>
   </Identity>
