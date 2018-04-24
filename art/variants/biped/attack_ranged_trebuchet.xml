@@ -1,0 +1,9 @@
+<variant name="attack_ranged">
+  <animations>
+    <animation event="0.15" load="0.50" file="biped/trebuchet_operator_attack_3.dae" name="attack_ranged" speed="80"/>
+  </animations>
+  <props>
+    <prop actor="" attachpoint="weapon_R"/>
+    <prop actor="props/units/weapons/rock.xml" attachpoint="loaded-projectile"/>
+  </props>
+</variant>
