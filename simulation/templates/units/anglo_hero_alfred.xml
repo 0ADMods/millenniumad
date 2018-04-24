@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_cavalry_swordsman">
-  <Auras datatype="tokens">anglo_hero_alfred</Auras>
+  <Auras datatype="tokens">
+    units/heroes/anglo_hero_alfred
+  </Auras>
   <Identity>
     <Civ>anglo</Civ>
     <SpecificName>Alfred the Great</SpecificName>
