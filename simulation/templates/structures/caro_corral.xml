@@ -11,6 +11,6 @@
     <Static width="17.0" depth="19.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/anglo/corral.xml</Actor>
+    <Actor>structures/spartans/corral.xml</Actor>
   </VisualActor>
 </Entity>
