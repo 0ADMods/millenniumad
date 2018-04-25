@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_cavalry_swordsman">
   <Auras datatype="tokens">
-    units/heroes/anglo_hero_alfred
+    units/heroes/anglo_hero_alfred1
+	units/heroes/anglo_hero_alfred2
   </Auras>
   <Identity>
     <Civ>anglo</Civ>

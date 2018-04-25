@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["Hero"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+	  { "value": "Health/Max", "multiply": 0.9 }
+	],
+	"auraName": "Influence",
+	"auraDescription": "-10% health for enemy heroes."
+}

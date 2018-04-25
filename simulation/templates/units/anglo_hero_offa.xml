@@ -2,6 +2,7 @@
 <Entity parent="template_unit_hero_infantry_swordsman">
   <Auras datatype="tokens">
     units/heroes/anglo_hero_offa
+	units/heroes/anglo_hero_offa2
   </Auras>
   <Identity>
     <Civ>anglo</Civ>
