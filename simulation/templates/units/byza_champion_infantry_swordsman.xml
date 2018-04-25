@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Identity>
+    <Civ>byza</Civ>
+    <GenericName>Varangian Guard</GenericName>
+    <SpecificName>Varangioi</SpecificName>
+    <SelectionGroupName>units/byza_champion_infantry_swordsman</SelectionGroupName>
+    <Icon>units/caro_champion_infantry.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/byzantines/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

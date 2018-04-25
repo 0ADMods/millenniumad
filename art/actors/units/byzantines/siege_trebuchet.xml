@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Caro Trebuchet">
+      <animations>
+        <animation file="mechanical/caro_trebuchet_idle.dae" name="Idle" speed="100" />
+        <animation file="mechanical/caro_trebuchet_attack.dae" event="0.15" load="0.85" name="attack_ranged" speed="80"/>
+        <animation file="mechanical/caro_trebuchet_death.dae" name="Death" speed="100" />
+      </animations>
+      <mesh>structural/caro_trebuchet.dae</mesh>
+      <textures>
+        <texture file="structural/hele_siege.dds" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="props/units/weapons/rock.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/units/weapons/rock.xml" attachpoint="projectile"/>
+        <prop actor="props/units/rock_pile.xml" attachpoint="ammo_1"/>
+        <prop actor="props/units/rock_pile.xml" attachpoint="ammo_2"/>
+        <prop actor="props/units/trebuchet_rocks.xml" attachpoint="weight"/>
+        <prop actor="units/caro/trebuchet_operator_a.xml" attachpoint="engineer_1"/>
+        <prop actor="units/caro/trebuchet_operator_b.xml" attachpoint="engineer_2"/>
+        <prop actor="units/caro/trebuchet_operator_c.xml" attachpoint="engineer_3"/>
+      </props>
+    </variant>
+  </group>
+</actor>

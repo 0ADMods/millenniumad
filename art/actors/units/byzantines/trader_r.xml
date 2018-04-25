@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/base_trader.xml">
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/trader_staff.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/weapons/norse_sword_sheath.xml" attachpoint="sheath_L"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="dyed_shirt1a">
+      <textures>
+        <texture file="skeletal/caro/advanced/dyed/dyed1a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="dyed_shirt1b">
+      <textures>
+        <texture file="skeletal/caro/advanced/dyed/dyed1b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="dyed_shirt1c">
+      <textures>
+        <texture file="skeletal/caro/advanced/dyed/dyed1c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="dyed_shirt1d">
+      <textures>
+        <texture file="skeletal/caro/advanced/dyed/dyed1d.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="dyed_shirt1e">
+      <textures>
+        <texture file="skeletal/caro/advanced/dyed/dyed1e.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

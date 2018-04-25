@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Trebuchet operator-c">
+      <animations>
+        <animation file="biped/trebuchet_operator_idle_3.dae" name="Idle" speed="100"/>
+      </animations>
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/anglo_shorwell_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="operator-c-player-padded1-dark">
+      <textures>
+        <texture file="skeletal/norse/advanced/player/padded1dark.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="operator-c-player-padded2-dark">
+      <textures>
+        <texture file="skeletal/norse/advanced/player/padded2dark.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="operator-c-player-padded3">
+      <textures>
+        <texture file="skeletal/norse/advanced/player/padded3.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="operator-c-player-padded4">
+      <textures>
+        <texture file="skeletal/norse/advanced/player/padded4.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="operator-c-player-padded5">
+      <textures>
+        <texture file="skeletal/norse/advanced/player/padded5.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="operator-c-chainmail1a">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail1a.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="operator-c-chainmail1b">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail1b.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="operator-c-chainmail1c">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail1c.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/attack_ranged_trebuchet.xml" name="attack_ranged"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
