@@ -3,21 +3,21 @@
   <castshadow/>
   <group>
     <variant name="Wall long">
-      <mesh>structural/anglo_wall_gate.dae</mesh>
-	  <props>
-        <prop actor="structures/anglo/wall_gate_door.xml" attachpoint="root"/>
-		<prop actor="props/structures/anglo/wall_gate_turf.xml" attachpoint="root"/>
-        <prop actor="props/structures/anglo/anglo_banner.xml" attachpoint="banner"/>
-        <prop actor="props/structures/anglo/anglo_banner.xml" attachpoint="banner2"/>
-		<prop actor="props/structures/anglo/anglo_banner.xml" attachpoint="banner3"/>
-        <prop actor="props/structures/anglo/anglo_banner.xml" attachpoint="banner4"/>
-      </props>
+      <mesh>structural/caro_wall_gate.dae</mesh>
       <textures>
-        <texture file="structural/rome_struct_2.png" name="baseTex"/>
-        <texture file="structural/rome_struct_2_norm.png" name="normTex"/>
-        <texture file="structural/rome_struct_2_spec.png" name="specTex"/>
-		<texture file="structural/ao/anglo_gate_ao.png" name="aoTex"/>
-      </textures>
+				<texture file="structural/caro_struct.png" name="baseTex"/>
+				<texture file="structural/caro_struct_norm.png" name="normTex"/>
+				<texture file="structural/ao/caro_wall_gate.png" name="aoTex"/>
+			</textures>
+      <props>
+        <prop actor="props/units/shields/caro_lenticular_swordsman_e.xml" attachpoint="shield_1"/>
+        <prop actor="props/units/shields/caro_lenticular_swordsman_e.xml" attachpoint="shield_2"/>
+        <prop actor="props/units/shields/caro_lenticular_swordsman_e.xml" attachpoint="shield_3"/>
+        <prop actor="props/units/shields/caro_lenticular_swordsman_e.xml" attachpoint="shield_4"/>
+        <prop actor="props/units/shields/caro_lenticular_swordsman_e.xml" attachpoint="shield_5"/>
+        <prop actor="props/units/shields/caro_lenticular_swordsman_e.xml" attachpoint="shield_6"/>
+        <prop actor="structures/carolingian/wall_gate_door.xml" attachpoint="root"/>
+      </props>
     </variant>
   </group>
   <group>
@@ -27,14 +27,8 @@
         <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
-		<prop actor="props/structures/anglo/anglo_banner.xml" attachpoint="banner"/>
-        <prop actor="props/structures/anglo/anglo_banner.xml" attachpoint="banner2"/>
-		<prop actor="props/structures/anglo/anglo_banner.xml" attachpoint="banner3"/>
-        <prop actor="props/structures/anglo/anglo_banner.xml" attachpoint="banner4"/>
-		<prop actor="structures/anglo/wall_gate_door.xml" attachpoint="root"/>
-		<prop actor="props/structures/anglo/wall_gate_turf.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+  <material>player_trans_ao_parallax.xml</material>
 </actor>
