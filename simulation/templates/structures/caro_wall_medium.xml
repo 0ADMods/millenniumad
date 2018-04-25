@@ -12,7 +12,7 @@
     <Static width="24.0" depth="6.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/hellenes/wall_medium.xml</Actor>
+    <Actor>structures/carolingian/wall_medium.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>24.0</Length>
