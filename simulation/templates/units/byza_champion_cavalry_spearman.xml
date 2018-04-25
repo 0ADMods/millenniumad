@@ -4,7 +4,7 @@
     <Civ>byza</Civ>
     <GenericName>Royal Companion Cavalry</GenericName>
     <SpecificName>Schola</SpecificName>
-    <SelectionGroupName>units/byza_champion_cavalry</SelectionGroupName>
+    <SelectionGroupName>units/byza_champion_cavalry_spearman</SelectionGroupName>
     <Icon>units/caro_champion_cavalry.png</Icon>
   </Identity>
   <VisualActor>

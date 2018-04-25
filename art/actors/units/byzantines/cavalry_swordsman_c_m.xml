@@ -2,13 +2,14 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="quadraped/base_horse_spearman.xml" frequency="1" name="Base">
+    <variant file="quadraped/base_horse_swordsman.xml" frequency="1" name="Swordsman Horse">
       <mesh>skeletal/horse.dae</mesh>
       <props>
-        <prop actor="units/byzantines/cavalry_spearman_e_r.xml" attachpoint="rider"/>
-        <prop actor="props/horse/cav_blanket_rome.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_cataphract_2.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_mask_cataphract_1.xml" attachpoint="head"/>
+        <prop actor="units/byzantines/cavalry_swordsman_c_r.xml" attachpoint="rider"/>
+        <prop actor="props/horse/cav_rein_swordsman_shield.xml" attachpoint="head"/>
+        <prop actor="props/horse/cav_saddle_byzantine.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_armor_byzantine_cloth.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_mask_byzantine_cloth.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>
@@ -53,7 +54,7 @@
     <variant frequency="1" name="horse-color-black">
       <color>41 41 41</color>
     </variant>
-    <variant frequency="1" name="horse-color-beige">
+    <variant frequency="1" name="horse-color-biege">
       <color>247 213 111</color>
     </variant>
     <variant frequency="1" name="horse-color-gray">
@@ -67,12 +68,6 @@
     <variant frequency="1" name="Idle"/>
     <variant file="quadraped/base_horse_death.xml"/>
     <variant file="quadraped/base_horse_run.xml"/>
-    <variant name="gather_meat">
-      <props>
-        <prop actor="" attachpoint="rider"/>
-        <prop actor="units/caro/cavalry_spearman_e_r.xml" attachpoint="rider_R"/>
-      </props>
-    </variant>
   </group>
   <material>objectcolor.xml</material>
 </actor>
