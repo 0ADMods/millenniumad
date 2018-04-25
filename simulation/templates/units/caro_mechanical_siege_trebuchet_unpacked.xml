@@ -32,7 +32,7 @@
   <Identity>
     <Civ>caro</Civ>
     <SpecificName>Trebuchet</SpecificName>
-    <Icon>units/rome_siege_onager.png</Icon>
+    <Icon>caro_mechanical_siege_trebutchet.png</Icon>
   </Identity>
   <Pack>
     <Entity>units/caro_mechanical_siege_trebuchet_packed</Entity>

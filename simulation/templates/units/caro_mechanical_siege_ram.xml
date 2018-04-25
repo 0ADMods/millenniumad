@@ -8,7 +8,7 @@
     <Max>10</Max>
   </GarrisonHolder>
   <Identity>
-    <Civ>norse</Civ>
+    <Civ>caro</Civ>
     <GenericName>Battering Ram</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/celt_mechanical_siege_ram.png</Icon>

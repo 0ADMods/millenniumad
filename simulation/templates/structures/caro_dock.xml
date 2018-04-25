@@ -18,7 +18,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/anglo_warship
+      units/caro_warship
     </Entities>
   </ProductionQueue>
   <VisualActor>
