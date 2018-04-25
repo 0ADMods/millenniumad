@@ -6,6 +6,6 @@
 	{ "value": "UnitMotion/Run/Speed", "multiply": 1.15 }
 	],
 	"auraName": "Fyrd Reforms",
-	"auraDescription": "All units in his range move +15% faster.",
+	"auraDescription": "Additional 15% movement speed for spear infantry units. ",
 	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
 }

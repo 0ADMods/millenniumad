@@ -6,5 +6,5 @@
 	  { "value": "Health/Max", "multiply": 0.9 }
 	],
 	"auraName": "Influence",
-	"auraDescription": "-10% health for enemy heroes."
+	"auraDescription": "Reduce the health points of enemy heroes by 10%"
 }

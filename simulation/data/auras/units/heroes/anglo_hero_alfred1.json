@@ -7,6 +7,6 @@
 	{ "value": "Capturable/CapturePoints", "multiply": 1.1 }
 	],
 	"auraName": "Secured Borders",
-	"auraDescription": "During his lifetime, all structures are 10% harder to capture.",
+	"auraDescription": "Owned structures are 10% harder to capture.",
 	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
 }
