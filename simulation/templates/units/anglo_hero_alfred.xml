@@ -5,7 +5,8 @@
   </Auras>
   <Identity>
     <Civ>anglo</Civ>
-    <SpecificName>Alfred the Great</SpecificName>
+	<GenericName>Alfred the Great</GenericName>
+	<SpecificName></SpecificName>
     <History>Alfred the Great was the King of Wessex in the late 9th century. He defended his kingdom succesfully against the Norse attacks. He also encouraged education and improved legal system, military structure and his people's quality of life.</History>
     <Icon>units/anglo_hero_alfred.png</Icon>
     <RequiredTechnology>germanic_thingstead</RequiredTechnology>
