@@ -8,7 +8,7 @@
 		<Static width="23.0" depth="46.0"/>
 	</Obstruction>
   <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x5</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>caro</Civ>
