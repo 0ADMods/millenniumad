@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Identity>
+    <Civ>byza</Civ>
+    <Lang>greek</Lang>
+    <SpecificName>Gýnē</SpecificName>
+    <GenericName>Woman</GenericName>
+    <Icon>units/caro_support_female_citizen.png</Icon>
+    <SelectionGroupName>units/byza_support_female_citizen</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/byzantines/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

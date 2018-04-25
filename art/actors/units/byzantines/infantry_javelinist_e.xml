@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/anglo_shorwell_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/caro_lenticular_swordsman_a.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/jav_loaded.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="ammo"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="player-padded1-dark">
+      <textures>
+        <texture file="skeletal/norse/advanced/player/padded1dark.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="player-padded2-dark">
+      <textures>
+        <texture file="skeletal/norse/advanced/player/padded2dark.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="player-padded3">
+      <textures>
+        <texture file="skeletal/norse/advanced/player/padded3.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="player-padded4">
+      <textures>
+        <texture file="skeletal/norse/advanced/player/padded4.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="player-padded5">
+      <textures>
+        <texture file="skeletal/norse/advanced/player/padded5.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="dyed_shirt1a">
+      <textures>
+        <texture file="skeletal/caro/basic/dyed/dyed1a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="dyed_shirt1b">
+      <textures>
+        <texture file="skeletal/caro/basic/dyed/dyed1b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="dyed_shirt1c">
+      <textures>
+        <texture file="skeletal/caro/basic/dyed/dyed1c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="dyed_shirt1d">
+      <textures>
+        <texture file="skeletal/caro/basic/dyed/dyed1d.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="dyed_shirt1e">
+      <textures>
+        <texture file="skeletal/caro/basic/dyed/dyed1e.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_skirmisher.xml"/>
+    <variant file="biped/carry_food.xml"/>
+    <variant file="biped/carry_meat.xml"/>
+    <variant file="biped/carry_wood.xml"/>
+    <variant file="biped/carry_stone.xml"/>
+    <variant file="biped/carry_metal.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_ranged_javelinist.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/gather_tree.xml"/>
+    <variant file="biped/gather_grain.xml"/>
+    <variant file="biped/gather_fruit.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/gather_rock.xml"/>
+    <variant file="biped/gather_ore.xml"/>
+    <variant file="biped/gather_ruins.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
