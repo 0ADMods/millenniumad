@@ -5,7 +5,7 @@
     <variant>
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/caro_cavalry_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/byz_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
         <prop actor="props/units/shields/caro_lenticular_swordsman_a.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/caro_sheath_sword.xml" attachpoint="sheath_L"/>
@@ -31,6 +31,13 @@
       <textures>
         <texture file="skeletal/byza/elite/scale1c.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/scale1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="lamellar1a">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/byza/elite/lamellar1a.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/lamellar1_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
