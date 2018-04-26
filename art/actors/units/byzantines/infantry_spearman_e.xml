@@ -26,6 +26,12 @@
         <texture file="skeletal/byza/elite/scale1_spec.png" name="specTex"/>
       </textures>
     </variant>
+    <variant frequency="1" name="Scale1c">
+      <textures>
+        <texture file="skeletal/byza/elite/scale1c.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/scale1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
   </group>
   <group>
     <variant file="biped/base_spearman_relax.xml"/>

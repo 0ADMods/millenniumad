@@ -5,7 +5,7 @@
     <variant>
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/norse_huscarl_iron.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/caro_cavalry_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
         <prop actor="props/units/shields/byz_kite.xml" attachpoint="shield_arm"/>
         <prop actor="props/units/weapons/caro_sheath_sword.xml" attachpoint="sheath_L"/>
@@ -14,51 +14,27 @@
     </variant>
   </group>
   <group>
-    <variant frequency="0" name="Chainmail+Scale1a">
+    <variant frequency="1" name="Scale1a">
       <textures>
-        <texture file="skeletal/caro/elite/chainmail_scale1a.png" name="baseTex"/>
-        <texture file="skeletal/caro/elite/chainmail_scale1_spec.png" name="specTex"/>
+        <texture file="skeletal/byza/elite/scale1a.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/scale1_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="0" name="Chainmail+Scale1b">
+    <variant frequency="1" name="Scale1b">
       <textures>
-        <texture file="skeletal/caro/elite/chainmail_scale1b.png" name="baseTex"/>
-        <texture file="skeletal/caro/elite/chainmail_scale1_spec.png" name="specTex"/>
+        <texture file="skeletal/byza/elite/scale1b.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/scale1_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="3" name="Chainmail+Scale2a">
+    <variant frequency="1" name="Scale1c">
       <textures>
-        <texture file="skeletal/caro/elite/chainmail_scale2a.png" name="baseTex"/>
-        <texture file="skeletal/caro/elite/chainmail_scale2_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Chainmail+Scale2b">
-      <textures>
-        <texture file="skeletal/caro/elite/chainmail_scale2b.png" name="baseTex"/>
-        <texture file="skeletal/caro/elite/chainmail_scale2_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Chainmail2a">
-      <textures>
-        <texture file="skeletal/caro/elite/chainmail2a.png" name="baseTex"/>
-        <texture file="skeletal/caro/elite/chainmail2_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Chainmail2b">
-      <textures>
-        <texture file="skeletal/caro/elite/chainmail2b.png" name="baseTex"/>
-        <texture file="skeletal/caro/elite/chainmail2_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Chainmail1c">
-      <textures>
-        <texture file="skeletal/caro/elite/chainmail1c.png" name="baseTex"/>
-        <texture file="skeletal/caro/elite/chainmail1_spec.png" name="specTex"/>
+        <texture file="skeletal/byza/elite/scale1c.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/scale1_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/base_cavalry_spearman_ready_shield.xml"/>
+    <variant file="biped/base_cavalry_swordsman_shield_relax.xml"/>
     <variant file="biped/rider/carry_meat.xml"/>
   </group>
   <group>

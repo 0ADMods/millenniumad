@@ -7,9 +7,6 @@
       <props>
         <prop actor="units/byzantines/cavalry_swordsman_c_r.xml" attachpoint="rider"/>
         <prop actor="props/horse/cav_rein_swordsman_shield.xml" attachpoint="head"/>
-        <prop actor="props/horse/cav_saddle_byzantine.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_armor_byzantine_cloth.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_mask_byzantine_cloth.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>
@@ -48,6 +45,29 @@
       <textures>
         <texture file="skeletal/horse_celt_stripe_a.dds" name="baseTex"/>
       </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="0" name="cloth-armor">
+      <props>
+        <prop actor="props/horse/cav_armor_byzantine_cloth.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_mask_byzantine_cloth.xml" attachpoint="head"/>
+        <prop actor="props/horse/cav_saddle_byzantine.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="3" name="cloth-armor-player">
+      <props>
+        <prop actor="props/horse/cav_armor_byzantine_cloth_player.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_mask_byzantine_cloth_player.xml" attachpoint="head"/>
+        <prop actor="props/horse/cav_saddle_byzantine.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="cloth-armor-white">
+      <props>
+        <prop actor="props/horse/cav_armor_byzantine_cloth_white.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_mask_byzantine_cloth_white.xml" attachpoint="head"/>
+        <prop actor="props/horse/cav_saddle_byzantine.xml" attachpoint="root"/>
+      </props>
     </variant>
   </group>
   <group>
