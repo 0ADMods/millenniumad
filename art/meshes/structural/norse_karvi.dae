@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0 commit date:2018-03-22, commit time:14:10, hash:f4dc9f9d68b</authoring_tool>
     </contributor>
-    <created>2018-04-13T19:08:33</created>
-    <modified>2018-04-13T19:08:33</modified>
+    <created>2018-04-26T02:02:57</created>
+    <modified>2018-04-26T02:02:57</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -186,6 +186,27 @@
         </node>
         <node id="prop_weapon_e" name="prop_weapon_e" type="NODE">
           <matrix sid="transform">-0.01946026 -0.9648639 0.2620285 -1.470811 0.05718347 -0.2627233 -0.9631752 -5.360883 0.998174 -0.003759941 0.06028692 0.8001142 0 0 0 1</matrix>
+        </node>
+        <node id="prop_barrel_b" name="prop_barrel_b" type="NODE">
+          <matrix sid="transform">1 0 0 1.367282 0 1 0 3.639812 0 0 1 0.6196942 0 0 0 1</matrix>
+        </node>
+        <node id="prop_vase" name="prop_vase" type="NODE">
+          <matrix sid="transform">1 0 0 1.634407 0 1 0 1.517772 0 0 1 0.6196939 0 0 0 1</matrix>
+        </node>
+        <node id="prop_food_basket_c" name="prop_food_basket_c" type="NODE">
+          <matrix sid="transform">1 0 0 0.7499359 0 1 0 1.839042 0 0 1 0.7565217 0 0 0 1</matrix>
+        </node>
+        <node id="prop_food_basket_a" name="prop_food_basket_a" type="NODE">
+          <matrix sid="transform">1 0 0 0.5941453 0 1 0 1.091247 0 0 1 0.7565217 0 0 0 1</matrix>
+        </node>
+        <node id="prop_food_basket_b" name="prop_food_basket_b" type="NODE">
+          <matrix sid="transform">1 0 0 1.077096 0 1 0 0.6550339 0 0 1 0.7565217 0 0 0 1</matrix>
+        </node>
+        <node id="prop_food_basket_d" name="prop_food_basket_d" type="NODE">
+          <matrix sid="transform">1 0 0 -1.431132 0 1 0 4.051268 0 0 1 0.7565217 0 0 0 1</matrix>
+        </node>
+        <node id="prop_food_basket_e" name="prop_food_basket_e" type="NODE">
+          <matrix sid="transform">1 0 0 -0.7923904 0 1 0 4.129163 0 0 1 0.7565217 0 0 0 1</matrix>
         </node>
       </node>
     </visual_scene>

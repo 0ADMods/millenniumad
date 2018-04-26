@@ -31,11 +31,18 @@
         <prop actor="props/structures/norse/ship_oar_left.xml" attachpoint="oar_8"/>
         <prop actor="props/structures/norse/karvi_props.xml" attachpoint="root"/>
         <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="barrel_a"/>
+        <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="barrel_b"/>
+        <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="vase"/>
         <prop actor="props/units/weapons/norse_sword.xml" attachpoint="weapon_a"/>
         <prop actor="props/units/weapons/norse_spear.xml" attachpoint="weapon_b"/>
         <prop actor="props/units/weapons/norse_spear.xml" attachpoint="weapon_c"/>
         <prop actor="props/units/weapons/norse_axe.xml" attachpoint="weapon_d"/>
         <prop actor="props/units/weapons/norse_axe.xml" attachpoint="weapon_e"/>
+        <prop actor="props/structures/norse/food_basket_a.xml" attachpoint="food_basket_a"/>
+        <prop actor="props/structures/norse/food_basket_a.xml" attachpoint="food_basket_b"/>
+        <prop actor="props/structures/norse/food_basket_b.xml" attachpoint="food_basket_c"/>
+        <prop actor="props/structures/norse/food_basket_c.xml" attachpoint="food_basket_d"/>
+        <prop actor="props/structures/norse/food_basket_a.xml" attachpoint="food_basket_e"/>
       </props>
     </variant>
   </group>
