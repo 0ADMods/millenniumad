@@ -6,7 +6,7 @@
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/caro_lenticular_swordsman_a.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/byza_oval.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/caro_cavalry_spear.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/caro_infantry_sheath.xml" attachpoint="sheath_L"/>
       </props>
@@ -49,6 +49,24 @@
       <textures>
         <texture file="skeletal/byza/elite/lamellar1a.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/lamellar1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail1a">
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail1a.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail1b">
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail1b.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail1c">
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail1c.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail1_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

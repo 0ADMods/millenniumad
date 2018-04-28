@@ -5,7 +5,7 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/anglo_shorwell_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/byz_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bow_short.xml" attachpoint="weapon_L"/>
@@ -15,19 +15,19 @@
     </variant>
   </group>
   <group>
-    <variant frequency="0" name="Chainmail1a">
+    <variant frequency="1" name="Chainmail1a">
       <textures>
         <texture file="skeletal/caro/elite/chainmail1a.png" name="baseTex"/>
         <texture file="skeletal/caro/elite/chainmail1_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="0" name="Chainmail1b">
+    <variant frequency="1" name="Chainmail1b">
       <textures>
         <texture file="skeletal/caro/elite/chainmail1b.png" name="baseTex"/>
         <texture file="skeletal/caro/elite/chainmail1_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="0" name="Chainmail1c">
+    <variant frequency="1" name="Chainmail1c">
       <textures>
         <texture file="skeletal/caro/elite/chainmail1c.png" name="baseTex"/>
         <texture file="skeletal/caro/elite/chainmail1_spec.png" name="specTex"/>

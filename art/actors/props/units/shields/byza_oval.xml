@@ -7,9 +7,9 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="shield_base">
+    <variant frequency="1" name="shield-leather-player-dark">
       <textures>
-        <texture file="props/shields/byzantine/shield_base.png" name="baseTex"/>
+        <texture file="props/shields/byzantine/shield_oval_leather_player_dark.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

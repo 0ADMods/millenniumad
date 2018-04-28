@@ -5,11 +5,18 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/caro_cavalry_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
         <prop actor="props/units/shields/caro_lenticular_swordsman_b.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/caro_infantry_sword.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/caro_infantry_sheath.xml" attachpoint="sheath_L"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Coif">
+      <props>
+        <prop actor="props/units/helmets/byz_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/byz_coif_swordsman_shield_relax_chainmail.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

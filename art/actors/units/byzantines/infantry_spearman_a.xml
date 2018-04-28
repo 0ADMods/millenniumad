@@ -13,6 +13,14 @@
     </variant>
   </group>
   <group>
+    <variant frequency="1" name="Coif">
+      <props>
+        <prop actor="props/units/helmets/byz_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/byz_coif_spearman_chainmail.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
     <variant frequency="1" name="player-padded1-dark">
       <textures>
         <texture file="skeletal/norse/advanced/player/padded1dark.png" name="baseTex"/>
