@@ -7,9 +7,29 @@
     </variant>
   </group>
   <group>
+    <variant frequency="1" name="shield-leather-player-light">
+      <textures>
+        <texture file="props/shields/byzantine/shield_oval_leather_player_light.png" name="baseTex"/>
+      </textures>
+    </variant>
     <variant frequency="1" name="shield-leather-player-dark">
       <textures>
         <texture file="props/shields/byzantine/shield_oval_leather_player_dark.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="shield-leather-IX-player">
+      <textures>
+        <texture file="props/shields/byzantine/shield_oval_IX_player.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="shield-leather-IX-white">
+      <textures>
+        <texture file="props/shields/byzantine/shield_oval_IX_white.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="shield-leather-IX-yellow">
+      <textures>
+        <texture file="props/shields/byzantine/shield_oval_IX_yellow.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
