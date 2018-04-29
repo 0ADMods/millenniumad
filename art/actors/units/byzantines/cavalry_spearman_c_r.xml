@@ -27,7 +27,7 @@
         <texture file="skeletal/caro/elite/chainmail_scale1_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="3" name="Chainmail+Scale2a">
+    <variant frequency="1" name="Chainmail+Scale2a">
       <textures>
         <texture file="skeletal/caro/elite/chainmail_scale2a.png" name="baseTex"/>
         <texture file="skeletal/caro/elite/chainmail_scale2_spec.png" name="specTex"/>
@@ -73,6 +73,18 @@
       <textures>
         <texture file="skeletal/byza/elite/chainmail1c.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/chainmail1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="3" name="lamellar-padded1a">
+      <textures>
+        <texture file="skeletal/byza/elite/lamellar_padded1a.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/lamellar_padded1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="lamellar-padded1b">
+      <textures>
+        <texture file="skeletal/byza/elite/lamellar_padded1b.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/lamellar_padded1_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
