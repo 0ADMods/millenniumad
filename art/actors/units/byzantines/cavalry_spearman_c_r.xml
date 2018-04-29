@@ -10,7 +10,7 @@
         <prop actor="props/units/shields/caro_lenticular_swordsman_a.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/caro_sheath_sword.xml" attachpoint="sheath_L"/>
         <prop actor="props/units/weapons/caro_cavalry_spear.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/capes/rider/spearman_relax_shield.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/byz_coif_cavalry_swordsman_chainmail.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
