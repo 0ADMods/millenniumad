@@ -12,14 +12,14 @@
         <texture file="props/shields/caro/kite/kite_checkered_plain.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="kite_checkered_white">
+    <variant frequency="1" name="kite_chiro_white">
       <textures>
-        <texture file="props/shields/caro/kite/kite_checkered_white.png" name="baseTex"/>
+        <texture file="props/shields/byza/kite/kite_chiro_white.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="kite_checkered_black">
+    <variant frequency="1" name="kite_chiro_yellow">
       <textures>
-        <texture file="props/shields/caro/kite/kite_checkered_black.png" name="baseTex"/>
+        <texture file="props/shields/byza/kite/kite_chiro_yellow.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

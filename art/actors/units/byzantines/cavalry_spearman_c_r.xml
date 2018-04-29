@@ -69,7 +69,7 @@
         <texture file="skeletal/byza/elite/chainmail1_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="byza-chainmail1c">
+    <variant frequency="0" name="byza-chainmail1c">
       <textures>
         <texture file="skeletal/byza/elite/chainmail1c.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/chainmail1_spec.png" name="specTex"/>

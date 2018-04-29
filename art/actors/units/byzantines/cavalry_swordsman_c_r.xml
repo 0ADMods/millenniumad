@@ -10,7 +10,18 @@
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
         <prop actor="props/units/shields/byza_kite.xml" attachpoint="shield_arm"/>
         <prop actor="props/units/weapons/caro_infantry_sheath.xml" attachpoint="sheath_L"/>
-        <prop actor="props/units/weapons/norse_sword.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="weapon-paramerion">
+      <props>
+        <prop actor="props/units/weapons/byz_paramerion.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="weapon-frankish">
+      <props>
+        <prop actor="props/units/weapons/caro_infantry_sword.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>
@@ -38,6 +49,24 @@
       <textures>
         <texture file="skeletal/byza/elite/lamellar1a.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/lamellar1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail1a">
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail1a.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail1b">
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail1b.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail1c">
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail1c.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail1_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
