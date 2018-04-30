@@ -8,7 +8,7 @@
         <prop actor="props/units/helmets/byza_archer_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/weapons/bow_short.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/weapons/bow_byza.xml" attachpoint="weapon_L"/>
         <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
       </props>
     </variant>

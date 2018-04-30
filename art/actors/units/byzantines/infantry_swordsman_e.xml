@@ -8,7 +8,6 @@
         <prop actor="props/units/helmets/byza_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
         <prop actor="props/units/shields/caro_lenticular_swordsman_a.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/byz_paramerion.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/caro_infantry_sheath.xml" attachpoint="sheath_L"/>
       </props>
     </variant>
@@ -25,7 +24,7 @@
   <group>
     <variant frequency="1" name="weapon-paramerion">
       <props>
-        <prop actor="props/units/weapons/byz_paramerion.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/byza_paramerion.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
     <variant frequency="1" name="weapon-frankish">

@@ -16,7 +16,7 @@
   <group>
     <variant frequency="1" name="weapon-paramerion">
       <props>
-        <prop actor="props/units/weapons/byz_paramerion.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/byza_paramerion.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
     <variant frequency="1" name="weapon-frankish">
