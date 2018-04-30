@@ -4,9 +4,6 @@
     <Civ>byza</Civ>
     <SpecificName>Oîkos</SpecificName>
   </Identity>
-  <Obstruction>
-    <Static width="11.8" depth="13.0"/>
-  </Obstruction>
   <VisualActor>
     <Actor>structures/byzantines/house.xml</Actor>
   </VisualActor>
