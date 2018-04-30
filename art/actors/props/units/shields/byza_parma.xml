@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <mesh>props/shield/shield_byza_parma.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="shield-base">
+      <textures>
+        <texture file="props/shields/byza/parma/parma_shield_base.png" name="baseTex"/>
+        <texture file="props/shields/caro_metallic_shield_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
