@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Feathers">
+      <mesh>props/helmet/props/byza_archer_helmet_feathers.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="props/helmet/byza_helmet_feathers.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+ <material>basic_trans.xml</material>
+</actor>
