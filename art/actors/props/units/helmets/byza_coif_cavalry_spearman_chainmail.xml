@@ -2,8 +2,11 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="Coif">
-      <mesh>props/helmet/byz_coif_full.dae</mesh>
+    <variant frequency="2" name="Coif open face">
+      <mesh>props/helmet/byza_coif_open_face.dae</mesh>
+    </variant>
+    <variant frequency="2" name="Coif open face short">
+      <mesh>props/helmet/byza_coif_open_face_short.dae</mesh>
     </variant>
   </group>
   <group>
@@ -14,7 +17,7 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_cavalry_swordsman_shield_relax.xml"/>
+    <variant file="biped/base_cavalry_spearman_shield_relax.xml"/>
     <variant file="biped/rider/carry_meat.xml"/>
   </group>
   <group>

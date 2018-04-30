@@ -3,10 +3,10 @@
   <castshadow/>
   <group>
     <variant frequency="2" name="Coif open face">
-      <mesh>props/helmet/byz_coif_open_face.dae</mesh>
+      <mesh>props/helmet/byza_coif_open_face.dae</mesh>
     </variant>
     <variant frequency="2" name="Coif open face short">
-      <mesh>props/helmet/byz_coif_open_face_short.dae</mesh>
+      <mesh>props/helmet/byza_coif_open_face_short.dae</mesh>
     </variant>
   </group>
   <group>

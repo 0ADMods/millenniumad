@@ -15,8 +15,8 @@
   <group>
     <variant frequency="1" name="Coif">
       <props>
-        <prop actor="props/units/helmets/byz_helmet.xml" attachpoint="helmet"/>
-        <prop actor="props/units/helmets/byz_coif_swordsman_shield_relax_chainmail.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/byza_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/byza_coif_swordsman_shield_relax_chainmail.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

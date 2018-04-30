@@ -3,14 +3,14 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Helmet_A">
-      <mesh>props/helmet/byz_tagmata.dae</mesh>
+      <mesh>props/helmet/byza_tagmata.dae</mesh>
     </variant>
   </group>
   <group>
     <variant name="Helmet_Hair">
       <props>
-        <prop actor="props/units/helmets/byz_helmet_hair.xml" attachpoint="root"/>
-        <prop actor="props/units/helmets/byz_tagmata_cloth.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/byza_helmet_hair.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/byza_tagmata_cloth.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
