@@ -8,10 +8,13 @@
   </group>
   <group>
     <variant frequency="1" name="Standard">
+      <props>
+        <prop actor="props/units/helmets/props/byza_archer_helmet_feathers.xml" attachpoint="root"/>
+      </props>
       <textures>
         <texture file="props/helmet/byzantine_cloth_helmet.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
- <material>player_trans.xml</material>
+  <material>player_trans.xml</material>
 </actor>
