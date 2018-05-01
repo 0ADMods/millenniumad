@@ -12,7 +12,7 @@
   <group>
     <variant name="Helmet_Hair">
       <props>
-        <prop actor="props/units/helmets/byza_helmet_hair.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/props/byza_helmet_hair.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

@@ -7,9 +7,9 @@
     </variant>
   </group>
   <group>
-    <variant name="Helmet_Hair">
+    <variant name="Helmet_feathers">
       <props>
-        <prop actor="props/units/helmets/byza_helmet_hair.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/props/byza_archer_helmet_feathers.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
