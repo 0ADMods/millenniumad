@@ -2,49 +2,59 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_swordsman_shield_relax.xml">
-      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+    <variant>
+      <mesh>skeletal/new/m_armor_pants_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/norse_huscarl_iron.xml" attachpoint="helmet"/>
-        <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
         <prop actor="props/units/shields/caro_lenticular_swordsman_a.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/caro_infantry_sword.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/caro_infantry_sheath.xml" attachpoint="sheath_L"/>
-        <prop actor="props/units/cape_animated_swordsman_shield_relax.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="3" name="Chainmail+Scale2a">
+    <variant frequency="1" name="Coif_and_helmet">
+      <props>
+        <prop actor="props/units/helmets/byza_cloth_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/byza_coif_swordsman_leather.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/byza_chainmail_swordsman_relax_open_face.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="weapon-paramerion">
+      <props>
+        <prop actor="props/units/weapons/byza_paramerion.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="weapon-frankish">
+      <props>
+        <prop actor="props/units/weapons/caro_infantry_sword.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="chainmail1a">
       <textures>
-        <texture file="skeletal/caro/elite/chainmail_scale2a.png" name="baseTex"/>
-        <texture file="skeletal/caro/elite/chainmail_scale2_spec.png" name="specTex"/>
+        <texture file="skeletal/byza/elite/chainmail1a.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail1_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Chainmail+Scale2b">
+    <variant frequency="1" name="chainmail1b">
       <textures>
-        <texture file="skeletal/caro/elite/chainmail_scale2b.png" name="baseTex"/>
-        <texture file="skeletal/caro/elite/chainmail_scale2_spec.png" name="specTex"/>
+        <texture file="skeletal/byza/elite/chainmail1b.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail1_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Chainmail2a">
+    <variant frequency="1" name="chainmail1c">
       <textures>
-        <texture file="skeletal/caro/elite/chainmail2a.png" name="baseTex"/>
-        <texture file="skeletal/caro/elite/chainmail2_spec.png" name="specTex"/>
+        <texture file="skeletal/byza/elite/chainmail1c.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail1_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Chainmail2b">
-      <textures>
-        <texture file="skeletal/caro/elite/chainmail2b.png" name="baseTex"/>
-        <texture file="skeletal/caro/elite/chainmail2_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Chainmail2c">
-      <textures>
-        <texture file="skeletal/caro/elite/chainmail2c.png" name="baseTex"/>
-        <texture file="skeletal/caro/elite/chainmail2_spec.png" name="specTex"/>
-      </textures>
-    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_swordsman_shield_relax.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
