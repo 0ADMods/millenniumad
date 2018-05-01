@@ -24,6 +24,11 @@
         <prop actor="props/units/helmets/byza_coif_spearman_chainmail.xml" attachpoint="root"/>
       </props>
     </variant>
+    <variant frequency="1" name="Coif">
+      <props>
+        <prop actor="props/units/helmets/byza_coif_spearman_chainmail.xml" attachpoint="root"/>
+      </props>
+    </variant>
   </group>
   <group>
     <variant frequency="1" name="player-padded1-dark">
