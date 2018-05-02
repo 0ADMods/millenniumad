@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/helmets/anglo_shorwell_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
@@ -15,29 +15,41 @@
     </variant>
   </group>
   <group>
+    <variant frequency="1" name="Helmet">
+      <props>
+        <prop actor="props/units/helmets/byza_helmet_basic.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet2">
+      <props>
+        <prop actor="props/units/helmets/byza_archer_helmet_basic.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
     <variant frequency="1" name="dyed_shirt1a">
       <textures>
-        <texture file="skeletal/caro/advanced/dyed/dyed1a.png" name="baseTex"/>
+        <texture file="skeletal/caro/basic/dyed/dyed1a.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="dyed_shirt1b">
       <textures>
-        <texture file="skeletal/caro/advanced/dyed/dyed1b.png" name="baseTex"/>
+        <texture file="skeletal/caro/basic/dyed/dyed1b.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="dyed_shirt1c">
       <textures>
-        <texture file="skeletal/caro/advanced/dyed/dyed1c.png" name="baseTex"/>
+        <texture file="skeletal/caro/basic/dyed/dyed1c.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="dyed_shirt1d">
       <textures>
-        <texture file="skeletal/caro/advanced/dyed/dyed1d.png" name="baseTex"/>
+        <texture file="skeletal/caro/basic/dyed/dyed1d.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="dyed_shirt1e">
       <textures>
-        <texture file="skeletal/caro/advanced/dyed/dyed1e.png" name="baseTex"/>
+        <texture file="skeletal/caro/basic/dyed/dyed1e.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

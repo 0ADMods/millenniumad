@@ -9,7 +9,7 @@
   <group>
     <variant frequency="1" name="shield-base">
       <textures>
-        <texture file="props/shields/byza/parma/parma_shield_base.png" name="baseTex"/>
+        <texture file="props/shields/byza/parma/parma_yellow.png" name="baseTex"/>
         <texture file="props/shields/caro_metallic_shield_spec.png" name="specTex"/>
       </textures>
     </variant>
