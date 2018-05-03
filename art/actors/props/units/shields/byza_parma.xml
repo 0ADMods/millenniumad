@@ -7,9 +7,21 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="shield-base">
+    <variant frequency="1" name="pattern-yellow">
       <textures>
         <texture file="props/shields/byza/parma/parma_yellow.png" name="baseTex"/>
+        <texture file="props/shields/caro_metallic_shield_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="leather-player-light">
+      <textures>
+        <texture file="props/shields/byza/parma/parma_leather_player_light.png" name="baseTex"/>
+        <texture file="props/shields/caro_metallic_shield_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="leather-player-dark">
+      <textures>
+        <texture file="props/shields/byza/parma/parma_leather_player_dark.png" name="baseTex"/>
         <texture file="props/shields/caro_metallic_shield_spec.png" name="specTex"/>
       </textures>
     </variant>
