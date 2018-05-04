@@ -5,11 +5,22 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/byza_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_hele_a.xml" attachpoint="head"/>
         <prop actor="props/units/shields/byza_parma.xml" attachpoint="shield_arm"/>
         <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="ammo"/>
         <prop actor="props/units/capes/rider/javelinist.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Helmet">
+      <props>
+        <prop actor="props/units/helmets/byza_helmet_basic_iron.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet2">
+      <props>
+        <prop actor="props/units/helmets/byza_archer_helmet_basic_iron.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
