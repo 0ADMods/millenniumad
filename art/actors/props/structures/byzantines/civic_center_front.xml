@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant name="Entrance">
+			<mesh>props/byza_civic_center_front.dae</mesh>
+			<textures>
+				<texture file="structural/byzantine_struct.png" name="baseTex"/>
+				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
+			</textures>
+      <props>
+        <prop actor="props/structures/byzantines/fence_medium.xml" attachpoint="fence_a"/>
+        <prop actor="props/structures/byzantines/fence_medium.xml" attachpoint="fence_b"/>
+        <prop actor="props/structures/byzantines/fence_medium.xml" attachpoint="fence_c"/>
+        <prop actor="props/structures/byzantines/fence_medium.xml" attachpoint="fence_d"/>
+        <prop actor="props/structures/byzantines/fence_medium.xml" attachpoint="fence_short_a"/>
+        <prop actor="props/structures/byzantines/fence_medium.xml" attachpoint="fence_short_b"/>
+        <prop actor="props/structures/byzantines/column_pedestal_a.xml" attachpoint="column_left"/>
+        <prop actor="props/structures/byzantines/column_pedestal_a.xml" attachpoint="column_right"/>
+        <prop actor="props/structures/byzantines/column_pedestal_b.xml" attachpoint="column_mid"/>
+        <prop actor="flora/trees/cypress_sm_branches.xml" attachpoint="bush_a"/>
+        <prop actor="flora/trees/cypress_sm_branches.xml" attachpoint="bush_b"/>
+        <prop actor="flora/trees/cypress_sm_branches.xml" attachpoint="bush_c"/>
+        <prop actor="flora/trees/cypress_sm_branches.xml" attachpoint="bush_d"/>
+        <prop actor="flora/trees/cypress_sm_branches.xml" attachpoint="bush_e"/>
+        <prop actor="flora/trees/cypress_sm_branches.xml" attachpoint="bush_f"/>
+			</props>
+		</variant>
+	</group>
+  <material>player_trans_parallax.xml</material>
+</actor>

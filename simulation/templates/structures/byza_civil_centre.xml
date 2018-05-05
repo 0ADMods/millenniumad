@@ -8,11 +8,11 @@
     <SpecificName>Agorá</SpecificName>
   </Identity>
   <Footprint>
-    <Square width="41" depth="17"/>
+    <Square width="41" depth="31"/>
     <Height>23.0</Height>
   </Footprint>
   <Obstruction>
-    <Static width="40" depth="16.2"/>
+    <Static width="40" depth="30"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
