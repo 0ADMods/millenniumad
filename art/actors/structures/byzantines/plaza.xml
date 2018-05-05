@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Plaza">
+      <mesh>structural/byza_plaza.dae</mesh>
+      <textures>
+				<texture file="structural/byzantine_struct.png" name="baseTex"/>
+				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/byza_plaza.png" name="aoTex"/>
+			</textures>
+      <props>
+        <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
+        <prop actor="props/structures/byzantines/plaza_roof.xml" attachpoint="root"/>
+        <prop actor="props/structures/byzantines/column_large.xml" attachpoint="column_large_a"/>
+        <prop actor="props/structures/byzantines/column_large.xml" attachpoint="column_large_b"/>
+        <prop actor="props/structures/byzantines/column_large.xml" attachpoint="column_large_c"/>
+        <prop actor="props/structures/byzantines/column_large.xml" attachpoint="column_large_d"/>
+        <prop actor="props/structures/byzantines/column_large.xml" attachpoint="column_large_e"/>
+        <prop actor="props/structures/byzantines/column_large.xml" attachpoint="column_large_f"/>
+        <prop actor="props/structures/byzantines/column_large.xml" attachpoint="column_large_g"/>
+        <prop actor="props/structures/byzantines/column_large.xml" attachpoint="column_large_h"/>
+        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_1"/>
+        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_2"/>
+        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_3"/>
+        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_4"/>
+        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_5"/>
+        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_6"/>
+        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_7"/>
+        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_8"/>
+        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_9"/>
+        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_10"/>
+        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_11"/>
+        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_12"/>
+        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_13"/>
+        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_14"/>
+        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_15"/>
+        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_16"/>
+        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_17"/>
+        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_18"/>
+        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_19"/>
+        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_20"/>
+        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_21"/>
+        <prop actor="flora/trees/cypress_xlarge_branches.xml" attachpoint="cypress_back_a"/>
+        <prop actor="flora/trees/cypress_xlarge_branches.xml" attachpoint="cypress_back_b"/>
+        <prop actor="flora/trees/cypress_xlarge_branches.xml" attachpoint="cypress_back_c"/>
+        <prop actor="flora/trees/cypress_xlarge_branches.xml" attachpoint="cypress_back_d"/>
+        <prop actor="flora/trees/cypress_xlarge_branches.xml" attachpoint="cypress_back_e"/>
+        <prop actor="flora/trees/cypress_xlarge_branches.xml" attachpoint="cypress_back_f"/>
+        <prop actor="flora/trees/cypress_sm_branches.xml" attachpoint="cypress_a"/>
+        <prop actor="flora/trees/cypress_sm_branches.xml" attachpoint="cypress_b"/>
+        <prop actor="flora/trees/cypress_sm_branches.xml" attachpoint="cypress_c"/>
+        <prop actor="flora/trees/cypress_sm_branches.xml" attachpoint="cypress_d"/>
+        <prop actor="flora/trees/cypress_sm_branches.xml" attachpoint="cypress_e"/>
+        <prop actor="flora/trees/cypress_sm_branches.xml" attachpoint="cypress_f"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="cypress_large_a"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="cypress_large_b"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="cypress_large_c"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="cypress_large_d"/>
+			</props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Roman Statue 1">
+      <props>
+        <prop actor="props/special/eyecandy/statues_roman.xml" attachpoint="statue_L"/>
+        <prop actor="props/special/eyecandy/statues_roman.xml" attachpoint="statue_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
+        <prop actor="props/structures/byzantines/plaza_roof.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+<material>player_trans_ao_parallax.xml</material>
+</actor>
