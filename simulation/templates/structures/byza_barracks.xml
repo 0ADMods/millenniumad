@@ -7,7 +7,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="25.0" depth="25.0"/>
+    <Square width="23.0" depth="21.0"/>
     <Height>12.0</Height>
   </Footprint>
   <Health>
@@ -18,7 +18,7 @@
     <SpecificName>Stratēgeîon</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="20.0" depth="20.0"/>
+    <Static width="22.0" depth="20.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
@@ -26,7 +26,7 @@
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/spartans/barracks.xml</Actor>
+    <Actor>structures/byzantines/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>
