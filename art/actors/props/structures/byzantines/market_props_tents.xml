@@ -2,15 +2,20 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant>
+		<variant frequency="1" name="A">
 			<mesh>props/byza_market_props_tents.dae</mesh>
 			<textures>
-				<texture file="structural/sparta_struct.png" name="baseTex"/>
-        <texture file="structural/sparta_struct_spec.png" name="specTex"/>
-        <texture file="structural/sparta_struct_norm.png" name="normTex"/>
+				<texture file="props/kart_merchant_sail_a.png" name="baseTex"/>
+        <texture file="structural/ao/byza_market.png" name="aoTex"/>
+			</textures>
+		</variant>
+    <variant frequency="1" name="B">
+			<mesh>props/byza_market_props_tents.dae</mesh>
+			<textures>
+				<texture file="props/stall_big_stripe_a_cloth.png" name="baseTex"/>
         <texture file="structural/ao/byza_market.png" name="aoTex"/>
 			</textures>
 		</variant>
 	</group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+  <material>player_trans_ao.xml</material>
 </actor>
