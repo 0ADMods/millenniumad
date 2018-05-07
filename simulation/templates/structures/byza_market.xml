@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_market">
+  <Footprint>
+    <Square width="32" depth="35.0"/>
+  </Footprint>
   <Identity>
     <Civ>byza</Civ>
     <SpecificName>Empórios</SpecificName>
   </Identity>
+  <Obstruction>
+    <Static width="31" depth="34"/>
+  </Obstruction>
   <VisualActor>
-    <Actor>structures/spartans/market.xml</Actor>
+    <Actor>structures/byzantines/market.xml</Actor>
   </VisualActor>
 </Entity>
