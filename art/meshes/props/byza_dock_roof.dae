@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0 commit date:2018-03-22, commit time:14:10, hash:f4dc9f9d68b</authoring_tool>
     </contributor>
-    <created>2018-05-06T18:48:19</created>
-    <modified>2018-05-06T18:48:19</modified>
+    <created>2018-05-06T21:22:41</created>
+    <modified>2018-05-06T21:22:41</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -69,9 +69,9 @@
   <library_controllers/>
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
-      <node id="Byza_Dock_001" name="Byza_Dock_001" type="NODE">
-        <matrix sid="transform">0.9999999 0 0 0 0 0.9999999 0 0 0 0 0.9999999 0 0 0 0 1</matrix>
-        <instance_geometry url="#Cube_055-mesh" name="Byza_Dock_001"/>
+      <node id="Byza_Dock_roof" name="Byza_Dock_roof" type="NODE">
+        <matrix sid="transform">0.9999999 0 0 -0.6147025 0 0.9999999 0 0 0 0 0.9999999 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_055-mesh" name="Byza_Dock_roof"/>
       </node>
     </visual_scene>
   </library_visual_scenes>

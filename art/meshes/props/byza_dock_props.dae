@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0 commit date:2018-03-22, commit time:14:10, hash:f4dc9f9d68b</authoring_tool>
     </contributor>
-    <created>2018-05-06T18:48:10</created>
-    <modified>2018-05-06T18:48:10</modified>
+    <created>2018-05-06T21:22:47</created>
+    <modified>2018-05-06T21:22:47</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -92,7 +92,7 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="Byza_Dock_Props" name="Byza_Dock_Props" type="NODE">
-        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <matrix sid="transform">1 0 0 -0.6147025 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
         <instance_geometry url="#RomanBarracks-mesh_000-mesh" name="Byza_Dock_Props">
           <bind_material>
             <technique_common>
