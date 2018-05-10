@@ -5,12 +5,39 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0 commit date:2018-03-22, commit time:14:10, hash:f4dc9f9d68b</authoring_tool>
     </contributor>
-    <created>2018-04-29T22:37:45</created>
-    <modified>2018-04-29T22:37:45</modified>
+    <created>2018-05-08T10:20:55</created>
+    <modified>2018-05-08T10:20:55</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_images/>
+  <library_effects>
+    <effect id="Byzantines_structures-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.8 0.8 0.8 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Byzantines_structures-material" name="Byzantines_structures">
+      <instance_effect url="#Byzantines_structures-effect"/>
+    </material>
+  </library_materials>
   <library_geometries>
     <geometry id="Cube_197-mesh" name="Cube.197">
       <mesh>
@@ -55,7 +82,7 @@
         <vertices id="Cube_197-mesh-vertices">
           <input semantic="POSITION" source="#Cube_197-mesh-positions"/>
         </vertices>
-        <triangles count="3011">
+        <triangles material="Byzantines_structures-material" count="3011">
           <input semantic="VERTEX" source="#Cube_197-mesh-vertices" offset="0"/>
           <input semantic="NORMAL" source="#Cube_197-mesh-normals" offset="1"/>
           <input semantic="TEXCOORD" source="#Cube_197-mesh-map-0" offset="2" set="0"/>
@@ -70,7 +97,13 @@
     <visual_scene id="Scene" name="Scene">
       <node id="House_A" name="House_A" type="NODE">
         <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
-        <instance_geometry url="#Cube_197-mesh" name="House_A"/>
+        <instance_geometry url="#Cube_197-mesh" name="House_A">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Byzantines_structures-material" target="#Byzantines_structures-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
         <node id="prop-column_e" name="prop-column_e" type="NODE">
           <matrix sid="transform">1 0 0 2 0 1 0 -7.867385 0 0 1 0 0 0 0 1</matrix>
         </node>

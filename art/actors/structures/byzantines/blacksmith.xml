@@ -10,7 +10,9 @@
         <texture file="structural/ao/byza_blacksmith.png" name="aoTex"/>
 			</textures>
       <props>
-        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
+        <prop actor="particle/flame.xml" attachpoint="fire"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke_a"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke_b"/>
         <prop actor="props/structures/byzantines/blacksmith_roof.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/blacksmith_props.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
@@ -33,6 +35,10 @@
         <prop actor="props/units/weapons/caro_cavalry_spear.xml" attachpoint="spear_4"/>
         <prop actor="props/units/weapons/caro_cavalry_spear.xml" attachpoint="spear_5"/>
         <prop actor="props/units/weapons/spear_long_player_colour.xml" attachpoint="spear_6"/>
+        <prop actor="props/units/weapons/caro_cavalry_spear.xml" attachpoint="spear_7"/>
+        <prop actor="props/units/weapons/spear_long_player_colour.xml" attachpoint="spear_8"/>
+        <prop actor="props/units/weapons/caro_cavalry_spear.xml" attachpoint="spear_9"/>
+        <prop actor="props/units/weapons/spear_long_player_colour.xml" attachpoint="spear_10"/>
         <prop actor="props/units/helmets/byza_archer_helmet_basic.xml" attachpoint="helmet_a"/>
         <prop actor="props/units/helmets/byza_helmet_basic.xml" attachpoint="helmet_b"/>
         <prop actor="props/units/helmets/byza_burgh_castle.xml" attachpoint="helmet_c"/>
