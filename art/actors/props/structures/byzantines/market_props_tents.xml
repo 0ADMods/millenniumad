@@ -2,13 +2,6 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant frequency="1" name="A">
-			<mesh>props/byza_market_props_tents.dae</mesh>
-			<textures>
-				<texture file="props/kart_merchant_sail_a.png" name="baseTex"/>
-        <texture file="structural/ao/byza_market.png" name="aoTex"/>
-			</textures>
-		</variant>
     <variant frequency="1" name="B">
 			<mesh>props/byza_market_props_tents.dae</mesh>
 			<textures>

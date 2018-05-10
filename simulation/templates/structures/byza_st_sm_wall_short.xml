@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_wall_short">
+  <Footprint>
+    <Square width="14.0" depth="8.5"/>
+    <Height>17.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>byza</Civ>
+    <SelectionGroupName>structures/spart_wallset_stone</SelectionGroupName>
+    <SpecificName>Teîkhos</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="13.0" depth="8.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/byzantines/st_sm_wall_short.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>12.3</Length>
+  </WallPiece>
+</Entity>

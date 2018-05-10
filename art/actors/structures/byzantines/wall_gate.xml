@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="wall_gate">
+      <mesh>structural/byza_wall_gate.dae</mesh>
+      <textures>
+				<texture file="structural/byzantine_struct.png" name="baseTex"/>
+				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/byza_wall_gate.png" name="aoTex"/>
+			</textures>
+      <props>
+        <prop actor="props/structures/byzantines/wall_gate_door.xml" attachpoint="door_a"/>
+        <prop actor="props/structures/byzantines/wall_gate_door.xml" attachpoint="door_b"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+<material>player_trans_ao_parallax.xml</material>
+</actor>

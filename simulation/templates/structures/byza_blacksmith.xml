@@ -5,11 +5,11 @@
     <SpecificName>Khalkeṓn</SpecificName>
   </Identity>
   <Footprint>
-    <Square width="27.0" depth="22.0"/>
+    <Square width="26.0" depth="21.0"/>
     <Height>12.0</Height>
   </Footprint>
   <Obstruction>
-    <Static width="26.0" depth="20.0"/>
+    <Static width="25.0" depth="20.0"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/byzantines/blacksmith.xml</Actor>
