@@ -5,6 +5,6 @@
     <SpecificName>Épaulos</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/spartans/corral.xml</Actor>
+    <Actor>structures/byzantines/corral.xml</Actor>
   </VisualActor>
 </Entity>
