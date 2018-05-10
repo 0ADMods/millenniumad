@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0 commit date:2018-03-22, commit time:14:10, hash:f4dc9f9d68b</authoring_tool>
+    </contributor>
+    <created>2018-05-10T08:49:34</created>
+    <modified>2018-05-10T08:49:34</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects/>
+  <library_geometries>
+    <geometry id="Plane_003-mesh" name="Plane.003">
+      <mesh>
+        <source id="Plane_003-mesh-positions">
+          <float_array id="Plane_003-mesh-positions-array" count="222">0.6187142 -0.006899893 -0.1401528 0.05793279 -0.006899893 -0.2211613 0.6187142 -0.006899893 -0.4006369 0.6187142 -0.006899893 -0.3075757 0.6187142 -0.006899893 -0.2211613 0.8991048 -0.006899893 -0.1601223 0.8991048 -0.006899893 -0.3686147 0.8991048 -0.006899893 -0.2955231 0.8991048 -0.006899893 -0.233214 1.179495 -0.006899893 -0.1971125 1.179495 -0.006899893 -0.3316245 1.179495 -0.006899893 -0.2808671 1.179495 -0.006899893 -0.2478699 1.459886 -0.006899893 -0.2643685 0.431787 -0.006899893 -0.1224753 0.2448599 -0.006899893 -0.1115936 0.431787 -0.006899893 -0.4183144 0.2448599 -0.006899893 -0.4291961 0.431787 -0.006899893 -0.3075757 0.2448599 -0.006899893 -0.3075757 0.431787 -0.006899893 -0.2211613 0.2448599 -0.006899893 -0.2211613 0.0190975 -0.04275196 -0.1085959 0.0190975 -0.04275196 -0.1970086 -0.02758735 -0.04275196 -0.1085959 -0.02758735 -0.04275196 -0.1970086 -0.05508458 -0.00127232 -0.1085959 -0.05508458 -0.00127232 -0.1970086 -0.02758735 0.04366105 -0.1085959 -0.02758735 0.04366105 -0.1970086 0.0190975 0.04366105 -0.1085959 0.0190975 0.04366105 -0.1970086 0.05793279 -0.006899893 -0.1085959 0.05793279 -0.006899893 -0.1970086 0.05793279 -0.006899893 -0.3075757 0.05793279 -0.006899893 -0.4321938 0.05793279 -0.006899893 -0.3457794 0.0190975 0.04366105 -0.4321938 0.0190975 0.04366105 -0.3457794 -0.02758735 0.04366105 -0.4321938 -0.02758735 0.04366105 -0.3457794 -0.05508458 -0.00127238 -0.4321938 -0.05508458 -0.00127238 -0.3457794 -0.02758735 -0.04275202 -0.4321938 -0.02758735 -0.04275202 -0.3457794 0.0190975 -0.04275202 -0.4321938 0.0190975 -0.04275202 -0.3457794 0.6187142 -0.006899893 -0.1401528 0.05793279 -0.006899893 -0.2211613 0.6187142 -0.006899893 -0.4006369 0.6187142 -0.006899893 -0.3075757 0.6187142 -0.006899893 -0.2211613 0.8991048 -0.006899893 -0.1601223 0.8991048 -0.006899893 -0.3686147 0.8991048 -0.006899893 -0.2955231 0.8991048 -0.006899893 -0.233214 1.179495 -0.006899893 -0.1971125 1.179495 -0.006899893 -0.3316245 1.179495 -0.006899893 -0.2808671 1.179495 -0.006899893 -0.2478699 1.459886 -0.006899893 -0.2643685 0.431787 -0.006899893 -0.1224753 0.2448599 -0.006899893 -0.1115936 0.431787 -0.006899893 -0.4183144 0.2448599 -0.006899893 -0.4291961 0.431787 -0.006899893 -0.3075757 0.2448599 -0.006899893 -0.3075757 0.431787 -0.006899893 -0.2211613 0.2448599 -0.006899893 -0.2211613 0.05793279 -0.006899893 -0.1085959 0.05793279 -0.006899893 -0.1970086 0.05793279 -0.006899893 -0.3075757 0.05793279 -0.006899893 -0.4321938 0.05793279 -0.006899893 -0.3457794</float_array>
+          <technique_common>
+            <accessor source="#Plane_003-mesh-positions-array" count="74" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_003-mesh-normals">
+          <float_array id="Plane_003-mesh-normals-array" count="27">0 -1 0 0.5691592 -0.8222274 0 0.3641496 -0.9313405 0 -0.4729911 -0.8810672 0 -0.9998362 -0.01809781 0 -0.4888812 0.8723503 0 0.4420669 0.8969821 0 0.7969132 -0.6040939 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Plane_003-mesh-normals-array" count="9" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_003-mesh-map-0">
+          <float_array id="Plane_003-mesh-map-0-array" count="564">0.2878117 0.1673647 0.1612542 0.4157371 0.1612542 0.1056783 0.4143692 0.4297088 0.2878116 0.6247438 0.2878117 0.4242696 0.4143692 0.6175415 0.6042054 0.7022786 0.4143692 0.7936238 0.4143692 0.4297088 0.6042054 0.5686336 0.4143692 0.6175415 0.4143692 0.4297088 0.6042054 0.3210587 0.6042054 0.4547039 0.6042054 0.5686336 0.7940416 0.6130017 0.6042054 0.7022786 0.6042054 0.4547039 0.7940416 0.4249047 0.7940417 0.4958822 0.6042054 0.4547039 0.7940416 0.5420243 0.6042054 0.5686336 0.7940417 0.4958822 0.7940416 0.4249047 0.9838783 0.5247006 0.7940416 0.5420243 0.7940417 0.4958822 0.9838783 0.5247006 0.7940416 0.6130017 0.7940416 0.5420243 0.9838783 0.5247006 0.2878115 0.8536873 0.1612542 0.6360419 0.2878116 0.6247438 0.2878116 0.6247438 0.4143692 0.7936238 0.2878115 0.8536873 0.1612542 0.4157371 0.003446936 0.6491749 0.003446936 0.3884841 0.2878117 0.4242696 0.1612542 0.6360419 0.1612542 0.4157371 0.1612542 0.4157371 0.003446936 0.3884841 0.003446936 0.2732331 0.01771402 0.5124808 0.06146436 0.5755357 0.0614643 0.5124808 0.06146436 0.5755357 0.08606195 0.5124808 0.0614643 0.5124808 0.08606195 0.5755357 0.1203213 0.5124808 0.08606195 0.5124808 0.1203213 0.5755357 0.1565235 0.5124808 0.1203213 0.5124808 0.1565235 0.5755357 0.1811211 0.5124808 0.1565235 0.5124808 0.1811211 0.5755357 0.2310914 0.5124807 0.1811211 0.5124808 0.06768447 0.575678 0.01771414 0.6373079 0.06768453 0.6373078 0.1284841 0.575678 0.09228217 0.6373078 0.1284842 0.6373078 0.1627436 0.5756779 0.1284842 0.6373078 0.1627436 0.6373078 0.1873413 0.5756779 0.1627436 0.6373078 0.1873413 0.6373078 0.2310914 0.5756779 0.1873413 0.6373078 0.2310914 0.6373077 0.09228211 0.575678 0.06768453 0.6373078 0.09228217 0.6373078 0.2878117 0.4242696 0.4143692 0.2274286 0.4143692 0.4297088 0.1612542 0.9153735 0.003446936 0.9887564 0.003446936 0.7220373 0.1612542 0.4157371 0.2878117 0.1673647 0.1612542 0.1056783 0.2878116 0.6247438 0.4143692 0.4297088 0.2878117 0.4242696 0.6042054 0.7022786 0.4143692 0.6175415 0.4143692 0.7936238 0.6042054 0.5686336 0.4143692 0.4297088 0.4143692 0.6175415 0.4143692 0.4297088 0.6042054 0.3210587 0.4143692 0.2274286 0.7940416 0.6130017 0.6042054 0.5686336 0.6042054 0.7022786 0.6042054 0.4547039 0.7940416 0.4249047 0.6042054 0.3210587 0.7940416 0.5420243 0.6042054 0.4547039 0.6042054 0.5686336 0.7940417 0.4958822 0.9838783 0.5247006 0.7940416 0.4249047 0.7940416 0.5420243 0.9838783 0.5247006 0.7940417 0.4958822 0.7940416 0.6130017 0.9838783 0.5247006 0.7940416 0.5420243 0.1612542 0.6360419 0.2878115 0.8536873 0.2878116 0.6247438 0.2878116 0.6247438 0.4143692 0.7936238 0.4143692 0.6175415 0.003446936 0.6491749 0.1612542 0.4157371 0.003446936 0.3884841 0.1612542 0.6360419 0.2878117 0.4242696 0.1612542 0.4157371 0.003446936 0.2732331 0.1612542 0.4157371 0.1612542 0.1056783 0.4143692 0.2274286 0.2878117 0.4242696 0.4143692 0.4297088 0.003446936 0.7220373 0.003446936 0.9887564 0.1612542 0.9153735 0.2878117 0.1673647 0.2878117 0.4242696 0.1612542 0.4157371 0.4143692 0.4297088 0.4143692 0.6175415 0.2878116 0.6247438 0.4143692 0.6175415 0.6042054 0.5686336 0.6042054 0.7022786 0.4143692 0.4297088 0.6042054 0.4547039 0.6042054 0.5686336 0.4143692 0.4297088 0.4143692 0.2274286 0.6042054 0.3210587 0.6042054 0.5686336 0.7940416 0.5420243 0.7940416 0.6130017 0.6042054 0.4547039 0.6042054 0.3210587 0.7940416 0.4249047 0.6042054 0.4547039 0.7940417 0.4958822 0.7940416 0.5420243 0.2878115 0.8536873 0.1612542 0.9153735 0.1612542 0.6360419 0.2878116 0.6247438 0.4143692 0.6175415 0.4143692 0.7936238 0.1612542 0.4157371 0.1612542 0.6360419 0.003446936 0.6491749 0.2878117 0.4242696 0.2878116 0.6247438 0.1612542 0.6360419 0.003446936 0.2732331 0.003446936 0.01254212 0.1612542 0.1056783 0.1612542 0.1056783 0.1612542 0.4157371 0.003446936 0.2732331 0.01771402 0.5124808 0.01771408 0.5755357 0.06146436 0.5755357 0.06146436 0.5755357 0.08606195 0.5755357 0.08606195 0.5124808 0.08606195 0.5755357 0.1203213 0.5755357 0.1203213 0.5124808 0.1203213 0.5755357 0.1565235 0.5755357 0.1565235 0.5124808 0.1565235 0.5755357 0.1811211 0.5755357 0.1811211 0.5124808 0.1811211 0.5755357 0.2310914 0.5755357 0.2310914 0.5124807 0.06768447 0.575678 0.01771402 0.5756781 0.01771414 0.6373079 0.1284841 0.575678 0.09228211 0.575678 0.09228217 0.6373078 0.1627436 0.5756779 0.1284841 0.575678 0.1284842 0.6373078 0.1873413 0.5756779 0.1627436 0.5756779 0.1627436 0.6373078 0.2310914 0.5756779 0.1873413 0.5756779 0.1873413 0.6373078 0.09228211 0.575678 0.06768447 0.575678 0.06768453 0.6373078 0.2878117 0.4242696 0.2878117 0.1673647 0.4143692 0.2274286 0.003446936 0.6491749 0.1612542 0.6360419 0.003446936 0.7220373 0.1612542 0.6360419 0.1612542 0.9153735 0.003446936 0.7220373 0.1612542 0.4157371 0.2878117 0.4242696 0.2878117 0.1673647 0.2878116 0.6247438 0.4143692 0.6175415 0.4143692 0.4297088 0.6042054 0.7022786 0.6042054 0.5686336 0.4143692 0.6175415 0.6042054 0.5686336 0.6042054 0.4547039 0.4143692 0.4297088 0.4143692 0.4297088 0.6042054 0.4547039 0.6042054 0.3210587 0.7940416 0.6130017 0.7940416 0.5420243 0.6042054 0.5686336 0.6042054 0.4547039 0.7940417 0.4958822 0.7940416 0.4249047 0.7940416 0.5420243 0.7940417 0.4958822 0.6042054 0.4547039 0.1612542 0.6360419 0.1612542 0.9153735 0.2878115 0.8536873 0.2878116 0.6247438 0.2878115 0.8536873 0.4143692 0.7936238 0.003446936 0.6491749 0.1612542 0.6360419 0.1612542 0.4157371 0.1612542 0.6360419 0.2878116 0.6247438 0.2878117 0.4242696 0.1612542 0.1056783 0.003446936 0.01254212 0.003446936 0.2732331 0.003446936 0.2732331 0.003446936 0.3884841 0.1612542 0.4157371 0.4143692 0.2274286 0.2878117 0.1673647 0.2878117 0.4242696 0.1612542 0.9153735 0.1612542 0.6360419 0.003446936 0.7220373 0.1612542 0.6360419 0.003446936 0.6491749 0.003446936 0.7220373</float_array>
+          <technique_common>
+            <accessor source="#Plane_003-mesh-map-0-array" count="282" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane_003-mesh-vertices">
+          <input semantic="POSITION" source="#Plane_003-mesh-positions"/>
+        </vertices>
+        <triangles count="94">
+          <input semantic="VERTEX" source="#Plane_003-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane_003-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Plane_003-mesh-map-0" offset="2" set="0"/>
+          <p>16 0 0 19 0 1 17 0 2 3 0 3 20 0 4 18 0 5 4 0 6 5 0 7 0 0 8 3 0 9 8 0 10 4 0 11 3 0 12 6 0 13 7 0 14 8 0 15 9 0 16 5 0 17 7 0 18 10 0 19 11 0 20 7 0 21 12 0 22 8 0 23 11 0 24 10 0 25 13 0 26 12 0 27 11 0 28 13 0 29 9 0 30 12 0 31 13 0 32 14 0 33 21 0 34 20 0 35 20 0 36 0 0 37 14 0 38 19 0 39 1 0 40 34 0 41 18 0 42 21 0 43 19 0 44 19 0 45 34 0 46 36 1 47 33 1 48 22 2 49 23 2 50 22 2 51 25 3 52 23 2 53 24 3 54 27 4 55 25 3 56 26 4 57 29 5 58 27 4 59 28 5 60 31 6 61 29 5 62 30 6 63 33 1 64 31 6 65 38 6 66 35 7 67 37 6 68 42 4 69 39 5 70 41 4 71 44 3 72 41 4 73 43 3 74 46 2 75 43 3 76 45 2 77 36 1 78 45 2 79 35 7 80 40 5 81 37 6 82 39 5 83 18 0 84 2 0 85 3 0 86 15 0 87 32 7 88 33 1 89 66 8 90 63 8 91 64 8 92 67 8 93 50 8 94 65 8 95 52 8 96 51 8 97 47 8 98 55 8 99 50 8 100 51 8 101 50 8 102 53 8 103 49 8 104 56 8 105 55 8 106 52 8 107 54 8 108 57 8 109 53 8 110 59 8 111 54 8 112 55 8 113 58 8 114 60 8 115 57 8 116 59 8 117 60 8 118 58 8 119 56 8 120 60 8 121 59 8 122 68 8 123 61 8 124 67 8 125 67 8 126 47 8 127 51 8 128 48 8 129 66 8 130 71 8 131 68 8 132 65 8 133 66 8 134 73 8 135 66 8 136 64 8 137 49 8 138 65 8 139 50 8 140 70 8 141 69 8 142 62 8 143 16 0 144 18 0 145 19 0 146 3 0 147 4 0 148 20 0 149 4 0 150 8 0 151 5 0 152 3 0 153 7 0 154 8 0 155 3 0 156 2 0 157 6 0 158 8 0 159 12 0 160 9 0 161 7 0 162 6 0 163 10 0 164 7 0 165 11 0 166 12 0 167 14 0 168 15 0 169 21 0 170 20 0 171 4 0 172 0 0 173 19 0 174 21 0 175 1 0 176 18 0 177 20 0 178 21 0 179 36 1 180 35 7 181 17 0 182 17 0 183 19 0 184 36 1 185 33 1 186 32 7 187 22 2 188 22 2 189 24 3 190 25 3 191 24 3 192 26 4 193 27 4 194 26 4 195 28 5 196 29 5 197 28 5 198 30 6 199 31 6 200 30 6 201 32 7 202 33 1 203 38 6 204 36 1 205 35 7 206 42 4 207 40 5 208 39 5 209 44 3 210 42 4 211 41 4 212 46 2 213 44 3 214 43 3 215 36 1 216 46 2 217 45 2 218 40 5 219 38 6 220 37 6 221 18 0 222 16 0 223 2 0 224 1 0 225 21 0 226 33 1 227 21 0 228 15 0 229 33 1 230 66 8 231 65 8 232 63 8 233 67 8 234 51 8 235 50 8 236 52 8 237 55 8 238 51 8 239 55 8 240 54 8 241 50 8 242 50 8 243 54 8 244 53 8 245 56 8 246 59 8 247 55 8 248 54 8 249 58 8 250 57 8 251 59 8 252 58 8 253 54 8 254 68 8 255 62 8 256 61 8 257 67 8 258 61 8 259 47 8 260 48 8 261 68 8 262 66 8 263 68 8 264 67 8 265 65 8 266 64 8 267 72 8 268 73 8 269 73 8 270 71 8 271 66 8 272 49 8 273 63 8 274 65 8 275 62 8 276 68 8 277 70 8 278 68 8 279 48 8 280 70 8 281</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Banner_armature_Plane_003-skin" name="Banner_armature">
+      <skin source="#Plane_003-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Banner_armature_Plane_003-skin-joints">
+          <Name_array id="Banner_armature_Plane_003-skin-joints-array" count="26">Bnr_C_1 Bnr_C_2 Bnr_C_3 Bnr_C_4 Bnr_C_5 Bnr_E_1 Bnr_E_2 Bnr_E_3 Bnr_E_4 Bnr_E_5 Bnr_A_1 Bnr_A_2 Bnr_A_3 Bnr_A_4 Bnr_A_5 Bnr_D_1 Bnr_D_2 Bnr_D_3 Bnr_D_4 Bnr_D_5 Bnr_B_1 Bnr_B_2 Bnr_B_3 Bnr_B_4 Bnr_B_5 Bnr_Root</Name_array>
+          <technique_common>
+            <accessor source="#Banner_armature_Plane_003-skin-joints-array" count="26" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Banner_armature_Plane_003-skin-bind_poses">
+          <float_array id="Banner_armature_Plane_003-skin-bind_poses-array" count="416">0 0 -1 -0.3889867 1 1.42825e-7 0 -0.05793279 1.42825e-7 -1 0 -0.006899893 0 0 0 1 0 -1 0 -0.006899893 1 0 0 -0.3383235 0 0 1 0.3889867 0 0 0 1 0 -1 0 -0.006899893 1 0 0 -0.6187142 0 0 1 0.3889867 0 0 0 1 0 -1 0 -0.006899893 1 0 0 -0.8991048 0 0 1 0.3889867 0 0 0 1 0 -1 0 -0.006899893 1 0 0 -1.179495 0 0 1 0.3889867 0 0 0 1 2.12577e-7 1.37079e-7 -1 -0.6382228 1 1.42825e-7 2.38419e-7 -0.05793267 1.42825e-7 -1 -1.37079e-7 -0.006900012 0 0 0 1 0 -1 0 -0.006899833 1 0 0 -0.3383235 0 0 1 0.6382228 0 0 0 1 0 -1 0 -0.006899893 1 0 0 -0.6187142 0 0 1 0.6382228 0 0 0 1 0 -1 0 -0.006899893 1 0 0 -0.8991048 0 0 1 0.6382228 0 0 0 1 0 -1 0 -0.006899893 1 0 0 -1.179495 0 0 1 0.6382228 0 0 0 1 0 0 -1 -0.1397505 1 1.42825e-7 0 -0.05793279 1.42825e-7 -1 0 -0.006899893 0 0 0 1 0 -1 0 -0.006899893 1 0 0 -0.3383235 0 0 1 0.1397505 0 0 0 1 0 -1 0 -0.006899893 1 0 0 -0.6187142 0 0 1 0.1397505 0 0 0 1 0 -1 0 -0.006899893 1 0 0 -0.8991048 0 0 1 0.1397505 0 0 0 1 0 -1 0 -0.006899893 1 0 0 -1.179495 0 0 1 0.1397505 0 0 0 1 0 0 -1 -0.5136047 1 1.42825e-7 0 -0.05793279 1.42825e-7 -1 0 -0.006899893 0 0 0 1 0 -1 0 -0.006899893 1 0 0 -0.3383235 0 0 1 0.5136047 0 0 0 1 0 -1 0 -0.006899893 1 0 0 -0.6187142 0 0 1 0.5136047 0 0 0 1 0 -1 0 -0.006899893 1 0 0 -0.8991048 0 0 1 0.5136047 0 0 0 1 0 -1 0 -0.006899893 1 0 0 -1.179495 0 0 1 0.5136047 0 0 0 1 0 0 -1 -0.2643686 1 1.42825e-7 0 -0.05793279 1.42825e-7 -1 0 -0.006899893 0 0 0 1 0 -1 0 -0.006899893 1 0 0 -0.3383235 0 0 1 0.2643686 0 0 0 1 0 -1 0 -0.006899893 1 0 0 -0.6187142 0 0 1 0.2643686 0 0 0 1 0 -1 0 -0.006899893 1 0 0 -0.8991048 0 0 1 0.2643686 0 0 0 1 0 -1 0 -0.006899893 1 0 0 -1.179495 0 0 1 0.2643686 0 0 0 1 1 0 0 -0.01526463 0 0 1 0.5484046 0 -1 0 -0.006899893 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Banner_armature_Plane_003-skin-bind_poses-array" count="26" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Banner_armature_Plane_003-skin-weights">
+          <float_array id="Banner_armature_Plane_003-skin-weights-array" count="132">0.5000011 0.4999989 1 1 0.5063496 0.4936503 0.05772674 0.05602943 0.447729 0.4385147 0.4783338 0.4760848 0.02180784 0.02377343 0.9838045 0.01619547 0.500096 0.499904 0.0271098 0.02737754 0.4728288 0.4726837 0.2038006 0.1874622 0.305373 0.3033641 0.5048456 0.4951545 0.5005521 0.4994479 0.5006319 0.4993681 0.4998108 0.5001891 0.9554205 0.0445795 0.8847606 0.02192169 0.09331774 1 1 0.02933239 0.9706676 0.9754089 0.02459108 0.1349889 0.02276438 0.8422467 0.120443 0.860747 0.01880991 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.5000011 0.4999989 1 1 0.5063496 0.4936503 0.05772674 0.05602943 0.447729 0.4385147 0.4783338 0.4760848 0.02180784 0.02377343 0.9838045 0.01619547 0.500096 0.499904 0.0271098 0.02737754 0.4728288 0.4726837 0.2038006 0.1874622 0.305373 0.3033641 0.5048456 0.4951545 0.5005521 0.4994479 0.5006319 0.4993681 0.4998108 0.5001891 0.9554205 0.0445795 0.8847606 0.02192169 0.09331774 1 1 0.02933239 0.9706676 0.9754089 0.02459108 0.1349889 0.02276438 0.8422467 0.120443 0.860747 0.01880991 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Banner_armature_Plane_003-skin-weights-array" count="132" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Banner_armature_Plane_003-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Banner_armature_Plane_003-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="74">
+          <input semantic="JOINT" source="#Banner_armature_Plane_003-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Banner_armature_Plane_003-skin-weights" offset="1"/>
+          <vcount>2 1 1 2 4 4 2 2 4 4 2 2 2 2 2 3 1 1 2 2 3 3 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 2 4 4 2 2 4 4 2 2 2 2 2 3 1 1 2 2 3 3 1 1 1 1 1 </vcount>
+          <v>11 0 12 1 25 2 22 3 21 4 22 5 11 6 12 7 21 8 22 9 12 10 13 11 22 12 23 13 22 14 23 15 22 16 23 17 12 18 13 19 22 20 23 21 13 22 14 23 23 24 24 25 23 26 24 27 23 28 24 29 23 30 24 31 23 32 24 33 11 34 21 35 10 36 11 37 20 38 21 39 20 40 20 41 21 42 20 43 21 44 11 45 20 46 21 47 10 48 20 49 21 50 25 51 25 52 25 53 25 54 25 55 25 56 25 57 25 58 25 59 25 60 25 61 25 62 25 63 25 64 25 65 25 66 25 67 25 68 25 69 25 70 25 71 25 72 25 73 25 74 25 75 11 76 12 77 25 78 22 79 21 80 22 81 11 82 12 83 21 84 22 85 12 86 13 87 22 88 23 89 22 90 23 91 22 92 23 93 12 94 13 95 22 96 23 97 13 98 14 99 23 100 24 101 23 102 24 103 23 104 24 105 23 106 24 107 23 108 24 109 11 110 21 111 10 112 11 113 20 114 21 115 20 116 20 117 21 118 20 119 21 120 11 121 20 122 21 123 10 124 20 125 21 126 25 127 25 128 25 129 25 130 25 131</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Banner_armature" name="Banner_armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Banner_armature_Bnr_Root" name="Bnr_Root" sid="Bnr_Root" type="JOINT">
+          <matrix sid="transform">1 0 0 0.01526468 0 0 -1 -0.006899924 0 1 0 -0.5484046 0 0 0 1</matrix>
+          <node id="Banner_armature_Bnr_C_1" name="Bnr_C_1" sid="Bnr_C_1" type="JOINT">
+            <matrix sid="transform">-9.61605e-15 1 1.42825e-7 0.04266816 -1 0 7.54979e-8 0.159418 7.54979e-8 -1.42825e-7 1 2.00234e-8 0 0 0 1</matrix>
+            <node id="Banner_armature_Bnr_C_2" name="Bnr_C_2" sid="Bnr_C_2" type="JOINT">
+              <matrix sid="transform">7.54979e-8 1.42109e-14 -1 0 -1.42825e-7 1 0 0.2803907 1 1.42825e-7 7.54979e-8 0 0 0 0 1</matrix>
+              <node id="Banner_armature_Bnr_C_3" name="Bnr_C_3" sid="Bnr_C_3" type="JOINT">
+                <matrix sid="transform">1 0 0 0 0 1 -3.42785e-15 0.2803907 0 3.42785e-15 1 0 0 0 0 1</matrix>
+                <node id="Banner_armature_Bnr_C_4" name="Bnr_C_4" sid="Bnr_C_4" type="JOINT">
+                  <matrix sid="transform">1 0 0 0 0 1 0 0.2803906 0 0 1 0 0 0 0 1</matrix>
+                  <node id="Banner_armature_Bnr_C_5" name="Bnr_C_5" sid="Bnr_C_5" type="JOINT">
+                    <matrix sid="transform">1 0 0 0 0 1 0 0.2803907 0 0 1 0 0 0 0 1</matrix>
+                    <extra>
+                      <technique profile="blender">
+                        <connect sid="connect" type="bool">1</connect>
+                        <layer sid="layer" type="string">0</layer>
+                        <tip_x sid="tip_x" type="float">0.2803906</tip_x>
+                        <tip_y sid="tip_y" type="float">0</tip_y>
+                        <tip_z sid="tip_z" type="float">0</tip_z>
+                      </technique>
+                    </extra>
+                  </node>
+                  <extra>
+                    <technique profile="blender">
+                      <connect sid="connect" type="bool">1</connect>
+                      <layer sid="layer" type="string">0</layer>
+                    </technique>
+                  </extra>
+                </node>
+                <extra>
+                  <technique profile="blender">
+                    <connect sid="connect" type="bool">1</connect>
+                    <layer sid="layer" type="string">0</layer>
+                  </technique>
+                </extra>
+              </node>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">0</layer>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">1.570796</roll>
+              </technique>
+            </extra>
+          </node>
+          <node id="Banner_armature_Bnr_E_1" name="Bnr_E_1" sid="Bnr_E_1" type="JOINT">
+            <matrix sid="transform">2.38419e-7 1 1.42825e-7 0.04266816 -1 2.12577e-7 -1.37079e-7 -0.08981818 -1.37079e-7 -1.42825e-7 1 2.00234e-8 0 0 0 1</matrix>
+            <node id="Banner_armature_Bnr_E_2" name="Bnr_E_2" sid="Bnr_E_2" type="JOINT">
+              <matrix sid="transform">-1.62921e-7 2.12577e-7 -1 0 -1.42825e-7 0.9999999 2.12577e-7 0.2803907 1 1.42825e-7 -1.62921e-7 0 0 0 0 1</matrix>
+              <node id="Banner_armature_Bnr_E_3" name="Bnr_E_3" sid="Bnr_E_3" type="JOINT">
+                <matrix sid="transform">1 0 2.58414e-8 0 0 1 -5.32907e-15 0.2803907 -2.58414e-8 5.36752e-15 1 0 0 0 0 1</matrix>
+                <node id="Banner_armature_Bnr_E_4" name="Bnr_E_4" sid="Bnr_E_4" type="JOINT">
+                  <matrix sid="transform">1 0 0 0 0 1 0 0.2803907 0 0 1 0 0 0 0 1</matrix>
+                  <node id="Banner_armature_Bnr_E_5" name="Bnr_E_5" sid="Bnr_E_5" type="JOINT">
+                    <matrix sid="transform">1 0 0 0 0 1 0 0.2803906 0 0 1 0 0 0 0 1</matrix>
+                    <extra>
+                      <technique profile="blender">
+                        <connect sid="connect" type="bool">1</connect>
+                        <layer sid="layer" type="string">0</layer>
+                        <tip_x sid="tip_x" type="float">0.2803906</tip_x>
+                        <tip_y sid="tip_y" type="float">0</tip_y>
+                        <tip_z sid="tip_z" type="float">0</tip_z>
+                      </technique>
+                    </extra>
+                  </node>
+                  <extra>
+                    <technique profile="blender">
+                      <connect sid="connect" type="bool">1</connect>
+                      <layer sid="layer" type="string">0</layer>
+                    </technique>
+                  </extra>
+                </node>
+                <extra>
+                  <technique profile="blender">
+                    <connect sid="connect" type="bool">1</connect>
+                    <layer sid="layer" type="string">0</layer>
+                  </technique>
+                </extra>
+              </node>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">0</layer>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">1.570796</roll>
+              </technique>
+            </extra>
+          </node>
+          <node id="Banner_armature_Bnr_A_1" name="Bnr_A_1" sid="Bnr_A_1" type="JOINT">
+            <matrix sid="transform">-9.61605e-15 1 1.42825e-7 0.04266816 -1 0 7.54979e-8 0.4086541 7.54979e-8 -1.42825e-7 1 2.00234e-8 0 0 0 1</matrix>
+            <node id="Banner_armature_Bnr_A_2" name="Bnr_A_2" sid="Bnr_A_2" type="JOINT">
+              <matrix sid="transform">7.54979e-8 1.42109e-14 -1 0 -1.42825e-7 1 0 0.2803907 1 1.42825e-7 7.54979e-8 0 0 0 0 1</matrix>
+              <node id="Banner_armature_Bnr_A_3" name="Bnr_A_3" sid="Bnr_A_3" type="JOINT">
+                <matrix sid="transform">1 0 0 0 0 1 -3.42785e-15 0.2803907 0 3.42785e-15 1 0 0 0 0 1</matrix>
+                <node id="Banner_armature_Bnr_A_4" name="Bnr_A_4" sid="Bnr_A_4" type="JOINT">
+                  <matrix sid="transform">1 0 0 0 0 1 0 0.2803906 0 0 1 0 0 0 0 1</matrix>
+                  <node id="Banner_armature_Bnr_A_5" name="Bnr_A_5" sid="Bnr_A_5" type="JOINT">
+                    <matrix sid="transform">1 0 0 0 0 1 0 0.2803907 0 0 1 0 0 0 0 1</matrix>
+                    <extra>
+                      <technique profile="blender">
+                        <connect sid="connect" type="bool">1</connect>
+                        <layer sid="layer" type="string">0</layer>
+                        <tip_x sid="tip_x" type="float">0.2803906</tip_x>
+                        <tip_y sid="tip_y" type="float">0</tip_y>
+                        <tip_z sid="tip_z" type="float">0</tip_z>
+                      </technique>
+                    </extra>
+                  </node>
+                  <extra>
+                    <technique profile="blender">
+                      <connect sid="connect" type="bool">1</connect>
+                      <layer sid="layer" type="string">0</layer>
+                    </technique>
+                  </extra>
+                </node>
+                <extra>
+                  <technique profile="blender">
+                    <connect sid="connect" type="bool">1</connect>
+                    <layer sid="layer" type="string">0</layer>
+                  </technique>
+                </extra>
+              </node>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">0</layer>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">1.570796</roll>
+              </technique>
+            </extra>
+          </node>
+          <node id="Banner_armature_Bnr_D_1" name="Bnr_D_1" sid="Bnr_D_1" type="JOINT">
+            <matrix sid="transform">-9.61605e-15 1 1.42825e-7 0.04266816 -1 0 7.54979e-8 0.03479993 7.54979e-8 -1.42825e-7 1 2.00234e-8 0 0 0 1</matrix>
+            <node id="Banner_armature_Bnr_D_2" name="Bnr_D_2" sid="Bnr_D_2" type="JOINT">
+              <matrix sid="transform">7.54979e-8 1.42109e-14 -1 0 -1.42825e-7 1 0 0.2803907 1 1.42825e-7 7.54979e-8 0 0 0 0 1</matrix>
+              <node id="Banner_armature_Bnr_D_3" name="Bnr_D_3" sid="Bnr_D_3" type="JOINT">
+                <matrix sid="transform">1 0 0 0 0 1 -3.42785e-15 0.2803907 0 3.42785e-15 1 0 0 0 0 1</matrix>
+                <node id="Banner_armature_Bnr_D_4" name="Bnr_D_4" sid="Bnr_D_4" type="JOINT">
+                  <matrix sid="transform">1 0 0 0 0 1 0 0.2803906 0 0 1 0 0 0 0 1</matrix>
+                  <node id="Banner_armature_Bnr_D_5" name="Bnr_D_5" sid="Bnr_D_5" type="JOINT">
+                    <matrix sid="transform">1 0 0 0 0 1 0 0.2803907 0 0 1 0 0 0 0 1</matrix>
+                    <extra>
+                      <technique profile="blender">
+                        <connect sid="connect" type="bool">1</connect>
+                        <layer sid="layer" type="string">0</layer>
+                        <tip_x sid="tip_x" type="float">0.2803906</tip_x>
+                        <tip_y sid="tip_y" type="float">0</tip_y>
+                        <tip_z sid="tip_z" type="float">0</tip_z>
+                      </technique>
+                    </extra>
+                  </node>
+                  <extra>
+                    <technique profile="blender">
+                      <connect sid="connect" type="bool">1</connect>
+                      <layer sid="layer" type="string">0</layer>
+                    </technique>
+                  </extra>
+                </node>
+                <extra>
+                  <technique profile="blender">
+                    <connect sid="connect" type="bool">1</connect>
+                    <layer sid="layer" type="string">0</layer>
+                  </technique>
+                </extra>
+              </node>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">0</layer>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">1.570796</roll>
+              </technique>
+            </extra>
+          </node>
+          <node id="Banner_armature_Bnr_B_1" name="Bnr_B_1" sid="Bnr_B_1" type="JOINT">
+            <matrix sid="transform">-9.61605e-15 1 1.42825e-7 0.04266816 -1 0 7.54979e-8 0.284036 7.54979e-8 -1.42825e-7 1 2.00234e-8 0 0 0 1</matrix>
+            <node id="Banner_armature_Bnr_B_2" name="Bnr_B_2" sid="Bnr_B_2" type="JOINT">
+              <matrix sid="transform">7.54979e-8 1.42109e-14 -1 0 -1.42825e-7 1 0 0.2803907 1 1.42825e-7 7.54979e-8 0 0 0 0 1</matrix>
+              <node id="Banner_armature_Bnr_B_3" name="Bnr_B_3" sid="Bnr_B_3" type="JOINT">
+                <matrix sid="transform">1 0 0 0 0 1 -3.42785e-15 0.2803907 0 3.42785e-15 1 0 0 0 0 1</matrix>
+                <node id="Banner_armature_Bnr_B_4" name="Bnr_B_4" sid="Bnr_B_4" type="JOINT">
+                  <matrix sid="transform">1 0 0 0 0 1 0 0.2803906 0 0 1 0 0 0 0 1</matrix>
+                  <node id="Banner_armature_Bnr_B_5" name="Bnr_B_5" sid="Bnr_B_5" type="JOINT">
+                    <matrix sid="transform">1 0 0 0 0 1 0 0.2803907 0 0 1 0 0 0 0 1</matrix>
+                    <extra>
+                      <technique profile="blender">
+                        <connect sid="connect" type="bool">1</connect>
+                        <layer sid="layer" type="string">0</layer>
+                        <tip_x sid="tip_x" type="float">0.2803906</tip_x>
+                        <tip_y sid="tip_y" type="float">0</tip_y>
+                        <tip_z sid="tip_z" type="float">0</tip_z>
+                      </technique>
+                    </extra>
+                  </node>
+                  <extra>
+                    <technique profile="blender">
+                      <connect sid="connect" type="bool">1</connect>
+                      <layer sid="layer" type="string">0</layer>
+                    </technique>
+                  </extra>
+                </node>
+                <extra>
+                  <technique profile="blender">
+                    <connect sid="connect" type="bool">1</connect>
+                    <layer sid="layer" type="string">0</layer>
+                  </technique>
+                </extra>
+              </node>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">0</layer>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">1.570796</roll>
+              </technique>
+            </extra>
+          </node>
+          <extra>
+            <technique profile="blender">
+              <layer sid="layer" type="string">0</layer>
+              <tip_x sid="tip_x" type="float">0</tip_x>
+              <tip_y sid="tip_y" type="float">0</tip_y>
+              <tip_z sid="tip_z" type="float">0.3115451</tip_z>
+            </technique>
+          </extra>
+        </node>
+      </node>
+      <node id="Plane_003" name="Plane_003" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_controller url="#Banner_armature_Plane_003-skin">
+          <skeleton>#Banner_armature_Bnr_Root</skeleton>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
