@@ -6,6 +6,8 @@
 			<mesh>props/byza_flag_a.dae</mesh>
 			<animations>
 				<animation file="other/byza_flag_idle.dae" name="idle" speed="65"/>
+        <animation file="other/byza_flag_walk.dae" name="Walk" speed="35"/>
+        <animation file="other/byza_flag_walk.dae" name="Run" speed="20"/>
 			</animations>
 			<textures>
 				<texture file="props/byza_flag_a.png" name="baseTex"/>
