@@ -10,7 +10,7 @@
         <prop actor="props/units/shields/byza_parma.xml" attachpoint="shield_arm"/>
         <prop actor="props/units/weapons/caro_sheath_sword.xml" attachpoint="sheath_L"/>
         <prop actor="props/units/weapons/caro_cavalry_spear.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/helmets/byza_coif_cavalry_swordsman_chainmail.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/byza_coif_cavalry_spearman_chainmail_full.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
