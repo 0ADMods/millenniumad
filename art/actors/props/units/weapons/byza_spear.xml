@@ -5,6 +5,7 @@
     <variant frequency="1" name="Base">
       <props>
         <prop actor="props/units/weapons/blades/spear_blade.xml" attachpoint="blade"/>
+        <prop actor="props/units/byza_flag_a.xml" attachpoint="blade"/>
       </props>
       <textures>
         <texture file="props/prop_weap.dds" name="baseTex"/>
@@ -13,19 +14,19 @@
   </group>
   <group>
     <variant frequency="1" name="spear-ball-darkgold">
-      <mesh>props/weap_shaft_wood_a.dae</mesh>
+      <mesh>props/weap_shaft_wood_long_a.dae</mesh>
     </variant>
     <variant frequency="1" name="darksilver">
-      <mesh>props/weap_shaft_wood_b.dae</mesh>
+      <mesh>props/weap_shaft_wood_long_b.dae</mesh>
     </variant>
     <variant frequency="1" name="lightgold">
-      <mesh>props/weap_shaft_wood_c.dae</mesh>
+      <mesh>props/weap_shaft_wood_long_c.dae</mesh>
     </variant>
     <variant frequency="1" name="medsilver">
-      <mesh>props/weap_shaft_wood_d.dae</mesh>
+      <mesh>props/weap_shaft_wood_long_d.dae</mesh>
     </variant>
     <variant frequency="1" name="medgold">
-      <mesh>props/weap_shaft_wood_e.dae</mesh>
+      <mesh>props/weap_shaft_wood_long_e.dae</mesh>
     </variant>
   </group>
   <material>basic_trans.xml</material>
