@@ -6,7 +6,7 @@
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/byza_oval_plain.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/norse_swordsman_e.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/caro_infantry_sheath.xml" attachpoint="sheath_L"/>
       </props>
     </variant>

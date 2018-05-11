@@ -14,7 +14,8 @@
   </Obstruction>
   <ProductionQueue>
 	<Entities datatype="tokens">
-	  units/{civ}_champion_cavalry
+	  units/{civ}_champion_cavalry_spearman
+	  units/{civ}_champion_cavalry_swordsman
       units/{civ}_champion_infantry_swordsman
     </Entities>
 	<Technologies datatype="tokens">

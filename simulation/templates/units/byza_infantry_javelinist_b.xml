@@ -11,7 +11,7 @@
     <SelectionGroupName>units/byza_infantry_javelinist_b</SelectionGroupName>
     <GenericName>Infantry Javelinist</GenericName>
     <SpecificName>Akontistḗs</SpecificName>
-    <Icon>units/mace_infantry_javelinist.png</Icon>
+    <Icon>units/byza_infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/byza_infantry_javelinist_a</Entity>

@@ -11,7 +11,7 @@
     <SelectionGroupName>units/byza_infantry_spearman_b</SelectionGroupName>
     <GenericName>Infantry Spearman</GenericName>
     <SpecificName>Akritēs</SpecificName>
-    <Icon>units/caro_infantry_spearman.png</Icon>
+    <Icon>units/byza_infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/byza_infantry_spearman_a</Entity>

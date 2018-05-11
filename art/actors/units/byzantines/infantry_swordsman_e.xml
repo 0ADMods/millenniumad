@@ -7,8 +7,19 @@
       <props>
         <prop actor="props/units/helmets/byza_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/byza_round.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/caro_infantry_sheath.xml" attachpoint="sheath_L"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="3" name="shield-byza-round">
+      <props>
+        <prop actor="props/units/shields/byza_round.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="shield-byza-oval-plain">
+      <props>
+        <prop actor="props/units/shields/byza_oval_plain.xml" attachpoint="shield"/>
       </props>
     </variant>
   </group>
@@ -140,6 +151,30 @@
       <textures>
         <texture file="skeletal/byza/elite/lamellar_pteruges_geared1c.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/lamellar_pteruges_geared1.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail-pteruges1a">
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1a.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail-pteruges1b">
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1b.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail-pteruges1c">
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1c.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail-pteruges1d">
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1d.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

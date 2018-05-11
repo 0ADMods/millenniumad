@@ -106,6 +106,30 @@
         <texture file="skeletal/byza/elite/lamellar_pteruges_geared1.png" name="specTex"/>
       </textures>
     </variant>
+    <variant frequency="1" name="chainmail-pteruges1a">
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1a.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail-pteruges1b">
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1b.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail-pteruges1c">
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1c.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail-pteruges1d">
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1d.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
   </group>
   <group>
     <variant file="biped/base_cavalry_spearman_relax_shield.xml"/>

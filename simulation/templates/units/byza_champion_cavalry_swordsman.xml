@@ -5,7 +5,7 @@
     <GenericName>Royal Companion Cavalry</GenericName>
     <SpecificName>Schola</SpecificName>
     <SelectionGroupName>units/byza_champion_cavalry_swordsman</SelectionGroupName>
-    <Icon>units/caro_champion_cavalry.png</Icon>
+    <Icon>units/byza_champion_cavalry_swordsman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/byzantines/cavalry_swordsman_c_m.xml</Actor>

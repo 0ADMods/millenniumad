@@ -6,7 +6,7 @@
 	<GenericName>Cavalry Javelinist</GenericName>
     <SelectionGroupName>units/byza_cavalry_javelinist_b</SelectionGroupName>
     <SpecificName>Hippoakritēs</SpecificName>
-    <Icon>units/hele_cavalry_javelinist.png</Icon>
+    <Icon>units/byza_cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/byza_cavalry_javelinist_a</Entity>

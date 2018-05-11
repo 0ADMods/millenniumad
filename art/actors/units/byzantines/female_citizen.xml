@@ -4,8 +4,32 @@
   <group>
     <variant>
       <mesh>skeletal/new/f_dress.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="female-head-a">
       <props>
-        <prop actor="props/units/heads/new/head_female_celt.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_female_dudette_a.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="female-head-b">
+      <props>
+        <prop actor="props/units/heads/new/head_female_dudette_b.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="female-head-c">
+      <props>
+        <prop actor="props/units/heads/new/head_female_c.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="female-head-d">
+      <props>
+        <prop actor="props/units/heads/new/head_female_d.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="female-head-e">
+      <props>
+        <prop actor="props/units/heads/new/head_female_e.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>

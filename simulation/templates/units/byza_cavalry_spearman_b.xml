@@ -6,7 +6,7 @@
     <GenericName>Cavalry Spearman</GenericName>
 	  <SelectionGroupName>units/byza_cavalry_spearman_b</SelectionGroupName>
     <SpecificName>Hippoakritēs</SpecificName>
-    <Icon>units/caro_cavalry_spearman.png</Icon>
+    <Icon>units/byza_cavalry_spearman.png</Icon>
 	<RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>

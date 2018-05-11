@@ -5,7 +5,7 @@
     <Lang>greek</Lang>
     <SpecificName>Gýnē</SpecificName>
     <GenericName>Woman</GenericName>
-    <Icon>units/caro_support_female_citizen.png</Icon>
+    <Icon>units/byza_support_female_citizen.png</Icon>
     <SelectionGroupName>units/byza_support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
