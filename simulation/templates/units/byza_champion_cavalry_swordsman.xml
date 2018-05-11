@@ -2,8 +2,8 @@
 <Entity parent="template_unit_champion_cavalry_spearman">
   <Identity>
     <Civ>byza</Civ>
-    <GenericName>Royal Companion Cavalry</GenericName>
-    <SpecificName>Schola</SpecificName>
+    <GenericName>Imperial Tagmata Cavalry</GenericName>
+    <SpecificName>Clibanophoros Tagmata</SpecificName>
     <SelectionGroupName>units/byza_champion_cavalry_swordsman</SelectionGroupName>
     <Icon>units/byza_champion_cavalry_swordsman.png</Icon>
   </Identity>
