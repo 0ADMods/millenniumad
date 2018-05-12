@@ -11,6 +11,11 @@
     <Civ>byza</Civ>
     <SpecificName>Limḗn</SpecificName>
   </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/byza_warship_dromon
+    </Entities>
+  </ProductionQueue>
   <Obstruction>
     <Static width="22.0" depth="32.0"/>
   </Obstruction>

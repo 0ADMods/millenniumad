@@ -71,7 +71,8 @@
 	"WallSets":
 	[
 		"other/wallset_palisade",
-		"structures/spart_wallset_stone"
+		"structures/byza_wallset_stone",
+		"structures/byza_wallset_short"
 	],
 	"StartEntities":
 	[
@@ -127,6 +128,7 @@
 	"SkirmishReplacements":
 	{
 		"skirmish/units/default_infantry_ranged_b": "units/byza_infantry_javelinist_b",
+		"skirmish/units/default_ship_trireme": "units/byza_warship_dromon",
 		"skirmish/structures/default_house_10" : "structures/{civ}_house"
 	},
 	"SelectableInGameSetup": true
