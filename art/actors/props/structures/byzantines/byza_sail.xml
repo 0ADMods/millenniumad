@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant name="Byza sail">
+      <animations>
+        <animation file="other/byza_sail_idle.dae" name="Idle" speed="50"/>
+        <animation file="other/byza_sail_move.dae" name="Walk" speed="5"/>
+      </animations>
+      <mesh>props/byza_sail.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Byza sail_a">
+      <textures>
+        <texture file="props/iber_sail_b.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Drakkar sail_a">
+      <textures>
+        <texture file="props/drakkar_sail_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Drakkar sail_b">
+      <textures>
+        <texture file="props/drakkar_sail_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

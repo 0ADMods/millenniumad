@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0 commit date:2018-03-22, commit time:14:10, hash:f4dc9f9d68b</authoring_tool>
+    </contributor>
+    <created>2018-05-12T06:17:35</created>
+    <modified>2018-05-12T06:17:35</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects/>
+  <library_geometries>
+    <geometry id="Plane_001-mesh" name="Plane.001">
+      <mesh>
+        <source id="Plane_001-mesh-positions">
+          <float_array id="Plane_001-mesh-positions-array" count="210">-7.83 0 0 7.83 0 -11 -7.83 -2.26494e-7 -11 -5.592857 -1.83352e-7 -11 -3.355714 -1.4021e-7 -11 -1.118571 0 -11 1.118572 0 -11 3.355715 0 -11 5.592857 0 -11 -7.83 0 -2.2 -7.83 -1.35896e-7 -4.4 -7.83 -1.66095e-7 -6.6 -7.83 -1.96295e-7 -8.800003 3.355714 0 -8.800003 1.118571 0 -6.6 1.118571 0 -8.800003 -1.118571 0 -6.6 -1.118571 0 -8.800003 -3.355714 0 -4.4 -3.355714 0 -6.6 -3.355714 0 -8.800003 -5.592857 0 -2.2 -5.592857 0 -4.4 -5.592857 -1.22954e-7 -6.6 -5.592857 -1.53153e-7 -8.800003 5.592857 0 -9.428572 1.118571 0 -6.285715 -1.566002 0 -4.4 -4.698002 0 -2.2 -5.592857 0 -1.57143 -1.118571 0 -4.714287 -3.355714 0 -3.142857 3.355714 0 -7.857143 4.697999 0 -8.800003 1.565999 0 -6.6 -7.83 0 0 7.83 0 -11 -7.83 -2.26494e-7 -11 -5.592857 -1.83352e-7 -11 -3.355714 -1.4021e-7 -11 -1.118571 0 -11 1.118572 0 -11 3.355715 0 -11 5.592857 0 -11 -7.83 0 -2.2 -7.83 -1.35896e-7 -4.4 -7.83 -1.66095e-7 -6.6 -7.83 -1.96295e-7 -8.800003 3.355714 0 -8.800003 1.118571 0 -6.6 1.118571 0 -8.800003 -1.118571 0 -6.6 -1.118571 0 -8.800003 -3.355714 0 -4.4 -3.355714 0 -6.6 -3.355714 0 -8.800003 -5.592857 0 -2.2 -5.592857 0 -4.4 -5.592857 -1.22954e-7 -6.6 -5.592857 -1.53153e-7 -8.800003 5.592857 0 -9.428572 1.118571 0 -6.285715 -1.566002 0 -4.4 -4.698002 0 -2.2 -5.592857 0 -1.57143 -1.118571 0 -4.714287 -3.355714 0 -3.142857 3.355714 0 -7.857143 4.697999 0 -8.800003 1.565999 0 -6.6</float_array>
+          <technique_common>
+            <accessor source="#Plane_001-mesh-positions-array" count="70" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_001-mesh-normals">
+          <float_array id="Plane_001-mesh-normals-array" count="6">0 -1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Plane_001-mesh-normals-array" count="2" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_001-mesh-map-0">
+          <float_array id="Plane_001-mesh-map-0-array" count="540">0.6530083 0.3327701 0.5204257 0.1823301 0.6483044 0.1784326 0.01361447 0.3522576 0.1367893 0.1940225 0.1414932 0.3483601 0.1414932 0.3483601 0.2646681 0.190125 0.269372 0.3444626 0.01361447 0.3522576 0.1461971 0.5026975 0.01831835 0.506595 0.01831835 0.506595 0.150901 0.6570352 0.02302223 0.6609327 0.269372 0.3444626 0.4019547 0.4949026 0.2740759 0.4988 0.02302223 0.6609327 0.1556048 0.8113726 0.02772611 0.8152701 0.1461971 0.5026975 0.2787798 0.6531378 0.150901 0.6570352 0.5305054 0.5130532 0.4019547 0.4949026 0.5298334 0.4910051 0.2646681 0.190125 0.3972508 0.3405651 0.269372 0.3444626 0.5251296 0.3366676 0.392547 0.1862276 0.5204257 0.1823301 0.1569488 0.855469 0.02772611 0.8152701 0.1556048 0.8113726 0.4019547 0.4949026 0.5251296 0.3366676 0.5298334 0.4910051 0.7297354 0.3304316 0.6550243 0.3989148 0.6530083 0.3327701 0.3810827 0.6500197 0.2814677 0.7413305 0.2787798 0.6531378 0.2067562 0.8098137 0.1569488 0.855469 0.1556048 0.8113726 0.555409 0.4902256 0.5298334 0.4910051 0.5251296 0.3366676 0.150901 0.6570352 0.2814677 0.7413305 0.2067562 0.8098137 0.7297354 0.3304316 0.6530083 0.3327701 0.6483044 0.1784326 0.9040619 0.1706376 0.7795431 0.2847763 0.7761831 0.1745351 0.555409 0.4902256 0.5305054 0.5130532 0.5298334 0.4910051 0.1461971 0.5026975 0.269372 0.3444626 0.2740759 0.4988 0.3810827 0.6500197 0.2740759 0.4988 0.4019547 0.4949026 0.6530083 0.3327701 0.5204257 0.1823301 0.5251296 0.3366676 0.1367893 0.1940225 0.01361447 0.3522576 0.1414932 0.3483601 0.2646681 0.190125 0.1414932 0.3483601 0.269372 0.3444626 0.1461971 0.5026975 0.01361447 0.3522576 0.01831835 0.506595 0.150901 0.6570352 0.01831835 0.506595 0.02302223 0.6609327 0.4019547 0.4949026 0.269372 0.3444626 0.2740759 0.4988 0.1556048 0.8113726 0.02302223 0.6609327 0.02772611 0.8152701 0.2787798 0.6531378 0.1461971 0.5026975 0.150901 0.6570352 0.5305054 0.5130532 0.4019547 0.4949026 0.4059866 0.6271919 0.3972508 0.3405651 0.2646681 0.190125 0.269372 0.3444626 0.5251296 0.3366676 0.392547 0.1862276 0.3972508 0.3405651 0.1569488 0.855469 0.02772611 0.8152701 0.03242999 0.9696076 0.5251296 0.3366676 0.4019547 0.4949026 0.5298334 0.4910051 0.7297354 0.3304316 0.6530083 0.3327701 0.6550243 0.3989148 0.3810827 0.6500197 0.2787798 0.6531378 0.2814677 0.7413305 0.2067562 0.8098137 0.1556048 0.8113726 0.1569488 0.855469 0.5251296 0.3366676 0.5298334 0.4910051 0.555409 0.4902256 0.2814677 0.7413305 0.2787798 0.6531378 0.150901 0.6570352 0.6483044 0.1784326 0.6530083 0.3327701 0.7297354 0.3304316 0.9040619 0.1706376 0.7761831 0.1745351 0.7795431 0.2847763 0.555409 0.4902256 0.5298334 0.4910051 0.5305054 0.5130532 0.269372 0.3444626 0.1461971 0.5026975 0.2740759 0.4988 0.2740759 0.4988 0.2787798 0.6531378 0.3810827 0.6500197 0.6530083 0.3327701 0.5251296 0.3366676 0.5204257 0.1823301 0.01361447 0.3522576 0.008910536 0.19792 0.1367893 0.1940225 0.1414932 0.3483601 0.1367893 0.1940225 0.2646681 0.190125 0.01361447 0.3522576 0.1414932 0.3483601 0.1461971 0.5026975 0.01831835 0.506595 0.1461971 0.5026975 0.150901 0.6570352 0.269372 0.3444626 0.3972508 0.3405651 0.4019547 0.4949026 0.02302223 0.6609327 0.150901 0.6570352 0.1556048 0.8113726 0.1461971 0.5026975 0.2740759 0.4988 0.2787798 0.6531378 0.5305054 0.5130532 0.4059866 0.6271919 0.4019547 0.4949026 0.2646681 0.190125 0.392547 0.1862276 0.3972508 0.3405651 0.5251296 0.3366676 0.3972508 0.3405651 0.392547 0.1862276 0.1569488 0.855469 0.03242999 0.9696076 0.02772611 0.8152701 0.4019547 0.4949026 0.3972508 0.3405651 0.5251296 0.3366676 0.6530083 0.3327701 0.6550243 0.3989148 0.5251296 0.3366676 0.6550243 0.3989148 0.555409 0.4902256 0.5251296 0.3366676 0.2067562 0.8098137 0.1556048 0.8113726 0.150901 0.6570352 0.150901 0.6570352 0.2787798 0.6531378 0.2814677 0.7413305 0.7761831 0.1745351 0.7795431 0.2847763 0.6483044 0.1784326 0.7795431 0.2847763 0.7297354 0.3304316 0.6483044 0.1784326 0.1461971 0.5026975 0.1414932 0.3483601 0.269372 0.3444626 0.4019547 0.4949026 0.4059866 0.6271919 0.3810827 0.6500197 0.3810827 0.6500197 0.2787798 0.6531378 0.2740759 0.4988 0.6530083 0.3327701 0.6483044 0.1784326 0.5204257 0.1823301 0.1367893 0.1940225 0.008910536 0.19792 0.01361447 0.3522576 0.2646681 0.190125 0.1367893 0.1940225 0.1414932 0.3483601 0.1461971 0.5026975 0.1414932 0.3483601 0.01361447 0.3522576 0.150901 0.6570352 0.1461971 0.5026975 0.01831835 0.506595 0.4019547 0.4949026 0.3972508 0.3405651 0.269372 0.3444626 0.1556048 0.8113726 0.150901 0.6570352 0.02302223 0.6609327 0.2787798 0.6531378 0.2740759 0.4988 0.1461971 0.5026975 0.5305054 0.5130532 0.5298334 0.4910051 0.4019547 0.4949026 0.3972508 0.3405651 0.392547 0.1862276 0.2646681 0.190125 0.5251296 0.3366676 0.5204257 0.1823301 0.392547 0.1862276 0.1569488 0.855469 0.1556048 0.8113726 0.02772611 0.8152701 0.5251296 0.3366676 0.3972508 0.3405651 0.4019547 0.4949026 0.555409 0.4902256 0.6550243 0.3989148 0.5251296 0.3366676 0.6550243 0.3989148 0.6530083 0.3327701 0.5251296 0.3366676 0.150901 0.6570352 0.1556048 0.8113726 0.2067562 0.8098137 0.2067562 0.8098137 0.2814677 0.7413305 0.150901 0.6570352 0.7297354 0.3304316 0.7795431 0.2847763 0.6483044 0.1784326 0.7795431 0.2847763 0.7761831 0.1745351 0.6483044 0.1784326 0.269372 0.3444626 0.1414932 0.3483601 0.1461971 0.5026975 0.3810827 0.6500197 0.4059866 0.6271919 0.4019547 0.4949026 0.4019547 0.4949026 0.2740759 0.4988 0.3810827 0.6500197</float_array>
+          <technique_common>
+            <accessor source="#Plane_001-mesh-map-0-array" count="270" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane_001-mesh-vertices">
+          <input semantic="POSITION" source="#Plane_001-mesh-positions"/>
+        </vertices>
+        <triangles count="90">
+          <input semantic="VERTEX" source="#Plane_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane_001-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Plane_001-mesh-map-0" offset="2" set="0"/>
+          <p>13 0 0 6 0 1 7 0 2 12 0 3 3 0 4 24 0 5 24 0 6 4 0 7 20 0 8 12 0 9 23 0 10 11 0 11 11 0 12 22 0 13 10 0 14 20 0 15 16 0 16 19 0 17 10 0 18 21 0 19 9 0 20 23 0 21 18 0 22 22 0 23 26 0 24 16 0 25 14 0 26 4 0 27 17 0 28 20 0 29 15 0 30 5 0 31 6 0 32 29 0 33 9 0 34 21 0 35 16 0 36 15 0 37 14 0 38 33 0 39 32 0 40 13 0 41 27 0 42 31 0 43 18 0 44 28 0 45 29 0 46 21 0 47 34 0 48 14 0 49 15 0 50 22 0 51 31 0 52 28 0 53 33 0 54 13 0 55 7 0 56 1 0 57 25 0 58 8 0 59 34 0 60 26 0 61 14 0 62 23 0 63 20 0 64 19 0 65 27 0 66 19 0 67 16 0 68 48 1 69 41 1 70 50 1 71 38 1 72 47 1 73 59 1 74 39 1 75 59 1 76 55 1 77 58 1 78 47 1 79 46 1 80 57 1 81 46 1 82 45 1 83 51 1 84 55 1 85 54 1 86 56 1 87 45 1 88 44 1 89 53 1 90 58 1 91 57 1 92 61 1 93 51 1 94 65 1 95 52 1 96 39 1 97 55 1 98 50 1 99 40 1 100 52 1 101 64 1 102 44 1 103 35 1 104 50 1 105 51 1 106 49 1 107 68 1 108 48 1 109 67 1 110 62 1 111 53 1 112 66 1 113 63 1 114 56 1 115 64 1 116 50 1 117 49 1 118 69 1 119 66 1 120 53 1 121 57 1 122 42 1 123 48 1 124 68 1 125 36 1 126 43 1 127 60 1 128 69 1 129 49 1 130 61 1 131 55 1 132 58 1 133 54 1 134 54 1 135 53 1 136 62 1 137 13 0 138 15 0 139 6 0 140 12 0 141 2 0 142 3 0 143 24 0 144 3 0 145 4 0 146 12 0 147 24 0 148 23 0 149 11 0 150 23 0 151 22 0 152 20 0 153 17 0 154 16 0 155 10 0 156 22 0 157 21 0 158 23 0 159 19 0 160 18 0 161 26 0 162 30 0 163 16 0 164 4 0 165 5 0 166 17 0 167 15 0 168 17 0 169 5 0 170 29 0 171 0 0 172 9 0 173 16 0 174 17 0 175 15 0 176 13 0 177 32 0 178 15 0 179 32 0 180 34 0 181 15 0 182 28 0 183 21 0 184 22 0 185 22 0 186 18 0 187 31 0 188 8 0 189 25 0 190 7 0 191 25 0 192 33 0 193 7 0 194 23 0 195 24 0 196 20 0 197 16 0 198 30 0 199 27 0 200 27 0 201 18 0 202 19 0 203 48 1 204 42 1 205 41 1 206 38 1 207 37 1 208 47 1 209 39 1 210 38 1 211 59 1 212 58 1 213 59 1 214 47 1 215 57 1 216 58 1 217 46 1 218 51 1 219 52 1 220 55 1 221 56 1 222 57 1 223 45 1 224 53 1 225 54 1 226 58 1 227 61 1 228 49 1 229 51 1 230 52 1 231 40 1 232 39 1 233 50 1 234 41 1 235 40 1 236 64 1 237 56 1 238 44 1 239 50 1 240 52 1 241 51 1 242 69 1 243 67 1 244 50 1 245 67 1 246 48 1 247 50 1 248 57 1 249 56 1 250 63 1 251 63 1 252 66 1 253 57 1 254 68 1 255 60 1 256 42 1 257 60 1 258 43 1 259 42 1 260 55 1 261 59 1 262 58 1 263 62 1 264 65 1 265 51 1 266 51 1 267 54 1 268 62 1 269</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Norse_Sail_Byza_sail-skin" name="Norse_Sail">
+      <skin source="#Plane_001-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Norse_Sail_Byza_sail-skin-joints">
+          <Name_array id="Norse_Sail_Byza_sail-skin-joints-array" count="22">Norse_Sail_Root Norse_Sail_A1 Norse_Sail_A2 Norse_Sail_A3 Norse_Sail_A4 Norse_Sail_A5 Norse_Sail_B1 Norse_Sail_B2 Norse_Sail_B3 Norse_Sail_B4 Norse_Sail_C1 Norse_Sail_C2 Norse_Sail_C3 Norse_Sail_C4 Norse_Sail_D1 Norse_Sail_D2 Norse_Sail_D3 Norse_Sail_E1 Norse_Sail_E2 Norse_Sail_F1 Norse_Sail_F2 Norse_Sail_G1</Name_array>
+          <technique_common>
+            <accessor source="#Norse_Sail_Byza_sail-skin-joints-array" count="22" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Norse_Sail_Byza_sail-skin-bind_poses">
+          <float_array id="Norse_Sail_Byza_sail-skin-bind_poses-array" count="352">1 -1.34381e-5 -2.04166e-5 -8.82854e-5 -1.34381e-5 -1 0 0 -2.04166e-5 0 -1 2 0 0 0 1 1 6.71907e-6 -6.76169e-6 7.83 -6.76169e-6 0 -1 -5.2944e-5 -6.71907e-6 1 0 -5.26898e-5 0 0 0 1 1 0 0 7.830015 0 0 -1 -2.2 0 1 0 0 0 0 0 1 1 0 0 7.830015 0 0 -1 -4.4 0 1 0 0 0 0 0 1 1 0 0 7.830015 0 0 -1 -6.6 0 1 0 0 0 0 0 1 1 0 0 7.830015 0 0 -1 -8.8 0 1 0 0 0 0 0 1 1 6.67304e-6 -5.19634e-6 5.592864 -5.1856e-6 0 -1 -1.580406 -6.67304e-6 1 0 -3.75123e-5 0 0 0 1 1 0 0 5.592887 0 0 -1 -4.4 0 1 0 1.21025e-7 0 0 0 1 1 0 0 5.592887 0 0 -1 -6.6 0 1 0 1.21022e-7 0 0 0 1 1 0 0 5.592887 0 0 -1 -8.800001 0 1 0 1.21022e-7 0 0 0 1 1 6.68297e-6 -1.19514e-5 3.355691 -1.19805e-5 0 -1 -3.160794 -6.68297e-6 1 0 -2.24606e-5 0 0 0 1 1 0 0 3.355744 0 0 -1 -4.4 0 1 0 0 0 0 0 1 1 0 0 3.355744 0 0 -1 -6.6 0 1 0 0 0 0 0 1 1 0 0 3.355744 0 0 -1 -8.800004 0 1 0 0 0 0 0 1 1 6.76003e-6 -7.97212e-6 1.118549 -8.19522e-6 0 -1 -4.741139 -6.76003e-6 1 0 -7.57372e-6 0 0 0 1 1 0 0 1.118601 0 0 -1 -6.6 0 1 0 0 0 0 0 1 1 -2.38419e-7 0 1.118601 0 0 -1 -8.800004 2.38419e-7 1 0 1.63995e-7 0 0 0 1 1 6.67934e-6 -5.93066e-6 -1.1183 -5.65186e-6 0 -1 -6.3215 -6.67934e-6 1 0 7.47554e-6 0 0 0 1 1 0 1.40652e-4 -1.11701 1.40574e-4 0 -1 -8.80016 0 1 0 4.29197e-7 0 0 0 1 1 6.68367e-6 -1.64509e-5 -3.355829 -1.6249e-5 -2.38317e-7 -1 -7.901831 -6.68368e-6 1 -2.65272e-7 2.01267e-5 0 0 0 1 1 0 0 -3.355684 0 0 -1 -8.800002 0 1 0 0 0 0 0 1 1 6.69724e-6 -8.9407e-6 -5.592617 -8.98814e-6 0 -1 -9.424745 -6.69725e-6 1 0 3.75062e-5 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Norse_Sail_Byza_sail-skin-bind_poses-array" count="22" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Norse_Sail_Byza_sail-skin-weights">
+          <float_array id="Norse_Sail_Byza_sail-skin-weights-array" count="94">1 1 0.2067638 0.7932361 1 1 1 1 1 1 0.5 0.5 0.5 0.5 1 0.4067183 0.5932818 0.5 0.5 1 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 1 0.5 0.5 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.2067638 0.7932361 1 1 1 1 1 1 0.5 0.5 0.5 0.5 1 0.4067183 0.5932818 0.5 0.5 1 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 1 0.5 0.5 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Norse_Sail_Byza_sail-skin-weights-array" count="94" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Norse_Sail_Byza_sail-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Norse_Sail_Byza_sail-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="70">
+          <input semantic="JOINT" source="#Norse_Sail_Byza_sail-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Norse_Sail_Byza_sail-skin-weights" offset="1"/>
+          <vcount>1 1 2 1 1 1 1 1 1 2 2 1 2 2 1 2 2 2 2 2 2 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 2 2 1 2 2 1 2 2 2 2 2 2 1 2 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 1 3 2 9 3 9 4 13 5 16 6 18 7 20 8 21 9 1 10 2 11 2 12 3 13 3 14 3 15 9 16 19 17 20 18 17 19 17 20 18 21 14 22 15 23 15 24 16 25 10 26 11 27 11 28 12 29 12 30 13 31 6 32 6 33 7 34 7 35 9 36 0 37 0 38 0 39 0 40 0 41 0 42 0 43 0 44 0 45 0 46 0 47 0 48 3 49 9 50 9 51 13 52 16 53 18 54 20 55 21 56 1 57 2 58 2 59 3 60 3 61 3 62 9 63 19 64 20 65 17 66 17 67 18 68 14 69 15 70 15 71 16 72 10 73 11 74 11 75 12 76 12 77 13 78 6 79 6 80 7 81 7 82 9 83 0 84 0 85 0 86 0 87 0 88 0 89 0 90 0 91 0 92 0 93</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Norse_Sail" name="Norse_Sail" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Norse_Sail_Norse_Sail_Root" name="Norse_Sail_Root" sid="Norse_Sail_Root" type="JOINT">
+          <matrix sid="transform">1 -1.34381e-5 -2.04166e-5 1.29119e-4 -1.34381e-5 -1 1.3718e-10 0 -2.04166e-5 1.3718e-10 -1 2 0 0 0 1</matrix>
+          <node id="Norse_Sail_Norse_Sail_A1" name="Norse_Sail_A1" sid="Norse_Sail_A1" type="JOINT">
+            <matrix sid="transform">1 1.36549e-5 -2.01572e-5 -7.830088 -2.01572e-5 0 -1 1.05143e-4 -1.36549e-5 1 8.87884e-11 2.00016 0 0 0 1</matrix>
+            <node id="Norse_Sail_Norse_Sail_A2" name="Norse_Sail_A2" sid="Norse_Sail_A2" type="JOINT">
+              <matrix sid="transform">1 6.76169e-6 6.71907e-6 0 -6.76169e-6 1 1.36806e-8 2.2 -6.71907e-6 -1.3726e-8 1 -3.63798e-12 0 0 0 1</matrix>
+              <node id="Norse_Sail_Norse_Sail_A3" name="Norse_Sail_A3" sid="Norse_Sail_A3" type="JOINT">
+                <matrix sid="transform">1 -9.2226e-14 0 0 9.34729e-14 1 -1.77636e-15 2.2 0 1.77636e-15 1 0 0 0 0 1</matrix>
+                <node id="Norse_Sail_Norse_Sail_A4" name="Norse_Sail_A4" sid="Norse_Sail_A4" type="JOINT">
+                  <matrix sid="transform">1 0 0 0 9.34729e-14 1 3.55271e-15 2.2 0 -3.55271e-15 1 7.10543e-15 0 0 0 1</matrix>
+                  <node id="Norse_Sail_Norse_Sail_A5" name="Norse_Sail_A5" sid="Norse_Sail_A5" type="JOINT">
+                    <matrix sid="transform">1 0 0 0 9.34729e-14 1 0 2.199999 0 0 1 -7.10543e-15 0 0 0 1</matrix>
+                    <extra>
+                      <technique profile="blender">
+                        <connect sid="connect" type="bool">1</connect>
+                        <layer sid="layer" type="string">0</layer>
+                        <tip_x sid="tip_x" type="float">0</tip_x>
+                        <tip_y sid="tip_y" type="float">0</tip_y>
+                        <tip_z sid="tip_z" type="float">-2.2</tip_z>
+                      </technique>
+                    </extra>
+                  </node>
+                  <extra>
+                    <technique profile="blender">
+                      <connect sid="connect" type="bool">1</connect>
+                      <layer sid="layer" type="string">0</layer>
+                    </technique>
+                  </extra>
+                </node>
+                <extra>
+                  <technique profile="blender">
+                    <connect sid="connect" type="bool">1</connect>
+                    <layer sid="layer" type="string">0</layer>
+                  </technique>
+                </extra>
+              </node>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">0</layer>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+              </technique>
+            </extra>
+          </node>
+          <node id="Norse_Sail_Norse_Sail_B1" name="Norse_Sail_B1" sid="Norse_Sail_B1" type="JOINT">
+            <matrix sid="transform">1 1.52202e-5 -2.01112e-5 -5.592928 -2.01112e-5 8.45569e-8 -1 7.51018e-5 -1.52202e-5 1 1.19284e-7 3.580491 0 0 0 1</matrix>
+            <node id="Norse_Sail_Norse_Sail_B2" name="Norse_Sail_B2" sid="Norse_Sail_B2" type="JOINT">
+              <matrix sid="transform">1 5.19634e-6 6.67304e-6 0 -5.1856e-6 1 -7.08973e-8 2.819623 -6.67304e-6 7.08627e-8 1 3.63798e-12 0 0 0 1</matrix>
+              <node id="Norse_Sail_Norse_Sail_B3" name="Norse_Sail_B3" sid="Norse_Sail_B3" type="JOINT">
+                <matrix sid="transform">1 4.72869e-13 -4.54747e-13 0 -5.96045e-8 1 -3.55271e-15 2.200001 4.54747e-13 4.44089e-15 1 -1.42109e-14 0 0 0 1</matrix>
+                <node id="Norse_Sail_Norse_Sail_B4" name="Norse_Sail_B4" sid="Norse_Sail_B4" type="JOINT">
+                  <matrix sid="transform">1 0 0 0 -9.83476e-8 1 0 2.200001 1.80338e-15 2.66454e-15 1 0 0 0 0 1</matrix>
+                  <extra>
+                    <technique profile="blender">
+                      <connect sid="connect" type="bool">1</connect>
+                      <layer sid="layer" type="string">0</layer>
+                      <tip_x sid="tip_x" type="float">0</tip_x>
+                      <tip_y sid="tip_y" type="float">0</tip_y>
+                      <tip_z sid="tip_z" type="float">-2.2</tip_z>
+                    </technique>
+                  </extra>
+                </node>
+                <extra>
+                  <technique profile="blender">
+                    <connect sid="connect" type="bool">1</connect>
+                    <layer sid="layer" type="string">0</layer>
+                  </technique>
+                </extra>
+              </node>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">0</layer>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">-1.43051e-6</roll>
+              </technique>
+            </extra>
+          </node>
+          <node id="Norse_Sail_Norse_Sail_C1" name="Norse_Sail_C1" sid="Norse_Sail_C1" type="JOINT">
+            <matrix sid="transform">1 8.46516e-6 -2.01211e-5 -3.355753 -2.01211e-5 0 -1 4.50611e-5 -8.46516e-6 1 9.86695e-11 5.160822 0 0 0 1</matrix>
+            <node id="Norse_Sail_Norse_Sail_C2" name="Norse_Sail_C2" sid="Norse_Sail_C2" type="JOINT">
+              <matrix sid="transform">1 1.19514e-5 6.68297e-6 0 -1.19805e-5 1 1.37503e-8 1.239247 -6.68297e-6 -1.38302e-8 1 -1.81899e-12 0 0 0 1</matrix>
+              <node id="Norse_Sail_Norse_Sail_C3" name="Norse_Sail_C3" sid="Norse_Sail_C3" type="JOINT">
+                <matrix sid="transform">1 -1.72656e-12 0 0 1.82016e-12 1 -1.33227e-14 2.2 0 1.33227e-14 1 0 0 0 0 1</matrix>
+                <node id="Norse_Sail_Norse_Sail_C4" name="Norse_Sail_C4" sid="Norse_Sail_C4" type="JOINT">
+                  <matrix sid="transform">0.9999999 -1.72656e-12 0 2.38419e-7 1.82016e-12 1 2.75335e-14 2.200003 0 -2.75335e-14 1 -7.10543e-15 0 0 0 1</matrix>
+                  <extra>
+                    <technique profile="blender">
+                      <connect sid="connect" type="bool">1</connect>
+                      <layer sid="layer" type="string">0</layer>
+                      <tip_x sid="tip_x" type="float">0</tip_x>
+                      <tip_y sid="tip_y" type="float">0</tip_y>
+                      <tip_z sid="tip_z" type="float">-2.199998</tip_z>
+                    </technique>
+                  </extra>
+                </node>
+                <extra>
+                  <technique profile="blender">
+                    <connect sid="connect" type="bool">1</connect>
+                    <layer sid="layer" type="string">0</layer>
+                  </technique>
+                </extra>
+              </node>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">0</layer>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">5.24521e-6</roll>
+              </technique>
+            </extra>
+          </node>
+          <node id="Norse_Sail_Norse_Sail_D1" name="Norse_Sail_D1" sid="Norse_Sail_D1" type="JOINT">
+            <matrix sid="transform">1 1.24412e-5 -2.01982e-5 -1.118578 -2.01982e-5 0 -1 1.50204e-5 -1.24412e-5 1 9.65059e-11 6.741153 0 0 0 1</matrix>
+            <node id="Norse_Sail_Norse_Sail_D2" name="Norse_Sail_D2" sid="Norse_Sail_D2" type="JOINT">
+              <matrix sid="transform">1 7.96888e-6 6.76003e-6 0 -8.19199e-6 1 1.3695e-8 1.85887 -6.76003e-6 -1.37507e-8 1 0 0 0 0 1</matrix>
+              <node id="Norse_Sail_Norse_Sail_D3" name="Norse_Sail_D3" sid="Norse_Sail_D3" type="JOINT">
+                <matrix sid="transform">1 -3.30409e-8 2.38419e-7 0 1.81399e-8 1 4.44089e-14 2.200003 -2.38419e-7 -3.9968e-14 1 7.10543e-15 0 0 0 1</matrix>
+                <extra>
+                  <technique profile="blender">
+                    <connect sid="connect" type="bool">1</connect>
+                    <layer sid="layer" type="string">0</layer>
+                    <roll sid="roll" type="float">2.38419e-7</roll>
+                    <tip_x sid="tip_x" type="float">0</tip_x>
+                    <tip_y sid="tip_y" type="float">0</tip_y>
+                    <tip_z sid="tip_z" type="float">-2.199998</tip_z>
+                  </technique>
+                </extra>
+              </node>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">0</layer>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">1.19209e-6</roll>
+              </technique>
+            </extra>
+          </node>
+          <node id="Norse_Sail_Norse_Sail_E1" name="Norse_Sail_E1" sid="Norse_Sail_E1" type="JOINT">
+            <matrix sid="transform">1 1.44773e-5 -2.01175e-5 1.118303 -2.01175e-5 0 -1 -1.50204e-5 -1.44773e-5 1 8.16543e-11 8.321484 0 0 0 1</matrix>
+            <node id="Norse_Sail_Norse_Sail_E2" name="Norse_Sail_E2" sid="Norse_Sail_E2" type="JOINT">
+              <matrix sid="transform">0.9999999 1.46589e-4 6.67946e-6 -1.19209e-7 -1.4631e-4 0.9999999 -4.81014e-8 2.478495 -6.67947e-6 4.71224e-8 1 0 0 0 0 1</matrix>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">0</layer>
+                  <roll sid="roll" type="float">-1.40667e-4</roll>
+                  <tip_x sid="tip_x" type="float">3.09467e-4</tip_x>
+                  <tip_y sid="tip_y" type="float">0</tip_y>
+                  <tip_z sid="tip_z" type="float">-2.199998</tip_z>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">-7.15256e-7</roll>
+              </technique>
+            </extra>
+          </node>
+          <node id="Norse_Sail_Norse_Sail_F1" name="Norse_Sail_F1" sid="Norse_Sail_F1" type="JOINT">
+            <matrix sid="transform">1 3.98198e-6 -2.01218e-5 3.355772 -2.01218e-5 2.65465e-7 -1 -4.52995e-5 -3.98197e-6 1 2.38483e-7 9.901817 0 0 0 1</matrix>
+            <node id="Norse_Sail_Norse_Sail_F2" name="Norse_Sail_F2" sid="Norse_Sail_F2" type="JOINT">
+              <matrix sid="transform">1 1.64672e-5 6.68367e-6 2.38419e-7 -1.62653e-5 1 -2.51653e-7 0.8981171 -6.68368e-6 2.51545e-7 1 -3.63798e-12 0 0 0 1</matrix>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">0</layer>
+                  <tip_x sid="tip_x" type="float">0</tip_x>
+                  <tip_y sid="tip_y" type="float">0</tip_y>
+                  <tip_z sid="tip_z" type="float">-2.199998</tip_z>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">9.77516e-6</roll>
+              </technique>
+            </extra>
+          </node>
+          <node id="Norse_Sail_Norse_Sail_G1" name="Norse_Sail_G1" sid="Norse_Sail_G1" type="JOINT">
+            <matrix sid="transform">1 1.15031e-5 -2.01354e-5 5.592637 -2.01354e-5 0 -0.9999999 -7.51019e-5 -1.15031e-5 0.9999999 1.19309e-7 11.42468 0 0 0 1</matrix>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">2.38419e-6</roll>
+                <tip_x sid="tip_x" type="float">-1.43051e-5</tip_x>
+                <tip_y sid="tip_y" type="float">0</tip_y>
+                <tip_z sid="tip_z" type="float">-1.575205</tip_z>
+              </technique>
+            </extra>
+          </node>
+          <extra>
+            <technique profile="blender">
+              <layer sid="layer" type="string">0</layer>
+              <roll sid="roll" type="float">3.141572</roll>
+              <tip_x sid="tip_x" type="float">-1.4782e-5</tip_x>
+              <tip_y sid="tip_y" type="float">-2.2</tip_y>
+              <tip_z sid="tip_z" type="float">0</tip_z>
+            </technique>
+          </extra>
+        </node>
+      </node>
+      <node id="Byza_sail" name="Byza_sail" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_controller url="#Norse_Sail_Byza_sail-skin">
+          <skeleton>#Norse_Sail_Norse_Sail_Root</skeleton>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

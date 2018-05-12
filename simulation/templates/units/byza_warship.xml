@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_trireme">
+  <Cost>
+    <BuildTime>40</BuildTime>
+  </Cost>
+  <Footprint>
+    <Square width="14.0" depth="48.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>40</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>1600</Max>
+  </Health>
+  <Identity>
+    <Civ>byza</Civ>
+    <Tooltip>Transport many soldiers across the sea.</Tooltip>
+    <Icon>units/celt_ship_trireme.png</Icon>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed>14</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>structures/byzantines/dromon_warship.xml</Actor>
+  </VisualActor>
+</Entity>
