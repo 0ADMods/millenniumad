@@ -11,9 +11,9 @@
     <Square width="13.0" depth="24.0"/>
     <Height>8.0</Height>
   </Footprint>
-<Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x5</SpawnEntityOnDeath>
-</Health>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>anglo</Civ>
   </Identity>
