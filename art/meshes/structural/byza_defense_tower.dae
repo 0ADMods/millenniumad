@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0 commit date:2018-03-22, commit time:14:10, hash:f4dc9f9d68b</authoring_tool>
     </contributor>
-    <created>2018-05-11T11:53:45</created>
-    <modified>2018-05-11T11:53:45</modified>
+    <created>2018-05-11T17:33:49</created>
+    <modified>2018-05-11T17:33:49</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -1299,7 +1299,7 @@
         </technique_common>
       </source>
       <source id="Byza_defense_tower_rotation_euler_Z-output">
-        <float_array id="Byza_defense_tower_rotation_euler_Z-output-array" count="1">-90</float_array>
+        <float_array id="Byza_defense_tower_rotation_euler_Z-output-array" count="1">0</float_array>
         <technique_common>
           <accessor source="#Byza_defense_tower_rotation_euler_Z-output-array" count="1" stride="1">
             <param name="ANGLE" type="float"/>
@@ -1315,7 +1315,7 @@
         </technique_common>
       </source>
       <source id="Byza_defense_tower_rotation_euler_Z-intangent">
-        <float_array id="Byza_defense_tower_rotation_euler_Z-intangent-array" count="2">2.291667 -90</float_array>
+        <float_array id="Byza_defense_tower_rotation_euler_Z-intangent-array" count="2">2.291667 0</float_array>
         <technique_common>
           <accessor source="#Byza_defense_tower_rotation_euler_Z-intangent-array" count="1" stride="2">
             <param name="X" type="float"/>
@@ -1324,7 +1324,7 @@
         </technique_common>
       </source>
       <source id="Byza_defense_tower_rotation_euler_Z-outtangent">
-        <float_array id="Byza_defense_tower_rotation_euler_Z-outtangent-array" count="2">2.375 -90</float_array>
+        <float_array id="Byza_defense_tower_rotation_euler_Z-outtangent-array" count="2">2.375 0</float_array>
         <technique_common>
           <accessor source="#Byza_defense_tower_rotation_euler_Z-outtangent-array" count="1" stride="2">
             <param name="X" type="float"/>
@@ -1502,7 +1502,7 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="Byza_defense_tower" name="Byza_defense_tower" type="NODE">
-        <matrix sid="transform">7.54979e-8 1 0 0 -1 7.54979e-8 0 0 0 0 1 0 0 0 0 1</matrix>
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
         <instance_geometry url="#Plane-mesh" name="Byza_defense_tower">
           <bind_material>
             <technique_common>
