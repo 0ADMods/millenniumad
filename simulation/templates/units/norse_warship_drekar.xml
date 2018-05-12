@@ -18,7 +18,7 @@
     <Civ>norse</Civ>
     <SpecificName>Drekár</SpecificName>
     <Tooltip>Elite Warship. Trains units and is a resource dropsite.</Tooltip>
-    <Icon>units/viking_longboat.png</Icon>
+    <Icon>units/norse_drekkar.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed>12.5</WalkSpeed>

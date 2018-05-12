@@ -10,7 +10,13 @@
         <prop actor="props/units/shields/anglo_spearman_a.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/norse_sword.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/norse_sword_sheath_empty.xml" attachpoint="sheath_L"/>
-        <prop actor="props/units/cape_animated_swordsman_shield_relax.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Cape">
+      <props>
+        <prop actor="props/units/capes/swordsman_shield_relax.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

@@ -16,7 +16,7 @@
   <Identity>
     <Civ>byza</Civ>
     <Tooltip>Transport many soldiers across the sea.</Tooltip>
-    <Icon>units/celt_ship_trireme.png</Icon>
+    <Icon>units/byza_dromon.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed>14</WalkSpeed>
