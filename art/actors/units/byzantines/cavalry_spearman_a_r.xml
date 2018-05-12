@@ -7,10 +7,21 @@
       <props>
         <prop actor="props/units/helmets/byza_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/byza_round.xml" attachpoint="shield_arm"/>
         <prop actor="props/units/weapons/caro_sheath_sword.xml" attachpoint="sheath_L"/>
         <prop actor="props/units/weapons/caro_cavalry_spear.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/capes/rider/spearman_relax_shield.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="shield-byza-round">
+      <props>
+        <prop actor="props/units/shields/byza_round.xml" attachpoint="shield_arm"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="shield-byza-round-b">
+      <props>
+        <prop actor="props/units/shields/byza_round_b.xml" attachpoint="shield_arm"/>
       </props>
     </variant>
   </group>

@@ -31,9 +31,21 @@
         <texture file="props/shields/caro_metallic_shield_spec.png" name="specTex"/>
       </textures>
     </variant>
+    <variant frequency="1" name="parma-chiro-small-white">
+      <textures>
+        <texture file="props/shields/byza/parma/parma_chiro_small_white.png" name="baseTex"/>
+        <texture file="props/shields/caro_metallic_shield_spec.png" name="specTex"/>
+      </textures>
+    </variant>
     <variant frequency="1" name="parma-ray-yellow">
       <textures>
         <texture file="props/shields/byza/parma/parma_ray_yellow.png" name="baseTex"/>
+        <texture file="props/shields/caro_metallic_shield_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="parma-ray2-white">
+      <textures>
+        <texture file="props/shields/byza/parma/parma_ray2_white.png" name="baseTex"/>
         <texture file="props/shields/caro_metallic_shield_spec.png" name="specTex"/>
       </textures>
     </variant>
