@@ -9,6 +9,7 @@
         <texture file="structural/rome_qui.dds" name="baseTex"/>
       </textures>
       <props>
+        <prop actor="props/units/weapons/jav_projectile.xml" attachpoint="projectile"/>
         <prop actor="props/structures/byzantines/byza_sail.xml" attachpoint="sail_a"/>
         <prop actor="props/structures/byzantines/byza_sail.xml" attachpoint="sail_b"/>
         <prop actor="props/structures/byzantines/byza_sail.xml" attachpoint="sail_c"/>
