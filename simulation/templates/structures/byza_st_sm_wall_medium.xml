@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defense_wall_medium">
+<Entity parent="other/palisades_rocks_medium">
   <Footprint>
     <Square width="26.0" depth="8.5"/>
     <Height>17.0</Height>
   </Footprint>
   <Identity>
     <Civ>byza</Civ>
-    <SelectionGroupName>structures/spart_wallset_stone</SelectionGroupName>
+    <SelectionGroupName>structures/byza_wallset_short</SelectionGroupName>
     <SpecificName>Teîkhos</SpecificName>
+    <Icon>structures/wall.png</Icon>
   </Identity>
   <GarrisonHolder>
     <Max>3</Max>
@@ -28,6 +29,9 @@
       </Archer3>
     </VisibleGarrisonPoints>
   </GarrisonHolder>
+  <Health>
+    <Max>800</Max>
+  </Health>
   <Obstruction>
     <Static width="24.0" depth="8.0"/>
   </Obstruction>

@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>byza</Civ>
-    <SelectionGroupName>structures/spart_wallset_stone</SelectionGroupName>
+    <SelectionGroupName>structures/byza_wallset_short</SelectionGroupName>
     <SpecificName>Teîkhos</SpecificName>
   </Identity>
   <Obstruction>
