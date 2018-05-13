@@ -4,13 +4,13 @@
   <float/>
   <group>
      <variant frequency="1" name="ship_oar">
-      <mesh>props/ship_oar_b.dae</mesh>
+      <mesh>props/ship_oar_short.dae</mesh>
       <textures>
         <texture file="structural/norse_snekkja.png" name="baseTex"/>
       </textures>
       <animations>
         <animation file="other/ship_oar_large_idle_left.dae" name="idle" speed="50"/>
-        <animation file="other/ship_oar_large_move_right.dae" name="Walk" speed="8"/>
+        <animation file="other/ship_oar_large_move_left.dae" name="Walk" speed="8"/>
       </animations>
     </variant>
   </group>

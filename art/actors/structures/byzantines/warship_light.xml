@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+     <variant frequency="1" name="Byzantine Dromon">
+      <mesh>structural/byza_bireme_a.dae</mesh>
+      <textures>
+        <texture file="structural/rome_qui.dds" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="props/units/weapons/jav_projectile.xml" attachpoint="projectile"/>
+        <prop actor="props/structures/byzantines/byza_sail.xml" attachpoint="sail_a"/>
+        <prop actor="props/structures/byzantines/byza_sail.xml" attachpoint="sail_b"/>
+        <prop actor="props/structures/byzantines/bireme_props.xml" attachpoint="root"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_left.xml" attachpoint="oar_1"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_left.xml" attachpoint="oar_2"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_left.xml" attachpoint="oar_3"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_left.xml" attachpoint="oar_4"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_left.xml" attachpoint="oar_5"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_left.xml" attachpoint="oar_6"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_left.xml" attachpoint="oar_7"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_left.xml" attachpoint="oar_8"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_left.xml" attachpoint="oar_9"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_left.xml" attachpoint="oar_10"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_left.xml" attachpoint="oar_11"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_left.xml" attachpoint="oar_12"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_left.xml" attachpoint="oar_13"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_left.xml" attachpoint="oar_14"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_left.xml" attachpoint="oar_15"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_left.xml" attachpoint="oar_16"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_left.xml" attachpoint="oar_17"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_left.xml" attachpoint="oar_17"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_left.xml" attachpoint="oar_18"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_right.xml" attachpoint="oar_19"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_right.xml" attachpoint="oar_20"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_right.xml" attachpoint="oar_21"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_right.xml" attachpoint="oar_22"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_right.xml" attachpoint="oar_23"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_right.xml" attachpoint="oar_24"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_right.xml" attachpoint="oar_25"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_right.xml" attachpoint="oar_26"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_right.xml" attachpoint="oar_27"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_right.xml" attachpoint="oar_28"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_right.xml" attachpoint="oar_29"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_right.xml" attachpoint="oar_30"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_right.xml" attachpoint="oar_31"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_right.xml" attachpoint="oar_32"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_right.xml" attachpoint="oar_33"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_right.xml" attachpoint="oar_34"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_right.xml" attachpoint="oar_35"/>
+        <prop actor="props/structures/byzantines/ship_oar_short_right.xml" attachpoint="oar_36"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

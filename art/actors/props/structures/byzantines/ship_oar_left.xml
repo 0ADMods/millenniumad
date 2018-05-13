@@ -4,7 +4,7 @@
   <float/>
   <group>
      <variant frequency="1" name="ship_oar">
-      <mesh>props/ship_oar.dae</mesh>
+      <mesh>props/ship_oar_b.dae</mesh>
       <textures>
         <texture file="structural/norse_snekkja.png" name="baseTex"/>
       </textures>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_bireme">
+  <Identity>
+    <Civ>byza</Civ>
+    <Icon>units/byza_bireme.png</Icon>
+    <GenericName>Byzantine Galley</GenericName>
+    <SpecificName>Chelandion</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/byzantines/warship_light.xml</Actor>
+  </VisualActor>
+</Entity>

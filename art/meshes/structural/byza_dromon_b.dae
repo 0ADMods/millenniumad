@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0 commit date:2018-03-22, commit time:14:10, hash:f4dc9f9d68b</authoring_tool>
     </contributor>
-    <created>2018-05-12T15:25:41</created>
-    <modified>2018-05-12T15:25:41</modified>
+    <created>2018-05-13T00:49:12</created>
+    <modified>2018-05-13T00:49:12</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -91,9 +91,9 @@
   <library_controllers/>
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
-      <node id="byza_dromon_b" name="byza_dromon_b" type="NODE">
+      <node id="byza_dromon_b_004" name="byza_dromon_b_004" type="NODE">
         <matrix sid="transform">-1 -1.50996e-7 0 0 1.50996e-7 -1 0 0 0 0 1 0 0 0 0 1</matrix>
-        <instance_geometry url="#hele_tri-Geometry_003-mesh" name="byza_dromon_b">
+        <instance_geometry url="#hele_tri-Geometry_003-mesh" name="byza_dromon_b_004">
           <bind_material>
             <technique_common>
               <instance_material symbol="Render-material" target="#Render-material"/>
