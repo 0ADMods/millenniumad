@@ -4,6 +4,17 @@
       <Square width="7.0" depth="20.0"/>
       <Height>10.0</Height>
     </Footprint>
+    <Attack>
+    <Ranged>
+      <Pierce>25.0</Pierce>
+    </Ranged>
+    </Attack>
+    <Health>
+      <Max>600</Max>
+    </Health>
+    <GarrisonHolder>
+      <Max>10</Max>
+    </GarrisonHolder>
     <Identity>
     	<Civ>norse</Civ>
     	<SpecificName>Karvi</SpecificName>

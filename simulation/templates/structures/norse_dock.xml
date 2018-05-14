@@ -19,9 +19,9 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_warship_merchant_karvi
-      units/{civ}_warship_snekkja
-      units/{civ}_warship_drekar
+      units/{civ}_ship_quinquereme
+      units/{civ}_ship_trireme
+      units/{civ}_ship_bireme
     </Entities>
     <Technologies datatype="tokens">
       norse/speed_ships_clinker
