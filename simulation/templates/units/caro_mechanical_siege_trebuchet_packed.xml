@@ -3,10 +3,10 @@
   <Identity>
     <Civ>caro</Civ>
     <SpecificName>Trebuchet</SpecificName>
-    <Icon>units/caro_mechanical_siege_trebuchet.png</Icon>
+    <Icon>units/caro_mechanical_siege_trebuchet_packed.png</Icon>
   </Identity>
   <Pack>
-    <Entity>units/caro_mechanical_siege_trebuchet_unpacked</Entity>
+    <Entity>units/caro_mechanical_siege_trebuchet_packed</Entity>
     <State>packed</State>
   </Pack>
   <VisualActor>
