@@ -10,7 +10,7 @@
 				<texture file="structural/ao/caro_farmstead_ao.png" name="aoTex"/>
 			</textures>
 			<props>
-				<prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
+				<prop actor="props/structures/decals/dirt_6x4.xml" attachpoint="root"/>
 				<prop actor="particle/smoke_curved.xml" attachpoint="smoke"/>
 				<prop actor="props/structures/celts/rotary_mill_grinder.xml" attachpoint="grinder" maxheight="20" minheight="-20"/>
 			</props>

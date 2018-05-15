@@ -5,7 +5,7 @@
     <variant frequency="50" name="Carolingian House A">
       <mesh>structural/caro_house_a.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_4x2.xml" attachpoint="root"/>
         <prop actor="particle/smoke_curved.xml" attachpoint="smoke"/>
       </props>
       <textures>
@@ -17,7 +17,7 @@
     <variant frequency="50" name="Carolingian House B">
       <mesh>structural/caro_house_b.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_4x2.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/caro_struct.png" name="baseTex"/>
