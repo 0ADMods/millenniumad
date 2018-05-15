@@ -34,6 +34,11 @@
       <PreferredClasses datatype="tokens">Ship </PreferredClasses>
     </Ranged>
   </Attack>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/fire/spreading_fire.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
   <Identity>
     <Civ>byza</Civ>
     <Icon>units/byza_bireme.png</Icon>
