@@ -13,12 +13,12 @@
     <Static width="24.0" depth="26.0"/>
   </Obstruction>
   <ProductionQueue>
-	<Entities datatype="tokens">
-	  units/{civ}_champion_cavalry_spearman
-	  units/{civ}_champion_cavalry_swordsman
+    <Entities datatype="tokens">
+      units/{civ}_champion_cavalry_spearman
+      units/{civ}_champion_cavalry_swordsman
       units/{civ}_champion_infantry_swordsman
     </Entities>
-	<Technologies datatype="tokens">
+    <Technologies datatype="tokens">
       siege_attack
       siege_armor
       siege_cost_metal
