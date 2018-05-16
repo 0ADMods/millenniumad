@@ -23,6 +23,11 @@
         <prop actor="props/units/helmets/byza_archer_helmet_basic_iron.xml" attachpoint="helmet"/>
       </props>
     </variant>
+    <variant frequency="1" name="Helmet3">
+      <props>
+        <prop actor="props/units/helmets/byza_concentric.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
   </group>
   <group>
     <variant frequency="1" name="player-padded1-dark">

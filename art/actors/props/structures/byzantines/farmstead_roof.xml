@@ -5,8 +5,8 @@
 		<variant>
 			<mesh>props/byza_farmstead_roof.dae</mesh>
 			<textures>
-				<texture file="structural/caro_struct_b.png" name="baseTex"/>
-				<texture file="structural/caro_struct_b_norm.png" name="normTex"/>
+				<texture file="structural/rome_struct_2.png" name="baseTex"/>
+				<texture file="structural/rome_struct_2_norm.png" name="normTex"/>
 				<texture file="structural/ao/byza_farmstead.png" name="aoTex"/>
 			</textures>
 		</variant>

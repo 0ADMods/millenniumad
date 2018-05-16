@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0 commit date:2018-03-22, commit time:14:10, hash:f4dc9f9d68b</authoring_tool>
+    </contributor>
+    <created>2018-05-16T00:58:14</created>
+    <modified>2018-05-16T00:58:14</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects/>
+  <library_geometries>
+    <geometry id="Plano_027-mesh" name="Plano.027">
+      <mesh>
+        <source id="Plano_027-mesh-positions">
+          <float_array id="Plano_027-mesh-positions-array" count="45">-0.008310914 -0.02490842 2.271215 0.02191048 -0.01475948 2.271215 -0.008310914 0.02490961 2.271215 0.02191048 0.01476067 2.271215 -0.02679395 6.11748e-7 2.271215 -0.008285999 -0.02491378 -0.05971205 0.02184599 -0.01476287 -0.05971205 -0.008285999 0.02491348 -0.05971205 0.02184599 0.01476263 -0.05971205 -0.02671432 -1.20485e-7 -0.05971205 -0.008310258 -0.02490973 -0.0661664 0.02191126 -0.01476079 -0.0661664 -0.008310258 0.0249083 -0.0661664 0.02191126 0.01475936 -0.0661664 -0.0267933 -7.29862e-7 -0.0661664</float_array>
+          <technique_common>
+            <accessor source="#Plano_027-mesh-positions-array" count="15" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plano_027-mesh-normals">
+          <float_array id="Plano_027-mesh-normals-array" count="45">-0.2419564 0.7661545 -0.595369 -0.9999848 0 0.00552392 -0.2991194 0.9542158 1.52596e-4 -0.2405809 -0.7663309 0.5956994 0.8113681 -0.5845232 0.003814816 0.6517414 -0.4686556 0.5963181 -0.2405809 0.7663309 0.5956994 -0.8041774 0 0.5943893 0.6517507 0.4686318 0.5963267 0.8113579 0.5845378 0.00375384 -0.2419308 -0.7662007 -0.5953201 -0.2991194 -0.9542158 2.44154e-4 0.6546136 -0.4684444 -0.5933304 0.6546379 0.4683789 -0.5933552 -0.8075387 0 -0.5898146</float_array>
+          <technique_common>
+            <accessor source="#Plano_027-mesh-normals-array" count="15" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plano_027-mesh-map-0">
+          <float_array id="Plano_027-mesh-map-0-array" count="156">0.2657948 0.9386228 0.2523648 0.7097402 0.2659439 0.7097401 0.2387871 0.3872509 0.2480453 0.7097388 0.2480738 0.3872509 0.2659586 0.3872509 0.2523648 0.7097402 0.2523729 0.3872509 0.2523648 0.7097402 0.2387871 0.3872509 0.2523729 0.3872509 0.2480453 0.7097388 0.2566717 0.3872509 0.2480738 0.3872509 0.2566502 0.7097393 0.2659586 0.3872509 0.2566717 0.3872509 0.2388651 0.9386196 0.2480453 0.7097388 0.2387512 0.7097387 0.2523648 0.7097402 0.2388651 0.9386196 0.2387512 0.7097387 0.248072 0.9384983 0.2566502 0.7097393 0.2480453 0.7097388 0.2566502 0.7097393 0.2657948 0.9386228 0.2659439 0.7097401 0.2389038 0.387281 0.2566213 0.387281 0.26599 0.387281 0.2565906 0.9384993 0.2388651 0.9386196 0.2657948 0.9386228 0.2657948 0.9386228 0.2523275 0.9388606 0.2523648 0.7097402 0.2387871 0.3872509 0.2387512 0.7097387 0.2480453 0.7097388 0.2659586 0.3872509 0.2659439 0.7097401 0.2523648 0.7097402 0.2523648 0.7097402 0.2387512 0.7097387 0.2387871 0.3872509 0.2480453 0.7097388 0.2566502 0.7097393 0.2566717 0.3872509 0.2566502 0.7097393 0.2659439 0.7097401 0.2659586 0.3872509 0.2388651 0.9386196 0.248072 0.9384983 0.2480453 0.7097388 0.2523648 0.7097402 0.2523275 0.9388606 0.2388651 0.9386196 0.248072 0.9384983 0.2565906 0.9384993 0.2566502 0.7097393 0.2566502 0.7097393 0.2565906 0.9384993 0.2657948 0.9386228 0.26599 0.387281 0.2524017 0.387281 0.2389038 0.387281 0.2389038 0.387281 0.2480392 0.387281 0.2566213 0.387281 0.248072 0.9384983 0.2388651 0.9386196 0.2565906 0.9384993 0.2388651 0.9386196 0.2523275 0.9388606 0.2657948 0.9386228</float_array>
+          <technique_common>
+            <accessor source="#Plano_027-mesh-map-0-array" count="78" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plano_027-mesh-vertices">
+          <input semantic="POSITION" source="#Plano_027-mesh-positions"/>
+        </vertices>
+        <triangles count="26">
+          <input semantic="VERTEX" source="#Plano_027-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plano_027-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Plano_027-mesh-map-0" offset="2" set="0"/>
+          <p>12 0 0 9 1 1 7 2 2 0 3 3 6 4 4 1 5 5 2 6 6 9 1 7 4 7 8 9 1 9 0 3 10 4 7 11 6 4 12 3 8 13 1 5 14 8 9 15 2 6 16 3 8 17 10 10 18 6 4 19 5 11 20 9 1 21 10 10 22 5 11 23 11 12 24 8 9 25 6 4 26 8 9 27 12 0 28 7 2 29 0 3 30 3 8 31 2 6 32 13 13 33 10 10 34 12 0 35 12 0 36 14 14 37 9 1 38 0 3 39 5 11 40 6 4 41 2 6 42 7 2 43 9 1 44 9 1 45 5 11 46 0 3 47 6 4 48 8 9 49 3 8 50 8 9 51 7 2 52 2 6 53 10 10 54 11 12 55 6 4 56 9 1 57 14 14 58 10 10 59 11 12 60 13 13 61 8 9 62 8 9 63 13 13 64 12 0 65 2 6 66 4 7 67 0 3 68 0 3 69 1 5 70 3 8 71 11 12 72 10 10 73 13 13 74 10 10 75 14 14 76 12 0 77</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Wood_stave_a" name="Wood_stave_a" type="NODE">
+        <matrix sid="transform">1.6 0 0 0 0 1.6 0 0 0 0 1 -0.3041607 0 0 0 1</matrix>
+        <instance_geometry url="#Plano_027-mesh" name="Wood_stave_a"/>
+        <node id="prop-blade" name="prop-blade" type="NODE">
+          <matrix sid="transform">0.2021434 0 0 0 0 0.2021434 0 0 0 0 0.3234295 2.248333 0 0 0 1</matrix>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
