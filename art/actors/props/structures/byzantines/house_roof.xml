@@ -5,40 +5,40 @@
 		<variant frequency="5" name="House A">
 			<mesh>props/byza_house_a_roof.dae</mesh>
 			<textures>
-				<texture file="structural/caro_struct_b.png" name="baseTex"/>
-				<texture file="structural/caro_struct_b_norm.png" name="normTex"/>
+				<texture file="structural/rome_struct_2.png" name="baseTex"/>
+				<texture file="structural/rome_struct_2_norm.png" name="normTex"/>
 				<texture file="structural/ao/byza_house_a.png" name="aoTex"/>
 			</textures>
 		</variant>
     <variant frequency="5" name="House B">
 			<mesh>props/byza_house_b_roof.dae</mesh>
 			<textures>
-				<texture file="structural/caro_struct_b.png" name="baseTex"/>
-				<texture file="structural/caro_struct_b_norm.png" name="normTex"/>
+				<texture file="structural/rome_struct_2.png" name="baseTex"/>
+				<texture file="structural/rome_struct_2_norm.png" name="normTex"/>
 				<texture file="structural/ao/byza_house_b.png" name="aoTex"/>
 			</textures>
 		</variant>
     <variant frequency="5" name="House C">
 			<mesh>props/byza_house_c_roof.dae</mesh>
 			<textures>
-				<texture file="structural/caro_struct_b.png" name="baseTex"/>
-				<texture file="structural/caro_struct_b_norm.png" name="normTex"/>
+				<texture file="structural/rome_struct_2.png" name="baseTex"/>
+				<texture file="structural/rome_struct_2_norm.png" name="normTex"/>
 				<texture file="structural/ao/byza_house_c.png" name="aoTex"/>
 			</textures>
 		</variant>
     <variant frequency="5" name="House D">
 			<mesh>props/byza_house_d_roof.dae</mesh>
 			<textures>
-				<texture file="structural/caro_struct_b.png" name="baseTex"/>
-				<texture file="structural/caro_struct_b_norm.png" name="normTex"/>
+				<texture file="structural/rome_struct_2.png" name="baseTex"/>
+				<texture file="structural/rome_struct_2_norm.png" name="normTex"/>
 				<texture file="structural/ao/byza_house_d.png" name="aoTex"/>
 			</textures>
 		</variant>
     <variant frequency="5" name="House E">
 			<mesh>props/byza_house_e_roof.dae</mesh>
 			<textures>
-				<texture file="structural/caro_struct_b.png" name="baseTex"/>
-				<texture file="structural/caro_struct_b_norm.png" name="normTex"/>
+				<texture file="structural/rome_struct_2.png" name="baseTex"/>
+				<texture file="structural/rome_struct_2_norm.png" name="normTex"/>
 				<texture file="structural/ao/byza_house_b.png" name="aoTex"/>
 			</textures>
 		</variant>
