@@ -9,6 +9,7 @@
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bow_byza.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/shields/byza_parma.xml" attachpoint="shield_arm"/>
         <prop actor="props/units/quivers/byza_quiver_hip.xml" attachpoint="sheath_L"/>
       </props>
     </variant>
@@ -66,6 +67,24 @@
       <textures>
         <texture file="skeletal/byza/elite/chainmail_pteruges1d.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/chainmail_pteruges1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="lamellar2a">
+      <textures>
+        <texture file="skeletal/byza/elite/lamellar2a.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/lamellar2_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="lamellar2b">
+      <textures>
+        <texture file="skeletal/byza/elite/lamellar2b.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/lamellar2_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="lamellar2c">
+      <textures>
+        <texture file="skeletal/byza/elite/lamellar2c.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/lamellar2_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

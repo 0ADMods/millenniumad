@@ -25,22 +25,49 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="dyed_padded_armor_1a">
+    <variant frequency="1" name="byza-padded1a-pteruges">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/byza_archer_helmet.xml" attachpoint="helmet"/>
+      </props>
+      <textures>
+        <texture file="skeletal/byza/advanced/dyed/padded1a_pteruges.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="byza-padded1b-pteruges">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/byza_archer_helmet.xml" attachpoint="helmet"/>
+      </props>
+      <textures>
+        <texture file="skeletal/byza/advanced/dyed/padded1b_pteruges.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="byza-padded1c-pteruges">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/byza_archer_helmet.xml" attachpoint="helmet"/>
+      </props>
+      <textures>
+        <texture file="skeletal/byza/advanced/dyed/padded1c_pteruges.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="dyed_padded_armor_1a">
       <textures>
         <texture file="skeletal/norse/advanced/dyed/padded1a.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="dyed_padded_armor_1b">
+    <variant frequency="0" name="dyed_padded_armor_1b">
       <textures>
         <texture file="skeletal/norse/advanced/dyed/padded1b.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="dyed_padded_armor_1c">
+    <variant frequency="0" name="dyed_padded_armor_1c">
       <textures>
         <texture file="skeletal/norse/advanced/dyed/padded1c.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="dyed_padded_armor_1d">
+    <variant frequency="0" name="dyed_padded_armor_1d">
       <textures>
         <texture file="skeletal/norse/advanced/dyed/padded1c.png" name="baseTex"/>
       </textures>

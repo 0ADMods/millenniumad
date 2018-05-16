@@ -13,27 +13,63 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="dyed_shirt1a">
+    <variant frequency="1" name="Helmet">
+      <props>
+        <prop actor="props/units/helmets/byza_helmet_basic_iron.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet2">
+      <props>
+        <prop actor="props/units/helmets/byza_archer_helmet_basic_iron.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="byza-padded1a-pteruges">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/byza/advanced/padded1a_pteruges.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="byza-padded1b-pteruges">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/byza/advanced/padded1b_pteruges.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="byza-padded1c-pteruges">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/byza/advanced/padded1c_pteruges.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="byza-padded1c-pteruges-player">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/byza/advanced/padded1_pteruges_player.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="dyed_shirt1a">
       <textures>
         <texture file="skeletal/caro/basic/dyed/dyed1a.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="dyed_shirt1b">
+    <variant frequency="0" name="dyed_shirt1b">
       <textures>
         <texture file="skeletal/caro/basic/dyed/dyed1b.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="dyed_shirt1c">
+    <variant frequency="0" name="dyed_shirt1c">
       <textures>
         <texture file="skeletal/caro/basic/dyed/dyed1c.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="dyed_shirt1d">
+    <variant frequency="0" name="dyed_shirt1d">
       <textures>
         <texture file="skeletal/caro/basic/dyed/dyed1d.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="dyed_shirt1e">
+    <variant frequency="0" name="dyed_shirt1e">
       <textures>
         <texture file="skeletal/caro/basic/dyed/dyed1e.png" name="baseTex"/>
       </textures>
