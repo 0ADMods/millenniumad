@@ -93,7 +93,7 @@
     </variant> 
     <variant name="byza">
       <textures>
-        <texture file="props/banner_byza2.png" name="baseTex"/>
+        <texture file="props/banner_byzan2.png" name="baseTex"/>
       </textures>
     </variant>    
   </group>
