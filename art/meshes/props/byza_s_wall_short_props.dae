@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0 commit date:2018-03-22, commit time:14:10, hash:f4dc9f9d68b</authoring_tool>
+    </contributor>
+    <created>2018-05-17T21:45:29</created>
+    <modified>2018-05-17T21:45:29</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="Byzantines_structures-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.8 0.8 0.8 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Byzantines_structures-material" name="Byzantines_structures">
+      <instance_effect url="#Byzantines_structures-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cube_043-mesh" name="Cube.043">
+      <mesh>
+        <source id="Cube_043-mesh-positions">
+          <float_array id="Cube_043-mesh-positions-array" count="270">-2.019164 -2.751883 11.1006 -3.434248 -2.751883 11.1006 -2.019164 -1.652422 11.1006 -3.434248 -1.652422 11.1006 -0.6040816 -1.652422 11.1006 -0.6040816 -2.751883 11.1006 -4.849333 -1.652422 12.68037 -4.849333 -2.751883 12.68037 -3.434248 -2.751883 12.68037 -3.434248 -1.652422 12.68037 -4.849333 -2.751883 14.53095 -6.264417 -2.751883 14.53095 -4.849333 -1.652422 14.53095 -6.264417 -1.652422 14.53095 -4.849333 -2.202153 14.95453 -3.434248 -2.202153 13.10395 -0.6040816 -2.202153 11.52418 -3.434248 -2.202153 11.52418 -4.849333 -2.202153 13.10395 -6.264417 -2.202153 14.95453 -2.019164 -2.202153 11.52418 -2.019165 2.889439 11.1006 -3.434249 2.889439 11.1006 -2.019165 1.789978 11.1006 -3.434249 1.789978 11.1006 -0.604082 1.789978 11.1006 -0.6040822 2.88944 11.1006 -4.849333 1.789978 12.68037 -4.849334 2.889439 12.68037 -3.434249 2.889439 12.68037 -3.434249 1.789978 12.68037 -4.849334 2.889439 14.53095 -6.264418 2.889439 14.53095 -4.849333 1.789978 14.53095 -6.264417 1.789978 14.53095 -4.849334 2.339708 14.95453 -3.434249 2.339709 13.10395 -0.6040821 2.339709 11.52418 -3.434249 2.339709 11.52418 -4.849334 2.339708 13.10395 -6.264418 2.339708 14.95453 -2.019165 2.339709 11.52418 2.019164 -2.751883 11.1006 3.434248 -2.751883 11.1006 2.019164 -1.652422 11.1006 3.434248 -1.652422 11.1006 0.6040816 -1.652422 11.1006 0.6040816 -2.751883 11.1006 4.849333 -1.652422 12.68037 2.019164 2.88944 11.1006 3.434248 2.88944 11.1006 2.019164 1.789979 11.1006 3.434248 1.789979 11.1006 0.6040813 1.789978 11.1006 0.604081 2.88944 11.1006 4.849333 1.789979 12.68037 4.849332 2.889441 12.68037 3.434248 2.88944 12.68037 3.434248 1.789979 12.68037 4.849332 2.889441 14.53095 6.264416 2.889441 14.53095 4.849333 1.789979 14.53095 6.264417 1.789979 14.53095 4.849332 2.33971 14.95453 3.434248 2.33971 13.10395 0.6040812 2.339709 11.52418 3.434248 2.33971 11.52418 4.849332 2.33971 13.10395 6.264416 2.33971 14.95453 2.019164 2.33971 11.52418 4.849333 -2.751883 12.68037 3.434248 -2.751883 12.68037 3.434248 -1.652422 12.68037 4.849333 -2.751883 14.53095 6.264417 -2.751883 14.53095 4.849333 -1.652422 14.53095 6.264417 -1.652422 14.53095 4.849333 -2.202153 14.95453 3.434248 -2.202153 13.10395 0.6040816 -2.202153 11.52418 3.434248 -2.202153 11.52418 4.849333 -2.202153 13.10395 6.264417 -2.202153 14.95453 2.019164 -2.202153 11.52418 -4.10917e-7 1.789978 11.1006 -5.76932e-7 2.88944 11.1006 -4.93925e-7 2.339709 11.52418 0 -1.652422 11.1006 0 -2.751883 11.1006 0 -2.202153 11.52418</float_array>
+          <technique_common>
+            <accessor source="#Cube_043-mesh-positions-array" count="90" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_043-mesh-normals">
+          <float_array id="Cube_043-mesh-normals-array" count="102">0 -0.6103557 0.7921276 0 -0.6103559 0.7921274 0 0.6103553 0.7921279 0 -0.6103554 0.7921277 0 -0.610355 0.792128 0 0.6103553 0.7921279 0 0.6103554 0.7921277 0 -0.6103557 0.7921274 0 0.6103559 0.7921274 0 0.6103552 0.7921279 0 -0.6103556 0.7921276 0 -0.6103556 0.7921276 0 -0.6103555 0.7921277 0 -0.6103553 0.7921278 0 0.6103552 0.7921279 0 -0.6103555 0.7921277 0 0.610355 0.792128 0 0.6103555 0.7921277 0 0.6103556 0.7921276 0 0.6103557 0.7921274 0 0.6103559 0.7921274 0 -0.6103553 0.7921278 3.10395e-7 -0.6103555 0.7921277 0 -0.6103553 0.7921279 0 -0.6103556 0.7921276 0 0.6103556 0.7921276 -3.10395e-7 0.6103557 0.7921276 0 0.6103553 0.7921278 0 -0.6103552 0.792128 0 -0.6103554 0.7921278 0 0.6103556 0.7921276 0 0.6103557 0.7921276 -3.10396e-7 0.6103554 0.7921277 0 -0.6103554 0.7921279</float_array>
+          <technique_common>
+            <accessor source="#Cube_043-mesh-normals-array" count="34" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_043-mesh-map-0">
+          <float_array id="Cube_043-mesh-map-0-array" count="384">0.8412879 0.9484638 0.7435666 0.9963888 0.8412879 0.9963888 0.799572 0.9484638 0.8412879 0.9963888 0.799572 0.9963888 0.7435666 0.9484638 0.8412879 0.9963888 0.8412879 0.9484638 0.8412879 0.9963888 0.7435666 0.9484638 0.8412879 0.9484638 0.8412878 0.9963888 0.7435667 0.948464 0.8412878 0.948464 0.7435667 0.948464 0.8412878 0.9963888 0.8412878 0.948464 0.7435666 0.9963888 0.8412879 0.9484638 0.8412879 0.9963888 0.8412879 0.9963888 0.7435666 0.9484638 0.7435666 0.9963888 0.7435666 0.9964942 0.8412879 0.9485694 0.8412879 0.9964942 0.8412879 0.9485694 0.7435666 0.9964942 0.8412879 0.9964942 0.799572 0.9963888 0.8412879 0.9484638 0.799572 0.9484638 0.7435666 0.9484638 0.8412879 0.9963888 0.8412879 0.9484638 0.8412878 0.948464 0.7435667 0.9963888 0.8412878 0.9963888 0.8412879 0.9484639 0.7435666 0.9963888 0.8412879 0.9963888 0.799572 0.9484638 0.8412879 0.9963888 0.799572 0.9963888 0.8412879 0.9963888 0.7435666 0.9484638 0.8412879 0.9484639 0.8412878 0.9963888 0.7435667 0.948464 0.8412878 0.948464 0.8412879 0.9963888 0.7435666 0.9484638 0.8412879 0.9484638 0.8412879 0.9485694 0.7435666 0.9964942 0.8412879 0.9964942 0.8412878 0.9484638 0.7435667 0.9963887 0.8412878 0.9963887 0.799572 0.9963888 0.8412879 0.9484638 0.799572 0.9484638 0.7435666 0.9963888 0.8412879 0.9484638 0.8412879 0.9963888 0.7435666 0.9964942 0.8412879 0.9485694 0.8412879 0.9964942 0.7435667 0.9963887 0.8412878 0.9484638 0.8412878 0.9963887 0.8412879 0.9963888 0.799572 0.9484638 0.799572 0.9963888 0.799572 0.9484638 0.8412879 0.9963888 0.799572 0.9963888 0.8412878 0.9484638 0.7435667 0.9963887 0.8412878 0.9963887 0.799572 0.9963888 0.8412879 0.9484638 0.799572 0.9484638 0.8412879 0.9963888 0.7435666 0.9484638 0.8412879 0.9484639 0.7435667 0.9963887 0.8412878 0.9484638 0.8412878 0.9963887 0.8412879 0.9484638 0.799572 0.9963888 0.799572 0.9484638 0.7435666 0.9484638 0.8412879 0.9963888 0.8412879 0.9484639 0.8412879 0.9484638 0.7435666 0.9484638 0.7435666 0.9963888 0.799572 0.9484638 0.8412879 0.9484638 0.8412879 0.9963888 0.7435666 0.9484638 0.7435666 0.9963888 0.8412879 0.9963888 0.8412879 0.9963888 0.7435666 0.9963888 0.7435666 0.9484638 0.8412878 0.9963888 0.7435667 0.9963888 0.7435667 0.948464 0.7435667 0.948464 0.7435667 0.9963888 0.8412878 0.9963888 0.7435666 0.9963888 0.7435666 0.9484638 0.8412879 0.9484638 0.8412879 0.9963888 0.8412879 0.9484638 0.7435666 0.9484638 0.7435666 0.9964942 0.7435666 0.9485693 0.8412879 0.9485694 0.8412879 0.9485694 0.7435666 0.9485693 0.7435666 0.9964942 0.799572 0.9963888 0.8412879 0.9963888 0.8412879 0.9484638 0.7435666 0.9484638 0.7435666 0.9963888 0.8412879 0.9963888 0.8412878 0.948464 0.7435667 0.948464 0.7435667 0.9963888 0.8412879 0.9484639 0.7435666 0.9484638 0.7435666 0.9963888 0.799572 0.9484638 0.8412879 0.9484638 0.8412879 0.9963888 0.8412879 0.9963888 0.7435666 0.9963888 0.7435666 0.9484638 0.8412878 0.9963888 0.7435667 0.9963888 0.7435667 0.948464 0.8412879 0.9963888 0.7435666 0.9963888 0.7435666 0.9484638 0.8412879 0.9485694 0.7435666 0.9485693 0.7435666 0.9964942 0.8412878 0.9484638 0.7435666 0.9484638 0.7435667 0.9963887 0.799572 0.9963888 0.8412879 0.9963888 0.8412879 0.9484638 0.7435666 0.9963888 0.7435666 0.9484638 0.8412879 0.9484638 0.7435666 0.9964942 0.7435666 0.9485693 0.8412879 0.9485694 0.7435667 0.9963887 0.7435666 0.9484638 0.8412878 0.9484638 0.8412879 0.9963888 0.8412879 0.9484638 0.799572 0.9484638 0.799572 0.9484638 0.8412879 0.9484638 0.8412879 0.9963888 0.8412878 0.9484638 0.7435666 0.9484638 0.7435667 0.9963887 0.799572 0.9963888 0.8412879 0.9963888 0.8412879 0.9484638 0.8412879 0.9963888 0.7435666 0.9963888 0.7435666 0.9484638 0.7435667 0.9963887 0.7435666 0.9484638 0.8412878 0.9484638 0.8412879 0.9484638 0.8412879 0.9963888 0.799572 0.9963888 0.7435666 0.9484638 0.7435666 0.9963888 0.8412879 0.9963888</float_array>
+          <technique_common>
+            <accessor source="#Cube_043-mesh-map-0-array" count="192" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_043-mesh-map-1">
+          <float_array id="Cube_043-mesh-map-1-array" count="384">0.7636798 0.9496043 0.7774071 0.9118732 0.7774071 0.9496043 0.8632941 0.6792281 0.8770215 0.6631212 0.8770215 0.6792281 0.3267439 0.9530612 0.3130165 0.9153301 0.3267439 0.9153301 0.2561093 0.9153301 0.2423819 0.9530612 0.2423819 0.9153301 0.199202 0.9530612 0.2129294 0.9153301 0.2129294 0.9530612 0.1844758 0.9530612 0.1707484 0.9153301 0.1844758 0.9153301 0.7489535 0.9496043 0.7352261 0.9118732 0.7489535 0.9118732 0.8058608 0.9496043 0.7921334 0.9118732 0.8058608 0.9118732 0.3130165 0.9530612 0.2992892 0.9153301 0.3130165 0.9153301 0.2698367 0.9153301 0.2561093 0.9530612 0.2561093 0.9153301 0.8770215 0.6792281 0.8907489 0.6631212 0.8907489 0.6792281 0.2139282 0.9153301 0.2276557 0.9530612 0.2139282 0.9530612 0.3551976 0.9153301 0.3414702 0.9530612 0.3414702 0.9153301 0.8480418 0.9118732 0.8343144 0.9496043 0.8343145 0.9118732 0.9065019 0.3036469 0.8927745 0.3197538 0.8927745 0.3036469 0.7774071 0.9496043 0.7911345 0.9118732 0.7911345 0.9496043 0.8627681 0.9496043 0.8764954 0.9118732 0.8764954 0.9496043 0.2845629 0.9530612 0.2982903 0.9153301 0.2982903 0.9530612 0.2708355 0.9530612 0.2845629 0.9153301 0.2845629 0.9530612 0.8490407 0.9496043 0.8627681 0.9118732 0.8627681 0.9496043 0.8927745 0.3036469 0.8790471 0.3197538 0.8790471 0.3036469 0.8343144 0.9496043 0.820587 0.9118732 0.8343145 0.9118732 0.2276557 0.9153301 0.241383 0.9530612 0.2276557 0.9530612 0.3414702 0.9530612 0.3277428 0.9153301 0.3414702 0.9153301 0.8770215 0.695335 0.8632941 0.6792281 0.8770215 0.6792281 0.8790471 0.3036469 0.8927745 0.28754 0.8927745 0.3036469 0.1854746 0.9530612 0.199202 0.9153301 0.199202 0.9530612 0.8927745 0.3036469 0.9065019 0.28754 0.9065019 0.3036469 0.8058608 0.9496043 0.8195881 0.9118732 0.8195881 0.9496043 0.1707484 0.9530612 0.157021 0.9153301 0.1707484 0.9153301 0.8907489 0.695335 0.8770215 0.6792281 0.8907489 0.6792281 0.7626809 0.9496043 0.7489535 0.9118732 0.7626809 0.9118732 0.7636798 0.9496043 0.7636798 0.9118732 0.7774071 0.9118732 0.8632941 0.6792281 0.8632941 0.6631212 0.8770215 0.6631212 0.3267439 0.9530612 0.3130165 0.9530612 0.3130165 0.9153301 0.2561093 0.9153301 0.2561093 0.9530612 0.2423819 0.9530612 0.199202 0.9530612 0.199202 0.9153301 0.2129294 0.9153301 0.1844758 0.9530612 0.1707484 0.9530612 0.1707484 0.9153301 0.7489535 0.9496043 0.7352261 0.9496043 0.7352261 0.9118732 0.8058608 0.9496043 0.7921334 0.9496043 0.7921334 0.9118732 0.3130165 0.9530612 0.2992892 0.9530612 0.2992892 0.9153301 0.2698367 0.9153301 0.2698367 0.9530612 0.2561093 0.9530612 0.8770215 0.6792281 0.8770215 0.6631212 0.8907489 0.6631212 0.2139282 0.9153301 0.2276557 0.9153301 0.2276557 0.9530612 0.3551976 0.9153301 0.3551976 0.9530612 0.3414702 0.9530612 0.8480418 0.9118732 0.8480418 0.9496043 0.8343144 0.9496043 0.9065019 0.3036469 0.9065019 0.3197538 0.8927745 0.3197538 0.7774071 0.9496043 0.7774071 0.9118732 0.7911345 0.9118732 0.8627681 0.9496043 0.8627681 0.9118732 0.8764954 0.9118732 0.2845629 0.9530612 0.2845629 0.9153301 0.2982903 0.9153301 0.2708355 0.9530612 0.2708355 0.9153301 0.2845629 0.9153301 0.8490407 0.9496043 0.8490407 0.9118732 0.8627681 0.9118732 0.8927745 0.3036469 0.8927745 0.3197538 0.8790471 0.3197538 0.8343144 0.9496043 0.820587 0.9496043 0.820587 0.9118732 0.2276557 0.9153301 0.241383 0.9153301 0.241383 0.9530612 0.3414702 0.9530612 0.3277428 0.9530612 0.3277428 0.9153301 0.8770215 0.695335 0.8632941 0.695335 0.8632941 0.6792281 0.8790471 0.3036469 0.8790471 0.28754 0.8927745 0.28754 0.1854746 0.9530612 0.1854746 0.9153301 0.199202 0.9153301 0.8927745 0.3036469 0.8927745 0.28754 0.9065019 0.28754 0.8058608 0.9496043 0.8058608 0.9118732 0.8195881 0.9118732 0.1707484 0.9530612 0.157021 0.9530612 0.157021 0.9153301 0.8907489 0.695335 0.8770215 0.695335 0.8770215 0.6792281 0.7626809 0.9496043 0.7489535 0.9496043 0.7489535 0.9118732</float_array>
+          <technique_common>
+            <accessor source="#Cube_043-mesh-map-1-array" count="192" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_043-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_043-mesh-positions"/>
+        </vertices>
+        <triangles material="Byzantines_structures-material" count="64">
+          <input semantic="VERTEX" source="#Cube_043-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_043-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cube_043-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Cube_043-mesh-map-1" offset="2" set="1"/>
+          <p>71 0 0 81 0 1 78 0 2 88 1 3 79 1 4 89 1 5 3 2 6 20 2 7 2 2 8 41 3 9 24 3 10 23 3 11 35 4 12 34 4 13 33 4 14 13 5 15 14 5 16 12 5 17 18 0 18 8 0 19 15 0 20 36 6 21 28 6 22 39 6 23 17 7 24 0 7 25 20 7 26 21 8 27 38 8 28 41 8 29 89 9 30 46 9 31 87 9 32 52 10 33 69 10 34 51 10 35 61 11 36 68 11 37 63 11 38 58 12 39 67 12 40 64 12 41 84 13 42 65 13 43 86 13 44 78 14 45 48 14 46 72 14 47 77 5 48 76 5 49 75 5 50 83 2 51 45 2 52 44 2 53 42 7 54 80 7 55 83 7 56 73 15 57 82 15 58 77 15 59 86 16 60 54 16 61 85 16 62 67 17 63 57 17 64 64 17 65 66 18 66 49 18 67 69 18 68 68 19 69 59 19 70 63 19 71 16 1 72 88 1 73 89 1 74 85 20 75 37 20 76 86 20 77 31 19 78 40 19 79 35 19 80 86 21 81 25 21 82 84 21 83 36 22 84 27 22 85 30 22 86 19 15 87 10 15 88 14 15 89 4 9 90 89 9 91 87 9 92 6 14 93 15 14 94 9 14 95 71 3 96 70 3 97 81 3 98 88 13 99 47 13 100 79 13 101 3 2 102 17 2 103 20 2 104 41 23 105 38 23 106 24 23 107 35 24 108 40 24 109 34 24 110 13 25 111 19 25 112 14 25 113 18 3 114 7 3 115 8 3 116 36 26 117 29 26 118 28 26 119 17 23 120 1 23 121 0 23 122 21 2 123 22 2 124 38 2 125 89 27 126 79 27 127 46 27 128 52 23 129 66 23 130 69 23 131 61 28 132 62 28 133 68 28 134 58 28 135 55 28 136 67 28 137 84 29 138 53 29 139 65 29 140 78 30 141 81 30 142 48 30 143 77 25 144 82 25 145 76 25 146 83 2 147 80 2 148 45 2 149 42 23 150 43 23 151 80 23 152 73 23 153 74 23 154 82 23 155 86 31 156 65 31 157 54 31 158 67 32 159 56 32 160 57 32 161 66 2 162 50 2 163 49 2 164 68 5 165 60 5 166 59 5 167 16 13 168 5 13 169 88 13 170 85 2 171 26 2 172 37 2 173 31 2 174 32 2 175 40 2 176 86 33 177 37 33 178 25 33 179 36 28 180 39 28 181 27 28 182 19 23 183 11 23 184 10 23 185 4 27 186 16 27 187 89 27 188 6 30 189 18 30 190 15 30 191</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_animations>
+    <animation id="Byza_wall_Short_003_location_X">
+      <source id="Byza_wall_Short_003_location_X-input">
+        <float_array id="Byza_wall_Short_003_location_X-input-array" count="1">2.333333</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_location_X-input-array" count="1" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_location_X-output">
+        <float_array id="Byza_wall_Short_003_location_X-output-array" count="1">0</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_location_X-output-array" count="1" stride="1">
+            <param name="X" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_location_X-interpolation">
+        <Name_array id="Byza_wall_Short_003_location_X-interpolation-array" count="1">BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_location_X-interpolation-array" count="1" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_location_X-intangent">
+        <float_array id="Byza_wall_Short_003_location_X-intangent-array" count="2">2.291667 0</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_location_X-intangent-array" count="1" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_location_X-outtangent">
+        <float_array id="Byza_wall_Short_003_location_X-outtangent-array" count="2">2.375 0</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_location_X-outtangent-array" count="1" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Byza_wall_Short_003_location_X-sampler">
+        <input semantic="INPUT" source="#Byza_wall_Short_003_location_X-input"/>
+        <input semantic="OUTPUT" source="#Byza_wall_Short_003_location_X-output"/>
+        <input semantic="INTERPOLATION" source="#Byza_wall_Short_003_location_X-interpolation"/>
+        <input semantic="IN_TANGENT" source="#Byza_wall_Short_003_location_X-intangent"/>
+        <input semantic="OUT_TANGENT" source="#Byza_wall_Short_003_location_X-outtangent"/>
+      </sampler>
+      <channel source="#Byza_wall_Short_003_location_X-sampler" target="Byza_wall_Short_003/location.X"/>
+    </animation>
+    <animation id="Byza_wall_Short_003_location_Y">
+      <source id="Byza_wall_Short_003_location_Y-input">
+        <float_array id="Byza_wall_Short_003_location_Y-input-array" count="1">2.333333</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_location_Y-input-array" count="1" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_location_Y-output">
+        <float_array id="Byza_wall_Short_003_location_Y-output-array" count="1">-9.493754</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_location_Y-output-array" count="1" stride="1">
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_location_Y-interpolation">
+        <Name_array id="Byza_wall_Short_003_location_Y-interpolation-array" count="1">BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_location_Y-interpolation-array" count="1" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_location_Y-intangent">
+        <float_array id="Byza_wall_Short_003_location_Y-intangent-array" count="2">2.291667 -9.493754</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_location_Y-intangent-array" count="1" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_location_Y-outtangent">
+        <float_array id="Byza_wall_Short_003_location_Y-outtangent-array" count="2">2.375 -9.493754</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_location_Y-outtangent-array" count="1" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Byza_wall_Short_003_location_Y-sampler">
+        <input semantic="INPUT" source="#Byza_wall_Short_003_location_Y-input"/>
+        <input semantic="OUTPUT" source="#Byza_wall_Short_003_location_Y-output"/>
+        <input semantic="INTERPOLATION" source="#Byza_wall_Short_003_location_Y-interpolation"/>
+        <input semantic="IN_TANGENT" source="#Byza_wall_Short_003_location_Y-intangent"/>
+        <input semantic="OUT_TANGENT" source="#Byza_wall_Short_003_location_Y-outtangent"/>
+      </sampler>
+      <channel source="#Byza_wall_Short_003_location_Y-sampler" target="Byza_wall_Short_003/location.Y"/>
+    </animation>
+    <animation id="Byza_wall_Short_003_location_Z">
+      <source id="Byza_wall_Short_003_location_Z-input">
+        <float_array id="Byza_wall_Short_003_location_Z-input-array" count="1">2.333333</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_location_Z-input-array" count="1" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_location_Z-output">
+        <float_array id="Byza_wall_Short_003_location_Z-output-array" count="1">0</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_location_Z-output-array" count="1" stride="1">
+            <param name="Z" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_location_Z-interpolation">
+        <Name_array id="Byza_wall_Short_003_location_Z-interpolation-array" count="1">BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_location_Z-interpolation-array" count="1" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_location_Z-intangent">
+        <float_array id="Byza_wall_Short_003_location_Z-intangent-array" count="2">2.291667 0</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_location_Z-intangent-array" count="1" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_location_Z-outtangent">
+        <float_array id="Byza_wall_Short_003_location_Z-outtangent-array" count="2">2.375 0</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_location_Z-outtangent-array" count="1" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Byza_wall_Short_003_location_Z-sampler">
+        <input semantic="INPUT" source="#Byza_wall_Short_003_location_Z-input"/>
+        <input semantic="OUTPUT" source="#Byza_wall_Short_003_location_Z-output"/>
+        <input semantic="INTERPOLATION" source="#Byza_wall_Short_003_location_Z-interpolation"/>
+        <input semantic="IN_TANGENT" source="#Byza_wall_Short_003_location_Z-intangent"/>
+        <input semantic="OUT_TANGENT" source="#Byza_wall_Short_003_location_Z-outtangent"/>
+      </sampler>
+      <channel source="#Byza_wall_Short_003_location_Z-sampler" target="Byza_wall_Short_003/location.Z"/>
+    </animation>
+    <animation id="Byza_wall_Short_003_rotation_euler_X">
+      <source id="Byza_wall_Short_003_rotation_euler_X-input">
+        <float_array id="Byza_wall_Short_003_rotation_euler_X-input-array" count="1">2.333333</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_rotation_euler_X-input-array" count="1" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_rotation_euler_X-output">
+        <float_array id="Byza_wall_Short_003_rotation_euler_X-output-array" count="1">0</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_rotation_euler_X-output-array" count="1" stride="1">
+            <param name="ANGLE" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_rotation_euler_X-interpolation">
+        <Name_array id="Byza_wall_Short_003_rotation_euler_X-interpolation-array" count="1">BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_rotation_euler_X-interpolation-array" count="1" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_rotation_euler_X-intangent">
+        <float_array id="Byza_wall_Short_003_rotation_euler_X-intangent-array" count="2">2.291667 0</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_rotation_euler_X-intangent-array" count="1" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_rotation_euler_X-outtangent">
+        <float_array id="Byza_wall_Short_003_rotation_euler_X-outtangent-array" count="2">2.375 0</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_rotation_euler_X-outtangent-array" count="1" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Byza_wall_Short_003_rotation_euler_X-sampler">
+        <input semantic="INPUT" source="#Byza_wall_Short_003_rotation_euler_X-input"/>
+        <input semantic="OUTPUT" source="#Byza_wall_Short_003_rotation_euler_X-output"/>
+        <input semantic="INTERPOLATION" source="#Byza_wall_Short_003_rotation_euler_X-interpolation"/>
+        <input semantic="IN_TANGENT" source="#Byza_wall_Short_003_rotation_euler_X-intangent"/>
+        <input semantic="OUT_TANGENT" source="#Byza_wall_Short_003_rotation_euler_X-outtangent"/>
+      </sampler>
+      <channel source="#Byza_wall_Short_003_rotation_euler_X-sampler" target="Byza_wall_Short_003/rotationX.ANGLE"/>
+    </animation>
+    <animation id="Byza_wall_Short_003_rotation_euler_Y">
+      <source id="Byza_wall_Short_003_rotation_euler_Y-input">
+        <float_array id="Byza_wall_Short_003_rotation_euler_Y-input-array" count="1">2.333333</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_rotation_euler_Y-input-array" count="1" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_rotation_euler_Y-output">
+        <float_array id="Byza_wall_Short_003_rotation_euler_Y-output-array" count="1">0</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_rotation_euler_Y-output-array" count="1" stride="1">
+            <param name="ANGLE" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_rotation_euler_Y-interpolation">
+        <Name_array id="Byza_wall_Short_003_rotation_euler_Y-interpolation-array" count="1">BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_rotation_euler_Y-interpolation-array" count="1" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_rotation_euler_Y-intangent">
+        <float_array id="Byza_wall_Short_003_rotation_euler_Y-intangent-array" count="2">2.291667 0</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_rotation_euler_Y-intangent-array" count="1" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_rotation_euler_Y-outtangent">
+        <float_array id="Byza_wall_Short_003_rotation_euler_Y-outtangent-array" count="2">2.375 0</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_rotation_euler_Y-outtangent-array" count="1" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Byza_wall_Short_003_rotation_euler_Y-sampler">
+        <input semantic="INPUT" source="#Byza_wall_Short_003_rotation_euler_Y-input"/>
+        <input semantic="OUTPUT" source="#Byza_wall_Short_003_rotation_euler_Y-output"/>
+        <input semantic="INTERPOLATION" source="#Byza_wall_Short_003_rotation_euler_Y-interpolation"/>
+        <input semantic="IN_TANGENT" source="#Byza_wall_Short_003_rotation_euler_Y-intangent"/>
+        <input semantic="OUT_TANGENT" source="#Byza_wall_Short_003_rotation_euler_Y-outtangent"/>
+      </sampler>
+      <channel source="#Byza_wall_Short_003_rotation_euler_Y-sampler" target="Byza_wall_Short_003/rotationY.ANGLE"/>
+    </animation>
+    <animation id="Byza_wall_Short_003_rotation_euler_Z">
+      <source id="Byza_wall_Short_003_rotation_euler_Z-input">
+        <float_array id="Byza_wall_Short_003_rotation_euler_Z-input-array" count="1">2.333333</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_rotation_euler_Z-input-array" count="1" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_rotation_euler_Z-output">
+        <float_array id="Byza_wall_Short_003_rotation_euler_Z-output-array" count="1">0</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_rotation_euler_Z-output-array" count="1" stride="1">
+            <param name="ANGLE" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_rotation_euler_Z-interpolation">
+        <Name_array id="Byza_wall_Short_003_rotation_euler_Z-interpolation-array" count="1">BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_rotation_euler_Z-interpolation-array" count="1" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_rotation_euler_Z-intangent">
+        <float_array id="Byza_wall_Short_003_rotation_euler_Z-intangent-array" count="2">2.291667 0</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_rotation_euler_Z-intangent-array" count="1" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_rotation_euler_Z-outtangent">
+        <float_array id="Byza_wall_Short_003_rotation_euler_Z-outtangent-array" count="2">2.375 0</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_rotation_euler_Z-outtangent-array" count="1" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Byza_wall_Short_003_rotation_euler_Z-sampler">
+        <input semantic="INPUT" source="#Byza_wall_Short_003_rotation_euler_Z-input"/>
+        <input semantic="OUTPUT" source="#Byza_wall_Short_003_rotation_euler_Z-output"/>
+        <input semantic="INTERPOLATION" source="#Byza_wall_Short_003_rotation_euler_Z-interpolation"/>
+        <input semantic="IN_TANGENT" source="#Byza_wall_Short_003_rotation_euler_Z-intangent"/>
+        <input semantic="OUT_TANGENT" source="#Byza_wall_Short_003_rotation_euler_Z-outtangent"/>
+      </sampler>
+      <channel source="#Byza_wall_Short_003_rotation_euler_Z-sampler" target="Byza_wall_Short_003/rotationZ.ANGLE"/>
+    </animation>
+    <animation id="Byza_wall_Short_003_scale_X">
+      <source id="Byza_wall_Short_003_scale_X-input">
+        <float_array id="Byza_wall_Short_003_scale_X-input-array" count="1">2.333333</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_scale_X-input-array" count="1" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_scale_X-output">
+        <float_array id="Byza_wall_Short_003_scale_X-output-array" count="1">1</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_scale_X-output-array" count="1" stride="1">
+            <param name="X" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_scale_X-interpolation">
+        <Name_array id="Byza_wall_Short_003_scale_X-interpolation-array" count="1">BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_scale_X-interpolation-array" count="1" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_scale_X-intangent">
+        <float_array id="Byza_wall_Short_003_scale_X-intangent-array" count="2">2.291667 1</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_scale_X-intangent-array" count="1" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_scale_X-outtangent">
+        <float_array id="Byza_wall_Short_003_scale_X-outtangent-array" count="2">2.375 1</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_scale_X-outtangent-array" count="1" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Byza_wall_Short_003_scale_X-sampler">
+        <input semantic="INPUT" source="#Byza_wall_Short_003_scale_X-input"/>
+        <input semantic="OUTPUT" source="#Byza_wall_Short_003_scale_X-output"/>
+        <input semantic="INTERPOLATION" source="#Byza_wall_Short_003_scale_X-interpolation"/>
+        <input semantic="IN_TANGENT" source="#Byza_wall_Short_003_scale_X-intangent"/>
+        <input semantic="OUT_TANGENT" source="#Byza_wall_Short_003_scale_X-outtangent"/>
+      </sampler>
+      <channel source="#Byza_wall_Short_003_scale_X-sampler" target="Byza_wall_Short_003/scale.X"/>
+    </animation>
+    <animation id="Byza_wall_Short_003_scale_Y">
+      <source id="Byza_wall_Short_003_scale_Y-input">
+        <float_array id="Byza_wall_Short_003_scale_Y-input-array" count="1">2.333333</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_scale_Y-input-array" count="1" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_scale_Y-output">
+        <float_array id="Byza_wall_Short_003_scale_Y-output-array" count="1">1</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_scale_Y-output-array" count="1" stride="1">
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_scale_Y-interpolation">
+        <Name_array id="Byza_wall_Short_003_scale_Y-interpolation-array" count="1">BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_scale_Y-interpolation-array" count="1" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_scale_Y-intangent">
+        <float_array id="Byza_wall_Short_003_scale_Y-intangent-array" count="2">2.291667 1</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_scale_Y-intangent-array" count="1" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_scale_Y-outtangent">
+        <float_array id="Byza_wall_Short_003_scale_Y-outtangent-array" count="2">2.375 1</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_scale_Y-outtangent-array" count="1" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Byza_wall_Short_003_scale_Y-sampler">
+        <input semantic="INPUT" source="#Byza_wall_Short_003_scale_Y-input"/>
+        <input semantic="OUTPUT" source="#Byza_wall_Short_003_scale_Y-output"/>
+        <input semantic="INTERPOLATION" source="#Byza_wall_Short_003_scale_Y-interpolation"/>
+        <input semantic="IN_TANGENT" source="#Byza_wall_Short_003_scale_Y-intangent"/>
+        <input semantic="OUT_TANGENT" source="#Byza_wall_Short_003_scale_Y-outtangent"/>
+      </sampler>
+      <channel source="#Byza_wall_Short_003_scale_Y-sampler" target="Byza_wall_Short_003/scale.Y"/>
+    </animation>
+    <animation id="Byza_wall_Short_003_scale_Z">
+      <source id="Byza_wall_Short_003_scale_Z-input">
+        <float_array id="Byza_wall_Short_003_scale_Z-input-array" count="1">2.333333</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_scale_Z-input-array" count="1" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_scale_Z-output">
+        <float_array id="Byza_wall_Short_003_scale_Z-output-array" count="1">1</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_scale_Z-output-array" count="1" stride="1">
+            <param name="Z" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_scale_Z-interpolation">
+        <Name_array id="Byza_wall_Short_003_scale_Z-interpolation-array" count="1">BEZIER</Name_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_scale_Z-interpolation-array" count="1" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_scale_Z-intangent">
+        <float_array id="Byza_wall_Short_003_scale_Z-intangent-array" count="2">2.291667 1</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_scale_Z-intangent-array" count="1" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Byza_wall_Short_003_scale_Z-outtangent">
+        <float_array id="Byza_wall_Short_003_scale_Z-outtangent-array" count="2">2.375 1</float_array>
+        <technique_common>
+          <accessor source="#Byza_wall_Short_003_scale_Z-outtangent-array" count="1" stride="2">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Byza_wall_Short_003_scale_Z-sampler">
+        <input semantic="INPUT" source="#Byza_wall_Short_003_scale_Z-input"/>
+        <input semantic="OUTPUT" source="#Byza_wall_Short_003_scale_Z-output"/>
+        <input semantic="INTERPOLATION" source="#Byza_wall_Short_003_scale_Z-interpolation"/>
+        <input semantic="IN_TANGENT" source="#Byza_wall_Short_003_scale_Z-intangent"/>
+        <input semantic="OUT_TANGENT" source="#Byza_wall_Short_003_scale_Z-outtangent"/>
+      </sampler>
+      <channel source="#Byza_wall_Short_003_scale_Z-sampler" target="Byza_wall_Short_003/scale.Z"/>
+    </animation>
+  </library_animations>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Byza_wall_Short_003" name="Byza_wall_Short_003" type="NODE">
+        <matrix sid="transform">0.9999999 0 0 0 0 0.9999999 0 0 0 0 0.9999999 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_043-mesh" name="Byza_wall_Short_003">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Byzantines_structures-material" target="#Byzantines_structures-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

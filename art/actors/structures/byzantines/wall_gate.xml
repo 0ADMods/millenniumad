@@ -12,6 +12,7 @@
       <props>
         <prop actor="props/structures/byzantines/wall_gate_door.xml" attachpoint="door_a"/>
         <prop actor="props/structures/byzantines/wall_gate_door.xml" attachpoint="door_b"/>
+        <prop actor="props/structures/byzantines/wall_gate_props.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
@@ -19,6 +20,7 @@
     <variant frequency="1" name="alive"/>
     <variant name="death">
       <props>
+        <prop actor="props/structures/byzantines/wall_gate_props.xml" attachpoint="root"/>
         <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
