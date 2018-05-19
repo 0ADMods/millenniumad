@@ -48,6 +48,6 @@
     <Range>88</Range>
   </Vision>
   <VisualActor>
-    <Actor>units/caro/siege_trebuchet.xml</Actor>
+    <Actor>units/caro/siege_traction_trebuchet.xml</Actor>
   </VisualActor>
 </Entity>

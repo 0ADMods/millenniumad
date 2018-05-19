@@ -3,7 +3,7 @@
   <Identity>
     <Civ>byza</Civ>
     <SpecificName>Ploîon Halieutikón</SpecificName>
-    <Icon>units/norse_fishing_ship.png</Icon>
+    <Icon>units/byza_fishing_ship.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/byzantines/fishing_boat.xml</Actor>

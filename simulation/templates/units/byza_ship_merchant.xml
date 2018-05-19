@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>byza</Civ>
-    <Icon>units/ptol_ship_merchant.png</Icon>
+    <Icon>units/byza_merchant_ship.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/byzantines/merchant_ship.xml</Actor>
