@@ -90,7 +90,7 @@
   <group>
     <variant frequency="1" name="Idle"/>
     <variant file="biped/death_infantry.xml"/>
-    <variant file="biped/attack_ranged_traction_trebuchet.xml" name="attack_ranged"/>
+    <variant file="biped/attack_ranged_trebuchet.xml" name="attack_ranged"/>
   </group>
   <material>player_trans.xml</material>
 </actor>

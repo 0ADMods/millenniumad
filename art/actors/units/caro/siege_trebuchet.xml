@@ -18,9 +18,9 @@
         <prop actor="props/units/rock_pile.xml" attachpoint="ammo_1"/>
         <prop actor="props/units/rock_pile.xml" attachpoint="ammo_2"/>
         <prop actor="props/units/trebuchet_rocks.xml" attachpoint="weight"/>
-        <prop actor="units/caro/trebuchet_operator_a.xml" attachpoint="engineer_1"/>
-        <prop actor="units/caro/trebuchet_operator_b.xml" attachpoint="engineer_2"/>
-        <prop actor="units/caro/trebuchet_operator_c.xml" attachpoint="engineer_3"/>
+        <prop actor="units/caro/trebuchet_operator_e.xml" attachpoint="engineer_1"/>
+        <prop actor="units/caro/trebuchet_operator_f.xml" attachpoint="engineer_2"/>
+        <prop actor="units/caro/trebuchet_operator_g.xml" attachpoint="engineer_3"/>
       </props>
     </variant>
   </group>

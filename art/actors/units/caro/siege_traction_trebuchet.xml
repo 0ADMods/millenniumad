@@ -2,12 +2,12 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="Byza Trebuchet">
+    <variant name="Caro Trebuchet">
       <animations>
         <animation file="mechanical/traction_trebuchet_idle.dae" name="Idle" speed="100" />
         <animation file="mechanical/traction_trebuchet_attack.dae" event="0.11" load="0.85" name="attack_ranged" speed="80"/>
       </animations>
-      <mesh>structural/byza_trebuchet.dae</mesh>
+      <mesh>structural/caro_traction_trebuchet.dae</mesh>
       <textures>
         <texture file="structural/hele_siege.dds" name="baseTex"/>
       </textures>
@@ -16,10 +16,10 @@
         <prop actor="props/units/weapons/rock.xml" attachpoint="projectile"/>
         <prop actor="props/units/rock_pile.xml" attachpoint="ammo_1"/>
         <prop actor="props/units/rock_pile.xml" attachpoint="ammo_2"/>
-        <prop actor="units/byzantines/trebuchet_operator_a.xml" attachpoint="engineer_4"/>
-        <prop actor="units/byzantines/trebuchet_operator_b.xml" attachpoint="engineer_3"/>
-        <prop actor="units/byzantines/trebuchet_operator_c.xml" attachpoint="engineer_2"/>
-        <prop actor="units/byzantines/trebuchet_operator_c.xml" attachpoint="engineer_1"/>
+        <prop actor="units/caro/trebuchet_operator_d.xml" attachpoint="engineer_1"/>
+        <prop actor="units/caro/trebuchet_operator_c.xml" attachpoint="engineer_2"/>
+        <prop actor="units/caro/trebuchet_operator_b.xml" attachpoint="engineer_3"/>
+        <prop actor="units/caro/trebuchet_operator_a.xml" attachpoint="engineer_4"/>
       </props>
     </variant>
   </group>

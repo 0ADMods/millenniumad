@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_siege_onager">
   <Identity>
-    <Civ>caro</Civ>
+    <Civ>byza</Civ>
     <SpecificName>Trebuchet</SpecificName>
     <Icon>units/caro_mechanical_siege_trebuchet_packed.png</Icon>
   </Identity>
   <Pack>
-    <Entity>units/caro_mechanical_siege_trebuchet_unpacked</Entity>
+    <Entity>units/byza_mechanical_siege_traction_trebuchet_unpacked</Entity>
     <State>packed</State>
   </Pack>
   <VisualActor>
-    <Actor>units/caro/siege_trebuchet_pivot_packed.xml</Actor>
+    <Actor>units/byzantines/siege_trebuchet_pivot_packed.xml</Actor>
   </VisualActor>
 </Entity>

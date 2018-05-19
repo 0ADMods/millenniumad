@@ -30,14 +30,14 @@
   </ResourceDropsite>
   <ProductionQueue>
     <Entities datatype="tokens">
-	  units/{civ}_support_trader
-	  units/{civ}_infantry_spearman_e
+      units/{civ}_support_trader
+      units/{civ}_infantry_spearman_e
       units/{civ}_infantry_swordsman_e
       units/{civ}_infantry_archer_e
-	  units/{civ}_champion_cavalry
-	  units/{civ}_champion_infantry
-	  units/{civ}_mechanical_siege_ram
-	  units/{civ}_mechanical_siege_trebuchet_packed
+      units/{civ}_champion_cavalry
+      units/{civ}_champion_infantry
+      units/{civ}_mechanical_siege_ram
+      units/{civ}_mechanical_siege_traction_trebuchet_packed
     </Entities>
   </ProductionQueue>
   <VisualActor>

@@ -7,7 +7,8 @@
         <prop actor="units/caro/trebuchet_operator.xml" attachpoint="engineer_a" maxheight="20" minheight="-20"/>
         <prop actor="units/caro/trebuchet_operator.xml" attachpoint="engineer_b" maxheight="20" minheight="-20"/>
         <prop actor="units/caro/trebuchet_operator.xml" attachpoint="engineer_c" maxheight="20" minheight="-20"/>
-        <prop actor="units/caro/siege_trebuchet_packed.xml" attachpoint="whagon"/>
+        <prop actor="units/caro/trebuchet_operator.xml" attachpoint="engineer_d" maxheight="20" minheight="-20"/>
+        <prop actor="units/caro/siege_traction_trebuchet_packed.xml" attachpoint="whagon"/>
       </props>
       <textures>
         <texture file="structural/hele_siege.dds" name="baseTex"/>

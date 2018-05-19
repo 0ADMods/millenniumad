@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0 commit date:2018-03-22, commit time:14:10, hash:f4dc9f9d68b</authoring_tool>
     </contributor>
-    <created>2018-04-24T18:08:35</created>
-    <modified>2018-04-24T18:08:35</modified>
+    <created>2018-05-18T20:16:06</created>
+    <modified>2018-05-18T20:16:06</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -73,6 +73,9 @@
         </node>
         <node id="prop-engineer_c" name="prop-engineer_c" type="NODE">
           <matrix sid="transform">0.686004 0 0 16.48174 0 0.686004 0 -0.690866 0 0 0.686004 1.34102e-6 0 0 0 1</matrix>
+        </node>
+        <node id="prop-engineer_d" name="prop-engineer_d" type="NODE">
+          <matrix sid="transform">0.686004 0 0 16.48174 0 0.686004 0 7.449513 0 0 0.686004 1.34102e-6 0 0 0 1</matrix>
         </node>
       </node>
     </visual_scene>
