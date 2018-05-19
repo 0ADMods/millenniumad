@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Fortress">
+      <mesh>structural/byza_fortress.dae</mesh>
+      <textures>
+				<texture file="structural/byzantine_struct.png" name="baseTex"/>
+				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/byza_fortress.png" name="aoTex"/>
+			</textures>
+      <props>
+        <prop actor="props/structures/byzantines/wall_gate_door.xml" attachpoint="door"/>
+        <prop actor="props/structures/byzantines/fortress_roof.xml" attachpoint="root"/>
+        <prop actor="props/structures/byzantines/fortress_floor.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/byza_paramerion.xml" attachpoint="sword_1"/>
+        <prop actor="props/units/weapons/byza_paramerion.xml" attachpoint="sword_2"/>
+        <prop actor="props/units/weapons/byza_axe.xml" attachpoint="sword_3"/>
+        <prop actor="props/units/weapons/caro_infantry_sword.xml" attachpoint="sword_4"/>
+        <prop actor="props/units/weapons/spear_long_player_colour.xml" attachpoint="spear_1"/>
+        <prop actor="props/units/weapons/caro_cavalry_spear.xml" attachpoint="spear_2"/>
+        <prop actor="props/units/weapons/spear_long_player_colour.xml" attachpoint="spear_3"/>
+        <prop actor="props/units/weapons/caro_cavalry_spear.xml" attachpoint="spear_4"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop actor="props/structures/byzantines/fortress_floor.xml" attachpoint="root"/>
+        <prop actor="props/structures/byzantines/fortress_roof.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+<material>player_trans_ao_parallax.xml</material>
+</actor>

@@ -6,6 +6,8 @@
       <mesh>structural/caro_sentry_tower.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
       <textures>
         <texture file="structural/caro_struct.png" name="baseTex"/>

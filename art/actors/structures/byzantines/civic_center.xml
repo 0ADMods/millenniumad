@@ -14,6 +14,8 @@
         <prop actor="props/structures/byzantines/civic_center_front.xml" attachpoint="root"/>
         <prop actor="structures/byzantines/civic_center_b.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
     </variant>
   </group>

@@ -11,6 +11,8 @@
 			</textures>
       <props>
         <prop actor="props/structures/byzantines/wall_tower_sq_props.xml" attachpoint="root"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
     </variant>
   </group>
