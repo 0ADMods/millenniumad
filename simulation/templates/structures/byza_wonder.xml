@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_wonder">
+  <Footprint>
+    <Square width="72" depth="85"/>
+    <Height>25.0</Height>
+  </Footprint>
+  <Health>
+    <Max>4400</Max>
+  </Health>
+  <Identity>
+    <Civ>byza</Civ>
+    <SpecificName>Ἁγία Σοφία</SpecificName>
+    <GenericName>Hagia Sophia </GenericName>
+  </Identity>
+  <Obstruction>
+    <Static width="68.6" depth="83"/>
+  </Obstruction>
+  <StatusBars>
+    <BarWidth>6.0</BarWidth>
+    <BarHeight>0.6</BarHeight>
+    <HeightOffset>12.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
+    <Actor>structures/byzantines/wonder.xml</Actor>
+  </VisualActor>
+</Entity>

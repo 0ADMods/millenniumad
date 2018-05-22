@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Wonder_domes">
+      <mesh>props/byza_wonder_domes.dae</mesh>
+      <textures>
+				<texture file="structural/byzantine_struct_b.png" name="baseTex"/>
+				<texture file="structural/byzantine_struct_b_norm.png" name="normTex"/>
+        <texture file="structural/ao/byza_wonder_domes.png" name="aoTex"/>
+			</textures>
+    </variant>
+  </group>
+<material>player_trans_parallax.xml</material>
+</actor>
