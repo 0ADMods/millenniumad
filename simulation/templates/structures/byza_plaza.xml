@@ -13,5 +13,6 @@
   </Obstruction>
   <VisualActor>
     <Actor>structures/byzantines/plaza.xml</Actor>
+    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
   </VisualActor>
 </Entity>

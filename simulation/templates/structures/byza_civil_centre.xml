@@ -23,5 +23,6 @@
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/byzantines/civic_center.xml</Actor>
+    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -21,7 +21,7 @@
     <HeightOffset>12.0</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
+    <FoundationActor>structures/fndn_hagia_sophia.xml</FoundationActor>
     <Actor>structures/byzantines/wonder.xml</Actor>
   </VisualActor>
 </Entity>

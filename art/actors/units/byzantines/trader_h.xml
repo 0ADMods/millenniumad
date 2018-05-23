@@ -2,17 +2,58 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="100" name="Mesh">
-      <animations>
-        <animation file="quadraped/donkey_idle_01.dae" name="idle" speed="10"/>
-        <animation file="quadraped/donkey_death_01.dae" name="death" speed="40"/>
-        <animation file="quadraped/donkey_walk_01.dae" name="walk" speed="25"/>
-      </animations>
-      <mesh>skeletal/donkey.dae</mesh>
+    <variant frequency="1" file="quadraped/base_horse_trader.xml" name="Trader Horse">
+      <mesh>skeletal/horse.dae</mesh>
       <props>
-        <prop actor="props/units/horse/donkey_pack_01.xml" attachpoint="saddle"/>
+        <prop actor="props/horse/trader_blanket.xml" attachpoint="root"/>
+        <prop actor="props/units/horse/horse_chest_colorband.xml" attachpoint="chest"/>
       </props>
-      <textures><texture file="skeletal/animal_donkey.dds" name="baseTex"/></textures>
     </variant>
   </group>
+  <group>
+    <variant frequency="1" name="horse 01">
+      <textures>
+        <texture file="skeletal/horse_rome_csp_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="horse 03">
+      <textures>
+        <texture file="skeletal/horse_rome_csp_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="horse 04">
+      <textures>
+        <texture file="skeletal/horse_rome_csp_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="15" name="white">
+      <color>255 255 255</color>
+    </variant>
+    <variant frequency="16" name="black">
+      <color>44 39 37</color>
+    </variant>
+    <variant frequency="17" name="brown">
+      <color>115 89 55</color>
+    </variant>
+    <variant frequency="16" name="chestnut">
+      <color>204 138 94</color>
+    </variant>
+    <variant frequency="17" name="dun">
+      <color>210 185 138</color>
+    </variant>
+    <variant frequency="17" name="gray">
+      <color>138 138 138</color>
+    </variant>
+    <variant frequency="17" name="tan">
+      <color>171 157 107</color>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="quadraped/base_horse_death.xml"/>
+    <variant file="quadraped/base_horse_run.xml"/>
+  </group>
+  <material>objectcolor.xml</material>
 </actor>
