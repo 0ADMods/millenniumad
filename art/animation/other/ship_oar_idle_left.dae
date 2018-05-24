@@ -5,14 +5,14 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0 commit date:2018-03-22, commit time:14:10, hash:f4dc9f9d68b</authoring_tool>
     </contributor>
-    <created>2018-04-12T21:43:39</created>
-    <modified>2018-04-12T21:43:39</modified>
+    <created>2018-05-12T06:45:55</created>
+    <modified>2018-05-12T06:45:55</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_images/>
   <library_effects>
-    <effect id="drakkar_render-effect">
+    <effect id="drakkar_render_001-effect">
       <profile_COMMON>
         <technique sid="common">
           <phong>
@@ -40,8 +40,8 @@
     </effect>
   </library_effects>
   <library_materials>
-    <material id="drakkar_render-material" name="drakkar_render">
-      <instance_effect url="#drakkar_render-effect"/>
+    <material id="drakkar_render_001-material" name="drakkar_render_001">
+      <instance_effect url="#drakkar_render_001-effect"/>
     </material>
   </library_materials>
   <library_geometries>
@@ -79,7 +79,7 @@
         <vertices id="longboat_004-mesh-vertices">
           <input semantic="POSITION" source="#longboat_004-mesh-positions"/>
         </vertices>
-        <triangles material="drakkar_render-material" count="36">
+        <triangles material="drakkar_render_001-material" count="36">
           <input semantic="VERTEX" source="#longboat_004-mesh-vertices" offset="0"/>
           <input semantic="NORMAL" source="#longboat_004-mesh-normals" offset="1"/>
           <input semantic="TEXCOORD" source="#longboat_004-mesh-map-0" offset="2" set="0"/>
@@ -99,7 +99,7 @@
         </technique_common>
       </source>
       <source id="Armature_Row_Root_pose_matrix-output">
-        <float_array id="Armature_Row_Root_pose_matrix-output-array" count="32">1 2.3655e-14 -3.89414e-7 0 -2.27668e-14 -1 -1.19209e-7 0 -3.89414e-7 1.19209e-7 -1 -0.4598936 0 0 0 1 1 2.3655e-14 -3.89414e-7 0 -2.27668e-14 -1 -1.19209e-7 0 -3.89414e-7 1.19209e-7 -1 -0.4598936 0 0 0 1</float_array>
+        <float_array id="Armature_Row_Root_pose_matrix-output-array" count="32">0.9999996 -8.7195e-6 -9.38658e-4 0 8.74997e-6 -0.9998268 0.01860949 0 -9.38658e-4 -0.01860949 -0.9998264 -0.4598936 0 0 0 1 0.9999996 -8.7195e-6 -9.38658e-4 0 8.74997e-6 -0.9998268 0.01860949 0 -9.38658e-4 -0.01860949 -0.9998264 -0.4598936 0 0 0 1</float_array>
         <technique_common>
           <accessor source="#Armature_Row_Root_pose_matrix-output-array" count="2" stride="16">
             <param name="TRANSFORM" type="float4x4"/>
@@ -131,7 +131,7 @@
         </technique_common>
       </source>
       <source id="Armature_Row_Bone_pose_matrix-output">
-        <float_array id="Armature_Row_Bone_pose_matrix-output-array" count="32">0.7523162 -0.06215824 0.6558633 0.02587659 0.3638257 0.869157 -0.3349581 -0.3506801 -0.5492278 0.4906143 0.6764957 -0.6614543 0 0 0 1 0.7523162 -0.06215824 0.6558633 0.02587659 0.3638257 0.869157 -0.3349581 -0.3506801 -0.5492278 0.4906143 0.6764957 -0.6614543 0 0 0 1</float_array>
+        <float_array id="Armature_Row_Bone_pose_matrix-output-array" count="32">-0.06504821 0.003561056 0.9978759 0.02587674 0.7769154 0.6277416 0.04840427 0.2033427 -0.6262359 0.7784137 -0.04360015 -0.3447394 0 0 0 1 -0.06504821 0.003561056 0.9978759 0.02587674 0.7769154 0.6277416 0.04840427 0.2033427 -0.6262359 0.7784137 -0.04360015 -0.3447394 0 0 0 1</float_array>
         <technique_common>
           <accessor source="#Armature_Row_Bone_pose_matrix-output-array" count="2" stride="16">
             <param name="TRANSFORM" type="float4x4"/>
@@ -234,7 +234,7 @@
           <skeleton>#Armature_Row_Root</skeleton>
           <bind_material>
             <technique_common>
-              <instance_material symbol="drakkar_render-material" target="#drakkar_render-material"/>
+              <instance_material symbol="drakkar_render_001-material" target="#drakkar_render_001-material"/>
             </technique_common>
           </bind_material>
         </instance_controller>

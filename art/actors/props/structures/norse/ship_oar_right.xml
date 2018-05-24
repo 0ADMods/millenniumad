@@ -9,7 +9,7 @@
         <texture file="structural/norse_snekkja.png" name="baseTex"/>
       </textures>
       <animations>
-        <animation file="other/ship_oar_idle_right.dae" name="idle" speed="50"/>
+        <animation file="other/ship_oar_idle_left.dae" name="idle" speed="50"/>
         <animation file="other/ship_oar_move_right.dae" name="Walk" speed="8"/>
       </animations>
     </variant>
