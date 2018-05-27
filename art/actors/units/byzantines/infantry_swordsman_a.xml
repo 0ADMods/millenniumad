@@ -12,9 +12,21 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Coif">
+    <variant frequency="1" name="Helmet-byzantine">
       <props>
-        <prop actor="props/units/helmets/byza_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/byza_helmet_basic_iron.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/byza_coif_swordsman_shield_relax_chainmail.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-archer">
+      <props>
+        <prop actor="props/units/helmets/byza_archer_helmet_basic_iron.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/byza_coif_swordsman_shield_relax_chainmail.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-concentric">
+      <props>
+        <prop actor="props/units/helmets/byza_concentric.xml" attachpoint="helmet"/>
         <prop actor="props/units/helmets/byza_coif_swordsman_shield_relax_chainmail.xml" attachpoint="root"/>
       </props>
     </variant>
@@ -44,6 +56,30 @@
     </variant>
   </group>
   <group>
+    <variant frequency="1" name="byza-padded1a-pteruges">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/byza/advanced/padded1a_pteruges.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="byza-padded1b-pteruges">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/byza/advanced/padded1b_pteruges.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="byza-padded1c-pteruges">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/byza/advanced/padded1c_pteruges.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="byza-padded1c-pteruges-player">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/byza/advanced/padded1_pteruges_player.png" name="baseTex"/>
+      </textures>
+    </variant>
     <variant frequency="1" name="player-padded1-dark">
       <textures>
         <texture file="skeletal/norse/advanced/player/padded1dark.png" name="baseTex"/>
@@ -67,31 +103,6 @@
     <variant frequency="1" name="player-padded5">
       <textures>
         <texture file="skeletal/norse/advanced/player/padded5.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="dyed_shirt1a">
-      <textures>
-        <texture file="skeletal/caro/advanced/dyed/dyed1a.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="dyed_shirt1b">
-      <textures>
-        <texture file="skeletal/caro/advanced/dyed/dyed1b.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="dyed_shirt1c">
-      <textures>
-        <texture file="skeletal/caro/advanced/dyed/dyed1c.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="dyed_shirt1d">
-      <textures>
-        <texture file="skeletal/caro/advanced/dyed/dyed1d.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="dyed_shirt1e">
-      <textures>
-        <texture file="skeletal/caro/advanced/dyed/dyed1e.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

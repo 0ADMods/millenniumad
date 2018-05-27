@@ -31,6 +31,30 @@
     </variant>
   </group>
   <group>
+    <variant frequency="1" name="byza-padded1a-pteruges">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/byza/advanced/padded1a_pteruges.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="byza-padded1b-pteruges">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/byza/advanced/padded1b_pteruges.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="byza-padded1c-pteruges">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/byza/advanced/padded1c_pteruges.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="byza-padded1c-pteruges-player">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/byza/advanced/padded1_pteruges_player.png" name="baseTex"/>
+      </textures>
+    </variant>
     <variant frequency="1" name="player-padded1-dark">
       <textures>
         <texture file="skeletal/norse/advanced/player/padded1dark.png" name="baseTex"/>

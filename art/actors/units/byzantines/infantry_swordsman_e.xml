@@ -41,17 +41,23 @@
         <prop actor="props/units/helmets/byza_coif_swordsman_shield_relax_chainmail.xml" attachpoint="root"/>
       </props>
     </variant>
+    <variant frequency="1" name="cloth-helm+leather-coif">
+      <props>
+        <prop actor="props/units/helmets/byza_cloth_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/byza_coif_swordsman_leather.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/byza_chainmail_swordsman_relax_open_face.xml" attachpoint="root"/>
+      </props>
+    </variant>
     <variant frequency="1" name="cloth-helm+chainmail-coif">
       <props>
         <prop actor="props/units/helmets/byza_cloth_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/helmets/byza_coif_swordsman_shield_relax_chainmail.xml" attachpoint="root"/>
       </props>
     </variant>
-    <variant frequency="1" name="cloth-helm+leather-coif">
+    <variant frequency="1" name="concentric-helm+chainmail-coif">
       <props>
-        <prop actor="props/units/helmets/byza_cloth_helmet.xml" attachpoint="helmet"/>
-        <prop actor="props/units/helmets/byza_coif_swordsman_leather.xml" attachpoint="root"/>
-        <prop actor="props/units/helmets/byza_chainmail_swordsman_relax_open_face.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/byza_concentric.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/byza_coif_swordsman_shield_relax_chainmail.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

@@ -5,7 +5,7 @@
     <variant>
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_german_a.xml" attachpoint="head"/>
         <prop actor="props/units/shields/norse_swordsman_e.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/caro_infantry_sheath.xml" attachpoint="sheath_L"/>
       </props>
@@ -15,14 +15,16 @@
     <variant frequency="1" name="Coif+Helmet">
       <props>
         <prop actor="props/units/helmets/byza_helmet_basic.xml" attachpoint="helmet"/>
-        <prop actor="props/units/helmets/byza_coif_swordsman_shield_relax_chainmail.xml" attachpoint="root"/>
+        <prop actor="props/units/heads/new/head_german_a.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/byza_coif_swordsman_shield_relax_chainmail_full.xml" attachpoint="root"/>
         <prop actor="props/units/capes/cape_long_swordsman_relax_coif.xml" attachpoint="root"/>
       </props>
     </variant>
     <variant frequency="1" name="Coif+Helmet2">
       <props>
         <prop actor="props/units/helmets/byza_archer_helmet_basic.xml" attachpoint="helmet"/>
-        <prop actor="props/units/helmets/byza_coif_swordsman_shield_relax_chainmail.xml" attachpoint="root"/>
+        <prop actor="props/units/heads/new/head_german_a.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/byza_coif_swordsman_shield_relax_chainmail_full.xml" attachpoint="root"/>
         <prop actor="props/units/capes/cape_long_swordsman_relax_coif.xml" attachpoint="root"/>
       </props>
     </variant>
