@@ -5,6 +5,7 @@
   </Cost>
   <Identity>
     <Civ>anglo</Civ>
+    <SpecificName>Smiþþe</SpecificName>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <VisibleClasses datatype="tokens">Town</VisibleClasses>
   </Identity>

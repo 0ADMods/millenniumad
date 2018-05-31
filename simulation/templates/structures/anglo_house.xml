@@ -6,6 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>anglo</Civ>
+    <SpecificName>Ærn</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="12.0" depth="12.0"/>

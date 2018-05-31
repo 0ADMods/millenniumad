@@ -2,6 +2,7 @@
 <Entity parent="template_structure_resource_field">
   <Identity>
     <Civ>anglo</Civ>
+    <SpecificName>Feld</SpecificName>
     <History>A farmer's field.</History>
   </Identity>
   <VisualActor>
