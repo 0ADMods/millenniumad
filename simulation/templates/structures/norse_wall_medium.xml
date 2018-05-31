@@ -6,9 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>norse</Civ>
-    <SelectionGroupName>structures/athen_wallset_stone</SelectionGroupName>
-    <SpecificName>Teîkhos</SpecificName>
-    <History>Athens was surrounded by stone walls for protection against enemy raids. Some of these fortifications, like the Athenian Long Walls, for example, were massive structures.</History>
+    <SelectionGroupName>structures/norse_wallset_stone</SelectionGroupName>
   </Identity>
   <GarrisonHolder>
     <Max>3</Max>

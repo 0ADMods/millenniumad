@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Builder>
     <Entities datatype="tokens">
-      -structures/{civ}_wonder
+      structures/{civ}_wonder
       structures/{civ}_stables
     </Entities>
   </Builder>
@@ -12,7 +12,6 @@
     <GenericName>Anglo-Saxon Nobleman's Thane</GenericName>
     <SpecificName>Thegn</SpecificName>
     <Icon>units/anglo_infantry_swordsman.png</Icon>
-    <History>?</History>
   </Identity>
   <Promotion>
     <Entity>units/anglo_infantry_swordsman_a</Entity>

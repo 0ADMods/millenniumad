@@ -8,12 +8,10 @@
     <Max>10</Max>
   </GarrisonHolder>
   <Identity>
-    <Civ>Anglo</Civ>
-    <SpecificName>?</SpecificName>
-    <History>?</History>
+    <Civ>anglo</Civ>
     <Icon>units/celt_mechanical_siege_ram.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/celts/siege_ram.xml</Actor>
+    <Actor>structures/anglo/siege_ram.xml</Actor>
   </VisualActor>
 </Entity>

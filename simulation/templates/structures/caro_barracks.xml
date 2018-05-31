@@ -4,31 +4,24 @@
 		<PopulationBonus>10</PopulationBonus>
 	</Cost>
 	<Footprint>
-		<Square width="15.0" depth="25.0"/>
+		<Square width="11.0" depth="24.0"/>
 		<Height>5.0</Height>
 	</Footprint>
 	<Obstruction>
-		<Static width="15.0" depth="25.0"/>
+		<Static width="10.0" depth="23"/>
 	</Obstruction>
 	<Health>
-		<SpawnEntityOnDeath>decay|rubble/rubble_stone_6x4</SpawnEntityOnDeath>
+		<SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
 	</Health>
 	<Identity>
 		<Civ>caro</Civ>
 		<SpecificName>Gwersyllty</SpecificName>
 		<GenericName>Long House</GenericName>
-		<History>?</History>
 		<RequiredTechnology>phase_town</RequiredTechnology>
-		<Classes datatype="tokens">
-      		Town
-		</Classes>
+		<Classes datatype="tokens"> Town </Classes>
 	</Identity>
-	<ProductionQueue>
-		<Entities datatype="tokens">
-		</Entities>
-	</ProductionQueue>
 	<VisualActor>
 		<Actor>structures/carolingian/longhouse.xml</Actor>
-		<FoundationActor>structures/fndn_6x4.xml</FoundationActor>
+		<FoundationActor>structures/fndn_3x6.xml</FoundationActor>
 	</VisualActor>
 </Entity>

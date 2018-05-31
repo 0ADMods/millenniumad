@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/byza_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/byza_parma.xml" attachpoint="shield_arm"/>
+        <prop actor="props/units/weapons/caro_sheath_sword.xml" attachpoint="sheath_L"/>
+        <prop actor="props/units/weapons/byza_spear.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/helmets/byza_coif_cavalry_spearman_chainmail_full.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="0" name="Chainmail+Scale1a">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail_scale1a.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail_scale1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="Chainmail+Scale1b">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail_scale1b.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail_scale1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail+Scale2a">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail_scale2a.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail_scale2_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail+Scale2b">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail_scale2b.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail_scale2_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail2a">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail2a.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail2_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail2b">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail2b.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail2_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail1c">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail1c.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="byza-chainmail1a">
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail1a.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="byza-chainmail1b">
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail1b.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="byza-chainmail1c">
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail1c.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="3" name="byza-chainmail-lamellar-geared1a">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail_lamellar1a_geared.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail_lamellar1_geared_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="byza-chainmail-lamellar-geared1b">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail_lamellar1b_geared.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail_lamellar1_geared_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="byza-chainmail-lamellar-geared1c">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail_lamellar1c_geared.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail_lamellar1_geared_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="byza-chainmail-lamellar-geared1d">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail_lamellar1d_geared.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail_lamellar1_geared_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="3" name="lamellar-padded1a">
+      <textures>
+        <texture file="skeletal/byza/elite/lamellar_padded1a.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/lamellar_padded1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="lamellar-padded1b">
+      <textures>
+        <texture file="skeletal/byza/elite/lamellar_padded1b.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/lamellar_padded1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_cavalry_spearman_relax_shield.xml"/>
+    <variant file="biped/rider/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/promotion_shield.xml"/>
+    <variant file="biped/rider/attack_slaughter_shield_hele.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death.xml"/>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

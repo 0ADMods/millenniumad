@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant name="Carolingian Abbey Roof">
+			<mesh>props/caro_abbey_roof.dae</mesh>
+			<textures>
+				<texture file="structural/maur_struct_b.png" name="baseTex"/>
+				<texture file="structural/maur_struct_b_norm.png" name="normTex"/>
+				<texture file="structural/ao/caro_lorsch_gate.png" name="aoTex"/>
+			</textures>
+		</variant>
+	</group>
+	<material>player_trans_ao_parallax.xml</material>
+</actor>

@@ -12,19 +12,12 @@
   </Health>
   <Identity>
     <Civ>caro</Civ>
-    <SpecificName>?</SpecificName>
-    <History>?</History>
   </Identity>
   <Obstruction>
     <Static width="30.0" depth="30.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/anglo_warship
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
-    <Actor>structures/anglo/dock.xml</Actor>
-    <FoundationActor>structures/fndn_celt_dock.xml</FoundationActor>
+    <Actor>structures/carolingian/dock_base.xml</Actor>
+    <FoundationActor>structures/fndn_4x4_dock.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -8,7 +8,7 @@
 				<texture file="props/helmet/chin_archer_helmet_a.png" name="baseTex"/>
 				<texture file="props/helmet/chin_archer_helmet_a_norm.png" name="normTex"/>
 				<texture file="props/helmet/chin_archer_helmet_a_spec.png" name="specTex"/>
-				<texture file="props/ao/chin_archer_helmet_a_ao.png" name="aoTex"/>	  
+				<texture file="props/helmet/ao/chin_archer_helmet_a_ao.png" name="aoTex"/>	  
 			</textures>
 		</variant>
 	</group>

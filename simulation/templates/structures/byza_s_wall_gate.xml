@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="other/palisades_rocks_gate">
+  <Footprint>
+    <Square width="35.0" depth="6.5"/>
+    <Height>10.5</Height>
+  </Footprint>
+  <Identity>
+    <Civ>byza</Civ>
+    <SpecificName>Pýlai</SpecificName>
+    <Icon>structures/gate.png</Icon>
+  </Identity>
+  <Obstruction>
+    <Obstructions>
+      <Right width="15.2" depth="6" x="11.5" z="0"/>
+      <Left width="15.2" depth="6" x="-11.5" z="0"/>
+      <Door width="2" depth="6.2" x="0" z="0"/>
+    </Obstructions>
+  </Obstruction>
+  <Health>
+    <Max>1000</Max>
+  </Health>
+  <VisualActor>
+    <Actor>structures/byzantines/s_wall_gate.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>37.0</Length>
+  </WallPiece>
+</Entity>

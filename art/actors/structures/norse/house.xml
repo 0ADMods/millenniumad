@@ -11,10 +11,32 @@
 				<texture file="structural/ao/norse_house_a_ao.png" name="aoTex"/>
 			</textures>
 			<props>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_1"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_2"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_3"/>
 				<prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-				<prop actor="props/structures/norse/house_fence_a.xml" attachpoint="root"/>
+				<prop actor="props/structures/norse/fence_b_medium.xml" attachpoint="fence_medium_a"/>
+        <prop actor="props/structures/norse/fence_b_short.xml" attachpoint="fence_short_a"/>
+        <prop actor="props/structures/norse/fence_a_short.xml" attachpoint="fence_short_b"/>
+        <prop actor="props/structures/norse/fence_a_short.xml" attachpoint="fence_short_c"/>
+        <prop actor="props/structures/norse/fence_b_short.xml" attachpoint="fence_short_d"/>
+        <prop actor="props/structures/norse/fence_b_medium.xml" attachpoint="fence_short_e"/>
+        <prop actor="props/structures/norse/fence_a_short.xml" attachpoint="fence_short_f"/>
+        <prop actor="props/structures/norse/fence_b_short.xml" attachpoint="fence_short_g"/>
+        <prop actor="props/structures/norse/fence_a_short.xml" attachpoint="fence_short_h"/>
+        <prop actor="props/structures/norse/fence_a_short.xml" attachpoint="fence_short_i"/>
+        <prop actor="props/structures/norse/fence_a_short.xml" attachpoint="fence_short_j"/>
+        <prop actor="props/structures/norse/fence_b_short.xml" attachpoint="fence_short_k"/>
+        <prop actor="props/structures/norse/basket_a.xml" attachpoint="basket_b"/>
+        <prop actor="props/structures/norse/basket_b.xml" attachpoint="basket_a"/>
+        <prop actor="props/structures/norse/basket_c.xml" attachpoint="basket_c"/>
+        <prop actor="props/structures/norse/table.xml" attachpoint="table"/>
+        <prop actor="props/structures/norse/skin.xml" attachpoint="skin"/>
+        <prop actor="props/structures/norse/shelf.xml" attachpoint="shelf"/>
 				<prop actor="particle/smoke_curved.xml" attachpoint="smoke"/>
 				<prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+        <prop actor="props/special/eyecandy/sack_1.xml" attachpoint="sack_1"/>
+        <prop actor="props/special/eyecandy/sack_1.xml" attachpoint="sack_2"/>
 			</props>
 		</variant>
 		<variant frequency="33" name="Norse House B">
@@ -22,12 +44,29 @@
 			<textures>
 				<texture file="structural/norse_struct.png" name="baseTex"/>
 				<texture file="structural/norse_struct_norm.png" name="normTex"/>
-				<texture file="structural/norse_struct_spec.png" name="specTex"/>
+        <texture file="structural/norse_struct_spec.png" name="specTex"/>
 				<texture file="structural/ao/norse_house_b_ao.png" name="aoTex"/>
 			</textures>
 			<props>
+        <prop actor="props/special/eyecandy/crate_a.xml" attachpoint="crate_a"/>
+        <prop actor="props/special/eyecandy/crate_a.xml" attachpoint="crate_b"/>
+        <prop actor="props/units/weapons/norse_axe.xml" attachpoint="axe_a"/>
+        <prop actor="props/units/weapons/norse_axe.xml" attachpoint="axe_b"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_a"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_b"/>
+        <prop actor="props/units/shields/norse_ship_shield_b.xml" attachpoint="shield_a"/>
 				<prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-				<prop actor="props/structures/norse/house_fence_a.xml" attachpoint="root"/>
+        <prop actor="props/structures/norse/table.xml" attachpoint="table"/>
+        <prop actor="props/structures/norse/fence_b_medium.xml" attachpoint="fence_medium_a"/>
+        <prop actor="props/structures/norse/fence_a_medium.xml" attachpoint="fence_medium_b"/>
+        <prop actor="props/structures/norse/fence_b_medium.xml" attachpoint="fence_medium_c"/>
+        <prop actor="props/structures/norse/fence_b_medium.xml" attachpoint="fence_medium_d"/>
+        <prop actor="props/structures/norse/fence_a_medium.xml" attachpoint="fence_medium_e"/>
+        <prop actor="props/structures/norse/fence_b_short.xml" attachpoint="fence_short_a"/>
+        <prop actor="props/structures/norse/fence_a_short.xml" attachpoint="fence_short_b"/>
+        <prop actor="props/structures/norse/fence_b_short.xml" attachpoint="fence_short_c"/>
+        <prop actor="props/structures/norse/fence_a_short.xml" attachpoint="fence_short_d"/>
+        <prop actor="props/structures/norse/fence_b_short.xml" attachpoint="fence_short_e"/>
 				<prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
 				<prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
 			</props>
@@ -42,7 +81,21 @@
 			</textures>
 			<props>
 				<prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-				<prop actor="props/structures/norse/house_fence_a.xml" attachpoint="root"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_a"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_b"/>
+        <prop actor="props/structures/norse/skin.xml" attachpoint="skin_a"/>
+        <prop actor="props/structures/norse/skin.xml" attachpoint="skin_b"/>
+        <prop actor="props/structures/norse/fence_b_short.xml" attachpoint="fence_short_a"/>
+        <prop actor="props/structures/norse/fence_a_short.xml" attachpoint="fence_short_b"/>
+        <prop actor="props/structures/norse/fence_a_short.xml" attachpoint="fence_short_c"/>
+        <prop actor="props/structures/norse/fence_b_short.xml" attachpoint="fence_short_d"/>
+        <prop actor="props/structures/norse/fence_a_short.xml" attachpoint="fence_short_e"/>
+        <prop actor="props/structures/norse/fence_a_short.xml" attachpoint="fence_short_f"/>
+        <prop actor="props/structures/norse/fence_b_short.xml" attachpoint="fence_short_g"/>
+        <prop actor="props/structures/norse/fence_b_medium.xml" attachpoint="fence_medium_a"/>
+        <prop actor="props/structures/norse/fence_a_medium.xml" attachpoint="fence_medium_b"/>
+        <prop actor="props/structures/norse/fence_b_medium.xml" attachpoint="fence_medium_c"/>
+        <prop actor="props/structures/norse/fence_a_medium.xml" attachpoint="fence_medium_d"/>
 				<prop actor="particle/smoke_curved.xml" attachpoint="smoke"/>
 				<prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
 			</props>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="corral">
+      <mesh>structural/caro_corral.dae</mesh>
+      <textures>
+				<texture file="structural/caro_struct.png" name="baseTex"/>
+        <texture file="structural/caro_struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/caro_corral.png" name="aoTex"/>
+			</textures>
+      <props>
+        <prop actor="props/structures/carolingian/corral_hay.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/iber_corral_mud.xml" attachpoint="root"/>
+        <prop actor="props/special/eyecandy/waterbin_a.xml" attachpoint="waterbin"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop actor="props/special/eyecandy/waterbin_a.xml" attachpoint="waterbin"/>
+        <prop actor="props/structures/decals/iber_corral_mud.xml" attachpoint="root"/>
+        <prop actor="props/structures/carolingian/corral_hay.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+<material>player_trans_ao_parallax.xml</material>
+</actor>

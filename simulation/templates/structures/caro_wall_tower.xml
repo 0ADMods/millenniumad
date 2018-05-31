@@ -7,13 +7,12 @@
   <Identity>
     <Civ>caro</Civ>
     <SpecificName>Pýrgos</SpecificName>
-    <History>Towers were an important part of city fortifications. The defending troops shot arrows at the enemy and poured boiling oil over the assailants.</History>
   </Identity>
   <Obstruction>
     <Static width="7.5" depth="7.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/hellenes/wall_tower.xml</Actor>
+    <Actor>structures/carolingian/wall_tower.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>7.5</Length>

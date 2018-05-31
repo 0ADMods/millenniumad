@@ -6,6 +6,6 @@
   </Identity>
   <Upgrade disable=""/>
   <VisualActor>
-    <Actor>structures/celts/wooden_tower.xml</Actor>
+    <Actor>structures/norse/defense_tower.xml</Actor>
   </VisualActor>
 </Entity>

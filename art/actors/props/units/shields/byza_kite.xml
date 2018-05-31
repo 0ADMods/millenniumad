@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <mesh>props/shield/shield_kite_small.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="kite_checkered_plain">
+      <textures>
+        <texture file="props/shields/caro/kite/kite_checkered_plain.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="kite_chiro_white">
+      <textures>
+        <texture file="props/shields/byza/kite/kite_chiro_white.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="kite_chiro_yellow">
+      <textures>
+        <texture file="props/shields/byza/kite/kite_chiro_yellow.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

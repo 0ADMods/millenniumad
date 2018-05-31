@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="basic">
+      <textures>
+        <texture file="props/byza_wonder_cross.png" name="baseTex"/>
+        <texture file="props/byza_wonder_cross_norm.png" name="normTex"/>
+        <texture file="props/byza_wonder_cross_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="a">
+      <mesh>props/byza_wonder_cross.dae</mesh>
+    </variant>
+  </group>
+  <material>basic_trans_parallax_spec.xml</material>
+</actor>

@@ -13,7 +13,6 @@
   <Identity>
     <Civ>anglo</Civ>
     <SpecificName>Set</SpecificName>
-	  <History>?</History>
     <Icon>structures/barracks_infantry.png</Icon>
   </Identity>
   <Obstruction>

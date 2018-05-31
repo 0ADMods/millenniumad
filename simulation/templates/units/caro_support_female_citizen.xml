@@ -7,7 +7,8 @@
   </Attack>
   <Builder>
     <Entities datatype="tokens">
-    -structures/{civ}_wonder
+      structures/caro_special
+      structures/{civ}_wonder
     </Entities>
   </Builder>
   <Health>
@@ -15,12 +16,11 @@
   </Health>
   <Identity>
     <Civ>caro</Civ>
-    <SpecificName>?</SpecificName>
     <GenericName>Woman</GenericName>
-    <History>?</History>
-    <Icon>units/celt_support_female_citizen.png</Icon>
+    <SpecificName></SpecificName>
+    <Icon>units/caro_support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/norse/female_citizen.xml</Actor>
+    <Actor>units/caro/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>

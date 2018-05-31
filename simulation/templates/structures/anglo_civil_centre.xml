@@ -6,11 +6,9 @@
   </Footprint>
   <Identity>
     <Civ>anglo</Civ>
-    <SpecificName>?</SpecificName>
-    <History>?</History>
   </Identity>
   <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_6x4</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x4</SpawnEntityOnDeath>
   </Health>
   <Obstruction>
     <Static width="37.0" depth="20.0"/>
@@ -21,6 +19,7 @@
       units/{civ}_infantry_javelinist_b
       units/{civ}_cavalry_spearman_b
       units/{civ}_hero_alfred
+	  units/{civ}_hero_offa
     </Entities>
     <Technologies datatype="tokens">
       germanic_thingstead

@@ -13,8 +13,6 @@
   <Identity>
     <GenericName>Stables</GenericName>
     <Civ>anglo</Civ>
-    <SpecificName>?</SpecificName>
-	<History>?</History>
     <Icon>structures/stables.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

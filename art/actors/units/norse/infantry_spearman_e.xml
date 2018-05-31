@@ -2,13 +2,14 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_spearman_relax.xml">
-      <mesh>skeletal/new/m_armor_pants_tunic_long.dae</mesh>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/helmets/norse_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
         <prop actor="props/units/shields/norse_spearman_e.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/spear_lance.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/norse_spear.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/norse_sword_sheath.xml" attachpoint="sheath_L"/>
       </props>
     </variant>
   </group>
@@ -43,6 +44,21 @@
         <texture file="skeletal/norse/elite/chainmail2c.png" name="baseTex"/>
       </textures>
     </variant>
+    <variant frequency="1" name="Chainmail3a">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail3a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail3b">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail3b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail3c">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail3c.png" name="baseTex"/>
+      </textures>
+    </variant>
     <variant frequency="1" name="Chainmail4a">
       <textures>
         <texture file="skeletal/norse/elite/chainmail4a.png" name="baseTex"/>
@@ -58,30 +74,6 @@
         <texture file="skeletal/norse/elite/chainmail4c.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="0" name="Chainmail5a">
-      <props>
-        <prop actor="props/units/helmets/norse_huscarl.xml" attachpoint="helmet"/>
-      </props>
-      <textures>
-        <texture file="skeletal/norse/elite/chainmail5a.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="Chainmail5b">
-      <props>
-        <prop actor="props/units/helmets/norse_huscarl.xml" attachpoint="helmet"/>
-      </props>
-      <textures>
-        <texture file="skeletal/norse/elite/chainmail5b.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="Chainmail5c">
-      <props>
-        <prop actor="props/units/helmets/norse_huscarl.xml" attachpoint="helmet"/>
-      </props>
-      <textures>
-        <texture file="skeletal/norse/elite/chainmail5c.png" name="baseTex"/>
-      </textures>
-    </variant>
   </group>
   <group>
     <variant frequency="1" name="weapon-banner">
@@ -89,131 +81,35 @@
         <prop actor="props/units/weapons/norse_spear_banner.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
-    <variant frequency="10" name="weapon-lance">
+    <variant frequency="1" name="weapon-spear">
       <props>
-        <prop actor="props/units/weapons/spear_lance.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/norse_spear.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
+  </group>
+  <group>
+    <variant file="biped/base_spearman_relax.xml"/>
+    <variant file="biped/carry_food.xml"/>
+    <variant file="biped/carry_meat.xml"/>
+    <variant file="biped/carry_wood.xml"/>
+    <variant file="biped/carry_stone.xml"/>
+    <variant file="biped/carry_metal.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
     <variant file="biped/attack_capture.xml"/>
-    <variant file="biped/attack_slaughter.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_e_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/gather_tree.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_e_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/gather_grain.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_e_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/gather_fruit.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_e_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/gather_meat.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_e_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/gather_rock.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_e_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/gather_ore.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_e_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/gather_ruins.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_e_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/gather_tree.xml"/>
+    <variant file="biped/gather_grain.xml"/>
+    <variant file="biped/gather_fruit.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/gather_rock.xml"/>
+    <variant file="biped/gather_ore.xml"/>
+    <variant file="biped/gather_ruins.xml"/>
     <variant file="biped/gather_praise.xml"/>
-    <variant file="biped/build.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_e_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/build_farm.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_e_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_food.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_e_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_meat.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_e_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_wood.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_e_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_stone.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_e_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_metal.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_e_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_food_idle.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_e_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_meat_idle.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_e_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_wood_idle.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_e_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_stone_idle.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_e_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_metal_idle.xml">
-      <props>
-        <prop actor="props/units/shields/norse_spearman_e_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
-  </group>
-  <group>
-    <variant frequency="1" name="green_light">
-      <color>208 222 165</color>
-    </variant>
-    <variant frequency="1" name="green_dark">
-      <color>132 142 100</color>
-    </variant>
-    <variant frequency="1" name="brown_light">
-      <color>210 192 157</color>
-    </variant>
-    <variant frequency="1" name="brown_dark">
-      <color>147 116 87</color>
-    </variant>
   </group>
   <material>player_trans.xml</material>
 </actor>

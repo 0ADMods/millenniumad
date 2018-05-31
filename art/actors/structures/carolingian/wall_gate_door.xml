@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Wall long">
+      <mesh>structural/caro_wall_gate_door.dae</mesh>
+      <animations>
+        <animation file="mechanical/caro_door_open.dae" name="gate_open" speed="65"/>
+        <animation file="mechanical/caro_door_closed.dae" name="gate_closed" speed="65"/>
+        <animation file="mechanical/caro_door_opening.dae" name="gate_opening" speed="65"/>
+        <animation file="mechanical/caro_door_closing.dae" name="gate_closing" speed="65"/>
+      </animations>
+      <textures>
+				<texture file="structural/caro_struct.png" name="baseTex"/>
+				<texture file="structural/caro_struct_norm.png" name="normTex"/>
+			</textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_parallax.xml</material>
+</actor>

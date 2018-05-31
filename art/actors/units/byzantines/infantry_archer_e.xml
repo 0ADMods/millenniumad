@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/byza_archer_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/bow_byza.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/shields/byza_parma.xml" attachpoint="shield_arm"/>
+        <prop actor="props/units/quivers/byza_quiver_hip.xml" attachpoint="sheath_L"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Chainmail1a">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail1a.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail1b">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail1b.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail1c">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail1c.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Scale1a">
+      <textures>
+        <texture file="skeletal/caro/elite/scale1a.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/scale1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Scale1b">
+      <textures>
+        <texture file="skeletal/caro/elite/scale1b.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/scale1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail-pteruges1a">
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1a.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail-pteruges1b">
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1b.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail-pteruges1c">
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1c.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail-pteruges1d">
+      <textures>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1d.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/chainmail_pteruges1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="lamellar2a">
+      <textures>
+        <texture file="skeletal/byza/elite/lamellar2a.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/lamellar2_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="lamellar2b">
+      <textures>
+        <texture file="skeletal/byza/elite/lamellar2b.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/lamellar2_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="lamellar2c">
+      <textures>
+        <texture file="skeletal/byza/elite/lamellar2c.png" name="baseTex"/>
+        <texture file="skeletal/byza/elite/lamellar2_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_archer_ready.xml"/>
+    <variant file="biped/carry_food.xml"/>
+    <variant file="biped/carry_meat.xml"/>
+    <variant file="biped/carry_wood.xml"/>
+    <variant file="biped/carry_stone.xml"/>
+    <variant file="biped/carry_metal.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_ranged_archer_hip.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/gather_tree.xml"/>
+    <variant file="biped/gather_grain.xml"/>
+    <variant file="biped/gather_fruit.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/gather_rock.xml"/>
+    <variant file="biped/gather_ore.xml"/>
+    <variant file="biped/gather_ruins.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

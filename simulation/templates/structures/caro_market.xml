@@ -4,7 +4,7 @@
     <PopulationBonus>12</PopulationBonus>
   </Cost>
   <Footprint>
-    <Square width="26.0" depth="24.0"/>
+    <Square width="25.0" depth="21.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Health>
@@ -12,14 +12,12 @@
   </Health>
   <Identity>
     <Civ>caro</Civ>
-    <SpecificName>?</SpecificName>
-    <History>?</History>
   </Identity>
   <Obstruction>
-    <Static width="25.0" depth="23.0"/>
+    <Static width="24.0" depth="20.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/anglo/market.xml</Actor>
+    <Actor>structures/carolingian/market.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

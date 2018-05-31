@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Wonder_b">
+      <mesh>structural/byza_wonder_b.dae</mesh>
+      <textures>
+				<texture file="structural/byzantine_struct_b.png" name="baseTex"/>
+				<texture file="structural/byzantine_struct_b_norm.png" name="normTex"/>
+        <texture file="structural/ao/byza_wonder_b.png" name="aoTex"/>
+			</textures>
+    </variant>
+  </group>
+<material>player_trans_ao_parallax.xml</material>
+</actor>

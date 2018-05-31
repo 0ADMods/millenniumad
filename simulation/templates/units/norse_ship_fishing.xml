@@ -3,7 +3,6 @@
   <Identity>
     <Civ>norse</Civ>
     <SpecificName>Skúta</SpecificName>
-    <History>?</History>
     <Icon>units/norse_fishing_ship.png</Icon>
   </Identity>
   <VisualActor>

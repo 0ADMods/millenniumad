@@ -12,8 +12,6 @@
   </Health>
   <Identity>
     <Civ>anglo</Civ>
-    <SpecificName>?</SpecificName>
-    <History>?</History>
   </Identity>
   <Obstruction>
     <Static width="25.0" depth="23.0"/>

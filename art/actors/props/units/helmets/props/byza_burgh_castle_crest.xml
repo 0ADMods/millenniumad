@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Crest_A">
+      <mesh>props/helmet/props/byza_burgh_castle_crest.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Standard">
+      <textures>
+        <texture file="props/helmet/byzantine_burgh_castle_crest.png" name="baseTex"/>
+        <texture file="props/helmet/byzantine_burgh_castle_crest_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+ <material>player_trans_spec.xml</material>
+</actor>

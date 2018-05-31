@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Pedestal_A">
+      <mesh>props/byza_column_pedestal_a.dae</mesh>
+      <textures>
+				<texture file="structural/byzantine_struct_b.png" name="baseTex"/>
+				<texture file="structural/byzantine_struct_b_norm.png" name="normTex"/>
+        <texture file="structural/byzantine_struct_b_spec.png" name="specTex"/>
+        <texture file="structural/ao/byza_pedestal_a.png" name="aoTex"/>
+			</textures>
+      <props>
+        <prop actor="props/structures/byzantines/column_b.xml" attachpoint="column"/>
+			</props>
+    </variant>
+  </group>
+<material>player_trans_ao.xml</material>
+</actor>

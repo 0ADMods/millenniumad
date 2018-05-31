@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_tower_stone">
+  <Footprint>
+    <Square width="7" depth="7"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>byza</Civ>
+    <SpecificName>Pyrgíon</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="6.8" depth="6.4"/>
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>22.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>structures/byzantines/defense_tower.xml</Actor>
+  </VisualActor>
+</Entity>

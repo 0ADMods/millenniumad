@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_resource_corral">
   <Footprint>
-    <Square width="18.0" depth="20.0"/>
+    <Square width="13" depth="14.5"/>
     <Height>5.0</Height>
   </Footprint>
   <Identity>
     <Civ>caro</Civ>
-    <SpecificName>?</SpecificName>
-    <History>?</History>
   </Identity>
   <Obstruction>
-    <Static width="17.0" depth="19.0"/>
+    <Static width="12.8" depth="14"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/anglo/corral.xml</Actor>
+    <Actor>structures/carolingian/corral.xml</Actor>
   </VisualActor>
 </Entity>

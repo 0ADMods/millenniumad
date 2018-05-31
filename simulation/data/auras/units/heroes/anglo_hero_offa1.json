@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["Structure"],
+	"modifications": [
+		{ "value": "TerritoryInfluence/Radius", "multiply": 1.1 }
+	],
+	"auraName": "Mercian Hegemony",
+	"auraDescription": "+10% territory effect for all structures"
+}

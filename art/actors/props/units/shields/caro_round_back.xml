@@ -10,7 +10,7 @@
 	</group>  
 	<group>
 		<variant frequency="1" name="shield-E">
-			<mesh>props/shield_caro_round_back_a.dae</mesh>
+			<mesh>props/shield/shield_caro_round_back_a.dae</mesh>
 		</variant>
 	</group>
 	<material>player_trans.xml</material>

@@ -3,14 +3,12 @@
   <castshadow/>
   <group>
     <variant file="biped/base_trader.xml">
-      <mesh>skeletal/new/m_pants_tunic_long.dae</mesh>
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/trader_staff.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/weapons/norse_sword_sheath.xml" attachpoint="sheath_L"/>
       </props>
-      <textures>
-        <texture file="skeletal/celt_trader_01.dds" name="baseTex"/>
-      </textures>
     </variant>
   </group>
   <group>
@@ -29,21 +27,10 @@
         <texture file="skeletal/norse/advanced/transparent_shirt3.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="0" name="footwraps1">
-      <textures>
-        <texture file="skeletal/norse/advanced/footwraps1.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="footwraps2">
-      <textures>
-        <texture file="skeletal/norse/advanced/footwraps2.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="footwraps3">
-      <textures>
-        <texture file="skeletal/norse/advanced/footwraps3.png" name="baseTex"/>
-      </textures>
-    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans.xml</material>
 </actor>

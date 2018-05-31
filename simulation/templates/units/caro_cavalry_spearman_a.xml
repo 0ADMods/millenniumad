@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_melee_spearman">
-	<Identity>
-		<Civ>norse</Civ>
-		<SelectionGroupName>units/caro_cavalry_spearman_a</SelectionGroupName>
-		<GenericName>Cavalry Spearman</GenericName>
-		<History>Needs history.</History>
-		<Icon>units/caro_cavalry_spearman.png</Icon>
-	</Identity>
-	<Promotion disable="" />
-	<VisualActor>
-		<Actor>units/caro/cavalry_spearman_a.xml</Actor>
-	</VisualActor>
+<Entity parent="units/caro_cavalry_spearman_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/caro_cavalry_spearman_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/caro/cavalry_spearman_a_m.xml</Actor>
+  </VisualActor>
 </Entity>

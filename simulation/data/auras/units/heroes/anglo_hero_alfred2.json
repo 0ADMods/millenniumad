@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Spear"],
+	"modifications": [
+	{ "value": "UnitMotion/WalkSpeed", "multiply": 1.15 },
+	{ "value": "UnitMotion/Run/Speed", "multiply": 1.15 }
+	],
+	"auraName": "Fyrd Reforms",
+	"auraDescription": "Additional 15% movement speed for spear infantry units. ",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

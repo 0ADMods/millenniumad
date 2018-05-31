@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_wonder">
   <Footprint>
-    <Square width="29.0" depth="59.0"/>
+    <Square width="43.0" depth="59.0"/>
     <Height>12.0</Height>
   </Footprint>
   <Health>
@@ -9,11 +9,10 @@
   </Health>
   <Identity>
     <Civ>caro</Civ>
-    <SpecificName></SpecificName>
-    <History></History>
+    <SpecificName>Cathedral of Aix-la-Chapelle</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="27.0" depth="57.0"/>
+    <Static width="43.0" depth="59.0"/>
   </Obstruction>
   <StatusBars>
     <BarWidth>6.0</BarWidth>

@@ -5,9 +5,7 @@
     <Height>6.0</Height>
   </Footprint>
   <Identity>
-    <Civ>Anglo</Civ>
-    <SpecificName>?</SpecificName>
-    <History>?</History>
+    <Civ>anglo</Civ>
     <Icon>units/norse_merchant.png</Icon>
   </Identity>
   <VisualActor>

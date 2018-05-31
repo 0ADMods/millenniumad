@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <props>
+        <prop actor="props/units/weapons/blades/caro_spear_blade.xml" attachpoint="blade"/>
+      </props>
+      <textures>
+        <texture file="props/stall_big_stripe_a_cloth.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="spear-ball-player_colour">
+      <mesh>props/weap_shaft_wood_twisted_player_colour.dae</mesh>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

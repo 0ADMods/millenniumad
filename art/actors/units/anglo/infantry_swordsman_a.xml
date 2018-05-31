@@ -2,166 +2,89 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_swordsman_shield_relax.xml">
+    <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/helmets/anglo_pioneer_helmet.xml" attachpoint="helmet"/>
-        <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/anglo_swordsman_a.xml" attachpoint="shield"/>
+        <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/anglo_spearman_a.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/norse_sword.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/cape_pelt_gray_norse_animated_swordsman_shield_relax.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/norse_sword_sheath_empty.xml" attachpoint="sheath_L"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="padded-dyed_shirt1a">
-      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+    <variant frequency="1" name="Cape">
+      <props>
+        <prop actor="props/units/capes/swordsman_shield_relax.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="dyed_padded_armor_1a">
       <textures>
         <texture file="skeletal/norse/advanced/dyed/padded1a.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="padded-dyed_shirt1b">
-      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+    <variant frequency="1" name="dyed_padded_armor_1b">
       <textures>
         <texture file="skeletal/norse/advanced/dyed/padded1b.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="padded-dyed_shirt1c">
-      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+    <variant frequency="1" name="dyed_padded_armor_1c">
       <textures>
         <texture file="skeletal/norse/advanced/dyed/padded1c.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="padded-dyed_shirt1d">
-      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+    <variant frequency="1" name="dyed_padded_armor_1d">
       <textures>
-        <texture file="skeletal/norse/advanced/dyed/padded1d.png" name="baseTex"/>
+        <texture file="skeletal/norse/advanced/dyed/padded1c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="dyed_shirt1a">
+      <textures>
+        <texture file="skeletal/norse/advanced/dyed/dyed1a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="dyed_shirt1b">
+      <textures>
+        <texture file="skeletal/norse/advanced/dyed/dyed1b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="dyed_shirt1c">
+      <textures>
+        <texture file="skeletal/norse/advanced/dyed/dyed1c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="dyed_shirt1d">
+      <textures>
+        <texture file="skeletal/norse/advanced/dyed/dyed1d.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
-    <variant file="biped/attack_capture.xml"/>
-    <variant file="biped/attack_slaughter.xml">
-      <props>
-        <prop actor="props/units/shields/anglo_swordsman_a_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/gather_tree.xml">
-      <props>
-        <prop actor="props/units/shields/anglo_swordsman_a_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/gather_grain.xml">
-      <props>
-        <prop actor="props/units/shields/anglo_swordsman_a_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/gather_fruit.xml">
-      <props>
-        <prop actor="props/units/shields/anglo_swordsman_a_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/gather_meat.xml">
-      <props>
-        <prop actor="props/units/shields/anglo_swordsman_a_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/gather_rock.xml">
-      <props>
-        <prop actor="props/units/shields/anglo_swordsman_a_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/gather_ore.xml">
-      <props>
-        <prop actor="props/units/shields/anglo_swordsman_a_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/gather_ruins.xml">
-      <props>
-        <prop actor="props/units/shields/anglo_swordsman_a_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/gather_praise.xml"/>
-    <variant file="biped/build.xml">
-      <props>
-        <prop actor="props/units/shields/anglo_swordsman_a_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/build_farm.xml">
-      <props>
-        <prop actor="props/units/shields/anglo_swordsman_a_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_food.xml">
-      <props>
-        <prop actor="props/units/shields/anglo_swordsman_a_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_meat.xml">
-      <props>
-        <prop actor="props/units/shields/anglo_swordsman_a_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_wood.xml">
-      <props>
-        <prop actor="props/units/shields/anglo_swordsman_a_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_stone.xml">
-      <props>
-        <prop actor="props/units/shields/anglo_swordsman_a_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_metal.xml">
-      <props>
-        <prop actor="props/units/shields/anglo_swordsman_a_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_food_idle.xml">
-      <props>
-        <prop actor="props/units/shields/anglo_swordsman_a_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_meat_idle.xml">
-      <props>
-        <prop actor="props/units/shields/anglo_swordsman_a_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_wood_idle.xml">
-      <props>
-        <prop actor="props/units/shields/anglo_swordsman_a_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_stone_idle.xml">
-      <props>
-        <prop actor="props/units/shields/anglo_swordsman_a_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/carry_metal_idle.xml">
-      <props>
-        <prop actor="props/units/shields/anglo_swordsman_a_back.xml" attachpoint="back"/>
-      </props>
-    </variant>
-    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/base_swordsman_shield_relax.xml"/>
+    <variant file="biped/carry_food.xml"/>
+    <variant file="biped/carry_meat.xml"/>
+    <variant file="biped/carry_wood.xml"/>
+    <variant file="biped/carry_stone.xml"/>
+    <variant file="biped/carry_metal.xml"/>
   </group>
   <group>
-    <variant frequency="1" name="red-deep">
-      <color>225 67 45</color>
-    </variant>
-    <variant frequency="1" name="blue-faded">
-      <color>170 217 255</color>
-    </variant>
-    <variant frequency="1" name="blue-dark">
-      <color>100 114 176</color>
-    </variant>
-    <variant frequency="1" name="yellow-saffron">
-      <color>255 189 34</color>
-    </variant>
-    <variant frequency="1" name="green-dark">
-      <color>116 137 86</color>
-    </variant>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/gather_tree.xml"/>
+    <variant file="biped/gather_grain.xml"/>
+    <variant file="biped/gather_fruit.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/gather_rock.xml"/>
+    <variant file="biped/gather_ore.xml"/>
+    <variant file="biped/gather_ruins.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
+    <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans.xml</material>
 </actor>

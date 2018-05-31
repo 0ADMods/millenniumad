@@ -1,0 +1,7 @@
+<variant name="Base" frequency="1">
+  <animations>
+    <animation event="0.5" file="biped/attack_2h_axe_a.dae" name="attack_melee" id="attack1" speed="310"/>
+    <animation event="0.5" file="biped/attack_2h_axe_b.dae" name="attack_melee" id="attack2" speed="310"/>
+    <animation event="0.5" file="biped/attack_2h_axe_c.dae" name="attack_melee" id="attack3" speed="310"/>
+  </animations>
+</variant>

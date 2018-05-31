@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skeletons>
+  <standard_skeleton title="Banner_armature" id="Banner_armature">
+    <bone name="Bnr_Root">
+      <bone name="Bnr_A_1">
+        <bone name="Bnr_A_2">
+          <bone name="Bnr_A_3">
+            <bone name="Bnr_A_4">
+              <bone name="Bnr_A_5"></bone>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="Bnr_B_1">
+        <bone name="Bnr_B_2">
+          <bone name="Bnr_B_3">
+            <bone name="Bnr_B_4">
+              <bone name="Bnr_B_5"></bone>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="Bnr_C_1">
+        <bone name="Bnr_C_2">
+          <bone name="Bnr_C_3">
+            <bone name="Bnr_C_4">
+              <bone name="Bnr_B_5"></bone>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="Bnr_D_1">
+        <bone name="Bnr_D_2">
+          <bone name="Bnr_D_3">
+            <bone name="Bnr_D_4">
+              <bone name="Bnr_D_5"></bone>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="Bnr_E_1">
+        <bone name="Bnr_E_2">
+          <bone name="Bnr_E_3">
+            <bone name="Bnr_E_4">
+              <bone name="Bnr_E_5"></bone>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+  </standard_skeleton>
+  <skeleton title="Banner_armature" target="Banner_armature">
+    <identifier>
+      <root>Bnr_Root</root>
+    </identifier>
+    <bone name="Bnr_Root">
+      <target>Bnr_Root</target>
+      <bone name="Bnr_A_1">
+        <target>Bnr_A_1</target>
+        <bone name="Bnr_A_2">
+          <target>Bnr_B_2</target>
+          <bone name="Bnr_A_3">
+            <target>Bnr_A_3</target>
+            <bone name="Bnr_A_4">
+              <target>Bnr_A_4</target>
+              <bone name="Bnr_A_5">
+                <target>Bnr_A_5</target>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="Bnr_B_1">
+        <target>Bnr_B_1</target>
+        <bone name="Bnr_B_2">
+          <target>Bnr_B_2</target>
+          <bone name="Bnr_B_3">
+            <target>Bnr_B_3</target>
+            <bone name="Bnr_B_4">
+              <target>Bnr_B_4</target>
+              <bone name="Bnr_B_5">
+                <target>Bnr_B_5</target>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="Bnr_C_1">
+        <target>Bnr_C_1</target>
+        <bone name="Bnr_C_2">
+          <target>Bnr_C_2</target>
+          <bone name="Bnr_C_3">
+            <target>Bnr_A_3</target>
+            <bone name="Bnr_C_4">
+              <target>Bnr_C_4</target>
+              <bone name="Bnr_C_5">
+                <target>Bnr_B_5</target>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="Bnr_D_1">
+        <target>Bnr_D_1</target>
+        <bone name="Bnr_D_2">
+          <target>Bnr_D_2</target>
+          <bone name="Bnr_D_3">
+            <target>Bnr_D_3</target>
+            <bone name="Bnr_D_4">
+              <target>Bnr_D_4</target>
+              <bone name="Bnr_D_5">
+                <target>Bnr_D_5</target>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="Bnr_E_1">
+        <target>Bnr_E_1</target>
+        <bone name="Bnr_E_2">
+          <target>Bnr_E_2</target>
+          <bone name="Bnr_E_3">
+            <target>Bnr_E_3</target>
+            <bone name="Bnr_E_4">
+              <target>Bnr_E_4</target>
+              <bone name="Bnr_E_5">
+                <target>Bnr_E_5</target>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+  </skeleton>
+</skeletons>

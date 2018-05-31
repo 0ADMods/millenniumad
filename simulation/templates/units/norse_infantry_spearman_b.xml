@@ -24,7 +24,6 @@
     <SelectionGroupName>units/norse_infantry_spearman_b</SelectionGroupName>
     <GenericName>Spearman</GenericName>
     <SpecificName>Seggr</SpecificName>
-    <History>?</History>
     <Icon>units/norse_infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

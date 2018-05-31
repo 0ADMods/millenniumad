@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Wall long">
+      <mesh>structural/caro_wall_gate.dae</mesh>
+      <textures>
+				<texture file="structural/caro_struct.png" name="baseTex"/>
+				<texture file="structural/caro_struct_norm.png" name="normTex"/>
+				<texture file="structural/ao/caro_wall_gate.png" name="aoTex"/>
+			</textures>
+      <props>
+        <prop actor="props/units/shields/caro_lenticular_swordsman_e.xml" attachpoint="shield_1"/>
+        <prop actor="props/units/shields/caro_lenticular_swordsman_e.xml" attachpoint="shield_2"/>
+        <prop actor="props/units/shields/caro_lenticular_swordsman_e.xml" attachpoint="shield_3"/>
+        <prop actor="props/units/shields/caro_lenticular_swordsman_e.xml" attachpoint="shield_4"/>
+        <prop actor="props/units/shields/caro_lenticular_swordsman_e.xml" attachpoint="shield_5"/>
+        <prop actor="props/units/shields/caro_lenticular_swordsman_e.xml" attachpoint="shield_6"/>
+        <prop actor="structures/carolingian/wall_gate_door.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax.xml</material>
+</actor>

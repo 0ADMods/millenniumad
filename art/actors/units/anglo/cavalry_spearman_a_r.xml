@@ -2,21 +2,12 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="Shorthair">
-      <animations>
-        <animation file="biped/cavalryidle.psa" name="Idle" speed="50"/>
-        <animation file="biped/cavalryidle.psa" name="Walk" speed="18"/>
-        <animation file="biped/rider_gallop.psa" name="Run" speed="40"/>
-        <animation event="0.5" file="cavalry/spear/attack/rider_spear_shield_atk_a.psa" name="attack_melee" speed="400"/>
-        <animation event="0.5" file="cavalry/spear/attack/rider_spear_shield_atk_a.psa" name="attack_slaughter" speed="400"/>
-        <animation event="0.5" file="cavalry/spear/attack/rider_spear_shield_atk_a.psa" name="gather_meat" speed="400"/>
-        <animation file="biped/rider_sword_death_a.psa" name="death" speed="230"/>
-      </animations>
-      <mesh>skeletal/m_pants_celt.dae</mesh>
+    <variant>
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_celt.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
         <prop actor="props/units/shields/anglo_spearman_e.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/spear.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>
@@ -46,22 +37,12 @@
     <variant frequency="1" name="Helmet+Cape">
       <props>
         <prop actor="props/units/helmets/anglo_pioneer_helmet.xml" attachpoint="helmet"/>
-        <prop actor="props/units/cape_player_b.xml" attachpoint="shoulders"/>
+        <prop actor="props/units/capes/rider/pers_spearman_e.xml" attachpoint="root"/>
       </props>
     </variant>
     <variant frequency="0" name="None">
       <props>
         <prop attachpoint="helmet"/>
-      </props>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="100" name="Idle"/>
-    <variant name="carry_meat">
-      <props>
-        <prop actor="props/units/shuttle_meat.xml" attachpoint="r_hand"/>
-        <prop attachpoint="l_hand"/>
-        <prop attachpoint="shield"/>
       </props>
     </variant>
   </group>
@@ -75,6 +56,17 @@
     <variant frequency="25" name="woad">
       <color>165 206 228</color>
     </variant>
+  </group>
+  <group>
+    <variant file="biped/base_cavalry_spearman_ready_shield.xml"/>
+    <variant file="biped/rider/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/promotion_shield.xml"/>
+    <variant file="biped/rider/attack_slaughter_shield_hele.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death_shield_a.xml"/>
   </group>
   <material>objectcolor.xml</material>
 </actor>

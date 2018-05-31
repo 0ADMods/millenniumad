@@ -14,7 +14,6 @@
     <Civ>norse</Civ>
     <GenericName>Bodyguard</GenericName>
     <SpecificName>Huskárl</SpecificName>
-    <History>?</History>
     <Icon>units/norse_huskarl.png</Icon>
     <RequiredTechnology>unlock_champion_units_modded</RequiredTechnology>
     <SelectionGroupName>units/norse_champion_huscarl</SelectionGroupName>

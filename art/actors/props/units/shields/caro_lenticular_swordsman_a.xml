@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="shield_C">
+      <mesh>props/shield/shield_caro_round.dae</mesh>
+      <textures>
+        <texture file="props/shields/caro/lenticular/caro_lenticular_spec_leather_elite.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="leather-player">
+      <textures>
+        <texture file="props/shields/caro/lenticular/lenticular_leather_player.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="leather-player-light">
+      <textures>
+        <texture file="props/shields/caro/lenticular/lenticular_leather_player_light.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="checkered-white">
+      <textures>
+        <texture file="props/shields/caro/lenticular/lenticular_checkered_white.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="checkered-black">
+      <textures>
+        <texture file="props/shields/caro/lenticular/lenticular_checkered_black.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="chiro-player-white">
+      <textures>
+        <texture file="props/shields/caro/lenticular/lenticular_chiro_player_white.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="chiro-white">
+      <textures>
+        <texture file="props/shields/caro/lenticular/lenticular_chiro_white.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="chiro-black">
+      <textures>
+        <texture file="props/shields/caro/lenticular/lenticular_chiro_black.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="petal-small-player-white">
+      <textures>
+        <texture file="props/shields/caro/lenticular/lenticular_petal_small_player_white.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="petal-small-black">
+      <textures>
+        <texture file="props/shields/caro/lenticular/lenticular_petal_small_black.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="petal-player-white">
+      <textures>
+        <texture file="props/shields/caro/lenticular/lenticular_petal_player_white.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="petal-white">
+      <textures>
+        <texture file="props/shields/caro/lenticular/lenticular_petal_white.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

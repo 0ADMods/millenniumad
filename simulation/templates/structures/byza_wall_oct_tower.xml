@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_wall_tower">
+  <Footprint replace="">
+    <Circle radius="11"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>byza</Civ>
+    <SpecificName>Pýrgos</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="20" depth="20"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/byzantines/wall_tower_oct.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>7.5</Length>
+  </WallPiece>
+</Entity>

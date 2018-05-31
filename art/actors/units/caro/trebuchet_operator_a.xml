@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Trebuchet operator">
+      <animations>
+        <animation file="biped/trebuchet_operator_idle_3.dae" name="Idle" speed="100"/>
+      </animations>
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/anglo_shorwell_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="0" name="Chainmail+Scale1a">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail_scale1a.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail_scale1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="Chainmail+Scale1b">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail_scale1b.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail_scale1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="Chainmail+Scale2a">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail_scale2a.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail_scale2_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="Chainmail+Scale2b">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail_scale2b.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail_scale2_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail1a">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail1a.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail1b">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail1b.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail1c">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail1c.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="Chainmail2a">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail2a.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail2_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="Chainmail2b">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail2b.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail2_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="Chainmail2c">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail2c.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail2_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Scale1a">
+      <textures>
+        <texture file="skeletal/caro/elite/scale1a.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/scale1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Scale1b">
+      <textures>
+        <texture file="skeletal/caro/elite/scale1b.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/scale1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/attack_ranged_traction_trebuchet.xml" name="attack_ranged"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

@@ -2,19 +2,17 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Builder>
     <Entities datatype="tokens">
-      structures/caro_palace
       structures/caro_special
-      -structures/{civ}_wonder
+      structures/{civ}_wonder
     </Entities>
   </Builder>
   <Identity>
     <Civ>caro</Civ>
     <Lang>greek</Lang>
     <SelectionGroupName>units/caro_infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Infantry Swordsman</GenericName>
-    <SpecificName>?</SpecificName>
-    <Icon>units/sele_infantry_swordsman.png</Icon>
-    <History></History>
+    <GenericName>Swordsman</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/caro_infantry_swordsman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Column_A">
+      <mesh>props/byza_column.dae</mesh>
+      <textures>
+				<texture file="structural/byzantine_struct.png" name="baseTex"/>
+				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
+			</textures>
+    </variant>
+  </group>
+<material>player_trans_parallax.xml</material>
+</actor>

@@ -3,27 +3,27 @@
   <castshadow/>
   <group>
     <variant frequency="50" name="Helmet_A">
-      <mesh>props/anglo_pioneer_helmet.dae</mesh>
+      <mesh>props/helmet/anglo_pioneer_helmet.dae</mesh>
       <textures>
-        <texture file="props/anglo_pioneer_helmet_spec.png" name="specTex"/>
-        <texture file="props/anglo_pioneer_helmet_norm.png" name="normTex"/>
+        <texture file="props/helmet/anglo_pioneer_helmet_spec.png" name="specTex"/>
+        <texture file="props/helmet/anglo_pioneer_helmet_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="Standard">
       <textures>
-        <texture file="props/anglo_pioneer_helmet.png" name="baseTex"/>
+        <texture file="props/helmet/anglo_pioneer_helmet.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="2" name="Standard2">
       <textures>
-        <texture file="props/anglo_pioneer_helmet2.png" name="baseTex"/>
+        <texture file="props/helmet/anglo_pioneer_helmet2.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="3" name="Standard3">
       <textures>
-        <texture file="props/anglo_pioneer_helmet3.png" name="baseTex"/>
+        <texture file="props/helmet/anglo_pioneer_helmet3.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

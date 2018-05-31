@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="other/palisades_rocks_tower">
+  <Footprint>
+    <Square width="6.5" depth="14.2"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>byza</Civ>
+    <SpecificName>Pýrgos</SpecificName>
+    <Icon>structures/tower.png</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="6" depth="14"/>
+  </Obstruction>
+  <Health>
+    <Max>1600</Max>
+  </Health>
+  <Cost>
+    <BuildTime>65</BuildTime>
+    <Resources>
+      <stone>70</stone>
+    </Resources>
+  </Cost>
+  <VisualActor>
+    <Actor>structures/byzantines/s_wall_tower.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>6.6</Length>
+  </WallPiece>
+</Entity>

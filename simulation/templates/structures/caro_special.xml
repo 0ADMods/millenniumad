@@ -21,6 +21,6 @@
   	<RallyPoint disable=""/>
 	<VisualActor>
 		<Actor>structures/carolingian/watermill.xml</Actor>
-		<FoundationActor>structures/carolingian/watermill_foundation_actor.xml</FoundationActor>
+		<FoundationActor>structures/fndn_4x4_dock.xml</FoundationActor>
 	</VisualActor>
 </Entity>

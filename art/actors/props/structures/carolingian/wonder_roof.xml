@@ -3,12 +3,12 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>props/Cathedral_Aachen_roof.dae</mesh>
+      <mesh>props/caro_wonder_roof.dae</mesh>
       <textures>
         <texture file="structural/maur_struct_b.png" name="baseTex"/>
         <texture file="structural/maur_struct_b_norm.png" name="normTex"/>
         <texture file="structural/maur_struct_b_spec.png" name="specTex"/>
-        <texture file="structural/ao/caro_wonder_ao.png" name="aoTex"/>
+        <texture file="structural/ao/caro_wonder.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

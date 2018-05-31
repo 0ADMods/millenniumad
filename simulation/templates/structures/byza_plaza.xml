@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special_theatron">
+  <Identity>
+    <Civ>byza</Civ>
+    <SpecificName>Agorá</SpecificName>
+  </Identity>
+  <Footprint replace="">
+    <Circle radius="25"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="42" depth="34"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/byzantines/plaza.xml</Actor>
+    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="50" name="Helmet_A">
+      <mesh>props/helmet/caro_aventail.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Standard">
+      <textures>
+        <texture file="props/helmet/caro_aventail_a.png" name="baseTex"/>
+        <texture file="props/helmet/caro_aventail_a_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+ <material>player_trans_spec.xml</material>
+</actor>

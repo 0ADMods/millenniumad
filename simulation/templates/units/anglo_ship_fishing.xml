@@ -2,8 +2,6 @@
 <Entity parent="template_unit_mechanical_ship_fishing">
   <Identity>
     <Civ>anglo</Civ>
-    <SpecificName>?</SpecificName>
-    <History>?</History>
     <Icon>units/norse_fishing_ship.png</Icon>
   </Identity>
   <VisualActor>

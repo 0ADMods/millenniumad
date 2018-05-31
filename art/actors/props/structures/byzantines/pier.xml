@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant name="Pier">
+			<mesh>props/byza_pier.dae</mesh>
+			<textures>
+				<texture file="structural/maur_struct_b.png" name="baseTex"/>
+				<texture file="structural/maur_struct_b_norm.png" name="normTex"/>
+				<texture file="structural/ao/byza_dock.png" name="aoTex"/>
+			</textures>
+      <props>
+        <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="barrel"/>
+      </props>
+		</variant>
+	</group>
+  <material>player_trans_ao_parallax.xml</material>
+</actor>

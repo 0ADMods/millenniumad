@@ -1,0 +1,12 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Unit"],
+	"modifications": [
+	{ "value": "UnitMotion/WalkSpeed", "multiply": 1.15 },
+	{ "value": "UnitMotion/Run/Speed", "multiply": 1.15 }
+	],
+	"auraName": "Advanced Logistics",
+	"auraDescription": "All units in his range move +15% faster.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}
