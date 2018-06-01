@@ -11,7 +11,7 @@
 				<texture file="structural/ao/anglo_corral_ao.png" name="aoTex"/>
 			</textures>
 			<props>
-				<prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
+				<prop actor="decals/farmstead_mud_medium.xml" attachpoint="root"/>
 				<prop actor="props/structures/anglo/anglo_corral_food_box.xml" attachpoint="food_box"/>
 				<prop actor="props/structures/anglo/anglo_corral_hay_pile.xml" attachpoint="hay_pile"/>
 				<prop actor="props/structures/anglo/anglo_corral_little_building.xml" attachpoint="little_building"/>
