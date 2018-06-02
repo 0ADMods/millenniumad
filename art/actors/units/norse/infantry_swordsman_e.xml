@@ -6,10 +6,22 @@
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/helmets/norse_helmet.xml" attachpoint="helmet"/>
-        <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_german_a.xml" attachpoint="head"/>
         <prop actor="props/units/shields/norse_swordsman_e.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/norse_sword.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/norse_sword_sheath_empty.xml" attachpoint="sheath_L"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="chainmail-coif">
+      <props>
+        <prop actor="props/units/helmets/byza_coif_swordsman_shield_relax_chainmail_short.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="no-coif">
+      <props>
+        <prop actor="" attachpoint="root"/>
       </props>
     </variant>
   </group>
