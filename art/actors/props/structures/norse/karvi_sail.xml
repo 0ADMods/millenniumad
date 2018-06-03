@@ -12,29 +12,19 @@
     </variant>
   </group>
   <group>
-    <variant frequency="0" name="Norse sail_a">
+    <variant frequency="1" name="Norse sail_a">
       <textures>
         <texture file="props/norse_ship_sail_a.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="0" name="Norse sail_b">
+    <variant frequency="1" name="Norse sail_b">
       <textures>
         <texture file="props/norse_ship_sail_b.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="0" name="Norse sail_c">
+    <variant frequency="1" name="Norse sail_c">
       <textures>
         <texture file="props/norse_ship_sail_c.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Drakkar sail_a">
-      <textures>
-        <texture file="props/drakkar_sail_a.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Drakkar sail_b">
-      <textures>
-        <texture file="props/drakkar_sail_b.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
