@@ -1,3 +1,5 @@
+* text=auto
+
 #################
 ## Eclipse
 #################
@@ -213,6 +215,3 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
-art/textures/skins/props/Drakkar_sail_a.png
-art/textures/skins/props/Drakkar_sail_b.png
-art/textures/skins/structural/caro_struct_b.png
