@@ -17,14 +17,14 @@
         <texture file="props/iber_sail_b.dds" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Drakkar sail_a">
+    <variant frequency="1" name="Byza sail_b">
       <textures>
-        <texture file="props/drakkar_sail_a.png" name="baseTex"/>
+        <texture file="props/norse_ship_sail_b.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Drakkar sail_b">
+    <variant frequency="1" name="Byza sail_c">
       <textures>
-        <texture file="props/drakkar_sail_b.png" name="baseTex"/>
+        <texture file="props/norse_ship_sail_c.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
