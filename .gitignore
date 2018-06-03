@@ -1,4 +1,7 @@
 * text=auto
+*.xml text
+*.dae text
+*.json text
 
 #################
 ## Eclipse
