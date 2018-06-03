@@ -9,7 +9,7 @@ init = function(initData, hotloadData)
 	// Translation: Game/Mod name as found at the top of the in-game user interface
 	Engine.GetGUIObjectByName("alphaLabel").caption = sprintf(translate("%(title)s %(version)s : %(subtitle)s"), {
 		"title": translate("1,000 A.D."),
-		"subtitle": translate("Dellingr"),
+		"subtitle": translate("Xýlo"),
 		"version": translate("ALPHA XXIII")
 	});
 }
