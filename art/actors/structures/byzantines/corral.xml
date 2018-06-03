@@ -13,7 +13,7 @@
         <prop actor="props/structures/byzantines/corral_props.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/corral_roof.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/corral_hay.xml" attachpoint="root"/>
-        <prop actor="decals/farmstead_mud_medium.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/farmstead_mud_medium.xml" attachpoint="root"/>
         <prop actor="props/special/eyecandy/waterbin_a.xml" attachpoint="waterbin"/>
       </props>
     </variant>
@@ -23,7 +23,7 @@
     <variant name="death">
       <props>
         <prop actor="props/special/eyecandy/waterbin_a.xml" attachpoint="waterbin"/>
-        <prop actor="decals/farmstead_mud_medium.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/farmstead_mud_medium.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/corral_hay.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/corral_props.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/corral_roof.xml" attachpoint="root"/>
