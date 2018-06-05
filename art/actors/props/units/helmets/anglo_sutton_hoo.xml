@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Helmet">
+      <mesh>props/helmet/anglo_sutton_hoo_helmet.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Mask">
+      <props>
+        <prop actor="props/units/helmets/props/anglo_sutton_hoo_mask.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/props/anglo_sutton_hoo_coif.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="props/helmet/anglo_sutton_hoo_helmet.png" name="baseTex"/>
+        <texture file="props/helmet/anglo_sutton_hoo_helmet_norm.png" name="normTex"/>
+        <texture file="props/helmet/anglo_sutton_hoo_helmet_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+ <material>basic_trans_parallax_spec.xml</material>
+</actor>
