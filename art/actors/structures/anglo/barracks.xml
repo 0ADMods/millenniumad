@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
-  <castshadow/>
-  <group>
-    <variant name="Celtic Barracks">
-      <mesh>structural/anglo_barracks.dae</mesh>
+	<castshadow/>
+	<group>
+		<variant name="Celtic Barracks">
+			<mesh>structural/anglo_barracks.dae</mesh>
 			<props>
 				<prop actor="props/structures/anglo/anglo_barracks_bench_right.xml" attachpoint="bench_right"/>
 				<prop actor="props/structures/anglo/anglo_barracks_front_shield.xml" attachpoint="root"/>
 				<prop actor="props/structures/anglo/anglo_barracks_left_shield.xml" attachpoint="shield_left"/>
-        <prop actor="props/structures/decals/dirt_6x4.xml" attachpoint="root"/>
+				<prop actor="props/structures/decals/dirt_6x4.xml" attachpoint="root"/>
 			</props>
-      <textures>
-		<texture file="structural/anglo_struct.png" name="baseTex"/>
-		<texture file="structural/anglo_struct_norm.png" name="normTex"/>
-		<texture file="structural/anglo_struct_spec.png" name="specTex"/>
-		<texture file="structural/ao/anglo_barracks_ao.png" name="aoTex"/>
-	  </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="100" name="Idle"/>
-    <variant name="garrisoned">
-      <props>
-        <prop actor="props/special/common/garrison_flag_celt.xml" attachpoint="garrisoned"/>
-      </props>
-    </variant>
-    <variant name="death">
-      <props>
-        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
-        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
-        <prop actor="particle/destruction_dust_med_gray.xml" attachpoint="root"/>
-        <prop actor="props/structures/decals/celt_barracks.xml" attachpoint="root"/>
-      </props>
-    </variant>
-  </group>
-  <material>player_trans_ao_spec.xml</material>
+			<textures>
+				<texture file="structural/anglo_struct.png" name="baseTex"/>
+				<texture file="structural/anglo_struct_norm.png" name="normTex"/>
+				<texture file="structural/anglo_struct_spec.png" name="specTex"/>
+				<texture file="structural/ao/anglo_barracks_ao.png" name="aoTex"/>
+			</textures>
+		</variant>
+	</group>
+	<group>
+		<variant frequency="100" name="Idle"/>
+		<variant name="garrisoned">
+			<props>
+				<prop actor="props/special/common/garrison_flag_celt.xml" attachpoint="garrisoned"/>
+			</props>
+		</variant>
+		<variant name="death">
+			<props>
+				<prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+				<prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+				<prop actor="particle/destruction_dust_med_gray.xml" attachpoint="root"/>
+				<prop actor="props/structures/decals/celt_barracks.xml" attachpoint="root"/>
+			</props>
+		</variant>
+	</group>
+	<material>player_trans_ao_spec.xml</material>
 </actor>
