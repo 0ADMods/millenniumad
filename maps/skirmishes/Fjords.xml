@@ -33,9 +33,9 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="860.193" y="111.859" z="780.461"/>
-		<Rotation angle="2.44152"/>
-		<Declination angle="0.610865"/>
+		<Position x="762.185" y="122.91" z="671.894"/>
+		<Rotation angle="1.46456"/>
+		<Declination angle="0.592471"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
@@ -54,7 +54,7 @@
       "Civ": "cart"
     }
   ],
-  "Preview": "",
+  "Preview": "fjords.png",
   "RevealMap": false
 }
 ]]></ScriptSettings>
@@ -2455,13 +2455,13 @@
 			<Actor seed="31966"/>
 		</Entity>
 		<Entity uid="7617">
-			<Template>actor|props/units/heads/mace_craterus.xml</Template>
+			<Template>actor|props/units/heads/head_hele_e.xml</Template>
 			<Position x="237.04184" z="381.81809"/>
 			<Orientation y="1.82511"/>
 			<Actor seed="48302"/>
 		</Entity>
 		<Entity uid="7618">
-			<Template>actor|props/units/heads/mace_craterus.xml</Template>
+			<Template>actor|props/units/heads/head_hele_e.xml</Template>
 			<Position x="250.56305" z="386.40119"/>
 			<Orientation y="2.50834"/>
 			<Actor seed="61646"/>
@@ -19515,21 +19515,21 @@
 		<Entity uid="24010">
 			<Template>structures/norse_dock</Template>
 			<Player>0</Player>
-			<Position x="471.7063" z="289.0824"/>
+			<Position x="479.6435" z="301.16623"/>
 			<Orientation y="0.38358"/>
 			<Actor seed="58676"/>
 		</Entity>
 		<Entity uid="24012">
 			<Template>structures/norse_dock</Template>
 			<Player>0</Player>
-			<Position x="438.42078" z="278.2722"/>
-			<Orientation y="-1.19909"/>
+			<Position x="426.55997" z="275.61075"/>
+			<Orientation y="-1.46746"/>
 			<Actor seed="57682"/>
 		</Entity>
 		<Entity uid="24013">
 			<Template>structures/norse_blacksmith</Template>
 			<Player>0</Player>
-			<Position x="461.63035" z="267.01993"/>
+			<Position x="462.14106" z="267.04532"/>
 			<Orientation y="-2.335"/>
 			<Actor seed="20758"/>
 		</Entity>
@@ -19798,21 +19798,21 @@
 		<Entity uid="24072">
 			<Template>units/norse_ship_fishing</Template>
 			<Player>0</Player>
-			<Position x="483.482" z="272.94056"/>
+			<Position x="486.6035" z="257.58274"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="6436"/>
 		</Entity>
 		<Entity uid="24073">
 			<Template>units/norse_ship_fishing</Template>
 			<Player>0</Player>
-			<Position x="482.83774" z="264.26655"/>
+			<Position x="487.7505" z="248.14734"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="64834"/>
 		</Entity>
 		<Entity uid="24074">
 			<Template>units/norse_ship_fishing</Template>
 			<Player>0</Player>
-			<Position x="482.34742" z="254.16453"/>
+			<Position x="486.40046" z="236.35026"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="6232"/>
 		</Entity>
@@ -38218,8 +38218,8 @@
 		<Entity uid="44454">
 			<Template>structures/norse_dock</Template>
 			<Player>0</Player>
-			<Position x="902.92365" z="734.76642"/>
-			<Orientation y="-0.54052"/>
+			<Position x="914.5865" z="744.71528"/>
+			<Orientation y="-6.7363"/>
 			<Actor seed="31008"/>
 		</Entity>
 		<Entity uid="44455">
@@ -39730,7 +39730,7 @@
 		<Entity uid="44723">
 			<Template>structures/norse_temple</Template>
 			<Player>0</Player>
-			<Position x="832.34162" z="511.70377"/>
+			<Position x="833.95673" z="509.27411"/>
 			<Orientation y="-1.23147"/>
 			<Actor seed="24584"/>
 		</Entity>
@@ -39751,7 +39751,7 @@
 		<Entity uid="44726">
 			<Template>structures/norse_dock</Template>
 			<Player>0</Player>
-			<Position x="810.56037" z="563.09192"/>
+			<Position x="810.58307" z="563.07074"/>
 			<Orientation y="-0.6739"/>
 			<Actor seed="13636"/>
 		</Entity>
