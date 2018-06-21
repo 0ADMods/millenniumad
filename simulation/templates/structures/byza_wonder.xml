@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_wonder">
   <Footprint>
-    <Square width="72" depth="85"/>
-    <Height>25.0</Height>
+    <Square width="57" depth="71"/>
+    <Height>40.0</Height>
   </Footprint>
   <Health>
     <Max>4400</Max>
@@ -13,7 +13,7 @@
     <GenericName>Hagia Sophia </GenericName>
   </Identity>
   <Obstruction>
-    <Static width="68.6" depth="83"/>
+    <Static width="56" depth="70"/>
   </Obstruction>
   <StatusBars>
     <BarWidth>6.0</BarWidth>
