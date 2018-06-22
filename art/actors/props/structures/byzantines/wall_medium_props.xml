@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
-	<cashadow/>
+	<casthadow/>
 	<group>
 		<variant>
 			<mesh>props/byza_wall_medium_props.dae</mesh>
