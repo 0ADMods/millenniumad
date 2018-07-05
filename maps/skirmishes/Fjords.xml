@@ -33,12 +33,13 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="762.185" y="122.91" z="671.894"/>
-		<Rotation angle="1.46456"/>
-		<Declination angle="0.592471"/>
+		<Position x="907.657" y="157.438" z="72.6782"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
+  "AISeed": 0,
   "CircularMap": true,
   "Description": "Give an interesting description of your map.",
   "GameType": "conquest",
@@ -46,7 +47,7 @@
   "LockTeams": false,
   "Name": "Fjords",
   "PlayerData": [
-    null,
+    "",
     {
       "Civ": "athen"
     },
@@ -55,7 +56,10 @@
     }
   ],
   "Preview": "fjords.png",
-  "RevealMap": false
+  "RevealMap": false,
+  "VictoryConditions": [
+    "conquest"
+  ]
 }
 ]]></ScriptSettings>
 	<Entities>
