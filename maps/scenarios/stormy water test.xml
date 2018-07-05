@@ -33,12 +33,13 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="808.319" y="82.1874" z="625.852"/>
-		<Rotation angle="0.761335"/>
-		<Declination angle="0.610866"/>
+		<Position x="831.573" y="83.866" z="593.34"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
+  "AISeed": 0,
   "CircularMap": true,
   "Description": "A Showcase Map designed by niektb. Not playable.",
   "GameType": "endless",
@@ -57,7 +58,10 @@
     }
   ],
   "Preview": "",
-  "RevealMap": true
+  "RevealMap": true,
+  "VictoryConditions": [
+    "conquest"
+  ]
 }
 ]]></ScriptSettings>
 	<Entities>
@@ -69,7 +73,7 @@
 			<Actor seed="82"/>
 		</Entity>
 		<Entity uid="14">
-			<Template>units/norse_warship_snekkja</Template>
+			<Template>units/norse_ship_trireme</Template>
 			<Player>2</Player>
 			<Position x="521.32251" z="438.5569"/>
 			<Orientation y="2.35621"/>

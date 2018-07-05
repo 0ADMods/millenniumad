@@ -15,14 +15,13 @@
 		</Fog>
 		<Water>
 			<WaterBody>
-				<Type>default</Type>
+				<Type>ocean</Type>
 				<Color r="0.137255" g="0.611765" b="0.811765"/>
+				<Tint r="0.564706" g="0.964706" b="0.937255"/>
 				<Height>19.9</Height>
 				<Waviness>5.39063</Waviness>
 				<Murkiness>0.820313</Murkiness>
-				<Tint r="0.564706" g="0.964706" b="0.937255"/>
-				<ReflectionTint r="0.27451" g="0.294118" b="0.584314"/>
-				<ReflectionTintStrength>0</ReflectionTintStrength>
+				<WindAngle>0</WindAngle>
 			</WaterBody>
 		</Water>
 		<Postproc>
@@ -34,12 +33,13 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="1703.2" y="79.369" z="937.682"/>
+		<Position x="1717.54" y="57.7397" z="992.28"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
+  "AISeed": 0,
   "BaseHeight": -5,
   "BaseTerrain": [
     "medit_sand_wet"
@@ -53,6 +53,7 @@
   "LockTeams": false,
   "Name": "Norse Migration Test",
   "PlayerData": [
+    "",
     {
       "AI": "",
       "Civ": "norse",
@@ -91,6 +92,9 @@
   "Script": "migration.js",
   "Seed": 0,
   "Size": 512,
+  "VictoryConditions": [
+    "conquest"
+  ],
   "XXXXXX": "Optionally define other things here, like we would for a scenario"
 }
 ]]></ScriptSettings>
@@ -63075,17 +63079,11 @@
 			<Orientation y="-1.74183"/>
 		</Entity>
 		<Entity uid="12245">
-			<Template>units/norse_warship_snekkja</Template>
+			<Template>units/norse_ship_trireme</Template>
 			<Player>1</Player>
 			<Position x="1744.50342" z="1047.20484"/>
 			<Orientation y="-2.0082"/>
 			<Actor seed="46958"/>
-		</Entity>
-		<Entity uid="12249">
-			<Template>formations/flank</Template>
-			<Player>1</Player>
-			<Position x="1702.74817" z="1042.08582"/>
-			<Orientation y="-0.59682"/>
 		</Entity>
 		<Entity uid="12251">
 			<Template>units/norse_champion_huscarl</Template>
@@ -63126,14 +63124,8 @@
 			<Orientation y="-1.83996"/>
 			<Actor seed="31420"/>
 		</Entity>
-		<Entity uid="12256">
-			<Template>formations/line_closed</Template>
-			<Player>1</Player>
-			<Position x="1707.85169" z="1036.40308"/>
-			<Orientation y="-2.145"/>
-		</Entity>
 		<Entity uid="12260">
-			<Template>units/norse_warship_snekkja</Template>
+			<Template>units/norse_ship_trireme</Template>
 			<Player>2</Player>
 			<Position x="1611.68348" z="1669.97181"/>
 			<Orientation y="-2.0109"/>

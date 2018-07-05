@@ -11,13 +11,13 @@
 		<Fog>
 			<FogFactor>0</FogFactor>
 			<FogThickness>0.5</FogThickness>
-			<FogColor r="0.8" g="0.8" b="0.898039"/>
+			<FogColor r="0.8" g="0.8" b="0.894118"/>
 		</Fog>
 		<Water>
 			<WaterBody>
 				<Type>ocean</Type>
-				<Color r="0.298039" g="0.34902" b="0.698039"/>
-				<Tint r="0.278431" g="0.298039" b="0.588235"/>
+				<Color r="0.294118" g="0.34902" b="0.694118"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
 				<Height>174.47</Height>
 				<Waviness>4</Waviness>
 				<Murkiness>0.45</Murkiness>
@@ -33,12 +33,13 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="405.179" y="256.667" z="29.2057"/>
-		<Rotation angle="-0.804895"/>
-		<Declination angle="0.610866"/>
+		<Position x="290.585" y="247.039" z="15.834"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
+  "AISeed": 0,
   "CircularMap": true,
   "Description": "Give an interesting description of your map.",
   "GameType": "conquest",
@@ -75,7 +76,10 @@
     }
   ],
   "Preview": "",
-  "RevealMap": false
+  "RevealMap": false,
+  "VictoryConditions": [
+    "conquest"
+  ]
 }
 ]]></ScriptSettings>
 	<Entities>
