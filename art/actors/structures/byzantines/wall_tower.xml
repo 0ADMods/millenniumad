@@ -5,10 +5,10 @@
     <variant name="wall_tower">
       <mesh>structural/byza_wall_tower.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct.png" name="baseTex"/>
-				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
+        <texture file="structural/byzantine_struct.png" name="baseTex"/>
+        <texture file="structural/byzantine_struct_norm.png" name="normTex"/>
         <texture file="structural/ao/byza_wall_tower.png" name="aoTex"/>
-			</textures>
+      </textures>
       <props>
         <prop actor="props/structures/byzantines/wall_tower_props.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
