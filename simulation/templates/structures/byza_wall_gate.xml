@@ -10,8 +10,8 @@
   </Identity>
   <Obstruction>
     <Obstructions>
-      <Right width="14" depth="6" x="11.5" z="0"/>
-      <Left width="14" depth="6" x="-11.5" z="0"/>
+      <Right width="16" depth="6.5" x="10.5" z="0"/>
+      <Left width="16" depth="6.5" x="-10.5" z="0"/>
       <Door width="3" depth="6.5" x="0" z="0"/>
     </Obstructions>
   </Obstruction>
