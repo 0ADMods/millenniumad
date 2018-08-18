@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
-	<castshadow/>
-	<group>
-		<variant>
-			<mesh>props/byza_wall_tower_oct_props.dae</mesh>
-			<textures>
-				<texture file="structural/rome_struct_2.png" name="baseTex"/>
-				<texture file="structural/rome_struct_2_norm.png" name="normTex"/>
-				<texture file="structural/ao/byza_tower_oct.png" name="aoTex"/>
-			</textures>
-		</variant>
-	</group>
+    <castshadow/>
+    <group>
+        <variant>
+            <mesh>props/byza_wall_tower_oct_props.dae</mesh>
+            <textures>
+                <texture file="structural/rome_struct_2.png" name="baseTex"/>
+                <texture file="structural/rome_struct_2_norm.png" name="normTex"/>
+                <texture file="structural/ao/byza_tower_oct.png" name="aoTex"/>
+            </textures>
+        </variant>
+    </group>
   <material>player_trans_ao_parallax.xml</material>
 </actor>
