@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Stable">
+      <mesh>structural/byza_stable.dae</mesh>
+      <textures>
+        <texture file="structural/byzantine_struct.png" name="baseTex"/>
+        <texture file="structural/byzantine_struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/byza_stable.png" name="aoTex"/>
+      </textures>
+      <props>
+        <prop actor="props/structures/byzantines/stable_roof.xml" attachpoint="root"/>
+		<prop actor="props/structures/byzantines/stable_props.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+        <prop actor="props/units/shields/byza_parma.xml" attachpoint="shield_1"/>
+        <prop actor="props/units/shields/byza_parma.xml" attachpoint="shield_2"/>
+		<prop actor="props/units/shields/byza_round.xml" attachpoint="shield_3"/>
+        <prop actor="props/units/shields/byza_round_b.xml" attachpoint="shield_4"/>
+		<prop actor="props/units/shields/byza_round.xml" attachpoint="shield_5"/>
+        <prop actor="props/units/weapons/spear_long_player_colour.xml" attachpoint="spear_1"/>
+        <prop actor="props/units/weapons/caro_cavalry_spear.xml" attachpoint="spear_2"/>
+		<prop actor="props/structures/persians/stable_horse_a.xml" attachpoint="horse"/>
+        <prop actor="props/structures/persians/stable_horse_b.xml" attachpoint="horse_1"/>
+        <prop actor="props/structures/persians/stable_horse_c.xml" attachpoint="horse_2"/>
+		<prop actor="props/special/eyecandy/waterbin_a.xml" attachpoint="waterbin"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop actor="props/structures/byzantines/stable_roof.xml" attachpoint="root"/>
+		<prop actor="props/structures/byzantines/stable_props.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+<material>player_trans_ao_parallax.xml</material>
+</actor>
