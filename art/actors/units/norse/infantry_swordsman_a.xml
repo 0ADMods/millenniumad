@@ -6,7 +6,8 @@
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/helmets/norse_helmet.xml" attachpoint="helmet"/>
-        <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/norse_coif_swordsman_shield_relax_a.xml" attachpoint="root"/>
+        <prop actor="props/units/heads/new/head_german_a.xml" attachpoint="head"/>
         <prop actor="props/units/shields/norse_swordsman_a.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/norse_sword.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/norse_sword_sheath_empty.xml" attachpoint="sheath_L"/>
@@ -14,45 +15,20 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="no-coif">
-      <props>
-        <prop actor="" attachpoint="root"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="padded-coif-full">
-      <props>
-        <prop actor="props/units/helmets/norse_coif_swordsman_shield_relax_padded_full.xml" attachpoint="root"/>
-        <prop actor="props/units/heads/new/head_german_a.xml" attachpoint="head"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="padded-coif">
-      <props>
-        <prop actor="props/units/heads/new/head_german_a.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/norse_coif_swordsman_shield_relax_padded.xml" attachpoint="root"/>
-      </props>
-    </variant>
+    <variant frequency="1" name="padded-coif"/>
   </group>
   <group>
     <variant frequency="1" name="transparent_shirt1">
-      <props>
-        <prop actor="" attachpoint="root"/>
-      </props>
       <textures>
         <texture file="skeletal/norse/advanced/transparent_shirt1.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="transparent_shirt2">
-      <props>
-        <prop actor="" attachpoint="root"/>
-      </props>
       <textures>
         <texture file="skeletal/norse/advanced/transparent_shirt2.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="transparent_shirt3">
-      <props>
-        <prop actor="" attachpoint="root"/>
-      </props>
       <textures>
         <texture file="skeletal/norse/advanced/transparent_shirt3.png" name="baseTex"/>
       </textures>
@@ -134,7 +110,11 @@
     <variant file="biped/gather_praise.xml"/>
     <variant file="biped/build.xml"/>
     <variant file="biped/build_farm.xml"/>
-    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/death_infantry.xml">
+      <props>
+        <prop actor="props/units/helmets/norse_coif_swordsman_shield_relax_a.xml" attachpoint="root"/>
+      </props>
+    </variant>
   </group>
   <material>player_trans.xml</material>
 </actor>
