@@ -14,17 +14,45 @@
     </variant>
   </group>
   <group>
+    <variant frequency="1" name="no-coif">
+      <props>
+        <prop actor="" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="padded-coif-full">
+      <props>
+        <prop actor="props/units/helmets/norse_coif_swordsman_shield_relax_padded_full.xml" attachpoint="root"/>
+        <prop actor="props/units/heads/new/head_german_a.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="padded-coif">
+      <props>
+        <prop actor="props/units/heads/new/head_german_a.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/norse_coif_swordsman_shield_relax_padded.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
     <variant frequency="1" name="transparent_shirt1">
+      <props>
+        <prop actor="" attachpoint="root"/>
+      </props>
       <textures>
         <texture file="skeletal/norse/advanced/transparent_shirt1.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="transparent_shirt2">
+      <props>
+        <prop actor="" attachpoint="root"/>
+      </props>
       <textures>
         <texture file="skeletal/norse/advanced/transparent_shirt2.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="transparent_shirt3">
+      <props>
+        <prop actor="" attachpoint="root"/>
+      </props>
       <textures>
         <texture file="skeletal/norse/advanced/transparent_shirt3.png" name="baseTex"/>
       </textures>
@@ -45,6 +73,42 @@
       <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <textures>
         <texture file="skeletal/norse/advanced/padded3.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="padded6a">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/norse/advanced/padded6a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="padded6b">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/norse/advanced/padded6b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="padded6c">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/norse/advanced/padded6c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="padded7a">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/norse/advanced/padded7a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="padded7b">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/norse/advanced/padded7b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="padded7c">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/norse/advanced/padded7c.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

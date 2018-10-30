@@ -5,10 +5,23 @@
     <variant file="biped/base_swordsman_2hand_relax.xml">
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/norse_huscarl.xml" attachpoint="helmet"/>
-        <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/norse_helmet_c.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/new/head_german_a.xml" attachpoint="head"/>
         <prop actor="props/units/shields/norse_champion_huscarl_back.xml" attachpoint="back"/>
         <prop actor="props/units/weapons/dane_axe.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/norse_sword_sheath.xml" attachpoint="sheath_L"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="chainmail-coif">
+      <props>
+        <prop actor="props/units/helmets/norse_coif_huscarl_relax_chainmail.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="3" name="padded-coif">
+      <props>
+        <prop actor="props/units/helmets/norse_coif_huscarl_relax_padded.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
@@ -71,6 +84,21 @@
     <variant frequency="1" name="Chainmail4c">
       <textures>
         <texture file="skeletal/norse/elite/chainmail4c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail9a">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail9a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail9b">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail9b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail9c">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail9c.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

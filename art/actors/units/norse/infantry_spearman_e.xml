@@ -74,6 +74,21 @@
         <texture file="skeletal/norse/elite/chainmail4c.png" name="baseTex"/>
       </textures>
     </variant>
+    <variant frequency="1" name="Chainmail9a">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail9a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail9b">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail9b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail9c">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail9c.png" name="baseTex"/>
+      </textures>
+    </variant>
   </group>
   <group>
     <variant frequency="1" name="weapon-banner">

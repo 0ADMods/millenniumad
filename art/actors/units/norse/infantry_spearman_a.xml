@@ -46,6 +46,42 @@
         <texture file="skeletal/norse/advanced/padded3.png" name="baseTex"/>
       </textures>
     </variant>
+    <variant frequency="1" name="padded6a">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/norse/advanced/padded6a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="padded6b">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/norse/advanced/padded6b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="padded6c">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/norse/advanced/padded6c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="padded7a">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/norse/advanced/padded7a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="padded7b">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/norse/advanced/padded7b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="padded7c">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/norse/advanced/padded7c.png" name="baseTex"/>
+      </textures>
+    </variant>
   </group>
   <group>
     <variant file="biped/base_spearman_relax.xml"/>
