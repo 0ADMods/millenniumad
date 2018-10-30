@@ -10,18 +10,7 @@
         <prop actor="props/units/shields/norse_champion_huscarl_back.xml" attachpoint="back"/>
         <prop actor="props/units/weapons/dane_axe.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/norse_sword_sheath.xml" attachpoint="sheath_L"/>
-      </props>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="chainmail-coif">
-      <props>
-        <prop actor="props/units/helmets/norse_coif_huscarl_relax_chainmail.xml" attachpoint="root"/>
-      </props>
-    </variant>
-    <variant frequency="3" name="padded-coif">
-      <props>
-        <prop actor="props/units/helmets/norse_coif_huscarl_relax_padded.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/norse_coif_huscarl_relax.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
@@ -105,7 +94,11 @@
   <group>
     <variant frequency="1" name="Idle"/>
     <variant file="biped/attack_capture.xml"/>
-    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/death_infantry.xml">
+      <props>
+        <prop actor="props/units/helmets/norse_coif_huscarl_relax.xml" attachpoint="root"/>
+      </props>
+    </variant>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>

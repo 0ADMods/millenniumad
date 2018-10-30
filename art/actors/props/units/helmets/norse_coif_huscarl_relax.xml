@@ -10,6 +10,11 @@
     </variant>
   </group>
   <group>
+    <variant frequency="3" name="coif-padded">
+      <textures>
+        <texture file="props/helmet/padded2.png" name="baseTex"/>
+      </textures>
+    </variant>
     <variant frequency="1" name="coif-chainmail">
       <textures>
         <texture file="props/helmet/chainmail.png" name="baseTex"/>
@@ -41,5 +46,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>basic_trans.xml</material>
+  <material>player_trans.xml</material>
 </actor>
