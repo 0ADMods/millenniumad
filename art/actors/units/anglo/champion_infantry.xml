@@ -6,14 +6,30 @@
       <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/helmets/anglo_sutton_hoo.xml" attachpoint="helmet"/>
-        <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_german_a.xml" attachpoint="head"/>
         <prop actor="props/units/shields/anglo_champion_infantry.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/norse_spear.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/norse_sword_sheath.xml" attachpoint="sheath_L"/>
+        <prop actor="props/units/capes/spearman_shield_relax.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
   <group>
+    <variant frequency="1" name="Anglo-Chainmail1a">
+      <textures>
+        <texture file="skeletal/anglo/elite/chainmail1a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Anglo-Chainmail1b">
+      <textures>
+        <texture file="skeletal/anglo/elite/chainmail1b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Anglo-Chainmail1c">
+      <textures>
+        <texture file="skeletal/anglo/elite/chainmail1c.png" name="baseTex"/>
+      </textures>
+    </variant>
     <variant frequency="0" name="Chainmail1a">
       <textures>
         <texture file="skeletal/norse/elite/chainmail1a.png" name="baseTex"/>

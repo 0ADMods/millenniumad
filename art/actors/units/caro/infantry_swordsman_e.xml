@@ -10,7 +10,7 @@
         <prop actor="props/units/shields/caro_lenticular_swordsman_e.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/caro_infantry_sword.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/caro_infantry_sheath.xml" attachpoint="sheath_L"/>
-        <prop actor="props/units/helmets/byza_coif_swordsman_shield_relax_chainmail.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/caro_coif_swordsman_shield_relax_e.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
@@ -119,7 +119,11 @@
     <variant file="biped/gather_praise.xml"/>
     <variant file="biped/build.xml"/>
     <variant file="biped/build_farm.xml"/>
-    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/death_infantry.xml">
+      <props>
+        <prop actor="props/units/helmets/caro_coif_swordsman_shield_relax_e.xml" attachpoint="root"/>
+      </props>
+    </variant>
   </group>
   <material>player_trans_spec.xml</material>
 </actor>
