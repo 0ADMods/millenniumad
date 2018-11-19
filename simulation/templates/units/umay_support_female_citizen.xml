@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Attack>
+    <Melee>
+      <Hack>10.0</Hack>
+    </Melee>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+    </Entities>
+  </Builder>
+  <Health>
+    <Max>75</Max>
+  </Health>
+  <Identity>
+    <Civ>umay</Civ>
+    <GenericName>Female Citizen</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/umay_support_female_citizen.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/umayyads/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

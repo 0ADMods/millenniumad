@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/umay_cavalry_archer_merc_a">
+  <Identity>
+    <Rank>Elite</Rank>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/umayyads/camelry_archer_e_m.xml</Actor>
+  </VisualActor>
+</Entity>

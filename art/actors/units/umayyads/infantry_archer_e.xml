@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="3" name="Helmet-coif">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/byza_helmet_basic.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/umay_coif_archer_ready_e.xml" attachpoint="root"/>
+        <prop actor="props/units/heads/new/head_pers_b.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/bow_byza.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/quivers/byza_quiver_hip.xml" attachpoint="sheath_L"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="No-coif">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/byza_helmet_basic.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/new/head_pers_b.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/bow_byza.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/quivers/byza_quiver_hip.xml" attachpoint="sheath_L"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="chainmail1a">
+      <textures>
+        <texture file="skeletal/umay/elite/chainmail1a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail1b">
+      <textures>
+        <texture file="skeletal/umay/elite/chainmail1b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail1c">
+      <textures>
+        <texture file="skeletal/umay/elite/chainmail1c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail1d">
+      <textures>
+        <texture file="skeletal/umay/elite/chainmail1d.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail2a">
+      <mesh>skeletal/new/m_armor_dress.dae</mesh>
+      <textures>
+        <texture file="skeletal/umay/elite/chainmail2a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail2b">
+      <mesh>skeletal/new/m_armor_dress.dae</mesh>
+      <textures>
+        <texture file="skeletal/umay/elite/chainmail2b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail2c">
+      <mesh>skeletal/new/m_armor_dress.dae</mesh>
+      <textures>
+        <texture file="skeletal/umay/elite/chainmail2c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chainmail2d">
+      <mesh>skeletal/new/m_armor_dress.dae</mesh>
+      <textures>
+        <texture file="skeletal/umay/elite/chainmail2d.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scale1a">
+      <textures>
+        <texture file="skeletal/umay/elite/scale1a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scale1b">
+      <textures>
+        <texture file="skeletal/umay/elite/scale1b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scale1c">
+      <textures>
+        <texture file="skeletal/umay/elite/scale1c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scale1d">
+      <textures>
+        <texture file="skeletal/umay/elite/scale1d.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_archer_ready.xml"/>
+    <variant file="biped/carry_food.xml"/>
+    <variant file="biped/carry_meat.xml"/>
+    <variant file="biped/carry_wood.xml"/>
+    <variant file="biped/carry_stone.xml"/>
+    <variant file="biped/carry_metal.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_ranged_archer_hip.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/gather_tree.xml"/>
+    <variant file="biped/gather_grain.xml"/>
+    <variant file="biped/gather_fruit.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/gather_rock.xml"/>
+    <variant file="biped/gather_ore.xml"/>
+    <variant file="biped/gather_ruins.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
+    <variant file="biped/death_infantry.xml">
+      <props>
+        <prop actor="props/units/helmets/umay_coif_archer_ready_e.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

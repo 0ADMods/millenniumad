@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Helmet-coif">
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/byza_helmet_basic.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/caro_coif_swordsman_shield_relax_e.xml" attachpoint="root"/>
+        <prop actor="props/units/heads/new/head_pers_b.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/caro_infantry_sword.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/caro_infantry_sheath.xml" attachpoint="sheath_L"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet">
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/byza_helmet_basic.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/new/head_pers_b.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/caro_infantry_sword.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/caro_infantry_sheath.xml" attachpoint="sheath_L"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant name="shield-beja-iron">
+      <props>
+        <prop actor="props/units/shields/kush_beja_reinforced_rhino.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+    <variant name="shield-beja-gilded">
+      <props>
+        <prop actor="props/units/shields/kush_beja_reinforced_gold_rhino.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="scale-chainmail1a">
+      <textures>
+        <texture file="skeletal/umay/champion/scale-chainmail1a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scale-chainmail1b">
+      <textures>
+        <texture file="skeletal/umay/champion/scale-chainmail1b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scale-chainmail1c">
+      <textures>
+        <texture file="skeletal/umay/champion/scale-chainmail1c.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_swordsman_shield_relax.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

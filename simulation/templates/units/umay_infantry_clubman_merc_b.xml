@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Armour>
+    <Hack op="add">-1</Hack>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>3.0</Hack>
+      <Crush>2.5</Crush>
+    </Melee>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      structures/umay_military_colony
+      structures/umay_military_camp
+	  </Entities>
+  </Builder>
+  <Cost>
+    <Resources>
+      <food op="add">25</food>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>umay</Civ>
+    <SelectionGroupName>units/umay_infantry_clubman_merc_b</SelectionGroupName>
+    <GenericName>Arab Tribesman</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/umay_infantry_clubman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+  </Identity>
+  <Promotion>
+    <Entity>units/umay_infantry_clubman_merc_a</Entity>
+  </Promotion>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.1</WalkSpeed>
+    <Run>
+      <Speed op="mul">1.1</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/umayyads/infantry_clubman_b.xml</Actor>
+  </VisualActor>
+</Entity>

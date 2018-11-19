@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_bireme">
+  <Identity>
+    <Civ>umay</Civ>
+    <Icon>units/byza_bireme.png</Icon>
+    <GenericName>Byzantine Galley</GenericName>
+    <SpecificName>Chelandion</SpecificName>
+  </Identity>
+  <Upgrade>
+    <Greekfire>
+      <Entity>units/byza_ship_bireme_fire</Entity>
+      <Cost>
+        <metal>50</metal>
+        <wood>75</wood>
+      </Cost>
+      <Time>20</Time>
+    </Greekfire>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/byzantines/warship_light.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Identity>
+    <Civ>umay</Civ>
+    <SelectionGroupName>units/umay_support_healer_b</SelectionGroupName>
+    <SpecificName></SpecificName>
+    <Icon>units/umay_support_healer.png</Icon>
+    <Rank>Basic</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/umay_support_healer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/umayyads/healer.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_archer">
+  <Cost>
+    <Resources>
+      <food op="add">-25</food>
+      <metal op="add">25</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>umay</Civ>
+    <VisibleClasses datatype="tokens">Camel</VisibleClasses>
+    <SelectionGroupName>units/umay_cavalry_archer_b</SelectionGroupName>
+    <GenericName>Bedouin Camel Archer</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/sele_cavalry_archer.png</Icon>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/umay_cavalry_archer_merc_a</Entity>
+  </Promotion>
+  <Sound>
+    <SoundGroups>
+      <select>actor/fauna/animal/camel_select.xml</select>
+      <order_walk>actor/fauna/movement/camel_order.xml</order_walk>
+      <death>actor/fauna/death/death_camel.xml</death>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>units/umayyads/camelry_archer_b_m.xml</Actor>
+  </VisualActor>
+</Entity>
