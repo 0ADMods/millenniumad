@@ -21,7 +21,7 @@
         <prop actor="props/units/shields/norse_ship_shield_a.xml" attachpoint="shield_10"/>
         <prop actor="props/units/shields/norse_ship_shield_b.xml" attachpoint="shield_11"/>
         <prop actor="props/units/shields/norse_ship_shield_c.xml" attachpoint="shield_12"/>
-        <prop actor="props/structures/norse/karvi_props_folded.xml" attachpoint="root"/>
+        <prop actor="props/structures/norse/karvi_props.xml" attachpoint="root"/>
         <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="barrel_a"/>
         <prop actor="props/units/weapons/norse_sword.xml" attachpoint="weapon_a"/>
         <prop actor="props/units/weapons/norse_spear.xml" attachpoint="weapon_b"/>
