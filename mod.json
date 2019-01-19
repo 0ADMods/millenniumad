@@ -1,7 +1,7 @@
 {
 	"name": "millenniumad",
 	"label": "Millennium A.D.",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"url": "https://github.com/0ADMods/millenniumad",
 	"description": "Adds medieval content like civilizations and maps.",
 	"dependencies": ["0ad=0.0.23"],
