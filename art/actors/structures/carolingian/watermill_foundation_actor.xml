@@ -20,7 +20,7 @@
 		</variant>
 		<variant name="scaffold">
 			<props>
-				<prop actor="props/structures/carolingian/watermill_foundation.xml" attachpoint="root"/>
+				<prop actor="structures/carolingian/watermill_foundation.xml" attachpoint="root"/>
 				<prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
 				<prop actor="particle/construction_dust.xml" attachpoint="root"/>
 			</props>
