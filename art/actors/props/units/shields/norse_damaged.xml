@@ -10,13 +10,17 @@
     <variant frequency="50" name="damaged_dark">
       <textures>
         <texture file="props/shields/shield_damaged_dark.png" name="baseTex"/>
+        <texture file="props/shields/shield_damaged_norm.png" name="normTex"/>
+        <texture file="props/shields/shield_damaged_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="50" name="damaged_light">
       <textures>
         <texture file="props/shields/shield_damaged_light.png" name="baseTex"/>
+        <texture file="props/shields/shield_damaged_norm.png" name="normTex"/>
+        <texture file="props/shields/shield_damaged_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 </actor>

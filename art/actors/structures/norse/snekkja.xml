@@ -56,8 +56,10 @@
       </props>
       <textures>
         <texture file="structural/norse_snekkja.png" name="baseTex"/>
+        <texture file="structural/norse_snekkja_norm.png" name="normTex"/>
+        <texture file="structural/norse_snekkja_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 </actor>
