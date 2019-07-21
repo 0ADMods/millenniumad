@@ -18,7 +18,7 @@
   </group>
   <group>
     <variant frequency="1" name="cataphract-player-light">
-      <mesh>props/horse_cataphract_armor.dae</mesh>
+      <mesh>props/horse/cataphract_armor.dae</mesh>
       <textures>
         <texture file="props/horse/cataphract_byzantine_cloth_player_light.png" name="baseTex"/>
         <texture file="props/horse/cataphract_byzantine_cloth_norm.png" name="normTex"/>
@@ -26,7 +26,7 @@
       </textures>
     </variant>
     <variant frequency="3" name="cataphract-player-dark">
-      <mesh>props/horse_cataphract_armor.dae</mesh>
+      <mesh>props/horse/cataphract_armor.dae</mesh>
       <textures>
         <texture file="props/horse/cataphract_byzantine_cloth_player_dark.png" name="baseTex"/>
         <texture file="props/horse/cataphract_byzantine_cloth_norm.png" name="normTex"/>

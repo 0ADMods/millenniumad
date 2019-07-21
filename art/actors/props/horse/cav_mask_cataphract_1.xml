@@ -7,7 +7,7 @@
   </group>
   <group>
     <variant>
-      <mesh>props/horse_cataphract_mask.dae</mesh>
+      <mesh>props/horse/cataphract_mask.dae</mesh>
     </variant>
   </group>
   <material>basic_trans_parallax_spec.xml</material>

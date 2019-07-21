@@ -18,7 +18,7 @@
   </group>
   <group>
     <variant>
-      <mesh>props/horse_cataphract_armor.dae</mesh>
+      <mesh>props/horse/cataphract_armor.dae</mesh>
       <textures>
         <texture file="props/horse/carolingian_armorican.png" name="baseTex"/>
         <texture file="props/horse/carolingian_armorican_norm.png" name="normTex"/>

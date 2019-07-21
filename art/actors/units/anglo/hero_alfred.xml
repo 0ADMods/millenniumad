@@ -2,47 +2,26 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="quadraped/base_horse_swordsman.xml" frequency="1" name="Base">
-      <mesh>skeletal/horse.dae</mesh>
+    <variant file="quadraped/base_horse_swordsman.xml" frequency="1" name="Sworsdman Horse">
+      <mesh>skeletal/horse_celtic.dae</mesh>
       <props>
         <prop actor="units/anglo/hero_alfred_r.xml" attachpoint="rider"/>
-        <prop actor="props/units/horse/horse_chest_colorband.xml" attachpoint="chest"/>
-        <prop actor="props/horse/cav_rein_swordsman_shield.xml" attachpoint="head"/>
+        <prop actor="props/horse/chest_colorband_01.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_blanket_rome.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_rein_spearman.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="horse-texture-01">
-      <textures>
-        <texture file="skeletal/horse_rome_csp_01.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="horse-texture-mane black">
-      <textures>
-        <texture file="skeletal/horse_rome_csp_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="horse-texture-snipe">
-      <textures>
-        <texture file="skeletal/horse_rome_csp_03.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="horse-texture-mane white">
-      <textures>
-        <texture file="skeletal/horse_rome_csp_04.png" name="baseTex"/>
-      </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="2" name="horse-color-white">
-      <color>242 242 242</color>
-    </variant>
+    <variant file="quadraped/horse/brown.xml" frequency="1" name="brown"/>
+    <variant file="quadraped/horse/beige.xml" frequency="1" name="beige"/>
+    <variant file="quadraped/horse/tan.xml" frequency="1" name="tan"/>
+    <variant file="quadraped/horse/cherrybay.xml" frequency="1" name="cherrybay"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
     <variant file="quadraped/base_horse_death.xml"/>
     <variant file="quadraped/base_horse_run.xml"/>
   </group>
-  <material>objectcolor.xml</material>
+  <material>basic_trans_parallax_spec.xml</material>
 </actor>

@@ -18,7 +18,7 @@
   </group>
   <group>
     <variant name="armor-player">
-      <mesh>props/horse_cataphract_armor.dae</mesh>
+      <mesh>props/horse/cataphract_armor.dae</mesh>
       <textures>
         <texture file="props/horse/cataphract_byzantine_cloth_white.png" name="baseTex"/>
         <texture file="props/horse/cataphract_byzantine_cloth_norm.png" name="normTex"/>

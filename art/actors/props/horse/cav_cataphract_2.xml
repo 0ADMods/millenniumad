@@ -22,7 +22,7 @@
   </group>
   <group>
     <variant>
-      <mesh>props/horse_cataphract_armor.dae</mesh>
+      <mesh>props/horse/cataphract_armor.dae</mesh>
     </variant>
   </group>
   <material>basic_trans_parallax_spec.xml</material>

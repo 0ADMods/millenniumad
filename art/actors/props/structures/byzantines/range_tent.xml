@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant>
+			<mesh>props/byza_range_tent.dae</mesh>
+			<textures>
+				<texture file="props/stall_big_stripe_a_cloth.png" name="baseTex"/>
+				<texture file="structural/ao/byza_range.png" name="aoTex"/>
+			</textures>
+		</variant>
+	</group>
+  <material>player_trans_ao.xml</material>
+</actor>

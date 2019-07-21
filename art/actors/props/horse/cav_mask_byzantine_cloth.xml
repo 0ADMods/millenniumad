@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>props/horse_cataphract_mask_cloth.dae</mesh>
+      <mesh>props/horse/cataphract_mask_cloth.dae</mesh>
       <textures>
         <texture file="props/horse/cataphract_byzantine_cloth.png" name="baseTex"/>
         <texture file="props/horse/cataphract_byzantine_cloth_norm.png" name="normTex"/>
