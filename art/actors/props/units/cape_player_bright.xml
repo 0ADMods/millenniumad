@@ -3,14 +3,10 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Cape">
+      <mesh>props/new/capes/cape_hd_long.dae</mesh>
       <textures>
         <texture file="props/cape_player_bright.png" name="baseTex"/>
       </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="75" name="Cape-Medium">
-      <mesh>props/cape_hd_long.dae</mesh>
     </variant>
   </group>
   <material>player_trans.xml</material>

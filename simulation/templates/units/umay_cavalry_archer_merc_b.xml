@@ -8,12 +8,11 @@
   </Cost>
   <Identity>
     <Civ>umay</Civ>
-    <VisibleClasses datatype="tokens">Camel</VisibleClasses>
+    <VisibleClasses datatype="tokens">Camel Mercenary</VisibleClasses>
     <SelectionGroupName>units/umay_cavalry_archer_b</SelectionGroupName>
     <GenericName>Bedouin Camel Archer</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/sele_cavalry_archer.png</Icon>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>

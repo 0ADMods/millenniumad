@@ -3,10 +3,10 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Cape medium">
-      <mesh>props/cape_hd_medium.dae</mesh>
+      <mesh>props/new/capes/cape_hd_medium.dae</mesh>
     </variant>
     <variant frequency="1" name="Cape long ragged">
-      <mesh>props/cape_hd_ragged.dae</mesh>
+      <mesh>props/new/capes/cape_hd_ragged.dae</mesh>
     </variant>
   </group>
   <group>
