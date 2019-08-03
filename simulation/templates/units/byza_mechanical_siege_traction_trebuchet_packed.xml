@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_siege_onager">
+<Entity parent="units/rome_siege_ballista_packed">
   <Identity>
     <Civ>byza</Civ>
     <SpecificName>Trebuchet</SpecificName>

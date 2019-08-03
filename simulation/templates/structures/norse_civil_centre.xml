@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_civil_centre">
   <Armour>
+    <Hack op="add">5</Hack>
     <Pierce op="add">5</Pierce>
     <Crush op="add">3</Crush>
   </Armour>
   <Attack>
     <Ranged>
-      <Pierce op="add">4.0</Pierce>
-      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
+      <Damage>
+        <Hack>0.0</Hack>
+        <Pierce>16.0</Pierce>
+        <Crush>0.0</Crush>
+      </Damage>
+      <MaxRange>72.0</MaxRange>
+      <MinRange>0.0</MinRange>
+      <PrepareTime>1200</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
+      <Delay>0</Delay>
+      <Projectile>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <RangeOverlay>
+        <LineTexture>outline_border.png</LineTexture>
+        <LineTextureMask>outline_border_mask.png</LineTextureMask>
+        <LineThickness>0.175</LineThickness>
+      </RangeOverlay>
     </Ranged>
   </Attack>
   <BuildRestrictions>
