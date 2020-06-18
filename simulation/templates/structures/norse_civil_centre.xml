@@ -67,8 +67,8 @@
       units/{civ}_infantry_swordsman_b
       units/{civ}_infantry_spearman_b
       units/{civ}_infantry_archer_b
-      units/{civ}_champion_berserker
-      units/{civ}_champion_huscarl
+      units/{civ}_champion_infantry_axeman
+      units/{civ}_champion_infantry_spearman
       units/{civ}_siege_ram
       units/{civ}_hero_erik_the_red
       units/{civ}_hero_ivar_the_boneless
