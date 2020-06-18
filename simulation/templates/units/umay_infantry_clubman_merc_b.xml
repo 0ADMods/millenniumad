@@ -10,7 +10,6 @@
   </Attack>
   <Builder>
     <Entities datatype="tokens">
-      structures/umay_military_colony
       structures/umay_military_camp
     </Entities>
   </Builder>
