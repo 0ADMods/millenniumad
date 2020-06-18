@@ -36,8 +36,6 @@
       units/{civ}_infantry_archer_e
       units/{civ}_champion_cavalry
       units/{civ}_champion_infantry
-      units/{civ}_mechanical_siege_ram
-      units/{civ}_mechanical_siege_traction_trebuchet_packed
     </Entities>
   </ProductionQueue>
   <VisualActor>

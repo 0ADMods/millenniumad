@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/caro_mechanical_siege_traction_trebuchet_packed">
+<Entity parent="units/caro_siege_traction_trebuchet_packed">
 	<Attack>
 		<Ranged>
 			<Damage>
@@ -45,7 +45,7 @@
 		<Icon>units/caro_mechanical_siege_trebuchet.png</Icon>
 	</Identity>
 	<Pack>
-		<Entity>units/caro_mechanical_siege_traction_trebuchet_packed</Entity>
+		<Entity>units/caro_siege_traction_trebuchet_packed</Entity>
 		<State>unpacked</State>
 	</Pack>
 	<UnitMotion>

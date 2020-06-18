@@ -15,13 +15,7 @@
     <Entities datatype="tokens">
       units/{civ}_champion_cavalry_spearman
       units/{civ}_champion_infantry_swordsman
-	  </Entities>
-    <Technologies datatype="tokens">
-      siege_attack
-      siege_armor
-      siege_cost_metal
-      siege_cost_wood
-    </Technologies>
+    </Entities>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/seleucids/fortress.xml</Actor>

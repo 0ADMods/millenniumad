@@ -17,15 +17,7 @@
       units/{civ}_champion_cavalry_spearman
       units/{civ}_champion_cavalry_swordsman
       units/{civ}_champion_infantry_swordsman
-      units/{civ}_mechanical_siege_traction_trebuchet_packed
     </Entities>
-    <Technologies datatype="tokens">
-      siege_attack
-      siege_armor
-      siege_cost_metal
-      siege_cost_wood
-      siege_bolt_accuracy
-    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/byzantines/fortress.xml</Actor>

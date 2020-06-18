@@ -12,7 +12,7 @@
     <Icon>units/caro_mechanical_siege_trebuchet_packed.png</Icon>
   </Identity>
   <Pack>
-    <Entity>units/byza_mechanical_siege_traction_trebuchet_unpacked</Entity>
+    <Entity>units/byza_siege_traction_trebuchet_unpacked</Entity>
     <State>packed</State>
   </Pack>
   <VisualActor>

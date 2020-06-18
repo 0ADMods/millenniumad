@@ -69,7 +69,7 @@
       units/{civ}_infantry_archer_b
       units/{civ}_champion_berserker
       units/{civ}_champion_huscarl
-      units/{civ}_mechanical_siege_ram
+      units/{civ}_siege_ram
       units/{civ}_hero_erik_the_red
       units/{civ}_hero_ivar_the_boneless
       units/{civ}_hero_hastein
