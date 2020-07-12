@@ -2,12 +2,12 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_healer_female.xml">
+    <variant file="biped/base_healer_male.xml">
       <mesh>skeletal/new/m_armor_dress.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/trader_staff.xml" attachpoint="weapon_L"/>
-      </props>
+				<prop actor="props/units/staff.xml" attachpoint="weapon_R"/>
+			</props>
     </variant>
   </group>
   <group>
@@ -30,7 +30,8 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/death_infantry.xml"/>
+		<variant file="biped/attack_capture.xml"/>
+		<variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans.xml</material>
 </actor>

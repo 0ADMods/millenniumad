@@ -2,12 +2,12 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="quadraped/base_horse_spearman.xml" frequency="1" name="Spearman Horse">
-      <mesh>skeletal/horse_celtic.dae</mesh>
+		<variant>
+			<mesh>skeletal/horse_celtic.dae</mesh>
       <props>
         <prop actor="units/caro/cavalry_spearman_c_r.xml" attachpoint="rider"/>
         <prop actor="props/horse/cav_blanket_rome.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_rein_spearman.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_armor_caro.xml" attachpoint="root"/>
       </props>
     </variant>
@@ -24,15 +24,9 @@
     <variant file="quadraped/horse/brown_spotted_01.xml" frequency="1" name="Brown-Spotted-01"/>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
-    <variant file="quadraped/base_horse_death.xml"/>
-    <variant file="quadraped/base_horse_run.xml"/>
-    <variant name="gather_meat">
-      <props>
-        <prop actor="" attachpoint="rider"/>
-        <prop actor="units/byzantines/cavalry_spearman_c_r.xml" attachpoint="rider_R"/>
-      </props>
-    </variant>
-  </group>
-  <material>basic_trans_parallax_spec.xml</material>
+		<variant file="quadraped/base_horse_pace.xml" name="Horse-Pace" frequency="1"/>
+		<variant file="quadraped/base_horse_death.xml"/>
+		<variant file="quadraped/base_horse_run.xml"/>
+	</group>
+	<material>no_trans_parallax_spec.xml</material>
 </actor>

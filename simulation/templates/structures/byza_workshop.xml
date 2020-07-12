@@ -5,6 +5,6 @@
     <SpecificName>Stratēgeîon</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/spartans/workshop.xml</Actor>
+    <Actor>structures/byzantines/armory.xml</Actor>
   </VisualActor>
 </Entity>

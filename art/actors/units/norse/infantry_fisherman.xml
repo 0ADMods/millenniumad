@@ -48,7 +48,7 @@
 	<group>
     <variant frequency="1" name="Idle"/>
     <variant file="biped/base_fisherman_gather_fish.xml"></variant>
-    <variant file="biped/attack_capture.xml"/>
+    <!--<variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_tree.xml"/>
     <variant file="biped/gather_grain.xml"/>
@@ -59,7 +59,7 @@
     <variant file="biped/gather_ruins.xml"/>
     <variant file="biped/gather_praise.xml"/>
     <variant file="biped/build.xml"/>
-    <variant file="biped/build_farm.xml"/>
+    <variant file="biped/build_farm.xml"/>-->
     <variant file="biped/death_infantry.xml"/>
   </group>
   <group>
@@ -76,5 +76,5 @@
       <color>147 116 87</color>
     </variant>
   </group>
-  <material>objectcolor.xml</material>
+  <material>player_trans.xml</material>
 </actor>

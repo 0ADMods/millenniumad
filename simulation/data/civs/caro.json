@@ -68,7 +68,7 @@
 	],
 	"WallSets":
 	[
-		"other/wallset_palisade",
+		"structures/wallset_palisade",
 		"structures/caro_wallset_stone"
 	],
 	"StartEntities":
@@ -104,7 +104,8 @@
 		"special/formations/skirmish",
 		"special/formations/wedge",
 		"special/formations/battle_line",
-		"special/formations/shieldwall"
+ 		"special/formations/shieldwall"
+
 	],
 	"AINames":
 	[

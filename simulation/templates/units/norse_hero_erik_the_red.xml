@@ -13,12 +13,6 @@
   <Vision>
     <Range>120</Range>
   </Vision>
-  <UnitMotion>
-    <WalkSpeed>14.0</WalkSpeed>
-    <Run>
-      <Speed>18.0</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/norse/erik_the_red.xml</Actor>
   </VisualActor>

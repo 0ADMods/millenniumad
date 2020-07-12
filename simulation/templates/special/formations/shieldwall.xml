@@ -4,20 +4,16 @@
     <Icon>formations/shieldwall.png</Icon>
     <RequiredMemberCount>10</RequiredMemberCount>
     <DisabledTooltip>10 melee infantry units required</DisabledTooltip>
-    <SpeedMultiplier>0.5</SpeedMultiplier>
-    <FormationName>Shieldwall</FormationName>
+		<FormationName>Shieldwall</FormationName>
+		<SpeedMultiplier>0.5</SpeedMultiplier>
     <UnitSeparationWidthMultiplier>0.5</UnitSeparationWidthMultiplier>
     <UnitSeparationDepthMultiplier>0.7</UnitSeparationDepthMultiplier>
     <WidthDepthRatio>5</WidthDepthRatio>
-    <Animations>
-      <idle>
+		<AnimationVariants>
         1..-1,1..-1: idle_testudo_front
-      </idle>
-      <walk>
         1..-1,1..-1: walk_testudo_front
-      </walk>
-    </Animations>
-  </Formation>
+		</AnimationVariants>
+	</Formation>
   <FormationAttack>
     <CanAttackAsFormation>true</CanAttackAsFormation>
   </FormationAttack>

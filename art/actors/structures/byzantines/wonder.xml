@@ -10,10 +10,10 @@
         <texture file="structural/ao/byza_wonder_a.png" name="aoTex"/>
 			</textures>
       <props>
-        <prop actor="props/structures/decals/dirt_theatron.xml" attachpoint="dirt_F"/>
-        <prop actor="props/structures/decals/dirt_theatron.xml" attachpoint="dirt_B"/>
-        <prop actor="props/structures/decals/dirt_theatron.xml" attachpoint="dirt_R"/>
-        <prop actor="props/structures/decals/dirt_theatron.xml" attachpoint="dirt_L"/>
+        <prop actor="props/structures/decals/dirt_theater.xml" attachpoint="dirt_F"/>
+        <prop actor="props/structures/decals/dirt_theater.xml" attachpoint="dirt_B"/>
+        <prop actor="props/structures/decals/dirt_theater.xml" attachpoint="dirt_R"/>
+        <prop actor="props/structures/decals/dirt_theater.xml" attachpoint="dirt_L"/>
         <prop actor="props/structures/byzantines/wonder_b.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/wonder_c.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/wonder_roof.xml" attachpoint="root"/>

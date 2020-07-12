@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="6">
+	<Environment>
+		<SkySet>default</SkySet>
+		<SunColor r="0.74902" g="0.74902" b="0.74902"/>
+		<SunElevation angle="0.785398"/>
+		<SunRotation angle="-0.785396"/>
+		<TerrainAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<UnitsAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.894118"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.294118" g="0.34902" b="0.694118"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
+				<Height>5</Height>
+				<Waviness>4</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="336.878" y="311.158" z="-21.2236"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "Name": "Unnamed map",
+  "Description": "Give an interesting description of your map.",
+  "PlayerData": [
+    null,
+    {
+      "Civ": "athen"
+    },
+    {
+      "Civ": "cart"
+    },
+    {
+      "Civ": "gaul"
+    },
+    {
+      "Civ": "iber"
+    },
+    {
+      "Civ": "mace"
+    },
+    {
+      "Civ": "pers"
+    },
+    {
+      "Civ": "rome"
+    },
+    {
+      "Civ": "spart"
+    }
+  ],
+  "CircularMap": true,
+  "VictoryConditions": [
+    "conquest"
+  ]
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="11">
+			<Template>structures/byza_barracks</Template>
+			<Player>0</Player>
+			<Position x="231.36457" z="164.16742"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41592"/>
+		</Entity>
+		<Entity uid="12">
+			<Template>structures/byza_blacksmith</Template>
+			<Player>0</Player>
+			<Position x="254.54084" z="189.1804"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50468"/>
+		</Entity>
+		<Entity uid="13">
+			<Template>structures/byza_civil_centre</Template>
+			<Player>0</Player>
+			<Position x="289.08353" z="219.8277"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7100"/>
+		</Entity>
+		<Entity uid="14">
+			<Template>structures/byza_corral</Template>
+			<Player>0</Player>
+			<Position x="248.1743" z="138.17661"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3844"/>
+		</Entity>
+		<Entity uid="15">
+			<Template>structures/byza_defense_tower</Template>
+			<Player>0</Player>
+			<Position x="266.83225" z="146.93277"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16692"/>
+		</Entity>
+		<Entity uid="16">
+			<Template>structures/byza_dock</Template>
+			<Player>0</Player>
+			<Position x="289.26902" z="158.36445"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13258"/>
+		</Entity>
+		<Entity uid="17">
+			<Template>structures/byza_farmstead</Template>
+			<Player>0</Player>
+			<Position x="272.90064" z="116.21227"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60920"/>
+		</Entity>
+		<Entity uid="18">
+			<Template>structures/byza_field</Template>
+			<Player>0</Player>
+			<Position x="304.89136" z="126.8217"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="14454"/>
+		</Entity>
+		<Entity uid="19">
+			<Template>structures/byza_fortress</Template>
+			<Player>0</Player>
+			<Position x="321.59223" z="185.91688"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="10776"/>
+		</Entity>
+		<Entity uid="20">
+			<Template>structures/byza_house</Template>
+			<Player>0</Player>
+			<Position x="332.34815" z="139.02845"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6896"/>
+		</Entity>
+		<Entity uid="21">
+			<Template>structures/byza_house</Template>
+			<Player>0</Player>
+			<Position x="352.3585" z="168.16837"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47410"/>
+		</Entity>
+		<Entity uid="22">
+			<Template>structures/byza_house</Template>
+			<Player>0</Player>
+			<Position x="346.40238" z="122.73214"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16946"/>
+		</Entity>
+		<Entity uid="23">
+			<Template>structures/byza_house</Template>
+			<Player>0</Player>
+			<Position x="363.83875" z="147.08881"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6460"/>
+		</Entity>
+		<Entity uid="24">
+			<Template>structures/byza_market</Template>
+			<Player>0</Player>
+			<Position x="223.17646" z="234.70154"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4860"/>
+		</Entity>
+		<Entity uid="25">
+			<Template>structures/byza_outpost</Template>
+			<Player>0</Player>
+			<Position x="277.50446" z="183.18918"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2126"/>
+		</Entity>
+		<Entity uid="26">
+			<Template>structures/byza_plaza</Template>
+			<Player>0</Player>
+			<Position x="247.79011" z="292.18714"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="21336"/>
+		</Entity>
+		<Entity uid="27">
+			<Template>structures/byza_range</Template>
+			<Player>0</Player>
+			<Position x="282.96656" z="334.12714"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37902"/>
+		</Entity>
+		<Entity uid="28">
+			<Template>structures/byza_s_wall_gate</Template>
+			<Player>0</Player>
+			<Position x="338.68235" z="308.02552"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50180"/>
+		</Entity>
+		<Entity uid="29">
+			<Template>structures/byza_s_wall_long</Template>
+			<Player>0</Player>
+			<Position x="347.24671" z="298.90851"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4740"/>
+		</Entity>
+		<Entity uid="30">
+			<Template>structures/byza_s_wall_medium</Template>
+			<Player>0</Player>
+			<Position x="353.32728" z="285.17884"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7054"/>
+		</Entity>
+		<Entity uid="31">
+			<Template>structures/byza_s_wall_short</Template>
+			<Player>0</Player>
+			<Position x="358.42038" z="271.37275"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8390"/>
+		</Entity>
+		<Entity uid="32">
+			<Template>structures/byza_s_wall_tower</Template>
+			<Player>0</Player>
+			<Position x="323.5719" z="283.7071"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41964"/>
+		</Entity>
+		<Entity uid="33">
+			<Template>structures/byza_sentry_tower</Template>
+			<Player>0</Player>
+			<Position x="278.81183" z="140.58027"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16090"/>
+		</Entity>
+		<Entity uid="34">
+			<Template>structures/byza_st_sm_wall_long</Template>
+			<Player>0</Player>
+			<Position x="373.02298" z="263.25275"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62896"/>
+		</Entity>
+		<Entity uid="35">
+			<Template>structures/byza_st_sm_wall_medium</Template>
+			<Player>0</Player>
+			<Position x="374.62772" z="247.54554"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42024"/>
+		</Entity>
+		<Entity uid="36">
+			<Template>structures/byza_st_sm_wall_short</Template>
+			<Player>0</Player>
+			<Position x="378.1132" z="232.28364"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44976"/>
+		</Entity>
+		<Entity uid="37">
+			<Template>structures/byza_st_wall_long</Template>
+			<Player>0</Player>
+			<Position x="392.42515" z="228.56562"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62554"/>
+		</Entity>
+		<Entity uid="38">
+			<Template>structures/byza_st_wall_medium</Template>
+			<Player>0</Player>
+			<Position x="398.59672" z="212.73026"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4904"/>
+		</Entity>
+		<Entity uid="39">
+			<Template>structures/byza_st_wall_short</Template>
+			<Player>0</Player>
+			<Position x="401.23105" z="193.95633"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64712"/>
+		</Entity>
+		<Entity uid="40">
+			<Template>structures/byza_stable</Template>
+			<Player>0</Player>
+			<Position x="304.14228" z="274.20334"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60512"/>
+		</Entity>
+		<Entity uid="41">
+			<Template>structures/byza_storehouse</Template>
+			<Player>0</Player>
+			<Position x="293.47211" z="94.39881"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8794"/>
+		</Entity>
+		<Entity uid="42">
+			<Template>structures/byza_temple</Template>
+			<Player>0</Player>
+			<Position x="330.50849" z="244.70109"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45022"/>
+		</Entity>
+		<Entity uid="43">
+			<Template>structures/byza_wall_gate</Template>
+			<Player>0</Player>
+			<Position x="376.3975" z="326.65018"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43002"/>
+		</Entity>
+		<Entity uid="44">
+			<Template>structures/byza_wall_long</Template>
+			<Player>0</Player>
+			<Position x="386.3733" z="314.08652"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13320"/>
+		</Entity>
+		<Entity uid="45">
+			<Template>structures/byza_wall_medium</Template>
+			<Player>0</Player>
+			<Position x="396.7074" z="292.31901"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30066"/>
+		</Entity>
+		<Entity uid="46">
+			<Template>structures/byza_wall_oct_tower</Template>
+			<Player>0</Player>
+			<Position x="412.98136" z="268.66773"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61258"/>
+		</Entity>
+		<Entity uid="47">
+			<Template>structures/byza_wall_short</Template>
+			<Player>0</Player>
+			<Position x="417.20832" z="232.02472"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34526"/>
+		</Entity>
+		<Entity uid="48">
+			<Template>structures/byza_wall_sq_tower</Template>
+			<Player>0</Player>
+			<Position x="438.12912" z="251.73493"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8900"/>
+		</Entity>
+		<Entity uid="49">
+			<Template>structures/byza_wall_tower</Template>
+			<Player>0</Player>
+			<Position x="424.25895" z="315.07184"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44168"/>
+		</Entity>
+		<Entity uid="50">
+			<Template>structures/byza_wonder</Template>
+			<Player>0</Player>
+			<Position x="308.564" z="392.33695"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13488"/>
+		</Entity>
+		<Entity uid="51">
+			<Template>units/byza_cavalry_javelinist_a</Template>
+			<Player>0</Player>
+			<Position x="400.69437" z="142.91749"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18762"/>
+		</Entity>
+		<Entity uid="52">
+			<Template>units/byza_cavalry_javelinist_a</Template>
+			<Player>0</Player>
+			<Position x="402.34165" z="144.14878"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18306"/>
+		</Entity>
+		<Entity uid="53">
+			<Template>units/byza_cavalry_javelinist_a</Template>
+			<Player>0</Player>
+			<Position x="403.92734" z="146.13422"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="10504"/>
+		</Entity>
+		<Entity uid="54">
+			<Template>units/byza_cavalry_javelinist_b</Template>
+			<Player>0</Player>
+			<Position x="405.48917" z="136.45234"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43516"/>
+		</Entity>
+		<Entity uid="55">
+			<Template>units/byza_cavalry_javelinist_b</Template>
+			<Player>0</Player>
+			<Position x="407.46055" z="138.2511"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13034"/>
+		</Entity>
+		<Entity uid="56">
+			<Template>units/byza_cavalry_javelinist_b</Template>
+			<Player>0</Player>
+			<Position x="408.82932" z="139.73658"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18642"/>
+		</Entity>
+		<Entity uid="57">
+			<Template>units/byza_cavalry_javelinist_e</Template>
+			<Player>0</Player>
+			<Position x="410.02335" z="130.54856"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51048"/>
+		</Entity>
+		<Entity uid="58">
+			<Template>units/byza_cavalry_javelinist_e</Template>
+			<Player>0</Player>
+			<Position x="411.71048" z="132.42902"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45656"/>
+		</Entity>
+		<Entity uid="59">
+			<Template>units/byza_cavalry_javelinist_e</Template>
+			<Player>0</Player>
+			<Position x="413.2884" z="134.43442"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38382"/>
+		</Entity>
+		<Entity uid="60">
+			<Template>units/byza_cavalry_spearman_a</Template>
+			<Player>0</Player>
+			<Position x="410.00187" z="151.83527"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32318"/>
+		</Entity>
+		<Entity uid="61">
+			<Template>units/byza_cavalry_spearman_a</Template>
+			<Player>0</Player>
+			<Position x="411.50376" z="154.3418"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="65377"/>
+		</Entity>
+		<Entity uid="62">
+			<Template>units/byza_cavalry_spearman_a</Template>
+			<Player>0</Player>
+			<Position x="413.1811" z="156.36329"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29898"/>
+		</Entity>
+		<Entity uid="63">
+			<Template>units/byza_cavalry_spearman_b</Template>
+			<Player>0</Player>
+			<Position x="414.36252" z="145.96918"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2682"/>
+		</Entity>
+		<Entity uid="64">
+			<Template>units/byza_cavalry_spearman_b</Template>
+			<Player>0</Player>
+			<Position x="416.02051" z="148.2905"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6048"/>
+		</Entity>
+		<Entity uid="65">
+			<Template>units/byza_cavalry_spearman_b</Template>
+			<Player>0</Player>
+			<Position x="417.79078" z="150.45258"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22434"/>
+		</Entity>
+		<Entity uid="66">
+			<Template>units/byza_cavalry_spearman_e</Template>
+			<Player>0</Player>
+			<Position x="418.99402" z="140.10676"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30872"/>
+		</Entity>
+		<Entity uid="67">
+			<Template>units/byza_cavalry_spearman_e</Template>
+			<Player>0</Player>
+			<Position x="420.84473" z="142.11875"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2386"/>
+		</Entity>
+		<Entity uid="68">
+			<Template>units/byza_cavalry_spearman_e</Template>
+			<Player>0</Player>
+			<Position x="423.17631" z="145.2086"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63734"/>
+		</Entity>
+		<Entity uid="69">
+			<Template>units/byza_champion_cavalry_spearman</Template>
+			<Player>0</Player>
+			<Position x="420.69764" z="127.5483"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62254"/>
+		</Entity>
+		<Entity uid="70">
+			<Template>units/byza_champion_cavalry_spearman</Template>
+			<Player>0</Player>
+			<Position x="422.2902" z="129.36976"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43592"/>
+		</Entity>
+		<Entity uid="71">
+			<Template>units/byza_champion_cavalry_spearman</Template>
+			<Player>0</Player>
+			<Position x="424.37015" z="131.63401"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22114"/>
+		</Entity>
+		<Entity uid="72">
+			<Template>units/byza_champion_cavalry_swordsman</Template>
+			<Player>0</Player>
+			<Position x="428.43998" z="140.34043"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54560"/>
+		</Entity>
+		<Entity uid="73">
+			<Template>units/byza_champion_cavalry_swordsman</Template>
+			<Player>0</Player>
+			<Position x="430.26249" z="143.05063"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="384"/>
+		</Entity>
+		<Entity uid="74">
+			<Template>units/byza_champion_cavalry_swordsman</Template>
+			<Player>0</Player>
+			<Position x="432.04142" z="145.54444"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37908"/>
+		</Entity>
+		<Entity uid="75">
+			<Template>units/byza_champion_infantry_swordsman</Template>
+			<Player>0</Player>
+			<Position x="432.56095" z="135.07813"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59454"/>
+		</Entity>
+		<Entity uid="76">
+			<Template>units/byza_champion_infantry_swordsman</Template>
+			<Player>0</Player>
+			<Position x="433.91568" z="136.4738"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11044"/>
+		</Entity>
+		<Entity uid="77">
+			<Template>units/byza_champion_infantry_swordsman</Template>
+			<Player>0</Player>
+			<Position x="435.43558" z="138.17432"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="28846"/>
+		</Entity>
+		<Entity uid="78">
+			<Template>units/byza_hero_basileus</Template>
+			<Player>0</Player>
+			<Position x="440.34113" z="144.5027"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47220"/>
+		</Entity>
+		<Entity uid="79">
+			<Template>units/byza_hero_basileus</Template>
+			<Player>0</Player>
+			<Position x="442.4115" z="147.18659"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="65300"/>
+		</Entity>
+		<Entity uid="80">
+			<Template>units/byza_hero_basileus</Template>
+			<Player>0</Player>
+			<Position x="445.76432" z="151.28748"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29102"/>
+		</Entity>
+		<Entity uid="81">
+			<Template>units/byza_infantry_archer_a</Template>
+			<Player>0</Player>
+			<Position x="407.64316" z="118.10523"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25452"/>
+		</Entity>
+		<Entity uid="82">
+			<Template>units/byza_infantry_archer_a</Template>
+			<Player>0</Player>
+			<Position x="410.44846" z="118.44376"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16878"/>
+		</Entity>
+		<Entity uid="83">
+			<Template>units/byza_infantry_archer_a</Template>
+			<Player>0</Player>
+			<Position x="412.9422" z="118.7371"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="28756"/>
+		</Entity>
+		<Entity uid="84">
+			<Template>units/byza_infantry_archer_b</Template>
+			<Player>0</Player>
+			<Position x="408.58548" z="113.58074"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52408"/>
+		</Entity>
+		<Entity uid="85">
+			<Template>units/byza_infantry_archer_b</Template>
+			<Player>0</Player>
+			<Position x="410.33646" z="113.78612"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43162"/>
+		</Entity>
+		<Entity uid="86">
+			<Template>units/byza_infantry_archer_b</Template>
+			<Player>0</Player>
+			<Position x="412.38773" z="114.454"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44816"/>
+		</Entity>
+		<Entity uid="87">
+			<Template>units/byza_infantry_archer_e</Template>
+			<Player>0</Player>
+			<Position x="410.98594" z="109.35712"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40576"/>
+		</Entity>
+		<Entity uid="88">
+			<Template>units/byza_infantry_archer_e</Template>
+			<Player>0</Player>
+			<Position x="412.7602" z="109.88395"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30284"/>
+		</Entity>
+		<Entity uid="89">
+			<Template>units/byza_infantry_archer_e</Template>
+			<Player>0</Player>
+			<Position x="414.70786" z="110.24143"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8038"/>
+		</Entity>
+		<Entity uid="90">
+			<Template>units/byza_infantry_javelinist_a</Template>
+			<Player>0</Player>
+			<Position x="418.90198" z="116.69747"/>
+			<Orientation y="2.39354"/>
+			<Actor seed="65180"/>
+		</Entity>
+		<Entity uid="91">
+			<Template>units/byza_infantry_javelinist_a</Template>
+			<Player>0</Player>
+			<Position x="420.5597" z="117.34588"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64784"/>
+		</Entity>
+		<Entity uid="92">
+			<Template>units/byza_infantry_javelinist_a</Template>
+			<Player>0</Player>
+			<Position x="422.054" z="117.67565"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="84"/>
+		</Entity>
+		<Entity uid="93">
+			<Template>units/byza_infantry_javelinist_b</Template>
+			<Player>0</Player>
+			<Position x="419.34388" z="112.38051"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24652"/>
+		</Entity>
+		<Entity uid="94">
+			<Template>units/byza_infantry_javelinist_b</Template>
+			<Player>0</Player>
+			<Position x="420.58326" z="112.85412"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51404"/>
+		</Entity>
+		<Entity uid="95">
+			<Template>units/byza_infantry_javelinist_b</Template>
+			<Player>0</Player>
+			<Position x="422.02372" z="113.13436"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32064"/>
+		</Entity>
+		<Entity uid="96">
+			<Template>units/byza_infantry_javelinist_e</Template>
+			<Player>0</Player>
+			<Position x="419.56434" z="108.26938"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23124"/>
+		</Entity>
+		<Entity uid="97">
+			<Template>units/byza_infantry_javelinist_e</Template>
+			<Player>0</Player>
+			<Position x="420.93018" z="108.4362"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48338"/>
+		</Entity>
+		<Entity uid="98">
+			<Template>units/byza_infantry_javelinist_e</Template>
+			<Player>0</Player>
+			<Position x="422.54191" z="108.94355"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30040"/>
+		</Entity>
+		<Entity uid="99">
+			<Template>units/byza_infantry_spearman_a</Template>
+			<Player>0</Player>
+			<Position x="426.69193" z="121.51503"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59816"/>
+		</Entity>
+		<Entity uid="100">
+			<Template>units/byza_infantry_spearman_a</Template>
+			<Player>0</Player>
+			<Position x="428.2587" z="122.72326"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60384"/>
+		</Entity>
+		<Entity uid="101">
+			<Template>units/byza_infantry_spearman_a</Template>
+			<Player>0</Player>
+			<Position x="430.25235" z="123.74749"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4996"/>
+		</Entity>
+		<Entity uid="102">
+			<Template>units/byza_infantry_spearman_b</Template>
+			<Player>0</Player>
+			<Position x="427.76273" z="118.10523"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2204"/>
+		</Entity>
+		<Entity uid="103">
+			<Template>units/byza_infantry_spearman_b</Template>
+			<Player>0</Player>
+			<Position x="429.84989" z="119.5843"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29354"/>
+		</Entity>
+		<Entity uid="104">
+			<Template>units/byza_infantry_spearman_b</Template>
+			<Player>0</Player>
+			<Position x="431.53702" z="121.14028"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24260"/>
+		</Entity>
+		<Entity uid="105">
+			<Template>units/byza_infantry_spearman_e</Template>
+			<Player>0</Player>
+			<Position x="428.53898" z="114.87987"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="632"/>
+		</Entity>
+		<Entity uid="106">
+			<Template>units/byza_infantry_spearman_e</Template>
+			<Player>0</Player>
+			<Position x="430.2598" z="116.42403"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7396"/>
+		</Entity>
+		<Entity uid="107">
+			<Template>units/byza_infantry_spearman_e</Template>
+			<Player>0</Player>
+			<Position x="432.63016" z="118.34665"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27422"/>
+		</Entity>
+		<Entity uid="108">
+			<Template>units/byza_infantry_swordsman_a</Template>
+			<Player>0</Player>
+			<Position x="435.42356" z="128.64121"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27576"/>
+		</Entity>
+		<Entity uid="109">
+			<Template>units/byza_infantry_swordsman_a</Template>
+			<Player>0</Player>
+			<Position x="437.067" z="129.76218"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7366"/>
+		</Entity>
+		<Entity uid="110">
+			<Template>units/byza_infantry_swordsman_a</Template>
+			<Player>0</Player>
+			<Position x="438.82029" z="130.64652"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="21254"/>
+		</Entity>
+		<Entity uid="111">
+			<Template>units/byza_infantry_swordsman_b</Template>
+			<Player>0</Player>
+			<Position x="435.79563" z="126.09308"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9892"/>
+		</Entity>
+		<Entity uid="112">
+			<Template>units/byza_infantry_swordsman_b</Template>
+			<Player>0</Player>
+			<Position x="437.49534" z="126.88132"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40220"/>
+		</Entity>
+		<Entity uid="113">
+			<Template>units/byza_infantry_swordsman_b</Template>
+			<Player>0</Player>
+			<Position x="439.04892" z="128.1482"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41282"/>
+		</Entity>
+		<Entity uid="114">
+			<Template>units/byza_infantry_swordsman_e</Template>
+			<Player>0</Player>
+			<Position x="436.46348" z="123.82625"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23674"/>
+		</Entity>
+		<Entity uid="115">
+			<Template>units/byza_infantry_swordsman_e</Template>
+			<Player>0</Player>
+			<Position x="438.36777" z="125.01615"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30146"/>
+		</Entity>
+		<Entity uid="116">
+			<Template>units/byza_infantry_swordsman_e</Template>
+			<Player>0</Player>
+			<Position x="440.13035" z="126.42331"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="21334"/>
+		</Entity>
+		<Entity uid="117">
+			<Template>units/byza_mechanical_siege_ram</Template>
+			<Player>0</Player>
+			<Position x="390.45963" z="134.56363"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54044"/>
+		</Entity>
+		<Entity uid="118">
+			<Template>units/byza_mechanical_siege_traction_trebuchet_packed</Template>
+			<Player>0</Player>
+			<Position x="383.6608" z="127.3116"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7274"/>
+		</Entity>
+		<Entity uid="119">
+			<Template>units/byza_ship_bireme</Template>
+			<Player>0</Player>
+			<Position x="446.74781" z="180.36524"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56732"/>
+		</Entity>
+		<Entity uid="120">
+			<Template>units/byza_ship_fishing</Template>
+			<Player>0</Player>
+			<Position x="430.23932" z="162.50376"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62172"/>
+		</Entity>
+		<Entity uid="121">
+			<Template>units/byza_ship_merchant</Template>
+			<Player>0</Player>
+			<Position x="437.83136" z="169.38382"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24922"/>
+		</Entity>
+		<Entity uid="122">
+			<Template>units/byza_ship_trireme</Template>
+			<Player>0</Player>
+			<Position x="475.2121" z="214.51218"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59588"/>
+		</Entity>
+		<Entity uid="123">
+			<Template>units/byza_support_female_citizen</Template>
+			<Player>0</Player>
+			<Position x="393.48765" z="107.37301"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20708"/>
+		</Entity>
+		<Entity uid="124">
+			<Template>units/byza_support_female_citizen</Template>
+			<Player>0</Player>
+			<Position x="395.10941" z="108.49643"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="65046"/>
+		</Entity>
+		<Entity uid="125">
+			<Template>units/byza_support_female_citizen</Template>
+			<Player>0</Player>
+			<Position x="396.6362" z="109.19779"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27618"/>
+		</Entity>
+		<Entity uid="126">
+			<Template>units/byza_support_female_citizen_house</Template>
+			<Player>0</Player>
+			<Position x="395.09513" z="103.47242"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2078"/>
+		</Entity>
+		<Entity uid="127">
+			<Template>units/byza_support_female_citizen_house</Template>
+			<Player>0</Player>
+			<Position x="396.24125" z="104.28194"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56420"/>
+		</Entity>
+		<Entity uid="128">
+			<Template>units/byza_support_female_citizen_house</Template>
+			<Player>0</Player>
+			<Position x="397.76352" z="105.26766"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27534"/>
+		</Entity>
+		<Entity uid="138">
+			<Template>units/byza_support_trader</Template>
+			<Player>0</Player>
+			<Position x="365.05533" z="110.06743"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55730"/>
+		</Entity>
+		<Entity uid="139">
+			<Template>units/byza_support_trader</Template>
+			<Player>0</Player>
+			<Position x="368.9438" z="111.40923"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="15770"/>
+		</Entity>
+		<Entity uid="140">
+			<Template>units/byza_support_trader</Template>
+			<Player>0</Player>
+			<Position x="372.09812" z="112.17585"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45074"/>
+		</Entity>
+		<Entity uid="141">
+			<Template>units/byza_mechanical_siege_traction_trebuchet_unpacked</Template>
+			<Player>0</Player>
+			<Position x="375.04874" z="125.38584"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1756"/>
+		</Entity>
+		<Entity uid="142">
+			<Template>units/byza_ship_bireme_fire</Template>
+			<Player>0</Player>
+			<Position x="460.64673" z="194.56806"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41056"/>
+		</Entity>
+		<Entity uid="143">
+			<Template>units/byza_support_healer_a</Template>
+			<Player>0</Player>
+			<Position x="392.95041" z="116.79397"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1732"/>
+		</Entity>
+		<Entity uid="144">
+			<Template>units/byza_support_healer_a</Template>
+			<Player>0</Player>
+			<Position x="394.4545" z="118.83909"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61874"/>
+		</Entity>
+		<Entity uid="145">
+			<Template>units/byza_support_healer_a</Template>
+			<Player>0</Player>
+			<Position x="395.57505" z="120.57026"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54116"/>
+		</Entity>
+		<Entity uid="146">
+			<Template>units/byza_support_healer_b</Template>
+			<Player>0</Player>
+			<Position x="395.27738" z="116.36437"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3026"/>
+		</Entity>
+		<Entity uid="147">
+			<Template>units/byza_support_healer_b</Template>
+			<Player>0</Player>
+			<Position x="396.895" z="117.66225"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45092"/>
+		</Entity>
+		<Entity uid="148">
+			<Template>units/byza_support_healer_b</Template>
+			<Player>0</Player>
+			<Position x="397.57444" z="120.34174"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30122"/>
+		</Entity>
+		<Entity uid="149">
+			<Template>units/byza_support_healer_e</Template>
+			<Player>0</Player>
+			<Position x="397.36686" z="114.19137"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54728"/>
+		</Entity>
+		<Entity uid="150">
+			<Template>units/byza_support_healer_e</Template>
+			<Player>0</Player>
+			<Position x="398.78422" z="115.44368"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24252"/>
+		</Entity>
+		<Entity uid="151">
+			<Template>units/byza_support_healer_e</Template>
+			<Player>0</Player>
+			<Position x="400.65683" z="117.80816"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41436"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

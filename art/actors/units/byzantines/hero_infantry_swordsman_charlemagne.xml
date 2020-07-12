@@ -5,8 +5,8 @@
     <variant file="biped/base_swordsman_shield_relax.xml">
       <mesh>skeletal/new/m_armor_dress.dae</mesh>
       <props>
-        <prop actor="props/units/heads/pers_crown.xml" attachpoint="helmet"/>
-        <prop actor="props/units/heads/new/head_celt_su3.xml" attachpoint="head"/>
+				<prop actor="props/units/helmets/old/pers_crown.xml" attachpoint="helmet"/>
+				<prop actor="props/units/heads/new/head_celt_su3.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/caro_infantry_sword.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/caro_infantry_sheath.xml" attachpoint="sheath_L"/>
       </props>

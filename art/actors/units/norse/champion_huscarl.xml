@@ -3,7 +3,8 @@
   <castshadow/>
   <group>
     <variant file="biped/base_swordsman_2hand_relax.xml">
-      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+			<!--<variant file="biped/base_swordsman_shield_relax.xml">-->
+				<mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/helmets/norse_helmet_c.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_german_a.xml" attachpoint="head"/>
@@ -94,15 +95,17 @@
   <group>
     <variant frequency="1" name="Idle"/>
     <variant file="biped/attack_capture.xml"/>
-    <variant file="biped/death_infantry.xml">
-      <props>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+      <!--<props>
         <prop actor="props/units/helmets/norse_coif_huscarl_relax.xml" attachpoint="root"/>
       </props>
-    </variant>
+    </variant>-->
   </group>
-  <group>
+  <!--<group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/base_2h_axe_attack.xml" name="combat"/>
-  </group>
-  <material>player_trans.xml</material>
+    <variant file="biped/base_2h_axe_attack.xml" name="attack_melee"/>
+  </group>-->
+		<!--</group>-->
+	<material>player_trans.xml</material>
 </actor>
