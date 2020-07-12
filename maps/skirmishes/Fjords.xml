@@ -18172,56 +18172,56 @@
 			<Actor seed="64832"/>
 		</Entity>
 		<Entity uid="23787">
-			<Template>other/palisades_rocks_watchtower</Template>
+			<Template>structures/palisades_watchtower</Template>
 			<Player>0</Player>
 			<Position x="508.45975" z="967.2848"/>
 			<Orientation y="-1.43723"/>
 			<Actor seed="18742"/>
 		</Entity>
 		<Entity uid="23788">
-			<Template>other/palisades_rocks_watchtower</Template>
+			<Template>structures/palisades_watchtower</Template>
 			<Player>0</Player>
 			<Position x="523.49555" z="959.05677"/>
 			<Orientation y="-1.41353"/>
 			<Actor seed="30864"/>
 		</Entity>
 		<Entity uid="23789">
-			<Template>other/palisades_rocks_watchtower</Template>
+			<Template>structures/palisades_watchtower</Template>
 			<Player>0</Player>
 			<Position x="500.60306" z="1008.44196"/>
 			<Orientation y="-1.81702"/>
 			<Actor seed="7972"/>
 		</Entity>
 		<Entity uid="23790">
-			<Template>other/palisades_rocks_watchtower</Template>
+			<Template>structures/palisades_watchtower</Template>
 			<Player>0</Player>
 			<Position x="514.61731" z="1012.8382"/>
 			<Orientation y="-0.5346"/>
 			<Actor seed="50280"/>
 		</Entity>
 		<Entity uid="23791">
-			<Template>other/palisades_rocks_watchtower</Template>
+			<Template>structures/palisades_watchtower</Template>
 			<Player>0</Player>
 			<Position x="504.05768" z="1053.6753"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="44864"/>
 		</Entity>
 		<Entity uid="23792">
-			<Template>other/palisades_rocks_watchtower</Template>
+			<Template>structures/palisades_watchtower</Template>
 			<Player>0</Player>
 			<Position x="491.03083" z="1052.38318"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="15790"/>
 		</Entity>
 		<Entity uid="23793">
-			<Template>other/palisades_rocks_watchtower</Template>
+			<Template>structures/palisades_watchtower</Template>
 			<Player>0</Player>
 			<Position x="466.659" z="1109.71155"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="26336"/>
 		</Entity>
 		<Entity uid="23794">
-			<Template>other/palisades_rocks_watchtower</Template>
+			<Template>structures/palisades_watchtower</Template>
 			<Player>0</Player>
 			<Position x="489.86493" z="1121.0448"/>
 			<Orientation y="1.02121"/>
@@ -19778,7 +19778,7 @@
 			<Actor seed="46718"/>
 		</Entity>
 		<Entity uid="24057">
-			<Template>other/palisades_rocks_long</Template>
+			<Template>structures/palisades_long</Template>
 			<Player>0</Player>
 			<Position x="441.90995" z="245.33259"/>
 			<Orientation y="-1.60697"/>
@@ -19786,14 +19786,14 @@
 			<Actor seed="1536"/>
 		</Entity>
 		<Entity uid="24058">
-			<Template>other/palisades_rocks_tower</Template>
+			<Template>structures/palisades_tower</Template>
 			<Player>0</Player>
 			<Position x="442.6189" z="237.85907"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="10012"/>
 		</Entity>
 		<Entity uid="24061">
-			<Template>other/palisades_rocks_tower</Template>
+			<Template>structures/palisades_tower</Template>
 			<Player>0</Player>
 			<Position x="441.93473" z="252.24418"/>
 			<Orientation y="2.35621"/>
@@ -25689,28 +25689,28 @@
 			<Actor seed="14042"/>
 		</Entity>
 		<Entity uid="32805">
-			<Template>other/palisades_rocks_watchtower</Template>
+			<Template>structures/palisades_watchtower</Template>
 			<Player>0</Player>
 			<Position x="284.1035" z="807.39948"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="10202"/>
 		</Entity>
 		<Entity uid="32806">
-			<Template>other/palisades_rocks_watchtower</Template>
+			<Template>structures/palisades_watchtower</Template>
 			<Player>0</Player>
 			<Position x="246.42112" z="849.32758"/>
 			<Orientation y="1.40751"/>
 			<Actor seed="17256"/>
 		</Entity>
 		<Entity uid="32807">
-			<Template>other/palisades_rocks_watchtower</Template>
+			<Template>structures/palisades_watchtower</Template>
 			<Player>0</Player>
 			<Position x="234.61356" z="840.77955"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="36790"/>
 		</Entity>
 		<Entity uid="32808">
-			<Template>other/palisades_rocks_watchtower</Template>
+			<Template>structures/palisades_watchtower</Template>
 			<Player>0</Player>
 			<Position x="275.21534" z="800.72608"/>
 			<Orientation y="2.35621"/>

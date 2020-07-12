@@ -9,7 +9,7 @@
   <group>
     <variant frequency="1" name="Standard">
       <textures>
-        <texture file="props/helmet/hele_a4.dds" name="baseTex"/>
+        <texture file="props/helmet/old/hele_a4.dds" name="baseTex"/>
       </textures>
     </variant>
   </group>

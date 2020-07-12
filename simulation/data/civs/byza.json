@@ -70,7 +70,7 @@
 	],
 	"WallSets":
 	[
-		"other/wallset_palisade",
+		"structures/wallset_palisade",
 		"structures/byza_wallset_stone",
 		"structures/byza_wallset_short"
 	],
@@ -106,7 +106,9 @@
 		"special/formations/flank",
 		"special/formations/skirmish",
 		"special/formations/wedge",
-		"special/formations/battle_line"
+		"special/formations/battle_line",
+ 		"special/formations/shieldwall"
+
 	],
 	"AINames":
 	[

@@ -2,13 +2,13 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="quadraped/base_horse_swordsman.xml" frequency="1" name="Sworsdman Horse">
-      <mesh>skeletal/horse_celtic.dae</mesh>
+		<variant>
+			<mesh>skeletal/horse_celtic.dae</mesh>
       <props>
         <prop actor="units/anglo/hero_alfred_r.xml" attachpoint="rider"/>
         <prop actor="props/horse/chest_colorband_01.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_blanket_rome.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_rein_spearman.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
@@ -19,9 +19,9 @@
     <variant file="quadraped/horse/cherrybay.xml" frequency="1" name="cherrybay"/>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
-    <variant file="quadraped/base_horse_death.xml"/>
-    <variant file="quadraped/base_horse_run.xml"/>
-  </group>
-  <material>basic_trans_parallax_spec.xml</material>
+		<variant file="quadraped/base_horse_trot.xml" name="Horse-Trot" frequency="1"/>
+		<variant file="quadraped/base_horse_death.xml"/>
+		<variant file="quadraped/base_horse_run.xml"/>
+	</group>
+	<material>no_trans_parallax_spec.xml</material>
 </actor>

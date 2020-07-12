@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="6">
+	<Environment>
+		<SkySet>default</SkySet>
+		<SunColor r="0.74902" g="0.74902" b="0.74902"/>
+		<SunElevation angle="0.785398"/>
+		<SunRotation angle="-0.785396"/>
+		<TerrainAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<UnitsAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.894118"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.294118" g="0.34902" b="0.694118"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
+				<Height>5</Height>
+				<Waviness>4</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="300" y="210.317" z="65.1299"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "Name": "Unnamed map",
+  "Description": "Give an interesting description of your map.",
+  "PlayerData": [
+    null,
+    {
+      "Civ": "athen"
+    },
+    {
+      "Civ": "cart"
+    },
+    {
+      "Civ": "gaul"
+    },
+    {
+      "Civ": "iber"
+    },
+    {
+      "Civ": "mace"
+    },
+    {
+      "Civ": "pers"
+    },
+    {
+      "Civ": "rome"
+    },
+    {
+      "Civ": "spart"
+    }
+  ],
+  "CircularMap": true,
+  "VictoryConditions": [
+    "conquest"
+  ]
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="11">
+			<Template>structures/norse_barracks</Template>
+			<Player>0</Player>
+			<Position x="232.12613" z="164.11152"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6018"/>
+		</Entity>
+		<Entity uid="12">
+			<Template>structures/norse_blacksmith</Template>
+			<Player>0</Player>
+			<Position x="253.83194" z="174.5771"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34496"/>
+		</Entity>
+		<Entity uid="13">
+			<Template>structures/norse_civil_centre</Template>
+			<Player>0</Player>
+			<Position x="274.85846" z="199.98545"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16100"/>
+		</Entity>
+		<Entity uid="14">
+			<Template>structures/norse_dock</Template>
+			<Player>0</Player>
+			<Position x="277.73072" z="127.05553"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18376"/>
+		</Entity>
+		<Entity uid="15">
+			<Template>structures/norse_farmstead</Template>
+			<Player>0</Player>
+			<Position x="293.90461" z="167.21882"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13700"/>
+		</Entity>
+		<Entity uid="16">
+			<Template>structures/norse_field</Template>
+			<Player>0</Player>
+			<Position x="313.32306" z="145.39695"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13718"/>
+		</Entity>
+		<Entity uid="18">
+			<Template>structures/norse_market</Template>
+			<Player>0</Player>
+			<Position x="313.10047" z="192.26145"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63516"/>
+		</Entity>
+		<Entity uid="19">
+			<Template>structures/norse_house</Template>
+			<Player>0</Player>
+			<Position x="299.20731" z="91.27596"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22138"/>
+		</Entity>
+		<Entity uid="20">
+			<Template>structures/norse_house</Template>
+			<Player>0</Player>
+			<Position x="311.50852" z="101.97316"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57522"/>
+		</Entity>
+		<Entity uid="21">
+			<Template>structures/norse_house</Template>
+			<Player>0</Player>
+			<Position x="327.45261" z="114.86138"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="21660"/>
+		</Entity>
+		<Entity uid="22">
+			<Template>structures/norse_house</Template>
+			<Player>0</Player>
+			<Position x="315.90348" z="75.72843"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="384"/>
+		</Entity>
+		<Entity uid="23">
+			<Template>structures/norse_house</Template>
+			<Player>0</Player>
+			<Position x="331.33042" z="91.50756"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40914"/>
+		</Entity>
+		<Entity uid="24">
+			<Template>structures/norse_house</Template>
+			<Player>0</Player>
+			<Position x="345.4975" z="106.0803"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6480"/>
+		</Entity>
+		<Entity uid="25">
+			<Template>units/norse_support_trader</Template>
+			<Player>0</Player>
+			<Position x="243.87195" z="113.9987"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44186"/>
+		</Entity>
+		<Entity uid="26">
+			<Template>units/norse_support_healer_a</Template>
+			<Player>0</Player>
+			<Position x="244.99643" z="105.41044"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35978"/>
+		</Entity>
+		<Entity uid="27">
+			<Template>units/norse_support_healer_a</Template>
+			<Player>0</Player>
+			<Position x="246.1555" z="106.85351"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33420"/>
+		</Entity>
+		<Entity uid="28">
+			<Template>units/norse_support_healer_a</Template>
+			<Player>0</Player>
+			<Position x="247.49094" z="109.02433"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48680"/>
+		</Entity>
+		<Entity uid="29">
+			<Template>units/norse_support_healer_b</Template>
+			<Player>0</Player>
+			<Position x="248.1276" z="101.79204"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50442"/>
+		</Entity>
+		<Entity uid="30">
+			<Template>units/norse_support_healer_b</Template>
+			<Player>0</Player>
+			<Position x="249.11844" z="103.62407"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45828"/>
+		</Entity>
+		<Entity uid="31">
+			<Template>units/norse_support_healer_b</Template>
+			<Player>0</Player>
+			<Position x="250.4178" z="105.03055"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7006"/>
+		</Entity>
+		<Entity uid="32">
+			<Template>units/norse_support_healer_e</Template>
+			<Player>0</Player>
+			<Position x="251.25516" z="98.5271"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62650"/>
+		</Entity>
+		<Entity uid="33">
+			<Template>units/norse_support_healer_e</Template>
+			<Player>0</Player>
+			<Position x="252.30878" z="99.8318"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38020"/>
+		</Entity>
+		<Entity uid="34">
+			<Template>units/norse_support_healer_e</Template>
+			<Player>0</Player>
+			<Position x="253.53104" z="101.70171"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35248"/>
+		</Entity>
+		<Entity uid="35">
+			<Template>units/norse_support_female_citizen</Template>
+			<Player>0</Player>
+			<Position x="255.11118" z="94.11222"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49640"/>
+		</Entity>
+		<Entity uid="36">
+			<Template>units/norse_support_female_citizen</Template>
+			<Player>0</Player>
+			<Position x="256.66831" z="95.24987"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25668"/>
+		</Entity>
+		<Entity uid="37">
+			<Template>units/norse_support_female_citizen</Template>
+			<Player>0</Player>
+			<Position x="257.96024" z="96.99431"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16662"/>
+		</Entity>
+		<Entity uid="38">
+			<Template>units/norse_ship_trireme</Template>
+			<Player>0</Player>
+			<Position x="342.88776" z="161.46958"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32156"/>
+		</Entity>
+		<Entity uid="39">
+			<Template>units/norse_ship_quinquereme</Template>
+			<Player>0</Player>
+			<Position x="358.58085" z="175.00135"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="15900"/>
+		</Entity>
+		<Entity uid="40">
+			<Template>units/norse_ship_merchant</Template>
+			<Player>0</Player>
+			<Position x="373.87629" z="190.04191"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17890"/>
+		</Entity>
+		<Entity uid="41">
+			<Template>units/norse_ship_fishing</Template>
+			<Player>0</Player>
+			<Position x="347.76276" z="136.15888"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46686"/>
+		</Entity>
+		<Entity uid="42">
+			<Template>units/norse_ship_bireme</Template>
+			<Player>0</Player>
+			<Position x="389.90601" z="201.32367"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63988"/>
+		</Entity>
+		<Entity uid="44">
+			<Template>units/norse_infantry_swordsman_e</Template>
+			<Player>0</Player>
+			<Position x="269.51877" z="102.11724"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5294"/>
+		</Entity>
+		<Entity uid="45">
+			<Template>units/norse_infantry_swordsman_e</Template>
+			<Player>0</Player>
+			<Position x="270.71085" z="103.37882"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55208"/>
+		</Entity>
+		<Entity uid="46">
+			<Template>units/norse_infantry_swordsman_e</Template>
+			<Player>0</Player>
+			<Position x="272.33149" z="104.30207"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23092"/>
+		</Entity>
+		<Entity uid="47">
+			<Template>units/norse_infantry_swordsman_b_house</Template>
+			<Player>0</Player>
+			<Position x="272.53034" z="98.53226"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47762"/>
+		</Entity>
+		<Entity uid="48">
+			<Template>units/norse_infantry_swordsman_b_house</Template>
+			<Player>0</Player>
+			<Position x="273.87766" z="99.47844"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51908"/>
+		</Entity>
+		<Entity uid="49">
+			<Template>units/norse_infantry_swordsman_b_house</Template>
+			<Player>0</Player>
+			<Position x="274.98713" z="100.25197"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36626"/>
+		</Entity>
+		<Entity uid="50">
+			<Template>units/norse_infantry_swordsman_a</Template>
+			<Player>0</Player>
+			<Position x="274.45774" z="95.61321"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30538"/>
+		</Entity>
+		<Entity uid="51">
+			<Template>units/norse_infantry_swordsman_a</Template>
+			<Player>0</Player>
+			<Position x="276.2258" z="96.25489"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="28922"/>
+		</Entity>
+		<Entity uid="52">
+			<Template>units/norse_infantry_swordsman_a</Template>
+			<Player>0</Player>
+			<Position x="277.7934" z="96.97287"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43986"/>
+		</Entity>
+		<Entity uid="53">
+			<Template>units/norse_infantry_swordsman_b</Template>
+			<Player>0</Player>
+			<Position x="276.57157" z="92.9581"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59514"/>
+		</Entity>
+		<Entity uid="54">
+			<Template>units/norse_infantry_swordsman_b</Template>
+			<Player>0</Player>
+			<Position x="278.14621" z="93.88486"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29062"/>
+		</Entity>
+		<Entity uid="55">
+			<Template>units/norse_infantry_swordsman_b</Template>
+			<Player>0</Player>
+			<Position x="279.86481" z="94.79049"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47714"/>
+		</Entity>
+		<Entity uid="56">
+			<Template>units/norse_infantry_archer_a</Template>
+			<Player>0</Player>
+			<Position x="281.38672" z="97.96067"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57530"/>
+		</Entity>
+		<Entity uid="57">
+			<Template>units/norse_infantry_archer_a</Template>
+			<Player>0</Player>
+			<Position x="282.9593" z="98.88743"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57014"/>
+		</Entity>
+		<Entity uid="58">
+			<Template>units/norse_infantry_archer_a</Template>
+			<Player>0</Player>
+			<Position x="284.4803" z="100.1499"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25982"/>
+		</Entity>
+		<Entity uid="59">
+			<Template>units/norse_infantry_archer_b</Template>
+			<Player>0</Player>
+			<Position x="282.73047" z="95.55564"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48622"/>
+		</Entity>
+		<Entity uid="60">
+			<Template>units/norse_infantry_archer_b</Template>
+			<Player>0</Player>
+			<Position x="283.92457" z="96.4921"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="21258"/>
+		</Entity>
+		<Entity uid="61">
+			<Template>units/norse_infantry_archer_b</Template>
+			<Player>0</Player>
+			<Position x="285.8329" z="97.09443"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16696"/>
+		</Entity>
+		<Entity uid="62">
+			<Template>units/norse_siege_ram</Template>
+			<Player>0</Player>
+			<Position x="258.22309" z="110.85077"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9574"/>
+		</Entity>
+		<Entity uid="63">
+			<Template>units/norse_champion_berserker</Template>
+			<Player>0</Player>
+			<Position x="280.15308" z="85.98372"/>
+			<Orientation y="2.12208"/>
+			<Actor seed="41872"/>
+		</Entity>
+		<Entity uid="64">
+			<Template>units/norse_champion_berserker</Template>
+			<Player>0</Player>
+			<Position x="287.3834" z="102.80202"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43018"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

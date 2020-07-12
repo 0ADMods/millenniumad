@@ -195,238 +195,238 @@
 			<Actor seed="45194"/>
 		</Entity>
 		<Entity uid="29">
-			<Template>other/palisades_rocks_fort</Template>
+			<Template>structures/palisades_fort</Template>
 			<Player>1</Player>
 			<Position x="371.7226" z="105.91128"/>
 			<Orientation y="4.0653"/>
 			<Actor seed="10180"/>
 		</Entity>
 		<Entity uid="30">
-			<Template>other/palisades_rocks_gate</Template>
+			<Template>structures/palisades_gate</Template>
 			<Player>1</Player>
 			<Position x="339.04462" z="65.67277"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="9142"/>
 		</Entity>
 		<Entity uid="31">
-			<Template>other/palisades_rocks_medium</Template>
+			<Template>structures/palisades_medium</Template>
 			<Player>1</Player>
 			<Position x="346.47806" z="73.67515"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="55694"/>
 		</Entity>
 		<Entity uid="32">
-			<Template>other/palisades_rocks_medium</Template>
+			<Template>structures/palisades_medium</Template>
 			<Player>1</Player>
 			<Position x="330.87943" z="58.61205"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="43044"/>
 		</Entity>
 		<Entity uid="33">
-			<Template>other/palisades_rocks_curve</Template>
+			<Template>structures/palisades_curve</Template>
 			<Player>1</Player>
 			<Position x="325.21103" z="51.68191"/>
 			<Orientation y="0.46949"/>
 			<Actor seed="45158"/>
 		</Entity>
 		<Entity uid="34">
-			<Template>other/palisades_rocks_long</Template>
+			<Template>structures/palisades_long</Template>
 			<Player>0</Player>
 			<Position x="317.96167" z="42.0962"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="24030"/>
 		</Entity>
 		<Entity uid="35">
-			<Template>other/palisades_rocks_long</Template>
+			<Template>structures/palisades_long</Template>
 			<Player>0</Player>
 			<Position x="316.21824" z="40.33063"/>
 			<Orientation y="0.65346"/>
 			<Actor seed="35082"/>
 		</Entity>
 		<Entity uid="36">
-			<Template>other/palisades_rocks_long</Template>
+			<Template>structures/palisades_long</Template>
 			<Player>0</Player>
 			<Position x="318.78516" z="43.1967"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="8322"/>
 		</Entity>
 		<Entity uid="37">
-			<Template>other/palisades_rocks_long</Template>
+			<Template>structures/palisades_long</Template>
 			<Player>0</Player>
 			<Position x="317.05225" z="45.03153"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="19846"/>
 		</Entity>
 		<Entity uid="39">
-			<Template>other/palisades_rocks_medium</Template>
+			<Template>structures/palisades_medium</Template>
 			<Player>0</Player>
 			<Position x="318.11335" z="44.75504"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="10708"/>
 		</Entity>
 		<Entity uid="40">
-			<Template>other/palisades_rocks_medium</Template>
+			<Template>structures/palisades_medium</Template>
 			<Player>0</Player>
 			<Position x="319.92948" z="45.30048"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="43148"/>
 		</Entity>
 		<Entity uid="41">
-			<Template>other/palisades_rocks_medium</Template>
+			<Template>structures/palisades_medium</Template>
 			<Player>0</Player>
 			<Position x="320.1432" z="44.5738"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="32434"/>
 		</Entity>
 		<Entity uid="42">
-			<Template>other/palisades_rocks_medium</Template>
+			<Template>structures/palisades_medium</Template>
 			<Player>0</Player>
 			<Position x="320.37217" z="44.7063"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="43068"/>
 		</Entity>
 		<Entity uid="43">
-			<Template>other/palisades_rocks_medium</Template>
+			<Template>structures/palisades_medium</Template>
 			<Player>1</Player>
 			<Position x="320.17008" z="46.1575"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48898"/>
 		</Entity>
 		<Entity uid="44">
-			<Template>other/palisades_rocks_long</Template>
+			<Template>structures/palisades_long</Template>
 			<Player>1</Player>
 			<Position x="224.43885" z="103.41556"/>
 			<Orientation y="-0.97118"/>
 			<Actor seed="39814"/>
 		</Entity>
 		<Entity uid="46">
-			<Template>other/palisades_rocks_long</Template>
+			<Template>structures/palisades_long</Template>
 			<Player>1</Player>
 			<Position x="232.75632" z="115.39185"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="31940"/>
 		</Entity>
 		<Entity uid="47">
-			<Template>other/palisades_rocks_long</Template>
+			<Template>structures/palisades_long</Template>
 			<Player>1</Player>
 			<Position x="243.0084" z="125.37955"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="33836"/>
 		</Entity>
 		<Entity uid="48">
-			<Template>other/palisades_rocks_long</Template>
+			<Template>structures/palisades_long</Template>
 			<Player>1</Player>
 			<Position x="253.38001" z="135.48871"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="53968"/>
 		</Entity>
 		<Entity uid="49">
-			<Template>other/palisades_rocks_long</Template>
+			<Template>structures/palisades_long</Template>
 			<Player>1</Player>
 			<Position x="263.72815" z="145.57868"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="53856"/>
 		</Entity>
 		<Entity uid="50">
-			<Template>other/palisades_rocks_long</Template>
+			<Template>structures/palisades_long</Template>
 			<Player>1</Player>
 			<Position x="274.06437" z="155.58136"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="15004"/>
 		</Entity>
 		<Entity uid="51">
-			<Template>other/palisades_rocks_long</Template>
+			<Template>structures/palisades_long</Template>
 			<Player>1</Player>
 			<Position x="284.12806" z="165.36725"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="53500"/>
 		</Entity>
 		<Entity uid="52">
-			<Template>other/palisades_rocks_long</Template>
+			<Template>structures/palisades_long</Template>
 			<Player>1</Player>
 			<Position x="294.32767" z="175.41633"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="5386"/>
 		</Entity>
 		<Entity uid="53">
-			<Template>other/palisades_rocks_fort</Template>
+			<Template>structures/palisades_fort</Template>
 			<Player>1</Player>
 			<Position x="228.3407" z="110.7777"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="33262"/>
 		</Entity>
 		<Entity uid="54">
-			<Template>other/palisades_rocks_fort</Template>
+			<Template>structures/palisades_fort</Template>
 			<Player>1</Player>
 			<Position x="247.83619" z="130.06955"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="27364"/>
 		</Entity>
 		<Entity uid="55">
-			<Template>other/palisades_rocks_fort</Template>
+			<Template>structures/palisades_fort</Template>
 			<Player>1</Player>
 			<Position x="270.2176" z="153.41214"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="15920"/>
 		</Entity>
 		<Entity uid="56">
-			<Template>other/palisades_rocks_fort</Template>
+			<Template>structures/palisades_fort</Template>
 			<Player>1</Player>
 			<Position x="298.73646" z="180.47782"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="8870"/>
 		</Entity>
 		<Entity uid="57">
-			<Template>other/palisades_rocks_fort</Template>
+			<Template>structures/palisades_fort</Template>
 			<Player>1</Player>
 			<Position x="337.12983" z="143.60679"/>
 			<Orientation y="-2.45105"/>
 			<Actor seed="49050"/>
 		</Entity>
 		<Entity uid="58">
-			<Template>other/palisades_rocks_long</Template>
+			<Template>structures/palisades_long</Template>
 			<Player>1</Player>
 			<Position x="305.6649" z="173.90342"/>
 			<Orientation y="-2.38961"/>
 			<Actor seed="51496"/>
 		</Entity>
 		<Entity uid="59">
-			<Template>other/palisades_rocks_long</Template>
+			<Template>structures/palisades_long</Template>
 			<Player>1</Player>
 			<Position x="315.21479" z="164.01606"/>
 			<Orientation y="-2.38961"/>
 			<Actor seed="51496"/>
 		</Entity>
 		<Entity uid="60">
-			<Template>other/palisades_rocks_long</Template>
+			<Template>structures/palisades_long</Template>
 			<Player>1</Player>
 			<Position x="325.56086" z="154.37864"/>
 			<Orientation y="-2.38961"/>
 			<Actor seed="51496"/>
 		</Entity>
 		<Entity uid="61">
-			<Template>other/palisades_rocks_long</Template>
+			<Template>structures/palisades_long</Template>
 			<Player>1</Player>
 			<Position x="335.94266" z="144.56977"/>
 			<Orientation y="-2.38961"/>
 			<Actor seed="51496"/>
 		</Entity>
 		<Entity uid="62">
-			<Template>other/palisades_rocks_long</Template>
+			<Template>structures/palisades_long</Template>
 			<Player>1</Player>
 			<Position x="345.8812" z="134.79972"/>
 			<Orientation y="-2.38961"/>
 			<Actor seed="51496"/>
 		</Entity>
 		<Entity uid="63">
-			<Template>other/palisades_rocks_long</Template>
+			<Template>structures/palisades_long</Template>
 			<Player>1</Player>
 			<Position x="355.91111" z="124.82595"/>
 			<Orientation y="-2.38961"/>
 			<Actor seed="51496"/>
 		</Entity>
 		<Entity uid="64">
-			<Template>other/palisades_rocks_long</Template>
+			<Template>structures/palisades_long</Template>
 			<Player>1</Player>
 			<Position x="365.96921" z="115.11619"/>
 			<Orientation y="-2.38961"/>
@@ -2195,14 +2195,14 @@
 			<Actor seed="31158"/>
 		</Entity>
 		<Entity uid="337">
-			<Template>other/palisades_rocks_outpost</Template>
+			<Template>structures/palisades_outpost</Template>
 			<Player>1</Player>
 			<Position x="321.88642" z="48.62491"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="58594"/>
 		</Entity>
 		<Entity uid="338">
-			<Template>other/palisades_rocks_outpost</Template>
+			<Template>structures/palisades_outpost</Template>
 			<Player>1</Player>
 			<Position x="351.65159" z="76.61576"/>
 			<Orientation y="2.35621"/>

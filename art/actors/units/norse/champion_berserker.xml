@@ -2,15 +2,15 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_spearman_ready_fast.xml">
-      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+		<variant>
+			<mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/helmets/norse_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_german_a.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/norse_swordsman_e.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/weapons/norse_sword_sheath.xml" attachpoint="sheath_L"/>
-        <prop actor="props/units/capes/cape_pelt_berserker.xml" attachpoint="root"/>
+        <prop actor="props/units/shields/norse_swordsman_e.xml" attachpoint="shield_arm"/>
+				<prop actor="props/units/weapons/spear_hoplite.xml" attachpoint="weapon_R"/>
+				<prop actor="props/units/weapons/norse_sword_sheath.xml" attachpoint="sheath_L"/>
+        <prop actor="props/units/capes/cape_med_pelt.xml" attachpoint="root"/>
         <prop actor="props/units/helmets/norse_coif_berserker.xml" attachpoint="root"/>
       </props>
     </variant>
@@ -33,14 +33,17 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
-    <variant file="biped/attack_capture.xml"/>
-    <variant file="biped/death_infantry.xml">
-      <props>
-        <prop actor="props/units/capes/cape_pelt_berserker.xml" attachpoint="root"/>
-        <prop actor="props/units/helmets/norse_coif_berserker.xml" attachpoint="root"/>
-      </props>
-    </variant>
-  </group>
-  <material>player_trans.xml</material>
+		<variant file="biped/base_hoplite_fast.xml" frequency="1" name="Hoplite-Fast"/>
+		<variant file="biped/attack_capture.xml">
+			<props>
+				<prop actor="props/units/weapons/spear_lance_cavalry_reverse.xml" attachpoint="weapon_R"/>
+			</props>
+		</variant>
+		<variant file="biped/death_cape_pelt.xml"/>
+		<variant file="biped/attack_slaughter.xml"/>
+		<variant file="biped/formations/phalanx_front.xml"/>
+		<variant file="biped/formations/phalanx_mid.xml"/>
+		<variant file="biped/formations/phalanx_back.xml"/>
+	</group>
+	<material>player_trans.xml</material>
 </actor>

@@ -2,16 +2,17 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_swordsman_shield_fast.xml" frequency="100" name="Base">
-      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+    <!--<variant file="biped/base_swordsman_shield_fast.xml" frequency="100" name="Base">-->
+		<variant>
+			<mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/helmets/norse_huscarl.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_celt_brennus.xml" attachpoint="head"/>
         <prop actor="props/units/shields/norse_erik_the_red.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/norse_sword.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/norse_sword_sheath_empty.xml" attachpoint="sheath_L"/>
-        <prop actor="props/units/capes/swordsman_shield_ready_fast.xml" attachpoint="root"/>
-      </props>
+				<prop actor="props/units/capes/cape_long_player.xml" attachpoint="root"/>
+			</props>
     </variant>
   </group>
   <group>
@@ -22,13 +23,10 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
-    <variant file="biped/attack_capture.xml"/>
-    <variant file="biped/death_infantry.xml">
-      <props>
-        <prop actor="props/units/capes/swordsman_shield_ready_fast.xml" attachpoint="root"/>
-      </props>
-    </variant>
-  </group>
-  <material>player_trans.xml</material>
+		<variant file="biped/base_swordsman_shield_ready.xml" name="Swordsman-Shield-Ready" frequency="1"/>
+		<variant file="biped/attack_capture.xml"/>
+		<variant file="biped/attack_slaughter.xml"/>
+		<variant file="biped/death_cape_long.xml"/>
+	</group>
+	<material>player_trans.xml</material>
 </actor>
