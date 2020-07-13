@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
-  <castshadow/>
-  <group>
-    <variant>
-      <mesh>skeletal/new/f_dress.dae</mesh>
-      <props>
-        <prop actor="props/units/helmets/umay_coif_female.xml" attachpoint="root"/>
-      </props>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="body-cloth">
-      <textures>
-        <texture file="skeletal/umay/female/cloth.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="body-cloth2">
-      <textures>
-        <texture file="skeletal/umay/female/cloth2.png" name="baseTex"/>
-      </textures>
-    </variant>
-  </group>
-  <group>
-    <variant file="biped/female_base_walk.xml"/>
-    <variant file="biped/female_carry_food.xml"/>
-    <variant file="biped/female_carry_meat.xml"/>
-    <variant file="biped/female_carry_wood.xml"/>
-    <variant file="biped/female_carry_stone.xml"/>
-    <variant file="biped/female_carry_metal.xml"/>
-  </group>
-  <group>
-    <variant frequency="1" name="Idle"/>
-    <variant file="biped/attack_melee_female.xml">
-      <props>
-        <prop actor="props/units/helmets/umay_coif_female.xml" attachpoint="root"/>
-      </props>
-    </variant>
-    <variant file="biped/attack_slaughter.xml"/>
-    <variant file="biped/female_death.xml">
-      <props>
-        <prop actor="props/units/helmets/umay_coif_female.xml" attachpoint="root"/>
-      </props>
-    </variant>
-    <variant file="biped/female_gather_tree.xml"/>
-    <variant file="biped/female_gather_grain.xml"/>
-    <variant file="biped/female_gather_fruit.xml"/>
-    <variant file="biped/female_gather_meat.xml">
-      <props>
-        <prop actor="props/units/helmets/umay_coif_female.xml" attachpoint="root"/>
-      </props>
-    </variant>
-    <variant file="biped/female_gather_rock.xml"/>
-    <variant file="biped/female_gather_ore.xml"/>
-    <variant file="biped/female_gather_ruins.xml"/>
-    <variant file="biped/gather_praise.xml"/>
-    <variant file="biped/female_build.xml"/>
-    <variant file="biped/female_build_farm.xml"/>
-  </group>
-  <material>player_trans.xml</material>
+	<castshadow/>
+	<group>
+		<variant>
+			<mesh>skeletal/new/f_dress.dae</mesh>
+			<props>
+				<prop actor="props/units/helmets/umay_coif_female.xml" attachpoint="root"/>
+			</props>
+		</variant>
+	</group>
+	<group>
+		<variant frequency="1" name="body-cloth">
+			<textures>
+				<texture file="skeletal/umay/female/cloth.png" name="baseTex"/>
+			</textures>
+		</variant>
+		<variant frequency="1" name="body-cloth2">
+			<textures>
+				<texture file="skeletal/umay/female/cloth2.png" name="baseTex"/>
+			</textures>
+		</variant>
+	</group>
+	<group>
+		<variant file="biped/female_base_walk.xml"/>
+		<variant file="biped/female_carry_food.xml"/>
+		<variant file="biped/female_carry_meat.xml"/>
+		<variant file="biped/female_carry_wood.xml"/>
+		<variant file="biped/female_carry_stone.xml"/>
+		<variant file="biped/female_carry_metal.xml"/>
+	</group>
+	<group>
+		<variant frequency="1" name="Idle"/>
+		<variant file="biped/attack_melee_female.xml">
+			<props>
+				<prop actor="props/units/helmets/umay_coif_female.xml" attachpoint="root"/>
+			</props>
+		</variant>
+		<variant file="biped/attack_slaughter.xml"/>
+		<variant file="biped/female_death.xml">
+			<props>
+				<prop actor="props/units/helmets/umay_coif_female.xml" attachpoint="root"/>
+			</props>
+		</variant>
+		<variant file="biped/female_gather_tree.xml"/>
+		<variant file="biped/female_gather_grain.xml"/>
+		<variant file="biped/female_gather_fruit.xml"/>
+		<variant file="biped/female_gather_meat.xml">
+			<props>
+				<prop actor="props/units/helmets/umay_coif_female.xml" attachpoint="root"/>
+			</props>
+		</variant>
+		<variant file="biped/female_gather_rock.xml"/>
+		<variant file="biped/female_gather_ore.xml"/>
+		<variant file="biped/female_gather_ruins.xml"/>
+		<variant file="biped/gather_praise.xml"/>
+		<variant file="biped/female_build.xml"/>
+		<variant file="biped/female_build_farm.xml"/>
+	</group>
+	<material>player_trans.xml</material>
 </actor>

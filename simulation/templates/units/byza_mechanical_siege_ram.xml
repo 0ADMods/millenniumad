@@ -9,7 +9,7 @@
   </GarrisonHolder>
   <Identity>
     <Civ>byza</Civ>
-    <Icon>units/celt_mechanical_siege_ram.png</Icon>
+    <Icon>units/celt_siege_ram.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/byzantines/siege_ram.xml</Actor>

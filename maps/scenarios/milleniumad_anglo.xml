@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="6">
+	<Environment>
+		<SkySet>default</SkySet>
+		<SunColor r="0.74902" g="0.74902" b="0.74902"/>
+		<SunElevation angle="0.785398"/>
+		<SunRotation angle="-0.785396"/>
+		<TerrainAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<UnitsAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.894118"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.294118" g="0.34902" b="0.694118"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
+				<Height>5</Height>
+				<Waviness>4</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="366.021" y="191.962" z="61.5831"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "Name": "Unnamed map",
+  "Description": "Give an interesting description of your map.",
+  "PlayerData": [
+    null,
+    {
+      "Civ": "athen"
+    },
+    {
+      "Civ": "cart"
+    },
+    {
+      "Civ": "gaul"
+    },
+    {
+      "Civ": "iber"
+    },
+    {
+      "Civ": "mace"
+    },
+    {
+      "Civ": "pers"
+    },
+    {
+      "Civ": "rome"
+    },
+    {
+      "Civ": "spart"
+    }
+  ],
+  "CircularMap": true,
+  "VictoryConditions": [
+    "conquest"
+  ]
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="11">
+			<Template>structures/anglo_barracks</Template>
+			<Player>0</Player>
+			<Position x="234.68174" z="163.22242"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13952"/>
+		</Entity>
+		<Entity uid="12">
+			<Template>structures/anglo_blacksmith</Template>
+			<Player>0</Player>
+			<Position x="255.81241" z="187.80393"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49918"/>
+		</Entity>
+		<Entity uid="13">
+			<Template>structures/anglo_civil_centre</Template>
+			<Player>0</Player>
+			<Position x="279.61155" z="209.40876"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52478"/>
+		</Entity>
+		<Entity uid="14">
+			<Template>structures/anglo_corral</Template>
+			<Player>0</Player>
+			<Position x="244.65436" z="140.03895"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22086"/>
+		</Entity>
+		<Entity uid="15">
+			<Template>structures/anglo_defense_tower</Template>
+			<Player>0</Player>
+			<Position x="264.05472" z="146.1821"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25628"/>
+		</Entity>
+		<Entity uid="16">
+			<Template>structures/anglo_dock</Template>
+			<Player>0</Player>
+			<Position x="289.13035" z="159.67316"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1718"/>
+		</Entity>
+		<Entity uid="17">
+			<Template>structures/anglo_farmstead</Template>
+			<Player>0</Player>
+			<Position x="267.5052" z="118.66965"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62948"/>
+		</Entity>
+		<Entity uid="18">
+			<Template>structures/anglo_field</Template>
+			<Player>0</Player>
+			<Position x="292.93393" z="109.31923"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="15622"/>
+		</Entity>
+		<Entity uid="19">
+			<Template>structures/anglo_fortress</Template>
+			<Player>0</Player>
+			<Position x="329.84916" z="189.4982"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49390"/>
+		</Entity>
+		<Entity uid="20">
+			<Template>structures/anglo_house</Template>
+			<Player>0</Player>
+			<Position x="307.8288" z="133.33176"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16052"/>
+		</Entity>
+		<Entity uid="21">
+			<Template>structures/anglo_house</Template>
+			<Player>0</Player>
+			<Position x="319.20188" z="152.2605"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="53936"/>
+		</Entity>
+		<Entity uid="22">
+			<Template>structures/anglo_house</Template>
+			<Player>0</Player>
+			<Position x="319.81443" z="119.5905"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56064"/>
+		</Entity>
+		<Entity uid="23">
+			<Template>structures/anglo_house</Template>
+			<Player>0</Player>
+			<Position x="328.76716" z="131.83542"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50208"/>
+		</Entity>
+		<Entity uid="24">
+			<Template>structures/anglo_house</Template>
+			<Player>0</Player>
+			<Position x="341.25257" z="143.98362"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38388"/>
+		</Entity>
+		<Entity uid="25">
+			<Template>structures/anglo_house</Template>
+			<Player>0</Player>
+			<Position x="333.56019" z="107.03403"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16048"/>
+		</Entity>
+		<Entity uid="26">
+			<Template>structures/anglo_market</Template>
+			<Player>0</Player>
+			<Position x="304.04236" z="245.56086"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1374"/>
+		</Entity>
+		<Entity uid="27">
+			<Template>structures/anglo_outpost</Template>
+			<Player>0</Player>
+			<Position x="278.4932" z="134.43693"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11042"/>
+		</Entity>
+		<Entity uid="28">
+			<Template>structures/anglo_sentry_tower</Template>
+			<Player>0</Player>
+			<Position x="353.32813" z="159.1243"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37632"/>
+		</Entity>
+		<Entity uid="29">
+			<Template>structures/anglo_stables</Template>
+			<Player>0</Player>
+			<Position x="355.3198" z="115.23652"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29346"/>
+		</Entity>
+		<Entity uid="30">
+			<Template>structures/anglo_storehouse</Template>
+			<Player>0</Player>
+			<Position x="369.1955" z="142.09665"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64464"/>
+		</Entity>
+		<Entity uid="31">
+			<Template>structures/anglo_storehouse</Template>
+			<Player>0</Player>
+			<Position x="324.06794" z="92.32941"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55598"/>
+		</Entity>
+		<Entity uid="32">
+			<Template>structures/anglo_temple</Template>
+			<Player>0</Player>
+			<Position x="308.77186" z="79.68033"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51910"/>
+		</Entity>
+		<Entity uid="33">
+			<Template>structures/anglo_wall_gate</Template>
+			<Player>0</Player>
+			<Position x="350.99125" z="255.07755"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4308"/>
+		</Entity>
+		<Entity uid="34">
+			<Template>structures/anglo_wall_long</Template>
+			<Player>0</Player>
+			<Position x="361.2194" z="241.4343"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22836"/>
+		</Entity>
+		<Entity uid="35">
+			<Template>structures/anglo_wall_medium</Template>
+			<Player>0</Player>
+			<Position x="367.28251" z="224.21464"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="31436"/>
+		</Entity>
+		<Entity uid="36">
+			<Template>structures/anglo_wall_short</Template>
+			<Player>0</Player>
+			<Position x="372.2545" z="210.02298"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52708"/>
+		</Entity>
+		<Entity uid="37">
+			<Template>structures/anglo_wall_tower</Template>
+			<Player>0</Player>
+			<Position x="389.14652" z="228.23902"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51606"/>
+		</Entity>
+		<Entity uid="38">
+			<Template>structures/anglo_wonder</Template>
+			<Player>0</Player>
+			<Position x="397.19776" z="182.27994"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7824"/>
+		</Entity>
+		<Entity uid="55">
+			<Template>units/anglo_ship_trireme</Template>
+			<Player>0</Player>
+			<Position x="420.94187" z="152.05805"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32088"/>
+		</Entity>
+		<Entity uid="56">
+			<Template>units/anglo_ship_merchant</Template>
+			<Player>0</Player>
+			<Position x="437.78373" z="168.36817"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62934"/>
+		</Entity>
+		<Entity uid="57">
+			<Template>units/anglo_ship_fishing</Template>
+			<Player>0</Player>
+			<Position x="453.32377" z="181.35087"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32432"/>
+		</Entity>
+		<Entity uid="58">
+			<Template>units/anglo_mechanical_siege_ram</Template>
+			<Player>0</Player>
+			<Position x="405.60026" z="141.16611"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35502"/>
+		</Entity>
+		<Entity uid="69">
+			<Template>units/anglo_cavalry_spearman_a</Template>
+			<Player>0</Player>
+			<Position x="339.80329" z="75.75483"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12302"/>
+		</Entity>
+		<Entity uid="70">
+			<Template>units/anglo_cavalry_spearman_a</Template>
+			<Player>0</Player>
+			<Position x="342.1605" z="77.6968"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46418"/>
+		</Entity>
+		<Entity uid="71">
+			<Template>units/anglo_cavalry_spearman_a</Template>
+			<Player>0</Player>
+			<Position x="344.46305" z="79.63402"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55662"/>
+		</Entity>
+		<Entity uid="72">
+			<Template>units/anglo_cavalry_spearman_b</Template>
+			<Player>0</Player>
+			<Position x="344.29322" z="69.99364"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37324"/>
+		</Entity>
+		<Entity uid="73">
+			<Template>units/anglo_cavalry_spearman_b</Template>
+			<Player>0</Player>
+			<Position x="347.08582" z="71.87038"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47122"/>
+		</Entity>
+		<Entity uid="74">
+			<Template>units/anglo_cavalry_spearman_b</Template>
+			<Player>0</Player>
+			<Position x="349.23856" z="74.38775"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="28094"/>
+		</Entity>
+		<Entity uid="75">
+			<Template>units/anglo_cavalry_spearman_e</Template>
+			<Player>0</Player>
+			<Position x="348.92856" z="64.45044"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62498"/>
+		</Entity>
+		<Entity uid="76">
+			<Template>units/anglo_cavalry_spearman_e</Template>
+			<Player>0</Player>
+			<Position x="351.4557" z="66.64477"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37252"/>
+		</Entity>
+		<Entity uid="77">
+			<Template>units/anglo_cavalry_spearman_e</Template>
+			<Player>0</Player>
+			<Position x="353.8671" z="68.93227"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23688"/>
+		</Entity>
+		<Entity uid="84">
+			<Template>units/anglo_hero_alfred</Template>
+			<Player>0</Player>
+			<Position x="364.78431" z="81.7647"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63238"/>
+		</Entity>
+		<Entity uid="85">
+			<Template>units/anglo_hero_offa</Template>
+			<Player>0</Player>
+			<Position x="369.83814" z="86.20539"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18224"/>
+		</Entity>
+		<Entity uid="86">
+			<Template>units/anglo_infantry_javelinist_a</Template>
+			<Player>0</Player>
+			<Position x="371.25113" z="80.22187"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="65132"/>
+		</Entity>
+		<Entity uid="87">
+			<Template>units/anglo_infantry_javelinist_a</Template>
+			<Player>0</Player>
+			<Position x="372.86411" z="81.51687"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55742"/>
+		</Entity>
+		<Entity uid="88">
+			<Template>units/anglo_infantry_javelinist_a</Template>
+			<Player>0</Player>
+			<Position x="374.1926" z="82.7147"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20622"/>
+		</Entity>
+		<Entity uid="89">
+			<Template>units/anglo_infantry_javelinist_b</Template>
+			<Player>0</Player>
+			<Position x="372.06934" z="78.15841"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="21016"/>
+		</Entity>
+		<Entity uid="90">
+			<Template>units/anglo_infantry_javelinist_b</Template>
+			<Player>0</Player>
+			<Position x="373.52295" z="79.29734"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56686"/>
+		</Entity>
+		<Entity uid="91">
+			<Template>units/anglo_infantry_javelinist_b</Template>
+			<Player>0</Player>
+			<Position x="375.34379" z="80.84667"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19930"/>
+		</Entity>
+		<Entity uid="92">
+			<Template>units/anglo_infantry_javelinist_e</Template>
+			<Player>0</Player>
+			<Position x="373.1656" z="76.37462"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18838"/>
+		</Entity>
+		<Entity uid="93">
+			<Template>units/anglo_infantry_javelinist_e</Template>
+			<Player>0</Player>
+			<Position x="374.92841" z="78.077"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43242"/>
+		</Entity>
+		<Entity uid="94">
+			<Template>units/anglo_infantry_javelinist_e</Template>
+			<Player>0</Player>
+			<Position x="376.36234" z="79.66907"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16916"/>
+		</Entity>
+		<Entity uid="95">
+			<Template>units/anglo_infantry_spearman_a</Template>
+			<Player>0</Player>
+			<Position x="378.2829" z="87.35442"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26948"/>
+		</Entity>
+		<Entity uid="96">
+			<Template>units/anglo_infantry_spearman_a</Template>
+			<Player>0</Player>
+			<Position x="379.73728" z="88.82488"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="53546"/>
+		</Entity>
+		<Entity uid="97">
+			<Template>units/anglo_infantry_spearman_a</Template>
+			<Player>0</Player>
+			<Position x="381.2541" z="90.32692"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34800"/>
+		</Entity>
+		<Entity uid="98">
+			<Template>units/anglo_infantry_spearman_b</Template>
+			<Player>0</Player>
+			<Position x="379.44254" z="85.34551"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11944"/>
+		</Entity>
+		<Entity uid="99">
+			<Template>units/anglo_infantry_spearman_b</Template>
+			<Player>0</Player>
+			<Position x="381.20588" z="87.16611"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43460"/>
+		</Entity>
+		<Entity uid="100">
+			<Template>units/anglo_infantry_spearman_b</Template>
+			<Player>0</Player>
+			<Position x="382.64234" z="89.06362"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16470"/>
+		</Entity>
+		<Entity uid="101">
+			<Template>units/anglo_infantry_spearman_e</Template>
+			<Player>0</Player>
+			<Position x="380.86142" z="83.86541"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13106"/>
+		</Entity>
+		<Entity uid="102">
+			<Template>units/anglo_infantry_spearman_e</Template>
+			<Player>0</Player>
+			<Position x="382.31772" z="85.7008"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64646"/>
+		</Entity>
+		<Entity uid="103">
+			<Template>units/anglo_infantry_spearman_e</Template>
+			<Player>0</Player>
+			<Position x="383.79041" z="87.46798"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52080"/>
+		</Entity>
+		<Entity uid="104">
+			<Template>units/anglo_infantry_swordsman_a</Template>
+			<Player>0</Player>
+			<Position x="386.19065" z="96.4341"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44418"/>
+		</Entity>
+		<Entity uid="105">
+			<Template>units/anglo_infantry_swordsman_a</Template>
+			<Player>0</Player>
+			<Position x="388.19538" z="97.2427"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42416"/>
+		</Entity>
+		<Entity uid="106">
+			<Template>units/anglo_infantry_swordsman_a</Template>
+			<Player>0</Player>
+			<Position x="390.62656" z="98.7572"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37928"/>
+		</Entity>
+		<Entity uid="107">
+			<Template>units/anglo_infantry_swordsman_b</Template>
+			<Player>0</Player>
+			<Position x="386.96732" z="94.20948"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55604"/>
+		</Entity>
+		<Entity uid="108">
+			<Template>units/anglo_infantry_swordsman_b</Template>
+			<Player>0</Player>
+			<Position x="388.62024" z="95.159"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="31882"/>
+		</Entity>
+		<Entity uid="109">
+			<Template>units/anglo_infantry_swordsman_b</Template>
+			<Player>0</Player>
+			<Position x="391.03315" z="96.63451"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63036"/>
+		</Entity>
+		<Entity uid="110">
+			<Template>units/anglo_infantry_swordsman_e</Template>
+			<Player>0</Player>
+			<Position x="387.78495" z="91.59928"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19752"/>
+		</Entity>
+		<Entity uid="111">
+			<Template>units/anglo_infantry_swordsman_e</Template>
+			<Player>0</Player>
+			<Position x="390.12427" z="93.19503"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="28828"/>
+		</Entity>
+		<Entity uid="112">
+			<Template>units/anglo_infantry_swordsman_e</Template>
+			<Player>0</Player>
+			<Position x="392.33368" z="95.159"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34496"/>
+		</Entity>
+		<Entity uid="113">
+			<Template>units/anglo_mechanical_siege_ram</Template>
+			<Player>0</Player>
+			<Position x="346.34543" z="91.90352"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51270"/>
+		</Entity>
+		<Entity uid="114">
+			<Template>units/anglo_support_female_citizen</Template>
+			<Player>0</Player>
+			<Position x="361.56894" z="74.03441"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50686"/>
+		</Entity>
+		<Entity uid="115">
+			<Template>units/anglo_support_female_citizen</Template>
+			<Player>0</Player>
+			<Position x="363.00532" z="74.94825"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51904"/>
+		</Entity>
+		<Entity uid="116">
+			<Template>units/anglo_support_female_citizen</Template>
+			<Player>0</Player>
+			<Position x="364.59351" z="76.04761"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41140"/>
+		</Entity>
+		<Entity uid="117">
+			<Template>units/anglo_support_female_citizen_house</Template>
+			<Player>0</Player>
+			<Position x="362.66633" z="72.39251"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1242"/>
+		</Entity>
+		<Entity uid="118">
+			<Template>units/anglo_support_female_citizen_house</Template>
+			<Player>0</Player>
+			<Position x="364.19974" z="73.35473"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55004"/>
+		</Entity>
+		<Entity uid="119">
+			<Template>units/anglo_support_female_citizen_house</Template>
+			<Player>0</Player>
+			<Position x="365.60627" z="74.38175"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25818"/>
+		</Entity>
+		<Entity uid="120">
+			<Template>units/anglo_support_healer_a</Template>
+			<Player>0</Player>
+			<Position x="366.85758" z="77.75397"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17876"/>
+		</Entity>
+		<Entity uid="121">
+			<Template>units/anglo_support_healer_a</Template>
+			<Player>0</Player>
+			<Position x="367.87537" z="78.48661"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34096"/>
+		</Entity>
+		<Entity uid="122">
+			<Template>units/anglo_support_healer_a</Template>
+			<Player>0</Player>
+			<Position x="368.8985" z="79.184"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4248"/>
+		</Entity>
+		<Entity uid="123">
+			<Template>units/anglo_support_healer_b</Template>
+			<Player>0</Player>
+			<Position x="367.56318" z="76.52701"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17504"/>
+		</Entity>
+		<Entity uid="124">
+			<Template>units/anglo_support_healer_b</Template>
+			<Player>0</Player>
+			<Position x="368.64234" z="77.11997"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61692"/>
+		</Entity>
+		<Entity uid="125">
+			<Template>units/anglo_support_healer_b</Template>
+			<Player>0</Player>
+			<Position x="369.82343" z="77.91498"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59742"/>
+		</Entity>
+		<Entity uid="126">
+			<Template>units/anglo_support_healer_e</Template>
+			<Player>0</Player>
+			<Position x="367.68708" z="74.31188"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37282"/>
+		</Entity>
+		<Entity uid="127">
+			<Template>units/anglo_support_healer_e</Template>
+			<Player>0</Player>
+			<Position x="369.00953" z="75.1401"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63104"/>
+		</Entity>
+		<Entity uid="128">
+			<Template>units/anglo_support_healer_e</Template>
+			<Player>0</Player>
+			<Position x="370.52472" z="75.84852"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11140"/>
+		</Entity>
+		<Entity uid="129">
+			<Template>units/anglo_support_trader</Template>
+			<Player>0</Player>
+			<Position x="349.53742" z="81.85839"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33028"/>
+		</Entity>
+		<Entity uid="130">
+			<Template>units/anglo_support_trader</Template>
+			<Player>0</Player>
+			<Position x="352.25977" z="83.89898"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3340"/>
+		</Entity>
+		<Entity uid="131">
+			<Template>units/anglo_support_trader</Template>
+			<Player>0</Player>
+			<Position x="355.1569" z="86.02425"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39996"/>
+		</Entity>
+		<Entity uid="132">
+			<Template>units/brit_champion_infantry</Template>
+			<Player>0</Player>
+			<Position x="359.05036" z="94.31272"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35188"/>
+		</Entity>
+		<Entity uid="133">
+			<Template>units/gaul_champion_infantry</Template>
+			<Player>0</Player>
+			<Position x="361.15897" z="96.50232"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13296"/>
+		</Entity>
+		<Entity uid="134">
+			<Template>units/iber_champion_infantry</Template>
+			<Player>0</Player>
+			<Position x="363.53089" z="98.9407"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33528"/>
+		</Entity>
+		<Entity uid="135">
+			<Template>units/kush_champion_infantry</Template>
+			<Player>0</Player>
+			<Position x="365.98758" z="101.18987"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35120"/>
+		</Entity>
+		<Entity uid="136">
+			<Template>units/kush_champion_infantry_amun</Template>
+			<Player>0</Player>
+			<Position x="368.25522" z="103.92521"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43232"/>
+		</Entity>
+		<Entity uid="137">
+			<Template>units/kush_champion_infantry_apedemak</Template>
+			<Player>0</Player>
+			<Position x="370.67905" z="105.90516"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9242"/>
+		</Entity>
+		<Entity uid="138">
+			<Template>units/mace_champion_infantry_a</Template>
+			<Player>0</Player>
+			<Position x="361.6414" z="91.70328"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51314"/>
+		</Entity>
+		<Entity uid="139">
+			<Template>units/anglo_champion_infantry</Template>
+			<Player>0</Player>
+			<Position x="356.35074" z="76.65185"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9284"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

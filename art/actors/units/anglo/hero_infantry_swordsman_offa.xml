@@ -9,7 +9,7 @@
         <prop actor="props/units/shields/anglo_alfred.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/caro_infantry_sword.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/caro_infantry_sheath.xml" attachpoint="sheath_L"/>
-        <prop actor="props/units/capes/swordsman_shield_ready.xml" attachpoint="root"/>
+        <prop actor="props/units/capes/cape_med_player.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
@@ -28,10 +28,10 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
-    <variant file="biped/attack_capture.xml"/>
-    <variant file="biped/attack_slaughter.xml"/>
-    <variant file="biped/death_infantry.xml"/>
-  </group>
-  <material>player_trans.xml</material>
+		<variant file="biped/base_swordsman_shield_ready.xml" name="Swordsman-Shield-Ready" frequency="1"/>
+		<variant file="biped/attack_capture.xml"/>
+		<variant file="biped/attack_slaughter.xml"/>
+		<variant file="biped/death_cape_long.xml"/>
+	</group>
+	<material>player_trans.xml</material>
 </actor>
