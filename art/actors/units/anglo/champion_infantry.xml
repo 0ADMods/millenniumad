@@ -10,7 +10,7 @@
         <prop actor="props/units/shields/anglo_champion_infantry.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/norse_spear.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/norse_sword_sheath.xml" attachpoint="sheath_L"/>
-        <prop actor="props/units/capes/spearman_shield_relax.xml" attachpoint="root"/>
+        <prop actor="props/units/capes/cape_med_player.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

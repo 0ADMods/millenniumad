@@ -12,8 +12,8 @@
 			</textures>
 			<props>
 				<prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-				<prop actor="props/special/eyecandy/Plank_Pile_Big_b.xml" attachpoint="wood"/>
-				<prop actor="props/special/eyecandy/Box_Pile.xml" attachpoint="crate"/>
+				<prop actor="props/special/eyecandy/plank_pile_big_02.xml" attachpoint="wood"/>
+				<prop actor="props/special/eyecandy/box_pile.xml" attachpoint="crate"/>
 				<prop actor="props/special/eyecandy/handcart_1.xml" attachpoint="cart"/>
 			</props>
 		</variant>
