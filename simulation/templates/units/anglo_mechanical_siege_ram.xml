@@ -9,7 +9,7 @@
   </GarrisonHolder>
   <Identity>
     <Civ>anglo</Civ>
-    <Icon>units/celt_mechanical_siege_ram.png</Icon>
+    <Icon>units/celt_siege_ram.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/anglo/siege_ram.xml</Actor>
