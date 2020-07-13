@@ -7,7 +7,7 @@
       <props>
         <prop actor="props/units/helmets/anglo_pioneer_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
-        <prop actor="props/units/capes/rider/pers_spearman_e.xml" attachpoint="root"/>
+        <prop actor="props/units/capes/rider/cape_med_player.xml" attachpoint="root"/>
         <prop actor="props/units/shields/anglo_champion_infantry.xml" attachpoint="shield_arm"/>
         <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
       </props>
@@ -47,15 +47,15 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_cavalry_spearman_ready_shield.xml"/>
-    <variant file="biped/rider/carry_meat.xml"/>
-  </group>
-  <group>
-    <variant frequency="1" name="Idle"/>
-    <variant file="biped/rider/promotion_shield.xml"/>
-    <variant file="biped/rider/attack_slaughter_shield_hele.xml"/>
-    <variant file="biped/gather_meat.xml"/>
-    <variant file="biped/rider/death_shield.xml"/>
-  </group>
-  <material>player_trans.xml</material>
+		<variant file="biped/rider/cavalry/base_spearman_relax_shield_01.xml" name="Spearman-Relax-Shield-01" frequency="1"/>
+		<variant file="biped/rider/carry_meat.xml"/>
+	</group>
+	<group>
+		<variant frequency="1" name="Idle"/>
+		<variant file="biped/rider/promotion_shield.xml" />
+		<variant file="biped/rider/attack_slaughter_shield_hele.xml"/>
+		<variant file="biped/gather_meat.xml"/>
+		<variant file="biped/rider/death_shield.xml"/>
+	</group>
+	<material>player_trans.xml</material>
 </actor>
