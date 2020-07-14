@@ -37,8 +37,8 @@
     <variant frequency="1" name="Helmet+Cape">
       <props>
         <prop actor="props/units/helmets/anglo_pioneer_helmet.xml" attachpoint="helmet"/>
-				<prop actor="props/units/capes/rider/cape_med_player.xml" attachpoint="root"/>
-			</props>
+        <prop actor="props/units/capes/rider/cape_med_player.xml" attachpoint="root"/>
+      </props>
     </variant>
     <variant frequency="0" name="None">
       <props>
@@ -58,13 +58,13 @@
     </variant>
   </group>
   <group>
-		<variant file="biped/rider/cavalry/base_spearman_ready.xml" name="Spearman-Ready" frequency="1"/>
+		<variant file="biped/rider/cavalry/base_spearman_relax_shield_01.xml" name="Spearman-Relax-Shield-01" frequency="1"/>
 		<variant file="biped/rider/carry_meat.xml"/>
 	</group>
 	<group>
 		<variant frequency="1" name="Idle"/>
 		<variant file="biped/rider/promotion_shield.xml" />
-		<variant file="biped/rider/attack_slaughter_shield_pers.xml"/>
+		<variant file="biped/rider/attack_slaughter_shield_hele.xml"/>
 		<variant file="biped/gather_meat.xml"/>
 		<variant file="biped/rider/death_shield.xml"/>
 	</group>

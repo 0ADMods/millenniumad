@@ -2,8 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-		<variant>
-			<mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+    <variant>
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/helmets/byza_helmet_basic.xml" attachpoint="helmet"/>
         <prop actor="props/units/helmets/umay_coif_cavalry_spearman_shield_relax_e.xml" attachpoint="root"/>
@@ -96,27 +96,15 @@
     </variant>
   </group>
   <group>
-		<!--<variant file="biped/rider/cavalry/base_spearman_relax_shield_aspis_reverse.xml" name="Spearman-Relax-02" frequency="1"/>-->
-		<!--<variant file="biped/rider/cavalry/base_spearman_relax_shield_aspis_reverse.xml" name="Spearman-Relax-Shield-Aspis-Reverse" frequency="1"/>-->
-		<!--<variant file="biped/rider/cavalry/base_spearman_relax_reverse_02.xml" name="Spearman-Relax-Reverse-02" frequency="1"/>-->
-		<!--<variant file="biped/rider/cavalry/base_spearman_relax_shield_01.xml" frequency="1" name="Spearman-Relax-Shield-01"/>-->
-		<!--<variant file="biped/rider/cavalry/base_spearman_relax_shield_aspis.xml" name="Spearman-Relax-Shield-Aspis" frequency="1"/>-->
-		<!--<variant file="biped/rider/cavalry/base_spearman_ready.xml" name="Spearman-Ready" frequency="1"/>-->
-		<variant file="biped/rider/cavalry/base_spearman_relax_shield_02.xml" name="Spearman-Relax-Shield-02" frequency="1"/>
-
-
-
-
-
-
+		<variant file="biped/rider/cavalry/base_spearman_relax_shield_aspis_reverse.xml" name="Spearman-Relax-Shield-Aspis-Reverse" frequency="1"/>
 		<variant file="biped/rider/carry_meat.xml"/>
 	</group>
 	<group>
 		<variant frequency="1" name="Idle"/>
-		<variant file="biped/rider/promotion.xml"/>
-		<variant file="biped/rider/attack_slaughter_iber.xml"/>
+		<variant file="biped/rider/attack_slaughter_shield_hele.xml"/>
+		<variant file="biped/rider/promotion_shield.xml" />
 		<variant file="biped/gather_meat.xml"/>
-		<variant file="biped/rider/death.xml"/>
+		<variant file="biped/rider/death_aspis.xml"/>
 	</group>
 	<material>player_trans.xml</material>
 </actor>

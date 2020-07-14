@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-		<variant>
+		<variant file="biped/rider/cavalry/base_swordsman_relax_shield.xml" frequency="1" name="Base">
 			<mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/helmets/anglo_crown.xml" attachpoint="helmet"/>
@@ -19,10 +19,6 @@
         <texture file="skeletal/norse/advanced/dyed/dyed1c.png" name="baseTex"/>
       </textures>
     </variant>
-	</group>
-	<group>
-		<variant file="biped/rider/cavalry/base_swordsman_ready_shield.xml" name="Swordsman-Ready-Shield" frequency="1"/>
-		<variant file="biped/rider/death_shield.xml"/>
-	</group>
-	<material>player_trans.xml</material>
+  </group>
+  <material>player_trans.xml</material>
 </actor>
