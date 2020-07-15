@@ -67,15 +67,15 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/rider/camelry/base_archer_relax.xml"/>
-    <variant file="biped/rider/camelry/carry_meat.xml"/>
-  </group>
-  <group>
-    <variant frequency="1" name="Idle"/>
-    <variant file="biped/rider/camelry/promotion.xml"/>
-    <variant file="biped/rider/camelry/attack_ranged_archer_right.xml"/>
-    <variant file="biped/rider/camelry/attack_slaughter_ptol.xml"/>
-    <variant file="biped/rider/camelry/gather_meat_ptol.xml"/>
-  </group>
-  <material>player_trans.xml</material>
+		<variant file="biped/rider/camelry/base_archer_relax.xml"/>
+		<variant file="biped/rider/camelry/carry_meat.xml"/>
+	</group>
+	<group>
+		<variant frequency="1" name="Idle"/>
+		<variant file="biped/rider/camelry/promotion.xml"/>
+		<variant file="biped/rider/camelry/attack_ranged_archer_right.xml"/>
+		<variant file="biped/rider/camelry/attack_slaughter_ptol.xml"/>
+		<variant file="biped/rider/camelry/gather_meat_ptol.xml"/>
+	</group>
+	<material>player_trans.xml</material>
 </actor>
