@@ -6,7 +6,7 @@
       <mesh>skeletal/camel.dae</mesh>
       <props>
         <prop actor="units/umayyads/camelry_archer_b_r.xml" attachpoint="rider"/>
-        <prop actor="props/camel/camel_rein.xml" attachpoint="root"/>
+        <prop actor="props/camel/camel_rein.xml" attachpoint="head"/>
         <prop actor="props/camel/camel_blanket.xml" attachpoint="root"/>
         <prop actor="props/camel/teeths.xml" attachpoint="mouth_bot"/>
         <prop actor="props/units/quiver_cavalry_right.xml" attachpoint="quiver_R"/>

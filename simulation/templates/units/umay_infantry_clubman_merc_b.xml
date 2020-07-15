@@ -3,12 +3,12 @@
   <Armour>
     <Hack op="add">-1</Hack>
   </Armour>
-  <!--<Attack>
+  <Attack>
     <Melee>
       <Hack>3.0</Hack>
       <Crush>2.5</Crush>
     </Melee>
-  </Attack>-->
+  </Attack>
   <Builder>
     <Entities datatype="tokens">
       structures/umay_military_colony
@@ -34,9 +34,9 @@
   </Promotion>
   <UnitMotion>
     <WalkSpeed op="mul">1.1</WalkSpeed>
-    <!--<Run>
+    <Run>
       <Speed op="mul">1.1</Speed>
-    </Run>-->
+    </Run>
   </UnitMotion>
   <VisualActor>
     <Actor>units/umayyads/infantry_clubman_b.xml</Actor>
