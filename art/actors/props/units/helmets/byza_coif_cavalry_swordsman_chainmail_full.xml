@@ -14,14 +14,17 @@
     </variant>
   </group>
   <group>
-		<variant file="biped/rider/cavalry/base_swordsman_relax_shield.xml"/>
-		<variant file="biped/rider/carry_meat.xml"/>
+    <variant file="biped/rider/cavalry/base_swordsman_relax_shield.xml" name="Swordsman-Relax-Shield" frequency="1"/>
+    <variant file="biped/rider/death_shield.xml"/>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_swordsman_fast_ready_shield.xml" name="Swordsman-Fast-Ready-Shield" frequency="1"/>
+    <variant file="biped/rider/death_shield.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
     <variant file="biped/rider/promotion_shield.xml"/>
     <variant file="biped/rider/attack_slaughter_shield_hele.xml"/>
-    <variant file="biped/gather_meat.xml"/>
     <variant file="biped/rider/death.xml"/>
   </group>
   <material>basic_trans.xml</material>
