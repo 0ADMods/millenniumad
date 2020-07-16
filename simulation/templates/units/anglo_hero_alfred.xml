@@ -2,12 +2,12 @@
 <Entity parent="template_unit_hero_cavalry_swordsman">
   <Auras datatype="tokens">
     units/heroes/anglo_hero_alfred1
-	units/heroes/anglo_hero_alfred2
+    units/heroes/anglo_hero_alfred2
   </Auras>
   <Identity>
     <Civ>anglo</Civ>
-	<GenericName>Alfred the Great</GenericName>
-	<SpecificName></SpecificName>
+	  <GenericName>Alfred the Great</GenericName>
+	  <SpecificName>Ælfrēd</SpecificName>
     <History>Alfred the Great was the King of Wessex in the late 9th century. He defended his kingdom succesfully against the Norse attacks. He also encouraged education and improved legal system, military structure and his people's quality of life.</History>
     <Icon>units/anglo_hero_alfred.png</Icon>
     <RequiredTechnology>germanic_thingstead</RequiredTechnology>
