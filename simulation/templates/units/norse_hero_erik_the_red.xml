@@ -5,14 +5,11 @@
   </Auras>
   <Identity>
     <Civ>norse</Civ>
-	<GenericName>Erik the Red</GenericName>
+    <GenericName>Erik the Red</GenericName>
     <SpecificName>Eiríkr hinn rauði</SpecificName>
     <Icon>units/norse_erik_the_red.png</Icon>
     <RequiredTechnology>germanic_thingstead</RequiredTechnology>
   </Identity>
-  <Vision>
-    <Range>120</Range>
-  </Vision>
   <VisualActor>
     <Actor>units/norse/erik_the_red.xml</Actor>
   </VisualActor>
