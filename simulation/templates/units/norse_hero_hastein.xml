@@ -11,9 +11,6 @@
     <Icon>units/norse_hastein.png</Icon>
     <RequiredTechnology>germanic_thingstead</RequiredTechnology>
   </Identity>
-  <Vision>
-    <Range>150</Range>
-  </Vision>
   <VisualActor>
     <Actor>units/norse/hastein.xml</Actor>
   </VisualActor>
