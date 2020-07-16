@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry_swordsman">
-  <Auras datatype="tokens">
-    units/heroes/mace_hero_alexander_1
-    units/heroes/mace_hero_alexander_2
-  </Auras>
   <Identity>
     <Civ>caro</Civ>
-	<GenericName>Charlemagne</GenericName>
+    <GenericName>Charlemagne</GenericName>
     <SpecificName>Carolus Magnus</SpecificName>
     <Icon>units/caro_hero_charlemagne.png</Icon>
   </Identity>
