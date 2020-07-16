@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_siege_stonethrower">
+  <Attack>
+    <Ranged>
+      <MaxRange>85</MaxRange>
+      <MinRange>45</MinRange>
+    </Ranged>
+  </Attack>
   <Identity>
     <Civ>caro</Civ>
     <SpecificName>Trebuchet</SpecificName>
