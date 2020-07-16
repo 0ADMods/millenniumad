@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_cavalry_swordsman">
-  <Auras datatype="tokens">
-    units/heroes/anglo_hero_alfred1
-	units/heroes/anglo_hero_alfred2
-  </Auras>
   <Identity>
-    <Civ>anglo</Civ>
-	<GenericName>Basileus</GenericName>
-	<SpecificName></SpecificName>
-    <History></History>
-    <Icon>units/anglo_hero_alfred.png</Icon>
+    <Civ>byza</Civ>
+    <GenericName>Emperor</GenericName>
+    <SpecificName>Basileus</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/byzantines/hero_basileus.xml</Actor>
