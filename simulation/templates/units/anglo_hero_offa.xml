@@ -2,15 +2,13 @@
 <Entity parent="template_unit_hero_infantry_swordsman">
   <Auras datatype="tokens">
     units/heroes/anglo_hero_offa1
-	units/heroes/anglo_hero_offa2
+    units/heroes/anglo_hero_offa2
   </Auras>
   <Identity>
     <Civ>anglo</Civ>
-	<GenericName>Offa of Mercia</GenericName>
-	<SpecificName></SpecificName>
-    <History></History>
-    <Icon>units/anglo_hero_alfred.png</Icon>
-	<RequiredTechnology>germanic_thingstead</RequiredTechnology>
+    <GenericName>Offa of Mercia</GenericName>
+    <SpecificName>Offa</SpecificName>
+    <RequiredTechnology>germanic_thingstead</RequiredTechnology>
   </Identity>
   <VisualActor>
     <Actor>units/anglo/hero_infantry_swordsman_offa.xml</Actor>
