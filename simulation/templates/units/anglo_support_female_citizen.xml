@@ -7,11 +7,6 @@
       </Damage>
     </Melee>
   </Attack>
-  <Builder>
-    <Entities datatype="tokens">
-    -structures/{civ}_wonder
-    </Entities>
-  </Builder>
   <Health>
     <Max>75</Max>
   </Health>

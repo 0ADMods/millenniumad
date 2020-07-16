@@ -7,17 +7,12 @@
       </Damage>
     </Melee>
   </Attack>
-  <Builder>
-    <Entities datatype="tokens">
-    </Entities>
-  </Builder>
   <Health>
     <Max>75</Max>
   </Health>
   <Identity>
     <Civ>umay</Civ>
     <GenericName>Female Citizen</GenericName>
-    <SpecificName></SpecificName>
     <Icon>units/umay_support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

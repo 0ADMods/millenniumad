@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Entity parent="template_unit_infantry">
   <Attack>
     <Melee>
       <Damage>
         <Hack>1</Hack>
         <Pierce>0</Pierce>
-        <Crush>0.0</Crush>
+        <Crush>0</Crush>
       </Damage>
       <MaxRange>3.5</MaxRange>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Melee>
   </Attack>
   <Health>
@@ -20,8 +19,8 @@
     <GenericName>Melee Infantry</GenericName>
     <VisibleClasses datatype="tokens">Melee</VisibleClasses>
     <Formations datatype="tokens">
+      special/formations/shieldwall
       special/formations/testudo
-     special/formations/shieldwall
     </Formations>
   </Identity>
 </Entity>

@@ -9,9 +9,8 @@
   </Attack>
   <Builder>
     <Entities datatype="tokens">
-    -structures/{civ}_corral
-    -structures/{civ}_wonder
-	  </Entities>
+      -structures/{civ}_corral
+    </Entities>
   </Builder>
   <Health>
     <Max>75</Max>

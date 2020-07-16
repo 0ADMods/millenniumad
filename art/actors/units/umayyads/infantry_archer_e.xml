@@ -113,7 +113,11 @@
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_tree.xml"/>
     <variant file="biped/gather_grain.xml"/>
-    <variant file="biped/gather_fruit.xml"/>
+    <variant file="biped/gather_fruit.xml">
+      <props>
+        <prop actor="props/units/helmets/umay_coif_archer_ready_e.xml" attachpoint="root"/>
+      </props>
+    </variant>
     <variant file="biped/gather_meat.xml"/>
     <variant file="biped/gather_rock.xml"/>
     <variant file="biped/gather_ore.xml"/>
