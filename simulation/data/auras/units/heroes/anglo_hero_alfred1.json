@@ -1,10 +1,21 @@
 {
 	"type": "global",
-	"affects": ["Structure"],
+	"affects": [
+		"Structure"
+	],
 	"modifications": [
-	{ "value": "Capturable/RegenRate", "multiply": 1.1 },
-	{ "value": "Capturable/GarrisonRegenRate", "multiply": 1.1 },
-	{ "value": "Capturable/CapturePoints", "multiply": 1.1 }
+		{
+			"value": "Capturable/RegenRate",
+			"multiply": 1.1
+		},
+		{
+			"value": "Capturable/GarrisonRegenRate",
+			"multiply": 1.1
+		},
+		{
+			"value": "Capturable/CapturePoints",
+			"multiply": 1.1
+		}
 	],
 	"auraName": "Secured Borders",
 	"auraDescription": "Owned structures are 10% harder to capture.",

@@ -2,9 +2,16 @@
 	"genericName": "Anglo Civ trait",
 	"autoResearch": true,
 	"description": "Weaker structures. All building HP -10%.",
-	"requirements": {"civ" : "anglo"},
+	"requirements": {
+		"civ": "anglo"
+	},
 	"modifications": [
-		{"value" : "Health/Max", "multiply": 0.9}
+		{
+			"value": "Health/Max",
+			"multiply": 0.9
+		}
 	],
-	"affects": ["Structure"]
+	"affects": [
+		"Structure"
+	]
 }
