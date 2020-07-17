@@ -1,13 +1,27 @@
 {
 	"genericName": "Thingstead",
 	"description": "The thing was the assembly of the free men. At the thing, disputes were resolved and political decisions were made.",
-	"cost": {"food": 100, "wood": 300, "stone": 0, "metal": 0},
-	"requirements": {"tech": "phase_town"},
+	"cost": {
+		"food": 100,
+		"wood": 300,
+		"stone": 0,
+		"metal": 0
+	},
+	"requirements": {
+		"tech": "phase_town"
+	},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "fist_spear_fire.png",
 	"researchTime": 40,
 	"tooltip": "Units +5 Health, unlocks Hero units.",
-	"modifications": [{"value": "Health/Max", "add": 5}],
-	"affects": ["Unit"],
+	"modifications": [
+		{
+			"value": "Health/Max",
+			"add": 5
+		}
+	],
+	"affects": [
+		"Unit"
+	],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

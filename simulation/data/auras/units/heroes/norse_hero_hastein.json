@@ -1,8 +1,13 @@
 {
 	"type": "global",
-	"affects": ["Unit"],
+	"affects": [
+		"Unit"
+	],
 	"modifications": [
-	{ "value": "Looter/Resource/metal", "add": 15 }
+		{
+			"value": "Looter/Resource/metal",
+			"add": 15
+		}
 	],
 	"auraName": "Vikingr",
 	"auraDescription": "+15 Metal loot for every enemy unit killed.",

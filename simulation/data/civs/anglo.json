@@ -4,71 +4,72 @@
 	"Name": "Anglo-Saxons",
 	"Emblem": "session/portraits/emblems/emblem_anglo.png",
 	"History": "The Anglo-Saxons were a people who inhabited Great-Britain from the 5th century till the Norman Conquest in 1066. They consisted of Germanic tribes that migrated from the European mainland and native British people. During the period the Anglo-Saxon kingdoms suffered from Norse raids.",
-	"Music":[
-			{"File":"The_Road_Ahead.ogg", "Type":"peace"},
-			{"File":"Celtic_Pride.ogg", "Type":"peace"},
-			{"File":"Cisalpine_Gaul.ogg", "Type":"peace"},
-			{"File":"Water's_Edge.ogg", "Type":"peace"}
-		],
-	"Factions":
-	[
+	"Music": [
+		{
+			"File": "The_Road_Ahead.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Celtic_Pride.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Cisalpine_Gaul.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Water's_Edge.ogg",
+			"Type": "peace"
+		}
+	],
+	"Factions": [
 		{
 			"Name": "Anglo-Saxons",
 			"Description": "N/A",
-			"Technologies":
-			[
+			"Technologies": [
 				{
-					"Name":"Thingstead",
-					"History":"?",
-					"Description":"?"
+					"Name": "Thingstead",
+					"History": "?",
+					"Description": "?"
 				}
 			],
-			"Heroes":
-			[
-
+			"Heroes": [
 				{
 					"Name": "Alfred the Great",
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "?" 
+					"History": "?"
 				}
-			] 
-		} 
+			]
+		}
 	],
-	"CivBonuses":
-	[
+	"CivBonuses": [
 		{
 			"Name": "Gathering Bonus",
 			"History": "N/A",
-			"Description": "All gathering rates +10%." 
+			"Description": "All gathering rates +10%."
 		},
 		{
 			"Name": "Poor land trading",
 			"History": "N/A",
-			"Description": "Trade gain -10%." 
+			"Description": "Trade gain -10%."
 		},
 		{
 			"Name": "Weak structures",
 			"History": "N/A",
-			"Description": "Anglo-Saxons cannot build stone walls. Structures have -10% Health." 
+			"Description": "Anglo-Saxons cannot build stone walls. Structures have -10% Health."
 		}
 	],
-	"TeamBonuses":
-	[
-	],
-	"Structures":
-	[
-	],
-	"WallSets":
-	[
+	"TeamBonuses": [],
+	"Structures": [],
+	"WallSets": [
 		"structures/wallset_palisade",
 		"structures/anglo_wallset_stone"
 	],
-	"StartEntities":
-	[
+	"StartEntities": [
 		{
-			"Template": "structures/anglo_civil_centre" 
+			"Template": "structures/anglo_civil_centre"
 		},
 		{
 			"Template": "units/anglo_support_female_citizen",
@@ -76,18 +77,17 @@
 		},
 		{
 			"Template": "units/anglo_infantry_spearman_b",
-			"Count": 2 
+			"Count": 2
 		},
 		{
 			"Template": "units/anglo_infantry_javelinist_b",
-			"Count": 2 
+			"Count": 2
 		},
 		{
-			"Template": "units/anglo_cavalry_spearman_b" 
+			"Template": "units/anglo_cavalry_spearman_b"
 		}
 	],
-	"Formations":
-	[
+	"Formations": [
 		"special/formations/null",
 		"special/formations/box",
 		"special/formations/column_closed",
@@ -98,11 +98,9 @@
 		"special/formations/skirmish",
 		"special/formations/wedge",
 		"special/formations/battle_line",
- 		"special/formations/shieldwall"
-
+		"special/formations/shieldwall"
 	],
-	"AINames":
-	[
+	"AINames": [
 		"Penda of Mercia",
 		"Wulfhere of Mercia",
 		"Æthelbald of Mercia",
@@ -143,8 +141,7 @@
 		"Æthelstan",
 		"Edward the Elder"
 	],
-	"SkirmishReplacements":
-	{
+	"SkirmishReplacements": {
 		"skirmish/structures/default_house_5": "structures/{civ}_house",
 		"skirmish/units/default_cavalry": "units/{civ}_cavalry_spearman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/anglo_infantry_javelinist_b"
