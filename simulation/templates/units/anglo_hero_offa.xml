@@ -8,6 +8,7 @@
     <Civ>anglo</Civ>
     <GenericName>Offa of Mercia</GenericName>
     <SpecificName>Offa</SpecificName>
+    <Icon>units/anglo_hero_offa.png</Icon>
     <RequiredTechnology>germanic_thingstead</RequiredTechnology>
   </Identity>
   <VisualActor>
