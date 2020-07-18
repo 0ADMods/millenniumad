@@ -11,7 +11,8 @@
 
 This repository is created to track all issues and tasks related to the Millennium A.D. mod.
 There is also a dedicated sub-forum:
-  https://wildfiregames.com/forum/index.php?/forum/297-1000-ad/
+
+https://wildfiregames.com/forum/index.php?/forum/297-1000-ad/
 
 Feel free to contact us if you want to contribute or encounter errors etc.
 
@@ -24,7 +25,10 @@ Feel free to contact us if you want to contribute or encounter errors etc.
 And all members from 0 A.D. Council of Modders
 
 * Antti Martikainen
+
 A special thanks goes to Antii for giving permission to use his awesome music.
 You can find him here:
+
 http://anttimartikainen.bandcamp.com/
+
 http://www.youtube.com/user/AJMartikainen
