@@ -39,6 +39,7 @@
   <group>
     <variant file="biped/rider/cavalry/base_archer_relax_back.xml" name="Archer-Relax-Back" frequency="1"/>
     <variant file="biped/rider/cavalry/attack_ranged_archer_back.xml"/>
+    <variant file="biped/rider/attack_slaughter_shield_hele.xml"/>
     <variant file="biped/rider/carry_meat.xml"/>
     <variant file="biped/rider/death_ranged.xml"/>
   </group>
