@@ -76,5 +76,5 @@
       <color>181 151 117</color>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>objectcolor.xml</material>
 </actor>

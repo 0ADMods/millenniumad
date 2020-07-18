@@ -62,5 +62,5 @@
 		<variant file="biped/build_farm.xml"/>
 		<variant file="biped/death_infantry.xml"/>
 	</group>
-	<material>player_trans.xml</material>
+	<material>objectcolor.xml</material>
 </actor>
