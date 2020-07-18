@@ -5,11 +5,9 @@
   </Armour>
   <Attack>
     <Melee>
-      <Damage>
         <Hack>3.0</Hack>
         <Crush>2.5</Crush>
-      </Damage>
-    </Melee>
+     </Melee>
   </Attack>
   <Builder>
     <Entities datatype="tokens">
@@ -19,23 +17,26 @@
   </Builder>
   <Cost>
     <Resources>
-      <food op="add">-25</food>
-      <metal op="add">25</metal>
-    </Resources>
+      <food op="add">25</food>
+      </Resources>
   </Cost>
   <Identity>
     <Civ>umay</Civ>
     <SelectionGroupName>units/umay_infantry_clubman_merc_b</SelectionGroupName>
     <GenericName>Arab Tribesman</GenericName>
-    <VisibleClasses datatype="tokens">-Swordsman ClubmanMercenary</VisibleClasses>
+    <SpecificName></SpecificName>
     <Icon>units/umay_infantry_clubman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>units/umay_infantry_clubman_merc_a</Entity>
   </Promotion>
   <UnitMotion>
     <WalkSpeed op="mul">1.1</WalkSpeed>
+    <Run>
+      <Speed op="mul">1.1</Speed>
+    </Run>
   </UnitMotion>
   <VisualActor>
     <Actor>units/umayyads/infantry_clubman_b.xml</Actor>
