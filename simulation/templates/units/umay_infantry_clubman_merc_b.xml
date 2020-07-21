@@ -13,12 +13,12 @@
     <Entities datatype="tokens">
       structures/umay_military_colony
       structures/umay_military_camp
-        </Entities>
+	  </Entities>
   </Builder>
   <Cost>
     <Resources>
       <food op="add">25</food>
-      </Resources>
+    </Resources>
   </Cost>
   <Identity>
     <Civ>umay</Civ>
