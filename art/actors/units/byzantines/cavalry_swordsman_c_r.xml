@@ -117,7 +117,6 @@
       </textures>
     </variant>
   </group>
-
   <group>
     <variant file="biped/rider/cavalry/base_swordsman_fast_ready_shield.xml" name="Swordsman-Fast-Ready-Shield" frequency="1"/>
     <variant file="biped/rider/death_shield.xml"/>
