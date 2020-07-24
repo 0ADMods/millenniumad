@@ -68,5 +68,5 @@
 		<variant file="biped/gather_meat.xml"/>
 		<variant file="biped/rider/death_shield.xml"/>
 	</group>
-	<material>player_trans.xml</material>
+	<material>objectcolor.xml</material>
 </actor>

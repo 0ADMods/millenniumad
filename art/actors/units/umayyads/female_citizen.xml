@@ -6,6 +6,7 @@
       <mesh>skeletal/new/f_dress.dae</mesh>
       <props>
         <prop actor="props/units/helmets/umay_coif_female.xml" attachpoint="root"/>
+        <prop actor="props/units/heads/new/head_female_shorthair_coif.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>
@@ -28,6 +29,14 @@
     <variant file="biped/female_carry_wood.xml"/>
     <variant file="biped/female_carry_stone.xml"/>
     <variant file="biped/female_carry_metal.xml"/>
+    <variant file="biped/approach_tree.xml"/>
+    <variant file="biped/approach_grain.xml"/>
+    <variant file="biped/approach_fruit.xml"/>
+    <variant file="biped/approach_meat.xml"/>
+    <variant file="biped/approach_rock.xml"/>
+    <variant file="biped/approach_ore.xml"/>
+    <variant file="biped/approach_ruins.xml"/>
+    <variant file="biped/approach_praise.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
