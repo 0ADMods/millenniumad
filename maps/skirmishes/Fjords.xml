@@ -2092,24 +2092,6 @@
 			<Orientation y="-1.35935"/>
 			<Actor seed="57452"/>
 		</Entity>
-		<Entity uid="7546">
-			<Template>actor|props/units/shields/kart_round_isp_basic.xml</Template>
-			<Position x="252.8389" z="392.10718"/>
-			<Orientation y="2.08445"/>
-			<Actor seed="53264"/>
-		</Entity>
-		<Entity uid="7547">
-			<Template>actor|props/units/shields/kart_round_isp_basic.xml</Template>
-			<Position x="238.88224" z="378.95621"/>
-			<Orientation y="-2.84385"/>
-			<Actor seed="54436"/>
-		</Entity>
-		<Entity uid="7548">
-			<Template>actor|props/units/shields/kart_round_isp_basic.xml</Template>
-			<Position x="227.12681" z="374.57346"/>
-			<Orientation y="-2.2522"/>
-			<Actor seed="48682"/>
-		</Entity>
 		<Entity uid="7550">
 			<Template>actor|props/structures/celts/megalith_b4.xml</Template>
 			<Position x="214.0897" z="368.5196"/>
