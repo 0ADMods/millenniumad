@@ -68,7 +68,7 @@
     </variant>
     <variant name="maur">
       <textures>
-        <texture file="props/banner_mauryans.png" name="baseTex"/>
+        <texture file="props/banner_mauryas.png" name="baseTex"/>
       </textures>
     </variant>
     <variant name="ptol">
@@ -90,12 +90,12 @@
       <textures>
         <texture file="props/banner_anglo.png" name="baseTex"/>
       </textures>
-    </variant> 
+    </variant>
     <variant name="byza">
       <textures>
         <texture file="props/banner_byzan2.png" name="baseTex"/>
       </textures>
-    </variant>    
+    </variant>
   </group>
   <material>basic_trans.xml</material>
 </actor>
