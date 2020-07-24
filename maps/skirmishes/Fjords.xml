@@ -1720,12 +1720,6 @@
 			<Orientation y="2.35621"/>
 			<Actor seed="54348"/>
 		</Entity>
-		<Entity uid="3265">
-			<Template>actor|props/units/shields/rome_scutum_legionnaire.xml</Template>
-			<Position x="160.69126" z="333.76838"/>
-			<Orientation y="1.52338"/>
-			<Actor seed="1544"/>
-		</Entity>
 		<Entity uid="6744">
 			<Template>actor|props/flora/grass_field_lush_short.xml</Template>
 			<Position x="207.49042" z="378.1424"/>
