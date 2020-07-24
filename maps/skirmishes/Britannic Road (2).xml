@@ -9702,14 +9702,14 @@
 			<Actor seed="40802"/>
 		</Entity>
 		<Entity uid="1557">
-			<Template>gaia/fauna_bear</Template>
+			<Template>gaia/fauna_bear_brown</Template>
 			<Player>0</Player>
 			<Position x="292.5954" z="104.66234"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="18128"/>
 		</Entity>
 		<Entity uid="1558">
-			<Template>gaia/fauna_bear</Template>
+			<Template>gaia/fauna_bear_brown</Template>
 			<Player>0</Player>
 			<Position x="603.33869" z="894.34382"/>
 			<Orientation y="2.35621"/>
