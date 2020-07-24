@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
-  <group>
-    <variant>
-	<animations>
-	   <animation file="mechanical/caro_watermill_wheel_turn.dae" name="Idle" speed="100"/>
-	</animations>
-      <mesh>structural/caro_watermill_wheel.dae</mesh>
-      <textures>
-        <texture file="structural/caro_struct.png" name="baseTex"/>
-      </textures>
-    </variant>
-  </group>
-  <material>basic_trans.xml</material>
+	<group>
+		<variant>
+			<animations>
+				<animation file="mechanical/caro_watermill_wheel_turn.dae" name="Idle" speed="100"/>
+			</animations>
+			<mesh>structural/caro_watermill_wheel.dae</mesh>
+			<textures>
+				<texture file="structural/caro_struct.png" name="baseTex"/>
+			</textures>
+		</variant>
+	</group>
+	<material>default.xml</material>
 </actor>
