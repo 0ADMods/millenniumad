@@ -35,6 +35,7 @@
       gather_animals_stockbreeding
     </Technologies>
   </ProductionQueue>
+  <RallyPoint/>
   <VisualActor>
     <Actor>structures/norse/corral.xml</Actor>
   </VisualActor>
