@@ -32,8 +32,7 @@
       -units/{civ}_cavalry_archer_b    
   	</Entities>
     <Technologies datatype="tokens">
-      speed_cavalry_01
-      speed_cavalry_02
+      cavalry_movement_speed
       attack_cavalry_melee_01
       attack_cavalry_melee_02
       attack_cavalry_ranged_01
