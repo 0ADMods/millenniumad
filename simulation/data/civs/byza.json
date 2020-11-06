@@ -86,7 +86,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/byza_infantry_javelinist_b",
+			"Template": "units/byza_infantry_javelineer_b",
 			"Count": 2
 		},
 		{
@@ -94,7 +94,7 @@
 			"Count": 2
 		},
 		{
-			"Template": "units/byza_cavalry_javelinist_b"
+			"Template": "units/byza_cavalry_javelineer_b"
 		}
 	],
 	"Formations": [
@@ -127,7 +127,7 @@
 		"Isaakios"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_infantry_ranged_b": "units/byza_infantry_javelinist_b",
+		"skirmish/units/default_infantry_ranged_b": "units/byza_infantry_javelineer_b",
 		"skirmish/structures/default_house_10": "structures/{civ}_house"
 	},
 	"SelectableInGameSetup": true

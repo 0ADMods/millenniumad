@@ -356,63 +356,63 @@
 			<Actor seed="13488"/>
 		</Entity>
 		<Entity uid="51">
-			<Template>units/byza_cavalry_javelinist_a</Template>
+			<Template>units/byza_cavalry_javelineer_a</Template>
 			<Player>0</Player>
 			<Position x="400.69437" z="142.91749"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="18762"/>
 		</Entity>
 		<Entity uid="52">
-			<Template>units/byza_cavalry_javelinist_a</Template>
+			<Template>units/byza_cavalry_javelineer_a</Template>
 			<Player>0</Player>
 			<Position x="402.34165" z="144.14878"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="18306"/>
 		</Entity>
 		<Entity uid="53">
-			<Template>units/byza_cavalry_javelinist_a</Template>
+			<Template>units/byza_cavalry_javelineer_a</Template>
 			<Player>0</Player>
 			<Position x="403.92734" z="146.13422"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="10504"/>
 		</Entity>
 		<Entity uid="54">
-			<Template>units/byza_cavalry_javelinist_b</Template>
+			<Template>units/byza_cavalry_javelineer_b</Template>
 			<Player>0</Player>
 			<Position x="405.48917" z="136.45234"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="43516"/>
 		</Entity>
 		<Entity uid="55">
-			<Template>units/byza_cavalry_javelinist_b</Template>
+			<Template>units/byza_cavalry_javelineer_b</Template>
 			<Player>0</Player>
 			<Position x="407.46055" z="138.2511"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="13034"/>
 		</Entity>
 		<Entity uid="56">
-			<Template>units/byza_cavalry_javelinist_b</Template>
+			<Template>units/byza_cavalry_javelineer_b</Template>
 			<Player>0</Player>
 			<Position x="408.82932" z="139.73658"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="18642"/>
 		</Entity>
 		<Entity uid="57">
-			<Template>units/byza_cavalry_javelinist_e</Template>
+			<Template>units/byza_cavalry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="410.02335" z="130.54856"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="51048"/>
 		</Entity>
 		<Entity uid="58">
-			<Template>units/byza_cavalry_javelinist_e</Template>
+			<Template>units/byza_cavalry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="411.71048" z="132.42902"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="45656"/>
 		</Entity>
 		<Entity uid="59">
-			<Template>units/byza_cavalry_javelinist_e</Template>
+			<Template>units/byza_cavalry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="413.2884" z="134.43442"/>
 			<Orientation y="2.35621"/>
@@ -629,63 +629,63 @@
 			<Actor seed="8038"/>
 		</Entity>
 		<Entity uid="90">
-			<Template>units/byza_infantry_javelinist_a</Template>
+			<Template>units/byza_infantry_javelineer_a</Template>
 			<Player>0</Player>
 			<Position x="418.90198" z="116.69747"/>
 			<Orientation y="2.39354"/>
 			<Actor seed="65180"/>
 		</Entity>
 		<Entity uid="91">
-			<Template>units/byza_infantry_javelinist_a</Template>
+			<Template>units/byza_infantry_javelineer_a</Template>
 			<Player>0</Player>
 			<Position x="420.5597" z="117.34588"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="64784"/>
 		</Entity>
 		<Entity uid="92">
-			<Template>units/byza_infantry_javelinist_a</Template>
+			<Template>units/byza_infantry_javelineer_a</Template>
 			<Player>0</Player>
 			<Position x="422.054" z="117.67565"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="84"/>
 		</Entity>
 		<Entity uid="93">
-			<Template>units/byza_infantry_javelinist_b</Template>
+			<Template>units/byza_infantry_javelineer_b</Template>
 			<Player>0</Player>
 			<Position x="419.34388" z="112.38051"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="24652"/>
 		</Entity>
 		<Entity uid="94">
-			<Template>units/byza_infantry_javelinist_b</Template>
+			<Template>units/byza_infantry_javelineer_b</Template>
 			<Player>0</Player>
 			<Position x="420.58326" z="112.85412"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="51404"/>
 		</Entity>
 		<Entity uid="95">
-			<Template>units/byza_infantry_javelinist_b</Template>
+			<Template>units/byza_infantry_javelineer_b</Template>
 			<Player>0</Player>
 			<Position x="422.02372" z="113.13436"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="32064"/>
 		</Entity>
 		<Entity uid="96">
-			<Template>units/byza_infantry_javelinist_e</Template>
+			<Template>units/byza_infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="419.56434" z="108.26938"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="23124"/>
 		</Entity>
 		<Entity uid="97">
-			<Template>units/byza_infantry_javelinist_e</Template>
+			<Template>units/byza_infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="420.93018" z="108.4362"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48338"/>
 		</Entity>
 		<Entity uid="98">
-			<Template>units/byza_infantry_javelinist_e</Template>
+			<Template>units/byza_infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="422.54191" z="108.94355"/>
 			<Orientation y="2.35621"/>
