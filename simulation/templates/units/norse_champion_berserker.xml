@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
-	<Armour>
-		<Hack op="add">-3</Hack>
-		<Pierce op="add">-3</Pierce>
-	</Armour>
 	<Cost>
 		<Resources>
 			<food>0</food>
@@ -31,6 +27,14 @@
 		<RequiredTechnology>unlock_champion_units_modded</RequiredTechnology>
 		<SelectionGroupName>units/norse_champion_berserker</SelectionGroupName>
 	</Identity>
+	<Resistance>
+		<Entity>
+			<Damage>
+				<Hack op="add">-3</Hack>
+				<Pierce op="add">-3</Pierce>
+			</Damage>
+		</Entity>
+	</Resistance>
 	<UnitMotion>
 		<WalkSpeed op="add">5</WalkSpeed>
 		<RunMultiplier>1.5</RunMultiplier>

@@ -5,9 +5,6 @@
       structures/{civ}_wonder
     </Entities>
   </Builder>
-  <Armour>
-    <Hack>2.0</Hack>
-  </Armour>
   <Identity>
     <Civ>anglo</Civ>
     <SelectionGroupName>units/anglo_infantry_javelineer_b</SelectionGroupName>
@@ -19,6 +16,13 @@
   <Promotion>
     <Entity>units/anglo_infantry_javelineer_a</Entity>
   </Promotion>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>2.0</Hack>
+      </Damage>
+    </Entity>
+  </Resistance>
   <VisualActor>
     <Actor>units/anglo/infantry_javelinist_b.xml</Actor>
   </VisualActor>
