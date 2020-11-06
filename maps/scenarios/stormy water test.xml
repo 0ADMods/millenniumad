@@ -514,7 +514,7 @@
 			<Actor seed="2650"/>
 		</Entity>
 		<Entity uid="93">
-			<Template>structures/norse_blacksmith</Template>
+			<Template>structures/norse_forge</Template>
 			<Player>2</Player>
 			<Position x="338.23935" z="520.9004"/>
 			<Orientation y="-0.77918"/>
@@ -570,7 +570,7 @@
 			<Actor seed="51656"/>
 		</Entity>
 		<Entity uid="105">
-			<Template>structures/norse_blacksmith</Template>
+			<Template>structures/norse_forge</Template>
 			<Player>0</Player>
 			<Position x="805.91761" z="690.80488"/>
 			<Orientation y="2.35621"/>

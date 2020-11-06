@@ -83,7 +83,7 @@
 			<Actor seed="41592"/>
 		</Entity>
 		<Entity uid="12">
-			<Template>structures/byza_blacksmith</Template>
+			<Template>structures/byza_forge</Template>
 			<Player>0</Player>
 			<Position x="254.54084" z="189.1804"/>
 			<Orientation y="2.35621"/>

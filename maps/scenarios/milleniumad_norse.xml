@@ -85,7 +85,7 @@
       <Actor seed="6018"/>
     </Entity>
     <Entity uid="12">
-      <Template>structures/norse_blacksmith</Template>
+      <Template>structures/norse_forge</Template>
       <Player>0</Player>
       <Position x="253.83194" z="174.5771"/>
       <Orientation y="2.35621"/>

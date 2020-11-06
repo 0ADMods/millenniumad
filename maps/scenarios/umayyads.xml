@@ -83,7 +83,7 @@
 			<Actor seed="45688"/>
 		</Entity>
 		<Entity uid="12">
-			<Template>structures/umay_blacksmith</Template>
+			<Template>structures/umay_forge</Template>
 			<Player>0</Player>
 			<Position x="254.4672" z="184.25797"/>
 			<Orientation y="2.35621"/>

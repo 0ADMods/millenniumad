@@ -91,7 +91,7 @@
 			<Actor seed="36416"/>
 		</Entity>
 		<Entity uid="12">
-			<Template>structures/caro_blacksmith</Template>
+			<Template>structures/caro_forge</Template>
 			<Player>1</Player>
 			<Position x="252.40848" z="88.53951"/>
 			<Orientation y="0.8224"/>

@@ -19507,7 +19507,7 @@
 			<Actor seed="57682"/>
 		</Entity>
 		<Entity uid="24013">
-			<Template>structures/norse_blacksmith</Template>
+			<Template>structures/norse_forge</Template>
 			<Player>0</Player>
 			<Position x="462.14106" z="267.04532"/>
 			<Orientation y="-2.335"/>
@@ -38189,7 +38189,7 @@
 			<Actor seed="21796"/>
 		</Entity>
 		<Entity uid="44453">
-			<Template>structures/norse_blacksmith</Template>
+			<Template>structures/norse_forge</Template>
 			<Player>0</Player>
 			<Position x="926.35065" z="689.20972"/>
 			<Orientation y="-0.48848"/>
@@ -38224,7 +38224,7 @@
 			<Actor seed="60688"/>
 		</Entity>
 		<Entity uid="44460">
-			<Template>structures/norse_blacksmith</Template>
+			<Template>structures/norse_forge</Template>
 			<Player>0</Player>
 			<Position x="888.6283" z="665.98005"/>
 			<Orientation y="-2.20286"/>
@@ -39722,7 +39722,7 @@
 			<Actor seed="63504"/>
 		</Entity>
 		<Entity uid="44725">
-			<Template>structures/norse_blacksmith</Template>
+			<Template>structures/norse_forge</Template>
 			<Player>0</Player>
 			<Position x="821.76935" z="491.91507"/>
 			<Orientation y="-0.4547"/>
