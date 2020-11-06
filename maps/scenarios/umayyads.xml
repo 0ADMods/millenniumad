@@ -272,7 +272,7 @@
 			<Actor seed="36264"/>
 		</Entity>
 		<Entity uid="39">
-			<Template>structures/umay_workshop</Template>
+			<Template>structures/umay_arsenal</Template>
 			<Player>0</Player>
 			<Position x="365.92594" z="290.74613"/>
 			<Orientation y="2.35621"/>

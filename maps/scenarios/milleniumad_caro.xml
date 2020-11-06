@@ -300,7 +300,7 @@
 			<Actor seed="29372"/>
 		</Entity>
 		<Entity uid="43">
-			<Template>structures/caro_workshop</Template>
+			<Template>structures/caro_arsenal</Template>
 			<Player>0</Player>
 			<Position x="263.3884" z="302.41639"/>
 			<Orientation y="2.35621"/>
