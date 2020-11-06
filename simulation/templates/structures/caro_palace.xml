@@ -42,6 +42,7 @@
   <TerritoryInfluence>
     <Root>true</Root>
     <Radius>48</Radius>
+    <Weight>40000</Weight>
   </TerritoryInfluence>
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>

@@ -29,6 +29,7 @@
 	</Attack>
 	<BuildingAI>
 		<DefaultArrowCount>1</DefaultArrowCount>
+		<GarrisonArrowClasses>Infantry+Ranged FemaleCitizen</GarrisonArrowClasses>
 		<GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
 	</BuildingAI>
 	<BuildRestrictions>
