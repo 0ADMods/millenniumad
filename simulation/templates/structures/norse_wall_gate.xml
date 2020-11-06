@@ -21,7 +21,9 @@
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <BuffHeal>0</BuffHeal>
 	<LoadingRange>0.5</LoadingRange>
-    <VisibleGarrisonPoints>
+  </GarrisonHolder>
+  <TurretHolder>
+    <TurretPoints>
       <Archer1>
         <X>0</X><Y>9.7</Y><Z>0</Z>
       </Archer1>
@@ -37,26 +39,26 @@
       <Archer5>
         <X>-4</X><Y>9.7</Y><Z>0</Z>
       </Archer5>
-	  <Archer6>
+      <Archer6>
         <X>0</X><Y>10.3</Y><Z>4</Z>
       </Archer6>
-	  <Archer7>
+        <Archer7>
         <X>4</X><Y>10.3</Y><Z>4</Z>
       </Archer7>
       <Archer8>
         <X>-4</X><Y>10.3</Y><Z>4</Z>
-	  </Archer8>
-	  <Archer9>
+      </Archer8>
+      <Archer9>
         <X>0</X><Y>10.3</Y><Z>6</Z>
       </Archer9>
-	  <Archer10>
+      <Archer10>
         <X>4</X><Y>10.3</Y><Z>6</Z>
       </Archer10>
       <Archer11>
         <X>-4</X><Y>10.3</Y><Z>6</Z>
       </Archer11>
-    </VisibleGarrisonPoints>
-  </GarrisonHolder>
+    </TurretPoints>
+  </TurretHolder>
   <VisualActor>
     <Actor>structures/norse/wall_gate.xml</Actor>
   </VisualActor>
