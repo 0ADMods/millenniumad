@@ -3,7 +3,6 @@
   <Builder>
     <Entities datatype="tokens">
       structures/{civ}_wonder
-      structures/{civ}_stables
     </Entities>
   </Builder>
   <Armour>
