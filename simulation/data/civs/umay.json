@@ -125,6 +125,7 @@
 		"Isaakios"
 	],
 	"SkirmishReplacements": {
+		"skirmish/units/default_cavalry": "units/{civ}_cavalry_spearman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/{civ}_infantry_archer_b",
 		"skirmish/structures/default_house_10": "structures/{civ}_house"
 	},
