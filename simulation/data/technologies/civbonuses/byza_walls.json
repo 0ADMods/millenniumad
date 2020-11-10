@@ -1,0 +1,14 @@
+{
+	"genericName": "Byzantine Walls",
+	"autoResearch": true,
+	"description": "The Byzantines were well-known for their strong city walls, enabling them to repeatedly resist sieges.",
+	"requirements": { "civ": "byza" },
+	"icon": "wooden_walls.png",
+	"tooltip": "Walls +50% stone cost, +50% build time, and +50% health.",
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 1.5 },
+		{ "value": "Cost/Resources/stone", "multiply": 1.5 },
+		{ "value": "Health/Max", "multiply": 1.5 }
+	],
+	"affects": ["Wall"]
+}

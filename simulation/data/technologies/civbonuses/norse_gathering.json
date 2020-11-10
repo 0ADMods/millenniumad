@@ -1,0 +1,11 @@
+{
+	"genericName": "Thralls",
+	"autoResearch": true,
+	"description": "Workers −10% gather speed, but +10% movement speed.",
+	"requirements": { "civ": "norse" },
+	"modifications": [
+		{ "value": "ResourceGatherer/BaseSpeed", "multiply": 0.9 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.1 }
+	],
+	"affects": ["Worker"]
+}

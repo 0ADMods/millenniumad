@@ -1,0 +1,13 @@
+{
+	"genericName": "Stone and Wooden Walls",
+	"autoResearch": true,
+	"description": "The Carolingian Franks combined stone and wood in their city walls.",
+	"requirements": { "civ": "caro" },
+	"icon": "wooden_walls.png",
+	"tooltip": "Walls −10% build time and −10% health.",
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 0.9 },
+		{ "value": "Health/Max", "multiply": 0.9 }
+	],
+	"affects": ["Wall"]
+}

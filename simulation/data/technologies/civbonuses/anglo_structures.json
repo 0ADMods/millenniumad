@@ -1,0 +1,11 @@
+{
+	"genericName": "Weaker Structures",
+	"autoResearch": true,
+	"requirements": { "civ": "anglo" },
+	"description": "Structures −10% health.",
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 0.9 },
+		{ "value": "Health/Max", "multiply": 0.9 }
+	],
+	"affects": ["Structure !Palisade !Wall !Wonder"]
+}
