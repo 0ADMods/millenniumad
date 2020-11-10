@@ -1,20 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_tower">
+  <Attack disable=""/>
+  <BuildingAI disable=""/>
+  <Cost>
+    <Resources>
+      <wood>24</wood>
+      <stone>24</stone>
+    </Resources>
+  </Cost>
   <Footprint>
-    <Square width="9.0" depth="9.0"/>
-    <Height>15.0</Height>
+    <Square width="8.0" depth="8.0"/>
+    <Height>14.8</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>4</Max>
+    <List datatype="tokens">-Support -Infantry</List>
+  </GarrisonHolder>
   <Identity>
     <Civ>caro</Civ>
-    <SpecificName>Pýrgos</SpecificName>
+    <Tooltip disable=""/>
   </Identity>
+  <Loot>
+    <wood>5</wood>
+    <stone>5</stone>
+  </Loot>
   <Obstruction>
-    <Static width="7.5" depth="7.5"/>
+    <Static width="7.0" depth="7.0"/>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>23.8</HeightOffset>
+  </StatusBars>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+        <X>1.5</X>
+        <Y>13.8</Y>
+        <Z>1.5</Z>
+      </One>
+      <Two>
+        <X>-1.5</X>
+        <Y>13.8</Y>
+        <Z>1.5</Z>
+      </Two>
+      <Three>
+        <X>1.5</X>
+        <Y>13.8</Y>
+        <Z>-1.5</Z>
+      </Three>
+      <Four>
+        <X>-1.5</X>
+        <Y>13.8</Y>
+        <Z>-1.5</Z>
+      </Four>
+    </TurretPoints>
+  </TurretHolder>
   <VisualActor>
     <Actor>structures/carolingian/wall_tower.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>7.5</Length>
+    <Length>7</Length>
   </WallPiece>
 </Entity>

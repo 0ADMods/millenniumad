@@ -1,20 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_medium">
+  <Cost>
+    <Resources>
+      <wood>12</wood>
+      <stone>12</stone>
+    </Resources>
+  </Cost>
   <Footprint>
-    <Square width="26.0" depth="7.0"/>
-    <Height>9.0</Height>
+    <Square width="25.0" depth="7.0"/>
+    <Height>12.5</Height>
   </Footprint>
   <Identity>
     <Civ>caro</Civ>
-    <SelectionGroupName>structures/caro_wallset_stone</SelectionGroupName>
   </Identity>
+  <Loot>
+    <wood>2</wood>
+    <stone>2</stone>
+  </Loot>
   <Obstruction>
     <Static width="24.0" depth="6.0"/>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>13.5</HeightOffset>
+  </StatusBars>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+        <X>1.5</X>
+        <Y>11.5</Y>
+        <Z>0</Z>
+      </One>
+      <Two>
+        <X>-1.5</X>
+        <Y>11.5</Y>
+        <Z>0</Z>
+      </Two>
+      <Three>
+        <X>4.5</X>
+        <Y>11.5</Y>
+        <Z>0</Z>
+      </Three>
+      <Four>
+        <X>-4.5</X>
+        <Y>11.5</Y>
+        <Z>0</Z>
+      </Four>
+    </TurretPoints>
+  </TurretHolder>
   <VisualActor>
     <Actor>structures/carolingian/wall_medium.xml</Actor>
   </VisualActor>
-  <WallPiece>
-    <Length>24.0</Length>
-  </WallPiece>
 </Entity>

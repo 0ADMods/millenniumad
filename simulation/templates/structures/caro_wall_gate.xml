@@ -1,23 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_gate">
+  <Cost>
+    <Resources>
+      <wood>15</wood>
+      <stone>15</stone>
+    </Resources>
+  </Cost>
   <Footprint>
-    <Square width="39.0" depth="8.0"/>
-    <Height>9.0</Height>
+    <Square width="37.0" depth="10.0"/>
+    <Height>19.3</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>13</Max>
+  </GarrisonHolder>
   <Identity>
     <Civ>caro</Civ>
   </Identity>
+  <Loot>
+    <wood>3</wood>
+    <stone>3</stone>
+  </Loot>
   <Obstruction>
     <Obstructions>
       <Right width="13" depth="6" x="11.5" z="0"/>
       <Left width="13" depth="6" x="-11.5" z="0"/>
-      <Door width="3" depth="6.5" x="0" z="0"/>
+      <Door width="10" depth="9" x="0" z="0"/>
     </Obstructions>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>20.3</HeightOffset>
+  </StatusBars>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+        <X>0</X>
+        <Y>18.3</Y>
+        <Z>3</Z>
+      </One>
+      <Two>
+        <X>0</X>
+        <Y>18.3</Y>
+        <Z>-3</Z>
+      </Two>
+      <Three>
+        <X>3</X>
+        <Y>18.3</Y>
+        <Z>0</Z>
+      </Three>
+      <Four>
+        <X>-3</X>
+        <Y>18.3</Y>
+        <Z>0</Z>
+      </Four>
+      <Five>
+        <X>3</X>
+        <Y>18.3</Y>
+        <Z>3</Z>
+      </Five>
+      <Six>
+        <X>-3</X>
+        <Y>18.3</Y>
+        <Z>3</Z>
+      </Six>
+      <Seven>
+        <X>3</X>
+        <Y>18.3</Y>
+        <Z>-3</Z>
+      </Seven>
+      <Eight>
+        <X>-3</X>
+        <Y>18.3</Y>
+        <Z>-3</Z>
+      </Eight>
+      <Nine>
+        <X>0</X>
+        <Y>18.3</Y>
+        <Z>0</Z>
+      </Nine>
+      <Ten>
+        <X>7.5</X>
+        <Y>11.5</Y>
+        <Z>0</Z>
+      </Ten>
+      <Eleven>
+        <X>-7.5</X>
+        <Y>11.5</Y>
+        <Z>0</Z>
+      </Eleven>
+      <Twelve>
+        <X>10.5</X>
+        <Y>11.5</Y>
+        <Z>0</Z>
+      </Twelve>
+      <Thirteen>
+        <X>-10.5</X>
+        <Y>11.5</Y>
+        <Z>0</Z>
+      </Thirteen>
+    </TurretPoints>
+  </TurretHolder>
   <VisualActor>
     <Actor>structures/carolingian/wall_gate.xml</Actor>
   </VisualActor>
-  <WallPiece>
-    <Length>37.0</Length>
-  </WallPiece>
 </Entity>
