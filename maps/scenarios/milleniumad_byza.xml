@@ -195,35 +195,35 @@
 			<Actor seed="37902"/>
 		</Entity>
 		<Entity uid="28">
-			<Template>structures/byza_s_wall_gate</Template>
+			<Template>structures/byza_wall_gate_04</Template>
 			<Player>0</Player>
 			<Position x="338.68235" z="308.02552"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="50180"/>
 		</Entity>
 		<Entity uid="29">
-			<Template>structures/byza_s_wall_long</Template>
+			<Template>structures/byza_wall_long_04</Template>
 			<Player>0</Player>
 			<Position x="347.24671" z="298.90851"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="4740"/>
 		</Entity>
 		<Entity uid="30">
-			<Template>structures/byza_s_wall_medium</Template>
+			<Template>structures/byza_wall_medium_04</Template>
 			<Player>0</Player>
 			<Position x="353.32728" z="285.17884"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="7054"/>
 		</Entity>
 		<Entity uid="31">
-			<Template>structures/byza_s_wall_short</Template>
+			<Template>structures/byza_wall_short_04</Template>
 			<Player>0</Player>
 			<Position x="358.42038" z="271.37275"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="8390"/>
 		</Entity>
 		<Entity uid="32">
-			<Template>structures/byza_s_wall_tower</Template>
+			<Template>structures/byza_wall_tower_narrow</Template>
 			<Player>0</Player>
 			<Position x="323.5719" z="283.7071"/>
 			<Orientation y="2.35621"/>
@@ -237,42 +237,42 @@
 			<Actor seed="16090"/>
 		</Entity>
 		<Entity uid="34">
-			<Template>structures/byza_st_sm_wall_long</Template>
+			<Template>structures/byza_wall_long_03</Template>
 			<Player>0</Player>
 			<Position x="373.02298" z="263.25275"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="62896"/>
 		</Entity>
 		<Entity uid="35">
-			<Template>structures/byza_st_sm_wall_medium</Template>
+			<Template>structures/byza_wall_medium_03</Template>
 			<Player>0</Player>
 			<Position x="374.62772" z="247.54554"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="42024"/>
 		</Entity>
 		<Entity uid="36">
-			<Template>structures/byza_st_sm_wall_short</Template>
+			<Template>structures/byza_wall_short_03</Template>
 			<Player>0</Player>
 			<Position x="378.1132" z="232.28364"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="44976"/>
 		</Entity>
 		<Entity uid="37">
-			<Template>structures/byza_st_wall_long</Template>
+			<Template>structures/byza_wall_long_02</Template>
 			<Player>0</Player>
 			<Position x="392.42515" z="228.56562"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="62554"/>
 		</Entity>
 		<Entity uid="38">
-			<Template>structures/byza_st_wall_medium</Template>
+			<Template>structures/byza_wall_medium_02</Template>
 			<Player>0</Player>
 			<Position x="398.59672" z="212.73026"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="4904"/>
 		</Entity>
 		<Entity uid="39">
-			<Template>structures/byza_st_wall_short</Template>
+			<Template>structures/byza_wall_short_02</Template>
 			<Player>0</Player>
 			<Position x="401.23105" z="193.95633"/>
 			<Orientation y="2.35621"/>
@@ -321,32 +321,32 @@
 			<Actor seed="30066"/>
 		</Entity>
 		<Entity uid="46">
-			<Template>structures/byza_wall_oct_tower</Template>
-			<Player>0</Player>
-			<Position x="412.98136" z="268.66773"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="61258"/>
-		</Entity>
-		<Entity uid="47">
 			<Template>structures/byza_wall_short</Template>
 			<Player>0</Player>
 			<Position x="417.20832" z="232.02472"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="34526"/>
 		</Entity>
-		<Entity uid="48">
-			<Template>structures/byza_wall_sq_tower</Template>
-			<Player>0</Player>
-			<Position x="438.12912" z="251.73493"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="8900"/>
-		</Entity>
-		<Entity uid="49">
+		<Entity uid="47">
 			<Template>structures/byza_wall_tower</Template>
 			<Player>0</Player>
 			<Position x="424.25895" z="315.07184"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="44168"/>
+		</Entity>
+		<Entity uid="48">
+			<Template>structures/byza_wall_tower_octagonal</Template>
+			<Player>0</Player>
+			<Position x="412.98136" z="268.66773"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61258"/>
+		</Entity>
+		<Entity uid="49">
+			<Template>structures/byza_wall_tower_square</Template>
+			<Player>0</Player>
+			<Position x="438.12912" z="251.73493"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8900"/>
 		</Entity>
 		<Entity uid="50">
 			<Template>structures/byza_wonder</Template>

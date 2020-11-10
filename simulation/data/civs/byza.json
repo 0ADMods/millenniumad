@@ -42,7 +42,9 @@
 	"WallSets": [
 		"structures/wallset_palisade",
 		"structures/byza_wallset_stone",
-		"structures/byza_wallset_short"
+		"structures/byza_wallset_stone_02",
+		"structures/byza_wallset_stone_03",
+		"structures/byza_wallset_stone_04"
 	],
 	"StartEntities": [
 		{
