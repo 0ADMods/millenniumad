@@ -1,24 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_gate">
   <Footprint>
-    <Square width="36.0" depth="8.4"/>
-    <Height>9.0</Height>
+    <Square width="35.0" depth="9.0"/>
+    <Height>14.8</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>8</Max>
+  </GarrisonHolder>
   <Identity>
     <Civ>byza</Civ>
-    <SpecificName>Pýlai</SpecificName>
+    <SpecificName>Pylai</SpecificName>
   </Identity>
   <Obstruction>
     <Obstructions>
-      <Right width="14" depth="6.5" x="11.5" z="0"/>
-      <Left width="14" depth="6.5" x="-11.5" z="0"/>
-      <Door width="10" depth="6.5" x="0" z="0"/>
+      <Right width="12" depth="8" x="11" z="0"/>
+      <Left width="12" depth="8" x="-11" z="0"/>
+      <Door width="10" depth="8" x="0" z="0"/>
     </Obstructions>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>15.8</HeightOffset>
+  </StatusBars>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+        <X>1.5</X>
+        <Y>13.8</Y>
+        <Z>0</Z>
+      </One>
+      <Two>
+        <X>-1.5</X>
+        <Y>13.8</Y>
+        <Z>0</Z>
+      </Two>
+      <Three>
+        <X>4.5</X>
+        <Y>13.8</Y>
+        <Z>0</Z>
+      </Three>
+      <Four>
+        <X>-4.5</X>
+        <Y>13.8</Y>
+        <Z>0</Z>
+      </Four>
+      <Five>
+        <X>7.5</X>
+        <Y>13.8</Y>
+        <Z>0</Z>
+      </Five>
+      <Six>
+        <X>-7.5</X>
+        <Y>13.8</Y>
+        <Z>0</Z>
+      </Six>
+      <Seven>
+        <X>10.5</X>
+        <Y>13.8</Y>
+        <Z>0</Z>
+      </Seven>
+      <Eight>
+        <X>-10.5</X>
+        <Y>13.8</Y>
+        <Z>0</Z>
+      </Eight>
+    </TurretPoints>
+  </TurretHolder>
   <VisualActor>
     <Actor>structures/byzantines/wall_gate.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>37.0</Length>
+    <Length>34</Length>
   </WallPiece>
 </Entity>

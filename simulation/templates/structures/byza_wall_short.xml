@@ -2,20 +2,23 @@
 <Entity parent="template_structure_defensive_wall_short">
   <Footprint>
     <Square width="14.0" depth="8.5"/>
-    <Height>17.0</Height>
+    <Height>14.8</Height>
   </Footprint>
   <Identity>
     <Civ>byza</Civ>
-    <SelectionGroupName>structures/byza_wallset_stone</SelectionGroupName>
-    <SpecificName>Teîkhos</SpecificName>
+    <SpecificName>Teichos</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="13.0" depth="8.0"/>
+    <Static width="13.0" depth="7.5"/>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>15.8</HeightOffset>
+  </StatusBars>
   <VisualActor>
     <Actor>structures/byzantines/wall_short.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>12.3</Length>
+    <Orientation>0</Orientation>
   </WallPiece>
 </Entity>

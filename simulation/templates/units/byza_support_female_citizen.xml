@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_female_citizen">
+  <Builder>
+    <Entities datatype="tokens">
+      -structures/{civ}_wallset_stone
+      structures/{civ}_wallset_stone_04
+      structures/{civ}_wallset_stone_02
+    </Entities>
+  </Builder>
   <Identity>
     <Civ>byza</Civ>
     <Lang>greek</Lang>
-    <SpecificName>Gýnē</SpecificName>
-    <GenericName>Woman</GenericName>
-    <Icon>units/byza_support_female_citizen.png</Icon>
+    <SpecificName>Gynē</SpecificName>
     <SelectionGroupName>units/byza_support_female_citizen</SelectionGroupName>
+    <Icon>units/byza_support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/byzantines/female_citizen.xml</Actor>
