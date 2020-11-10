@@ -3,7 +3,6 @@
 	"autoResearch": true,
 	"description": "The Anglo-Saxons built their city walls out of wood, an abundant natural resource in Great Britain.",
 	"requirements": { "civ": "anglo" },
-	"icon": "wooden_walls.png",
 	"tooltip": "Wall segments −20% build time and −20% health.",
 	"modifications": [
 		{ "value": "Cost/BuildTime", "multiply": 0.8 },

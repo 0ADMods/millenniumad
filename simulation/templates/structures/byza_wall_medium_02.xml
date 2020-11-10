@@ -7,6 +7,7 @@
   <Identity>
     <Civ>byza</Civ>
     <SpecificName>Teichos</SpecificName>
+    <Classes datatype="tokens">HighWall</Classes>
   </Identity>
   <Obstruction>
     <Static width="25.0" depth="7.5"/>
@@ -39,7 +40,7 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/byzantines/st_wall_medium.xml</Actor>
+    <Actor>structures/byzantines/wall_medium.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>25</Length>

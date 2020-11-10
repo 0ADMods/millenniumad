@@ -7,6 +7,7 @@
   <Identity>
     <Civ>byza</Civ>
     <SpecificName>Teichos</SpecificName>
+    <Classes datatype="tokens">InnerWall</Classes>
   </Identity>
   <Obstruction>
     <Static width="13.0" depth="7.5"/>
@@ -15,7 +16,7 @@
     <HeightOffset>15.8</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/byzantines/wall_short.xml</Actor>
+    <Actor>structures/byzantines/st_wall_short.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>12.3</Length>
