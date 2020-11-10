@@ -24,7 +24,7 @@
       units/{civ}_ship_bireme
     </Entities>
     <Technologies datatype="tokens">
-      norse/speed_ships_clinker
+      ship_speed_norse
     </Technologies>
   </ProductionQueue>
   <VisualActor>
