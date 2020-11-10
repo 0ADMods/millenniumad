@@ -34,7 +34,7 @@
 		{
 			"Name": "Byzantine Walls",
 			"History": "The Byzantines were well-known for their strong city walls, enabling them to repeatedly resist sieges.",
-			"Description": "Walls +50% stone cost, +50% build time, and +50% health."
+			"Description": "Two sets of city walls can be built."
 		}
 	],
 	"TeamBonuses": [],

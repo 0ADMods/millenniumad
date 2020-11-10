@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_tower">
+  <Cost>
+    <BuildTime op="mul">2</BuildTime>
+    <Resources>
+      <stone op="mul">2</stone>
+    </Resources>
+  </Cost>
   <Footprint>
     <Square width="10.5" depth="15.0"/>
     <Height>21.8</Height>
   </Footprint>
+  <Health>
+    <Max op="mul">2</Max>
+  </Health>
   <Identity>
     <Civ>byza</Civ>
     <SpecificName>Pyrgos</SpecificName>
   </Identity>
+  <Loot>
+    <stone op="mul">2</stone>
+  </Loot>
   <Obstruction>
     <Static width="9.5" depth="14.0"/>
   </Obstruction>

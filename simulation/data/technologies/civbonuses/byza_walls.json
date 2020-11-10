@@ -3,12 +3,24 @@
 	"autoResearch": true,
 	"description": "The Byzantines were well-known for their strong city walls, enabling them to repeatedly resist sieges.",
 	"requirements": { "civ": "byza" },
-	"icon": "wooden_walls.png",
-	"tooltip": "Walls +50% stone cost, +50% build time, and +50% health.",
+	"tooltip": "High Walls +100% stone cost, +100% build time, and +100% health. Inner Walls +70% stone cost, +70% build time, and +70% health. Outer Walls −15% stone cost, −15% build time, and −15% health.",
 	"modifications": [
-		{ "value": "Cost/BuildTime", "multiply": 1.5 },
-		{ "value": "Cost/Resources/stone", "multiply": 1.5 },
-		{ "value": "Health/Max", "multiply": 1.5 }
+		{ "value": "Cost/BuildTime", "multiply": 2, "affects": "HighWall" },
+		{ "value": "Cost/BuildTime", "multiply": 1.7, "affects": "InnerWall" },
+		{ "value": "Cost/BuildTime", "multiply": 1, "affects": "LowWall" },
+		{ "value": "Cost/BuildTime", "multiply": 0.85, "affects": "OuterWall" },
+		{ "value": "Cost/Resources/stone", "multiply": 2, "affects": "HighWall" },
+		{ "value": "Cost/Resources/stone", "multiply": 1.7, "affects": "InnerWall" },
+		{ "value": "Cost/Resources/stone", "multiply": 1, "affects": "LowWall" },
+		{ "value": "Cost/Resources/stone", "multiply": 0.85, "affects": "OuterWall" },
+		{ "value": "Health/Max", "multiply": 2, "affects": "HighWall" },
+		{ "value": "Health/Max", "multiply": 1.7, "affects": "InnerWall" },
+		{ "value": "Health/Max", "multiply": 1, "affects": "LowWall" },
+		{ "value": "Health/Max", "multiply": 0.85, "affects": "OuterWall" },
+		{ "value": "Loot/stone", "multiply": 2, "affects": "HighWall" },
+		{ "value": "Loot/stone", "multiply": 1.7, "affects": "InnerWall" },
+		{ "value": "Loot/stone", "multiply": 1, "affects": "LowWall" },
+		{ "value": "Loot/stone", "multiply": 0.85, "affects": "OuterWall" }
 	],
 	"affects": ["Wall"]
 }

@@ -7,6 +7,7 @@
   <Identity>
     <Civ>byza</Civ>
     <SpecificName>Teichos</SpecificName>
+    <Classes datatype="tokens">LowWall</Classes>
   </Identity>
   <Obstruction>
     <Static width="33.0" depth="5.5"/>
@@ -62,6 +63,9 @@
     <Gate>
       <Entity>structures/byza_wall_gate_04</Entity>
     </Gate>
+      <Cost>
+        <wood op="mul">0.5</wood>
+      </Cost>
   </Upgrade>
   <VisualActor>
     <Actor>structures/byzantines/s_wall_long.xml</Actor>

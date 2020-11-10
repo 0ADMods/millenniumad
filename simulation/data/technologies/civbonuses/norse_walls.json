@@ -3,7 +3,6 @@
 	"autoResearch": true,
 	"description": "The Norse built their city walls out of wood, an abundant natural resource in Scandinavia.",
 	"requirements": { "civ": "norse" },
-	"icon": "wooden_walls.png",
 	"tooltip": "Walls −20% build time and −20% health.",
 	"modifications": [
 		{ "value": "Cost/BuildTime", "multiply": 0.8 },

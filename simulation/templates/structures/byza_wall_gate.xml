@@ -10,6 +10,7 @@
   <Identity>
     <Civ>byza</Civ>
     <SpecificName>Pylai</SpecificName>
+    <Classes datatype="tokens">HighWall</Classes>
   </Identity>
   <Obstruction>
     <Obstructions>
