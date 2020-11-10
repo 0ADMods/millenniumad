@@ -62,10 +62,10 @@
   <Upgrade>
     <Gate>
       <Entity>structures/byza_wall_gate_04</Entity>
-    </Gate>
       <Cost>
         <wood op="mul">0.5</wood>
       </Cost>
+    </Gate>
   </Upgrade>
   <VisualActor>
     <Actor>structures/byzantines/s_wall_long.xml</Actor>
