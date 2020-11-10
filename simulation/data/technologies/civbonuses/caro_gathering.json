@@ -1,0 +1,13 @@
+{
+	"genericName": "Improved Logistics",
+	"autoResearch": true,
+	"description": "Workers +5 resource capacity.",
+	"requirements": { "civ": "caro" },
+	"modifications": [
+		{ "value": "ResourceGatherer/Capacities/food", "add": 5 },
+		{ "value": "ResourceGatherer/Capacities/wood", "add": 5 },
+		{ "value": "ResourceGatherer/Capacities/metal", "add": 5 },
+		{ "value": "ResourceGatherer/Capacities/stone", "add": 5 }
+	],
+	"affects": ["Worker"]
+}

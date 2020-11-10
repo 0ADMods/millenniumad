@@ -26,50 +26,11 @@
 		{
 			"Name": "Umayyads",
 			"Description": "The Second Caliphate.",
-			"Technologies": [
-				{
-					"Name": "N/A",
-					"History": "N/A",
-					"Description": "N/A"
-				}
-			],
-			"Heroes": [
-				{
-					"Name": "TBD",
-					"Class": "?",
-					"Armament": "?",
-					"Emblem": "",
-					"History": "?"
-				},
-				{
-					"Name": "TBD2",
-					"Class": "?",
-					"Armament": "?",
-					"Emblem": "",
-					"History": "?"
-				},
-				{
-					"Name": "TDB3",
-					"Class": "?",
-					"Armament": "?",
-					"Emblem": "",
-					"History": "?"
-				}
-			]
+			"Technologies": [],
+			"Heroes": []
 		}
 	],
-	"CivBonuses": [
-		{
-			"Name": "TBD",
-			"History": "N/A",
-			"Description": "?"
-		},
-		{
-			"Name": "TBD2",
-			"History": "N/A",
-			"Description": "?"
-		}
-	],
+	"CivBonuses": [],
 	"TeamBonuses": [],
 	"Structures": [],
 	"WallSets": [

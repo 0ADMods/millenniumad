@@ -1,0 +1,10 @@
+{
+	"genericName": "Limited Coinage",
+	"autoResearch": true,
+	"description": "Traders −10% trade gain.",
+	"requirements": { "civ": "anglo" },
+	"modifications": [
+		{ "value": "Trader/GainMultiplier", "multiply": 0.9 }
+	],
+	"affects": ["Trader"]
+}

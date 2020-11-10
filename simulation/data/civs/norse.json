@@ -22,29 +22,20 @@
 				{
 					"Name": "Clinker Construction",
 					"History": "This technique was developed by the Norse and is a method of boat-building where the edges of hull planks overlap. With this technology, boats could be made less heavy.",
-					"Description": "Ships move +10% faster."
+					"Description": "Ships +10% movement speed."
 				}
 			],
 			"Heroes": [
 				{
 					"Name": "Erik the Red",
-					"Class": "Infantry Swordsman",
-					"Armament": "",
-					"Emblem": "",
 					"History": "Erik Thorvaldsson, better known as Erik the Red because of his hair color, was the founder of the first Norse settlement in Greenland. His son was Leif Erikson, the famous explorer."
 				},
 				{
 					"Name": "Ivar the Boneless",
-					"Class": "Infantry Swordsman",
-					"Armament": "",
-					"Emblem": "",
 					"History": "Ivar the Boneless, son of Ragnar Lothbrok, was a Norse warlord and one of the commanders of the Great Heathen Army which invaded the Anglo-Saxon kingdoms of England. Later he founded the Uí Ímair dynasty, which dominated the Irish Sea during the Viking Age."
 				},
 				{
 					"Name": "Hastein",
-					"Class": "Infantry Swordsman",
-					"Armament": "",
-					"Emblem": "",
 					"History": "Hastein was a notable Norse Chieftain that made several raiding voyages during the late 9th century. He's particularly known for his raids in the Mediterranean area."
 				}
 			]
@@ -52,14 +43,13 @@
 	],
 	"CivBonuses": [
 		{
-			"Name": "Gathering vs. Speed",
-			"History": "N/A",
-			"Description": "The Citizen Soldiers are slow (-20%) gatherers, still they move faster than most infantry. (+10%)"
+			"Name": "Thralls",
+			"Description": "Workers −10% gather speed, but +10% movement speed."
 		},
 		{
-			"Name": "Improved palisades",
-			"History": "N/A",
-			"Description": "In exchange for having no stone walls they receive stronger palisades that cost more time to build."
+			"Name": "Wooden Walls",
+			"History": "The Norse built their city walls out of wood, an abundant natural resource in Scandinavia.",
+			"Description": "Walls −20% build time and −20% health."
 		}
 	],
 	"TeamBonuses": [],

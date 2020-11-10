@@ -28,37 +28,36 @@
 			"Description": "N/A",
 			"Technologies": [
 				{
-					"Name": "Thingstead",
-					"History": "?",
-					"Description": "?"
+					"Name": "Thingstead"
 				}
 			],
 			"Heroes": [
 				{
-					"Name": "Alfred the Great",
-					"Class": "",
-					"Armament": "",
-					"Emblem": "",
-					"History": "?"
+					"Name": "Offa of Mercia"
+				},
+				{
+					"Name": "Alfred the Great"
 				}
 			]
 		}
 	],
 	"CivBonuses": [
 		{
-			"Name": "Gathering Bonus",
-			"History": "N/A",
-			"Description": "All gathering rates +10%."
+			"Name": "Fertile Land",
+			"Description": "Units +10% gather speed."
 		},
 		{
-			"Name": "Poor land trading",
-			"History": "N/A",
+			"Name": "Limited Coinage",
 			"Description": "Trade gain -10%."
 		},
 		{
-			"Name": "Weak structures",
-			"History": "N/A",
-			"Description": "Anglo-Saxons cannot build stone walls. Structures have -10% Health."
+			"Name": "Weak Structures",
+			"Description": "Structures −10% health."
+		},
+		{
+			"Name": "Wooden Walls",
+			"History": "The Anglo-Saxons built their city walls out of wood, an abundant natural resource in Great Britain.",
+			"Description": "Wall segments −20% build time and −20% health."
 		}
 	],
 	"TeamBonuses": [],
