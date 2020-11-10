@@ -7,9 +7,9 @@
   <WallSet>
     <Templates>
       <Tower>structures/norse_wall_tower</Tower>
-      <WallLong>structures/norse_wall_long</WallLong>
-      <WallMedium>structures/norse_wall_medium</WallMedium>
       <WallShort>structures/norse_wall_short</WallShort>
+      <WallMedium>structures/norse_wall_medium</WallMedium>
+      <WallLong>structures/norse_wall_long</WallLong>
       <Gate>structures/norse_wall_gate</Gate>
       <Fort>structures/norse_wall_tower</Fort>
     </Templates>

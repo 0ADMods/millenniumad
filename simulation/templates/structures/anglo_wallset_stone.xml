@@ -7,10 +7,10 @@
   <WallSet>
     <Templates>
       <Tower>structures/anglo_wall_tower</Tower>
-      <WallLong>structures/anglo_wall_long</WallLong>
-      <WallMedium>structures/anglo_wall_medium</WallMedium>
       <WallShort>structures/anglo_wall_short</WallShort>
-	  <Gate>structures/anglo_wall_gate</Gate>
+      <WallMedium>structures/anglo_wall_medium</WallMedium>
+      <WallLong>structures/anglo_wall_long</WallLong>
+      <Gate>structures/anglo_wall_gate</Gate>
     </Templates>
     <MaxTowerOverlap>0.90</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>

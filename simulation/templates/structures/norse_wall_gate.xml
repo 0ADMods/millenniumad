@@ -1,68 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_gate">
+  <Cost>
+    <Resources>
+      <wood>30</wood>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
   <Footprint>
-    <Square width="39.0" depth="8.0"/>
-    <Height>9.0</Height>
+    <Square width="37.0" depth="8.0"/>
+    <Height>11.3</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>12</Max>
+  </GarrisonHolder>
   <Identity>
     <Civ>norse</Civ>
+    <SpecificName>Trelleborg</SpecificName>
   </Identity>
+  <Loot>
+    <wood>6</wood>
+    <stone>0</stone>
+  </Loot>
   <Obstruction>
     <Obstructions>
-      <Right width="12" depth="6.5" x="12.5" z="0"/>
-      <Left width="12" depth="6.5" x="-12.5" z="0"/>
-      <Door width="13" depth="6.5" x="0" z="0"/>
+      <Right width="12" depth="7" x="12" z="0"/>
+      <Left width="12" depth="7" x="-12" z="0"/>
+      <Door width="12" depth="2" x="0" z="4.5"/>
     </Obstructions>
   </Obstruction>
-  <GarrisonHolder>
-    <Max>11</Max>
-    <List datatype="tokens">Ranged+Infantry</List>
-    <EjectHealth>0.1</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <BuffHeal>0</BuffHeal>
-	<LoadingRange>0.5</LoadingRange>
-  </GarrisonHolder>
+  <RallyPoint/>
+  <StatusBars>
+    <HeightOffset>18.0</HeightOffset>
+  </StatusBars>
   <TurretHolder>
     <TurretPoints>
-      <Archer1>
-        <X>0</X><Y>9.7</Y><Z>0</Z>
-      </Archer1>
-      <Archer2>
-        <X>12</X><Y>9.7</Y><Z>0</Z>
-      </Archer2>
-      <Archer3>
-        <X>-12</X><Y>9.7</Y><Z>0</Z>
-      </Archer3>
-      <Archer4>
-        <X>4</X><Y>9.7</Y><Z>0</Z>
-      </Archer4>
-      <Archer5>
-        <X>-4</X><Y>9.7</Y><Z>0</Z>
-      </Archer5>
-      <Archer6>
-        <X>0</X><Y>10.3</Y><Z>4</Z>
-      </Archer6>
-        <Archer7>
-        <X>4</X><Y>10.3</Y><Z>4</Z>
-      </Archer7>
-      <Archer8>
-        <X>-4</X><Y>10.3</Y><Z>4</Z>
-      </Archer8>
-      <Archer9>
-        <X>0</X><Y>10.3</Y><Z>6</Z>
-      </Archer9>
-      <Archer10>
-        <X>4</X><Y>10.3</Y><Z>6</Z>
-      </Archer10>
-      <Archer11>
-        <X>-4</X><Y>10.3</Y><Z>6</Z>
-      </Archer11>
+      <One>
+        <X>3</X>
+        <Y>10.3</Y>
+        <Z>1</Z>
+      </One>
+      <Two>
+        <X>-3</X>
+        <Y>10.3</Y>
+        <Z>1</Z>
+      </Two>
+      <Three>
+        <X>3</X>
+        <Y>10.3</Y>
+        <Z>4</Z>
+      </Three>
+      <Four>
+        <X>-3</X>
+        <Y>10.3</Y>
+        <Z>4</Z>
+      </Four>
+      <Five>
+        <X>3</X>
+        <Y>10.3</Y>
+        <Z>7</Z>
+      </Five>
+      <Six>
+        <X>-3</X>
+        <Y>10.3</Y>
+        <Z>7</Z>
+      </Six>
+      <Seven>
+        <X>0</X>
+        <Y>10.3</Y>
+        <Z>1</Z>
+      </Seven>
+      <Eight>
+        <X>0</X>
+        <Y>10.3</Y>
+        <Z>7</Z>
+      </Eight>
+      <Nine>
+        <X>7.5</X>
+        <Y>9.7</Y>
+        <Z>0</Z>
+      </Nine>
+      <Ten>
+        <X>-7.5</X>
+        <Y>9.7</Y>
+        <Z>0</Z>
+      </Ten>
+      <Eleven>
+        <X>10.5</X>
+        <Y>9.7</Y>
+        <Z>0</Z>
+      </Eleven>
+      <Twelve>
+        <X>-10.5</X>
+        <Y>9.7</Y>
+        <Z>0</Z>
+      </Twelve>
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
     <Actor>structures/norse/wall_gate.xml</Actor>
   </VisualActor>
-  <WallPiece>
-    <Length>37.5</Length>
-  </WallPiece>
 </Entity>

@@ -1,20 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_long">
+  <Cost>
+    <Resources>
+      <wood>36</wood>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
   <Footprint>
-    <Square width="38.5" depth="7.0"/>
-    <Height>9.0</Height>
+    <Square width="37.0" depth="9.0"/>
+    <Height>10.5</Height>
   </Footprint>
   <Identity>
     <Civ>norse</Civ>
-    <SelectionGroupName>structures/norse_wallset_stone</SelectionGroupName>
+    <SpecificName>Trelleborg</SpecificName>
   </Identity>
+  <Loot>
+    <wood>7</wood>
+    <stone>0</stone>
+  </Loot>
   <Obstruction>
-    <Static width="37.0" depth="6.0"/>
+    <Static width="36.0" depth="8.0"/>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>11.5</HeightOffset>
+  </StatusBars>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+        <X>1.5</X>
+        <Y>9.5</Y>
+        <Z>0</Z>
+      </One>
+      <Two>
+        <X>-1.5</X>
+        <Y>9.5</Y>
+        <Z>0</Z>
+      </Two>
+      <Three>
+        <X>4.5</X>
+        <Y>9.5</Y>
+        <Z>0</Z>
+      </Three>
+      <Four>
+        <X>-4.5</X>
+        <Y>9.5</Y>
+        <Z>0</Z>
+      </Four>
+      <Five>
+        <X>7.5</X>
+        <Y>9.5</Y>
+        <Z>0</Z>
+      </Five>
+      <Six>
+        <X>-7.5</X>
+        <Y>9.5</Y>
+        <Z>0</Z>
+      </Six>
+      <Seven>
+        <X>10.5</X>
+        <Y>9.5</Y>
+        <Z>0</Z>
+      </Seven>
+      <Eight>
+        <X>-10.5</X>
+        <Y>9.5</Y>
+        <Z>0</Z>
+      </Eight>
+    </TurretPoints>
+  </TurretHolder>
   <VisualActor>
     <Actor>structures/norse/wall_long.xml</Actor>
   </VisualActor>
-  <WallPiece>
-    <Length>32.9</Length>
-  </WallPiece>
 </Entity>
