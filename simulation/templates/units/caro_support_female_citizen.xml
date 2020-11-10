@@ -17,7 +17,6 @@
   </Health>
   <Identity>
     <Civ>caro</Civ>
-    <GenericName>Woman</GenericName>
     <Icon>units/caro_support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

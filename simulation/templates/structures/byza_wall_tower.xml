@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_tower">
   <Footprint>
-    <Square width="10.8" depth="14.2"/>
-    <Height>15.0</Height>
+    <Square width="10.5" depth="15.0"/>
+    <Height>21.8</Height>
   </Footprint>
   <Identity>
     <Civ>byza</Civ>
-    <SpecificName>Pýrgos</SpecificName>
+    <SpecificName>Pyrgos</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="10" depth="14"/>
+    <Static width="9.5" depth="14.0"/>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>22.8</HeightOffset>
+  </StatusBars>
   <VisualActor>
     <Actor>structures/byzantines/wall_tower.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>7.5</Length>
+    <Length>9.5</Length>
   </WallPiece>
 </Entity>

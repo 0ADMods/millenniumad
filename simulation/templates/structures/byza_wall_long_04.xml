@@ -1,67 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="structures/palisades_long">
+<Entity parent="template_structure_defensive_wall_long">
   <Footprint>
-    <Square width="36" depth="7"/>
-    <Height>10.5</Height>
+    <Square width="34.0" depth="6.5"/>
+    <Height>9.3</Height>
   </Footprint>
-  <Cost>
-    <BuildTime>35</BuildTime>
-    <Resources>
-      <stone>20</stone>
-    </Resources>
-  </Cost>
   <Identity>
     <Civ>byza</Civ>
-    <SelectionGroupName>structures/byza_wallset_short</SelectionGroupName>
-    <SpecificName>Teîkhos</SpecificName>
-    <Icon>structures/wall.png</Icon>
+    <SpecificName>Teichos</SpecificName>
   </Identity>
-  <GarrisonHolder>
-    <Max>5</Max>
-    <List datatype="tokens">Ranged+Infantry</List>
-    <EjectHealth>0.1</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <BuffHeal>0</BuffHeal>
-    <LoadingRange>2</LoadingRange>
-  </GarrisonHolder>
-  <Health>
-    <Max>1200</Max>
-  </Health>
+  <Obstruction>
+    <Static width="33.0" depth="5.5"/>
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>10.3</HeightOffset>
+  </StatusBars>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+        <X>1.5</X>
+        <Y>8.3</Y>
+        <Z>0</Z>
+      </One>
+      <Two>
+        <X>-1.5</X>
+        <Y>8.3</Y>
+        <Z>0</Z>
+      </Two>
+      <Three>
+        <X>4.5</X>
+        <Y>8.3</Y>
+        <Z>0</Z>
+      </Three>
+      <Four>
+        <X>-4.5</X>
+        <Y>8.3</Y>
+        <Z>0</Z>
+      </Four>
+      <Five>
+        <X>7.5</X>
+        <Y>8.3</Y>
+        <Z>0</Z>
+      </Five>
+      <Six>
+        <X>-7.5</X>
+        <Y>8.3</Y>
+        <Z>0</Z>
+      </Six>
+      <Seven>
+        <X>10.5</X>
+        <Y>8.3</Y>
+        <Z>0</Z>
+      </Seven>
+      <Eight>
+        <X>-10.5</X>
+        <Y>8.3</Y>
+        <Z>0</Z>
+      </Eight>
+    </TurretPoints>
+  </TurretHolder>
   <Upgrade>
     <Gate>
       <Entity>structures/byza_wall_gate_04</Entity>
-      <Cost>
-        <stone>45</stone>
-      </Cost>
-      <Time>10</Time>
     </Gate>
   </Upgrade>
-  <Obstruction>
-    <Static width="35.8" depth="6.0"/>
-  </Obstruction>
-  <TurretHolder>
-    <TurretPoints>
-      <Archer1>
-        <X>0</X><Y>8.3</Y><Z>0</Z>
-      </Archer1>
-      <Archer2>
-        <X>8</X><Y>8.3</Y><Z>0</Z>
-      </Archer2>
-      <Archer3>
-        <X>-8</X><Y>8.3</Y><Z>0</Z>
-      </Archer3>
-      <Archer4>
-        <X>4</X><Y>8.3</Y><Z>0</Z>
-      </Archer4>
-      <Archer5>
-        <X>-4</X><Y>8.3</Y><Z>0</Z>
-      </Archer5>
-    </TurretPoints>
-  </TurretHolder>
   <VisualActor>
     <Actor>structures/byzantines/s_wall_long.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>35</Length>
+    <Length>33</Length>
   </WallPiece>
 </Entity>

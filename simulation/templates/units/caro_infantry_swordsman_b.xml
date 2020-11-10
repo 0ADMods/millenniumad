@@ -7,10 +7,7 @@
   </Builder>
   <Identity>
     <Civ>caro</Civ>
-    <Lang>greek</Lang>
     <SelectionGroupName>units/caro_infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Swordsman</GenericName>
-    <SpecificName></SpecificName>
     <Icon>units/caro_infantry_swordsman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

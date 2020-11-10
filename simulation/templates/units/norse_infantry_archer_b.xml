@@ -3,9 +3,9 @@
   <Builder>
     <Entities datatype="tokens">
       -structures/{civ}_corral
+      -structures/{civ}_defense_tower
       -structures/{civ}_fortress
       -structures/{civ}_wonder
-      -structures/{civ}_defense_tower
     </Entities>
   </Builder>
   <Cost>

@@ -2,35 +2,40 @@
 <Entity parent="template_structure_defensive_wall_medium">
   <Footprint>
     <Square width="26.0" depth="8.5"/>
-    <Height>17.0</Height>
+    <Height>14.8</Height>
   </Footprint>
   <Identity>
     <Civ>byza</Civ>
-    <SelectionGroupName>structures/byza_wallset_stone</SelectionGroupName>
-    <SpecificName>Teîkhos</SpecificName>
+    <SpecificName>Teichos</SpecificName>
   </Identity>
-  <GarrisonHolder>
-    <Max>3</Max>
-    <List datatype="tokens">Ranged+Infantry</List>
-    <EjectHealth>0.1</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <BuffHeal>0</BuffHeal>
-    <LoadingRange>2</LoadingRange>
-  </GarrisonHolder>
   <Obstruction>
-    <Static width="24.0" depth="8.0"/>
+    <Static width="24.0" depth="7.5"/>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>15.8</HeightOffset>
+  </StatusBars>
   <TurretHolder>
     <TurretPoints>
-      <Archer1>
-        <X>0</X><Y>13.8</Y><Z>0</Z>
-      </Archer1>
-      <Archer2>
-        <X>4</X><Y>13.8</Y><Z>0</Z>
-      </Archer2>
-      <Archer3>
-        <X>-4</X><Y>13.8</Y><Z>0</Z>
-      </Archer3>
+      <One>
+        <X>1.5</X>
+        <Y>13.8</Y>
+        <Z>0</Z>
+      </One>
+      <Two>
+        <X>-1.5</X>
+        <Y>13.8</Y>
+        <Z>0</Z>
+      </Two>
+      <Three>
+        <X>4.5</X>
+        <Y>13.8</Y>
+        <Z>0</Z>
+      </Three>
+      <Four>
+        <X>-4.5</X>
+        <Y>13.8</Y>
+        <Z>0</Z>
+      </Four>
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
@@ -38,5 +43,6 @@
   </VisualActor>
   <WallPiece>
     <Length>24.0</Length>
+    <Orientation>0</Orientation>
   </WallPiece>
 </Entity>
