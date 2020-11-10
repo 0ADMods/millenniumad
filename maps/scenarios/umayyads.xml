@@ -117,13 +117,6 @@
 			<Orientation y="2.35621"/>
 			<Actor seed="23408"/>
 		</Entity>
-		<Entity uid="17">
-			<Template>structures/umay_elephant_stables</Template>
-			<Player>0</Player>
-			<Position x="282.07554" z="122.30039"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="65010"/>
-		</Entity>
 		<Entity uid="18">
 			<Template>structures/umay_farmstead</Template>
 			<Player>0</Player>
