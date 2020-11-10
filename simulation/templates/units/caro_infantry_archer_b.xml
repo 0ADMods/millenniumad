@@ -3,10 +3,6 @@
   <Builder>
     <Entities datatype="tokens">
       structures/caro_special
-      -structures/{civ}_corral
-      -structures/{civ}_fortress
-      -structures/{civ}_defense_tower
-      -structures/{civ}_wallset_stone
     </Entities>
   </Builder>
   <Cost>

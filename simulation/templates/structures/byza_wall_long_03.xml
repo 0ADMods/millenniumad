@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="structures/palisades_long">
   <Footprint>
-    <Square width="36" depth="7"/>
-    <Height>10.5</Height>
+    <Square width="36" depth="8.5"/>
+    <Height>17.0</Height>
   </Footprint>
-  <Cost>
-    <BuildTime>35</BuildTime>
-    <Resources>
-      <stone>20</stone>
-    </Resources>
-  </Cost>
   <Identity>
     <Civ>byza</Civ>
     <SelectionGroupName>structures/byza_wallset_short</SelectionGroupName>
     <SpecificName>Teîkhos</SpecificName>
     <Icon>structures/wall.png</Icon>
   </Identity>
+  <Health>
+    <Max>1200</Max>
+  </Health>
   <GarrisonHolder>
     <Max>5</Max>
     <List datatype="tokens">Ranged+Infantry</List>
@@ -24,20 +21,17 @@
     <BuffHeal>0</BuffHeal>
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
-  <Health>
-    <Max>1200</Max>
-  </Health>
   <Upgrade>
     <Gate>
-      <Entity>structures/byza_s_wall_gate</Entity>
+      <Entity>structures/byza_wall_gate_04</Entity>
       <Cost>
-        <stone>45</stone>
+        <stone>60</stone>
       </Cost>
       <Time>10</Time>
     </Gate>
   </Upgrade>
   <Obstruction>
-    <Static width="35.8" depth="6.0"/>
+    <Static width="35.8" depth="8.0"/>
   </Obstruction>
   <TurretHolder>
     <TurretPoints>
@@ -59,9 +53,9 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/byzantines/s_wall_long.xml</Actor>
+    <Actor>structures/byzantines/st_sm_wall_long.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>35</Length>
+    <Length>35.0</Length>
   </WallPiece>
 </Entity>

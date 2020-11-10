@@ -2,17 +2,16 @@
 <Entity parent="template_wallset">
   <Identity>
     <Civ>byza</Civ>
-    <GenericName>Inner Wall</GenericName>
+    <GenericName>Low Wall</GenericName>
     <SpecificName>Teichos</SpecificName>
-    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <WallSet>
     <Templates>
       <Tower>structures/byza_wall_tower</Tower>
-      <Gate>structures/byza_wall_gate</Gate>
-      <WallLong>structures/byza_wall_long</WallLong>
-      <WallMedium>structures/byza_wall_medium</WallMedium>
-      <WallShort>structures/byza_wall_short</WallShort>
+      <Gate>structures/byza_wall_gate_04</Gate>
+      <WallLong>structures/byza_wall_long_04</WallLong>
+      <WallMedium>structures/byza_wall_medium_04</WallMedium>
+      <WallShort>structures/byza_wall_short_04</WallShort>
     </Templates>
     <MaxTowerOverlap>0.90</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>
