@@ -2,9 +2,9 @@
 	"genericName": "Fertile Land",
 	"autoResearch": true,
 	"requirements": { "civ": "anglo" },
-	"description": "Units +10% gather speed.",
+	"description": "Workers +10% gather speed.",
 	"modifications": [
 		{ "value": "ResourceGatherer/BaseSpeed", "multiply": 1.1 }
 	],
-	"affects": ["Unit"]
+	"affects": ["Worker"]
 }
