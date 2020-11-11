@@ -44,7 +44,7 @@
 	"CivBonuses": [
 		{
 			"Name": "Fertile Land",
-			"Description": "Units +10% gather speed."
+			"Description": "Workers +10% gather speed."
 		},
 		{
 			"Name": "Limited Coinage",
