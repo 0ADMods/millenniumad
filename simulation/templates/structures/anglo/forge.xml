@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_forge">
-  <Cost>
-    <PopulationBonus>4</PopulationBonus>
-  </Cost>
   <Identity>
     <Civ>anglo</Civ>
     <SpecificName>Smiþþe</SpecificName>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <VisibleClasses datatype="tokens">Town</VisibleClasses>
   </Identity>
+  <Population>
+    <Bonus>4</Bonus>
+  </Population>
   <ProductionQueue>
     <Technologies datatype="tokens">
       -attack_cavalry_melee_01

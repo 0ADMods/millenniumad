@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_stable">
-  <Cost>
-    <PopulationBonus>8</PopulationBonus>
-  </Cost>
   <Footprint>
     <Square width="22.0" depth="22.0"/>
     <Height>5.0</Height>
@@ -12,6 +9,9 @@
     <Icon>structures/stables.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
+  <Population>
+    <Bonus>8</Bonus>
+  </Population>
   <ProductionQueue>
     <Entities datatype="tokens">
       -units/{civ}/cavalry_swordsman_b

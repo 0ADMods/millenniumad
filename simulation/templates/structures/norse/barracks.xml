@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
-	<Cost>
-		<PopulationBonus>4</PopulationBonus>
-	</Cost>
 	<Footprint>
 		<Square width="24.0" depth="40.0"/>
 		<Height>5.0</Height>
@@ -20,6 +17,9 @@
 		<RequiredTechnology>phase_town</RequiredTechnology>
 		<Classes datatype="tokens">Town</Classes>
 	</Identity>
+	<Population>
+		<Bonus>4</Bonus>
+	</Population>
 	<ProductionQueue>
 		<Entities datatype="tokens">
 			units/{civ}/infantry_swordsman_b

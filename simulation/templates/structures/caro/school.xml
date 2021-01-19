@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_temple">
   <Cost>
-    <PopulationBonus>7</PopulationBonus>
     <Resources>
       <stone>450</stone>
     </Resources>
@@ -13,6 +12,9 @@
     <Civ>caro</Civ>
     <SpecificName>Lorsch Abbey</SpecificName>
   </Identity>
+  <Population>
+    <Bonus>7</Bonus>
+  </Population>
   <VisualActor>
     <Actor>structures/carolingian/lorsch_abbey.xml</Actor>
     <FoundationActor>structures/fndn_2x4.xml</FoundationActor>

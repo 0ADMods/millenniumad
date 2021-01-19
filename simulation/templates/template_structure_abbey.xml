@@ -17,7 +17,6 @@
     <Category>Temple</Category>
   </BuildRestrictions>
   <Cost>
-    <PopulationBonus>5</PopulationBonus>
     <BuildTime>2</BuildTime>
     <Resources>
       <stone>300</stone>
@@ -50,6 +49,9 @@
     <stone>50</stone>
     <metal>50</metal>
   </Loot>
+  <Population>
+    <Bonus>5</Bonus>
+  </Population>
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">

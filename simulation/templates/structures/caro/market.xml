@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_market">
-  <Cost>
-    <PopulationBonus>12</PopulationBonus>
-  </Cost>
   <Footprint>
     <Square width="25.0" depth="21.0"/>
     <Height>8.0</Height>
@@ -16,6 +13,9 @@
   <Obstruction>
     <Static width="24.0" depth="20.0"/>
   </Obstruction>
+  <Population>
+    <Bonus>12</Bonus>
+  </Population>
   <VisualActor>
     <Actor>structures/carolingian/market.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_temple">
   <Cost>
-    <PopulationBonus>7</PopulationBonus>
     <Resources>
       <stone>0</stone>
       <wood>300</wood>
@@ -21,6 +20,9 @@
   <Obstruction>
     <Static width="12.0" depth="23.0"/>
   </Obstruction>
+  <Population>
+    <Bonus>7</Bonus>
+  </Population>
   <VisualActor>
     <Actor>structures/anglo/temple.xml</Actor>
     <FoundationActor>structures/fndn_2x4.xml</FoundationActor>

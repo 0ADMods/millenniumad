@@ -7,13 +7,13 @@
   <Obstruction>
     <Static width="26" depth="19"/>
   </Obstruction>
-  <Cost>
-    <PopulationBonus>2</PopulationBonus>
-  </Cost>
   <Identity>
     <Civ>caro</Civ>
     <VisibleClasses datatype="tokens">Village Farmstead Resource</VisibleClasses>
   </Identity>
+  <Population>
+    <Bonus>2</Bonus>
+  </Population>
   <VisualActor>
     <Actor>structures/carolingian/farmstead.xml</Actor>
   </VisualActor>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_dock">
 	<Auras datatype="tokens">structures/rotary_mill</Auras>
-	<Cost>
-		<PopulationBonus>2</PopulationBonus>
-	</Cost>
 	<Footprint>
 		<Square width="20.0" depth="17.0"/>
 		<Height>8.0</Height>
@@ -17,6 +14,9 @@
 	<Obstruction>
 		<Static width="20.0" depth="17.0"/>
 	</Obstruction>
+	<Population>
+		<Bonus>2</Bonus>
+	</Population>
   	<ProductionQueue disable=""/>
   	<RallyPoint disable=""/>
 	<VisualActor>

@@ -7,9 +7,6 @@
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
-  <Cost>
-    <PopulationBonus>2</PopulationBonus>
-  </Cost>
   <GarrisonHolder>
     <Max>10</Max>
     <EjectHealth>0.1</EjectHealth>
@@ -25,6 +22,9 @@
     <Tooltip>Dropsite for the food resource. Research food gathering improvements. Raise herd animals for food.</Tooltip>
     <VisibleClasses datatype="tokens">Village Farmstead Resource</VisibleClasses>
   </Identity>
+  <Population>
+    <Bonus>2</Bonus>
+  </Population>
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">

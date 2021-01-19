@@ -37,7 +37,6 @@
 		<Territory>own neutral</Territory>
 	</BuildRestrictions>
 	<Cost>
-		<PopulationBonus>5</PopulationBonus>
 		<BuildTime>100</BuildTime>
 		<Resources>
 			<wood>200</wood>
@@ -66,6 +65,9 @@
 	<Obstruction>
 		<Static width="14.0" depth="14.0"/>
 	</Obstruction>
+	<Population>
+		<Bonus>5</Bonus>
+	</Population>
 	<ProductionQueue>
 		<Entities datatype="tokens">
 			units/{civ}/infantry_swordsman_b_house

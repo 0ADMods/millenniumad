@@ -7,9 +7,9 @@
   <Obstruction>
     <Static width="11" depth="18"/>
   </Obstruction>	
-	<Cost>
-		<PopulationBonus>2</PopulationBonus>
-	</Cost>
+  <Population>
+    <Bonus>2</Bonus>
+  </Population>
 	<Identity>
 		<Civ>caro</Civ>
 	</Identity>

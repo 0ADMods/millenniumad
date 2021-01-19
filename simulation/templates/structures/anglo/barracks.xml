@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
-  <Cost>
-    <PopulationBonus>8</PopulationBonus>
-  </Cost>
   <Footprint>
     <Square width="26.0" depth="22.0"/>
     <Height>5.0</Height>
@@ -18,6 +15,9 @@
   <Obstruction>
     <Static width="24.0" depth="20.0"/>
   </Obstruction>
+  <Population>
+    <Bonus>8</Bonus>
+  </Population>
   <ProductionQueue>
     <Entities datatype="tokens">s
       units/{civ}/champion_infantry_barracks
