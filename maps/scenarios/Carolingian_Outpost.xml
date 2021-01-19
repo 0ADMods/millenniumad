@@ -180,14 +180,14 @@
 			<Actor seed="55986"/>
 		</Entity>
 		<Entity uid="27">
-			<Template>other/bridge_wooden</Template>
+			<Template>structures/bridge_wooden</Template>
 			<Player>0</Player>
 			<Position x="356.53934" z="42.94271"/>
 			<Orientation y="-2.39486"/>
 			<Actor seed="45194"/>
 		</Entity>
 		<Entity uid="28">
-			<Template>other/bridge_wooden</Template>
+			<Template>structures/bridge_wooden</Template>
 			<Player>0</Player>
 			<Position x="362.99894" z="48.18543"/>
 			<Orientation y="0.8033"/>
