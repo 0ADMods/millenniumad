@@ -14,23 +14,7 @@
 			"Type": "peace"
 		}
 	],
-	"Factions": [
-		{
-			"Name": "Carolingians",
-			"Description": "The inhabitants of France.",
-			"Technologies": [],
-			"Heroes": [
-				{
-					"Name": "Charlemagne"
-				}
-			]
-		}
-	],
 	"CivBonuses": [
-		{
-			"Name": "Palace",
-			"Description": "Carolingians can build a special building that generates metal, trains heroes and builds siege weapons."
-		},
 		{
 			"Name": "Improved Logistics",
 			"Description": "Workers +5 resource capacity."
@@ -41,8 +25,6 @@
 			"Description": "Walls −10% build time and −10% health."
 		}
 	],
-	"TeamBonuses": [],
-	"Structures": [],
 	"WallSets": [
 		"structures/wallset_palisade",
 		"structures/caro/wallset_stone"

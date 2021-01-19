@@ -22,25 +22,6 @@
 			"Type": "peace"
 		}
 	],
-	"Factions": [
-		{
-			"Name": "Anglo-Saxons",
-			"Description": "N/A",
-			"Technologies": [
-				{
-					"Name": "Thingstead"
-				}
-			],
-			"Heroes": [
-				{
-					"Name": "Offa of Mercia"
-				},
-				{
-					"Name": "Alfred the Great"
-				}
-			]
-		}
-	],
 	"CivBonuses": [
 		{
 			"Name": "Fertile Land",
@@ -60,8 +41,6 @@
 			"Description": "Wall segments −20% build time and −20% health."
 		}
 	],
-	"TeamBonuses": [],
-	"Structures": [],
 	"WallSets": [
 		"structures/wallset_palisade",
 		"structures/anglo/wallset_stone"

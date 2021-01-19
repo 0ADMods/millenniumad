@@ -14,33 +14,6 @@
 			"Type": "peace"
 		}
 	],
-	"Factions": [
-		{
-			"Name": "Norse",
-			"Description": "The inhabitants of Scandinavia.",
-			"Technologies": [
-				{
-					"Name": "Clinker Construction",
-					"History": "This technique was developed by the Norse and is a method of boat-building where the edges of hull planks overlap. With this technology, boats could be made less heavy.",
-					"Description": "Ships +10% movement speed."
-				}
-			],
-			"Heroes": [
-				{
-					"Name": "Erik the Red",
-					"History": "Erik Thorvaldsson, better known as Erik the Red because of his hair color, was the founder of the first Norse settlement in Greenland. His son was Leif Erikson, the famous explorer."
-				},
-				{
-					"Name": "Ivar the Boneless",
-					"History": "Ivar the Boneless, son of Ragnar Lothbrok, was a Norse warlord and one of the commanders of the Great Heathen Army which invaded the Anglo-Saxon kingdoms of England. Later he founded the Uí Ímair dynasty, which dominated the Irish Sea during the Viking Age."
-				},
-				{
-					"Name": "Hastein",
-					"History": "Hastein was a notable Norse Chieftain that made several raiding voyages during the late 9th century. He's particularly known for his raids in the Mediterranean area."
-				}
-			]
-		}
-	],
 	"CivBonuses": [
 		{
 			"Name": "Thralls",
@@ -52,8 +25,6 @@
 			"Description": "Walls −20% build time and −20% health."
 		}
 	],
-	"TeamBonuses": [],
-	"Structures": [],
 	"WallSets": [
 		"structures/wallset_palisade",
 		"structures/norse/wallset_stone"

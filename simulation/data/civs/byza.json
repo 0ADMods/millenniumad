@@ -22,14 +22,6 @@
 			"Type": "peace"
 		}
 	],
-	"Factions": [
-		{
-			"Name": "Byzantines",
-			"Description": "The Eastern Roman Empire.",
-			"Technologies": [],
-			"Heroes": []
-		}
-	],
 	"CivBonuses": [
 		{
 			"Name": "Byzantine Walls",
@@ -37,8 +29,6 @@
 			"Description": "Two sets of city walls can be built."
 		}
 	],
-	"TeamBonuses": [],
-	"Structures": [],
 	"WallSets": [
 		"structures/wallset_palisade",
 		"structures/byza/wallset_stone",
