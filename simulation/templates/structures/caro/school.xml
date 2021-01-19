@@ -10,6 +10,7 @@
 	</Health>
   <Identity>
     <Civ>caro</Civ>
+    <Classes datatype="tokens">CivSpecific</Classes>
     <SpecificName>Lorsch Abbey</SpecificName>
   </Identity>
   <Population>

@@ -18,6 +18,7 @@
   </Health>
   <Identity>
     <Civ>umay</Civ>
+    <Classes datatype="tokens">CivSpecific</Classes>
     <GenericName>Military Camp</GenericName>
     <SpecificName></SpecificName>
     <Tooltip></Tooltip>

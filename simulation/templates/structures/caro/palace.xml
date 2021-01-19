@@ -26,7 +26,7 @@
   <Identity>
     <Civ>caro</Civ>
     <GenericName>Carolingian Palace</GenericName>
-    <Classes datatype="tokens">Palace Apadana</Classes>
+    <Classes datatype="tokens">CivSpecific Palace Apadana</Classes>
     <Icon>structures/palace.png</Icon>
     <Tooltip>Gain a trickle of metal resources. Train Carolingian heroes and Siege Equipment.</Tooltip>
   </Identity>

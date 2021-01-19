@@ -6,6 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>umay</Civ>
+    <Classes datatype="tokens">CivSpecific</Classes>
     <Tooltip></Tooltip>
   </Identity>
   <Obstruction>
