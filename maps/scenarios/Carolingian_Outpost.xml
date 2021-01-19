@@ -84,77 +84,77 @@
 ]]></ScriptSettings>
 	<Entities>
 		<Entity uid="11">
-			<Template>structures/caro_barracks</Template>
+			<Template>structures/caro/barracks</Template>
 			<Player>1</Player>
 			<Position x="313.55732" z="132.75828"/>
 			<Orientation y="-2.38857"/>
 			<Actor seed="36416"/>
 		</Entity>
 		<Entity uid="12">
-			<Template>structures/caro_forge</Template>
+			<Template>structures/caro/forge</Template>
 			<Player>1</Player>
 			<Position x="252.40848" z="88.53951"/>
 			<Orientation y="0.8224"/>
 			<Actor seed="49062"/>
 		</Entity>
 		<Entity uid="13">
-			<Template>structures/caro_civil_centre</Template>
+			<Template>structures/caro/civil_centre</Template>
 			<Player>1</Player>
 			<Position x="270.61677" z="124.74268"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="57902"/>
 		</Entity>
 		<Entity uid="14">
-			<Template>structures/caro_barracks</Template>
+			<Template>structures/caro/barracks</Template>
 			<Player>1</Player>
 			<Position x="324.32203" z="122.23801"/>
 			<Orientation y="-2.38857"/>
 			<Actor seed="36416"/>
 		</Entity>
 		<Entity uid="15">
-			<Template>structures/caro_farmstead</Template>
+			<Template>structures/caro/farmstead</Template>
 			<Player>1</Player>
 			<Position x="297.41834" z="150.31788"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="26098"/>
 		</Entity>
 		<Entity uid="16">
-			<Template>structures/caro_house</Template>
+			<Template>structures/caro/house</Template>
 			<Player>1</Player>
 			<Position x="331.86368" z="104.38474"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="58094"/>
 		</Entity>
 		<Entity uid="17">
-			<Template>structures/caro_house</Template>
+			<Template>structures/caro/house</Template>
 			<Player>1</Player>
 			<Position x="344.06131" z="115.54908"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="22600"/>
 		</Entity>
 		<Entity uid="18">
-			<Template>structures/caro_house</Template>
+			<Template>structures/caro/house</Template>
 			<Player>1</Player>
 			<Position x="356.66068" z="102.78785"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="61150"/>
 		</Entity>
 		<Entity uid="21">
-			<Template>structures/caro_special</Template>
+			<Template>structures/caro/special</Template>
 			<Player>1</Player>
 			<Position x="364.44535" z="80.31756"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="52598"/>
 		</Entity>
 		<Entity uid="22">
-			<Template>structures/caro_storehouse</Template>
+			<Template>structures/caro/storehouse</Template>
 			<Player>1</Player>
 			<Position x="322.35938" z="80.9667"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="54768"/>
 		</Entity>
 		<Entity uid="23">
-			<Template>units/caro_cavalry_spearman_b</Template>
+			<Template>units/caro/cavalry_spearman_b</Template>
 			<Player>1</Player>
 			<Position x="308.31733" z="99.4914"/>
 			<Orientation y="2.35621"/>
@@ -167,14 +167,14 @@
 			<Actor seed="49110"/>
 		</Entity>
 		<Entity uid="25">
-			<Template>structures/caro_house</Template>
+			<Template>structures/caro/house</Template>
 			<Player>1</Player>
 			<Position x="346.65986" z="91.10608"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="47286"/>
 		</Entity>
 		<Entity uid="26">
-			<Template>structures/caro_house</Template>
+			<Template>structures/caro/house</Template>
 			<Player>1</Player>
 			<Position x="250.95942" z="107.76105"/>
 			<Orientation y="2.35621"/>
@@ -2237,21 +2237,21 @@
 			<Actor seed="2586"/>
 		</Entity>
 		<Entity uid="345">
-			<Template>units/caro_cavalry_spearman_b</Template>
+			<Template>units/caro/cavalry_spearman_b</Template>
 			<Player>1</Player>
 			<Position x="309.83536" z="101.7013"/>
 			<Orientation y="-2.50196"/>
 			<Actor seed="16254"/>
 		</Entity>
 		<Entity uid="346">
-			<Template>units/caro_cavalry_spearman_b</Template>
+			<Template>units/caro/cavalry_spearman_b</Template>
 			<Player>1</Player>
 			<Position x="312.64771" z="103.36568"/>
 			<Orientation y="-2.15481"/>
 			<Actor seed="16254"/>
 		</Entity>
 		<Entity uid="347">
-			<Template>units/caro_cavalry_spearman_b</Template>
+			<Template>units/caro/cavalry_spearman_b</Template>
 			<Player>1</Player>
 			<Position x="316.56525" z="105.57276"/>
 			<Orientation y="-2.13686"/>

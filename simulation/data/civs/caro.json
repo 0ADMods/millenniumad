@@ -45,26 +45,26 @@
 	"Structures": [],
 	"WallSets": [
 		"structures/wallset_palisade",
-		"structures/caro_wallset_stone"
+		"structures/caro/wallset_stone"
 	],
 	"StartEntities": [
 		{
-			"Template": "structures/caro_civil_centre"
+			"Template": "structures/caro/civil_centre"
 		},
 		{
-			"Template": "units/caro_support_female_citizen",
+			"Template": "units/caro/support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/caro_infantry_archer_b",
+			"Template": "units/caro/infantry_archer_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/caro_infantry_spearman_b",
+			"Template": "units/caro/infantry_spearman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/caro_cavalry_spearman_b"
+			"Template": "units/caro/cavalry_spearman_b"
 		}
 	],
 	"Formations": [
@@ -95,9 +95,9 @@
 		"Louis the German"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_cavalry": "units/caro_cavalry_spearman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/caro_infantry_archer_b",
-		"skirmish/structures/default_house_10": "structures/{civ}_house"
+		"skirmish/units/default_cavalry": "units/caro/cavalry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/caro/infantry_archer_b",
+		"skirmish/structures/default_house_10": "structures/{civ}/house"
 	},
 	"SelectableInGameSetup": true
 }

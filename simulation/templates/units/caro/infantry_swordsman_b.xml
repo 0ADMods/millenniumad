@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/caro/special
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>caro</Civ>
+    <SelectionGroupName>units/caro/infantry_swordsman_b</SelectionGroupName>
+    <Icon>units/caro_infantry_swordsman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/caro/infantry_swordsman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/caro/infantry_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>

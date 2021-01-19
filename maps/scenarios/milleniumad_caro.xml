@@ -76,777 +76,777 @@
 ]]></ScriptSettings>
 	<Entities>
 		<Entity uid="11">
-			<Template>structures/caro_barracks</Template>
+			<Template>structures/caro/barracks</Template>
 			<Player>0</Player>
 			<Position x="255.4303" z="146.6356"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="8830"/>
 		</Entity>
 		<Entity uid="12">
-			<Template>structures/caro_forge</Template>
+			<Template>structures/caro/forge</Template>
 			<Player>0</Player>
 			<Position x="274.8971" z="161.06293"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37322"/>
 		</Entity>
 		<Entity uid="13">
-			<Template>structures/caro_civil_centre</Template>
+			<Template>structures/caro/civil_centre</Template>
 			<Player>0</Player>
 			<Position x="297.94535" z="182.02726"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="61930"/>
 		</Entity>
 		<Entity uid="14">
-			<Template>structures/caro_corral</Template>
+			<Template>structures/caro/corral</Template>
 			<Player>0</Player>
 			<Position x="277.11472" z="126.38985"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="62988"/>
 		</Entity>
 		<Entity uid="15">
-			<Template>structures/caro_defense_tower</Template>
+			<Template>structures/caro/defense_tower</Template>
 			<Player>0</Player>
 			<Position x="290.65296" z="135.05738"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="6114"/>
 		</Entity>
 		<Entity uid="16">
-			<Template>structures/caro_dock</Template>
+			<Template>structures/caro/dock</Template>
 			<Player>0</Player>
 			<Position x="315.81016" z="151.49601"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="29348"/>
 		</Entity>
 		<Entity uid="17">
-			<Template>structures/caro_farmstead</Template>
+			<Template>structures/caro/farmstead</Template>
 			<Player>0</Player>
 			<Position x="303.60282" z="108.131"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="45270"/>
 		</Entity>
 		<Entity uid="18">
-			<Template>structures/caro_field</Template>
+			<Template>structures/caro/field</Template>
 			<Player>0</Player>
 			<Position x="342.10981" z="181.65574"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="29090"/>
 		</Entity>
 		<Entity uid="19">
-			<Template>structures/caro_fortress</Template>
+			<Template>structures/caro/fortress</Template>
 			<Player>0</Player>
 			<Position x="250.35032" z="189.36213"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="13202"/>
 		</Entity>
 		<Entity uid="20">
-			<Template>structures/caro_house</Template>
+			<Template>structures/caro/house</Template>
 			<Player>0</Player>
 			<Position x="239.51075" z="131.67298"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48762"/>
 		</Entity>
 		<Entity uid="21">
-			<Template>structures/caro_house</Template>
+			<Template>structures/caro/house</Template>
 			<Player>0</Player>
 			<Position x="252.86902" z="118.49321"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="59018"/>
 		</Entity>
 		<Entity uid="22">
-			<Template>structures/caro_house</Template>
+			<Template>structures/caro/house</Template>
 			<Player>0</Player>
 			<Position x="267.01093" z="104.86199"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="22378"/>
 		</Entity>
 		<Entity uid="23">
-			<Template>structures/caro_house</Template>
+			<Template>structures/caro/house</Template>
 			<Player>0</Player>
 			<Position x="280.093" z="91.73014"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="53890"/>
 		</Entity>
 		<Entity uid="24">
-			<Template>structures/caro_house</Template>
+			<Template>structures/caro/house</Template>
 			<Player>0</Player>
 			<Position x="292.92615" z="79.2947"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="56684"/>
 		</Entity>
 		<Entity uid="25">
-			<Template>structures/caro_house</Template>
+			<Template>structures/caro/house</Template>
 			<Player>0</Player>
 			<Position x="316.58634" z="90.48131"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="6132"/>
 		</Entity>
 		<Entity uid="26">
-			<Template>structures/caro_house</Template>
+			<Template>structures/caro/house</Template>
 			<Player>0</Player>
 			<Position x="332.55195" z="112.51442"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="26342"/>
 		</Entity>
 		<Entity uid="27">
-			<Template>structures/caro_market</Template>
+			<Template>structures/caro/market</Template>
 			<Player>0</Player>
 			<Position x="218.36982" z="174.50757"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="13166"/>
 		</Entity>
 		<Entity uid="28">
-			<Template>structures/caro_outpost</Template>
+			<Template>structures/caro/outpost</Template>
 			<Player>0</Player>
 			<Position x="325.24265" z="128.0427"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="59106"/>
 		</Entity>
 		<Entity uid="29">
-			<Template>structures/caro_palace</Template>
+			<Template>structures/caro/palace</Template>
 			<Player>0</Player>
 			<Position x="267.7639" z="236.52417"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="9874"/>
 		</Entity>
 		<Entity uid="30">
-			<Template>structures/caro_range</Template>
+			<Template>structures/caro/range</Template>
 			<Player>0</Player>
 			<Position x="296.49534" z="267.3331"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="64064"/>
 		</Entity>
 		<Entity uid="31">
-			<Template>structures/caro_school</Template>
+			<Template>structures/caro/school</Template>
 			<Player>0</Player>
 			<Position x="352.36207" z="227.85495"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="57070"/>
 		</Entity>
 		<Entity uid="32">
-			<Template>structures/caro_sentry_tower</Template>
+			<Template>structures/caro/sentry_tower</Template>
 			<Player>0</Player>
 			<Position x="350.22883" z="139.29783"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="27142"/>
 		</Entity>
 		<Entity uid="33">
-			<Template>structures/caro_special</Template>
+			<Template>structures/caro/special</Template>
 			<Player>0</Player>
 			<Position x="324.87244" z="214.03492"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="53250"/>
 		</Entity>
 		<Entity uid="34">
-			<Template>structures/caro_stable</Template>
+			<Template>structures/caro/stable</Template>
 			<Player>0</Player>
 			<Position x="322.6045" z="290.92942"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="47628"/>
 		</Entity>
 		<Entity uid="35">
-			<Template>structures/caro_storehouse</Template>
+			<Template>structures/caro/storehouse</Template>
 			<Player>0</Player>
 			<Position x="373.68113" z="188.76456"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="45738"/>
 		</Entity>
 		<Entity uid="36">
-			<Template>structures/caro_temple</Template>
+			<Template>structures/caro/temple</Template>
 			<Player>0</Player>
 			<Position x="368.18448" z="278.98343"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="12832"/>
 		</Entity>
 		<Entity uid="37">
-			<Template>structures/caro_wall_gate</Template>
+			<Template>structures/caro/wall_gate</Template>
 			<Player>0</Player>
 			<Position x="399.29847" z="246.9535"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="6004"/>
 		</Entity>
 		<Entity uid="38">
-			<Template>structures/caro_wall_long</Template>
+			<Template>structures/caro/wall_long</Template>
 			<Player>0</Player>
 			<Position x="409.75901" z="231.72794"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="17334"/>
 		</Entity>
 		<Entity uid="39">
-			<Template>structures/caro_wall_medium</Template>
+			<Template>structures/caro/wall_medium</Template>
 			<Player>0</Player>
 			<Position x="415.65467" z="218.16169"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="14750"/>
 		</Entity>
 		<Entity uid="40">
-			<Template>structures/caro_wall_short</Template>
+			<Template>structures/caro/wall_short</Template>
 			<Player>0</Player>
 			<Position x="421.02253" z="205.19544"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="13320"/>
 		</Entity>
 		<Entity uid="41">
-			<Template>structures/caro_wall_tower</Template>
+			<Template>structures/caro/wall_tower</Template>
 			<Player>0</Player>
 			<Position x="386.16355" z="209.26374"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="14952"/>
 		</Entity>
 		<Entity uid="42">
-			<Template>structures/caro_wonder</Template>
+			<Template>structures/caro/wonder</Template>
 			<Player>0</Player>
 			<Position x="386.52659" z="338.87735"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="29372"/>
 		</Entity>
 		<Entity uid="43">
-			<Template>structures/caro_arsenal</Template>
+			<Template>structures/caro/arsenal</Template>
 			<Player>0</Player>
 			<Position x="263.3884" z="302.41639"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="27918"/>
 		</Entity>
 		<Entity uid="44">
-			<Template>units/caro_cavalry_archer_a</Template>
+			<Template>units/caro/cavalry_archer_a</Template>
 			<Player>0</Player>
 			<Position x="398.59202" z="185.49384"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="34072"/>
 		</Entity>
 		<Entity uid="48">
-			<Template>units/caro_cavalry_archer_a</Template>
+			<Template>units/caro/cavalry_archer_a</Template>
 			<Player>0</Player>
 			<Position x="400.27845" z="188.17475"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="28828"/>
 		</Entity>
 		<Entity uid="49">
-			<Template>units/caro_cavalry_archer_a</Template>
+			<Template>units/caro/cavalry_archer_a</Template>
 			<Player>0</Player>
 			<Position x="402.11799" z="190.27994"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="10930"/>
 		</Entity>
 		<Entity uid="50">
-			<Template>units/caro_cavalry_archer_b</Template>
+			<Template>units/caro/cavalry_archer_b</Template>
 			<Player>0</Player>
 			<Position x="402.98932" z="179.89948"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="49982"/>
 		</Entity>
 		<Entity uid="51">
-			<Template>units/caro_cavalry_archer_b</Template>
+			<Template>units/caro/cavalry_archer_b</Template>
 			<Player>0</Player>
 			<Position x="404.39368" z="181.15543"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="63034"/>
 		</Entity>
 		<Entity uid="52">
-			<Template>units/caro_cavalry_archer_b</Template>
+			<Template>units/caro/cavalry_archer_b</Template>
 			<Player>0</Player>
 			<Position x="405.84745" z="182.75962"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="38048"/>
 		</Entity>
 		<Entity uid="53">
-			<Template>units/caro_cavalry_archer_e</Template>
+			<Template>units/caro/cavalry_archer_e</Template>
 			<Player>0</Player>
 			<Position x="407.25525" z="174.98484"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="35404"/>
 		</Entity>
 		<Entity uid="54">
-			<Template>units/caro_cavalry_archer_e</Template>
+			<Template>units/caro/cavalry_archer_e</Template>
 			<Player>0</Player>
 			<Position x="408.80839" z="176.65592"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="60222"/>
 		</Entity>
 		<Entity uid="55">
-			<Template>units/caro_cavalry_archer_e</Template>
+			<Template>units/caro/cavalry_archer_e</Template>
 			<Player>0</Player>
 			<Position x="410.68631" z="178.36307"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="6538"/>
 		</Entity>
 		<Entity uid="57">
-			<Template>units/caro_cavalry_spearman_a</Template>
+			<Template>units/caro/cavalry_spearman_a</Template>
 			<Player>0</Player>
 			<Position x="416.8266" z="173.39466"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="52370"/>
 		</Entity>
 		<Entity uid="58">
-			<Template>units/caro_cavalry_spearman_a</Template>
+			<Template>units/caro/cavalry_spearman_a</Template>
 			<Player>0</Player>
 			<Position x="419.04258" z="175.87967"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="29430"/>
 		</Entity>
 		<Entity uid="59">
-			<Template>units/caro_cavalry_spearman_a</Template>
+			<Template>units/caro/cavalry_spearman_a</Template>
 			<Player>0</Player>
 			<Position x="421.19263" z="177.7635"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37444"/>
 		</Entity>
 		<Entity uid="60">
-			<Template>units/caro_cavalry_spearman_b</Template>
+			<Template>units/caro/cavalry_spearman_b</Template>
 			<Player>0</Player>
 			<Position x="420.961" z="167.29551"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="9316"/>
 		</Entity>
 		<Entity uid="61">
-			<Template>units/caro_cavalry_spearman_b</Template>
+			<Template>units/caro/cavalry_spearman_b</Template>
 			<Player>0</Player>
 			<Position x="422.77521" z="169.27131"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="18180"/>
 		</Entity>
 		<Entity uid="62">
-			<Template>units/caro_cavalry_spearman_b</Template>
+			<Template>units/caro/cavalry_spearman_b</Template>
 			<Player>0</Player>
 			<Position x="424.67402" z="171.62061"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="9736"/>
 		</Entity>
 		<Entity uid="63">
-			<Template>units/caro_cavalry_spearman_b</Template>
+			<Template>units/caro/cavalry_spearman_b</Template>
 			<Player>0</Player>
 			<Position x="427.17368" z="174.87592"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41528"/>
 		</Entity>
 		<Entity uid="64">
-			<Template>units/caro_cavalry_spearman_e</Template>
+			<Template>units/caro/cavalry_spearman_e</Template>
 			<Player>0</Player>
 			<Position x="424.99946" z="162.19889"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="53956"/>
 		</Entity>
 		<Entity uid="65">
-			<Template>units/caro_cavalry_spearman_e</Template>
+			<Template>units/caro/cavalry_spearman_e</Template>
 			<Player>0</Player>
 			<Position x="427.10077" z="164.63334"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="13950"/>
 		</Entity>
 		<Entity uid="66">
-			<Template>units/caro_cavalry_spearman_e</Template>
+			<Template>units/caro/cavalry_spearman_e</Template>
 			<Player>0</Player>
 			<Position x="428.71174" z="167.06565"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="5686"/>
 		</Entity>
 		<Entity uid="67">
-			<Template>units/caro_cavalry_spearman_e</Template>
+			<Template>units/caro/cavalry_spearman_e</Template>
 			<Player>0</Player>
 			<Position x="431.02524" z="169.76215"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="2760"/>
 		</Entity>
 		<Entity uid="68">
-			<Template>units/caro_support_trader</Template>
+			<Template>units/caro/support_trader</Template>
 			<Player>0</Player>
 			<Position x="391.81785" z="161.13755"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="60016"/>
 		</Entity>
 		<Entity uid="69">
-			<Template>units/caro_support_trader</Template>
+			<Template>units/caro/support_trader</Template>
 			<Player>0</Player>
 			<Position x="393.07663" z="163.18558"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="5144"/>
 		</Entity>
 		<Entity uid="70">
-			<Template>units/caro_support_trader</Template>
+			<Template>units/caro/support_trader</Template>
 			<Player>0</Player>
 			<Position x="394.38263" z="165.007"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="9964"/>
 		</Entity>
 		<Entity uid="71">
-			<Template>units/caro_support_healer_e</Template>
+			<Template>units/caro/support_healer_e</Template>
 			<Player>0</Player>
 			<Position x="393.68815" z="155.44642"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="52650"/>
 		</Entity>
 		<Entity uid="72">
-			<Template>units/caro_support_healer_e</Template>
+			<Template>units/caro/support_healer_e</Template>
 			<Player>0</Player>
 			<Position x="395.00791" z="156.63855"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="42500"/>
 		</Entity>
 		<Entity uid="73">
-			<Template>units/caro_support_healer_e</Template>
+			<Template>units/caro/support_healer_e</Template>
 			<Player>0</Player>
 			<Position x="396.33252" z="157.96796"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="62672"/>
 		</Entity>
 		<Entity uid="74">
-			<Template>units/caro_support_healer_b</Template>
+			<Template>units/caro/support_healer_b</Template>
 			<Player>0</Player>
 			<Position x="396.17496" z="153.63736"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3162"/>
 		</Entity>
 		<Entity uid="75">
-			<Template>units/caro_support_healer_b</Template>
+			<Template>units/caro/support_healer_b</Template>
 			<Player>0</Player>
 			<Position x="397.68985" z="154.93705"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="51256"/>
 		</Entity>
 		<Entity uid="76">
-			<Template>units/caro_support_healer_b</Template>
+			<Template>units/caro/support_healer_b</Template>
 			<Player>0</Player>
 			<Position x="398.55158" z="156.42914"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="12798"/>
 		</Entity>
 		<Entity uid="77">
-			<Template>units/caro_support_healer_a</Template>
+			<Template>units/caro/support_healer_a</Template>
 			<Player>0</Player>
 			<Position x="398.63068" z="151.6573"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="20088"/>
 		</Entity>
 		<Entity uid="78">
-			<Template>units/caro_support_healer_a</Template>
+			<Template>units/caro/support_healer_a</Template>
 			<Player>0</Player>
 			<Position x="399.89426" z="153.34238"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="62812"/>
 		</Entity>
 		<Entity uid="79">
-			<Template>units/caro_support_healer_a</Template>
+			<Template>units/caro/support_healer_a</Template>
 			<Player>0</Player>
 			<Position x="400.81965" z="154.58368"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="38548"/>
 		</Entity>
 		<Entity uid="80">
-			<Template>units/caro_support_female_citizen_house</Template>
+			<Template>units/caro/support_female_citizen_house</Template>
 			<Player>0</Player>
 			<Position x="399.469" z="161.59861"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="24400"/>
 		</Entity>
 		<Entity uid="81">
-			<Template>units/caro_support_female_citizen_house</Template>
+			<Template>units/caro/support_female_citizen_house</Template>
 			<Player>0</Player>
 			<Position x="400.7374" z="162.76948"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="4150"/>
 		</Entity>
 		<Entity uid="82">
-			<Template>units/caro_support_female_citizen_house</Template>
+			<Template>units/caro/support_female_citizen_house</Template>
 			<Player>0</Player>
 			<Position x="401.85157" z="164.27091"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11360"/>
 		</Entity>
 		<Entity uid="83">
-			<Template>units/caro_support_female_citizen</Template>
+			<Template>units/caro/support_female_citizen</Template>
 			<Player>0</Player>
 			<Position x="401.15122" z="159.3892"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="40286"/>
 		</Entity>
 		<Entity uid="84">
-			<Template>units/caro_support_female_citizen</Template>
+			<Template>units/caro/support_female_citizen</Template>
 			<Player>0</Player>
 			<Position x="402.2274" z="160.62375"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="46064"/>
 		</Entity>
 		<Entity uid="85">
-			<Template>units/caro_support_female_citizen</Template>
+			<Template>units/caro/support_female_citizen</Template>
 			<Player>0</Player>
 			<Position x="403.52411" z="161.94709"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="32262"/>
 		</Entity>
 		<Entity uid="86">
-			<Template>units/caro_ship_trireme</Template>
+			<Template>units/caro/ship_trireme</Template>
 			<Player>0</Player>
 			<Position x="455.6475" z="213.3779"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="58042"/>
 		</Entity>
 		<Entity uid="87">
-			<Template>units/caro_ship_fishing</Template>
+			<Template>units/caro/ship_fishing</Template>
 			<Player>0</Player>
 			<Position x="441.29954" z="206.04853"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="690"/>
 		</Entity>
 		<Entity uid="88">
-			<Template>units/caro_mechanical_siege_trebuchet_unpacked</Template>
+			<Template>units/caro/mechanical_siege_trebuchet_unpacked</Template>
 			<Player>0</Player>
 			<Position x="441.56714" z="177.26337"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="36358"/>
 		</Entity>
 		<Entity uid="89">
-			<Template>units/caro_mechanical_siege_trebuchet_packed</Template>
+			<Template>units/caro/mechanical_siege_trebuchet_packed</Template>
 			<Player>0</Player>
 			<Position x="450.61316" z="186.97666"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="44590"/>
 		</Entity>
 		<Entity uid="90">
-			<Template>units/caro_mechanical_siege_traction_trebuchet_unpacked</Template>
+			<Template>units/caro/mechanical_siege_traction_trebuchet_unpacked</Template>
 			<Player>0</Player>
 			<Position x="443.5315" z="158.67356"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="54220"/>
 		</Entity>
 		<Entity uid="91">
-			<Template>units/caro_mechanical_siege_traction_trebuchet_packed</Template>
+			<Template>units/caro/mechanical_siege_traction_trebuchet_packed</Template>
 			<Player>0</Player>
 			<Position x="455.16285" z="163.42484"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3484"/>
 		</Entity>
 		<Entity uid="92">
-			<Template>units/caro_mechanical_siege_ram</Template>
+			<Template>units/caro/mechanical_siege_ram</Template>
 			<Player>0</Player>
 			<Position x="459.63099" z="176.0478"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="104"/>
 		</Entity>
 		<Entity uid="93">
-			<Template>units/caro_infantry_swordsman_e</Template>
+			<Template>units/caro/infantry_swordsman_e</Template>
 			<Player>0</Player>
 			<Position x="408.33185" z="191.628"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="21136"/>
 		</Entity>
 		<Entity uid="94">
-			<Template>units/caro_infantry_swordsman_e</Template>
+			<Template>units/caro/infantry_swordsman_e</Template>
 			<Player>0</Player>
 			<Position x="410.31333" z="192.46497"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="52054"/>
 		</Entity>
 		<Entity uid="95">
-			<Template>units/caro_infantry_swordsman_e</Template>
+			<Template>units/caro/infantry_swordsman_e</Template>
 			<Player>0</Player>
 			<Position x="412.03537" z="193.48572"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="25474"/>
 		</Entity>
 		<Entity uid="96">
-			<Template>units/caro_infantry_swordsman_b</Template>
+			<Template>units/caro/infantry_swordsman_b</Template>
 			<Player>0</Player>
 			<Position x="410.70908" z="188.6344"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="1824"/>
 		</Entity>
 		<Entity uid="97">
-			<Template>units/caro_infantry_swordsman_b</Template>
+			<Template>units/caro/infantry_swordsman_b</Template>
 			<Player>0</Player>
 			<Position x="412.39759" z="189.34803"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="4044"/>
 		</Entity>
 		<Entity uid="98">
-			<Template>units/caro_infantry_swordsman_b</Template>
+			<Template>units/caro/infantry_swordsman_b</Template>
 			<Player>0</Player>
 			<Position x="414.50724" z="190.72129"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="34"/>
 		</Entity>
 		<Entity uid="99">
-			<Template>units/caro_infantry_swordsman_a</Template>
+			<Template>units/caro/infantry_swordsman_a</Template>
 			<Player>0</Player>
 			<Position x="412.23527" z="184.46412"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="14930"/>
 		</Entity>
 		<Entity uid="100">
-			<Template>units/caro_infantry_swordsman_a</Template>
+			<Template>units/caro/infantry_swordsman_a</Template>
 			<Player>0</Player>
 			<Position x="414.13297" z="185.57007"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="36750"/>
 		</Entity>
 		<Entity uid="101">
-			<Template>units/caro_infantry_swordsman_a</Template>
+			<Template>units/caro/infantry_swordsman_a</Template>
 			<Player>0</Player>
 			<Position x="415.98002" z="186.7753"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="60770"/>
 		</Entity>
 		<Entity uid="102">
-			<Template>units/caro_infantry_spearman_e</Template>
+			<Template>units/caro/infantry_spearman_e</Template>
 			<Player>0</Player>
 			<Position x="386.4838" z="178.53644"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="43096"/>
 		</Entity>
 		<Entity uid="103">
-			<Template>units/caro_infantry_spearman_e</Template>
+			<Template>units/caro/infantry_spearman_e</Template>
 			<Player>0</Player>
 			<Position x="388.31113" z="179.9893"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="29466"/>
 		</Entity>
 		<Entity uid="104">
-			<Template>units/caro_infantry_spearman_e</Template>
+			<Template>units/caro/infantry_spearman_e</Template>
 			<Player>0</Player>
 			<Position x="389.79972" z="181.69193"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="6752"/>
 		</Entity>
 		<Entity uid="105">
-			<Template>units/caro_infantry_spearman_b</Template>
+			<Template>units/caro/infantry_spearman_b</Template>
 			<Player>0</Player>
 			<Position x="388.7924" z="174.71552"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37988"/>
 		</Entity>
 		<Entity uid="106">
-			<Template>units/caro_infantry_spearman_b</Template>
+			<Template>units/caro/infantry_spearman_b</Template>
 			<Player>0</Player>
 			<Position x="390.30726" z="176.30814"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="26618"/>
 		</Entity>
 		<Entity uid="107">
-			<Template>units/caro_infantry_spearman_b</Template>
+			<Template>units/caro/infantry_spearman_b</Template>
 			<Player>0</Player>
 			<Position x="392.111" z="178.08277"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="39206"/>
 		</Entity>
 		<Entity uid="108">
-			<Template>units/caro_infantry_spearman_a</Template>
+			<Template>units/caro/infantry_spearman_a</Template>
 			<Player>0</Player>
 			<Position x="391.28266" z="171.79291"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="52"/>
 		</Entity>
 		<Entity uid="109">
-			<Template>units/caro_infantry_spearman_a</Template>
+			<Template>units/caro/infantry_spearman_a</Template>
 			<Player>0</Player>
 			<Position x="392.72822" z="172.88254"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="6688"/>
 		</Entity>
 		<Entity uid="110">
-			<Template>units/caro_infantry_spearman_a</Template>
+			<Template>units/caro/infantry_spearman_a</Template>
 			<Player>0</Player>
 			<Position x="394.19745" z="174.29548"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="53890"/>
 		</Entity>
 		<Entity uid="111">
-			<Template>units/caro_infantry_archer_e</Template>
+			<Template>units/caro/infantry_archer_e</Template>
 			<Player>0</Player>
 			<Position x="374.7642" z="172.82456"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48652"/>
 		</Entity>
 		<Entity uid="112">
-			<Template>units/caro_infantry_archer_e</Template>
+			<Template>units/caro/infantry_archer_e</Template>
 			<Player>0</Player>
 			<Position x="376.70817" z="174.11658"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="7634"/>
 		</Entity>
 		<Entity uid="113">
-			<Template>units/caro_infantry_archer_e</Template>
+			<Template>units/caro/infantry_archer_e</Template>
 			<Player>0</Player>
 			<Position x="378.15998" z="175.20005"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="26680"/>
 		</Entity>
 		<Entity uid="114">
-			<Template>units/caro_infantry_archer_b</Template>
+			<Template>units/caro/infantry_archer_b</Template>
 			<Player>0</Player>
 			<Position x="377.26087" z="169.6326"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="42318"/>
 		</Entity>
 		<Entity uid="115">
-			<Template>units/caro_infantry_archer_b</Template>
+			<Template>units/caro/infantry_archer_b</Template>
 			<Player>0</Player>
 			<Position x="378.67627" z="170.56199"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="29202"/>
 		</Entity>
 		<Entity uid="116">
-			<Template>units/caro_infantry_archer_b</Template>
+			<Template>units/caro/infantry_archer_b</Template>
 			<Player>0</Player>
 			<Position x="380.55097" z="171.79291"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="19938"/>
 		</Entity>
 		<Entity uid="117">
-			<Template>units/caro_infantry_archer_a</Template>
+			<Template>units/caro/infantry_archer_a</Template>
 			<Player>0</Player>
 			<Position x="380.59311" z="166.09388"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="45430"/>
 		</Entity>
 		<Entity uid="118">
-			<Template>units/caro_infantry_archer_a</Template>
+			<Template>units/caro/infantry_archer_a</Template>
 			<Player>0</Player>
 			<Position x="381.88306" z="167.25995"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="17292"/>
 		</Entity>
 		<Entity uid="119">
-			<Template>units/caro_infantry_archer_a</Template>
+			<Template>units/caro/infantry_archer_a</Template>
 			<Player>0</Player>
 			<Position x="383.44486" z="168.40445"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="8228"/>
 		</Entity>
 		<Entity uid="120">
-			<Template>units/caro_hero_charlemagne_infantry</Template>
+			<Template>units/caro/hero_charlemagne_infantry</Template>
 			<Player>0</Player>
 			<Position x="408.71442" z="164.2804"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="21414"/>
 		</Entity>
 		<Entity uid="121">
-			<Template>units/caro_hero_charlemagne_infantry</Template>
+			<Template>units/caro/hero_charlemagne_infantry</Template>
 			<Player>0</Player>
 			<Position x="410.25235" z="165.79468"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="6130"/>
 		</Entity>
 		<Entity uid="122">
-			<Template>units/caro_hero_charlemagne_infantry</Template>
+			<Template>units/caro/hero_charlemagne_infantry</Template>
 			<Player>0</Player>
 			<Position x="411.98624" z="167.05497"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="17026"/>
 		</Entity>
 		<Entity uid="123">
-			<Template>units/caro_hero_charlemagne</Template>
+			<Template>units/caro/hero_charlemagne</Template>
 			<Player>0</Player>
 			<Position x="410.98554" z="154.75165"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48820"/>
 		</Entity>
 		<Entity uid="124">
-			<Template>units/caro_hero_charlemagne</Template>
+			<Template>units/caro/hero_charlemagne</Template>
 			<Player>0</Player>
 			<Position x="413.62613" z="157.06275"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="2544"/>
 		</Entity>
 		<Entity uid="125">
-			<Template>units/caro_hero_charlemagne</Template>
+			<Template>units/caro/hero_charlemagne</Template>
 			<Player>0</Player>
 			<Position x="416.14234" z="159.47376"/>
 			<Orientation y="2.35621"/>

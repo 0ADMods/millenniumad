@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Attack>
+    <Melee>
+      <Bonuses>
+        <BonusBuilding>
+          <Classes>Structure</Classes>
+          <Multiplier>1.1</Multiplier>
+        </BonusBuilding>
+      </Bonuses>
+    </Melee>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      structures/caro/special
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>caro</Civ>
+    <SelectionGroupName>units/caro/infantry_spearman_b</SelectionGroupName>
+    <Icon>units/caro_infantry_spearman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/caro/infantry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/caro/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>
