@@ -6552,63 +6552,63 @@
 			<Actor seed="42414"/>
 		</Entity>
 		<Entity uid="14507">
-			<Template>gaia/geology_stonemine_temperate_quarry</Template>
+			<Template>gaia/rock/temperate_large</Template>
 			<Player>0</Player>
 			<Position x="125.07863" z="297.49686"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="33978"/>
 		</Entity>
 		<Entity uid="14508">
-			<Template>gaia/geology_stonemine_temperate_quarry</Template>
+			<Template>gaia/rock/temperate_large</Template>
 			<Player>0</Player>
 			<Position x="115.73061" z="314.96668"/>
 			<Orientation y="2.48185"/>
 			<Actor seed="59730"/>
 		</Entity>
 		<Entity uid="14509">
-			<Template>gaia/geology_stonemine_temperate_quarry</Template>
+			<Template>gaia/rock/temperate_large</Template>
 			<Player>0</Player>
 			<Position x="406.18787" z="512.33191"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="29650"/>
 		</Entity>
 		<Entity uid="14510">
-			<Template>gaia/geology_stonemine_temperate_formation</Template>
+			<Template>gaia/rock/temperate_large_02</Template>
 			<Player>0</Player>
 			<Position x="444.51786" z="769.98591"/>
 			<Orientation y="-2.3942"/>
 			<Actor seed="25574"/>
 		</Entity>
 		<Entity uid="14511">
-			<Template>gaia/geology_stonemine_temperate_formation</Template>
+			<Template>gaia/rock/temperate_large_02</Template>
 			<Player>0</Player>
 			<Position x="434.5753" z="654.8957"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="53412"/>
 		</Entity>
 		<Entity uid="14512">
-			<Template>gaia/geology_stonemine_temperate_formation</Template>
+			<Template>gaia/rock/temperate_large_02</Template>
 			<Player>0</Player>
 			<Position x="536.4347" z="774.73987"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11232"/>
 		</Entity>
 		<Entity uid="14514">
-			<Template>gaia/geology_stonemine_temperate_formation</Template>
+			<Template>gaia/rock/temperate_large_02</Template>
 			<Player>0</Player>
 			<Position x="533.63593" z="791.13514"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="14822"/>
 		</Entity>
 		<Entity uid="14515">
-			<Template>gaia/geology_stonemine_temperate_formation</Template>
+			<Template>gaia/rock/temperate_large_02</Template>
 			<Player>0</Player>
 			<Position x="525.51355" z="836.89362"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11042"/>
 		</Entity>
 		<Entity uid="14516">
-			<Template>gaia/geology_stone_greek</Template>
+			<Template>gaia/rock/greece_small</Template>
 			<Player>0</Player>
 			<Position x="312.84702" z="684.87293"/>
 			<Orientation y="-2.41463"/>
@@ -8103,35 +8103,35 @@
 			<Actor seed="45876"/>
 		</Entity>
 		<Entity uid="20727">
-			<Template>gaia/geology_stonemine_temperate_formation</Template>
+			<Template>gaia/rock/temperate_large_02</Template>
 			<Player>0</Player>
 			<Position x="742.70893" z="987.97425"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="350"/>
 		</Entity>
 		<Entity uid="20728">
-			<Template>gaia/geology_stonemine_temperate_formation</Template>
+			<Template>gaia/rock/temperate_large_02</Template>
 			<Player>0</Player>
 			<Position x="758.41553" z="998.6819"/>
 			<Orientation y="2.89306"/>
 			<Actor seed="7028"/>
 		</Entity>
 		<Entity uid="20729">
-			<Template>gaia/geology_stonemine_temperate_formation</Template>
+			<Template>gaia/rock/temperate_large_02</Template>
 			<Player>0</Player>
 			<Position x="776.68683" z="998.90125"/>
 			<Orientation y="-2.68154"/>
 			<Actor seed="50972"/>
 		</Entity>
 		<Entity uid="20730">
-			<Template>gaia/geology_stonemine_temperate_quarry</Template>
+			<Template>gaia/rock/temperate_large</Template>
 			<Player>0</Player>
 			<Position x="754.53864" z="982.7433"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37564"/>
 		</Entity>
 		<Entity uid="20731">
-			<Template>gaia/geology_stonemine_temperate_quarry</Template>
+			<Template>gaia/rock/temperate_large</Template>
 			<Player>0</Player>
 			<Position x="771.1891" z="992.12317"/>
 			<Orientation y="-1.29624"/>
@@ -18280,42 +18280,42 @@
 			<Actor seed="51068"/>
 		</Entity>
 		<Entity uid="23807">
-			<Template>gaia/geology_stonemine_temperate_quarry</Template>
+			<Template>gaia/rock/temperate_large</Template>
 			<Player>0</Player>
 			<Position x="471.12269" z="1192.85486"/>
 			<Orientation y="-1.14338"/>
 			<Actor seed="59632"/>
 		</Entity>
 		<Entity uid="23808">
-			<Template>gaia/geology_stonemine_temperate_quarry</Template>
+			<Template>gaia/rock/temperate_large</Template>
 			<Player>0</Player>
 			<Position x="526.3584" z="903.96119"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="12786"/>
 		</Entity>
 		<Entity uid="23809">
-			<Template>gaia/geology_metal_temperate_slabs</Template>
+			<Template>gaia/ore/temperate_large</Template>
 			<Player>0</Player>
 			<Position x="436.52201" z="878.39197"/>
 			<Orientation y="-1.35247"/>
 			<Actor seed="47406"/>
 		</Entity>
 		<Entity uid="23810">
-			<Template>gaia/geology_metal_temperate_slabs</Template>
+			<Template>gaia/ore/temperate_large</Template>
 			<Player>0</Player>
 			<Position x="328.31348" z="692.92334"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="55432"/>
 		</Entity>
 		<Entity uid="23811">
-			<Template>gaia/geology_metal_temperate_slabs</Template>
+			<Template>gaia/ore/temperate_large</Template>
 			<Player>0</Player>
 			<Position x="448.85364" z="622.91553"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="31258"/>
 		</Entity>
 		<Entity uid="23812">
-			<Template>gaia/geology_metal_temperate_slabs</Template>
+			<Template>gaia/ore/temperate_large</Template>
 			<Player>0</Player>
 			<Position x="70.94748" z="491.64045"/>
 			<Orientation y="2.8098"/>
@@ -25573,35 +25573,35 @@
 			<Actor seed="58202"/>
 		</Entity>
 		<Entity uid="32792">
-			<Template>gaia/geology_metal_temperate_slabs</Template>
+			<Template>gaia/ore/temperate_large</Template>
 			<Player>0</Player>
 			<Position x="186.18088" z="475.7718"/>
 			<Orientation y="-2.82038"/>
 			<Actor seed="38914"/>
 		</Entity>
 		<Entity uid="32793">
-			<Template>gaia/geology_metal_temperate_slabs</Template>
+			<Template>gaia/ore/temperate_large</Template>
 			<Player>0</Player>
 			<Position x="146.76975" z="847.198"/>
 			<Orientation y="2.56939"/>
 			<Actor seed="3190"/>
 		</Entity>
 		<Entity uid="32794">
-			<Template>gaia/geology_metal_temperate_slabs</Template>
+			<Template>gaia/ore/temperate_large</Template>
 			<Player>0</Player>
 			<Position x="233.08454" z="982.09351"/>
 			<Orientation y="2.92438"/>
 			<Actor seed="51482"/>
 		</Entity>
 		<Entity uid="32795">
-			<Template>gaia/geology_metal_temperate_slabs</Template>
+			<Template>gaia/ore/temperate_large</Template>
 			<Player>0</Player>
 			<Position x="322.2028" z="909.74878"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="57864"/>
 		</Entity>
 		<Entity uid="32796">
-			<Template>gaia/geology_metal_temperate_slabs</Template>
+			<Template>gaia/ore/temperate_large</Template>
 			<Player>0</Player>
 			<Position x="609.33771" z="1079.73963"/>
 			<Orientation y="0.0659"/>
@@ -30237,49 +30237,49 @@
 			<Actor seed="45558"/>
 		</Entity>
 		<Entity uid="33508">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="176.08353" z="497.61094"/>
 			<Orientation y="1.64861"/>
 			<Actor seed="1978"/>
 		</Entity>
 		<Entity uid="33510">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="173.91718" z="749.56623"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="10822"/>
 		</Entity>
 		<Entity uid="33511">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="164.52958" z="894.98414"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="40998"/>
 		</Entity>
 		<Entity uid="33512">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="403.73096" z="1012.87775"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="6214"/>
 		</Entity>
 		<Entity uid="33513">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="639.17914" z="1137.34546"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="26576"/>
 		</Entity>
 		<Entity uid="33514">
-			<Template>gaia/geology_metal_mediterranean_slabs</Template>
+			<Template>gaia/ore/mediterranean_large</Template>
 			<Player>0</Player>
 			<Position x="754.28364" z="1065.86597"/>
 			<Orientation y="-1.72492"/>
 			<Actor seed="30380"/>
 		</Entity>
 		<Entity uid="33515">
-			<Template>gaia/geology_metal_mediterranean_slabs</Template>
+			<Template>gaia/ore/mediterranean_large</Template>
 			<Player>0</Player>
 			<Position x="750.95307" z="1025.69056"/>
 			<Orientation y="0.04358"/>
@@ -35662,14 +35662,14 @@
 			<Actor seed="57584"/>
 		</Entity>
 		<Entity uid="41137">
-			<Template>gaia/geology_stonemine_medit_quarry</Template>
+			<Template>gaia/rock/mediterranean_large</Template>
 			<Player>0</Player>
 			<Position x="991.61677" z="951.0412"/>
 			<Orientation y="-1.65496"/>
 			<Actor seed="62304"/>
 		</Entity>
 		<Entity uid="41139">
-			<Template>gaia/geology_stonemine_medit_quarry</Template>
+			<Template>gaia/rock/mediterranean_large</Template>
 			<Player>0</Player>
 			<Position x="1015.88855" z="981.46845"/>
 			<Orientation y="2.35621"/>
@@ -53666,119 +53666,119 @@
 			<Actor seed="60286"/>
 		</Entity>
 		<Entity uid="47248">
-			<Template>gaia/geology_metal_alpine_slabs</Template>
+			<Template>gaia/ore/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="706.79993" z="159.27375"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="61024"/>
 		</Entity>
 		<Entity uid="47249">
-			<Template>gaia/geology_metal_alpine_slabs</Template>
+			<Template>gaia/ore/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="1088.7063" z="345.04548"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="59978"/>
 		</Entity>
 		<Entity uid="47251">
-			<Template>gaia/geology_metal_alpine_slabs</Template>
+			<Template>gaia/ore/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="1236.43995" z="703.5929"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="43004"/>
 		</Entity>
 		<Entity uid="47252">
-			<Template>gaia/geology_metal_alpine_slabs</Template>
+			<Template>gaia/ore/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="1044.71277" z="812.86677"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="34776"/>
 		</Entity>
 		<Entity uid="47254">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="1077.17103" z="1072.60035"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="18046"/>
 		</Entity>
 		<Entity uid="47255">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="921.7859" z="1061.70582"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="46094"/>
 		</Entity>
 		<Entity uid="47256">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="1217.88526" z="570.85438"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="59748"/>
 		</Entity>
 		<Entity uid="47257">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="1058.01612" z="583.83045"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="43828"/>
 		</Entity>
 		<Entity uid="47258">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="1039.91785" z="307.65519"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11446"/>
 		</Entity>
 		<Entity uid="47259">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="877.3725" z="360.0287"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3644"/>
 		</Entity>
 		<Entity uid="47260">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="824.38251" z="319.16697"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="34530"/>
 		</Entity>
 		<Entity uid="47261">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="806.07361" z="41.74743"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="22306"/>
 		</Entity>
 		<Entity uid="47262">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="682.51667" z="130.29938"/>
 			<Orientation y="-0.88636"/>
 			<Actor seed="564"/>
 		</Entity>
 		<Entity uid="47263">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="735.74079" z="995.92536"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="52840"/>
 		</Entity>
 		<Entity uid="47264">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="798.96283" z="990.31428"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="7920"/>
 		</Entity>
 		<Entity uid="47265">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="723.38172" z="973.91034"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="13760"/>
 		</Entity>
 		<Entity uid="47266">
-			<Template>gaia/geology_stonemine_alpine_quarry</Template>
+			<Template>gaia/rock/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="723.30323" z="991.11854"/>
 			<Orientation y="-0.79325"/>
@@ -56812,14 +56812,14 @@
 			<Actor seed="23444"/>
 		</Entity>
 		<Entity uid="47770">
-			<Template>gaia/geology_stonemine_temperate_formation</Template>
+			<Template>gaia/rock/temperate_large_02</Template>
 			<Player>0</Player>
 			<Position x="932.53376" z="129.02448"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="38852"/>
 		</Entity>
 		<Entity uid="47771">
-			<Template>gaia/geology_metal_alpine_slabs</Template>
+			<Template>gaia/ore/alpine_large</Template>
 			<Player>0</Player>
 			<Position x="943.11768" z="150.241"/>
 			<Orientation y="-1.14843"/>

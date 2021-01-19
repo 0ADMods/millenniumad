@@ -268,21 +268,21 @@
 			<Actor seed="4846"/>
 		</Entity>
 		<Entity uid="45">
-			<Template>gaia/geology_metal_mediterranean_slabs</Template>
+			<Template>gaia/ore/mediterranean_large</Template>
 			<Player>2</Player>
 			<Position x="354.16163" z="485.4148"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="18078"/>
 		</Entity>
 		<Entity uid="46">
-			<Template>gaia/geology_metal_mediterranean</Template>
+			<Template>gaia/ore/mediterranean_small</Template>
 			<Player>2</Player>
 			<Position x="350.53736" z="493.20502"/>
 			<Orientation y="1.63202"/>
 			<Actor seed="58892"/>
 		</Entity>
 		<Entity uid="47">
-			<Template>gaia/geology_stonemine_medit_quarry</Template>
+			<Template>gaia/rock/mediterranean_large</Template>
 			<Player>2</Player>
 			<Position x="359.55338" z="475.73435"/>
 			<Orientation y="-0.08046"/>

@@ -14053,271 +14053,271 @@
 			<Orientation y="2.62793"/>
 		</Entity>
 		<Entity uid="2534">
-			<Template>gaia/geology_stonemine_tropic_quarry</Template>
+			<Template>gaia/rock/tropical_large</Template>
 			<Player>0</Player>
 			<Position x="948.36692" z="1709.24587"/>
 			<Orientation y="-4.34531"/>
 		</Entity>
 		<Entity uid="2535">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="187.49431" z="559.15162"/>
 			<Orientation y="-2.89296"/>
 		</Entity>
 		<Entity uid="2536">
-			<Template>gaia/geology_stonemine_tropic_quarry</Template>
+			<Template>gaia/rock/tropical_large</Template>
 			<Player>0</Player>
 			<Position x="186.04148" z="561.15796"/>
 			<Orientation y="1.07271"/>
 		</Entity>
 		<Entity uid="2537">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="425.04191" z="1648.3453"/>
 			<Orientation y="-0.30396"/>
 		</Entity>
 		<Entity uid="2538">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="428.41372" z="1649.10514"/>
 			<Orientation y="-3.26145"/>
 		</Entity>
 		<Entity uid="2539">
-			<Template>gaia/geology_stonemine_tropic_quarry</Template>
+			<Template>gaia/rock/tropical_large</Template>
 			<Player>0</Player>
 			<Position x="429.85473" z="1648.66524"/>
 			<Orientation y="-1.97721"/>
 		</Entity>
 		<Entity uid="2540">
-			<Template>gaia/geology_stonemine_tropic_quarry</Template>
+			<Template>gaia/rock/tropical_large</Template>
 			<Player>0</Player>
 			<Position x="1164.83193" z="1268.94716"/>
 			<Orientation y="-0.04287"/>
 		</Entity>
 		<Entity uid="2541">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="486.06957" z="1830.48987"/>
 			<Orientation y="-0.03795"/>
 		</Entity>
 		<Entity uid="2542">
-			<Template>gaia/geology_stonemine_tropic_quarry</Template>
+			<Template>gaia/rock/tropical_large</Template>
 			<Player>0</Player>
 			<Position x="496.03943" z="1825.11136"/>
 			<Orientation y="0.16227"/>
 		</Entity>
 		<Entity uid="2543">
-			<Template>gaia/geology_stonemine_tropic_quarry</Template>
+			<Template>gaia/rock/tropical_large</Template>
 			<Player>0</Player>
 			<Position x="415.43232" z="469.40651"/>
 			<Orientation y="-4.67066"/>
 		</Entity>
 		<Entity uid="2544">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="815.68351" z="1320.47532"/>
 			<Orientation y="-0.23943"/>
 		</Entity>
 		<Entity uid="2545">
-			<Template>gaia/geology_stonemine_tropic_quarry</Template>
+			<Template>gaia/rock/tropical_large</Template>
 			<Player>0</Player>
 			<Position x="805.50863" z="1317.482"/>
 			<Orientation y="0.02141"/>
 		</Entity>
 		<Entity uid="2546">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="1129.84476" z="1325.63942"/>
 			<Orientation y="-4.23046"/>
 		</Entity>
 		<Entity uid="2547">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="1126.92542" z="1336.51786"/>
 			<Orientation y="-2.49941"/>
 		</Entity>
 		<Entity uid="2548">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="1127.4009" z="1324.36941"/>
 			<Orientation y="-4.05993"/>
 		</Entity>
 		<Entity uid="2549">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="1131.23533" z="1329.24041"/>
 			<Orientation y="-1.43395"/>
 		</Entity>
 		<Entity uid="2550">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="1121.71042" z="1337.69597"/>
 			<Orientation y="-1.4337"/>
 		</Entity>
 		<Entity uid="2551">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="334.80224" z="1230.45736"/>
 			<Orientation y="0.01796"/>
 		</Entity>
 		<Entity uid="2552">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="341.95211" z="1227.2257"/>
 			<Orientation y="1.33336"/>
 		</Entity>
 		<Entity uid="2553">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="750.54296" z="1727.39644"/>
 			<Orientation y="-0.1528"/>
 		</Entity>
 		<Entity uid="2554">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="757.1032" z="1721.24402"/>
 			<Orientation y="-3.86361"/>
 		</Entity>
 		<Entity uid="2555">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="750.23514" z="1724.82943"/>
 			<Orientation y="-3.61896"/>
 		</Entity>
 		<Entity uid="2556">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="760.78975" z="1736.78512"/>
 			<Orientation y="-1.27562"/>
 		</Entity>
 		<Entity uid="2557">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="751.74656" z="1732.01998"/>
 			<Orientation y="-1.50661"/>
 		</Entity>
 		<Entity uid="2558">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="870.6788" z="1438.13285"/>
 			<Orientation y="-2.71398"/>
 		</Entity>
 		<Entity uid="2559">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="862.77776" z="1439.36797"/>
 			<Orientation y="-3.77987"/>
 		</Entity>
 		<Entity uid="2560">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="864.65386" z="1436.31931"/>
 			<Orientation y="-3.7519"/>
 		</Entity>
 		<Entity uid="2561">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="880.18555" z="1442.48595"/>
 			<Orientation y="-2.56684"/>
 		</Entity>
 		<Entity uid="2562">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="401.13105" z="637.5397"/>
 			<Orientation y="-4.5786"/>
 		</Entity>
 		<Entity uid="2563">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="389.9732" z="640.09365"/>
 			<Orientation y="-3.13605"/>
 		</Entity>
 		<Entity uid="2564">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="394.90583" z="639.22921"/>
 			<Orientation y="-3.43468"/>
 		</Entity>
 		<Entity uid="2565">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="843.84179" z="1233.10192"/>
 			<Orientation y="-0.8335"/>
 		</Entity>
 		<Entity uid="2566">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="846.12455" z="1232.76575"/>
 			<Orientation y="-3.76017"/>
 		</Entity>
 		<Entity uid="2567">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="836.95398" z="1244.48105"/>
 			<Orientation y="-2.57108"/>
 		</Entity>
 		<Entity uid="2568">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="832.27192" z="1236.87415"/>
 			<Orientation y="-4.5907"/>
 		</Entity>
 		<Entity uid="2569">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="723.02114" z="454.6157"/>
 			<Orientation y="-4.33545"/>
 		</Entity>
 		<Entity uid="2570">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="730.45174" z="467.4132"/>
 			<Orientation y="0.5902"/>
 		</Entity>
 		<Entity uid="2571">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="718.5459" z="462.52765"/>
 			<Orientation y="-0.84137"/>
 		</Entity>
 		<Entity uid="2572">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="720.7799" z="463.63035"/>
 			<Orientation y="-1.26638"/>
 		</Entity>
 		<Entity uid="2573">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="61.15641" z="1226.52871"/>
 			<Orientation y="-2.17386"/>
 		</Entity>
 		<Entity uid="2574">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="76.55292" z="1232.3592"/>
 			<Orientation y="-1.06414"/>
 		</Entity>
 		<Entity uid="2575">
-			<Template>gaia/geology_stone_tropic_a</Template>
+			<Template>gaia/rock/tropical_small</Template>
 			<Player>0</Player>
 			<Position x="56.8172" z="1223.88042"/>
 			<Orientation y="-3.06693"/>
 		</Entity>
 		<Entity uid="2576">
-			<Template>gaia/geology_metal_tropic_slabs</Template>
+			<Template>gaia/ore/tropical_large</Template>
 			<Player>0</Player>
 			<Position x="925.2339" z="1716.34612"/>
 			<Orientation y="-0.59049"/>
 		</Entity>
 		<Entity uid="2577">
-			<Template>gaia/geology_metal_tropic_slabs</Template>
+			<Template>gaia/ore/tropical_large</Template>
 			<Player>0</Player>
 			<Position x="500.35209" z="824.98374"/>
 			<Orientation y="-0.74138"/>
 		</Entity>
 		<Entity uid="2578">
-			<Template>gaia/geology_metal_tropic_slabs</Template>
+			<Template>gaia/ore/tropical_large</Template>
 			<Player>0</Player>
 			<Position x="286.5115" z="1487.04773"/>
 			<Orientation y="-4.2193"/>
