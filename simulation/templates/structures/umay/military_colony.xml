@@ -13,9 +13,9 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_infantry_swordsman_e
-      units/{civ}_infantry_archer_e
-      units/{civ}_cavalry_spearman_e
+      units/{civ}/infantry_swordsman_e
+      units/{civ}/infantry_archer_e
+      units/{civ}/cavalry_spearman_e
 	  </Entities>
   </ProductionQueue>
   <VisualActor>

@@ -9,7 +9,7 @@
   </Attack>
   <Builder>
     <Entities datatype="tokens">
-      structures/umay_military_camp
+      structures/umay/military_camp
     </Entities>
   </Builder>
   <Health>

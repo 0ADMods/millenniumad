@@ -4,7 +4,7 @@
     <Civ>umay</Civ>
     <GenericName>Companion Cavalry</GenericName>
     <SpecificName>Ansar</SpecificName>
-    <SelectionGroupName>units/caro_champion_cavalry</SelectionGroupName>
+    <SelectionGroupName>units/caro/champion_cavalry</SelectionGroupName>
     <Icon>units/umay_champion_cavalry_spearman.png</Icon>
   </Identity>
   <VisualActor>

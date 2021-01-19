@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/umay_cavalry_archer_merc_b">
+<Entity parent="units/umay/infantry_archer_b">
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/umay_cavalry_archer_merc_e</Entity>
+    <Entity>units/umay/infantry_archer_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/umayyads/camelry_archer_a_m.xml</Actor>
+    <Actor>units/umayyads/infantry_archer_a.xml</Actor>
   </VisualActor>
 </Entity>

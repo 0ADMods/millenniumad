@@ -10,7 +10,7 @@
   </Attack>
   <Builder>
     <Entities datatype="tokens">
-      structures/umay_military_camp
+      structures/umay/military_camp
     </Entities>
   </Builder>
   <Cost>
@@ -21,14 +21,14 @@
   </Cost>
   <Identity>
     <Civ>umay</Civ>
-    <SelectionGroupName>units/umay_infantry_clubman_merc_b</SelectionGroupName>
+    <SelectionGroupName>units/umay/infantry_clubman_merc_b</SelectionGroupName>
     <GenericName>Arab Tribesman</GenericName>
     <VisibleClasses datatype="tokens">-Swordsman ClubmanMercenary</VisibleClasses>
     <Icon>units/umay_infantry_clubman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
-    <Entity>units/umay_infantry_clubman_merc_a</Entity>
+    <Entity>units/umay/infantry_clubman_merc_a</Entity>
   </Promotion>
   <Resistance>
     <Entity>

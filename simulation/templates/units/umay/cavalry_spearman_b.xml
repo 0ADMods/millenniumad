@@ -3,12 +3,12 @@
   <Identity>
     <Civ>umay</Civ>
     <GenericName>Cavalry Spearman</GenericName>
-	  <SelectionGroupName>units/umay_cavalry_spearman_b</SelectionGroupName>
+	  <SelectionGroupName>units/umay/cavalry_spearman_b</SelectionGroupName>
     <SpecificName></SpecificName>
     <Icon>units/caro_cavalry_spearman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/umay_cavalry_spearman_a</Entity>
+    <Entity>units/umay/cavalry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/umayyads/cavalry_spearman_b_m.xml</Actor>

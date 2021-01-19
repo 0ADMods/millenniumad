@@ -5,15 +5,15 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_siege_ballista_packed
-      units/{civ}_siege_scorpio_packed
-      units/{civ}_siege_oxybeles_packed
-      units/{civ}_siege_lithobolos_packed
-      units/{civ}_siege_polybolos_packed
-      units/{civ}_siege_ram
-      units/{civ}_siege_tower
-      units/{civ}_siege_trebuchet_packed
-      units/{civ}_siege_traction_trebuchet_packed
+      units/{civ}/siege_ballista_packed
+      units/{civ}/siege_scorpio_packed
+      units/{civ}/siege_oxybeles_packed
+      units/{civ}/siege_lithobolos_packed
+      units/{civ}/siege_polybolos_packed
+      units/{civ}/siege_ram
+      units/{civ}/siege_tower
+      units/{civ}/siege_trebuchet_packed
+      units/{civ}/siege_traction_trebuchet_packed
     </Entities>
     <Technologies datatype="tokens">
       siege_attack

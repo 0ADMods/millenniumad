@@ -9,14 +9,14 @@
   <Identity>
     <Civ>umay</Civ>
     <VisibleClasses datatype="tokens">Camel Mercenary</VisibleClasses>
-    <SelectionGroupName>units/umay_cavalry_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/umay/cavalry_archer_b</SelectionGroupName>
     <GenericName>Bedouin Camel Archer</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/pers_cavalry_archer.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
-    <Entity>units/umay_cavalry_archer_merc_a</Entity>
+    <Entity>units/umay/cavalry_archer_merc_a</Entity>
   </Promotion>
   <Sound>
     <SoundGroups>

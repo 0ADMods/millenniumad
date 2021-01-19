@@ -28,8 +28,8 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/umay_infantry_clubman_merc_b
-      units/{civ}_cavalry_archer_merc_b
+      units/umay/infantry_clubman_merc_b
+      units/{civ}/cavalry_archer_merc_b
 	  </Entities>
   </ProductionQueue>
   <VisualActor>

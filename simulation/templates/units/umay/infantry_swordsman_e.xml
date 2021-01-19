@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/umay_cavalry_spearman_a">
+<Entity parent="units/umay/infantry_swordsman_a">
   <Identity>
     <Rank>Elite</Rank>
     <RequiredTechnology>phase_city</RequiredTechnology>
 	</Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/umayyads/cavalry_spearman_e_m.xml</Actor>
+    <Actor>units/umayyads/infantry_swordsman_e.xml</Actor>
   </VisualActor>
 </Entity>
