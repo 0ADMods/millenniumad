@@ -432,910 +432,910 @@
 			<Actor seed="51496"/>
 		</Entity>
 		<Entity uid="65">
-			<Template>gaia/flora_tree_euro_beech_aut</Template>
+			<Template>gaia/tree/euro_beech_aut</Template>
 			<Player>1</Player>
 			<Position x="296.93339" z="98.84186"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="40492"/>
 		</Entity>
 		<Entity uid="66">
-			<Template>gaia/flora_tree_euro_beech_aut</Template>
+			<Template>gaia/tree/euro_beech_aut</Template>
 			<Player>0</Player>
 			<Position x="364.84168" z="135.89213"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="33262"/>
 		</Entity>
 		<Entity uid="67">
-			<Template>gaia/flora_tree_euro_beech_aut</Template>
+			<Template>gaia/tree/euro_beech_aut</Template>
 			<Player>0</Player>
 			<Position x="347.30381" z="171.1955"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="43918"/>
 		</Entity>
 		<Entity uid="68">
-			<Template>gaia/flora_tree_euro_beech_aut</Template>
+			<Template>gaia/tree/euro_beech_aut</Template>
 			<Player>1</Player>
 			<Position x="323.65476" z="175.59736"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="57830"/>
 		</Entity>
 		<Entity uid="69">
-			<Template>gaia/flora_tree_euro_beech_aut</Template>
+			<Template>gaia/tree/euro_beech_aut</Template>
 			<Player>1</Player>
 			<Position x="312.33555" z="186.7172"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3990"/>
 		</Entity>
 		<Entity uid="70">
-			<Template>gaia/flora_tree_euro_beech_aut</Template>
+			<Template>gaia/tree/euro_beech_aut</Template>
 			<Player>1</Player>
 			<Position x="216.89997" z="127.526"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="54580"/>
 		</Entity>
 		<Entity uid="71">
-			<Template>gaia/flora_tree_euro_beech_aut</Template>
+			<Template>gaia/tree/euro_beech_aut</Template>
 			<Player>1</Player>
 			<Position x="205.44162" z="149.22019"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="54698"/>
 		</Entity>
 		<Entity uid="72">
-			<Template>gaia/flora_tree_euro_beech_aut</Template>
+			<Template>gaia/tree/euro_beech_aut</Template>
 			<Player>1</Player>
 			<Position x="214.29462" z="165.19663"/>
 			<Orientation y="0.91999"/>
 			<Actor seed="43064"/>
 		</Entity>
 		<Entity uid="73">
-			<Template>gaia/flora_tree_euro_beech_aut</Template>
+			<Template>gaia/tree/euro_beech_aut</Template>
 			<Player>1</Player>
 			<Position x="226.0121" z="173.96659"/>
 			<Orientation y="1.61634"/>
 			<Actor seed="56608"/>
 		</Entity>
 		<Entity uid="74">
-			<Template>gaia/flora_tree_euro_beech_aut</Template>
+			<Template>gaia/tree/euro_beech_aut</Template>
 			<Player>1</Player>
 			<Position x="241.2537" z="173.55784"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="16270"/>
 		</Entity>
 		<Entity uid="75">
-			<Template>gaia/flora_tree_euro_beech_aut</Template>
+			<Template>gaia/tree/euro_beech_aut</Template>
 			<Player>1</Player>
 			<Position x="250.86841" z="171.44843"/>
 			<Orientation y="1.06536"/>
 			<Actor seed="32828"/>
 		</Entity>
 		<Entity uid="76">
-			<Template>gaia/flora_tree_euro_beech_aut</Template>
+			<Template>gaia/tree/euro_beech_aut</Template>
 			<Player>1</Player>
 			<Position x="260.82227" z="177.44788"/>
 			<Orientation y="0.7659"/>
 			<Actor seed="50220"/>
 		</Entity>
 		<Entity uid="77">
-			<Template>gaia/flora_tree_euro_beech_aut</Template>
+			<Template>gaia/tree/euro_beech_aut</Template>
 			<Player>1</Player>
 			<Position x="266.87958" z="183.74607"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="44226"/>
 		</Entity>
 		<Entity uid="78">
-			<Template>gaia/flora_tree_euro_beech_aut</Template>
+			<Template>gaia/tree/euro_beech_aut</Template>
 			<Player>1</Player>
 			<Position x="271.28251" z="201.68314"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="686"/>
 		</Entity>
 		<Entity uid="79">
-			<Template>gaia/flora_tree_euro_beech_aut</Template>
+			<Template>gaia/tree/euro_beech_aut</Template>
 			<Player>1</Player>
 			<Position x="283.77796" z="197.06418"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="52032"/>
 		</Entity>
 		<Entity uid="80">
-			<Template>gaia/flora_tree_euro_beech_aut</Template>
+			<Template>gaia/tree/euro_beech_aut</Template>
 			<Player>1</Player>
 			<Position x="303.84391" z="185.8954"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="42606"/>
 		</Entity>
 		<Entity uid="81">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="352.07337" z="148.17765"/>
 			<Orientation y="-0.3436"/>
 			<Actor seed="16364"/>
 		</Entity>
 		<Entity uid="82">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="332.11347" z="203.96384"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="53718"/>
 		</Entity>
 		<Entity uid="83">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="316.01151" z="193.92475"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="60"/>
 		</Entity>
 		<Entity uid="84">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="317.27826" z="192.9774"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="60158"/>
 		</Entity>
 		<Entity uid="85">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="324.34681" z="184.26743"/>
 			<Orientation y="2.26673"/>
 			<Actor seed="57796"/>
 		</Entity>
 		<Entity uid="86">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="341.14408" z="179.0156"/>
 			<Orientation y="1.13538"/>
 			<Actor seed="3498"/>
 		</Entity>
 		<Entity uid="87">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="367.59583" z="180.83338"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="14640"/>
 		</Entity>
 		<Entity uid="88">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="373.42157" z="170.375"/>
 			<Orientation y="3.04015"/>
 			<Actor seed="35146"/>
 		</Entity>
 		<Entity uid="89">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="368.23441" z="159.91611"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="65503"/>
 		</Entity>
 		<Entity uid="90">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="360.9095" z="169.55362"/>
 			<Orientation y="-0.61841"/>
 			<Actor seed="19166"/>
 		</Entity>
 		<Entity uid="91">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="354.64066" z="178.82416"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="13194"/>
 		</Entity>
 		<Entity uid="92">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="369.4607" z="153.378"/>
 			<Orientation y="2.80782"/>
 			<Actor seed="6886"/>
 		</Entity>
 		<Entity uid="93">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="373.49256" z="141.28815"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="1438"/>
 		</Entity>
 		<Entity uid="94">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="384.26014" z="126.52929"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="21616"/>
 		</Entity>
 		<Entity uid="95">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="385.46686" z="124.28516"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="59116"/>
 		</Entity>
 		<Entity uid="96">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="377.66733" z="120.86858"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="12026"/>
 		</Entity>
 		<Entity uid="97">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="375.32868" z="121.6933"/>
 			<Orientation y="-1.1959"/>
 			<Actor seed="25376"/>
 		</Entity>
 		<Entity uid="98">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="369.7104" z="123.13674"/>
 			<Orientation y="-1.63065"/>
 			<Actor seed="288"/>
 		</Entity>
 		<Entity uid="99">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="364.34943" z="122.5619"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="55732"/>
 		</Entity>
 		<Entity uid="100">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="337.53602" z="154.80808"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37534"/>
 		</Entity>
 		<Entity uid="101">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="321.57929" z="165.87616"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="4300"/>
 		</Entity>
 		<Entity uid="102">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="320.41175" z="165.58735"/>
 			<Orientation y="-0.65906"/>
 			<Actor seed="51422"/>
 		</Entity>
 		<Entity uid="103">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="305.66157" z="184.30692"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="180"/>
 		</Entity>
 		<Entity uid="104">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="300.2125" z="216.9766"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="53618"/>
 		</Entity>
 		<Entity uid="105">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="307.22657" z="220.04923"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="44374"/>
 		</Entity>
 		<Entity uid="106">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="319.3462" z="212.89295"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="35500"/>
 		</Entity>
 		<Entity uid="107">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="332.92646" z="189.16285"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3458"/>
 		</Entity>
 		<Entity uid="108">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="269.74726" z="252.3535"/>
 			<Orientation y="-0.84072"/>
 			<Actor seed="27348"/>
 		</Entity>
 		<Entity uid="109">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="256.18015" z="263.28599"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="32328"/>
 		</Entity>
 		<Entity uid="110">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="266.04697" z="236.96402"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="43788"/>
 		</Entity>
 		<Entity uid="111">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="268.61921" z="223.41022"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="45888"/>
 		</Entity>
 		<Entity uid="112">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="272.85962" z="206.42093"/>
 			<Orientation y="-2.1883"/>
 			<Actor seed="9088"/>
 		</Entity>
 		<Entity uid="113">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="257.16413" z="198.0652"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="6924"/>
 		</Entity>
 		<Entity uid="114">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="253.93967" z="194.71253"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="13026"/>
 		</Entity>
 		<Entity uid="115">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="268.69172" z="179.9816"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="59874"/>
 		</Entity>
 		<Entity uid="116">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="278.28974" z="177.84931"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="23486"/>
 		</Entity>
 		<Entity uid="117">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="287.85532" z="183.93137"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="2672"/>
 		</Entity>
 		<Entity uid="118">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="235.78571" z="158.7222"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="5852"/>
 		</Entity>
 		<Entity uid="119">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="233.17228" z="159.0073"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="47092"/>
 		</Entity>
 		<Entity uid="120">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="229.31873" z="153.49338"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="53762"/>
 		</Entity>
 		<Entity uid="121">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="213.98594" z="139.05781"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="6838"/>
 		</Entity>
 		<Entity uid="122">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="209.54432" z="131.43702"/>
 			<Orientation y="-1.31089"/>
 			<Actor seed="20320"/>
 		</Entity>
 		<Entity uid="123">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="175.72245" z="141.18128"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="35560"/>
 		</Entity>
 		<Entity uid="124">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="177.15882" z="142.67478"/>
 			<Orientation y="0.21953"/>
 			<Actor seed="47642"/>
 		</Entity>
 		<Entity uid="125">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="180.05997" z="163.0843"/>
 			<Orientation y="0.04558"/>
 			<Actor seed="48144"/>
 		</Entity>
 		<Entity uid="126">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="193.80933" z="177.38059"/>
 			<Orientation y="1.13686"/>
 			<Actor seed="59634"/>
 		</Entity>
 		<Entity uid="127">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="208.29206" z="190.43757"/>
 			<Orientation y="1.43047"/>
 			<Actor seed="42458"/>
 		</Entity>
 		<Entity uid="128">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="232.1378" z="192.53718"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37076"/>
 		</Entity>
 		<Entity uid="129">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="241.41898" z="196.8707"/>
 			<Orientation y="0.00709"/>
 			<Actor seed="9648"/>
 		</Entity>
 		<Entity uid="130">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="244.66913" z="212.87043"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="46358"/>
 		</Entity>
 		<Entity uid="131">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="251.67823" z="223.90543"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="44758"/>
 		</Entity>
 		<Entity uid="132">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="253.90894" z="231.96982"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37930"/>
 		</Entity>
 		<Entity uid="133">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="255.2317" z="237.2605"/>
 			<Orientation y="-0.98227"/>
 			<Actor seed="36180"/>
 		</Entity>
 		<Entity uid="134">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="219.75986" z="253.45411"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="50112"/>
 		</Entity>
 		<Entity uid="135">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="215.78675" z="242.00361"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="58020"/>
 		</Entity>
 		<Entity uid="136">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="211.8" z="233.09757"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="18402"/>
 		</Entity>
 		<Entity uid="137">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="202.56382" z="225.86265"/>
 			<Orientation y="-2.06312"/>
 			<Actor seed="14656"/>
 		</Entity>
 		<Entity uid="138">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="168.66144" z="202.8119"/>
 			<Orientation y="-2.37571"/>
 			<Actor seed="19764"/>
 		</Entity>
 		<Entity uid="139">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="159.99396" z="193.79963"/>
 			<Orientation y="-2.55788"/>
 			<Actor seed="63246"/>
 		</Entity>
 		<Entity uid="140">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="161.04316" z="177.97602"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="61118"/>
 		</Entity>
 		<Entity uid="141">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="153.54664" z="172.5271"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="46294"/>
 		</Entity>
 		<Entity uid="142">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="180.89936" z="176.35587"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="13434"/>
 		</Entity>
 		<Entity uid="143">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="199.39786" z="167.66388"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="13228"/>
 		</Entity>
 		<Entity uid="144">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="266.95588" z="292.81608"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="24606"/>
 		</Entity>
 		<Entity uid="145">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="281.67106" z="274.85172"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="61330"/>
 		</Entity>
 		<Entity uid="146">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="294.74354" z="261.25355"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="51768"/>
 		</Entity>
 		<Entity uid="147">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="302.25223" z="253.23926"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="51490"/>
 		</Entity>
 		<Entity uid="148">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="309.25779" z="249.007"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="8748"/>
 		</Entity>
 		<Entity uid="149">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="317.05988" z="250.8242"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="36502"/>
 		</Entity>
 		<Entity uid="150">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="316.98774" z="257.04441"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="63522"/>
 		</Entity>
 		<Entity uid="151">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="287.2472" z="293.39463"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="61172"/>
 		</Entity>
 		<Entity uid="152">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="302.35633" z="282.34424"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="12416"/>
 		</Entity>
 		<Entity uid="153">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="309.57389" z="278.50742"/>
 			<Orientation y="2.06655"/>
 			<Actor seed="14520"/>
 		</Entity>
 		<Entity uid="154">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="322.87293" z="269.66404"/>
 			<Orientation y="2.4441"/>
 			<Actor seed="31970"/>
 		</Entity>
 		<Entity uid="155">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="334.9101" z="253.05436"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="53190"/>
 		</Entity>
 		<Entity uid="156">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="336.82157" z="248.05985"/>
 			<Orientation y="2.86411"/>
 			<Actor seed="22350"/>
 		</Entity>
 		<Entity uid="157">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="342.856" z="226.45923"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="9470"/>
 		</Entity>
 		<Entity uid="158">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="338.29395" z="224.07474"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="24702"/>
 		</Entity>
 		<Entity uid="159">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="332.56891" z="224.16465"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="52264"/>
 		</Entity>
 		<Entity uid="160">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="351.43747" z="211.41962"/>
 			<Orientation y="1.4326"/>
 			<Actor seed="35592"/>
 		</Entity>
 		<Entity uid="161">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="358.51407" z="211.84327"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="46000"/>
 		</Entity>
 		<Entity uid="162">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="356.79551" z="235.19495"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="18752"/>
 		</Entity>
 		<Entity uid="163">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="355.73957" z="237.52839"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="7130"/>
 		</Entity>
 		<Entity uid="164">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="352.97046" z="244.15226"/>
 			<Orientation y="-0.45716"/>
 			<Actor seed="9356"/>
 		</Entity>
 		<Entity uid="165">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="343.45878" z="261.94306"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="23004"/>
 		</Entity>
 		<Entity uid="166">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="331.92231" z="280.73182"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="55582"/>
 		</Entity>
 		<Entity uid="167">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="322.15973" z="291.59388"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="21914"/>
 		</Entity>
 		<Entity uid="168">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="310.45466" z="304.78022"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="27074"/>
 		</Entity>
 		<Entity uid="169">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="304.69129" z="311.53257"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="42846"/>
 		</Entity>
 		<Entity uid="170">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="306.692" z="351.38563"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48036"/>
 		</Entity>
 		<Entity uid="171">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="309.9827" z="347.26563"/>
 			<Orientation y="2.35225"/>
 			<Actor seed="58724"/>
 		</Entity>
 		<Entity uid="172">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="376.59781" z="156.23053"/>
 			<Orientation y="2.79973"/>
 			<Actor seed="19154"/>
 		</Entity>
 		<Entity uid="173">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="383.13462" z="141.16773"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="44906"/>
 		</Entity>
 		<Entity uid="174">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="387.09241" z="140.76719"/>
 			<Orientation y="2.87473"/>
 			<Actor seed="35930"/>
 		</Entity>
 		<Entity uid="175">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="391.28019" z="123.68953"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="63810"/>
 		</Entity>
 		<Entity uid="176">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="394.9693" z="116.4575"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48062"/>
 		</Entity>
 		<Entity uid="177">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="395.19761" z="115.75289"/>
 			<Orientation y="3.00042"/>
 			<Actor seed="39822"/>
 		</Entity>
 		<Entity uid="178">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="397.4466" z="102.17934"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="15786"/>
 		</Entity>
 		<Entity uid="179">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="398.4575" z="96.77982"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="60560"/>
 		</Entity>
 		<Entity uid="180">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="398.37211" z="95.47713"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37526"/>
 		</Entity>
 		<Entity uid="181">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="395.72153" z="95.4268"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="45382"/>
 		</Entity>
 		<Entity uid="182">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="387.06922" z="107.30118"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="10318"/>
 		</Entity>
 		<Entity uid="183">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="385.05097" z="109.68648"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="47556"/>
 		</Entity>
 		<Entity uid="184">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="357.55405" z="130.42347"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="21012"/>
 		</Entity>
 		<Entity uid="185">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>1</Player>
 			<Position x="283.50605" z="230.38974"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37364"/>
 		</Entity>
 		<Entity uid="186">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="180.58924" z="230.68662"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="27444"/>
 		</Entity>
 		<Entity uid="187">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="183.78156" z="223.58637"/>
 			<Orientation y="-1.56359"/>
 			<Actor seed="31414"/>
 		</Entity>
 		<Entity uid="188">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="141.75293" z="221.31424"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="51412"/>
 		</Entity>
 		<Entity uid="189">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="151.78037" z="217.19455"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="64890"/>
 		</Entity>
 		<Entity uid="190">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="166.5532" z="210.82917"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="50150"/>
 		</Entity>
 		<Entity uid="191">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="179.83753" z="204.62452"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="32616"/>
 		</Entity>
 		<Entity uid="192">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="173.06861" z="242.17631"/>
 			<Orientation y="1.41947"/>
 			<Actor seed="60648"/>
 		</Entity>
 		<Entity uid="193">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="228.31165" z="282.97968"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="57134"/>
 		</Entity>
 		<Entity uid="194">
-			<Template>gaia/flora_tree_pine</Template>
+			<Template>gaia/tree/pine</Template>
 			<Player>0</Player>
 			<Position x="228.8024" z="294.46357"/>
 			<Orientation y="2.35621"/>
@@ -2208,28 +2208,28 @@
 			<Actor seed="29262"/>
 		</Entity>
 		<Entity uid="339">
-			<Template>gaia/flora_tree_apple</Template>
+			<Template>gaia/fruit/apple</Template>
 			<Player>1</Player>
 			<Position x="230.26291" z="95.88646"/>
 			<Orientation y="1.1078"/>
 			<Actor seed="554"/>
 		</Entity>
 		<Entity uid="340">
-			<Template>gaia/flora_tree_apple</Template>
+			<Template>gaia/fruit/apple</Template>
 			<Player>1</Player>
 			<Position x="239.6728" z="102.46065"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="13918"/>
 		</Entity>
 		<Entity uid="341">
-			<Template>gaia/flora_tree_apple</Template>
+			<Template>gaia/fruit/apple</Template>
 			<Player>1</Player>
 			<Position x="275.64673" z="145.25107"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="16094"/>
 		</Entity>
 		<Entity uid="342">
-			<Template>gaia/flora_tree_cypress</Template>
+			<Template>gaia/tree/cypress</Template>
 			<Player>0</Player>
 			<Position x="304.14618" z="48.92814"/>
 			<Orientation y="2.35621"/>
