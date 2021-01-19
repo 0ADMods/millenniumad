@@ -66,35 +66,35 @@
 ]]></ScriptSettings>
 	<Entities>
 		<Entity uid="13">
-			<Template>units/norse_ship_fishing</Template>
+			<Template>units/norse/ship_fishing</Template>
 			<Player>2</Player>
 			<Position x="672.71387" z="440.09333"/>
 			<Orientation y="-2.05576"/>
 			<Actor seed="82"/>
 		</Entity>
 		<Entity uid="14">
-			<Template>units/norse_ship_trireme</Template>
+			<Template>units/norse/ship_trireme</Template>
 			<Player>2</Player>
 			<Position x="521.32251" z="438.5569"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="5372"/>
 		</Entity>
 		<Entity uid="16">
-			<Template>structures/norse_outpost</Template>
+			<Template>structures/norse/outpost</Template>
 			<Player>2</Player>
 			<Position x="321.03287" z="417.71833"/>
 			<Orientation y="-0.00776"/>
 			<Actor seed="48612"/>
 		</Entity>
 		<Entity uid="17">
-			<Template>structures/norse_farmstead</Template>
+			<Template>structures/norse/farmstead</Template>
 			<Player>2</Player>
 			<Position x="338.32541" z="544.56556"/>
 			<Orientation y="-2.30462"/>
 			<Actor seed="48202"/>
 		</Entity>
 		<Entity uid="20">
-			<Template>structures/norse_dock</Template>
+			<Template>structures/norse/dock</Template>
 			<Player>2</Player>
 			<Position x="365.20179" z="444.67872"/>
 			<Orientation y="2.31905"/>
@@ -290,7 +290,7 @@
 			<Actor seed="12432"/>
 		</Entity>
 		<Entity uid="48">
-			<Template>units/norse_ship_merchant</Template>
+			<Template>units/norse/ship_merchant</Template>
 			<Player>2</Player>
 			<Position x="377.65537" z="429.10822"/>
 			<Orientation y="0.80282"/>
@@ -507,77 +507,77 @@
 			<Actor seed="7796"/>
 		</Entity>
 		<Entity uid="91">
-			<Template>structures/norse_barracks</Template>
+			<Template>structures/norse/barracks</Template>
 			<Player>2</Player>
 			<Position x="303.72126" z="553.49628"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="2650"/>
 		</Entity>
 		<Entity uid="93">
-			<Template>structures/norse_forge</Template>
+			<Template>structures/norse/forge</Template>
 			<Player>2</Player>
 			<Position x="338.23935" z="520.9004"/>
 			<Orientation y="-0.77918"/>
 			<Actor seed="27012"/>
 		</Entity>
 		<Entity uid="94">
-			<Template>structures/norse_civil_centre</Template>
+			<Template>structures/norse/civil_centre</Template>
 			<Player>2</Player>
 			<Position x="310.72382" z="518.31061"/>
 			<Orientation y="0.7933"/>
 			<Actor seed="23120"/>
 		</Entity>
 		<Entity uid="95">
-			<Template>structures/norse_market</Template>
+			<Template>structures/norse/market</Template>
 			<Player>2</Player>
 			<Position x="324.73838" z="488.21866"/>
 			<Orientation y="1.45765"/>
 			<Actor seed="38800"/>
 		</Entity>
 		<Entity uid="96">
-			<Template>structures/norse_storehouse</Template>
+			<Template>structures/norse/storehouse</Template>
 			<Player>0</Player>
 			<Position x="865.86243" z="654.11805"/>
 			<Orientation y="-1.03783"/>
 			<Actor seed="28996"/>
 		</Entity>
 		<Entity uid="97">
-			<Template>structures/norse_market</Template>
+			<Template>structures/norse/market</Template>
 			<Player>0</Player>
 			<Position x="837.03834" z="642.9001"/>
 			<Orientation y="-0.58414"/>
 			<Actor seed="24448"/>
 		</Entity>
 		<Entity uid="98">
-			<Template>structures/norse_civil_centre</Template>
+			<Template>structures/norse/civil_centre</Template>
 			<Player>0</Player>
 			<Position x="837.06916" z="684.01331"/>
 			<Orientation y="-2.72341"/>
 			<Actor seed="11758"/>
 		</Entity>
 		<Entity uid="103">
-			<Template>structures/norse_house</Template>
+			<Template>structures/norse/house</Template>
 			<Player>0</Player>
 			<Position x="869.65162" z="682.77009"/>
 			<Orientation y="2.19774"/>
 			<Actor seed="15374"/>
 		</Entity>
 		<Entity uid="104">
-			<Template>structures/norse_house</Template>
+			<Template>structures/norse/house</Template>
 			<Player>0</Player>
 			<Position x="795.29572" z="677.10438"/>
 			<Orientation y="-0.00374"/>
 			<Actor seed="51656"/>
 		</Entity>
 		<Entity uid="105">
-			<Template>structures/norse_forge</Template>
+			<Template>structures/norse/forge</Template>
 			<Player>0</Player>
 			<Position x="805.91761" z="690.80488"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="15958"/>
 		</Entity>
 		<Entity uid="110">
-			<Template>structures/norse_outpost</Template>
+			<Template>structures/norse/outpost</Template>
 			<Player>0</Player>
 			<Position x="825.51807" z="620.4781"/>
 			<Orientation y="0.73595"/>
@@ -766,7 +766,7 @@
 			<Actor seed="918"/>
 		</Entity>
 		<Entity uid="141">
-			<Template>structures/norse_house</Template>
+			<Template>structures/norse/house</Template>
 			<Player>0</Player>
 			<Position x="803.6454" z="652.6595"/>
 			<Orientation y="-0.50669"/>

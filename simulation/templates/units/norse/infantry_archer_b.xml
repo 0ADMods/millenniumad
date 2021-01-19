@@ -2,10 +2,10 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Builder>
     <Entities datatype="tokens">
-      -structures/{civ}_corral
-      -structures/{civ}_defense_tower
-      -structures/{civ}_fortress
-      -structures/{civ}_wonder
+      -structures/{civ}/corral
+      -structures/{civ}/defense_tower
+      -structures/{civ}/fortress
+      -structures/{civ}/wonder
     </Entities>
   </Builder>
   <Cost>
@@ -15,13 +15,13 @@
   </Cost>
   <Identity>
     <Civ>norse</Civ>
-    <SelectionGroupName>units/norse_infantry_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/norse/infantry_archer_b</SelectionGroupName>
     <GenericName>Huntsman</GenericName>
     <SpecificName>Veiðimaðr</SpecificName>
     <Icon>units/norse_infantry_archer.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/norse_infantry_archer_a</Entity>
+    <Entity>units/norse/infantry_archer_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/norse/infantry_archer_b.xml</Actor>

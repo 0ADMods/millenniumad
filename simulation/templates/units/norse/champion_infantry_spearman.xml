@@ -25,7 +25,7 @@
     <SpecificName>Berserkr</SpecificName>
     <Icon>units/norse_berserker.png</Icon>
     <RequiredTechnology>unlock_champion_units_modded</RequiredTechnology>
-    <SelectionGroupName>units/norse_champion_berserker</SelectionGroupName>
+    <SelectionGroupName>units/norse/champion_berserker</SelectionGroupName>
   </Identity>
   <Resistance>
     <Entity>

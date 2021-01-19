@@ -19,9 +19,9 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_ship_quinquereme
-      units/{civ}_ship_trireme
-      units/{civ}_ship_bireme
+      units/{civ}/ship_quinquereme
+      units/{civ}/ship_trireme
+      units/{civ}/ship_bireme
     </Entities>
     <Technologies datatype="tokens">
       ship_speed_norse

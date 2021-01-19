@@ -6,12 +6,12 @@
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/norse_wall_tower</Tower>
-      <WallShort>structures/norse_wall_short</WallShort>
-      <WallMedium>structures/norse_wall_medium</WallMedium>
-      <WallLong>structures/norse_wall_long</WallLong>
-      <Gate>structures/norse_wall_gate</Gate>
-      <Fort>structures/norse_wall_tower</Fort>
+      <Tower>structures/norse/wall_tower</Tower>
+      <WallShort>structures/norse/wall_short</WallShort>
+      <WallMedium>structures/norse/wall_medium</WallMedium>
+      <WallLong>structures/norse/wall_long</WallLong>
+      <Gate>structures/norse/wall_gate</Gate>
+      <Fort>structures/norse/wall_tower</Fort>
     </Templates>
     <MaxTowerOverlap>0.90</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>

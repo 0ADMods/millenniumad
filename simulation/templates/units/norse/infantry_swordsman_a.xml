@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/norse_infantry_swordsman_b">
+<Entity parent="units/norse/infantry_swordsman_b">
   <Identity>
     <Rank>Advanced</Rank>
     <SpecificName>Warrior</SpecificName>
   </Identity>
   <Promotion>
-    <Entity>units/norse_infantry_swordsman_e</Entity>
+    <Entity>units/norse/infantry_swordsman_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/norse/infantry_swordsman_a.xml</Actor>

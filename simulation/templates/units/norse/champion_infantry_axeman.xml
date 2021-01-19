@@ -16,7 +16,7 @@
     <SpecificName>Huskárl</SpecificName>
     <Icon>units/norse_huskarl.png</Icon>
     <RequiredTechnology>unlock_champion_units_modded</RequiredTechnology>
-    <SelectionGroupName>units/norse_champion_huscarl</SelectionGroupName>
+    <SelectionGroupName>units/norse/champion_huscarl</SelectionGroupName>
   </Identity>
   <VisualActor>
     <Actor>units/norse/champion_huscarl.xml</Actor>

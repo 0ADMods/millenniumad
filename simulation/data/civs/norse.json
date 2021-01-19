@@ -56,26 +56,26 @@
 	"Structures": [],
 	"WallSets": [
 		"structures/wallset_palisade",
-		"structures/norse_wallset_stone"
+		"structures/norse/wallset_stone"
 	],
 	"StartEntities": [
 		{
-			"Template": "structures/norse_civil_centre"
+			"Template": "structures/norse/civil_centre"
 		},
 		{
-			"Template": "units/norse_support_female_citizen",
+			"Template": "units/norse/support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/norse_infantry_spearman_b",
+			"Template": "units/norse/infantry_spearman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/norse_infantry_archer_b",
+			"Template": "units/norse/infantry_archer_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/norse_infantry_swordsman_b"
+			"Template": "units/norse/infantry_swordsman_b"
 		}
 	],
 	"Formations": [
@@ -112,12 +112,12 @@
 		"Bagsegc"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_cavalry": "units/norse_infantry_swordsman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/norse_infantry_archer_b",
-		"skirmish/structures/default_corral": "structures/norse_farmstead",
-		"skirmish/structures/default_defense_tower": "structures/norse_wooden_tower",
-		"skirmish/structures/default_fortress": "structures/norse_civil_centre",
-		"skirmish/structures/default_house_10": "structures/{civ}_house",
+		"skirmish/units/default_cavalry": "units/norse/infantry_swordsman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/norse/infantry_archer_b",
+		"skirmish/structures/default_corral": "structures/norse/farmstead",
+		"skirmish/structures/default_defense_tower": "structures/norse/wooden_tower",
+		"skirmish/structures/default_fortress": "structures/norse/civil_centre",
+		"skirmish/structures/default_house_10": "structures/{civ}/house",
 		"skirmish/structures/default_wall_tower": "",
 		"skirmish/structures/default_wall_gate": "",
 		"skirmish/structures/default_wall_short": "",

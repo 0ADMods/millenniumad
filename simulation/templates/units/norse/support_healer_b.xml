@@ -2,13 +2,13 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>norse</Civ>
-    <SelectionGroupName>units/norse_support_healer_b</SelectionGroupName>
+    <SelectionGroupName>units/norse/support_healer_b</SelectionGroupName>
     <SpecificName>Ellri</SpecificName>
     <Icon>units/celt_support_healer.png</Icon>
     <Rank>Basic</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/norse_support_healer_a</Entity>
+    <Entity>units/norse/support_healer_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/celts/healer.xml</Actor>

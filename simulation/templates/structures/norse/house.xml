@@ -68,9 +68,9 @@
 	</Obstruction>
 	<ProductionQueue>
 		<Entities datatype="tokens">
-			units/{civ}_infantry_swordsman_b_house
-			units/{civ}_support_female_citizen
-			-units/{civ}_support_female_citizen_house
+			units/{civ}/infantry_swordsman_b_house
+			units/{civ}/support_female_citizen
+			-units/{civ}/support_female_citizen_house
 		</Entities>
 		<Technologies datatype="tokens">
 			-unlock_females_house

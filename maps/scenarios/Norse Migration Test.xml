@@ -62978,115 +62978,115 @@
 			<Orientation y="-1.40627"/>
 		</Entity>
 		<Entity uid="12225">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>1</Player>
 			<Position x="1706.61146" z="1032.37281"/>
 			<Orientation y="-2.23931"/>
 		</Entity>
 		<Entity uid="12226">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>1</Player>
 			<Position x="1706.71448" z="1028.26514"/>
 			<Orientation y="-1.774"/>
 			<Obstruction group="12249"/>
 		</Entity>
 		<Entity uid="12227">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>1</Player>
 			<Position x="1699.48034" z="1037.65638"/>
 			<Orientation y="-1.39911"/>
 			<Obstruction group="12249"/>
 		</Entity>
 		<Entity uid="12230">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>1</Player>
 			<Position x="1701.33031" z="1035.8064"/>
 			<Orientation y="-1.8958"/>
 			<Obstruction group="12249"/>
 		</Entity>
 		<Entity uid="12231">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>1</Player>
 			<Position x="1700.00452" z="1039.55481"/>
 			<Orientation y="-1.46787"/>
 			<Obstruction group="12249"/>
 		</Entity>
 		<Entity uid="12232">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>1</Player>
 			<Position x="1704.50867" z="1042.80555"/>
 			<Orientation y="-2.29265"/>
 		</Entity>
 		<Entity uid="12235">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>1</Player>
 			<Position x="1702.68921" z="1033.81836"/>
 			<Orientation y="-1.64692"/>
 			<Obstruction group="12249"/>
 		</Entity>
 		<Entity uid="12236">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>1</Player>
 			<Position x="1702.77172" z="1030.24201"/>
 			<Orientation y="-1.20971"/>
 			<Obstruction group="12249"/>
 		</Entity>
 		<Entity uid="12238">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>1</Player>
 			<Position x="1701.34681" z="1032.60108"/>
 			<Orientation y="-2.15442"/>
 			<Obstruction group="12249"/>
 		</Entity>
 		<Entity uid="12239">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>1</Player>
 			<Position x="1705.15394" z="1030.57544"/>
 			<Orientation y="-1.54564"/>
 			<Obstruction group="12249"/>
 		</Entity>
 		<Entity uid="12240">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>1</Player>
 			<Position x="1701.78541" z="1041.85547"/>
 			<Orientation y="-1.1259"/>
 			<Obstruction group="12249"/>
 		</Entity>
 		<Entity uid="12241">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>1</Player>
 			<Position x="1705.48633" z="1035.25293"/>
 			<Orientation y="-1.71105"/>
 			<Obstruction group="12249"/>
 		</Entity>
 		<Entity uid="12242">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>1</Player>
 			<Position x="1700.12983" z="1041.98787"/>
 			<Orientation y="-0.89625"/>
 			<Obstruction group="12249"/>
 		</Entity>
 		<Entity uid="12243">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>1</Player>
 			<Position x="1707.31031" z="1043.57593"/>
 			<Orientation y="-2.3562"/>
 		</Entity>
 		<Entity uid="12244">
-			<Template>units/norse_champion_berserker</Template>
+			<Template>units/norse/champion_berserker</Template>
 			<Player>1</Player>
 			<Position x="1702.44227" z="1037.39954"/>
 			<Orientation y="-1.74183"/>
 		</Entity>
 		<Entity uid="12245">
-			<Template>units/norse_ship_trireme</Template>
+			<Template>units/norse/ship_trireme</Template>
 			<Player>1</Player>
 			<Position x="1744.50342" z="1047.20484"/>
 			<Orientation y="-2.0082"/>
 			<Actor seed="46958"/>
 		</Entity>
 		<Entity uid="12251">
-			<Template>units/norse_champion_huscarl</Template>
+			<Template>units/norse/champion_huscarl</Template>
 			<Player>1</Player>
 			<Position x="1707.0367" z="1037.66312"/>
 			<Orientation y="-2.145"/>
@@ -63094,7 +63094,7 @@
 			<Actor seed="62264"/>
 		</Entity>
 		<Entity uid="12252">
-			<Template>units/norse_champion_huscarl</Template>
+			<Template>units/norse/champion_huscarl</Template>
 			<Player>1</Player>
 			<Position x="1708.49695" z="1034.95838"/>
 			<Orientation y="-2.145"/>
@@ -63102,7 +63102,7 @@
 			<Actor seed="60932"/>
 		</Entity>
 		<Entity uid="12253">
-			<Template>units/norse_champion_huscarl</Template>
+			<Template>units/norse/champion_huscarl</Template>
 			<Player>1</Player>
 			<Position x="1710.09632" z="1031.98914"/>
 			<Orientation y="-2.145"/>
@@ -63110,7 +63110,7 @@
 			<Actor seed="20138"/>
 		</Entity>
 		<Entity uid="12254">
-			<Template>units/norse_champion_huscarl</Template>
+			<Template>units/norse/champion_huscarl</Template>
 			<Player>1</Player>
 			<Position x="1707.60093" z="1041.44735"/>
 			<Orientation y="-1.74563"/>
@@ -63118,154 +63118,154 @@
 			<Actor seed="51066"/>
 		</Entity>
 		<Entity uid="12255">
-			<Template>units/norse_champion_berserker</Template>
+			<Template>units/norse/champion_berserker</Template>
 			<Player>1</Player>
 			<Position x="1703.23646" z="1039.3932"/>
 			<Orientation y="-1.83996"/>
 			<Actor seed="31420"/>
 		</Entity>
 		<Entity uid="12260">
-			<Template>units/norse_ship_trireme</Template>
+			<Template>units/norse/ship_trireme</Template>
 			<Player>2</Player>
 			<Position x="1611.68348" z="1669.97181"/>
 			<Orientation y="-2.0109"/>
 			<Actor seed="26958"/>
 		</Entity>
 		<Entity uid="12261">
-			<Template>units/norse_champion_berserker</Template>
+			<Template>units/norse/champion_berserker</Template>
 			<Player>2</Player>
 			<Position x="1564.1183" z="1648.08521"/>
 			<Orientation y="-2.0199"/>
 			<Actor seed="46614"/>
 		</Entity>
 		<Entity uid="12262">
-			<Template>units/norse_champion_berserker</Template>
+			<Template>units/norse/champion_berserker</Template>
 			<Player>2</Player>
 			<Position x="1565.69507" z="1651.71717"/>
 			<Orientation y="-2.00057"/>
 			<Actor seed="10594"/>
 		</Entity>
 		<Entity uid="12263">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>2</Player>
 			<Position x="1573.10206" z="1649.08826"/>
 			<Orientation y="-1.80044"/>
 			<Actor seed="16152"/>
 		</Entity>
 		<Entity uid="12264">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>2</Player>
 			<Position x="1573.16053" z="1646.39917"/>
 			<Orientation y="-1.48935"/>
 			<Actor seed="23994"/>
 		</Entity>
 		<Entity uid="12265">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>2</Player>
 			<Position x="1570.39454" z="1643.23572"/>
 			<Orientation y="-1.07314"/>
 			<Actor seed="32722"/>
 		</Entity>
 		<Entity uid="12266">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>2</Player>
 			<Position x="1567.54383" z="1642.67896"/>
 			<Orientation y="-1.21938"/>
 			<Actor seed="50166"/>
 		</Entity>
 		<Entity uid="12267">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>2</Player>
 			<Position x="1570.18567" z="1645.75709"/>
 			<Orientation y="-1.14191"/>
 			<Actor seed="2866"/>
 		</Entity>
 		<Entity uid="12268">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>2</Player>
 			<Position x="1569.02002" z="1648.03541"/>
 			<Orientation y="-1.34137"/>
 			<Actor seed="16860"/>
 		</Entity>
 		<Entity uid="12269">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>2</Player>
 			<Position x="1566.9502" z="1645.95704"/>
 			<Orientation y="-1.28766"/>
 			<Actor seed="8860"/>
 		</Entity>
 		<Entity uid="12270">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>2</Player>
 			<Position x="1576.66968" z="1654.07715"/>
 			<Orientation y="-1.27894"/>
 			<Actor seed="29832"/>
 		</Entity>
 		<Entity uid="12271">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>2</Player>
 			<Position x="1576.20167" z="1650.63807"/>
 			<Orientation y="-1.11677"/>
 			<Actor seed="39720"/>
 		</Entity>
 		<Entity uid="12272">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>2</Player>
 			<Position x="1579.06116" z="1649.05054"/>
 			<Orientation y="-1.14553"/>
 			<Actor seed="26486"/>
 		</Entity>
 		<Entity uid="12273">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>2</Player>
 			<Position x="1571.49231" z="1652.09083"/>
 			<Orientation y="-1.10506"/>
 			<Actor seed="484"/>
 		</Entity>
 		<Entity uid="12274">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>2</Player>
 			<Position x="1561.04102" z="1649.37061"/>
 			<Orientation y="-1.1804"/>
 			<Actor seed="29948"/>
 		</Entity>
 		<Entity uid="12275">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>2</Player>
 			<Position x="1561.49671" z="1652.70362"/>
 			<Orientation y="-1.06981"/>
 			<Actor seed="4972"/>
 		</Entity>
 		<Entity uid="12276">
-			<Template>units/norse_infantry_spearman_a</Template>
+			<Template>units/norse/infantry_spearman_a</Template>
 			<Player>2</Player>
 			<Position x="1563.7754" z="1652.69092"/>
 			<Orientation y="-1.09223"/>
 			<Actor seed="37966"/>
 		</Entity>
 		<Entity uid="12277">
-			<Template>units/norse_champion_huscarl</Template>
+			<Template>units/norse/champion_huscarl</Template>
 			<Player>2</Player>
 			<Position x="1567.91175" z="1649.55164"/>
 			<Orientation y="-1.37861"/>
 			<Actor seed="53666"/>
 		</Entity>
 		<Entity uid="12278">
-			<Template>units/norse_champion_huscarl</Template>
+			<Template>units/norse/champion_huscarl</Template>
 			<Player>2</Player>
 			<Position x="1569.12085" z="1652.70142"/>
 			<Orientation y="-0.9716"/>
 			<Actor seed="27302"/>
 		</Entity>
 		<Entity uid="12279">
-			<Template>units/norse_champion_huscarl</Template>
+			<Template>units/norse/champion_huscarl</Template>
 			<Player>2</Player>
 			<Position x="1570.76331" z="1639.76478"/>
 			<Orientation y="-1.29592"/>
 			<Actor seed="4492"/>
 		</Entity>
 		<Entity uid="12280">
-			<Template>units/norse_champion_huscarl</Template>
+			<Template>units/norse/champion_huscarl</Template>
 			<Player>2</Player>
 			<Position x="1575.099" z="1642.86158"/>
 			<Orientation y="-0.98397"/>

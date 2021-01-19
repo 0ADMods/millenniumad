@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/norse_infantry_spearman_a">
+<Entity parent="units/norse/infantry_spearman_a">
   <Identity>
     <Rank>Elite</Rank>
   </Identity>

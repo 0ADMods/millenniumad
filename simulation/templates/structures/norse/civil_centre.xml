@@ -64,15 +64,15 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_infantry_swordsman_b
-      units/{civ}_infantry_spearman_b
-      units/{civ}_infantry_archer_b
-      units/{civ}_champion_infantry_axeman
-      units/{civ}_champion_infantry_spearman
-      units/{civ}_siege_ram
-      units/{civ}_hero_erik_the_red
-      units/{civ}_hero_ivar_the_boneless
-      units/{civ}_hero_hastein
+      units/{civ}/infantry_swordsman_b
+      units/{civ}/infantry_spearman_b
+      units/{civ}/infantry_archer_b
+      units/{civ}/champion_infantry_axeman
+      units/{civ}/champion_infantry_spearman
+      units/{civ}/siege_ram
+      units/{civ}/hero_erik_the_red
+      units/{civ}/hero_ivar_the_boneless
+      units/{civ}/hero_hastein
     </Entities>
     <Technologies datatype="tokens">
       attack_soldiers_will

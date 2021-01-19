@@ -22,10 +22,10 @@
 	</Identity>
 	<ProductionQueue>
 		<Entities datatype="tokens">
-			units/{civ}_infantry_swordsman_b
-			units/{civ}_infantry_spearman_b
-			units/{civ}_infantry_archer_b
-			units/{civ}_champion_berserker_barracks
+			units/{civ}/infantry_swordsman_b
+			units/{civ}/infantry_spearman_b
+			units/{civ}/infantry_archer_b
+			units/{civ}/champion_berserker_barracks
 		</Entities>
 	    <Technologies datatype="tokens">
 	      unlock_champion_units_modded

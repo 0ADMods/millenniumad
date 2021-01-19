@@ -12,10 +12,10 @@
   </Attack>
   <Builder>
     <Entities datatype="tokens">
-      -structures/{civ}_corral
-      -structures/{civ}_defense_tower
-      -structures/{civ}_fortress
-      -structures/{civ}_wonder
+      -structures/{civ}/corral
+      -structures/{civ}/defense_tower
+      -structures/{civ}/fortress
+      -structures/{civ}/wonder
     </Entities>
   </Builder>
   <Cost>
@@ -25,14 +25,14 @@
   </Cost>
   <Identity>
     <Civ>norse</Civ>
-    <SelectionGroupName>units/norse_infantry_swordsman_b</SelectionGroupName>
+    <SelectionGroupName>units/norse/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Axeman</GenericName>
     <SpecificName>Seggr</SpecificName>
     <Icon>units/norse_infantry_swordsman.png</Icon>
     <Tooltip>Counters: 1.1x vs. Structures.</Tooltip>
   </Identity>
   <Promotion>
-    <Entity>units/norse_infantry_swordsman_a</Entity>
+    <Entity>units/norse/infantry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/norse/infantry_swordsman_b.xml</Actor>
