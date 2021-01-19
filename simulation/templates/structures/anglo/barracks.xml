@@ -20,8 +20,8 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">s
-      units/{civ}_champion_infantry_barracks
-      -units/{civ}_cavalry_spearman_b
+      units/{civ}/champion_infantry_barracks
+      -units/{civ}/cavalry_spearman_b
     </Entities>
     <Technologies datatype="tokens">
       unlock_champion_units_modded

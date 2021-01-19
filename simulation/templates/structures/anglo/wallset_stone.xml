@@ -6,11 +6,11 @@
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/anglo_wall_tower</Tower>
-      <WallShort>structures/anglo_wall_short</WallShort>
-      <WallMedium>structures/anglo_wall_medium</WallMedium>
-      <WallLong>structures/anglo_wall_long</WallLong>
-      <Gate>structures/anglo_wall_gate</Gate>
+      <Tower>structures/anglo/wall_tower</Tower>
+      <WallShort>structures/anglo/wall_short</WallShort>
+      <WallMedium>structures/anglo/wall_medium</WallMedium>
+      <WallLong>structures/anglo/wall_long</WallLong>
+      <Gate>structures/anglo/wall_gate</Gate>
     </Templates>
     <MaxTowerOverlap>0.90</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>

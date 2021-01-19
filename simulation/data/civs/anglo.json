@@ -64,26 +64,26 @@
 	"Structures": [],
 	"WallSets": [
 		"structures/wallset_palisade",
-		"structures/anglo_wallset_stone"
+		"structures/anglo/wallset_stone"
 	],
 	"StartEntities": [
 		{
-			"Template": "structures/anglo_civil_centre"
+			"Template": "structures/anglo/civil_centre"
 		},
 		{
-			"Template": "units/anglo_support_female_citizen",
+			"Template": "units/anglo/support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/anglo_infantry_spearman_b",
+			"Template": "units/anglo/infantry_spearman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/anglo_infantry_javelineer_b",
+			"Template": "units/anglo/infantry_javelineer_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/anglo_cavalry_spearman_b"
+			"Template": "units/anglo/cavalry_spearman_b"
 		}
 	],
 	"Formations": [
@@ -141,9 +141,9 @@
 		"Edward the Elder"
 	],
 	"SkirmishReplacements": {
-		"skirmish/structures/default_house_5": "structures/{civ}_house",
-		"skirmish/units/default_cavalry": "units/{civ}_cavalry_spearman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/anglo_infantry_javelineer_b"
+		"skirmish/structures/default_house_5": "structures/{civ}/house",
+		"skirmish/units/default_cavalry": "units/{civ}/cavalry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/anglo/infantry_javelineer_b"
 	},
 	"SelectableInGameSetup": true
 }

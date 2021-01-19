@@ -2,14 +2,14 @@
 <Entity parent="template_unit_infantry_ranged_javelineer">
   <Identity>
     <Civ>anglo</Civ>
-    <SelectionGroupName>units/anglo_infantry_javelineer_b</SelectionGroupName>
+    <SelectionGroupName>units/anglo/infantry_javelineer_b</SelectionGroupName>
     <SpecificName>Ceorl (Gebur)</SpecificName>
     <GenericName>Anglo-Saxon Freeman (Skirmisher)</GenericName>
     <History>The Ceorl was the collective term for the Anglo-Saxon lower-class, the men from the Ceorl were divided into three sub-classes or categories, the lowest being the Gebur, tied to their lords and bound to do servile duties, the following class were the Kotsetlas who have partially menial status, and are also partially bound to their lords, and the highest of the Ceorl class were the Geneatas, freemen entitled with certain rights, who rented lands from their lords, provide them with certain services and act their will.</History>
     <Icon>units/anglo_infantry_skirmisher.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/anglo_infantry_javelineer_a</Entity>
+    <Entity>units/anglo/infantry_javelineer_a</Entity>
   </Promotion>
   <Resistance>
     <Entity>

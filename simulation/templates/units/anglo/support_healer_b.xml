@@ -2,12 +2,12 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>anglo</Civ>
-    <SelectionGroupName>units/anglo_support_healer_b</SelectionGroupName>
+    <SelectionGroupName>units/anglo/support_healer_b</SelectionGroupName>
     <Icon>units/caro_support_healer.png</Icon>
     <Rank>Basic</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/anglo_support_healer_a</Entity>
+    <Entity>units/anglo/support_healer_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/caro/healer.xml</Actor>

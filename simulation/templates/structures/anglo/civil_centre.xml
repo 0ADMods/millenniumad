@@ -15,11 +15,11 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_infantry_spearman_b
-      units/{civ}_infantry_javelineer_b
-      units/{civ}_cavalry_spearman_b
-      units/{civ}_hero_alfred
-	    units/{civ}_hero_offa
+      units/{civ}/infantry_spearman_b
+      units/{civ}/infantry_javelineer_b
+      units/{civ}/cavalry_spearman_b
+      units/{civ}/hero_alfred
+	    units/{civ}/hero_offa
     </Entities>
     <Technologies datatype="tokens">
       germanic_thingstead
