@@ -425,14 +425,14 @@
 			<Actor seed="9574"/>
 		</Entity>
 		<Entity uid="63">
-			<Template>units/norse/champion_berserker</Template>
+			<Template>units/norse/champion_infantry_spearman</Template>
 			<Player>0</Player>
 			<Position x="280.15308" z="85.98372"/>
 			<Orientation y="2.12208"/>
 			<Actor seed="41872"/>
 		</Entity>
 		<Entity uid="64">
-			<Template>units/norse/champion_berserker</Template>
+			<Template>units/norse/champion_infantry_spearman</Template>
 			<Player>0</Player>
 			<Position x="287.3834" z="102.80202"/>
 			<Orientation y="2.35621"/>

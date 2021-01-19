@@ -63072,7 +63072,7 @@
 			<Orientation y="-2.3562"/>
 		</Entity>
 		<Entity uid="12244">
-			<Template>units/norse/champion_berserker</Template>
+			<Template>units/norse/champion_infantry_spearman</Template>
 			<Player>1</Player>
 			<Position x="1702.44227" z="1037.39954"/>
 			<Orientation y="-1.74183"/>
@@ -63085,7 +63085,7 @@
 			<Actor seed="46958"/>
 		</Entity>
 		<Entity uid="12251">
-			<Template>units/norse/champion_huscarl</Template>
+			<Template>units/norse/champion_infantry_axeman</Template>
 			<Player>1</Player>
 			<Position x="1707.0367" z="1037.66312"/>
 			<Orientation y="-2.145"/>
@@ -63093,7 +63093,7 @@
 			<Actor seed="62264"/>
 		</Entity>
 		<Entity uid="12252">
-			<Template>units/norse/champion_huscarl</Template>
+			<Template>units/norse/champion_infantry_axeman</Template>
 			<Player>1</Player>
 			<Position x="1708.49695" z="1034.95838"/>
 			<Orientation y="-2.145"/>
@@ -63101,7 +63101,7 @@
 			<Actor seed="60932"/>
 		</Entity>
 		<Entity uid="12253">
-			<Template>units/norse/champion_huscarl</Template>
+			<Template>units/norse/champion_infantry_axeman</Template>
 			<Player>1</Player>
 			<Position x="1710.09632" z="1031.98914"/>
 			<Orientation y="-2.145"/>
@@ -63109,7 +63109,7 @@
 			<Actor seed="20138"/>
 		</Entity>
 		<Entity uid="12254">
-			<Template>units/norse/champion_huscarl</Template>
+			<Template>units/norse/champion_infantry_axeman</Template>
 			<Player>1</Player>
 			<Position x="1707.60093" z="1041.44735"/>
 			<Orientation y="-1.74563"/>
@@ -63117,7 +63117,7 @@
 			<Actor seed="51066"/>
 		</Entity>
 		<Entity uid="12255">
-			<Template>units/norse/champion_berserker</Template>
+			<Template>units/norse/champion_infantry_spearman</Template>
 			<Player>1</Player>
 			<Position x="1703.23646" z="1039.3932"/>
 			<Orientation y="-1.83996"/>
@@ -63131,14 +63131,14 @@
 			<Actor seed="26958"/>
 		</Entity>
 		<Entity uid="12261">
-			<Template>units/norse/champion_berserker</Template>
+			<Template>units/norse/champion_infantry_spearman</Template>
 			<Player>2</Player>
 			<Position x="1564.1183" z="1648.08521"/>
 			<Orientation y="-2.0199"/>
 			<Actor seed="46614"/>
 		</Entity>
 		<Entity uid="12262">
-			<Template>units/norse/champion_berserker</Template>
+			<Template>units/norse/champion_infantry_spearman</Template>
 			<Player>2</Player>
 			<Position x="1565.69507" z="1651.71717"/>
 			<Orientation y="-2.00057"/>
@@ -63243,28 +63243,28 @@
 			<Actor seed="37966"/>
 		</Entity>
 		<Entity uid="12277">
-			<Template>units/norse/champion_huscarl</Template>
+			<Template>units/norse/champion_infantry_axeman</Template>
 			<Player>2</Player>
 			<Position x="1567.91175" z="1649.55164"/>
 			<Orientation y="-1.37861"/>
 			<Actor seed="53666"/>
 		</Entity>
 		<Entity uid="12278">
-			<Template>units/norse/champion_huscarl</Template>
+			<Template>units/norse/champion_infantry_axeman</Template>
 			<Player>2</Player>
 			<Position x="1569.12085" z="1652.70142"/>
 			<Orientation y="-0.9716"/>
 			<Actor seed="27302"/>
 		</Entity>
 		<Entity uid="12279">
-			<Template>units/norse/champion_huscarl</Template>
+			<Template>units/norse/champion_infantry_axeman</Template>
 			<Player>2</Player>
 			<Position x="1570.76331" z="1639.76478"/>
 			<Orientation y="-1.29592"/>
 			<Actor seed="4492"/>
 		</Entity>
 		<Entity uid="12280">
-			<Template>units/norse/champion_huscarl</Template>
+			<Template>units/norse/champion_infantry_axeman</Template>
 			<Player>2</Player>
 			<Position x="1575.099" z="1642.86158"/>
 			<Orientation y="-0.98397"/>
