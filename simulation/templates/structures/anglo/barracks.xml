@@ -19,9 +19,8 @@
     <Bonus>8</Bonus>
   </Population>
   <ProductionQueue>
-    <Entities datatype="tokens">s
+    <Entities datatype="tokens">
       units/{civ}/champion_infantry_barracks
-      -units/{civ}/cavalry_spearman_b
     </Entities>
     <Technologies datatype="tokens">
       unlock_champion_units_modded
