@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_arsenal">
+  <Identity>
+    <Civ>byza</Civ>
+    <SpecificName>Stratēgeîon</SpecificName>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}/siege_ballista_packed
+      units/{civ}/siege_scorpio_packed
+      units/{civ}/siege_oxybeles_packed
+      units/{civ}/siege_lithobolos_packed
+      units/{civ}/siege_polybolos_packed
+      units/{civ}/siege_ram
+      units/{civ}/siege_tower
+      units/{civ}/siege_trebuchet_packed
+      units/{civ}/siege_traction_trebuchet_packed
+    </Entities>
+    <Technologies datatype="tokens">
+      siege_attack
+      siege_armor
+      siege_cost_metal
+      siege_cost_wood
+      siege_bolt_accuracy
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/byzantines/armory.xml</Actor>
+  </VisualActor>
+</Entity>

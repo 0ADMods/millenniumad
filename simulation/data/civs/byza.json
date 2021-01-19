@@ -41,29 +41,29 @@
 	"Structures": [],
 	"WallSets": [
 		"structures/wallset_palisade",
-		"structures/byza_wallset_stone",
-		"structures/byza_wallset_stone_02",
-		"structures/byza_wallset_stone_03",
-		"structures/byza_wallset_stone_04"
+		"structures/byza/wallset_stone",
+		"structures/byza/wallset_stone_02",
+		"structures/byza/wallset_stone_03",
+		"structures/byza/wallset_stone_04"
 	],
 	"StartEntities": [
 		{
-			"Template": "structures/byza_civil_centre"
+			"Template": "structures/byza/civil_centre"
 		},
 		{
-			"Template": "units/byza_support_female_citizen",
+			"Template": "units/byza/support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/byza_infantry_javelineer_b",
+			"Template": "units/byza/infantry_javelineer_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/byza_infantry_spearman_b",
+			"Template": "units/byza/infantry_spearman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/byza_cavalry_javelineer_b"
+			"Template": "units/byza/cavalry_javelineer_b"
 		}
 	],
 	"Formations": [
@@ -96,8 +96,8 @@
 		"Isaakios"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_infantry_ranged_b": "units/byza_infantry_javelineer_b",
-		"skirmish/structures/default_house_10": "structures/{civ}_house"
+		"skirmish/units/default_infantry_ranged_b": "units/byza/infantry_javelineer_b",
+		"skirmish/structures/default_house_10": "structures/{civ}/house"
 	},
 	"SelectableInGameSetup": true
 }

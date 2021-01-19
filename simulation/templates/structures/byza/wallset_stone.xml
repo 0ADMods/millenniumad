@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>byza</Civ>
+    <GenericName>Inner Wall</GenericName>
+    <SpecificName>Teichos</SpecificName>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/byza/wall_tower</Tower>
+      <Gate>structures/byza/wall_gate</Gate>
+      <WallLong>structures/byza/wall_long</WallLong>
+      <WallMedium>structures/byza/wall_medium</WallMedium>
+      <WallShort>structures/byza/wall_short</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.90</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+  </WallSet>
+</Entity>
