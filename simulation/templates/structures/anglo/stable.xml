@@ -23,9 +23,9 @@
       attack_cavalry_melee_02
       attack_cavalry_ranged_01
       attack_cavalry_ranged_02
-      armor_cav_01
-      armor_cav_02
-      -heal_barracks
+      soldier_resistance_pierce_01
+      soldier_resistance_pierce_02
+      -cavalry_movement_speed
     </Technologies>
   </ProductionQueue>
   <VisualActor>

@@ -11,11 +11,6 @@
   <Obstruction>
     <Static width="17.0" depth="19.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-      -cavalry_movement_speed
-    </Technologies>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/anglo/corral.xml</Actor>
     <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
