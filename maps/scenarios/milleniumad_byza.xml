@@ -817,14 +817,14 @@
 			<Actor seed="21334"/>
 		</Entity>
 		<Entity uid="117">
-			<Template>units/byza/mechanical_siege_ram</Template>
+			<Template>units/byza/siege_ram</Template>
 			<Player>0</Player>
 			<Position x="390.45963" z="134.56363"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="54044"/>
 		</Entity>
 		<Entity uid="118">
-			<Template>units/byza/mechanical_siege_traction_trebuchet_packed</Template>
+			<Template>units/byza/siege_traction_trebuchet_packed</Template>
 			<Player>0</Player>
 			<Position x="383.6608" z="127.3116"/>
 			<Orientation y="2.35621"/>
@@ -922,7 +922,7 @@
 			<Actor seed="45074"/>
 		</Entity>
 		<Entity uid="141">
-			<Template>units/byza/mechanical_siege_traction_trebuchet_unpacked</Template>
+			<Template>units/byza/siege_traction_trebuchet_unpacked</Template>
 			<Player>0</Player>
 			<Position x="375.04874" z="125.38584"/>
 			<Orientation y="2.35621"/>

@@ -586,35 +586,35 @@
 			<Actor seed="690"/>
 		</Entity>
 		<Entity uid="88">
-			<Template>units/caro/mechanical_siege_trebuchet_unpacked</Template>
+			<Template>units/caro/siege_trebuchet_unpacked</Template>
 			<Player>0</Player>
 			<Position x="441.56714" z="177.26337"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="36358"/>
 		</Entity>
 		<Entity uid="89">
-			<Template>units/caro/mechanical_siege_trebuchet_packed</Template>
+			<Template>units/caro/siege_trebuchet_packed</Template>
 			<Player>0</Player>
 			<Position x="450.61316" z="186.97666"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="44590"/>
 		</Entity>
 		<Entity uid="90">
-			<Template>units/caro/mechanical_siege_traction_trebuchet_unpacked</Template>
+			<Template>units/caro/siege_traction_trebuchet_unpacked</Template>
 			<Player>0</Player>
 			<Position x="443.5315" z="158.67356"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="54220"/>
 		</Entity>
 		<Entity uid="91">
-			<Template>units/caro/mechanical_siege_traction_trebuchet_packed</Template>
+			<Template>units/caro/siege_traction_trebuchet_packed</Template>
 			<Player>0</Player>
 			<Position x="455.16285" z="163.42484"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3484"/>
 		</Entity>
 		<Entity uid="92">
-			<Template>units/caro/mechanical_siege_ram</Template>
+			<Template>units/caro/siege_ram</Template>
 			<Player>0</Player>
 			<Position x="459.63099" z="176.0478"/>
 			<Orientation y="2.35621"/>
