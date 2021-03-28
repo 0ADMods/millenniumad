@@ -19,10 +19,6 @@
       -units/{civ}/cavalry_archer_b    
     </Entities>
     <Technologies datatype="tokens">
-      attack_cavalry_melee_01
-      attack_cavalry_melee_02
-      attack_cavalry_ranged_01
-      attack_cavalry_ranged_02
       soldier_resistance_pierce_01
       soldier_resistance_pierce_02
       -cavalry_movement_speed

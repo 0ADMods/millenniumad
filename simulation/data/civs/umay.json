@@ -25,7 +25,7 @@
 	"CivBonuses": [],
 	"WallSets": [
 		"structures/wallset_palisade",
-		"structures/sele_wallset_stone"
+		"structures/sele/wallset_stone"
 	],
 	"StartEntities": [
 		{
