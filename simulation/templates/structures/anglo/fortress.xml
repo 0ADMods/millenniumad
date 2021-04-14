@@ -36,7 +36,8 @@
       units/{civ}/siege_trebuchet_packed
       units/{civ}/siege_traction_trebuchet_packed
     </Entities>
-    <Technologies datatype="tokens"> siege_attack
+    <Technologies datatype="tokens">
+      siege_attack
       siege_cost_time
       siege_health
       siege_pack_unpack
