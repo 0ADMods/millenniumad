@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_tower">
-  <Attack disable=""/>
-  <BuildingAI disable=""/>
   <Cost>
     <Resources>
       <wood>24</wood>
@@ -12,10 +10,6 @@
     <Square width="8.0" depth="8.0"/>
     <Height>14.8</Height>
   </Footprint>
-  <GarrisonHolder>
-    <Max>4</Max>
-    <List datatype="tokens">-Support -Infantry</List>
-  </GarrisonHolder>
   <Identity>
     <Civ>caro</Civ>
     <Tooltip disable=""/>

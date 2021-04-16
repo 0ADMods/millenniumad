@@ -4,9 +4,6 @@
     <Square width="10.0" depth="10.0"/>
     <Height>18.6</Height>
   </Footprint>
-  <GarrisonHolder>
-    <Max>4</Max>
-  </GarrisonHolder>
   <Identity>
     <Civ>anglo</Civ>
     <SpecificName>Burth</SpecificName>
