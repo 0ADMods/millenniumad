@@ -22,25 +22,7 @@
 			"Type": "peace"
 		}
 	],
-	"CivBonuses": [
-		{
-			"Name": "Fertile Land",
-			"Description": "Workers +10% gather speed."
-		},
-		{
-			"Name": "Limited Coinage",
-			"Description": "Trade gain -10%."
-		},
-		{
-			"Name": "Weak Structures",
-			"Description": "Structures −10% health."
-		},
-		{
-			"Name": "Wooden Walls",
-			"History": "The Anglo-Saxons built their city walls out of wood, an abundant natural resource in Great Britain.",
-			"Description": "Wall segments −20% build time and −20% health."
-		}
-	],
+	"CivBonuses": [],
 	"WallSets": [
 		"structures/wallset_palisade",
 		"structures/anglo/wallset_stone"

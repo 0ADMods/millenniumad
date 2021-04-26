@@ -22,13 +22,7 @@
 			"Type": "peace"
 		}
 	],
-	"CivBonuses": [
-		{
-			"Name": "Byzantine Walls",
-			"History": "The Byzantines were well-known for their strong city walls, enabling them to repeatedly resist sieges.",
-			"Description": "Two sets of city walls can be built."
-		}
-	],
+	"CivBonuses": [],
 	"WallSets": [
 		"structures/wallset_palisade",
 		"structures/byza/wallset_stone",

@@ -14,17 +14,7 @@
 			"Type": "peace"
 		}
 	],
-	"CivBonuses": [
-		{
-			"Name": "Thralls",
-			"Description": "Workers −10% gather speed, but +10% movement speed."
-		},
-		{
-			"Name": "Wooden Walls",
-			"History": "The Norse built their city walls out of wood, an abundant natural resource in Scandinavia.",
-			"Description": "Walls −20% build time and −20% health."
-		}
-	],
+	"CivBonuses": [],
 	"WallSets": [
 		"structures/wallset_palisade",
 		"structures/norse/wallset_stone"

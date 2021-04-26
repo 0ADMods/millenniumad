@@ -14,17 +14,7 @@
 			"Type": "peace"
 		}
 	],
-	"CivBonuses": [
-		{
-			"Name": "Improved Logistics",
-			"Description": "Workers +5 resource capacity."
-		},
-		{
-			"Name": "Stone and Wooden Walls",
-			"History": "The Carolingian Franks combined stone and wood in their city walls.",
-			"Description": "Walls −10% build time and −10% health."
-		}
-	],
+	"CivBonuses": [],
 	"WallSets": [
 		"structures/wallset_palisade",
 		"structures/caro/wallset_stone"
