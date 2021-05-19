@@ -4,6 +4,6 @@
 	"version": "1.1.0",
 	"url": "https://github.com/0ADMods/millenniumad",
 	"description": "Cover the AD 500–1000 timeframe with new civilizations and maps.",
-	"dependencies": ["0ad=0.0.24"],
+	"dependencies": ["0ad>=0.0.24"],
 	"type": "mod"
 }
