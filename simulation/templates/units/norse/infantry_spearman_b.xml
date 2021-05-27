@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_spearman">
+<Entity parent="civ/norse|template_unit_infantry_melee_spearman">
   <Attack>
     <Melee>
       <Bonuses>
@@ -10,16 +10,7 @@
       </Bonuses>
     </Melee>
   </Attack>
-  <Builder>
-    <Entities datatype="tokens">
-      -structures/{civ}/corral
-      -structures/{civ}/defense_tower
-      -structures/{civ}/fortress
-      -structures/{civ}/wonder
-    </Entities>
-  </Builder>
   <Identity>
-    <Civ>norse</Civ>
     <SelectionGroupName>units/norse/infantry_spearman_b</SelectionGroupName>
     <GenericName>Spearman</GenericName>
     <SpecificName>Seggr</SpecificName>

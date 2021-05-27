@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Builder merge="">
+    <Entities datatype="tokens">
+      structures/umay/military_camp
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>umay</Civ>
+    <Lang>greek</Lang>
+  </Identity>
+</Entity>

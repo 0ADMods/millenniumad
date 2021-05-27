@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_javelineer">
-  <Builder>
-    <Entities datatype="tokens">
-      -structures/{civ}/wallset_stone
-      structures/{civ}/wallset_stone_04
-      structures/{civ}/wallset_stone_02
-    </Entities>
-  </Builder>
+<Entity parent="civ/byza|template_unit_infantry_ranged_javelineer">
   <Identity>
-    <Civ>byza</Civ>
-    <Lang>greek</Lang>
     <SelectionGroupName>units/byza/infantry_javelineer_b</SelectionGroupName>
     <SpecificName>Akontistēs</SpecificName>
     <Icon>units/byza_infantry_javelinist.png</Icon>

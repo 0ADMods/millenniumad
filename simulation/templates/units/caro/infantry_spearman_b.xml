@@ -10,13 +10,7 @@
       </Bonuses>
     </Melee>
   </Attack>
-  <Builder>
-    <Entities datatype="tokens">
-      structures/caro/special
-    </Entities>
-  </Builder>
   <Identity>
-    <Civ>caro</Civ>
     <SelectionGroupName>units/caro/infantry_spearman_b</SelectionGroupName>
     <Icon>units/caro_infantry_spearman.png</Icon>
   </Identity>

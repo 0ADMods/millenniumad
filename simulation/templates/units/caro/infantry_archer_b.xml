@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_archer">
-  <Builder>
-    <Entities datatype="tokens">
-      structures/caro/special
-    </Entities>
-  </Builder>
   <Cost>
     <Resources>
       <food>60</food>
     </Resources>
   </Cost>
   <Identity>
-    <Civ>caro</Civ>
     <SelectionGroupName>units/caro/infantry_archer_b</SelectionGroupName>
     <Icon>units/caro_infantry_archer.png</Icon>
   </Identity>

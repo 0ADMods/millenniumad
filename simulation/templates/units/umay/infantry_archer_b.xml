@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_archer">
-  <Builder>
-    <Entities datatype="tokens">
-      structures/umay/military_camp
-    </Entities>
-  </Builder>
+<Entity parent="civ/umay|template_unit_infantry_ranged_archer">
   <Identity>
-    <Civ>umay</Civ>
-	<Lang>greek</Lang>
     <SelectionGroupName>units/umay/infantry_archer_b</SelectionGroupName>
     <GenericName>Infantry Archer</GenericName>
     <SpecificName></SpecificName>

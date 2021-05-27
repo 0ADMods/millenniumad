@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_swordsman">
+<Entity parent="civ/umay|merc_inf|template_unit_infantry_melee_swordsman">
   <Attack>
     <Melee>
       <Damage>
@@ -8,22 +8,10 @@
       </Damage>
     </Melee>
   </Attack>
-  <Builder>
-    <Entities datatype="tokens">
-      structures/umay/military_camp
-    </Entities>
-  </Builder>
-  <Cost>
-    <Resources>
-      <food op="add">-25</food>
-      <metal op="add">25</metal>
-    </Resources>
-  </Cost>
   <Identity>
-    <Civ>umay</Civ>
     <SelectionGroupName>units/umay/infantry_clubman_merc_b</SelectionGroupName>
     <GenericName>Arab Tribesman</GenericName>
-    <VisibleClasses datatype="tokens">-Swordsman ClubmanMercenary</VisibleClasses>
+    <VisibleClasses datatype="tokens">-Swordsman Clubman</VisibleClasses>
     <Icon>units/umay_infantry_clubman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

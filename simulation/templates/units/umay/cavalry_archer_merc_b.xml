@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_ranged_archer">
-  <Cost>
-    <Resources>
-      <food op="add">-25</food>
-      <metal op="add">25</metal>
-    </Resources>
-  </Cost>
+<Entity parent="merc_cav|template_unit_cavalry_ranged_archer">
   <Identity>
     <Civ>umay</Civ>
-    <VisibleClasses datatype="tokens">Camel Mercenary</VisibleClasses>
+    <VisibleClasses datatype="tokens">Camel</VisibleClasses>
     <SelectionGroupName>units/umay/cavalry_archer_b</SelectionGroupName>
     <GenericName>Bedouin Camel Archer</GenericName>
     <SpecificName></SpecificName>

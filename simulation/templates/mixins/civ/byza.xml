@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Builder merge="">
+    <Entities datatype="tokens">
+      -structures/{civ}/wallset_stone
+      structures/{civ}/wallset_stone_04
+      structures/{civ}/wallset_stone_02
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>byza</Civ>
+    <Lang>greek</Lang>
+  </Identity>
+</Entity>
