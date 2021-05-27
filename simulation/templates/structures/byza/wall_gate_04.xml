@@ -4,9 +4,6 @@
     <Square width="35.0" depth="6.5"/>
     <Height>9.3</Height>
   </Footprint>
-  <GarrisonHolder>
-    <Max>8</Max>
-  </GarrisonHolder>
   <Identity>
     <Civ>byza</Civ>
     <SpecificName>Pylai</SpecificName>

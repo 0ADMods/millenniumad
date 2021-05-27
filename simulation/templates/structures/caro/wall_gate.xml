@@ -10,9 +10,6 @@
     <Square width="37.0" depth="10.0"/>
     <Height>19.3</Height>
   </Footprint>
-  <GarrisonHolder>
-    <Max>13</Max>
-  </GarrisonHolder>
   <Identity>
     <Civ>caro</Civ>
   </Identity>
