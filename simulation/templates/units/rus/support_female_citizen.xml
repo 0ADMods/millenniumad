@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="civ/norse|template_unit_support_female_citizen">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack op="mul">1.5</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Health>
+    <Max>75</Max>
+  </Health>
+  <Identity>
+    <SpecificName>Fljóð</SpecificName>
+    <GenericName>Woman</GenericName>
+    <Icon>units/celt_support_female_citizen.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/norse/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>
