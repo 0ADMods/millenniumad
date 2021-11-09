@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="civic_center">
+      <mesh>structural/rus_civic_centre.dae</mesh>
+      <textures>
+				<texture file="structural/rus_struct_alt.png" name="baseTex"/>
+				<texture file="structural/rus_struct_alt_NRM.png" name="normTex"/>
+			</textures>
+      <props>
+      </props>
+       </variant>
+  </group>
+<material>player_trans_ao_parallax.xml</material>
+</actor>

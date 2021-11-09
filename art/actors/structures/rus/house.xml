@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="100" name="Rus House B">
+			<mesh>structural/rus_house_B.dae</mesh>
+			<textures>
+				<texture file="structural/norse_struct.png" name="baseTex"/>
+				<texture file="structural/norse_struct_norm.png" name="normTex"/>
+				<texture file="structural/norse_struct_spec.png" name="specTex"/>
+				<texture file="structural/ao/norse_house_a_ao.png" name="aoTex"/>
+			</textures>
+			<props>
+        <prop actor="props/structures/rus/barrel.xml" attachpoint="barrel_a_001"/>
+			</props>
+		</variant>
+	</group>
+  	<group>
+  		<variant frequency="100" name="Idle"/>
+   		<variant name="death">
+ 			 <props>
+    			 <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+    			 <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+   				 <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+   				 <prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
+  			</props>
+   		</variant>
+  	</group>
+ 	<material>player_trans_ao_parallax_spec.xml</material>
+</actor>
