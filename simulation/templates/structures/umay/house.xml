@@ -11,6 +11,6 @@
     <Static width="13.0" depth="14.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/seleucids/house.xml</Actor>
+    <Actor>structures/umayyads/house.xml</Actor>
   </VisualActor>
 </Entity>

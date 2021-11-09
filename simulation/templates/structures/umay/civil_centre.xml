@@ -12,6 +12,6 @@
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/seleucids/civic_center.xml</Actor>
+    <Actor>structures/umayyads/civic_center.xml</Actor>
   </VisualActor>
 </Entity>
