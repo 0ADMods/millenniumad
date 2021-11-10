@@ -62,7 +62,7 @@
 		"Yaroslav the Wise",
 		"Vladimir Monomakh",
 		"Rurik of Novgorod",
-		"Vladimir Sviatoslavich",
+		"Vladimir Sviatoslavich"
 	],
 	"SkirmishReplacements": {
 		"skirmish/units/default_cavalry": "units/norse/infantry_swordsman_b",
