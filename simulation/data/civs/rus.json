@@ -3,7 +3,7 @@
 	"Culture": "norse",
 	"Name": "Rus",
 	"Emblem": "session/portraits/emblems/emblem_rus.png",
-	"History": "The Norse of old were a north Germanic people who hailed from Scandinavia. During the early Middle Ages their regions expanded to Russia, England, Iceland and Greenland. They traveled to Asia as well as to the New World nearly 500 years before Columbus. Though feared for their fighting skills, they were also skilled traders and sailors. By the end of the Viking Age, which lasted from 793-1066 AD, their raids on the mainland faded, nonetheless they have left their mark on European culture and history.",
+	"History": "The Rus’ was a great commercial empire, spanning from the Baltic Sea to the Bosphorus. For centuries this land has been territory of passage between the germanic tribes of the north and the hellenic civilizations of the south and a crossroad between East and West.",
 	"Music": [
 		{
 			"File": "Alex Dmitrieff basso profondo.ogg",
@@ -57,24 +57,12 @@
 		"special/formations/shieldwall"
 	],
 	"AINames": [
-		"Halfdan the Old of Denmark",
-		"Margaret of Denmark",
-		"Ivar of Sweden",
-		"Hrolf the Old of Gautland",
-		"Swerre of Norway",
-		"Hakon Hakonson of Norway",
-		"Half of Hordaland",
-		"Magnus the Saint of Orkney",
-		"Kala of Orkney",
-		"Leif Erikson",
-		"King Gutfred",
-		"Erik the Red",
-		"Cnut the Great",
-		"Harald Hardrada",
-		"Harald Bluetooth",
-		"Rollo of Normandy",
-		"Ragnar Lodbrok",
-		"Bagsegc"
+		"Oleg of Novgorod",
+		"Vsevolod of Kiev",
+		"Yaroslav the Wise",
+		"Vladimir Monomakh",
+		"Rurik of Novgorod",
+		"Vladimir Sviatoslavich",
 	],
 	"SkirmishReplacements": {
 		"skirmish/units/default_cavalry": "units/norse/infantry_swordsman_b",
