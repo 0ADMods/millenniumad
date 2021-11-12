@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="civ/norse|template_unit_support_female_citizen">
+<Entity parent="civ/rus|template_unit_support_female_citizen">
   <Attack>
     <Melee>
       <Damage>
