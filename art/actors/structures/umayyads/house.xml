@@ -11,66 +11,59 @@
 			</props>
     </variant>
     <variant frequency="5" name="House B">
-      <mesh>structural/byza_house_b.dae</mesh>
+      <mesh>structural/umay_house_B.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct.png" name="baseTex"/>
-				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/byza_house_b.png" name="aoTex"/>
+				<texture file="structural/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay_struct_02_NRM.png" name="normTex"/>
+        <texture file="structural/umay_struct_02_OCC.png" name="aoTex"/>
 			</textures>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-        <prop actor="props/structures/byzantines/house_roof.xml" attachpoint="root"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_01"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_02"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_03"/>
 			</props>
     </variant>
     <variant frequency="5" name="House C">
-      <mesh>structural/byza_house_c.dae</mesh>
+      <mesh>structural/umay_house_B.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct.png" name="baseTex"/>
-				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/byza_house_c.png" name="aoTex"/>
+				<texture file="structural/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay_struct_02_NRM.png" name="normTex"/>
+        <texture file="structural/umay_struct_02_OCC.png" name="aoTex"/>
 			</textures>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-        <prop actor="props/structures/byzantines/house_roof.xml" attachpoint="root"/>
-        <prop actor="props/structures/byzantines/column_large.xml" attachpoint="column_a"/>
-        <prop actor="props/structures/byzantines/column_large.xml" attachpoint="column_b"/>
-        <prop actor="props/structures/byzantines/column_large.xml" attachpoint="column_c"/>
-        <prop actor="props/structures/byzantines/column_large.xml" attachpoint="column_d"/>
-        <prop actor="props/structures/byzantines/column_large.xml" attachpoint="column_e"/>
-        <prop actor="props/structures/byzantines/column_large.xml" attachpoint="column_f"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_01"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_02"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_03"/>
 			</props>
     </variant>
     <variant frequency="5" name="House D">
-      <mesh>structural/byza_house_d.dae</mesh>
+       <mesh>structural/umay_house_B.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct.png" name="baseTex"/>
-				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/byza_house_d.png" name="aoTex"/>
+				<texture file="structural/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay_struct_02_NRM.png" name="normTex"/>
+        <texture file="structural/umay_struct_02_OCC.png" name="aoTex"/>
 			</textures>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-        <prop actor="props/structures/byzantines/house_roof.xml" attachpoint="root"/>
-        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_a"/>
-        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_b"/>
-        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_c"/>
-        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_d"/>
-        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_e"/>
-        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_f"/>
-        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_g"/>
-        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_h"/>
-        <prop actor="props/structures/byzantines/column.xml" attachpoint="column_i"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_01"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_02"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_03"/>
 			</props>
     </variant>
     <variant frequency="5" name="House E">
-      <mesh>structural/byza_house_e.dae</mesh>
+       <mesh>structural/umay_house_B.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct.png" name="baseTex"/>
-				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/byza_house_b.png" name="aoTex"/>
+				<texture file="structural/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay_struct_02_NRM.png" name="normTex"/>
+        <texture file="structural/umay_struct_02_OCC.png" name="aoTex"/>
 			</textures>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-        <prop actor="props/structures/byzantines/house_roof.xml" attachpoint="root"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_01"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_02"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_03"/>
 			</props>
     </variant>
   </group>
