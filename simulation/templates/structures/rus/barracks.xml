@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+	<Footprint>
+		<Square width="24.0" depth="40.0"/>
+		<Height>5.0</Height>
+	</Footprint>
+	<Obstruction>
+		<Static width="24.0" depth="40.0"/>
+	</Obstruction>
+	<Health>
+		<SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
+	</Health>
+	<Identity>
+		<Civ>rus</Civ>
+		<SpecificName>Salr</SpecificName>
+		<GenericName>Mead Hall</GenericName>
+		<RequiredTechnology>phase_town</RequiredTechnology>
+		<Classes datatype="tokens">Town</Classes>
+	</Identity>
+	<Population>
+		<Bonus>4</Bonus>
+	</Population>
+	<ProductionQueue>
+		<Entities datatype="tokens">
+			units/{civ}/infantry_swordsman_b
+			units/{civ}/infantry_spearman_b
+			units/{civ}/infantry_archer_b
+			units/{civ}/champion_berserker_barracks
+		</Entities>
+	    <Technologies datatype="tokens">
+	      unlock_champion_units_modded
+	    </Technologies>
+	</ProductionQueue>
+	<VisualActor>
+		<Actor>structures/rus/barracks.xml</Actor>
+		<FoundationActor>structures/fndn_4x6.xml</FoundationActor>
+	</VisualActor>
+</Entity>
