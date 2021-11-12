@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<group>
+		<variant name="trade_turret">
+			<mesh>props/rus_prop_trading_turret.dae</mesh>
+		</variant>
+	</group>
+	<group>
+		<variant>
+      <textures>
+        <texture file="props/rus_props_01.png" name="baseTex"/>
+        <texture file="props/rus_props_01_NRM.png" name="normTex"/>
+      </textures>
+		</variant>
+	</group>
+ 	<material>player_trans_parallax_spec.xml</material>
+</actor>
