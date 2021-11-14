@@ -3,7 +3,7 @@
 	<castshadow/>
 	<group>
 		<variant frequency="100" name="Norse Barracks">
-			<mesh>structural/rus_barracks.dae</mesh>
+			<mesh>structural/rus_barracks_B.dae</mesh>
 			<props>
 				<prop actor="props/structures/decals/dirt_4x6.xml" attachpoint="root"/>
         <prop actor="props/structures/rus/barracks_hut.xml" attachpoint="hut"/>
@@ -16,9 +16,7 @@
         <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="barrel_03" maxheight="20" minheight="-20"/>
 			</props>
 			<textures>
-        <texture file="structural/rus_struct_alt.png" name="baseTex"/>
-        <texture file="structural/rus_struct_alt_NRM.png" name="normTex"/>
-        <texture file="structural/rus_struct_SPEC.png" name="specTex"/>
+        <texture file="structural/rus_struct_B.png" name="baseTex"/>
 			</textures>
 		</variant>
 	</group>

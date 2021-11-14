@@ -7,12 +7,11 @@
 			<props>
 				<prop actor="props/structures/decals/dirt_4x6.xml" attachpoint="root"/>
 				<prop actor="props/structures/rus/trade_decor.xml" attachpoint="decor"/>
-				<prop actor="props/structures/rus/trade_fence.xml" attachpoint="root"/>
+				<prop actor="props/structures/rus/trade_fence.xml" attachpoint="fence"/>
 				<prop actor="props/structures/rus/trade_turret.xml" attachpoint="turret"/>
 			</props>
 			<textures>
-				<texture file="structural/rus_struct_alt.png" name="baseTex"/>
-				<texture file="structural/rus_struct_alt_NRM.png" name="normTex"/>
+				<texture file="structural/rus_struct_B.png" name="baseTex"/>
 			</textures>
 		</variant>
 	</group>
