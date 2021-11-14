@@ -8,8 +8,7 @@
 	<group>
 		<variant>
       <textures>
-        <texture file="structural/rus_struct_alt.png" name="baseTex"/>
-        <texture file="structural/rus_struct_alt_NRM.png" name="normTex"/>
+        <texture file="structural/rus_struct_B.png" name="baseTex"/>
       </textures>
 		</variant>
 	</group>

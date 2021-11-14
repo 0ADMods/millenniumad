@@ -8,9 +8,7 @@
 	<group>
 		<variant>
       <textures>
-        <texture file="props/rus_props_01.png" name="baseTex"/>
-        <texture file="props/rus_props_01_NRM.png" name="normTex"/>
-        <texture file="structural/rus_struct_alt_OCC.png" name="aoTex"/>
+        <texture file="structural/rus_struct_B.png" name="baseTex"/>
       </textures>
 		</variant>
 	</group>
