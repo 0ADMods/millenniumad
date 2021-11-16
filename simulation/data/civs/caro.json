@@ -12,7 +12,12 @@
 		{
 			"File": "To_Valhalla.ogg",
 			"Type": "peace"
+		},
+		{
+			"File": "kuro_burglar.ogg",
+			"Type": "peace"
 		}
+
 	],
 	"CivBonuses": [],
 	"WallSets": [

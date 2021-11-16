@@ -20,6 +20,10 @@
 		{
 			"File": "The_Governor.ogg",
 			"Type": "peace"
+		},
+		{
+			"File": "Agni_Parthene.ogg",
+			"Type": "peace"
 		}
 	],
 	"CivBonuses": [],
