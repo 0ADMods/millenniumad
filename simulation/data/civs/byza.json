@@ -24,6 +24,10 @@
 		{
 			"File": "Agni_Parthene.ogg",
 			"Type": "peace"
+		},
+		{
+			"File": "Psalm_135.ogg",
+			"Type": "peace"
 		}
 	],
 	"CivBonuses": [],
