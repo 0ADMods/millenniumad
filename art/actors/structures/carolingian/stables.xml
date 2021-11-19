@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="25" name="Anglo Stables">
+			<mesh>structural/caro_stable_B.dae</mesh>
+			<textures>
+				<texture file="structural/caro_struct.png" name="baseTex"/>
+				<texture file="structural/caro_struct_norm.png" name="normTex"/>
+				<texture file="structural/ao/caro_house_b_ao.png" name="aoTex"/>
+			</textures>
+			<props>
+				<prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
+				<prop actor="props/structures/anglo/anglo_stables_hay_pile.xml" attachpoint="hay_pile"/>
+				<prop actor="props/structures/persians/stable_horse_a.xml" attachpoint="horse1"/>
+        <prop actor="props/structures/persians/stable_horse_b.xml" attachpoint="horse2"/>
+        <prop actor="props/structures/persians/stable_horse_c.xml" attachpoint="horse3"/>
+			</props>
+		</variant>
+	</group>
+ 	<material>player_trans_ao_parallax_spec.xml</material>
+</actor>
