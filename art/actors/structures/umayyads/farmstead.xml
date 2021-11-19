@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="farmstead">
+      <mesh>structural/umay_farmstead_B.dae</mesh>
+      <textures>
+        <texture file="structural/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay_struct_02_NRM.png" name="normTex"/>
+        <texture file="structural/umay_struct_02_OCC.png" name="aoTex"/>
+      </textures>
+      <props>
+        <prop actor="props/structures/byzantines/farmstead_hay.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop actor="props/structures/byzantines/farmstead_hay.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+<material>player_trans_ao_parallax.xml</material>
+</actor>

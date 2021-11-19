@@ -3,9 +3,9 @@
   <castshadow/>
   <group>
     <variant frequency="5" name="House A">
-      <mesh>structural/Umay_house_A.dae</mesh>
+      <mesh>structural/umay_house_C.dae</mesh>
       <textures>
-				<texture file="structural/umay_struct.png" name="baseTex"/>
+				<texture file="structural/umay_struct_02.png" name="baseTex"/>
 			</textures>
       <props>
 			</props>
@@ -39,7 +39,7 @@
 			</props>
     </variant>
     <variant frequency="5" name="House D">
-       <mesh>structural/umay_house_B.dae</mesh>
+       <mesh>structural/umay_house_C.dae</mesh>
       <textures>
 				<texture file="structural/umay_struct_02.png" name="baseTex"/>
         <texture file="structural/umay_struct_02_NRM.png" name="normTex"/>
@@ -47,9 +47,6 @@
 			</textures>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_01"/>
-        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_02"/>
-        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_03"/>
 			</props>
     </variant>
     <variant frequency="5" name="House E">
