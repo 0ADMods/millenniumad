@@ -36,7 +36,6 @@
   </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      soldier_attack_melee_05_variant
       tower_murderholes
       tower_health
       chivalry
