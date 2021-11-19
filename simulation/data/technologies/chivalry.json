@@ -1,0 +1,18 @@
+{
+	"genericName": "Chivalry",
+	"description": "Murder holes allow hitting enemies at the foot of the tower.",
+	"cost": {
+		"wood": 250,
+		"stone": 100
+	},
+	"requirements": { "tech": "phase_city" },
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "tech_chivalry.png",
+	"researchTime": 40,
+	"tooltip": "Sentry and Stone Towers have 0 minimum attack range.",
+	"modifications": [
+		{ "value": "Attack/Ranged/MinRange", "replace": 0 }
+	],
+	"affects": ["SentryTower", "StoneTower"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
