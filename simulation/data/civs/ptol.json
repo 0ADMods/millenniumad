@@ -1,0 +1,98 @@
+{
+	"Code": "ptol",
+	"Culture": "ptol",
+	"Name": "Ptolemies",
+	"Emblem": "session/portraits/emblems/emblem_ptolemies.png",
+	"History": "The Ptolemaic dynasty was a Macedonian Greek royal family which ruled the Ptolemaic Empire in Egypt during the Hellenistic period. Their rule lasted for 275 years, from 305 BC to 30 BC. They were the last dynasty of ancient Egypt.",
+	"Music": [
+		{
+			"File": "Ammon-Ra.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Sands_of_Time.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Land_between_the_two_Seas.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Valley_of_the_Nile.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses": [
+		{
+			"Name": "Polybolos",
+			"History": "",
+			"Description": "Bolt Shooters −33% attack damage and −33% attack time."
+		}
+	],
+	"WallSets": [
+		"structures/wallset_palisade",
+		"structures/ptol/wallset_stone"
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/ptol/civil_centre"
+		},
+		{
+			"Template": "units/ptol/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/ptol/infantry_pikeman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/ptol/infantry_slinger_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/ptol/cavalry_archer_b"
+		}
+	],
+	"Formations": [
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/battle_line",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/phalanx",
+		"special/formations/syntagma"
+	],
+	"AINames": [
+		"Ptolemy Soter",
+		"Ptolemy Philadelphus",
+		"Ptolemy Epigone",
+		"Ptolemy Eurgetes",
+		"Ptolemy Philopater",
+		"Ptolemy Epiphanes",
+		"Ptolemy Philometor",
+		"Ptolemy Eupator",
+		"Ptolemy Alexander",
+		"Ptolemy Neos Dionysos",
+		"Ptolemy Neos Philopater",
+		"Berenice Philopater",
+		"Cleopatra Tryphaena",
+		"Berenice Epiphaneia",
+		"Cleopatra Philopater",
+		"Cleopatra Selene",
+		"Cleopatra II Philometora Soteira",
+		"Arsinoe IV",
+		"Arsinoe II"
+	],
+	"SkirmishReplacements": {
+		"skirmish/units/default_infantry_melee_b": "units/ptol/infantry_pikeman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/ptol/infantry_slinger_b",
+		"skirmish/units/default_cavalry": "units/ptol/cavalry_archer_b",
+		"skirmish/structures/default_house_5": "structures/{civ}/house"
+	},
+	"SelectableInGameSetup": false
+}

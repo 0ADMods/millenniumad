@@ -1,0 +1,89 @@
+{
+	"Code": "iber",
+	"Culture": "iber",
+	"Name": "Iberians",
+	"Emblem": "session/portraits/emblems/emblem_iberians.png",
+	"History": "The Iberians were a people of mysterious origins and language, with a strong tradition of horsemanship and metalworking. A relatively peaceful culture, they usually fought in other's battles only as mercenaries. However, they proved tenacious when Rome sought to take their land and freedom from them, and employed pioneering guerrilla tactics and flaming javelins as they fought back.",
+	"Music": [
+		{
+			"File": "An_old_Warhorse_goes_to_Pasture.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Celtica.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Harsh_Lands_Rugged_People.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses": [
+		{
+			"Name": "Starting Walls",
+			"History": "With exception to alluvial plains and river valleys, stone is abundant in the Iberian Peninsula and was greatly used in construction of structures of all types.",
+			"Description": "Iberians start with City Walls around their base on most maps."
+		},
+		{
+			"Name": "Massive Towers",
+			"History": "",
+			"Description": "Stone Towers −50% wood cost, +150% stone cost, +33% build time, +60% health, +3 garrison capacity, and +1 default arrow count."
+		}
+	],
+	"WallSets": [
+		"structures/wallset_palisade",
+		"structures/iber/wallset_stone"
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/iber/civil_centre"
+		},
+		{
+			"Template": "units/iber/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/iber/infantry_swordsman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/iber/infantry_javelineer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/iber/cavalry_javelineer_b"
+		}
+	],
+	"Formations": [
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/battle_line",
+		"special/formations/skirmish",
+		"special/formations/wedge"
+	],
+	"AINames": [
+		"Viriato",
+		"Viriato",
+		"Karos",
+		"Indibil",
+		"Audax",
+		"Ditalcus",
+		"Minurus",
+		"Tautalus"
+	],
+	"SkirmishReplacements": {
+		"skirmish/units/default_infantry_melee_b": "units/iber/infantry_swordsman_b",
+		"skirmish/structures/default_house_5": "structures/{civ}/house",
+		"skirmish/structures/iber_wall_short": "structures/iber/wall_short",
+		"skirmish/structures/iber_wall_medium": "structures/iber/wall_medium",
+		"skirmish/structures/iber_wall_long": "structures/iber/wall_long",
+		"skirmish/structures/iber_wall_gate": "structures/iber/wall_gate",
+		"skirmish/structures/iber_wall_tower": "structures/iber/wall_tower"
+	},
+	"SelectableInGameSetup": false
+}

@@ -1,0 +1,94 @@
+{
+	"Code": "kush",
+	"Culture": "egyptian",
+	"Name": "Kushites",
+	"Emblem": "session/portraits/emblems/emblem_kushites.png",
+	"History": "The Kingdom of Kush was an ancient African kingdom situated on the confluences of the Blue Nile, White Nile and River Atbara in what is now the Republic of Sudan. The Kushite era of rule in the region was established after the Bronze Age collapse of the New Kingdom of Egypt, and it was centered at Napata in its early phase. They invaded Egypt in the 8th century BC, and the Kushite emperors ruled as Pharaohs of the Twenty-fifth dynasty of Egypt for a century, until they were expelled by the Assyrians. Kushite culture was influenced heavily by the Egyptians, with Kushite pyramid building and monumental temple architecture still extent. The Kushites even worshipped many Egyptian gods, including Amun. During Classical antiquity, the Kushite imperial capital was at Meroe. In early Greek geography, the Meroitic kingdom was known as Aethiopia. The Kushite kingdom persisted until the 4th century AD, when it weakened and disintegrated due to internal rebellion, eventually succumbing to the rising power of Axum.",
+	"Music": [
+		{
+			"File": "Ammon-Ra.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Sands_of_Time.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Land_between_the_two_Seas.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Valley_of_the_Nile.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses": [
+		{
+			"Name": "Large Rams",
+			"History": "",
+			"Description": "Battering Rams +20% attack damage and +2 garrison capacity."
+		}
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/kush/civil_centre"
+		},
+		{
+			"Template": "units/kush/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/kush/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/kush/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/kush/cavalry_javelineer_b"
+		},
+		{
+			"Template": "units/kush/support_healer_b"
+		}
+	],
+	"WallSets": [
+		"structures/wallset_palisade",
+		"structures/kush/wallset_stone"
+	],
+	"Formations": [
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/battle_line",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/syntagma"
+	],
+	"AINames": [
+		"Kashta",
+		"Alara",
+		"Pebatjma",
+		"Shabaka",
+		"Shebitku",
+		"Qalhata",
+		"Takahatenamun",
+		"Tantamani",
+		"Atlanersa",
+		"Nasalsa",
+		"Malewiebamani",
+		"Harsiotef",
+		"Shanakdakhete",
+		"Amanishakheto"
+	],
+	"SkirmishReplacements": {
+		"skirmish/units/default_infantry_ranged_b": "units/kush/infantry_archer_b",
+		"skirmish/units/special_starting_unit": "units/kush/support_healer_b",
+		"skirmish/structures/default_house_10": "structures/{civ}/house"
+	},
+	"SelectableInGameSetup": false
+}
