@@ -32,6 +32,10 @@
 		{
 			"File": "Sons_of_Mars.ogg",
 			"Type": "peace"
+		},
+		{
+			"File": "Byzant/Hikanatoi.ogg",
+			"Type": "peace"
 		}
 	],
 	"CivBonuses": [],
