@@ -7,7 +7,6 @@
 	},
 	"requirements": { "tech": "umay/taxes_increase_1" },
 	"requirementsTooltip": "Unlocked with Dīwān al-kharāj (Board of Revenue).",
-	"supersedes": "trade_gain_01",
 	"icon": "umay/tech_coin.png",
 	"researchTime": 40,
 	"tooltip": "Traders +15% trade gain.",
