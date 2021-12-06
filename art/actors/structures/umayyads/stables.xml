@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="25" name="Anglo Stables">
+			<mesh>structural/umay_stable_B.dae</mesh>
+			<textures>
+				<texture file="structural/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay_struct_02_NRM.png" name="normTex"/>
+        <texture file="structural/umay_struct_02_OCC.png" name="aoTex"/>
+			</textures>
+			<props>
+				<prop actor="props/structures/decals/dirt_4x6.xml" attachpoint="root"/>
+				<prop actor="props/structures/anglo/anglo_stables_hay_pile.xml" attachpoint="hay"/>
+				<prop actor="props/structures/anglo/anglo_stables_hay_pile.xml" attachpoint="hay2"/>
+				<prop actor="props/structures/persians/stable_horse_a.xml" attachpoint="horse1"/>
+        <prop actor="props/structures/persians/stable_horse_b.xml" attachpoint="horse2"/>
+        <prop actor="props/structures/persians/stable_horse_c.xml" attachpoint="horse3"/>
+        <prop actor="props/structures/persians/stable_horse_c.xml" attachpoint="horse4"/>
+        <prop actor="props/structures/persians/stable_horse_c.xml" attachpoint="horse5"/>
+			</props>
+		</variant>
+	</group>
+ 	<material>player_trans_ao_parallax_spec.xml</material>
+</actor>
