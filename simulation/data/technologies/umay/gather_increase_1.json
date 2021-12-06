@@ -5,8 +5,8 @@
 	"description": "A regular Board of Correspondence coordinated the work of all Boards, increasing the administrative efficacy of the Empire.",
 	"cost": {
 		"food": 1200,
-		"wood": 1200,
-		"metal": 1500
+		"wood": 600,
+		"metal": 500
 	},
 	"requirements": { "tech": "phase_town" },
 	"requirementsTooltip": "Unlocked in Town Phase.",
