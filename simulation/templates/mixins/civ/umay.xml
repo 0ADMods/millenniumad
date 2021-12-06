@@ -3,6 +3,8 @@
   <Builder merge="">
     <Entities datatype="tokens">
       structures/umay/military_camp
+      structures/umay/imperial_ministry
+      structures/umay/hospital_camp
     </Entities>
   </Builder>
   <Identity>
