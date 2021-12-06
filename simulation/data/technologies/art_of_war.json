@@ -1,0 +1,34 @@
+{
+	"genericName": "Sun Tzu's \"The Art of War\"",
+	"specificName": { "han": "Sūnzǐ BīngFǎ" },
+	"description": "This famous and most important work of the Seven Military Classics teaches Chinese commanders everything about planning battles, maintaining armies, and defeating one's enemies.",
+	"cost": {
+		"food": 1000,
+		"wood": 500,
+		"stone": 0,
+		"metal": 1000
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city" },
+			{ "civ": "han" }
+		]
+	},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "art_of_war.png",
+	"researchTime": 40,
+	"tooltip": "Chinese soldiers +1 resistance and +20% attack damage, +15% health.",
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 1.15 },
+		{ "value": "Attack/Melee/Splash/Damage/Hack", "multiply": 1.2, "affects": "Soldier" },
+		{ "value": "Attack/Melee/Splash/Damage/Pierce", "multiply": 1.2, "affects": "Soldier" },
+		{ "value": "Attack/Melee/Splash/Damage/Crush", "multiply": 1.2, "affects": "Soldier" },
+		{ "value": "Attack/Ranged/Splash/Damage/Hack", "multiply": 1.2, "affects": "Soldier" },
+		{ "value": "Attack/Ranged/Splash/Damage/Pierce", "multiply": 1.2, "affects": "Soldier" },
+		{ "value": "Attack/Melee/Splash/Damage/Crush", "multiply": 1.2, "affects": "Soldier" },
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 1, "affects": "Soldier" },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 1, "affects": "Soldier" },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 1, "affects": "Soldier" }
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
