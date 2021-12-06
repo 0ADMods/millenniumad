@@ -17,7 +17,7 @@
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "umay/tech_war.png",
 	"researchTime": 40,
-	"tooltip": "All units and structures -15% build time and -5% cost but -10% health",
+	"tooltip": "All military units +20% health, but building cost and time increase",
 	"modifications": [
 		{ "value": "Cost/BuildTime","multiply": 1.2 },
 		{ "value": "Health/Max","multiply": 1.2 },
