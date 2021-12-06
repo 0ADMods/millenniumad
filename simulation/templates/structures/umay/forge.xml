@@ -4,6 +4,12 @@
     <Civ>umay</Civ>
     <SpecificName></SpecificName>
   </Identity>
+   <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Technologies datatype="tokens">
+umay/pair_forge
+    </Technologies>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/umayyads/blacksmith.xml</Actor>
   </VisualActor>
