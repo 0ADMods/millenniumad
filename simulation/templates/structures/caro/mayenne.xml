@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <BuildRestrictions>
+    <Category>Market</Category>
+  </BuildRestrictions>
+  <Identity>
+    <Civ>caro</Civ>
+    <SpecificName>Castle</SpecificName>
+    <Tooltip>Train advanced infantry units. The Castle is a small economical center and functions as a dropsite and a market (but with a lower trading gain). Garrison: 20.</Tooltip>
+    <Classes datatype="tokens">BarterMarket</Classes>
+    <VisibleClasses datatype="tokens">Market</VisibleClasses>
+  </Identity>
+  <Market>
+    <TradeType>land</TradeType>
+    <InternationalBonus>0.1</InternationalBonus>
+  </Market>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_fortress.xml</select>
+      <constructed>interface/complete/building/complete_fortress.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <ResourceDropsite>
+    <Types>food wood stone metal</Types>
+    <Sharable>true</Sharable>
+  </ResourceDropsite>
+  <Population>
+    <Bonus>12</Bonus>
+  </Population>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}/support_trader
+      units/{civ}/infantry_spearman_e
+      units/{civ}/infantry_swordsman_e
+      units/{civ}/infantry_archer_e
+      units/{civ}/champion_cavalry
+      units/{civ}/champion_infantry
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/carolingian/mayenne.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>30</Length>
+  </WallPiece>
+</Entity> 
