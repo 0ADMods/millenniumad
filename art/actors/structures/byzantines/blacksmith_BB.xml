@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="blacksmith">
+      <mesh>structural/byza_blacksmith_BB.dae</mesh>
+      <textures>
+				<texture file="structural/byza_texture_C.png" name="baseTex"/>
+				<texture file="structural/byza_texture_C_NRM.png" name="normTex"/>
+			</textures>
+      <props>
+        <prop actor="particle/flame.xml" attachpoint="fire"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke_a"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke_b"/>
+        <prop actor="props/structures/byzantines/blacksmith_roof.xml" attachpoint="root"/>
+        <prop actor="props/structures/byzantines/blacksmith_props.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+        <prop actor="props/units/shields/byza_oval.xml" attachpoint="shield_1"/>
+        <prop actor="props/units/shields/byza_oval_deco_a.xml" attachpoint="shield_2"/>
+        <prop actor="props/units/shields/byza_oval_deco_b.xml" attachpoint="shield_3"/>
+        <prop actor="props/units/shields/byza_oval.xml" attachpoint="shield_4"/>
+        <prop actor="props/units/shields/byza_oval_deco_b.xml" attachpoint="shield_5"/>
+        <prop actor="props/units/shields/byza_parma.xml" attachpoint="shield_small"/>
+        <prop actor="props/units/weapons/byza_paramerion.xml" attachpoint="sword_1"/>
+        <prop actor="props/units/weapons/byza_paramerion.xml" attachpoint="sword_2"/>
+        <prop actor="props/units/weapons/byza_paramerion.xml" attachpoint="sword_3"/>
+        <prop actor="props/units/weapons/byza_paramerion.xml" attachpoint="sword_5"/>
+        <prop actor="props/units/weapons/caro_infantry_sword.xml" attachpoint="sword_4"/>
+        <prop actor="props/units/weapons/caro_infantry_sword.xml" attachpoint="sword_6"/>
+        <prop actor="props/units/weapons/bow_byza.xml" attachpoint="bow"/>
+        <prop actor="props/units/weapons/spear_long_player_colour.xml" attachpoint="spear_1"/>
+        <prop actor="props/units/weapons/caro_cavalry_spear.xml" attachpoint="spear_2"/>
+        <prop actor="props/units/weapons/spear_long_player_colour.xml" attachpoint="spear_3"/>
+        <prop actor="props/units/weapons/caro_cavalry_spear.xml" attachpoint="spear_4"/>
+        <prop actor="props/units/weapons/caro_cavalry_spear.xml" attachpoint="spear_5"/>
+        <prop actor="props/units/weapons/spear_long_player_colour.xml" attachpoint="spear_6"/>
+        <prop actor="props/units/weapons/caro_cavalry_spear.xml" attachpoint="spear_7"/>
+        <prop actor="props/units/weapons/spear_long_player_colour.xml" attachpoint="spear_8"/>
+        <prop actor="props/units/weapons/caro_cavalry_spear.xml" attachpoint="spear_9"/>
+        <prop actor="props/units/weapons/spear_long_player_colour.xml" attachpoint="spear_10"/>
+        <prop actor="props/units/helmets/byza_archer_helmet_basic.xml" attachpoint="helmet_a"/>
+        <prop actor="props/units/helmets/byza_helmet_basic.xml" attachpoint="helmet_b"/>
+        <prop actor="props/units/helmets/byza_burgh_castle.xml" attachpoint="helmet_c"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop actor="props/structures/byzantines/blacksmith_roof.xml" attachpoint="root"/>
+        <prop actor="props/structures/byzantines/blacksmith_props.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+<material>player_trans_ao_parallax.xml</material>
+</actor>

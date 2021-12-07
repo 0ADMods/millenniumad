@@ -3,11 +3,10 @@
   <castshadow/>
   <group>
     <variant name="Storehouse">
-      <mesh>structural/byza_storehouse.dae</mesh>
+      <mesh>structural/byza_storehouse_BB.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct.png" name="baseTex"/>
-				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/byza_storehouse.png" name="aoTex"/>
+				<texture file="structural/byza_texture_C.png" name="baseTex"/>
+				<texture file="structural/byza_texture_C_NRM.png" name="normTex"/>
 			</textures>
       <props>
         <prop actor="props/structures/byzantines/storehouse_props.xml" attachpoint="root"/>
