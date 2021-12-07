@@ -13,8 +13,16 @@
     </Melee>
   </Attack>
   <Health>
-    <Max>200</Max>
+    <Max>100</Max>
   </Health>
+  <Cost>
+    <BuildTime>25</BuildTime>
+    <Resources>
+      <food>150</food>
+      <wood>80</wood>
+      <metal>140</metal>
+    </Resources>
+  </Cost>
   <Identity>
     <Civ>umay</Civ>
     <GenericName>Assassin</GenericName>
