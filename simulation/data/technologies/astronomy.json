@@ -1,0 +1,14 @@
+{
+	"genericName": "Astronomy",
+	"description": "Buildings gain more vision",
+	"cost": {"wood": 600},
+	"requirements": {"tech": "phase_village"},
+	"icon": "astrology.png",
+	"researchTime": 40,
+	"tooltip": "Buildings +10% Vision Range.",
+	"modifications": [
+		{ "value": "Vision/Range", "multiply": 1.1 }
+	],
+	"affects": ["Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

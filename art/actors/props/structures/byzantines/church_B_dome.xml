@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant>
+			<mesh>props/byza_church_B_dome.dae</mesh>
+			<textures>
+				<texture file="structural/byza_texture_C.png" name="baseTex"/>
+				<texture file="structural/byza_texture_C_NRM.png" name="normTex"/>
+				<texture file="structural/ao/byza_temple_a.png" name="aoTex"/>
+			</textures>
+		</variant>
+	</group>
+  <material>player_trans_ao_parallax.xml</material>
+</actor>

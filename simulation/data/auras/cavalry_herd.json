@@ -1,0 +1,11 @@
+{
+	"type": "range",
+	"radius": 4,
+	"affects": ["Fauna"],
+	"modifications": [
+	  {"value": "CapturePoints/RegenRate", "add": -25}
+	],
+	"auraName": "Trample",
+	"auraDescription": "Nearby enemy units -5 health/second.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

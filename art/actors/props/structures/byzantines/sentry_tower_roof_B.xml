@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant name="Sentry Tower">
+			<mesh>props/byza_sentry tower_B_roof.dae</mesh>
+			<textures>
+				<texture file="structural/rome_struct_2.png" name="baseTex"/>
+				<texture file="structural/rome_struct_2_norm.png" name="normTex"/>
+				<texture file="structural/ao/byza_sentry_tower.png" name="aoTex"/>
+			</textures>
+		</variant>
+	</group>
+  <material>player_trans_ao_parallax.xml</material>
+</actor>
