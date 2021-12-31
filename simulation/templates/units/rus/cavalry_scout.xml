@@ -3,7 +3,7 @@
   <Identity>
     <Civ>rus</Civ>
 	<GenericName>Scout</GenericName>
-    <Icon>units/rus/cav_archer.png</Icon>
+    <Icon>units/rus/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/rus/cavalry_scout.xml</Actor>

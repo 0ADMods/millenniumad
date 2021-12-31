@@ -26,6 +26,6 @@
     <Entity>units/norse/infantry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/norse/infantry_swordsman_b.xml</Actor>
+    <Actor>units/rus/infantry_swordsman_b.xml</Actor>
   </VisualActor>
 </Entity>

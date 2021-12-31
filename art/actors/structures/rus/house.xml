@@ -2,7 +2,7 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant frequency="100" name="Rus House B">
+		<variant frequency="2" name="Rus House B">
 			<mesh>structural/rus_house_B.dae</mesh>
 			<textures>
 				<texture file="structural/norse_struct.png" name="baseTex"/>
@@ -14,6 +14,39 @@
         <prop actor="props/structures/rus/barrel.xml" attachpoint="barrel_a_001"/>
 			</props>
 		</variant>
+		<variant frequency="2" name="Rus House D">
+			<mesh>structural/rus_house_D.dae</mesh>
+			<textures>
+				<texture file="structural/texture_rus_D.png" name="baseTex"/>
+				<texture file="structural/texture_rus_D_NRM.png" name="normTex"/>
+        <texture file="structural/texture_rus_D_SPEC.png" name="specTex"/>
+			</textures>
+			<props>
+				<prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+			</props>
+		</variant>
+		<variant frequency="2" name="Rus House E">
+			<mesh>structural/rus_house_E.dae</mesh>
+			<textures>
+				<texture file="structural/texture_rus_D.png" name="baseTex"/>
+				<texture file="structural/texture_rus_D_NRM.png" name="normTex"/>
+        <texture file="structural/texture_rus_D_SPEC.png" name="specTex"/>
+			</textures>
+			<props>
+				<prop actor="props/structures/decals/mud_3x3.xml" attachpoint="root"/>
+			</props>
+		</variant>
+		<variant frequency="2" name="Rus House F">
+			<mesh>structural/rus_house_F.dae</mesh>
+			<textures>
+				<texture file="structural/texture_rus_D.png" name="baseTex"/>
+				<texture file="structural/texture_rus_D_NRM.png" name="normTex"/>
+        <texture file="structural/texture_rus_D_SPEC.png" name="specTex"/>
+			</textures>
+			<props>
+				<prop actor="props/structures/decals/mud_3x3.xml" attachpoint="root"/>
+			</props>
+		</variant>
 	</group>
   	<group>
   		<variant frequency="100" name="Idle"/>
@@ -22,7 +55,7 @@
     			 <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
     			 <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
    				 <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
-   				 <prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
+   				 <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
   			</props>
    		</variant>
   	</group>

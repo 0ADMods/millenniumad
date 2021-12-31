@@ -8,6 +8,6 @@
     <Bonus>2</Bonus>
   </Population>
   <VisualActor>
-    <Actor>structures/norse/storehouse.xml</Actor>
+    <Actor>structures/rus/storehouse.xml</Actor>
   </VisualActor>
 </Entity>

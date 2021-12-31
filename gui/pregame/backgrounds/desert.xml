@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sprites>
+	<sprite name="desert-01">
+		<image
+			texture="pregame/backgrounds/desert_background.png"
+			fixed_h_aspect_ratio="2"
+			round_coordinates="false"
+		/>
+	</sprite>
+	<sprite name="desert-02">
+		<image
+			texture="pregame/backgrounds/desert_foreground.png"
+			fixed_h_aspect_ratio="2"
+			round_coordinates="false"
+		/>
+	</sprite>
+	<sprite name="desert-03">
+		<image
+			texture="pregame/backgrounds/desert_dust.png"
+			fixed_h_aspect_ratio="2"
+			round_coordinates="false"
+		/>
+	</sprite>
+</sprites>

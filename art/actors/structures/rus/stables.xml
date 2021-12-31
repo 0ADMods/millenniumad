@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="25" name="Anglo Stables">
+			<mesh>structural/rus_stable.dae</mesh>
+			<textures>
+				<texture file="structural/texture_rus_D.png" name="baseTex"/>
+				<texture file="structural/texture_rus_D_NRM.png" name="normTex"/>
+				<texture file="structural/texture_rus_D_SPEC.png" name="specTex"/>
+				<texture file="structural/texture_rus_D_OCC.png" name="aoTex"/>
+			</textures>
+			<props>
+				<prop actor="props/structures/decals/dirt_road_7x7.xml" attachpoint="root"/>
+				<prop actor="props/structures/persians/stable_horse_a.xml" attachpoint="horse1"/>
+        <prop actor="props/structures/persians/stable_horse_b.xml" attachpoint="horse2"/>
+        <prop actor="props/structures/persians/stable_horse_c.xml" attachpoint="horse3"/>
+			</props>
+		</variant>
+	</group>
+	<group>
+  		<variant frequency="100" name="Idle"/>
+   		<variant name="death">
+ 			 <props>
+    			 <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+    			 <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+   				 <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+   				 <prop actor="props/structures/decals/dirt_road_7x7.xml" attachpoint="root"/>
+  			</props>
+   		</variant>
+  	</group>
+ 	<material>player_trans_ao_parallax_spec.xml</material>
+</actor>

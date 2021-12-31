@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="100" name="Storehouse">
+			<mesh>structural/rus_storehouse.dae</mesh>
+			<textures>
+				<texture file="structural/texture_rus_D.png" name="baseTex"/>
+				<texture file="structural/texture_rus_D_NRM.png" name="normTex"/>
+				<texture file="structural/texture_rus_D_SPEC.png" name="specTex"/>
+				<texture file="structural/texture_rus_D_OCC.png" name="aoTex"/>
+			</textures>
+			<props>
+				<prop actor="props/structures/decals/mud_3x3.xml" attachpoint="root"/>
+				<prop actor="props/special/eyecandy/plank_pile_big_02.xml" attachpoint="woodstack"/>
+				<prop actor="props/special/eyecandy/plank_pile_big_02.xml" attachpoint="woodstack_02"/>
+				<prop actor="props/special/eyecandy/box_pile.xml" attachpoint="crate_01"/>
+				<prop actor="props/special/eyecandy/handcart_1.xml" attachpoint="wheel"/>
+				 <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_01"/>
+				 <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_02"/>
+				 <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_03"/>
+			</props>
+		</variant>
+	</group>
+  	<group>
+  		<variant frequency="100" name="Idle"/>
+   		<variant name="death">
+ 			 <props>
+    			 <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+    			 <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+   				 <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+   				 <prop actor="props/structures/decals/mud_3x3.xml" attachpoint="root"/>
+  			</props>
+   		</variant>
+  	</group>
+ 	<material>player_trans_ao_spec.xml</material>
+</actor>
