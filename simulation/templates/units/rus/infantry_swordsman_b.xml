@@ -16,10 +16,10 @@
     </Resources>
   </Cost>
   <Identity>
-    <SelectionGroupName>units/norse/infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Axeman</GenericName>
-    <SpecificName>Seggr</SpecificName>
-    <Icon>units/norse_infantry_swordsman.png</Icon>
+    <SelectionGroupName>units/rus/infantry_swordsman_b</SelectionGroupName>
+    <GenericName>Swordsman</GenericName>
+    <SpecificName>Bоин</SpecificName>
+    <Icon>units/rus/rus_swordsman.png</Icon>
     <Tooltip>Counters: 1.1x vs. Structures.</Tooltip>
   </Identity>
   <Promotion>

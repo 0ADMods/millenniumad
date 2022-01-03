@@ -20,7 +20,7 @@
     </Melee>
   </Attack>
   <Identity>
-    <Civ>norse</Civ>
+    <Civ>rus</Civ>
     <GenericName>Fanatic</GenericName>
     <SpecificName>Berserkr</SpecificName>
     <Icon>units/norse_berserker.png</Icon>

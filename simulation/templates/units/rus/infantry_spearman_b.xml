@@ -11,15 +11,15 @@
     </Melee>
   </Attack>
   <Identity>
-    <SelectionGroupName>units/norse/infantry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/rus/infantry_spearman_b</SelectionGroupName>
     <GenericName>Spearman</GenericName>
-    <SpecificName>Seggr</SpecificName>
-    <Icon>units/norse_infantry_spearman.png</Icon>
+    <SpecificName>Kопейщик</SpecificName>
+    <Icon>units/rus/rus_spearman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/norse/infantry_spearman_a</Entity>
+    <Entity>units/rus/infantry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/norse/infantry_spearman_b.xml</Actor>
+    <Actor>units/rus/infantry_spearman_b.xml</Actor>
   </VisualActor>
 </Entity>

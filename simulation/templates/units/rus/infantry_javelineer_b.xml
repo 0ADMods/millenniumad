@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_javelineer">
+  <Health>
+    <DamageVariants>
+      <lightdamage>0.80</lightdamage>
+      <mediumdamage>0.50</mediumdamage>
+      <heavydamage>0.20</heavydamage>
+    </DamageVariants>
+  </Health>
+  <Identity>
+    <Civ>rus</Civ>
+    <SelectionGroupName>units/brit/infantry_javelineer_b</SelectionGroupName>
+    <GenericName>Hunter</GenericName>
+    <SpecificName>Охотник</SpecificName>
+    <Icon>units/rus/rus_hunter.png</Icon>
+    <RequiredTechnology>unlock_hunter</RequiredTechnology>
+  </Identity>
+ <Promotion disable=""/>
+  <Upgrade>
+     <SwitchToSword>
+      <Entity>units/rus/infantry_axeman</Entity>
+      <Tooltip>Switch weapon sword (melee).</Tooltip>
+      <RequiredTechnology>phase_town</RequiredTechnology>
+      <Cost>
+        <metal>5</metal>
+      </Cost>
+      <Time>5</Time>
+    </SwitchToSword>
+  </Upgrade>
+  <VisualActor>
+    <Actor>units/rus/hunter.xml</Actor>
+  </VisualActor>
+</Entity>

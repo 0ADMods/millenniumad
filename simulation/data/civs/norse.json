@@ -12,7 +12,20 @@
 		{
 			"File": "To_Valhalla.ogg",
 			"Type": "peace"
+		},
+		{
+			"File": "Norse/epic-cinema-trailer-8639.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Norse/epic-cinematic-trailer-background-music-for-videos-5771.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Norse/rhythm-of-war-main-7233.ogg",
+			"Type": "peace"
 		}
+
 	],
 	"CivBonuses": [],
 	"WallSets": [

@@ -6,15 +6,15 @@
     </Resources>
   </Cost>
   <Identity>
-    <SelectionGroupName>units/norse/infantry_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/rus/infantry_archer_b</SelectionGroupName>
     <GenericName>Huntsman</GenericName>
-    <SpecificName>Veiðimaðr</SpecificName>
-    <Icon>units/norse_infantry_archer.png</Icon>
+    <SpecificName>Охотник</SpecificName>
+    <Icon>units/rus/inf_archer.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/norse/infantry_archer_a</Entity>
+    <Entity>units/rus/infantry_archer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/norse/infantry_archer_b.xml</Actor>
+    <Actor>units/rus/infantry_archer_b.xml</Actor>
   </VisualActor>
 </Entity>

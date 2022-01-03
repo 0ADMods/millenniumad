@@ -5,7 +5,7 @@
 		<variant frequency="100" name="Norse Barracks">
 			<mesh>structural/rus_barracks_B.dae</mesh>
 			<props>
-				<prop actor="props/structures/decals/dirt_road_7x7.xml" attachpoint="root"/>
+				<prop actor="props/structures/decals/dirt_road_6x6.xml" attachpoint="root"/>
         <prop actor="props/structures/rus/barracks_hut.xml" attachpoint="hut"/>
         <prop actor="props/structures/rus/barracks_palisade.xml" attachpoint="palisade"/>
         <prop actor="props/structures/rus/barracks_stairs.xml" attachpoint="stairs"/>

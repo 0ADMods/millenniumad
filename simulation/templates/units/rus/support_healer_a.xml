@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/norse/support_healer_b">
+<Entity parent="units/rus/support_healer_b">
+
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
     <Entity>units/norse/support_healer_e</Entity>
   </Promotion>
+  <VisualActor>
+    <Actor>units/rus/priest_a.xml</Actor>
+  </VisualActor>
 </Entity>

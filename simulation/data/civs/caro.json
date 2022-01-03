@@ -16,7 +16,44 @@
 		{
 			"File": "kuro_burglar.ogg",
 			"Type": "peace"
+		},
+		{
+			"File": "the-white-lion-10379.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Caro/Damiano_Baldoni_Prometeo.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Caro/honor-and-sword-main.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Caro/Damiano_Baldoni_Elio_Atlante.ogg",
+			"Type": "battle"
+		},
+		{
+			"File": "Caro/knights-of-camelot-8038.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Caro/the-lost-hero-epic-orchestra-trombone-and-chorus-3461.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Caro/a-song-of-wolves-and-dragons-8034.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Caro/tortuga-epic-movie-adventure-music-4284.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Caro/epic-travel-on-celtic-roads-background-music-for-videos-5799.ogg",
+			"Type": "peace"
 		}
+
 
 	],
 	"CivBonuses": [],

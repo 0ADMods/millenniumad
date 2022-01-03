@@ -7,24 +7,25 @@
       <props>
         <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
         <prop actor="props/units/shields/rus_swordsman_b.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/norse_axe.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/norse_sword.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/norse_sword_sheath_empty.xml" attachpoint="sheath_L"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="transparent_shirt1">
+    <variant frequency="1" name="basic_cloth_b">
       <textures>
-        <texture file="skeletal/norse/basic/transparent_shirt1.png" name="baseTex"/>
+        <texture file="skeletal/rus_basic_cloth_b.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="transparent_shirt2">
+    <variant frequency="1" name="basic_cloth">
       <textures>
-        <texture file="skeletal/norse/basic/transparent_shirt2.png" name="baseTex"/>
+        <texture file="skeletal/rus_basic_cloth.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="transparent_shirt3">
+    <variant frequency="1" name="basic_cloth_04">
       <textures>
-        <texture file="skeletal/norse/basic/transparent_shirt3.png" name="baseTex"/>
+        <texture file="skeletal/rus_basic_cloth_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

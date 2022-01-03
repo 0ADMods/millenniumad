@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant name="Russian Church">
+			<mesh>structural/rus_church.dae</mesh>
+			<props>
+				<prop actor="props/structures/decals/dirt_road_6x3.xml" attachpoint="root"/>
+			</props>
+			<textures>
+				<texture file="structural/texture_rus_D.png" name="baseTex"/>
+				<texture file="structural/texture_rus_D_NRM.png" name="normTex"/>
+				<texture file="structural/texture_rus_D_SPEC.png" name="specTex"/>
+				<texture file="structural/ao/anglo_hc_ao.png" name="aoTex"/>
+			</textures>
+		</variant>
+	</group>
+	<group>
+		<variant frequency="100" name="Idle"/>
+	</group>
+	<material>player_trans_ao_spec.xml</material>
+</actor>
+

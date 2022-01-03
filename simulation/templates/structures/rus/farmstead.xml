@@ -11,6 +11,13 @@
 	<Obstruction>
 		<Static width="22.0" depth="14.0"/>
 	</Obstruction>
+	<ProductionQueue>
+    <Entities datatype="tokens">
+	  gaia/fauna_pig_trainable
+      gaia/fauna_sheep_trainable
+      gaia/fauna_cattle_cow_trainable
+    </Entities>
+    </ProductionQueue>
 	<Population>
 		<Bonus>2</Bonus>
 	</Population>

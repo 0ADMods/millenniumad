@@ -40,6 +40,7 @@
   <ProductionQueue>
     <Technologies datatype="tokens">
     gather_meat
+    unlock_hunter
     </Technologies>
   </ProductionQueue>
   <RallyPoint disable=""/>

@@ -9,7 +9,8 @@
 	"researchTime": 30,
 	"tooltip": "Workers +50% meat gather rate.",
 	"modifications": [
-		{ "value": "ResourceGatherer/Rates/food.meat", "multiply": 1.5 }
+		{ "value": "ResourceGatherer/Rates/food.meat", "multiply": 1.5 },
+		{"value": "ResourceGatherer/Capacities/food.meat", "add": 5}
 	],
 	"affects": ["Worker", "Soldier"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

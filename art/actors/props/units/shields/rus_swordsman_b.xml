@@ -27,6 +27,16 @@
         <texture file="props/shields/rus/rus_shield_03.png" name="baseTex"/>
       </textures>
     </variant>
+     <variant frequency="25" name="decoration_04">
+      <textures>
+        <texture file="props/shields/rus/rus_shield_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+     <variant frequency="25" name="decoration_05">
+      <textures>
+        <texture file="props/shields/rus/rus_shield_05.png" name="baseTex"/>
+      </textures>
+    </variant>
   </group>
   <material>player_trans.xml</material>
 </actor>

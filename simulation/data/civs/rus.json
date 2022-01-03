@@ -16,7 +16,56 @@
 		{
 			"File": "To_Valhalla.ogg",
 			"Type": "peace"
+		},
+		{
+			"File": "Rus/the-climb-orchestral-cinematic-4972.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Rus/ragnarok-8039.ogg",
+			"Type": "battle"
+		},
+		{
+			"File": "Rus/war-of-the-crown.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Rus/battle-of-the-nations-7750.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Rus/epic-knight-riding-to-slay-some-dragons-before-dinner-557.ogg",
+			"Type": "battle"
+		},
+		{
+			"File": "Rus/heroic-epic-story-background-music-for-videos-5780.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Rus/heroic-story-epic-background-music-for-video-9715.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Rus/return-of-the-gods-dark-epic-free-soundtrack-2471.ogg",
+			"Type": "battle"
+		},
+			{
+			"File": "Rus/01_Thy_Resurrection_authentic_Kiev_chant.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Rus/04_The_Body_of_Christ_ABessarabov.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Rus/09_O_gladsome_Radiance.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Rus/15_O_God_forgive_me.ogg",
+			"Type": "peace"
 		}
+
 	],
 	"CivBonuses": [],
 	"WallSets": [
@@ -32,15 +81,15 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/norse/infantry_spearman_b",
+			"Template": "units/rus/infantry_spearman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/norse/infantry_archer_b",
+			"Template": "units/rus/infantry_archer_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/norse/infantry_swordsman_b"
+			"Template": "units/rus/cavalry_scout"
 		}
 	],
 	"Formations": [
