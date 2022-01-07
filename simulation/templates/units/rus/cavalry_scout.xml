@@ -5,7 +5,11 @@
 	<GenericName>Scout</GenericName>
     <Icon>units/rus/cavalry_scout.png</Icon>
   </Identity>
+  <Promotion>
+    <Entity>units/rus/cavalry_scout_a</Entity>
+  </Promotion>
   <VisualActor>
     <Actor>units/rus/cavalry_scout.xml</Actor>
   </VisualActor>
+
 </Entity>

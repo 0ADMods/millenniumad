@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="100" name="Anglo ">
+			<mesh>structural/rus_farm_C.dae</mesh>
+			<props>
+				<prop actor="props/structures/decals/mud_6x6.xml" attachpoint="root"/>
+			</props>
+			<textures>
+				 <texture file="structural/rus_struct_B.png" name="baseTex"/>
+			</textures>
+		</variant>
+	</group>
+	<material>player_trans_ao_parallax.xml</material>
+</actor>

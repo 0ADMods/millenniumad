@@ -2,56 +2,38 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="0" name="Base" file="structures/defensive_building.xml">
-      <mesh>structural/gaul_fortress_struct1.dae</mesh>
+    <variant name="Rus keep">
+      <mesh>structural/rus_keep.dae</mesh>
       <props>
-        <prop actor="props/structures/gauls/fortress_broch.xml" attachpoint="root"/>
-        <prop actor="props/structures/gauls/fortress_props_1.xml" attachpoint="root"/>
-        <prop actor="props/structures/gauls/fortress_props_new.xml" attachpoint="root"/>
-        <prop actor="props/structures/gauls/fortress_studs.xml" attachpoint="root"/>
-        <prop actor="props/structures/gauls/fortress_turf.xml" attachpoint="root"/>
-        <prop actor="props/structures/gauls/fortress_wall.xml" attachpoint="root"/>
-        <prop actor="props/structures/decals/celt_fortress.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/mud_8x8.xml" attachpoint="root"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
       <textures>
-        <texture file="structural/celt_struct_1.dds" name="baseTex"/>
-        <texture file="structural/celt_struct_1_norm.png" name="normTex"/>
-        <texture file="structural/celt_struct_1_spec.png" name="specTex"/>
-        <texture file="structural/ao/gaul_fortress.png" name="aoTex"/>
-      </textures>
-    </variant>
-    <variant frequency="100" name="New" file="structures/defensive_building.xml">
-      <mesh>structural/gaul_fortress_b.dae</mesh>
-      <props>
-        <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
-        <prop actor="props/structures/gauls/fortress_b_roof.xml" attachpoint="root"/>
-        <prop actor="props/structures/decals/celt_fortress.xml" attachpoint="root"/>
-      </props>
-      <textures>
-        <texture file="structural/celt_struct.dds" name="baseTex"/>
-        <texture file="structural/celt_struct_norm.png" name="normTex"/>
-        <texture file="structural/celt_struct_spec.png" name="specTex"/>
-        <texture file="structural/ao/gaul_fortress_b_AO.png" name="aoTex"/>
+        <texture file="structural/texture_rus_D.png" name="baseTex"/>
+        <texture file="structural/texture_rus_D_NRM.png" name="normTex"/>
+        <texture file="structural/texture_rus_D_OCC.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="ungarrisoned"/>
+    <variant frequency="1" name="alive"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_celt.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_rus.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="alive"/>
-    <variant file="structures/destruction_large.xml">
+    <variant name="death">
       <props>
-        <prop actor="props/structures/gauls/fortress_props_new.xml" attachpoint="root"/>
-        <prop actor="props/structures/decals/celt_fortress.xml" attachpoint="root"/>
-        <prop actor="props/structures/gauls/fortress_b_roof.xml" attachpoint="root"/>
+        <prop attachpoint="garrisoned"/>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+  <material>player_trans_ao_parallax.xml</material>
 </actor>

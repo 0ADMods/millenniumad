@@ -3,7 +3,7 @@
 	<castshadow/>
 	<group>
 		<variant frequency="25" name="Anglo Stables">
-			<mesh>structural/rus_stable.dae</mesh>
+			<mesh>structural/rus_stable_B.dae</mesh>
 			<textures>
 				<texture file="structural/texture_rus_D.png" name="baseTex"/>
 				<texture file="structural/texture_rus_D_NRM.png" name="normTex"/>

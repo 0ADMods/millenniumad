@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<group>
+		<variant name="barrel">
+			<mesh>props/rus_market_prop_wood.dae</mesh>
+		</variant>
+	</group>
+	<group>
+		<variant>
+      <textures>
+        <texture file="structural/texture_rus_D.png" name="baseTex"/>
+				 <texture file="structural/texture_rus_D_NRM.png" name="normTex"/>
+				<texture file="structural/texture_rus_D_OCC.png" name="aoTex"/>
+      </textures>
+		</variant>
+	</group>
+ 	<material>player_trans_parallax_spec.xml</material>
+</actor>

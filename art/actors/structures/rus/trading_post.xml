@@ -3,11 +3,11 @@
 	<castshadow/>
 	<group>
 		<variant frequency="100" name="Trading Post">
-			<mesh>structural/rus_trading_post.dae</mesh>
+			<mesh>structural/rus_trading_alt.dae</mesh>
 			<props>
-				<prop actor="props/structures/decals/dirt_road_7x7.xml" attachpoint="root"/>
+				<prop actor="props/structures/decals/mud_8x8.xml" attachpoint="root"/>
 				<prop actor="props/structures/rus/trade_decor.xml" attachpoint="decor"/>
-				<prop actor="props/structures/rus/trade_fence.xml" attachpoint="fence"/>
+				<prop actor="props/structures/rus/trade_palisade.xml" attachpoint="root"/>
 				<prop actor="props/structures/rus/trade_turret.xml" attachpoint="turret"/>
 			</props>
 			<textures>
@@ -19,9 +19,9 @@
 		<variant frequency="100" name="Idle"/>
 		<variant name="death">
 			<props>
-				<prop actor="props/structures/decals/dirt_road_7x7.xml" attachpoint="root"/>
+				<prop actor="props/structures/decals/mud_8x8.xml" attachpoint="root"/>
 				<prop actor="props/structures/rus/trade_decor.xml" attachpoint="decor"/>
-				<prop actor="props/structures/rus/trade_fence.xml" attachpoint="fence"/>
+				<prop actor="props/structures/rus/trade_palisade.xml" attachpoint="root"/>
 				<prop actor="props/structures/rus/trade_turret.xml" attachpoint="turret"/>
 			</props>
 		</variant>

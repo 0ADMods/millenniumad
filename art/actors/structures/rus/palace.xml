@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="temple">
+      <mesh>structural/rus_palace.dae</mesh>
+      <textures>
+         <texture file="structural/texture_rus_D.png" name="baseTex"/>
+        <texture file="structural/texture_rus_D_NRM.png" name="normTex"/>
+        <texture file="structural/texture_rus_D_OCC.png" name="aoTex"/>
+      </textures>
+      <props>
+        <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+<material>player_trans_ao_parallax.xml</material>
+</actor>

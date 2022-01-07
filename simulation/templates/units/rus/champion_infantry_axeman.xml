@@ -11,14 +11,14 @@
     </Melee>
   </Attack>
   <Identity>
-    <Civ>norse</Civ>
-    <GenericName>Bodyguard</GenericName>
-    <SpecificName>Huskárl</SpecificName>
+    <Civ>rus</Civ>
+    <GenericName>Варяжская стража</GenericName>
+    <SpecificName>Varangian Guard</SpecificName>
     <Icon>units/norse_huskarl.png</Icon>
-    <RequiredTechnology>unlock_champion_units_modded</RequiredTechnology>
+    <RequiredTechnology>unlock_mercenaries</RequiredTechnology>
     <SelectionGroupName>units/norse/champion_huscarl</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/norse/champion_huscarl.xml</Actor>
+    <Actor>units/rus/champion_huscarl.xml</Actor>
   </VisualActor>
 </Entity>

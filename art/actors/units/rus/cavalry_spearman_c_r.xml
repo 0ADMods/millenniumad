@@ -5,9 +5,8 @@
     <variant>
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/caro_aventail.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/rus_helmet_c.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_german_a.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/caro_lenticular_swordsman_e.xml" attachpoint="shield_arm"/>
         <prop actor="props/units/weapons/caro_sheath_sword.xml" attachpoint="sheath_L"/>
         <prop actor="props/units/weapons/spear_long_player_colour_twisted.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/helmets/byza_coif_cavalry_spearman_chainmail.xml" attachpoint="root"/>

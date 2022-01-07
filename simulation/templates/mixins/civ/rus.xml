@@ -2,7 +2,9 @@
 <Entity>
   <Builder merge="">
     <Entities datatype="tokens">
+    structures/rus/hunting_cabin
       structures/rus/trading_post
+      structures/rus/imperial_ministry
     </Entities>
   </Builder>
   <Identity>
