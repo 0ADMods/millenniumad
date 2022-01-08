@@ -9,7 +9,7 @@
   </Obstruction>  
   <Identity>
     <Civ>rus</Civ>
-    <SpecificName>Járnsmiðr</SpecificName>
+    <SpecificName>Кузнец</SpecificName>
   </Identity>
   <Population>
     <Bonus>4</Bonus>
@@ -17,8 +17,6 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Technologies datatype="tokens">
-      -soldier_resistance_pierce_01
-      -soldier_resistance_pierce_02
     </Technologies>
   </ProductionQueue>
   <VisualActor>

@@ -6,6 +6,7 @@
       <mediumdamage>0.50</mediumdamage>
       <heavydamage>0.20</heavydamage>
     </DamageVariants>
+     <Max>75</Max>
   </Health>
   <Identity>
     <Civ>rus</Civ>

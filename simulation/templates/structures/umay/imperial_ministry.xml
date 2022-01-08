@@ -84,7 +84,7 @@ umay/pair_justice
   </ResourceTrickle>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_civ_center.xml</select>
+      <select>interface/select/building/sel_diwan.xml</select>
       <constructed>interface/alarm/alarm_phase.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>

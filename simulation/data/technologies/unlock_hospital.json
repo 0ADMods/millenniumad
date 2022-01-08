@@ -7,7 +7,7 @@
 	},
 	"requirements": { "tech": "umay/gather_increase_1" },
 	"requirementsTooltip": "Unlocked with Diwan al-Rasa'il (Board of Correspondence)",
-	"icon": "healing_rate_01.png",
+	"icon": "umay/bloody_hands.png",
 	"researchTime": 40,
 	"tooltip": "Unlock hospital camps to heal nearby units",
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
