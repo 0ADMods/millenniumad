@@ -28,7 +28,57 @@
 			{
 			"File": "Arab/SergeQuadrado-Middle-Eastern Call.ogg",
 			"Type": "peace"
+		},
+		{
+			"File": "Arab/Faolan_Princess_Persia.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Arab/The_Great_Desert.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Arab/Homeworld_Deserts.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Arab/Arabian_Battle_Music_The_Arrivals.ogg",
+			"Type": "battle"
+		},
+		{
+			"File": "Arab/Homeland_23_M01 B2 Layer.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Arab/Homeworld_68_M06 B2 Layer 03.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Arab/Homeworld_72_M06 B3 Layer 03.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Arab/Homeworld_83_M08 B2 Layer 02.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Arab/Homeworld_104_M10 B1 Layer 02.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Arab/Homeworld_106_M10 B1 Layer 04.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Arab/desert-voices-11468.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Arab/sahara-sunrise-11681.ogg",
+			"Type": "peace"
 		}
+
+
 	],
 	"CivBonuses": [],
 	"WallSets": [

@@ -76,15 +76,6 @@
       unlock_champion_cavalry
     </Technologies>
   </ProductionQueue>
-  <ResourceTrickle>
-    <Rates>
-      <food>0.0</food>
-      <wood>0.0</wood>
-      <metal>1</metal>
-      <stone>0.0</stone>
-    </Rates>
-    <Interval>10000</Interval>
-  </ResourceTrickle>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_civ_center.xml</select>
