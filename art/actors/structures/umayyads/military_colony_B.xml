@@ -2,16 +2,24 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Seleucid_Civic_Centre" file="structures/defensive_building.xml">
-      <mesh>structural/umay_colony_BB.dae</mesh>
+    <variant frequency="1" name="Umayyad_Colony" file="structures/defensive_building.xml">
+      <mesh>structural/umay_colony_CC.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/umay_struct_02.png" name="baseTex"/>
         <texture file="structural/umay_struct_02_NRM.png" name="normTex"/>
-        <texture file="structural/umay_struct_02_OCC.png" name="aoTex"/>
+        <texture file="structural/ao/umay_colony_ao.png" name="aoTex"/>
       </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="ungarrisoned"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/special/common/garrison_flag_seleucids.xml" attachpoint="garrisoned"/>
+      </props>
     </variant>
   </group>
   <group>
@@ -21,5 +29,5 @@
     <variant file="structures/sele/heavy_damage.xml"/>
     <variant file="structures/sele/destruction_medium.xml"/>
   </group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+  <material>player_trans_ao_parallax.xml</material>
 </actor>

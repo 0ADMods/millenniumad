@@ -6,6 +6,7 @@
       <mesh>structural/Umay_barracks.dae</mesh>
       <textures>
         <texture file="structural/umay_struct.png" name="baseTex"/>
+        <texture file="structural/ao/umay_barracks.png" name="aoTex"/>
       </textures>
       <props>
       </props>
@@ -15,7 +16,6 @@
     <variant frequency="1" name="alive"/>
     <variant name="death">
       <props>
-        <prop actor="props/structures/byzantines/barracks_roof.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
         <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>

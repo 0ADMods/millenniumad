@@ -6,6 +6,7 @@
       <mesh>structural/uma_blcksmith_alt.dae</mesh>
       <textures>
 				<texture file="structural/umay_struct_D.png" name="baseTex"/>
+        <texture file="structural/ao/uma_blacksmith_alt.png" name="aoTex"/>
 			</textures>
       <props>
         <prop actor="particle/flame.xml" attachpoint="fire"/>

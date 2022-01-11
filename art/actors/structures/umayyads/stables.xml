@@ -2,12 +2,12 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant frequency="25" name="Anglo Stables">
+		<variant frequency="100" name="Umayyad Stables">
 			<mesh>structural/umay_stable_B.dae</mesh>
 			<textures>
-				<texture file="structural/umay_struct_02.png" name="baseTex"/>
-        <texture file="structural/umay_struct_02_NRM.png" name="normTex"/>
-        <texture file="structural/umay_struct_02_OCC.png" name="aoTex"/>
+		<texture file="structural/umay_struct_D.png" name="baseTex"/>
+        <texture file="structural/umay_struct_D_NRM.png" name="normTex"/>
+        <texture file="structural/ao/umay_stable_ao.png" name="aoTex"/>
 			</textures>
 			<props>
 				<prop actor="props/structures/decals/dirt_4x6.xml" attachpoint="root"/>
@@ -21,5 +21,5 @@
 			</props>
 		</variant>
 	</group>
- 	<material>player_trans_ao_parallax_spec.xml</material>
+ 	<material>player_trans_ao_parallax.xml</material>
 </actor>

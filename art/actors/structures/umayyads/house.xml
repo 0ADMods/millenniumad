@@ -15,7 +15,7 @@
       <textures>
 				<texture file="structural/umay_struct_02.png" name="baseTex"/>
         <texture file="structural/umay_struct_02_NRM.png" name="normTex"/>
-        <texture file="structural/umay_struct_02_OCC.png" name="aoTex"/>
+        <texture file="structural/ao/uma_house_B_ao.png" name="aoTex"/>
 			</textures>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
@@ -29,7 +29,7 @@
       <textures>
 				<texture file="structural/umay_struct_02.png" name="baseTex"/>
         <texture file="structural/umay_struct_02_NRM.png" name="normTex"/>
-        <texture file="structural/umay_struct_02_OCC.png" name="aoTex"/>
+        <texture file="structural/ao/uma_house_B_ao.png" name="aoTex"/>
 			</textures>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
@@ -41,7 +41,7 @@
     <variant frequency="5" name="House D">
        <mesh>structural/Umayyad_house_D.dae</mesh>
       <textures>
-				<texture file="structural/umay_struct_D_COLOR.png" name="baseTex"/>
+				<texture file="structural/umay_struct_D.png" name="baseTex"/>
         <texture file="structural/umay_struct_D_NRM.png" name="normTex"/>
         <texture file="structural/umay_struct_D_OCC.png" name="aoTex"/>
 			</textures>
@@ -54,7 +54,7 @@
       <textures>
 				<texture file="structural/umay_struct_02.png" name="baseTex"/>
         <texture file="structural/umay_struct_02_NRM.png" name="normTex"/>
-        <texture file="structural/umay_struct_02_OCC.png" name="aoTex"/>
+        <texture file="structural/ao/uma_house_B_ao.png" name="aoTex"/>
 			</textures>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
