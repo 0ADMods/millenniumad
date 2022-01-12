@@ -1,5 +1,5 @@
 
-![alt text](https://github.com/stereotipo/millenniumad/blob/master/github/promo_github.png)
+![alt text](https://github.com/stereotipo/millenniumad/blob/master/github/github_promo_02.png)
 
 # Millennium A.D.
 
