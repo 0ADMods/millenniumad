@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_temple">
   <Footprint>
-		<Square width="22.0" depth="19.0"/>
+		<Square width="22.0" depth="26.0"/>
 		<Height>5.0</Height>
 	</Footprint>
 	<Obstruction>
-		<Static width="21.0" depth="18.0"/>
+		<Static width="21.0" depth="24.0"/>
 	</Obstruction>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
@@ -13,8 +13,14 @@
   <Identity>
     <Civ>byza</Civ>
   </Identity>
+   <ProductionQueue>
+    <Technologies datatype="tokens">
+      -health_regen_units
+      byza/holy_protection
+    </Technologies>
+  </ProductionQueue>
   <VisualActor>
-    <Actor>structures/byzantines/temple.xml</Actor>
+    <Actor>structures/byzantines/temple_B.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

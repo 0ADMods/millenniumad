@@ -4,17 +4,18 @@
   <group>
     <variant name="Byzantines sentry tower">
       <mesh>structural/byza_sentry tower_B.dae</mesh>
+       <textures>
+        <texture file="structural/byza_texture_C.png" name="baseTex"/>
+        <texture file="structural/byza_texture_C_NRM.png" name="normTex"/>
+        <texture file="structural/ao/byza_sentry_B_ao.png" name="aoTex"/>
+      </textures>
       <props>
         <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/sentry_tower_roof_B.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
-      <textures>
-        <texture file="structural/byza_texture_C.png" name="baseTex"/>
-        <texture file="structural/byza_texture_C_NRM.png" name="normTex"/>
-        <texture file="structural/ao/byza_sentry_tower.png" name="aoTex"/>
-      </textures>
+     
     </variant>
   </group>
   <group>

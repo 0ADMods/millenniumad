@@ -12,7 +12,7 @@
   <Cost>
     <BuildTime>150</BuildTime>
     <Resources>
-      <wood>300</wood>
+      <wood>350</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -29,15 +29,15 @@
     <Tooltip>Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.</Tooltip>
     <Classes datatype="tokens">Barter</Classes>
     <VisibleClasses datatype="tokens">Trade Town Market</VisibleClasses>
-    <Icon>structures/market.png</Icon>
-    <RequiredTechnology></RequiredTechnology>
+    <Icon>structures/military_market.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Loot>
     <wood>60</wood>
   </Loot>
   <Market>
     <TradeType>land</TradeType>
-    <InternationalBonus>0.2</InternationalBonus>
+    <InternationalBonus>0.4</InternationalBonus>
   </Market>
   <Obstruction>
     <Static width="30.0" depth="26.0"/>
@@ -58,6 +58,14 @@
     <Types>food wood stone metal</Types>
     <Sharable>true</Sharable>
   </ResourceDropsite>
+   <GarrisonHolder>
+    <Max>5</Max>
+    <BuffHeal>0</BuffHeal>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Infantry</List>
+    <LoadingRange>1</LoadingRange>
+  </GarrisonHolder>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_market.xml</select>

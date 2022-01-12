@@ -4,6 +4,7 @@
     <Square width="30.0"  depth="36.0"/>
     <Height>8.0</Height>
   </Footprint>
+  
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
@@ -16,8 +17,20 @@
     <Static width="30.0"  depth="36.0"/>
   </Obstruction>
   <Population>
-    <Bonus>12</Bonus>
+    <Bonus>5</Bonus>
   </Population>
+  <Upgrade>
+    <Military>
+      <Entity>structures/rus/fortress</Entity>
+      <Tooltip>Upgrade to fortified outpost</Tooltip>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+      <Cost>
+        <wood>500</wood>
+        <stone>100</stone>
+      </Cost>
+      <Time>50</Time>
+  </Military> 
+</Upgrade>
   <VisualActor>
     <Actor>structures/rus/trading_post.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
