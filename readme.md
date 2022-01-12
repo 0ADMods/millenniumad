@@ -32,3 +32,6 @@ You can find him here:
 http://anttimartikainen.bandcamp.com/
 
 http://www.youtube.com/user/AJMartikainen
+
+
+![alt text](https://github.com/stereotipo/millenniumad/blob/master/github/promo_page.jpg)
