@@ -9,6 +9,7 @@
 * Carolingians
 * Norse
 * Umayyads
+* Rus'
 
 [More are planned.](https://github.com/0ADMods/millenniumad/issues/2)
 
