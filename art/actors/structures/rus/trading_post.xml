@@ -4,15 +4,19 @@
 	<group>
 		<variant frequency="100" name="Trading Post">
 			<mesh>structural/rus_trading_alt.dae</mesh>
+			<textures>
+				<texture file="structural/rus_struct_B.png" name="baseTex"/>
+				 <texture file="structural/texture_rus_D_NRM.png" name="normTex"/>
+				<texture file="structural/texture_rus_D_OCC.png" name="aoTex"/>
+			</textures>
+			</textures>
 			<props>
 				<prop actor="props/structures/decals/mud_8x8.xml" attachpoint="root"/>
 				<prop actor="props/structures/rus/trade_decor.xml" attachpoint="decor"/>
 				<prop actor="props/structures/rus/trade_palisade.xml" attachpoint="root"/>
 				<prop actor="props/structures/rus/trade_turret.xml" attachpoint="turret"/>
 			</props>
-			<textures>
-				<texture file="structural/rus_struct_B.png" name="baseTex"/>
-			</textures>
+			
 		</variant>
 	</group>
 	<group>
@@ -26,5 +30,5 @@
 			</props>
 		</variant>
 	</group>
-	<material>player_trans_ao_parallax_spec.xml</material>
+	<material>player_trans_ao_parallax.xml</material>
 </actor>

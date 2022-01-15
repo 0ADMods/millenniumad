@@ -4,14 +4,15 @@
 	<group>
 		<variant frequency="100" name="Anglo ">
 			<mesh>structural/rus_farmhouse_D.dae</mesh>
-			<props>
-				<prop actor="props/structures/decals/mud_6x6.xml" attachpoint="root"/>
-			</props>
 			<textures>
 				 <texture file="structural/texture_rus_D.png" name="baseTex"/>
 				 <texture file="structural/texture_rus_D_NRM.png" name="normTex"/>
 				<texture file="structural/texture_rus_D_OCC.png" name="aoTex"/>
 			</textures>
+			<props>
+				<prop actor="props/structures/decals/mud_6x6.xml" attachpoint="root"/>
+			</props>
+			
 		</variant>
 	</group>
 	<material>player_trans_ao_parallax.xml</material>

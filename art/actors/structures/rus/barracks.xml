@@ -2,22 +2,22 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant frequency="100" name="Norse Barracks">
+		<variant name="Rus Barracks">
 			<mesh>structural/rus_barracks_B.dae</mesh>
+			<textures>
+        <texture file="structural/rus_struct_B.png" name="baseTex"/>
+        <texture file="structural/texture_rus_D_NRM.png" name="normTex"/>
+				<texture file="structural/texture_rus_D_OCC.png" name="aoTex"/>
+			</textures>
 			<props>
 				<prop actor="props/structures/decals/dirt_road_6x6.xml" attachpoint="root"/>
         <prop actor="props/structures/rus/barracks_hut.xml" attachpoint="hut"/>
         <prop actor="props/structures/rus/barracks_palisade.xml" attachpoint="palisade"/>
         <prop actor="props/structures/rus/barracks_stairs.xml" attachpoint="stairs"/>
-
-
         <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="barrel_01" maxheight="20" minheight="-20"/>
         <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="barrel_02" maxheight="20" minheight="-20"/>
-			</props>
-			<textures>
-        <texture file="structural/rus_struct_B.png" name="baseTex"/>
-			</textures>
+			</props>		
 		</variant>
 	</group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+  <material>player_trans_ao_parallax.xml</material>
 </actor>
