@@ -2,7 +2,7 @@
 <Entity parent="template_structure_economic_storehouse">
   <Identity>
     <Civ>rus</Civ>
-    <SpecificName>Birgja</SpecificName>
+    <SpecificName>Sklad</SpecificName>
   </Identity>
   <Population>
     <Bonus>2</Bonus>

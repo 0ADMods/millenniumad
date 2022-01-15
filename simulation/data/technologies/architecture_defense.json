@@ -15,6 +15,6 @@
 		{"value": "Cost/Resources", "multiply": 1.2 },
 		{ "value": "Health/Max", "multiply": 1.25 }
 	],
-	"affects": ["Structure !Wonder"],
+	"affects": ["Structure"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

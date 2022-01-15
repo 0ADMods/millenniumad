@@ -1,6 +1,3 @@
-
-![alt text](https://github.com/stereotipo/millenniumad/blob/master/github/promo_github.png)
-
 # Millennium A.D.
 
 *Millennium A.D.* is a mod for [*0 A.D. Empires Ascendant*](https://play0ad.com/), covering the AD 500–1000 timeframe, or broadly from the traditional fall of the Western Roman Empire (476) to the (re)founding of the Holy Roman Empire (962). It currently introduces the following civilizations:
@@ -9,7 +6,6 @@
 * Carolingians
 * Norse
 * Umayyads
-* Rus'
 
 [More are planned.](https://github.com/0ADMods/millenniumad/issues/2)
 
@@ -36,5 +32,3 @@ You can find him here:
 http://anttimartikainen.bandcamp.com/
 
 http://www.youtube.com/user/AJMartikainen
-
-

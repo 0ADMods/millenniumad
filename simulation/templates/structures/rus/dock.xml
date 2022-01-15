@@ -19,7 +19,6 @@
   </Population>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}/ship_quinquereme
       units/{civ}/ship_trireme
       units/{civ}/ship_bireme
     </Entities>
@@ -28,6 +27,6 @@
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/norse/dock_base.xml</Actor>
+    <Actor>structures/rus/dock.xml</Actor>
   </VisualActor>
 </Entity>

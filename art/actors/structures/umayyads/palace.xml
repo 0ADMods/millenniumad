@@ -16,7 +16,6 @@
     <variant frequency="1" name="alive"/>
     <variant name="death">
       <props>
-        <prop actor="props/structures/byzantines/temple_roof.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
         <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>

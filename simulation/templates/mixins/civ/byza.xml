@@ -5,7 +5,8 @@
       -structures/{civ}/wallset_stone
       structures/{civ}/wallset_stone_04
       structures/{civ}/wallset_stone_02
-      structures/byza/imperial_ministry
+      structures/byza/library
+      structures/byza/imperial_ministry      
     </Entities>
   </Builder>
   <Identity>

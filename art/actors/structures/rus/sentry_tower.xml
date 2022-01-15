@@ -4,16 +4,16 @@
   <group>
     <variant name="Rus sentry tower">
       <mesh>structural/rus_sentry_tower.dae</mesh>
+       <textures>
+        <texture file="structural/texture_rus_D.png" name="baseTex"/>
+        <texture file="structural/texture_rus_D_NRM.png" name="normTex"/>
+        <texture file="structural/texture_rus_D_OCC.png" name="aoTex"/>
+      </textures>
       <props>
         <prop actor="props/structures/decals/mud_3x3.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
-      <textures>
-        <texture file="structural/texture_rus_D.png" name="baseTex"/>
-        <texture file="structural/texture_rus_D_NRM.png" name="normTex"/>
-        <texture file="structural/texture_rus_D_OCC.png" name="aoTex"/>
-      </textures>
     </variant>
   </group>
   <group>

@@ -4,7 +4,6 @@
     <Entities datatype="tokens">
       structures/caro/special
       structures/caro/school
-      structures/caro/mayenne
     </Entities>
   </Builder>
   <Identity>

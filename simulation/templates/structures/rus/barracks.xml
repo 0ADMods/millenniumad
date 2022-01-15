@@ -12,7 +12,7 @@
 	</Health>
 	<Identity>
 		<Civ>rus</Civ>
-		<SpecificName>Kазарма</SpecificName>
+		<SpecificName>Kazarma</SpecificName>
 		<GenericName>Barracks</GenericName>
 		<RequiredTechnology>phase_village</RequiredTechnology>
 		<Classes datatype="tokens">Town</Classes>

@@ -38,7 +38,7 @@
   <Identity>
     <Civ>rus</Civ>
     <GenericName>Boyar Palace</GenericName>
-    <SpecificName>Боярский дворец</SpecificName>
+    <SpecificName>Boyarskiy dvorets</SpecificName>
     <VisibleClasses datatype="tokens">
     Research
     ImperialCourt

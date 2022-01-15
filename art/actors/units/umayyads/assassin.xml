@@ -7,7 +7,7 @@
       <props>
         <prop actor="props/units/helmets/umay_coif_swordsman_shield_relax_e.xml" attachpoint="root"/>
         <prop actor="props/units/heads/new/head_pers_b.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/norse_sword.xml" attachpoint="weapon_R"/>
+         <prop actor="props/units/weapons/dagger.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>

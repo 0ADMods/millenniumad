@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_swordsman">
+   <Auras datatype="tokens">
+    units/inspiration_war
+  </Auras>
 <Attack>
     <Melee>
       <AttackName context="Name of an attack using a double-edged sword.">Sword</AttackName>
       <Damage>
-        <Hack>25</Hack>
+        <Hack>14</Hack>
       </Damage>
       <MaxRange>4</MaxRange>
       <PrepareTime>375</PrepareTime>
@@ -15,6 +18,9 @@
   <Health>
     <Max>100</Max>
   </Health>
+   <UnitMotion>
+    <WalkSpeed op="mul">1.1</WalkSpeed>
+  </UnitMotion>
   <Cost>
     <BuildTime>25</BuildTime>
     <Resources>

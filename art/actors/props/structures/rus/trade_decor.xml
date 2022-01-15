@@ -8,8 +8,10 @@
 	<group>
 		<variant>
       <textures>
-        <texture file="props/rus_props_01.png" name="baseTex"/>
-        <texture file="props/rus_props_01_NRM.png" name="normTex"/>
+        <texture file="structural/Sele_struct_2.png" name="baseTex"/>
+        <texture file="structural/Sele_struct_2_norm.png" name="normTex"/>
+        <texture file="structural/ao/sele_market_AO.png" name="aoTex"/>
+        <texture file="structural/Sele_struct_2_spec.png" name="specTex"/>
       </textures>
 		</variant>
 	</group>

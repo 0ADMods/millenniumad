@@ -25,6 +25,7 @@
     <GenericName>Library</GenericName>
     <SelectionGroupName>template_structure_special_library</SelectionGroupName>
     <VisibleClasses datatype="tokens">Library</VisibleClasses>
+    <RequiredTechnology>phase_city</RequiredTechnology>
     <Icon>structures/library_scroll.png</Icon>
   </Identity>
   <Loot>
@@ -39,6 +40,10 @@
       tower_murderholes
       tower_health
       chivalry
+      caro_territory_expansion
+      astronomy
+      health_regen_medicine
+      architecture_defense
     </Technologies>
   </ProductionQueue>
   <Sound>

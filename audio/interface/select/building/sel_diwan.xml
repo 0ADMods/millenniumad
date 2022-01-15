@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <SoundGroup>
-	<Distanceless>0</Distanceless>
+	<Distanceless>1</Distanceless>
 	<Gain>1</Gain>
 	<Priority>70</Priority>
 	<ConeGain>1</ConeGain>
