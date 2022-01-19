@@ -8,7 +8,9 @@
         <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/umay_struct.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_spec.png" name="specTex"/>
+        <texture file="structural/umay/umay_struct_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>
@@ -27,5 +29,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 </actor>

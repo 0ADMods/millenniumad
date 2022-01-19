@@ -5,7 +5,9 @@
     <variant frequency="5" name="House A">
       <mesh>structural/umay_house_C.dae</mesh>
       <textures>
-				<texture file="structural/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_02_NRM.png" name="normTex"/>
+        <texture file="structural/ao/uma_house_B_ao.png" name="aoTex"/>
 			</textures>
       <props>
 			</props>
@@ -13,8 +15,8 @@
     <variant frequency="5" name="House B">
       <mesh>structural/umay_house_B.dae</mesh>
       <textures>
-				<texture file="structural/umay_struct_02.png" name="baseTex"/>
-        <texture file="structural/umay_struct_02_NRM.png" name="normTex"/>
+				<texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_02_NRM.png" name="normTex"/>
         <texture file="structural/ao/uma_house_B_ao.png" name="aoTex"/>
 			</textures>
       <props>
@@ -27,8 +29,8 @@
     <variant frequency="5" name="House C">
       <mesh>structural/umay_house_B.dae</mesh>
       <textures>
-				<texture file="structural/umay_struct_02.png" name="baseTex"/>
-        <texture file="structural/umay_struct_02_NRM.png" name="normTex"/>
+				<texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_02_NRM.png" name="normTex"/>
         <texture file="structural/ao/uma_house_B_ao.png" name="aoTex"/>
 			</textures>
       <props>
@@ -41,9 +43,9 @@
     <variant frequency="5" name="House D">
        <mesh>structural/Umayyad_house_D.dae</mesh>
       <textures>
-				<texture file="structural/umay_struct_D.png" name="baseTex"/>
-        <texture file="structural/umay_struct_D_NRM.png" name="normTex"/>
-        <texture file="structural/umay_struct_D_OCC.png" name="aoTex"/>
+				<texture file="structural/umay/umay_struct_D.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_D_NRM.png" name="normTex"/>
+        <texture file="structural/umay/umay_struct_D_OCC.png" name="aoTex"/>
 			</textures>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
@@ -52,8 +54,8 @@
     <variant frequency="5" name="House E">
        <mesh>structural/umay_house_B.dae</mesh>
       <textures>
-				<texture file="structural/umay_struct_02.png" name="baseTex"/>
-        <texture file="structural/umay_struct_02_NRM.png" name="normTex"/>
+				<texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_02_NRM.png" name="normTex"/>
         <texture file="structural/ao/uma_house_B_ao.png" name="aoTex"/>
 			</textures>
       <props>

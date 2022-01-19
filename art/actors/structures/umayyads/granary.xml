@@ -5,8 +5,8 @@
     <variant frequency="50" name="granary_a">
       <mesh>structural/uma_granary.dae</mesh>
       <textures>
-        <texture file="structural/umay_struct_D.png" name="baseTex"/>
-        <texture file="structural/umay_struct_D_NRM.png" name="normTex"/>
+        <texture file="structural/umay/umay_struct_D.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_D_NRM.png" name="normTex"/>
         <texture file="structural/ao/uma_granary.png" name="aoTex"/>
       </textures>  
       <props>

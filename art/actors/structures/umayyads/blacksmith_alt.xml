@@ -5,7 +5,7 @@
     <variant name="blacksmith">
       <mesh>structural/uma_blcksmith_alt.dae</mesh>
       <textures>
-				<texture file="structural/umay_struct_D.png" name="baseTex"/>
+				<texture file="structural/umay/umay_struct_D.png" name="baseTex"/>
         <texture file="structural/ao/uma_blacksmith_alt.png" name="aoTex"/>
 			</textures>
       <props>
@@ -31,5 +31,5 @@
       </props>
     </variant>
   </group>
-<material>player_trans_ao_parallax.xml</material>
+<material>player_trans_ao.xml</material>
 </actor>

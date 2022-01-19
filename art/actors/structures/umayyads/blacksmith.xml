@@ -5,7 +5,7 @@
     <variant name="blacksmith">
       <mesh>structural/umay_blacksmith.dae</mesh>
       <textures>
-				<texture file="structural/umay_struct_02.png" name="baseTex"/>
+				<texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
 			</textures>
       <props>
         <prop actor="particle/flame.xml" attachpoint="fire"/>
@@ -37,5 +37,5 @@
       </props>
     </variant>
   </group>
-<material>player_trans_ao_parallax.xml</material>
+<material>player_trans.xml</material>
 </actor>

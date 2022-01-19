@@ -5,8 +5,8 @@
     <variant name="temple">
       <mesh>structural/umay_mosque_D.dae</mesh>
       <textures>
-        <texture file="structural/umay_struct_D.png" name="baseTex"/>
-				<texture file="structural/umay_struct_02_NRM.png" name="normTex"/>
+        <texture file="structural/umay/umay_struct_D.png" name="baseTex"/>
+				<texture file="structural/umay/umay_struct_02_NRM.png" name="normTex"/>
         <texture file="structural/ao/umay_stable_ao.png" name="aoTex"/>
       </textures>
       <props>
