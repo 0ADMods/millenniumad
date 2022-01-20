@@ -11,6 +11,6 @@ umay/pair_forge
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/umayyads/blacksmith_alt.xml</Actor>
+    <Actor>structures/umayyads/blacksmith.xml</Actor>
   </VisualActor>
 </Entity>
