@@ -7,8 +7,8 @@
       <textures>
          <texture file="structural/texture_rus_D.png" name="baseTex"/>
         <texture file="structural/texture_rus_D_NRM.png" name="normTex"/>
-        <texture file="structural/texture_rus_D_OCC.png" name="aoTex"/>
-      </textures>
+<!--         <texture file="structural/texture_rus_D_OCC.png" name="aoTex"/>-->
+       </textures>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
       </props>
@@ -25,5 +25,5 @@
       </props>
     </variant>
   </group>
-<material>player_trans_ao_parallax.xml</material>
+<material>player_trans_parallax.xml</material>
 </actor>

@@ -6,10 +6,10 @@
 			<mesh>props/byza_barracks_REVAMP_roof.dae</mesh>
 			<textures>
 				<texture file="structural/rome_struct_2.png" name="baseTex"/>
-				<texture file="structural/rome_struct_2_norm.png" name="normTex"/>
-				<texture file="structural/ao/byza_barracks.png" name="aoTex"/>
+<!-- 				<texture file="structural/rome_struct_2_norm.png" name="normTex"/>
+				<texture file="structural/ao/byza_barracks.png" name="aoTex"/> -->
 			</textures>
 		</variant>
 	</group>
-  <material>player_trans_ao_parallax.xml</material>
+  <material>player_trans.xml</material>
 </actor>

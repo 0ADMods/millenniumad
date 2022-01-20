@@ -8,7 +8,7 @@
 				<texture file="structural/texture_rus_D.png" name="baseTex"/>
 				<texture file="structural/texture_rus_D_NRM.png" name="normTex"/>
 				<texture file="structural/texture_rus_D_SPEC.png" name="specTex"/>
-				<texture file="structural/texture_rus_D_OCC.png" name="aoTex"/>
+<!-- 				<texture file="structural/texture_rus_D_OCC.png" name="aoTex"/> -->
 			</textures>
 			<props>
 				<prop actor="props/structures/decals/mud_3x3.xml" attachpoint="root"/>
@@ -33,5 +33,5 @@
   			</props>
    		</variant>
   	</group>
- 	<material>player_trans_ao_spec.xml</material>
+ 	<material>player_trans_parallax_spec.xml</material>
 </actor>

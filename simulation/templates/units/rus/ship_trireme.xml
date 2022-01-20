@@ -2,7 +2,7 @@
 <Entity parent="template_unit_ship_trireme">
   <Auras datatype="tokens">norse_warship_loot</Auras>
   <Identity>
-    <Civ>norse</Civ>
+    <Civ>rus</Civ>
     <SpecificName>Snekkja</SpecificName>
     <Tooltip>Light Warship. Bonuses loot in the area.</Tooltip>
     <Icon>units/norse_snekkja.png</Icon>

@@ -5,7 +5,7 @@
     <Height>3.0</Height>
   </Footprint>
   <Identity>
-    <Civ>norse</Civ>
+    <Civ>rus</Civ>
     <SpecificName>Kaupmaðr</SpecificName>
     <Icon>units/celt_support_trader.png</Icon>
   </Identity>

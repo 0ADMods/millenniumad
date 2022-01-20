@@ -18,7 +18,7 @@
 		<Max>10</Max>
 	</GarrisonHolder>
 	<Identity>
-		<Civ>norse</Civ>
+		<Civ>rus</Civ>
 		<SpecificName>Karvi</SpecificName>
 		<Icon>units/norse_karvi.png</Icon>
 		<Classes datatype="tokens">Trader</Classes>

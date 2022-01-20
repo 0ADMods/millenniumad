@@ -18,6 +18,6 @@
 	<group>
 		<variant frequency="100" name="Idle"/>
 	</group>
-	<material>player_trans_ao_spec.xml</material>
+	<material>player_trans_parallax_spec.xml</material>
 </actor>
 

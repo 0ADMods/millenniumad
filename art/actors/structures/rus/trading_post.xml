@@ -7,7 +7,7 @@
 			<textures>
 				<texture file="structural/rus_struct_B.png" name="baseTex"/>
 				 <texture file="structural/texture_rus_D_NRM.png" name="normTex"/>
-				<texture file="structural/texture_rus_D_OCC.png" name="aoTex"/>
+<!-- 				<texture file="structural/texture_rus_D_OCC.png" name="aoTex"/> -->
 			</textures>
 			</textures>
 			<props>
@@ -30,5 +30,5 @@
 			</props>
 		</variant>
 	</group>
-	<material>player_trans_ao_parallax.xml</material>
+	<material>player_trans_parallax.xml</material>
 </actor>

@@ -8,7 +8,7 @@
 				<texture file="structural/norse_struct.png" name="baseTex"/>
 				<texture file="structural/norse_struct_norm.png" name="normTex"/>
 				<texture file="structural/norse_struct_spec.png" name="specTex"/>
-				<texture file="structural/ao/norse_house_a_ao.png" name="aoTex"/>
+<!-- 				<texture file="structural/ao/norse_house_a_ao.png" name="aoTex"/> -->
 			</textures>
 			<props>
         <prop actor="props/structures/rus/barrel.xml" attachpoint="barrel_a_001"/>
@@ -59,5 +59,5 @@
   			</props>
    		</variant>
   	</group>
- 	<material>player_trans_ao_parallax_spec.xml</material>
+ 	<material>player_trans_parallax_spec.xml</material>
 </actor>

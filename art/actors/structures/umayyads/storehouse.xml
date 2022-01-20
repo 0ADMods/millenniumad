@@ -7,7 +7,7 @@
       <textures>
 				<texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
         <texture file="structural/umay/umay_struct_02_NRM.png" name="normTex"/>
-        <texture file="structural/umay/umay_struct_02_OCC.png" name="aoTex"/>
+<!--         <texture file="structural/umay/umay_struct_02_OCC.png" name="aoTex"/> -->
 			</textures>
       <props>
         <prop actor="props/structures/umay/storehouse_props.xml" attachpoint="root"/>
@@ -32,5 +32,5 @@
       </props>
     </variant>
   </group>
-<material>player_trans_ao_parallax.xml</material>
+<material>player_trans_parallax.xml</material>
 </actor>
