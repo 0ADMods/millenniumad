@@ -6,6 +6,8 @@
       <mesh>structural/umay_fortress_B.dae</mesh>
       <textures>
         <texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_02_NRM.png" name="normTex"/>
+        <texture file="structural/ao/umay_fortress_ao.png" name="aoTex"/>
       </textures>
       <props>
         <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
@@ -16,7 +18,6 @@
     <variant frequency="1" name="alive"/>
     <variant name="death">
       <props>
-        <prop actor="props/structures/byzantines/fortress_floor.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
         <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
