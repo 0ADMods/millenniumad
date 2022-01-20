@@ -5,9 +5,6 @@
       <variant frequency="100" name="base">
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_01"/>
-        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_02"/>
-        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_03"/>
       </props>
     </variant>
   </group>
@@ -21,6 +18,12 @@
     </variant>
     <variant frequency="1" name="house2">
       <mesh>structural/umay_house_B.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_01"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_02"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_03"/>
+      </props>
       <textures>
         <texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
         <texture file="structural/umay/umay_struct_02_NRM.png" name="normTex"/>
@@ -68,5 +71,5 @@
       </props>
     </variant>
   </group>
-  <material>basic_trans_parallax_spec.xml</material>
+  <material>player_trans_parallax.xml</material>
 </actor>
