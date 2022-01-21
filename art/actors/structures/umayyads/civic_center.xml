@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="civic_center">
+    <variant frequency="1" name="civic_center">
       <mesh>structural/umay_civic_centre.dae</mesh>
       <textures>
         <texture file="structural/umay/umay_struct.png" name="baseTex"/>
