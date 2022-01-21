@@ -39,7 +39,7 @@
     <variant frequency="1" name="house4">
        <mesh>structural/Umayyad_house_D.dae</mesh>
       <textures>
-        <texture file="structural/umay/umay_struct_D.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
         <texture file="structural/umay/umay_struct_02_norm.png" name="normTex"/>
       </textures>
     </variant>
