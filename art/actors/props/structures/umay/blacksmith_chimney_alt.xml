@@ -8,7 +8,9 @@
 	<group>
 		<variant>
       <textures>
-        <texture file="structural/umay_struct_D.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_02_norm.png" name="normTex"/>
+		<texture file="structural/umay/umay_struct_02_spec.png" name="specTex"/>
       </textures>
 		</variant>
 	</group>

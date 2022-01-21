@@ -8,9 +8,9 @@
 	<group>
 		<variant>
       <textures>
-        <texture file="structural/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
       </textures>
 		</variant>
 	</group>
- 	<material>player_trans_parallax_spec.xml</material>
+ 	<material>player_trans_parallax.xml</material>
 </actor>
