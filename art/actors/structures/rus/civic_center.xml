@@ -5,12 +5,16 @@
     <variant name="civic_center">
       <mesh>structural/rus_civic_centre.dae</mesh>
       <textures>
-				<texture file="structural/rus_struct_alt.png" name="baseTex"/>
-				<texture file="structural/rus_struct_alt_NRM.png" name="normTex"/>
+				<texture file="structural/rus/rus_struct_02.png" name="baseTex"/>
+				<texture file="structural/rus/rus_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/rus/rus_struct_02_spec.png" name="specTex"/>
+        <texture file="structural/ao/rus_civil_centre_ao.png" name="aoTex"/>
 			</textures>
       <props>
+      <prop actor="props/structures/anglo/anglo_well.xml" attachpoint="well"/>
+      <prop actor="props/structures/decals/dirt_paving_8x8.xml" attachpoint="root"/>
       </props>
        </variant>
   </group>
-<material>player_trans_parallax.xml</material>
+<material>player_trans_ao_parallax_spec.xml</material>
 </actor>
