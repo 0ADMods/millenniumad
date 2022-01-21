@@ -3,9 +3,10 @@
   <castshadow/>
   <group>
     <variant name="blacksmith">
-      <mesh>structural/uma_blcksmith_alt.dae</mesh>
+      <mesh>structural/umay_blacksmith.dae</mesh>
       <textures>
 				<texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_02_norm.png" name="normTex"/>
         <texture file="structural/ao/uma_blacksmith_alt.png" name="aoTex"/>
 			</textures>
       <props>

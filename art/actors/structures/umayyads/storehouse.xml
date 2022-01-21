@@ -3,11 +3,11 @@
   <castshadow/>
   <group>
     <variant name="Storehouse">
-      <mesh>structural/umay_storehouse_B.dae</mesh>
+      <mesh>structural/umay_storehouse.dae</mesh>
       <textures>
 				<texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
-        <texture file="structural/umay/umay_struct_02_NRM.png" name="normTex"/>
-<!--         <texture file="structural/umay/umay_struct_02_OCC.png" name="aoTex"/> -->
+        <texture file="structural/umay/umay_struct_02_norm.png" name="normTex"/>
+       <texture file="structural/ao/umay_storehouse_ao.png" name="aoTex"/> 
 			</textures>
       <props>
         <prop actor="props/structures/umay/storehouse_props.xml" attachpoint="root"/>

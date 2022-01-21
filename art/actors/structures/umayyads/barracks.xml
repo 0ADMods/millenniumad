@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant name="Barracks">
-      <mesh>structural/Umay_barracks.dae</mesh>
+      <mesh>structural/umay_barracks.dae</mesh>
       <textures>
         <texture file="structural/umay/umay_struct.png" name="baseTex"/>
         <texture file="structural/umay/umay_struct_spec.png" name="specTex"/>

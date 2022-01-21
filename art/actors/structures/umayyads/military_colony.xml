@@ -2,21 +2,16 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Seleucid_Civic_Centre" file="structures/defensive_building.xml">
-      <mesh>structural/sele_colony.dae</mesh>
-      <props>
-        <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
-        <prop actor="flora/trees/palm_cretan_date_short_building.xml" attachpoint="bush" maxheight="20" minheight="-20"/>
-        <prop actor="flora/trees/palm_cretan_date_short_building.xml" attachpoint="bush_1" maxheight="20" minheight="-20"/>
-        <prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="bush_2" maxheight="20" minheight="-20"/>
-        <prop actor="flora/trees/mediterranean_cypress.xml" attachpoint="bush_3" maxheight="20" minheight="-20"/>
-      </props>
+    <variant frequency="1" name="Umayyad_Colony" file="structures/defensive_building.xml">
+      <mesh>structural/umay_colony.dae</mesh>
       <textures>
-        <texture file="structural/Sele_struct_2.png" name="baseTex"/>
-        <texture file="structural/Sele_struct_2_norm.png" name="normTex"/>
-        <texture file="structural/Sele_struct_2_spec.png" name="specTex"/>
-        <texture file="structural/ao/sele_colony_AO.png" name="aoTex"/>
+        <texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/ao/umay_colony_ao.png" name="aoTex"/>
       </textures>
+      <props>
+        <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
+      </props>
     </variant>
   </group>
   <group>
@@ -34,5 +29,5 @@
     <variant file="structures/sele/heavy_damage.xml"/>
     <variant file="structures/sele/destruction_medium.xml"/>
   </group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+  <material>player_trans_ao_parallax.xml</material>
 </actor>

@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant name="civic_center">
-      <mesh>structural/Umay_civic_centre.dae</mesh>
+      <mesh>structural/umay_civic_centre.dae</mesh>
       <textures>
         <texture file="structural/umay/umay_struct.png" name="baseTex"/>
         <texture file="structural/umay/umay_struct_spec.png" name="specTex"/>
