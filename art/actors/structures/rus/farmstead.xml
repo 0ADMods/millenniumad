@@ -2,18 +2,17 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant frequency="100" name="Anglo ">
-			<mesh>structural/rus_farmhouse_D.dae</mesh>
+		<variant frequency="100" name="Rus Farmstead">
+			<mesh>structural/rus_farmstead.dae</mesh>
 			<textures>
-				 <texture file="structural/texture_rus_D.png" name="baseTex"/>
-				 <texture file="structural/texture_rus_D_NRM.png" name="normTex"/>
-<!-- 				<texture file="structural/texture_rus_D_OCC.png" name="aoTex"/> -->
+				<texture file="structural/rus/rus_struct_02.png" name="baseTex"/>
+				<texture file="structural/rus/rus_struct_02_norm.png" name="normTex"/>
+        		<texture file="structural/ao/rus_farmstead_ao.png" name="aoTex"/>
 			</textures>
-			<props>
+				<props>
 				<prop actor="props/structures/decals/mud_6x6.xml" attachpoint="root"/>
 			</props>
-			
 		</variant>
 	</group>
-	<material>player_trans_parallax.xml</material>
+	<material>player_trans_ao_parallax.xml</material>
 </actor>

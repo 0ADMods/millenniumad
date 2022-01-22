@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="civic_center">
+    <variant name="Rus civic_center">
       <mesh>structural/rus_civic_centre.dae</mesh>
       <textures>
 				<texture file="structural/rus/rus_struct_02.png" name="baseTex"/>
