@@ -5,9 +5,9 @@
 		<variant frequency="100" name="Market">
 			<mesh>structural/rus_market_base.dae</mesh>
 			<textures>
-				<texture file="props/decals/decal_dirt_pavement_large.png" name="baseTex"/>
-				<texture file="props/decals/paving_001_norm.png" name="normTex"/>
-				<texture file="props/decals/paving_001_spec.png" name="specTex"/>
+				<texture file="structural/rus/rus_struct_02.png" name="baseTex"/>
+				<texture file="structural/rus/rus_struct_02_norm.png" name="normTex"/>
+				<texture file="structural/rus/rus_struct_02_spec.png" name="specTex"/>
 			</textures>
 			<props>
 				<prop actor="props/structures/decals/dirt_paving_8x8.xml" attachpoint="root"/>

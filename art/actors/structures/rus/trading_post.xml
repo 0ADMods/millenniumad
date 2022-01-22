@@ -3,11 +3,12 @@
 	<castshadow/>
 	<group>
 		<variant frequency="100" name="Trading Post">
-			<mesh>structural/rus_trading_alt.dae</mesh>
+			<mesh>structural/rus_trading_post.dae</mesh>
 			<textures>
-				<texture file="structural/rus_struct_B.png" name="baseTex"/>
-				 <texture file="structural/texture_rus_D_NRM.png" name="normTex"/>
-<!-- 				<texture file="structural/texture_rus_D_OCC.png" name="aoTex"/> -->
+				<texture file="structural/texture_rus_D.png" name="baseTex"/>
+				<texture file="structural/texture_rus_D_NRM.png" name="normTex"/>
+				<texture file="structural/texture_rus_D_SPEC.png" name="specTex"/>
+				<texture file="structural/ao/rus_trading_post_main_ao.png" name="aoTex"/>
 			</textures>
 			</textures>
 			<props>
@@ -30,5 +31,5 @@
 			</props>
 		</variant>
 	</group>
-	<material>player_trans_parallax.xml</material>
+	<material>player_trans_ao_parallax_spec.xml</material>
 </actor>

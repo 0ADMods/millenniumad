@@ -5,10 +5,10 @@
 		<variant frequency="100" name="Rus_Hunting_cabin">
 			<mesh>structural/rus_hunting_lodge.dae</mesh>
 			<textures>
-				<texture file="structural/texture_rus_D.png" name="baseTex"/>
-				<texture file="structural/texture_rus_D_NRM.png" name="normTex"/>
-				<texture file="structural/texture_rus_D_SPEC.png" name="specTex"/>
-<!-- 				<texture file="structural/texture_rus_D_OCC.png" name="aoTex"/> -->
+				<texture file="structural/rus/rus_struct_02.png" name="baseTex"/>
+				<texture file="structural/rus/rus_struct_02_norm.png" name="normTex"/>
+				<texture file="structural/rus/rus_struct_02_spec.png" name="specTex"/>
+				<texture file="structural/ao/rus_hunting_cabin_ao.png" name="aoTex"/>
 			</textures>
 			<props>
 				<prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
@@ -27,5 +27,5 @@
   			</props>
    		</variant>
   	</group>
- 	<material>player_trans_parallax_spec.xml</material>
+ 	<material>player_trans_ao_parallax_spec.xml</material>
 </actor>
