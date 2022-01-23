@@ -14,6 +14,6 @@
 		<Civ>caro</Civ>
 	</Identity>
 	<VisualActor>
-		<Actor>structures/carolingian/storehouse_C.xml</Actor>
+		<Actor>structures/carolingian/storehouse.xml</Actor>
 	</VisualActor>
 </Entity>
