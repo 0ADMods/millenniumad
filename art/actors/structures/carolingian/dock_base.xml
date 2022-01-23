@@ -3,15 +3,15 @@
 	<group>
 		<variant name="Caro Dock_base">
 			<mesh>structural/caro_dock_base.dae</mesh>
-			<props>
-        <prop actor="structures/carolingian/dock_structure.xml" attachpoint="root"/>
-			</props>
-      <textures>
+			<textures>
         <texture file="structural/anglo_struct.png" name="baseTex"/>
 				<texture file="structural/anglo_struct_norm.png" name="normTex"/>
 				<texture file="structural/anglo_struct_spec.png" name="specTex"/>
         <texture file="structural/ao/caro_dock_base.png" name="aoTex"/>
 			</textures>
+			<props>
+        <prop actor="structures/carolingian/dock_structure.xml" attachpoint="root"/>
+			</props>
 		</variant>
 	</group>
   <material>player_trans_ao.xml</material>
