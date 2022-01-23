@@ -30,12 +30,16 @@
 			"Type": "peace"
 		},
 		{
-			"File": "Byzant/eclipse_recreated.ogg",
+			"File": "Byzant/honor-and-sword-main-11222.ogg",
+			"Type": "battle"
+		},
+		{
+			"File": "the-white-lion-10379.ogg",
 			"Type": "peace"
 		},
 		{
-			"File": "Byzant/honor-and-sword-main-11222.ogg",
-			"Type": "battle"
+			"File": "honor-and-sword-main.ogg",
+			"Type": "peace"
 		}
 
 	],

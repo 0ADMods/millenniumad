@@ -17,6 +17,6 @@ byza/pair_extra_blacksmith
     <Static width="25.0" depth="20.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/byzantines/blacksmith_BB.xml</Actor>
+    <Actor>structures/byzantines/blacksmith.xml</Actor>
   </VisualActor>
 </Entity>

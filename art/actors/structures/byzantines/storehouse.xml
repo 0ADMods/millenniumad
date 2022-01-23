@@ -5,8 +5,8 @@
     <variant name="Storehouse">
       <mesh>structural/byza_storehouse_BB.dae</mesh>
       <textures>
-				<texture file="structural/byza_texture_C.png" name="baseTex"/>
-				<texture file="structural/byza_texture_C_NRM.png" name="normTex"/>
+				<texture file="structural/byza/byza_struct_02.png" name="baseTex"/>
+				<texture file="structural/byza/byza_struct_02_norm.png" name="normTex"/>
 			</textures>
       <props>
         <prop actor="props/structures/byzantines/storehouse_props.xml" attachpoint="root"/>

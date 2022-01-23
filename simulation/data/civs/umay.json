@@ -48,8 +48,11 @@
 		{
 			"File": "Arab/sahara-sunrise-11681.ogg",
 			"Type": "peace"
+		},
+		{
+			"File": "Ominous_Revelations.ogg",
+			"Type": "peace"
 		}
-
 
 	],
 	"CivBonuses": [],
