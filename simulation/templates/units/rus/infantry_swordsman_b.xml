@@ -16,6 +16,7 @@
     </Resources>
   </Cost>
   <Identity>
+    <Civ>rus</Civ>
     <SelectionGroupName>units/rus/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Swordsman</GenericName>
     <SpecificName>Bоин</SpecificName>
