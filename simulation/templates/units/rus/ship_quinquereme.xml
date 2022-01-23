@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_ship_trireme">
+<Entity parent="civ/rus|template_unit_ship_trireme">
   <Cost>
     <BuildTime>80</BuildTime>
   </Cost>
@@ -15,7 +15,7 @@
     <Max>4000</Max>
   </Health>
   <Identity>
-    <Civ>norse</Civ>
+    <Civ>rus</Civ>
     <SpecificName>Drekár</SpecificName>
     <Tooltip>Elite Warship. Trains units and is a resource dropsite.</Tooltip>
     <Icon>units/norse_drekkar.png</Icon>
