@@ -1,18 +1,18 @@
 {
 	"genericName": "Chivalry",
-	"description": "Murder holes allow hitting enemies at the foot of the tower.",
+	"description": "The chivalric code is an informal and varying code of conduct associated with the medieval Christian institution of knighthood.",
 	"cost": {
-		"wood": 250,
-		"stone": 100
+		"food": 650,
+		"metal": 1200
 	},
 	"requirements": { "tech": "phase_city" },
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "tech_chivalry.png",
-	"researchTime": 40,
-	"tooltip": "Sentry and Stone Towers have 0 minimum attack range.",
+	"researchTime": 35,
+	"tooltip": "Cavalry +10% health.",
 	"modifications": [
-		{ "value": "Attack/Ranged/MinRange", "replace": 0 }
+		{ "value": "Health/Max", "multiply": 1.1 }
 	],
-	"affects": ["SentryTower", "StoneTower"],
+	"affects": ["Cavalry"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
