@@ -20,6 +20,6 @@
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/norse/blacksmith.xml</Actor>
+    <Actor>structures/rus/blacksmith.xml</Actor>
   </VisualActor>
 </Entity>
