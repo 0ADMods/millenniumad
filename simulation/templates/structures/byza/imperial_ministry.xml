@@ -66,8 +66,6 @@
   </Population>
   <ProductionQueue>
      <Entities datatype="tokens">
-     units/byza/minister
-     units/byza/strategos
     </Entities>
     <Technologies datatype="tokens">
   byza/pair_reform

@@ -12,7 +12,7 @@
 			</textures>
       <props>
       <prop actor="props/structures/anglo/anglo_well.xml" attachpoint="well"/>
-      <prop actor="props/structures/decals/dirt_paving_8x8.xml" attachpoint="root"/>
+      <prop actor="props/structures/decals/mud_8x8.xml" attachpoint="root"/>
       </props>
        </variant>
   </group>
