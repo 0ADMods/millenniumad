@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+/<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_fortress">
   <Footprint>
     <Square width="38.0" depth="39.0"/>
@@ -18,14 +18,12 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_mechanical_siege_shoushe
-      units/{civ}_mechanical_siege_tower
-      units/{civ}_hero_han_xin
-      units/{civ}_hero_liu_bang
-      units/{civ}_champion_cavalry
-      units/{civ}_champion_infantry_archer
-      units/{civ}_champion_infantry_swordsman
-      units/{civ}_champion_chariot
+      units/{civ}/mechanical_siege_shoushe
+      units/{civ}/mechanical_siege_tower
+      units/{civ}/champion_cavalry
+      units/{civ}/champion_infantry_archer
+      units/{civ}/champion_infantry_swordsman
+      units/{civ}/champion_chariot
     </Entities>
     <Technologies datatype="tokens">
       siege_attack

@@ -56,7 +56,7 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/chin_minister
+      units/{civ}/chin_minister
     </Entities>
     <Technologies datatype="tokens">
       chinese/civil_service_01

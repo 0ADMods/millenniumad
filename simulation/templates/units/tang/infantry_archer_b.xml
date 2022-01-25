@@ -15,17 +15,17 @@
   <Promotion>
     <Entity>units/tang/infantry_archer_a</Entity>
   </Promotion>
-  <Attack>
+<!--   <Attack>
     <Ranged>
-      <MaxRange>60.0</MaxRange><!-- less in comparison to the crossbowman and other archers-->
+      <MaxRange>60.0</MaxRange> less in comparison to the crossbowman and other archers
     </Ranged>
-  </Attack>
-  <Cost>
+  </Attack> -->
+<!--   <Cost>
     <Resources>
       <food>50</food>
       <wood>40</wood>
     </Resources>
-  </Cost>
+  </Cost> -->
   <VisualActor>
     <Actor>units/chinese/infantry_archer_b.xml</Actor>
   </VisualActor>

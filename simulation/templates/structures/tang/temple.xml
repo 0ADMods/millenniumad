@@ -15,6 +15,6 @@
     <Static width="21" depth="24"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/chinese/temple.xml</Actor>
+    <Actor>structures/chinese/tang_tf.xml</Actor>
   </VisualActor>
 </Entity>
