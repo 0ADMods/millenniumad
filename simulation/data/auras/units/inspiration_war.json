@@ -1,0 +1,24 @@
+{
+	"type": "range",
+	"radius": 30,
+	"affects": [
+		"Unit"
+	],
+	"modifications": [
+		{
+			"value": "Attack/Ranged/Pierce",
+			"add": 5
+		},
+		{
+			"value": "Attack/Melee/Hack",
+			"add": 5
+		},
+		{
+			"value": "Attack/Capture/Value",
+			"add": 1
+		}
+	],
+	"auraName": "Inspiration of war",
+	"auraDescription": "+5 Attack and +1 Capture for all units within his aura.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

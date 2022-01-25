@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="temple">
+      <mesh>structural/byza_church_B.dae</mesh>
+      <textures>
+        <texture file="structural/byza/byza_struct_02.png" name="baseTex"/>
+				<texture file="structural/byza/byza_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/ao/byza_church_ao.png" name="aoTex"/>
+      </textures>
+      <props>
+        <prop actor="props/structures/byzantines/church_B_roof.xml" attachpoint="root"/>
+        <prop actor="props/structures/byzantines/church_B_dome.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+       <prop actor="props/structures/byzantines/church_B_roof.xml" attachpoint="root"/>
+        <prop actor="props/structures/byzantines/church_B_dome.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+<material>player_trans_ao_parallax.xml</material>
+</actor>

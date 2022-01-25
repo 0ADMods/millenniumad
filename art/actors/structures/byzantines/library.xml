@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="market">
+      <mesh>structural/byza_library_main.dae</mesh>
+      <textures>
+					<texture file="structural/byza/byza_struct_02.png" name="baseTex"/>
+				<texture file="structural/byza/byza_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/ao/byza_library_ao.png" name="aoTex"/>
+			</textures>
+      <props>
+        <prop actor="props/structures/byzantines/library_stoa.xml" attachpoint="root"/>
+        <prop actor="props/structures/byzantines/library_floor.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
+        <prop actor="props/structures/byzantines/column_large.xml" attachpoint="column_large_a"/>
+        <prop actor="props/structures/byzantines/column_large.xml" attachpoint="column_large_b"/>
+        <prop actor="props/structures/byzantines/column_large.xml" attachpoint="column_large_c"/>
+        <prop actor="props/structures/byzantines/column_large.xml" attachpoint="column_large_d"/>
+         <prop actor="flora/trees/cypress_sm_branches.xml" attachpoint="cypress_a"/>
+        <prop actor="flora/trees/cypress_sm_branches.xml" attachpoint="cypress_b"/>
+        <prop actor="flora/trees/cypress_sm_branches.xml" attachpoint="cypress_c"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="cypress_large_a"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="cypress_large_b"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="cypress_large_c"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop actor="props/structures/byzantines/library_stoa.xml" attachpoint="root"/>
+        <prop actor="props/structures/byzantines/library_floor.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+<material>player_trans_ao_parallax.xml</material>
+</actor>

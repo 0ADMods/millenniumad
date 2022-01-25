@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="50" name="base">
+      <mesh>props/helmet/rus_cap_a.dae</mesh>
+      <textures>
+        <texture file="skeletal/rus_basic_cloth.png" name="baseTex"/>
+        <texture file="skeletal/xion_cloth_norm.png" name="specTex"/>
+        <texture file="skeletal/xion_cloth_spec.png" name="normTex"/>
+      </textures>
+    </variant>
+    <variant frequency="50" name="base_2">
+      <mesh>props/helmet/rus_cap_a.dae</mesh>
+      <textures>
+        <texture file="skeletal/rus_basic_cloth_b.png" name="baseTex"/>
+        <texture file="skeletal/xion_cloth_norm.png" name="specTex"/>
+        <texture file="skeletal/xion_cloth_spec.png" name="normTex"/>
+      </textures>
+    </variant>
+     <variant frequency="50" name="base">
+      <mesh>props/helmet/rus_cap_b.dae</mesh>
+      <textures>
+        <texture file="skeletal/rus_basic_cloth.png" name="baseTex"/>
+        <texture file="skeletal/xion_cloth_norm.png" name="specTex"/>
+        <texture file="skeletal/xion_cloth_spec.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

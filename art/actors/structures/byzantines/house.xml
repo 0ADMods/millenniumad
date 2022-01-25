@@ -3,11 +3,10 @@
   <castshadow/>
   <group>
     <variant frequency="5" name="House A">
-      <mesh>structural/byza_house_a.dae</mesh>
+      <mesh>structural/byza_house_AA.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct.png" name="baseTex"/>
-				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/byza_house_a.png" name="aoTex"/>
+				<texture file="structural/byza/byza_struct_02.png" name="baseTex"/>
+				<texture file="structural/byza/byza_struct_02_norm.png" name="normTex"/>
 			</textures>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
@@ -22,11 +21,10 @@
 			</props>
     </variant>
     <variant frequency="5" name="House B">
-      <mesh>structural/byza_house_b.dae</mesh>
+      <mesh>structural/byza_house_BB.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct.png" name="baseTex"/>
-				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/byza_house_b.png" name="aoTex"/>
+				<texture file="structural/byza/byza_struct_02.png" name="baseTex"/>
+				<texture file="structural/byza/byza_struct_02_norm.png" name="normTex"/>
 			</textures>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
@@ -34,11 +32,10 @@
 			</props>
     </variant>
     <variant frequency="5" name="House C">
-      <mesh>structural/byza_house_c.dae</mesh>
+      <mesh>structural/byza_house_CC.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct.png" name="baseTex"/>
-				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/byza_house_c.png" name="aoTex"/>
+					<texture file="structural/byza/byza_struct_02.png" name="baseTex"/>
+				<texture file="structural/byza/byza_struct_02_norm.png" name="normTex"/>
 			</textures>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
@@ -52,11 +49,10 @@
 			</props>
     </variant>
     <variant frequency="5" name="House D">
-      <mesh>structural/byza_house_d.dae</mesh>
+      <mesh>structural/byza_house_DD.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct.png" name="baseTex"/>
-				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/byza_house_d.png" name="aoTex"/>
+					<texture file="structural/byza/byza_struct_02.png" name="baseTex"/>
+				<texture file="structural/byza/byza_struct_02_norm.png" name="normTex"/>
 			</textures>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
@@ -77,7 +73,7 @@
       <textures>
 				<texture file="structural/byzantine_struct.png" name="baseTex"/>
 				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/byza_house_b.png" name="aoTex"/>
+ <!--     <texture file="structural/ao/byza_house_b.png" name="aoTex"/>  --> 
 			</textures>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
@@ -97,5 +93,5 @@
       </props>
     </variant>
   </group>
-<material>player_trans_ao_parallax.xml</material>
+<material>player_trans_parallax.xml</material>
 </actor>

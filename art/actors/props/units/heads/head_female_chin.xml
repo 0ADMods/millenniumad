@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+
+  <group>
+    <variant frequency="1" name="Hair-Bun">
+      <mesh>props/dudette_head.pmd</mesh>
+    </variant>
+  </group>
+
+  <group>
+    <variant frequency="1" name="Face-01">
+      <textures><texture file="props/head/chin_fem_a.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="Face-02">
+      <textures><texture file="props/head/chin_fem_b.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="Face-03">
+      <textures><texture file="props/head/chin_fem_c.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+
+  <group>
+    <variant frequency="1" name="color-black">
+      <colour>20 20 20</colour>
+    </variant>
+    <variant frequency="1" name="color-black1">
+      <colour>35 35 35</colour>
+    </variant>
+    <variant frequency="1" name="color-black2">
+      <colour>10 10 10</colour>
+    </variant>
+    <variant frequency="1" name="color-black3">
+      <colour>60 60 60</colour>
+    </variant>
+  </group>
+
+  <material>objectcolor.xml</material>
+
+</actor>

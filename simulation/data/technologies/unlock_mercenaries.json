@@ -1,0 +1,18 @@
+{
+	"genericName": "Embassies",
+	"description": "Mercenaries are professionals who wield the best weapons and have the best training.",
+	"cost": {
+		"food": 1200,
+		"metal": 800
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city" }
+		]
+	},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "spears_shield.png",
+	"researchTime": 60,
+	"tooltip": "Unlock Mercenary Infantry at the Barracks.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

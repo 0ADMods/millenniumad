@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_maceman">
+  <Attack>
+    <Melee>
+      <AttackName>Mace</AttackName>
+      <Damage>
+        <Crush>8</Crush>
+      </Damage>
+      <MaxRange>3</MaxRange>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <PreferredClasses datatype="tokens">!Ship</PreferredClasses>
+    </Melee>
+  </Attack>
+   <Health>
+    <Max>80</Max>
+  </Health>
+  <Identity>
+    <Civ>caro</Civ>
+    <GenericName>Champion maceman</GenericName>
+    <SpecificName>Maceman</SpecificName>
+	<SelectionGroupName>units/caro/champion_infantry</SelectionGroupName>
+    <Icon>units/caro_maceman.png</Icon>
+  </Identity>
+  <Loot>
+    <wood>5</wood>
+  </Loot>
+  <VisualActor>
+    <Actor>units/caro/champion_infantry_mace.xml</Actor>
+  </VisualActor>
+</Entity>

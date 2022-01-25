@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Footprint>
+    <Square width="22.0" depth="25"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <List datatype="tokens">Minister Civilian+Citizen</List>
+  </GarrisonHolder>
+  <Identity>
+    <Civ>tang</Civ>
+    <SpecificName>Miào</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="21" depth="24"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/chinese/tang_tf.xml</Actor>
+  </VisualActor>
+</Entity>

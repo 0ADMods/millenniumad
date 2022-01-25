@@ -4,6 +4,6 @@
     <Civ>umay</Civ>
   </Identity>
   <VisualActor>
-    <Actor>structures/seleucids/wooden_tower.xml</Actor>
+    <Actor>structures/umayyads/sentry_tower.xml</Actor>
   </VisualActor>
 </Entity>

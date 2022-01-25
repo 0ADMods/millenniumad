@@ -1,0 +1,84 @@
+{
+	"Code": "maur",
+	"Culture": "maur",
+	"Name": "Mauryas",
+	"Emblem": "session/portraits/emblems/emblem_mauryas.png",
+	"History": "Founded in 322 B.C. by Chandragupta Maurya, the Mauryan Empire was the first to rule most of the Indian subcontinent, and was one of the largest and most populous empires of antiquity. Its military featured bowmen who used the long-range bamboo longbow, fierce female warriors, chariots, and thousands of armored war elephants. Its philosophers, especially the famous Acharya Chanakya, contributed to such varied fields such as economics, religion, diplomacy, warfare, and good governance. Under the rule of Ashoka the Great, the empire saw 40 years of peace, harmony, and prosperity.",
+	"Music": [
+		{
+			"File": "An_old_Warhorse_goes_to_Pasture.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Land_between_the_two_Seas.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Eastern_Dreams.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Karmic_Confluence.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses": [],
+	"WallSets": [
+		"structures/wallset_palisade",
+		"structures/maur/wallset_stone"
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/maur/civil_centre"
+		},
+		{
+			"Template": "units/maur/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/maur/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/maur/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/maur/cavalry_javelineer_b",
+			"Count": 1
+		},
+		{
+			"Template": "units/maur/support_elephant",
+			"Count": 1
+		}
+	],
+	"Formations": [
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/battle_line",
+		"special/formations/skirmish",
+		"special/formations/wedge"
+	],
+	"AINames": [
+		"Chandragupta Maurya",
+		"Bindusara Maurya",
+		"Ashoka the Great",
+		"Dasharatha Maurya",
+		"Samprati Maurya",
+		"Shalishuka Maurya",
+		"Devavarman Maurya",
+		"Shatadhanvan Maurya",
+		"Brihadratha Maurya"
+	],
+	"SkirmishReplacements": {
+		"skirmish/units/default_infantry_ranged_b": "units/maur/infantry_archer_b",
+		"skirmish/units/special_starting_unit": "units/maur/support_elephant",
+		"skirmish/structures/default_house_5": "structures/{civ}/house"
+	},
+	"SelectableInGameSetup": false
+}

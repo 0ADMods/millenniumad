@@ -2,29 +2,76 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="50" name="Carolingian House A">
+    <variant frequency="16" name="Carolingian House A">
       <mesh>structural/caro_house_a.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_4x2.xml" attachpoint="root"/>
         <prop actor="particle/smoke_curved.xml" attachpoint="smoke"/>
       </props>
       <textures>
-        <texture file="structural/caro_struct.png" name="baseTex"/>
-        <texture file="structural/caro_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/caro_house_a_ao.png" name="aoTex"/>
+       <texture file="structural/caro_struct_02.png" name="baseTex"/>
+				<texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+<!--         <texture file="structural/ao/caro_house_a_ao.png" name="aoTex"/> -->
       </textures>
     </variant>
-    <variant frequency="50" name="Carolingian House B">
+    <variant frequency="16" name="Carolingian House B">
       <mesh>structural/caro_house_b.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_4x2.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/caro_struct.png" name="baseTex"/>
-        <texture file="structural/caro_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/caro_house_b_ao.png" name="aoTex"/>
+        <texture file="structural/caro_struct_02.png" name="baseTex"/>
+				<texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+<!--         <texture file="structural/ao/caro_house_b_ao.png" name="aoTex"/> -->
+      </textures>
+    </variant>
+    <variant frequency="16" name="Carolingian House C">
+      <mesh>structural/caro_house_c.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/dirt_4x2.xml" attachpoint="root"/>
+      </props>
+      <textures>
+       <texture file="structural/caro_struct_02.png" name="baseTex"/>
+				<texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+   <!--     <texture file="structural/ao/caro_house_b_ao.png" name="aoTex"/> -->
+      </textures>
+    </variant>
+    <variant frequency="16" name="Carolingian House D">
+      <mesh>structural/caro_house_d.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/dirt_4x2.xml" attachpoint="root"/>
+      </props>
+      <textures>
+       <texture file="structural/caro_struct_02.png" name="baseTex"/>
+				<texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+   <!--     <texture file="structural/ao/caro_house_b_ao.png" name="aoTex"/> -->
+      </textures>
+    </variant>
+     <variant frequency="16" name="Carolingian House E">
+      <mesh>structural/caro_house_e.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/dirt_4x2.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/caro_struct_02.png" name="baseTex"/>
+				<texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+     <!--     <texture file="structural/ao/caro_house_b_ao.png" name="aoTex"/> -->
+      </textures>
+    </variant>
+    <variant frequency="16" name="Carolingian House F">
+      <mesh>structural/caro_house_f.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/dirt_4x2.xml" attachpoint="root"/>
+          <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_1"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_2"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_3"/>
+      </props>
+      <textures>
+        <texture file="structural/caro_struct_02.png" name="baseTex"/>
+				<texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+     <!--     <texture file="structural/ao/caro_house_b_ao.png" name="aoTex"/> -->
       </textures>
     </variant>
   </group>
-  <material>player_trans_ao_parallax.xml</material>
+  <material>player_trans_parallax.xml</material>
 </actor>

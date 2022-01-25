@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_scout">
+	<Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>8</Pierce>
+        <Crush>2</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Health>
+    <Max>120</Max>
+  </Health>
+  <Identity>
+    <Civ>rus</Civ>
+	<GenericName>Scout</GenericName>
+    <Icon>units/rus/cavalry_scout.png</Icon>
+  </Identity>
+   <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/rus/cavalry_scout_a.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/tang/infantry_archer_a">
+  <Identity>
+    <Rank>Elite</Rank>
+  </Identity>
+  <Attack>
+    <Ranged>
+      <MaxRange>55.0</MaxRange>
+      <Spread>1.2</Spread>
+    </Ranged>
+  </Attack>
+  <Armour>
+    <Hack>4.0</Hack>
+  </Armour>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/chinese/infantry_archer_e.xml</Actor>
+  </VisualActor>
+</Entity>

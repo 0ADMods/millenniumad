@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Rus sentry tower">
+      <mesh>structural/rus_sentry_tower.dae</mesh>
+       <textures>
+        <texture file="structural/rus/rus_struct_02.png" name="baseTex"/>
+				<texture file="structural/rus/rus_struct_02_norm.png" name="normTex"/>
+				<texture file="structural/rus/rus_struct_02_spec.png" name="specTex"/>
+<!--         <texture file="structural/texture_rus_D_OCC.png" name="aoTex"/> -->
+      </textures>
+      <props>
+        <prop actor="props/structures/decals/mud_3x3.xml" attachpoint="root"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/special/common/garrison_flag_rus.xml" attachpoint="garrisoned"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop attachpoint="garrisoned"/>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

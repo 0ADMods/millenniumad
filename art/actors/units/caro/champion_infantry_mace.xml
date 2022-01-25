@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/caro_mace.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+     <variant frequency="1" name="dyed_shirt1a">
+      <textures>
+        <texture file="skeletal/caro/advanced/dyed/dyed1a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="dyed_shirt1b">
+      <textures>
+        <texture file="skeletal/caro/advanced/dyed/dyed1b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="dyed_shirt1c">
+      <textures>
+        <texture file="skeletal/caro/advanced/dyed/dyed1c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="dyed_shirt1d">
+      <textures>
+        <texture file="skeletal/caro/advanced/dyed/dyed1d.png" name="baseTex"/>
+      </textures>
+    </variant>
+  <variant frequency="1" name="dyed_shirt1e">
+      <textures>
+        <texture file="skeletal/caro/advanced/dyed/dyed1e.png" name="baseTex"/>
+      </textures>
+    </variant>
+    
+    <variant frequency="1" name="Chainmail2c">
+      <props>
+        <prop actor="props/units/helmets/caro_coif_spearman_chainmail.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail2c.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail2_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_spearman_relax.xml"/>
+  </group>
+  <group>
+   <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

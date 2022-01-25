@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_farmstead">
+  <Footprint>
+    <Square width="20.0" depth="20.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="20.0" depth="20.0"/>
+  </Obstruction>
+  <GarrisonHolder>
+    <Max>10</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Animal</List>
+    <BuffHeal>1</BuffHeal>
+    <LoadingRange>2</LoadingRange>
+  </GarrisonHolder>
+  <Identity>
+    <Civ>rus</Civ>
+    <SpecificName>Usad'ba</SpecificName>
+    <GenericName>Farmstead</GenericName>
+    <History>A place for a farmer to pen his animals.</History>
+    <Tooltip>Dropsite for the food resource. Research food gathering improvements. Raise herd animals for food.</Tooltip>
+    <VisibleClasses datatype="tokens">Village Farmstead Resource</VisibleClasses>
+  </Identity>
+  <Population>
+    <Bonus>2</Bonus>
+  </Population>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      gaia/fauna_sheep_trainable
+      gaia/fauna_pig_trainable
+      gaia/fauna_cattle_cow_trainable
+    </Entities>
+    <Technologies datatype="tokens">
+      gather_animals_stockbreeding
+    </Technologies>
+  </ProductionQueue>
+  <RallyPoint/>
+  <VisualActor>
+    <Actor>structures/rus/farmstead.xml</Actor>
+  </VisualActor>
+</Entity>

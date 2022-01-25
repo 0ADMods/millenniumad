@@ -26,7 +26,7 @@
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/byzantines/barracks.xml</Actor>
+    <Actor>structures/byzantines/barracks_B.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

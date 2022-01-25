@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="2" name="Rus House B">
+			<mesh>structural/rus_house_B.dae</mesh>
+			<textures>
+				<texture file="structural/rus/rus_struct_02.png" name="baseTex"/>
+				<texture file="structural/rus/rus_struct_02_norm.png" name="normTex"/>
+				<texture file="structural/rus/rus_struct_02_spec.png" name="specTex"/>
+<!-- 				<texture file="structural/ao/norse_house_a_ao.png" name="aoTex"/> -->
+			</textures>
+			<props>
+        <prop actor="props/structures/rus/barrel.xml" attachpoint="barrel_a_001"/>
+			</props>
+		</variant>
+		<variant frequency="2" name="Rus House D">
+			<mesh>structural/rus_house_D.dae</mesh>
+			<textures>
+				<texture file="structural/rus/rus_struct_02.png" name="baseTex"/>
+				<texture file="structural/rus/rus_struct_02_norm.png" name="normTex"/>
+				<texture file="structural/rus/rus_struct_02_spec.png" name="specTex"/>
+			</textures>
+			<props>
+				<prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+			</props>
+		</variant>
+		<variant frequency="2" name="Rus House E">
+			<mesh>structural/rus_house_E.dae</mesh>
+			<textures>
+				<texture file="structural/rus/rus_struct_02.png" name="baseTex"/>
+				<texture file="structural/rus/rus_struct_02_norm.png" name="normTex"/>
+				<texture file="structural/rus/rus_struct_02_spec.png" name="specTex"/>
+			</textures>
+			<props>
+				<prop actor="props/structures/decals/mud_3x3.xml" attachpoint="root"/>
+			</props>
+		</variant>
+		<variant frequency="2" name="Rus House F">
+			<mesh>structural/rus_house_F.dae</mesh>
+			<textures>
+				<texture file="structural/rus/rus_struct_02.png" name="baseTex"/>
+				<texture file="structural/rus/rus_struct_02_norm.png" name="normTex"/>
+				<texture file="structural/rus/rus_struct_02_spec.png" name="specTex"/>
+			</textures>
+			<props>
+				<prop actor="props/structures/decals/mud_3x3.xml" attachpoint="root"/>
+			</props>
+		</variant>
+	</group>
+  	<group>
+  		<variant frequency="100" name="Idle"/>
+   		<variant name="death">
+ 			 <props>
+    			 <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+    			 <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+   				 <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+   				 <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
+  			</props>
+   		</variant>
+  	</group>
+ 	<material>player_trans_parallax_spec.xml</material>
+</actor>

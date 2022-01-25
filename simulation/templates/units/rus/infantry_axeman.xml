@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_axeman">
+   <Health>
+     <Max>75</Max>
+  </Health>
+  <Attack>
+    <Melee>
+    <Bonuses>
+      <BonusBuilding>
+        <Classes>Structure</Classes>
+        <Multiplier>1.1</Multiplier>
+      </BonusBuilding>
+    </Bonuses>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal>30</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>rus</Civ>
+    <SelectionGroupName>units/norse/infantry_swordsman_b</SelectionGroupName>
+    <GenericName>Axeman</GenericName>
+    <SpecificName>Voiny s toporom</SpecificName>
+    <Icon>units/rus/rus_hunter_axe.png</Icon>
+    <Tooltip>Counters: 1.1x vs. Structures.</Tooltip>
+  </Identity>
+  <Promotion disable=""/>
+  <Upgrade>
+     <SwitchToSword>
+      <Entity>units/rus/infantry_javelineer_b</Entity>
+      <Tooltip>Switch back to javelinist</Tooltip>
+      <RequiredTechnology>phase_town</RequiredTechnology>
+      <Cost>
+        <food>10</food>
+      </Cost>
+      <Time>5</Time>
+    </SwitchToSword>
+  </Upgrade>
+  <VisualActor>
+    <Actor>units/rus/hunter_axe.xml</Actor>
+  </VisualActor>
+</Entity>

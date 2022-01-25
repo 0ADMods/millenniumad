@@ -1,0 +1,14 @@
+{
+	"type": "range",
+	"radius": 20,
+	"affects": ["Soldier"],
+	"requiredTechnology": "byza/holy_protection",
+	"modifications": [
+		{ "value": "Heal/Health", "add": 5, "affects": "Healer" },
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 1, "affects": "Soldier" },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 1, "affects": "Soldier" }
+	],
+	"auraName": "Encouragement",
+	"auraDescription": "Nearby Soldiers +1 Hack/Pierce and Damage resistance. Priests +5 heal.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

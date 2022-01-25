@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_spearman">
+	<Identity>
+    <Civ>tang</Civ>
+    <SelectionGroupName>units/tang/champion_cavalry</SelectionGroupName>
+    <Icon>units/tang/cavalry_spearman.png</Icon>
+  </Identity>
+	<VisualActor>
+		<Actor>units/chinese/cavalry_spearman_c_m.xml</Actor>
+	</VisualActor>
+</Entity>

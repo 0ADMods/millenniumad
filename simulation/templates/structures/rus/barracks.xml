@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+	<Footprint>
+		<Square width="23.0" depth="21.0"/>
+		<Height>5.0</Height>
+	</Footprint>
+	<Obstruction>
+		<Static width="23.0" depth="21.0"/>
+	</Obstruction>
+	<Health>
+		<SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
+	</Health>
+	<Identity>
+		<Civ>rus</Civ>
+		<SpecificName>Kazarma</SpecificName>
+		<GenericName>Barracks</GenericName>
+		<RequiredTechnology>phase_village</RequiredTechnology>
+		<Classes datatype="tokens">Town</Classes>
+	</Identity>
+	<Population>
+		<Bonus>4</Bonus>
+	</Population>
+	<ProductionQueue>
+		<Entities datatype="tokens">
+			units/{civ}/infantry_swordsman_b
+			units/{civ}/infantry_spearman_b
+			units/{civ}/infantry_archer_b
+		</Entities>
+	    <Technologies datatype="tokens">
+	    </Technologies>
+	</ProductionQueue>
+	<VisualActor>
+		<Actor>structures/rus/barracks.xml</Actor>
+		<FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+	</VisualActor>
+</Entity>

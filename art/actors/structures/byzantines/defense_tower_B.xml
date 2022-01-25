@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Byzantines sentry tower">
+      <mesh>structural/byza_defense tower_B.dae</mesh>
+       <textures>
+        <texture file="structural/byza/byza_struct_02.png" name="baseTex"/>
+        <texture file="structural/byza/byza_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/ao/byza_defense_B_ao.png" name="aoTex"/>
+      </textures>
+      <props>
+        <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="root"/>
+        <prop actor="props/structures/byzantines/defense_tower_roof_B.xml" attachpoint="root"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/special/common/garrison_flag_celt.xml" attachpoint="garrisoned"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop attachpoint="garrisoned"/>
+        <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="root"/>
+        <prop actor="props/structures/byzantines/defense_tower_roof_B.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax.xml</material>
+</actor>

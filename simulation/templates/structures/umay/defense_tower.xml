@@ -15,6 +15,6 @@
     <HeightOffset>22.0</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/seleucids/scout_tower.xml</Actor>
+    <Actor>structures/umayyads/defense_tower.xml</Actor>
   </VisualActor>
 </Entity>

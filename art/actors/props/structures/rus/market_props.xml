@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<group>
+		<variant name="barrel">
+			<mesh>props/rus_market_prop_sellers.dae</mesh>
+		</variant>
+	</group>
+	<group>
+		<variant>
+      <textures>
+        <texture file="structural/Sele_struct_alt.png" name="baseTex"/>
+        <texture file="structural/Sele_struct_2_norm.png" name="normTex"/>
+        <texture file="structural/ao/sele_market_AO.png" name="aoTex"/>
+        <texture file="structural/Sele_struct_2_spec.png" name="specTex"/>
+      </textures>
+		</variant>
+	</group>
+ 	<material>player_trans_parallax_spec.xml</material>
+</actor>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_dock">
+  <Footprint>
+    <Square width="35.0" depth="39.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_celt_dock</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>rus</Civ>
+    <SpecificName>Hǫfn</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="35.0" depth="40.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>2</Bonus>
+  </Population>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}/ship_trireme
+      units/{civ}/ship_bireme
+    </Entities>
+    <Technologies datatype="tokens">
+      ship_speed_norse
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/rus/dock.xml</Actor>
+  </VisualActor>
+</Entity>

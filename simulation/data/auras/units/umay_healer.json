@@ -1,0 +1,19 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Soldier"],
+	"affectedPlayers": ["Ally"],
+	"requirements": { "tech": "umay/jihad" },
+	"modifications": [
+		{ "value": "Attack/Capture/Capture", "add": 1 },
+		{ "value": "Attack/Melee/Damage/Hack", "multiply": 1.2 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 1.2 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.2 },
+		{ "value": "Attack/Ranged/Damage/Hack", "multiply": 1.2 },
+		{ "value": "Attack/Ranged/Damage/Pierce", "multiply": 1.2 },
+		{ "value": "Attack/Ranged/Damage/Crush", "multiply": 1.2 }
+	],
+	"auraName": "Religious_inspiration",
+	"auraDescription": "Own and Allied Soldiers and Siege Engines +1 capture attack strength, +20% melee and ranged attack damage.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

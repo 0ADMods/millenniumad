@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="blacksmith">
+      <mesh>structural/umay_blacksmith.dae</mesh>
+      <textures>
+				<texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/umay/umay_struct_02_spec.png" name="specTex"/>
+       <!-- <texture file="structural/ao/uma_blacksmith_alt.png" name="aoTex"/> -->
+			</textures>
+      <props>
+        <prop actor="particle/flame.xml" attachpoint="fire"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
+        <prop actor="props/structures/umay/blacksmith_props_alt.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+        <prop actor="props/structures/umay/blacksmith_chimney_alt.xml" attachpoint="chimney"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+       <prop actor="props/structures/umay/blacksmith_props_alt.xml" attachpoint="root"/>
+       <prop actor="props/structures/umay/blacksmith_chimney_alt.xml" attachpoint="chimney"/>
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+<material>player_trans_parallax_spec.xml</material>
+</actor>

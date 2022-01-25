@@ -1,0 +1,20 @@
+{
+	"genericName": "Flaming Pitch",
+	"description": "The simplest flaming arrows had oil- or resin-soaked tows tied just below the arrowhead and were effective against wooden structures.",
+	"cost": {"wood": 1200},
+	"requirements": { "tech": "phase_town" },
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "flaming_pitch.png",
+	"researchTime": 60,
+	"tooltip": "Ranged infantry +5 crush attack (for a strong anti-building attack), but attack rate -50% slower and cost +20 wood.",
+	"modifications": [
+		{"value": "Attack/Ranged/Damage/Crush", "add": 5.0},
+		{"value": "Attack/Ranged/RepeatTime", "multiply": 1.5},
+		{"value": "Cost/Resources/wood", "add": 20},
+		{"value": "VisualActor/Actor", "replace": "units/caro/infantry_archer_b_fire.xml", "affects": "Basic"},
+		{"value": "VisualActor/Actor", "replace": "units/caro/infantry_archer_a_fire.xml", "affects": "Advanced"},
+		{"value": "VisualActor/Actor", "replace": "units/caro/infantry_archer_e_fire.xml", "affects": "Elite"}
+	],
+	"affects": ["Infantry Ranged"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

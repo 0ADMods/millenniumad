@@ -15,6 +15,6 @@
     <HeightOffset>22.0</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/byzantines/defense_tower.xml</Actor>
+    <Actor>structures/byzantines/defense_tower_B.xml</Actor>
   </VisualActor>
 </Entity>

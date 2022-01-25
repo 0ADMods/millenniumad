@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+      <variant frequency="100" name="base">
+      <props>
+        <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="house1">
+      <mesh>structural/umay_house_C.dae</mesh>
+      <textures>
+        <texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_02_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="house2">
+      <mesh>structural/umay_house_B.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_01"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_02"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_03"/>
+      </props>
+      <textures>
+        <texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_02_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="house3">
+      <mesh>structural/umay_house_B.dae</mesh>
+      <textures>
+        <texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_02_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="house4">
+       <mesh>structural/Umayyad_house_D.dae</mesh>
+      <textures>
+        <texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_02_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="house5">
+      <mesh>structural/umay_house_B.dae</mesh>
+      <textures>
+        <texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_02_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+    <!-- <group>
+    <variant frequency="1" name="ungarrisoned"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/special/common/garrison_flag_umay.xml" attachpoint="garrisoned"/>
+      </props>
+    </variant>
+  </group> -->
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop attachpoint="garrisoned"/>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_parallax.xml</material>
+</actor>

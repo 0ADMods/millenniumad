@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry">
+  <Health>
+    <Max>160</Max>
+  </Health>
+  <Identity>
+    <GenericName>Melee Cavalry</GenericName>
+    <VisibleClasses datatype="tokens">Melee</VisibleClasses>
+  </Identity>
+  <Auras datatype="tokens">
+    cavalry_trample_5
+  </Auras>
+</Entity>

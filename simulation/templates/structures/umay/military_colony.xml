@@ -20,7 +20,7 @@
 	  </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/seleucids/military_colony.xml</Actor>
+    <Actor>structures/umayyads/military_colony.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <group>
+    <variant frequency="1" name="decal_dirt_road_3x6">
+      <decal angle="180" depth="35" offsetx="0" offsetz="0" width="20"/>
+      <textures>
+        <texture file="props/decals/decal_dirt_road_large.png" name="baseTex"/>
+        <texture file="props/decals/mud_01_norm.png" name="normTex"/>
+        <texture file="props/decals/mud_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>terrain_norm_spec.xml</material>
+</actor>

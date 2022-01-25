@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_wonder">
+  <Footprint replace="">
+    <Square width="48.0" depth="43.0"/>
+    <Height>14.0</Height>
+  </Footprint>
+  <Health>
+    <Max>4400</Max>
+  </Health>
+  <Identity>
+    <Civ>tang</Civ>
+    <GenericName>Marvel</GenericName>
+    <SpecificName>Mingtang Piyong</SpecificName>
+  </Identity>
+  <GarrisonHolder>
+    <List datatype="tokens">Support Infantry Cavalry Minister</List>
+  </GarrisonHolder>
+  <Obstruction>
+    <Static width="48.0" depth="43.0"/>
+  </Obstruction>
+  <StatusBars>
+    <BarWidth>6.0</BarWidth>
+    <BarHeight>0.6</BarHeight>
+    <HeightOffset>12.0</HeightOffset>
+  </StatusBars>
+  <TerritoryInfluence>
+    <Radius>100</Radius>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>72</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
+    <Actor>structures/chinese/wonder.xml</Actor>
+  </VisualActor>
+</Entity>

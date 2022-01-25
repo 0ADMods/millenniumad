@@ -1,0 +1,92 @@
+{
+	"Code": "spart",
+	"Culture": "hele",
+	"Name": "Spartans",
+	"Emblem": "session/portraits/emblems/emblem_spartans.png",
+	"History": "Sparta was a prominent city-state in ancient Greece, and its dominant military power on land from circa 650 B.C. Spartan culture was obsessed with military training and excellence, with rigorous training for boys beginning at age seven. Thanks to its military might, Sparta led a coalition of Greek forces during the Greco-Persian Wars, and won over Athens in the Peloponnesian Wars, though at great cost.",
+	"Music": [
+		{
+			"File": "Helen_Leaves_Sparta.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Peaks_of_Atlas.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Forging_a_City-State.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "The_Hellespont.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses": [
+		{
+			"Name": "Spartan Women",
+			"History": "",
+			"Description": "Female Citizens +40% health and +50% melee attack hack damage."
+		}
+	],
+	"WallSets": [
+		"structures/wallset_palisade",
+		"structures/spart/wallset_stone"
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/spart/civil_centre"
+		},
+		{
+			"Template": "units/spart/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/spart/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/spart/infantry_javelineer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/spart/cavalry_javelineer_b"
+		}
+	],
+	"Formations": [
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/battle_line",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/phalanx"
+	],
+	"AINames": [
+		"Leonidas",
+		"Dienekes",
+		"Brasidas",
+		"Agis",
+		"Archidamus",
+		"Lysander",
+		"Pausanias",
+		"Agesilaus",
+		"Echestratus",
+		"Eurycrates",
+		"Eucleidas",
+		"Agesipolis"
+	],
+	"SkirmishReplacements": {
+		"skirmish/structures/default_house_10": "structures/{civ}/house",
+		"skirmish/structures/default_wall_tower": "",
+		"skirmish/structures/default_wall_gate": "",
+		"skirmish/structures/default_wall_short": "",
+		"skirmish/structures/default_wall_medium": "",
+		"skirmish/structures/default_wall_long": ""
+	},
+	"SelectableInGameSetup": false
+}

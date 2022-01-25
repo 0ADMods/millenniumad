@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <BuildRestrictions>
+	<Category>Granary</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>100</BuildTime>
+    <Resources>
+      <stone>200</stone>
+      <wood>100</wood>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="10.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <Max>400</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>umay</Civ>
+    <GenericName>Granary</GenericName>
+    <SpecificName>Agadir</SpecificName>
+	<VisibleClasses datatype="tokens">granary</VisibleClasses>
+    <Classes datatype="tokens">
+	  CivSpecific
+	</Classes>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Gain a trickle of Food resource for each Granary built.</Tooltip>
+    <History>An agadir is a fortified communal granary found in the Maghreb. Some of these date back to the 10th century.</History>
+    <Icon>structures/grain_bag.png</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="16.0" depth="16.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+  </ProductionQueue>
+  <ResourceTrickle>
+    <Rates> 
+      <food>1.0</food>
+      <wood>0.0</wood>
+      <stone>0.0</stone>
+      <metal>0.0</metal>
+    </Rates> 
+    <Interval>8000</Interval>
+  </ResourceTrickle>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_farmstead.xml</select>
+      <constructed>interface/complete/building/complete_farmstead.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence disable=""/>
+  <VisualActor>
+    <Actor>structures/umayyads/granary.xml</Actor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+  </VisualActor>
+</Entity>
