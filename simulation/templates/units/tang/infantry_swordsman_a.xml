@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/tang/infantry_swordsman_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/tang/infantry_swordsman_e</Entity>
+  </Promotion>
+  <Armour>
+    <Hack>4</Hack>
+    <Pierce>5</Pierce>
+    <Crush>4</Crush>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>14</Hack>
+    </Melee>
+  </Attack>
+  <Health>
+    <Max>130</Max>
+  </Health>
+  <ResourceGatherer>
+    <BaseSpeed>0.75</BaseSpeed>
+  </ResourceGatherer>
+  <UnitMotion>
+    <WalkSpeed>8.5</WalkSpeed>
+    <Run>
+      <Speed>15.0</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/chinese/infantry_swordsman_a.xml</Actor>
+  </VisualActor>
+</Entity>

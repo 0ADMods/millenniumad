@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic">
+  <Footprint>
+    <Square width="36.0" depth="40.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <BuildRestrictions>
+    <Category>GovernmentCenter</Category>
+  </BuildRestrictions>
+  <Capturable>
+    <CapturePoints>3000</CapturePoints>
+  </Capturable>
+  <Cost>
+    <PopulationBonus>20</PopulationBonus>
+    <BuildTime>500</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>500</wood>
+      <stone>500</stone>
+      <metal>500</metal>
+    </Resources>
+  </Cost>
+  <Auras datatype="tokens">
+    structures/loyalty_regen
+  </Auras>
+  <GarrisonHolder>
+    <Max>9</Max>
+    <EjectHealth>0</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Minister</List>
+    <BuffHeal>1</BuffHeal>
+    <LoadingRange>1</LoadingRange>
+  </GarrisonHolder>
+  <Identity>
+    <Civ>tang</Civ>
+    <SpecificName>Government Center</SpecificName>
+    <History>As a genuinely sophisticated educational society, China revered government and administration very highly.</History>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <VisibleClasses datatype="tokens">City</VisibleClasses>
+    <Icon>structures/tholos.png</Icon>
+  </Identity>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
+  <Obstruction>
+    <Static width="32.0" depth="36.0"/>
+  </Obstruction>
+  <Loot>
+    <xp>200</xp>
+    <food>0</food>
+    <wood>50</wood>
+    <stone>50</stone>
+    <metal>50</metal>
+  </Loot>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/chin_minister
+    </Entities>
+    <Technologies datatype="tokens">
+      chinese/civil_service_01
+      chinese/civil_service_02
+      chinese/civil_service_03
+      chinese/civil_engineering_01
+      chinese/civil_engineering_02
+      chinese/civil_engineering_03
+      chinese/ceremonial_administration_01
+      chinese/ceremonial_administration_02
+      chinese/ceremonial_administration_03
+      chinese/nationalized_industries_01
+      chinese/nationalized_industries_02
+      chinese/nationalized_industries_03
+      unlock_spies
+      spy_counter
+      chinese/art_of_war
+    </Technologies>
+  </ProductionQueue>
+  <Vision>
+    <Range>90</Range>
+  </Vision>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>70</Radius>
+    <Weight>30000</Weight>
+  </TerritoryInfluence>
+  <VisualActor>
+  	<FoundationActor>structures/fndn_8x8.xml</FoundationActor>
+    <Actor>structures/chinese/government_center.xml</Actor>
+  </VisualActor>
+</Entity>

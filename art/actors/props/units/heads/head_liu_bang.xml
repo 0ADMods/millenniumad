@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+
+  <!-- mesh -->
+  <group>
+    <variant name="mesh1">
+      <mesh>props/heads/head_liu_bang.dae</mesh>
+    </variant>
+    <!--
+    <variant name="mesh3">
+      <mesh>props/head_beard_large.pmd</mesh>
+    </variant>
+    <variant name="mesh4">
+      <mesh>props/head_beard_wide.pmd</mesh>
+    </variant>
+    <variant name="mesh6">
+      <mesh>props/head_goatee.pmd</mesh>
+    </variant>
+    -->
+  </group>
+
+  <!-- props -->
+  <group>
+    <variant frequency="1" name="beard-a">
+      <props>
+        <prop actor="props/units/beard_liu_bang.xml" attachpoint="chin"/><!-- prop-chin exists in head_liu_bang -->
+      </props>
+    </variant>
+  </group>
+
+  <!-- textures -->
+  <group>
+	  <!--
+    <variant frequency="1" name="face-a">
+      <textures><texture file="props/head/chin_a.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="2" name="face-b">
+      <textures><texture file="props/head/chin_b.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="2" name="face-c">
+      <textures><texture file="props/head/chin_c.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="2" name="face-d">
+      <textures><texture file="props/head/chin_d.png" name="baseTex"/></textures>
+    </variant>
+    -->
+    <variant frequency="1" name="face-f">
+      <textures><texture file="props/head/chin_f.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="face-old-beardy">
+      <textures><texture file="props/head/chin_old_b.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+
+  <!-- object colour -->
+  <group>
+    <variant frequency="1" name="hair-grey">
+      <colour>120 120 120</colour>
+    </variant>
+    <variant frequency="1" name="hair-black">
+      <colour>61 61 61</colour>
+    </variant>
+  </group>
+
+  <material>objectcolor.xml</material>
+
+</actor>
