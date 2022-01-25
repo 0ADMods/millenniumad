@@ -37,8 +37,6 @@
   </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      tower_murderholes
-      tower_health
       chivalry
       caro_territory_expansion
       astronomy

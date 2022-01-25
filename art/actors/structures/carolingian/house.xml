@@ -11,7 +11,7 @@
       <textures>
        <texture file="structural/caro_struct_02.png" name="baseTex"/>
 				<texture file="structural/caro_struct_02_norm.png" name="normTex"/>
-        <texture file="structural/ao/caro_house_a_ao.png" name="aoTex"/>
+<!--         <texture file="structural/ao/caro_house_a_ao.png" name="aoTex"/> -->
       </textures>
     </variant>
     <variant frequency="16" name="Carolingian House B">
@@ -22,11 +22,11 @@
       <textures>
         <texture file="structural/caro_struct_02.png" name="baseTex"/>
 				<texture file="structural/caro_struct_02_norm.png" name="normTex"/>
-        <texture file="structural/ao/caro_house_b_ao.png" name="aoTex"/>
+<!--         <texture file="structural/ao/caro_house_b_ao.png" name="aoTex"/> -->
       </textures>
     </variant>
     <variant frequency="16" name="Carolingian House C">
-      <mesh>structural/Caro_house_c.dae</mesh>
+      <mesh>structural/caro_house_c.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_4x2.xml" attachpoint="root"/>
       </props>
@@ -37,7 +37,7 @@
       </textures>
     </variant>
     <variant frequency="16" name="Carolingian House D">
-      <mesh>structural/Caro_house_d.dae</mesh>
+      <mesh>structural/caro_house_d.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_4x2.xml" attachpoint="root"/>
       </props>
@@ -48,7 +48,7 @@
       </textures>
     </variant>
      <variant frequency="16" name="Carolingian House E">
-      <mesh>structural/Caro_house_e.dae</mesh>
+      <mesh>structural/caro_house_e.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_4x2.xml" attachpoint="root"/>
       </props>
@@ -59,7 +59,7 @@
       </textures>
     </variant>
     <variant frequency="16" name="Carolingian House F">
-      <mesh>structural/Caro_house_f.dae</mesh>
+      <mesh>structural/caro_house_f.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_4x2.xml" attachpoint="root"/>
           <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_1"/>
