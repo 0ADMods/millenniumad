@@ -4,7 +4,7 @@
     <Square width="38.5" depth="9.0"/>
     <Height>20.0</Height>
   </Footprint>
-  <GarrisonHolder>
+<!--   <GarrisonHolder>
     <Max>3</Max>
     <List datatype="tokens">Ranged+Infantry</List>
     <EjectHealth>0.1</EjectHealth>
@@ -22,7 +22,7 @@
         <X>-5</X><Y>12.5</Y><Z>0</Z>
       </Archer3>
     </VisibleGarrisonPoints>
-  </GarrisonHolder>
+  </GarrisonHolder> -->
   <Identity>
     <Civ>tang</Civ>
     <SpecificName>Chéng Mén</SpecificName>

@@ -4,16 +4,9 @@
 	"Name": "Dynasty Tang",
 	"Emblem": "session/portraits/emblems/emblem_tang.png",
 	"History": "Tang dynasty.",
-	"Music": [
-		{
-			"File": "Mediterranean_Waves.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Elysian_Fields.ogg",
-			"Type": "peace"
-		}
-
+	"Music":[
+		{ "File": "red_dawn.ogg", "Type": "peace" },
+		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
 	],
 	"CivBonuses": [],
 	"WallSets": [

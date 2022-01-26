@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Identity>
+    <Civ>tang</Civ>
+    <GenericName>Palace Guard Swordsman</GenericName>
+    <SpecificName>Hu Ben</SpecificName>
+	<SelectionGroupName>units/tang/champion_infantry_swordsman</SelectionGroupName>
+    <History>.</History>
+    <Icon>units/tang/champion_infantry_swordsman.png</Icon>
+  </Identity>
+  <Upgrade>
+    <SwitchToBow>
+      <Entity>units/tang/champion_infantry_archer</Entity>
+      <Tooltip>Switch weapon from sword (melee) to bow (ranged).</Tooltip>
+      <RequiredTechnology>chinese/attack_champion_infantry_swordsman</RequiredTechnology>
+      <Cost>
+        <wood>5</wood>
+      </Cost>
+      <Time>5</Time>
+    </SwitchToBow>
+  </Upgrade>
+  <VisualActor>
+    <Actor>units/chinese/champion_infantry_swordsman.xml</Actor>
+  </VisualActor>
+</Entity>
