@@ -1,12 +1,19 @@
 {
 	"Code": "tang",
 	"Culture": "tang",
-	"Name": "Dynasty Tang",
+	"Name": "Dysnasty Tangs",
 	"Emblem": "session/portraits/emblems/emblem_tang.png",
 	"History": "Tang dynasty.",
-	"Music":[
-		{ "File": "red_dawn.ogg", "Type": "peace" },
-		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
+	"Music": [
+		{
+			"File": "Mediterranean_Waves.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Elysian_Fields.ogg",
+			"Type": "peace"
+		}
+
 	],
 	"CivBonuses": [],
 	"WallSets": [

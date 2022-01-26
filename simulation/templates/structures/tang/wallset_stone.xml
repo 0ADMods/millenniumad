@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_wallset">
+<Entity parent="template_structure_defense_wallset">
   <Identity>
     <Civ>tang</Civ>
     <SpecificName>Yōng</SpecificName>
@@ -7,11 +7,11 @@
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/tang/wall_tower</Tower>
-      <Gate>structures/tang/wall_gate</Gate>
-      <WallLong>structures/tang/wall_long</WallLong>
-      <WallMedium>structures/tang/wall_medium</WallMedium>
-      <WallShort>structures/tang/wall_short</WallShort>
+      <Tower>structures/chin_wall_tower</Tower>
+      <Gate>structures/chin_wall_gate</Gate>
+      <WallLong>structures/chin_wall_long</WallLong>
+      <WallMedium>structures/chin_wall_medium</WallMedium>
+      <WallShort>structures/chin_wall_short</WallShort>
     </Templates>
     <MaxTowerOverlap>0.80</MaxTowerOverlap>
     <MinTowerOverlap>0.10</MinTowerOverlap>
