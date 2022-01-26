@@ -11,7 +11,6 @@
     <Max>75</Max>
   </Health>
   <Identity>
-    <Civ>norse</Civ>
     <SpecificName>Fljóð</SpecificName>
     <GenericName>Woman</GenericName>
     <Icon>units/celt_support_female_citizen.png</Icon>

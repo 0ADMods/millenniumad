@@ -5,8 +5,8 @@
     <variant name="corral">
       <mesh>structural/caro_corral.dae</mesh>
       <textures>
-				<texture file="structural/caro_struct_02.png" name="baseTex"/>
-				<texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+				<texture file="structural/caro_struct.png" name="baseTex"/>
+        <texture file="structural/caro_struct_norm.png" name="normTex"/>
         <texture file="structural/ao/caro_corral.png" name="aoTex"/>
 			</textures>
       <props>

@@ -18,7 +18,7 @@
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/umayyads/fortress.xml</Actor>
+    <Actor>structures/seleucids/fortress.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>23</Length>

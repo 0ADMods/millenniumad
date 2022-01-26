@@ -96,11 +96,6 @@
         <texture file="props/banner_byzan2.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant name="rus">
-      <textures>
-        <texture file="props/banner_rus_civ.png" name="baseTex"/>
-      </textures>
-    </variant>
   </group>
   <material>basic_trans.xml</material>
 </actor>

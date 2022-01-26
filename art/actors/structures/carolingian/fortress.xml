@@ -3,18 +3,18 @@
 	<castshadow/>
 	<group>
 		<variant name="Carolingian Fortress">
-			<mesh>structural/caro_fortress_struct_B.dae</mesh>
-				<textures>
-				<texture file="structural/caro_struct_02.png" name="baseTex"/>
-				<texture file="structural/caro_struct_02_norm.png" name="normTex"/>
-				<texture file="structural/ao/caro_fortress_struct_ao.png" name="aoTex"/>
-			</textures>
+			<mesh>structural/caro_fortress_struct.dae</mesh>
 			<props>
 				<prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
 				<prop actor="props/structures/carolingian/caro_fortress_palisade.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
-			</props>		
+			</props>
+			<textures>
+				<texture file="structural/caro_struct.png" name="baseTex"/>
+				<texture file="structural/caro_struct_norm.png" name="normTex"/>
+				<texture file="structural/ao/caro_fortress_struct_ao.png" name="aoTex"/>
+			</textures>
 		</variant>
 	</group>
   <group>

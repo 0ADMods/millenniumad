@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_storehouse">
   <Footprint>
-    <Square width="10.0" depth="8.0"/>
+    <Square width="17.0" depth="15.0"/>
   </Footprint>
   <Identity>
     <Civ>umay</Civ>
     <SpecificName></SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="12.0" depth="10.0"/>
+    <Static width="15.0" depth="13.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/umayyads/storehouse.xml</Actor>
+    <Actor>structures/seleucids/storehouse.xml</Actor>
   </VisualActor>
 </Entity>

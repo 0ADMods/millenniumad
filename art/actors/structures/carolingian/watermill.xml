@@ -5,8 +5,8 @@
 		<variant frequency="100" name="Carolingian StoreHouse">
 			<mesh>structural/caro_watermill.dae</mesh>
 			<textures>
-				<texture file="structural/caro_struct_02.png" name="baseTex"/>
-				<texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+				<texture file="structural/caro_struct.png" name="baseTex"/>
+				<texture file="structural/caro_struct_norm.png" name="normTex"/>
 				<texture file="structural/ao/caro_watermill_ao.png" name="aoTex"/>
 			</textures>
 			<props>

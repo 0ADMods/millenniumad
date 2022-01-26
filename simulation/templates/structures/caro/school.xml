@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_special_school">
+<Entity parent="template_structure_civic_temple">
   <Cost>
     <Resources>
       <stone>450</stone>
@@ -12,14 +12,7 @@
     <Civ>caro</Civ>
     <Classes datatype="tokens">CivSpecific</Classes>
     <SpecificName>Lorsch Abbey</SpecificName>
-     <Icon>structures/portrait_university.png</Icon>
   </Identity>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-      caro/attack_flaming_pitch
-      caro/attack_fire_rain
-    </Technologies>
-  </ProductionQueue>
   <Population>
     <Bonus>7</Bonus>
   </Population>
