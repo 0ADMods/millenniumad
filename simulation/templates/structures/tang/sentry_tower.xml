@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defense_tower_sentry">
+<Entity parent="template_structure_defensive_tower_sentry">
 	<Identity>
-		<Civ>chin</Civ>
+		<Civ>tang</Civ>
 	</Identity>
 	<VisualActor>
 		<Actor>structures/chinese/wooden_tower.xml</Actor>
