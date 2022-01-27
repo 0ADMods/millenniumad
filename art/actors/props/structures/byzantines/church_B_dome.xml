@@ -6,8 +6,8 @@
 			<mesh>props/byza_church_B_dome.dae</mesh>
 			<textures>
 				<texture file="structural/byza/byza_struct_02.png" name="baseTex"/>
-				<texture file="structural/byza_struct_02_norm.png" name="normTex"/>
-				<texture file="structural/byza_struct_02_spec.png" name="specTex"/>
+				<texture file="structural/byza/byza_struct_02_norm.png" name="normTex"/>
+				<texture file="structural/byza/byza_struct_02_spec.png" name="specTex"/>
 			</textures>
 		</variant>
 	</group>
