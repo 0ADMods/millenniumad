@@ -24,10 +24,16 @@
   </group>
   <group>
     <variant name="alive" frequency="1"/>
-    <variant file="structures/sele/light_damage.xml"/>
-    <variant file="structures/sele/medium_damage.xml"/>
-    <variant file="structures/sele/heavy_damage.xml"/>
-    <variant file="structures/sele/destruction_medium.xml"/>
+    <variant file="structures/umay/medium_damage.xml"/>
+    <variant file="structures/umay/heavy_damage.xml"/>
+    <variant file="structures/umay/destruction_medium.xml" name="death">
+      <props>
+        <prop actor="props/structures/byzantines/farmstead_hay.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+      </props>
+    </variant>
   </group>
   <material>player_trans_ao_parallax.xml</material>
 </actor>

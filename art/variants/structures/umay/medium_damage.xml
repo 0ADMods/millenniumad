@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="mediumdamage" frequency="0">
+  <textures>
+    <texture file="structural/damage/umay_struct_02_damage_med.png" name="baseTex"/>
+    <texture file="structural/damage/umay_struct_02_damage_med_norm.png" name="normTex"/>
+  </textures>
+</variant>

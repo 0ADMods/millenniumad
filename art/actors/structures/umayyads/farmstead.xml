@@ -9,14 +9,16 @@
         <texture file="structural/umay/umay_struct_02_norm.png" name="normTex"/>
         <texture file="structural/ao/umay_farmstead_ao.png" name="aoTex"/>
       </textures>
-      <props>
+      <!-- <props>
         <prop actor="props/structures/byzantines/farmstead_hay.xml" attachpoint="root"/>
-      </props>
+      </props> -->
     </variant>
   </group>
   <group>
     <variant frequency="1" name="alive"/>
-    <variant name="death">
+    <variant file="structures/umay/medium_damage.xml"/>
+    <variant file="structures/umay/heavy_damage.xml"/>
+    <variant file="structures/umay/destruction_medium.xml" name="death">
       <props>
         <prop actor="props/structures/byzantines/farmstead_hay.xml" attachpoint="root"/>
         <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
