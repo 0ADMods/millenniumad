@@ -15,5 +15,18 @@
 			</props>
 		</variant>
 	</group>
+	<group>
+    <variant frequency="1" name="alive"/>
+    <variant file="structures/rus/medium_damage.xml"/>
+    <variant file="structures/rus/heavy_damage.xml"/>
+    <variant file="structures/rus/destruction_medium.xml" name="death">
+      <props>
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
 	<material>player_trans_ao_parallax_spec.xml</material>
 </actor>

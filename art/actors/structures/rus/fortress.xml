@@ -28,7 +28,9 @@
   </group>
   <group>
     <variant frequency="1" name="alive"/>
-    <variant name="death">
+     <variant file="structures/rus/medium_damage.xml"/>
+    <variant file="structures/rus/heavy_damage.xml"/>
+    <variant file="structures/rus/destruction_medium.xml" name="death">
       <props>
         <prop attachpoint="garrisoned"/>
         <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>

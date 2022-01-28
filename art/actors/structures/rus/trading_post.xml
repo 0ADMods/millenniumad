@@ -21,7 +21,9 @@
 	</group>
 	<group>
 		<variant frequency="100" name="Idle"/>
-		<variant name="death">
+		<variant file="structures/rus/medium_damage.xml"/>
+    <variant file="structures/rus/heavy_damage.xml"/>
+    <variant file="structures/rus/destruction_medium.xml" name="death">
 			<props>
 				<prop actor="props/structures/decals/mud_8x8.xml" attachpoint="root"/>
 				<prop actor="props/structures/rus/trade_decor.xml" attachpoint="decor"/>

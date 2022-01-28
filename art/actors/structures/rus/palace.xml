@@ -17,7 +17,9 @@
   </group>
   <group>
     <variant frequency="1" name="alive"/>
-    <variant name="death">
+    <variant file="structures/rus/medium_damage.xml"/>
+    <variant file="structures/rus/heavy_damage.xml"/>
+    <variant file="structures/rus/destruction_medium.xml" name="death">
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
         <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
