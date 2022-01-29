@@ -7,7 +7,7 @@
 			</animations>
 			<mesh>structural/caro_watermill_wheel.dae</mesh>
 			<textures>
-				<texture file="structural/caro_struct_02.png" name="baseTex"/>
+				<texture file="structural/caro_struct.png" name="baseTex"/>
 			</textures>
 		</variant>
 	</group>

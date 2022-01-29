@@ -4,6 +4,6 @@
     <Civ>byza</Civ>
   </Identity>
   <VisualActor>
-    <Actor>structures/byzantines/sentry_tower_B.xml</Actor>
+    <Actor>structures/byzantines/sentry_tower.xml</Actor>
   </VisualActor>
 </Entity>

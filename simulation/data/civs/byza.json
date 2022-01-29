@@ -2,7 +2,7 @@
 	"Code": "byza",
 	"Culture": "byza",
 	"Name": "Byzantines",
-	"Emblem": "session/portraits/emblems/emblem_byze.png",
+	"Emblem": "session/portraits/emblems/emblem_byzantines.png",
 	"History": "The Byzantine Empire, also referred to as the Eastern Roman Empire and Byzantium, was the continuation of the Roman Empire in its eastern provinces during Late Antiquity and the Middle Ages, when its capital city was Constantinople (modern-day Istanbul, which had been founded as Byzantium). It survived the fragmentation and fall of the Western Roman Empire in the 5th century AD and continued to exist for an additional thousand years until it fell to the Ottoman Turks in 1453. During most of its existence, the empire was the most powerful economic, cultural, and military force in Europe.",
 	"Music": [
 		{
@@ -20,20 +20,7 @@
 		{
 			"File": "The_Governor.ogg",
 			"Type": "peace"
-		},
-		{
-			"File": "Byzant/honor-and-sword-main-11222.ogg",
-			"Type": "battle"
-		},
-		{
-			"File": "the-white-lion-10379.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "honor-and-sword-main.ogg",
-			"Type": "peace"
 		}
-
 	],
 	"CivBonuses": [],
 	"WallSets": [

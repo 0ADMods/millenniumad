@@ -2,7 +2,7 @@
 	"Code": "caro",
 	"Culture": "caro",
 	"Name": "Carolingians",
-	"Emblem": "session/portraits/emblems/emblem_carol.png",
+	"Emblem": "session/portraits/emblems/emblem_carolingians.png",
 	"History": "In the late 5th and early 6th centuries, Clovis I , the warrior-leader of one of the groups of peoples collectively known as the Franks, established a strong independent monarchy in what are now the northern part of France and the southwestern part of Belgium. He expanded into southern Gaul, driving the Visigoths across the Pyrenees, and established a strong Frankish presence east of the Rhine. Charlemagne and his successors patronized a vast project to restore the fragmented western European world to an earlier idealized condition.",
 	"Music": [
 		{
@@ -12,53 +12,7 @@
 		{
 			"File": "To_Valhalla.ogg",
 			"Type": "peace"
-		},
-		{
-			"File": "kuro_burglar.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "the-white-lion-10379.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Caro/Damiano_Baldoni_Prometeo.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "honor-and-sword-main.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Caro/Damiano_Baldoni_Elio_Atlante.ogg",
-			"Type": "battle"
-		},
-		{
-			"File": "Caro/knights-of-camelot-8038.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Caro/the-lost-hero-epic-orchestra-trombone-and-chorus-3461.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Caro/a-song-of-wolves-and-dragons-8034.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Caro/tortuga-epic-movie-adventure-music-4284.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Caro/epic-travel-on-celtic-roads-background-music-for-videos-5799.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Caro/Damiano_Baldoni_Spellbound_Hell.ogg",
-			"Type": "peace"
 		}
-
-
 	],
 	"CivBonuses": [],
 	"WallSets": [

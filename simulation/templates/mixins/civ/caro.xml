@@ -3,7 +3,6 @@
   <Builder merge="">
     <Entities datatype="tokens">
       structures/caro/special
-      structures/caro/school
     </Entities>
   </Builder>
   <Identity>
