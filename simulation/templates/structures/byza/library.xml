@@ -7,21 +7,28 @@
        <metal>400</metal>
     </Resources>
   </Cost>
-	<Health>
+  <Footprint>
+    <Square width="29.0" depth="29.0"/>
+    <Height>9.0</Height>
+  </Footprint>
+  <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
-	</Health>
+  </Health>
   <Identity>
     <Civ>byza</Civ>
     <Classes datatype="tokens">CivSpecific</Classes>
     <SpecificName>Library</SpecificName>
      <Icon>structures/portrait_university.png</Icon>
   </Identity>
-   <ProductionQueue>
+  <Obstruction>
+    <Static width="27.0" depth="27.0"/>
+  </Obstruction>
+  <Researcher>
     <Technologies datatype="tokens">
       byza/philosophy_capture
     </Technologies>
-  </ProductionQueue>
-   <Sound>
+  </Researcher>
+  <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_library.xml</select>
       <constructed>interface/alarm/alarm_phase.xml</constructed>

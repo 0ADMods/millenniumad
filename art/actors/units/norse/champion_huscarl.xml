@@ -2,9 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_swordsman_2hand_relax.xml">
-			<!--<variant file="biped/base_swordsman_shield_relax.xml">-->
-				<mesh>skeletal/new/m_tunic_long.dae</mesh>
+    <variant>
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/helmets/norse_helmet_c.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_german_a.xml" attachpoint="head"/>
@@ -93,19 +92,28 @@
     </variant>
   </group>
   <group>
+    <variant file="biped/base_axeman_shield_fast_relax.xml"/>
+    <variant file="biped/carry_food.xml"/>
+    <variant file="biped/carry_meat.xml"/>
+    <variant file="biped/carry_wood.xml"/>
+    <variant file="biped/carry_stone.xml"/>
+    <variant file="biped/carry_metal.xml"/>
+  </group>
+  <group>
     <variant frequency="1" name="Idle"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/gather_tree.xml"/>
+    <variant file="biped/gather_grain.xml"/>
+    <variant file="biped/gather_fruit.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/gather_rock.xml"/>
+    <variant file="biped/gather_ore.xml"/>
+    <variant file="biped/gather_ruins.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
-      <!--<props>
-        <prop actor="props/units/helmets/norse_coif_huscarl_relax.xml" attachpoint="root"/>
-      </props>
-    </variant>-->
   </group>
-  <!--<group>
-    <variant frequency="1" name="Idle"/>
-    <variant file="biped/base_2h_axe_attack.xml" name="attack_melee"/>
-  </group>-->
-		<!--</group>-->
-	<material>player_trans.xml</material>
+  <material>player_trans.xml</material>
 </actor>

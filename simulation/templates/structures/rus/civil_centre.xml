@@ -13,15 +13,13 @@
   <Obstruction>
     <Static width="28.0" depth="20.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_archer_b
       units/{civ}/infantry_spearman_b
-      units/{civ}/hero_charlemagne
-      units/{civ}/champion_cavalry
+      units/{civ}/cavalry_scout
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/rus/civic_center.xml</Actor>
     <FoundationActor>structures/fndn_6x3.xml</FoundationActor>

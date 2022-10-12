@@ -27,7 +27,7 @@
     <SelectionGroupName>template_structure_military_stable</SelectionGroupName>
     <Tooltip>Train Cavalry and research Cavalry technologies.</Tooltip>
     <VisibleClasses datatype="tokens">Village Stable</VisibleClasses>
-    <Icon>structures/stable.png</Icon>
+    <Icon>structures/stable_01.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>
   <Loot>
@@ -37,7 +37,24 @@
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      stable_batch_training
+      cavalry_movement_speed
+      cavalry_health
+      nisean_horses
+      unlock_champion_cavalry
+      unlock_champion_chariots
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_stable.xml</select>
+      <constructed>interface/complete/building/complete_stable.xml</constructed>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}/cavalry_scout
@@ -47,25 +64,14 @@
       units/{civ}/cavalry_javelineer_b
       units/{civ}/cavalry_archer_b
       units/{civ}/champion_cavalry
+      units/{civ}/champion_cavalry_spearman
+      units/{civ}/champion_cavalry_swordsman
+      units/{civ}/champion_cavalry_javelineer
+      units/{civ}/champion_cavalry_archer
       units/{civ}/champion_chariot
       units/{civ}/war_dog
     </Entities>
-    <Technologies datatype="tokens">
-      stable_batch_training
-      cavalry_cost_time
-      cavalry_movement_speed
-      cavalry_health
-      nisean_horses
-      unlock_champion_cavalry
-      unlock_champion_chariots
-    </Technologies>
-  </ProductionQueue>
-  <Sound>
-    <SoundGroups>
-      <select>interface/select/building/sel_stable.xml</select>
-      <constructed>interface/complete/building/complete_stable.xml</constructed>
-    </SoundGroups>
-  </Sound>
+  </Trainer>
   <Vision>
     <Range>32</Range>
   </Vision>

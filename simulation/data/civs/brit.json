@@ -1,28 +1,37 @@
 {
 	"Code": "brit",
 	"Culture": "celt",
-	"Name": "Britons",
-	"Emblem": "session/portraits/emblems/emblem_britons.png",
-	"History": "The Britons were the Celtic tribes of the British Isles. Using chariots, longswordsmen and powerful melee soldiers, they staged fearsome revolts against Rome to protect their customs and interests. Also, they built thousands of unique structures such as hill forts, crannogs and brochs.",
 	"Music": [
+		{
+			"File": "The_Fledgling_Kingdom.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Solstice_Festival.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Whistler.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "As_Seasons_Change.ogg",
+			"Type": "peace"
+		},
 		{
 			"File": "Highland_Mist.ogg",
 			"Type": "peace"
 		},
 		{
-			"File": "Water's_Edge.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Celtic_Pride.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Cisalpine_Gaul.ogg",
-			"Type": "peace"
-		},
-		{
 			"File": "Celtica.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Mountain_Idyll.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Albian_Nocturne.ogg",
 			"Type": "peace"
 		}
 	],
@@ -54,18 +63,6 @@
 		{
 			"Template": "units/brit/war_dog"
 		}
-	],
-	"Formations": [
-		"special/formations/null",
-		"special/formations/box",
-		"special/formations/column_closed",
-		"special/formations/line_closed",
-		"special/formations/column_open",
-		"special/formations/line_open",
-		"special/formations/flank",
-		"special/formations/battle_line",
-		"special/formations/skirmish",
-		"special/formations/wedge"
 	],
 	"AINames": [
 		"Karatakos",

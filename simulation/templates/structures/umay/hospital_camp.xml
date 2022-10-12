@@ -32,9 +32,7 @@
   <Obstruction>
     <Static width="15.0" depth="15.0"/>
   </Obstruction>
-  <ProductionQueue>
-  </ProductionQueue>
-   <TerritoryDecay disable=""/>
+  <TerritoryDecay disable=""/>
   <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>structures/tent_arab.xml</Actor>

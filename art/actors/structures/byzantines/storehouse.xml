@@ -5,9 +5,11 @@
     <variant name="Storehouse">
       <mesh>structural/byza_storehouse_BB.dae</mesh>
       <textures>
-				<texture file="structural/byza/byza_struct_02.png" name="baseTex"/>
-				<texture file="structural/byza/byza_struct_02_norm.png" name="normTex"/>
-			</textures>
+        <texture file="structural/byza/byza_struct_02.png" name="baseTex"/>
+        <texture file="structural/byza/byza_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/byza/byza_struct_02_spec.png" name="specTex"/>
+        <texture file="structural/ao/byza_storehouse.png" name="aoTex"/>
+      </textures>
       <props>
         <prop actor="props/structures/byzantines/storehouse_props.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/storehouse_roof.xml" attachpoint="root"/>
@@ -28,5 +30,5 @@
       </props>
     </variant>
   </group>
-<material>player_trans_ao_parallax.xml</material>
+<material>player_trans_ao_parallax_spec.xml</material>
 </actor>

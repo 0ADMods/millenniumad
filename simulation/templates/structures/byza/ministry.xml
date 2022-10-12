@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic">
+   <Auras datatype="tokens">
+    civic_administration
+  </Auras>
+  <Footprint>
+    <Square width="36.0" depth="40.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <BuildRestrictions>
+    <Category>imperial_ministry</Category>
+    <MatchLimit>1</MatchLimit>
+  </BuildRestrictions>
+  <Capturable>
+    <CapturePoints>3000</CapturePoints>
+  </Capturable>
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <food>600</food>
+      <wood>400</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <Max>5</Max>
+    <EjectHealth>0</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Minister</List>
+    <BuffHeal>1</BuffHeal>
+    <LoadingRange>1</LoadingRange>
+  </GarrisonHolder>
+  <Health>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>byza</Civ>
+    <GenericName>Imperial Ministry</GenericName>
+    <SpecificName>Bouleterion</SpecificName>
+    <VisibleClasses datatype="tokens">
+      Research
+      ImperialCourt
+    </VisibleClasses>
+    <Classes datatype="tokens">
+      CivSpecific
+    </Classes>
+    <History>The Byzantine Empire had a complex system of aristocracy and bureaucracy, which was inherited from the Roman Empire. Beneath the emperor, a multitude of officials and court functionaries operated the complex administrative machinery that was necessary to run the empire. In addition to those officials, a large number of honorific titles existed, which the emperor awarded to his subjects or to friendly foreign rulers.</History>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Icon>structures/palace.png</Icon>
+    <Tooltip>Build to unlock a powerful suite of Administrative technologies.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="32.0" depth="36.0"/>
+  </Obstruction>
+  <ProductionQueue/>
+  <Loot>
+    <xp>200</xp>
+    <food>0</food>
+    <wood>50</wood>
+    <stone>50</stone>
+    <metal>50</metal>
+  </Loot>
+  <Population>
+    <Bonus>10</Bonus>
+  </Population>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      byza/pair_reform
+      byza/upgrade_rank_advanced
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_ministry_orient.xml</select>
+      <constructed>interface/alarm/alarm_phase.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <Vision>
+    <Range>60</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
+    <Actor>structures/byzantines/palace.xml</Actor>
+  </VisualActor>
+</Entity>

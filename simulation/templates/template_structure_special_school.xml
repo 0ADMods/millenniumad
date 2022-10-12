@@ -22,9 +22,9 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Library</GenericName>
-    <SelectionGroupName>template_structure_special_library</SelectionGroupName>
-    <VisibleClasses datatype="tokens">Library</VisibleClasses>
+    <GenericName>School</GenericName>
+    <SelectionGroupName>template_structure_special_school</SelectionGroupName>
+    <VisibleClasses datatype="tokens">School</VisibleClasses>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Icon>structures/library_scroll.png</Icon>
   </Identity>
@@ -35,7 +35,8 @@
   <Obstruction>
     <Static width="25.0" depth="30.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <ProductionQueue/>
+  <Researcher>
     <Technologies datatype="tokens">
       chivalry
       caro_territory_expansion
@@ -43,7 +44,7 @@
       health_regen_medicine
       architecture_defense
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_library.xml</select>

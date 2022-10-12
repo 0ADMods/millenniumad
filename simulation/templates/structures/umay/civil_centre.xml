@@ -4,13 +4,13 @@
     <Civ>umay</Civ>
     <SpecificName></SpecificName>
   </Identity>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_spearman_b
       units/{civ}/infantry_archer_b
-      units/{civ}/infantry_swordsman_b
+      units/{civ}/cavalry_spearman_b
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/umayyads/civic_center.xml</Actor>
   </VisualActor>

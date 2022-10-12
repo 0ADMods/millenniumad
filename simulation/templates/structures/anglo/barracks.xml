@@ -10,7 +10,6 @@
   <Identity>
     <Civ>anglo</Civ>
     <SpecificName>Set</SpecificName>
-    <Icon>structures/barracks_infantry.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="20.0"/>
@@ -18,14 +17,16 @@
   <Population>
     <Bonus>8</Bonus>
   </Population>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/champion_infantry_barracks
     </Entities>
+  </Trainer>
+  <Researcher>
     <Technologies datatype="tokens">
       unlock_champion_units_modded
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <VisualActor>
     <Actor>structures/anglo/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

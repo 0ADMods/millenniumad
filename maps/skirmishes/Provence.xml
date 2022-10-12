@@ -3,24 +3,24 @@
 <Scenario version="7">
 	<Environment>
 		<SkySet>mountainous</SkySet>
-		<SunColor r="0.854902" g="0.721569" b="0.564706"/>
-		<SunElevation angle="0.61666"/>
-		<SunRotation angle="-1.16583"/>
+		<SunColor r="0.752941" g="0.752941" b="0.752941"/>
+		<SunElevation angle="0.733087"/>
+		<SunRotation angle="-0.601455"/>
 		<AmbientColor r="0.364706" g="0.376471" b="0.419608"/>
 		<Fog>
-			<FogFactor>0</FogFactor>
-			<FogThickness>0.5</FogThickness>
+			<FogFactor>0.00199219</FogFactor>
+			<FogThickness>0.101563</FogThickness>
 			<FogColor r="0.8" g="0.8" b="0.8"/>
 		</Fog>
 		<Water>
 			<WaterBody>
 				<Type>ocean</Type>
-				<Color r="0.0156863" g="0.211765" b="0.0156863"/>
-				<Tint r="0.129412" g="0.721569" b="0.854902"/>
+				<Color r="0.219608" g="0.294118" b="0.403922"/>
+				<Tint r="0.317647" g="0.247059" b="0.141176"/>
 				<Height>19.9</Height>
-				<Waviness>3</Waviness>
-				<Murkiness>0.8</Murkiness>
-				<WindAngle>0</WindAngle>
+				<Waviness>3.99414</Waviness>
+				<Murkiness>0.899414</Murkiness>
+				<WindAngle>0.625864</WindAngle>
 			</WaterBody>
 		</Water>
 		<Postproc>
@@ -32,7 +32,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="867.891" y="371.108" z="214.402"/>
+		<Position x="552.02" y="123.303" z="1126.36"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
@@ -46,6 +46,7 @@
   "Name": "Provence",
   "Nomad": false,
   "PlayerData": [
+    null,
     {},
     {},
     {},
@@ -223,8 +224,8 @@
 		<Entity uid="176">
 			<Template>gaia/rock/mediterranean_large</Template>
 			<Player>0</Player>
-			<Position x="1210" z="614"/>
-			<Orientation y="-2.90082"/>
+			<Position x="1209.66382" z="613.78632"/>
+			<Orientation y="-3.80231"/>
 		</Entity>
 		<Entity uid="177">
 			<Template>gaia/fruit/grapes</Template>
@@ -632,7 +633,7 @@
 			<Template>gaia/rock/mediterranean_large</Template>
 			<Player>0</Player>
 			<Position x="365.28284" z="1015.71216"/>
-			<Orientation y="-1.41887"/>
+			<Orientation y="-3.5821"/>
 		</Entity>
 		<Entity uid="245">
 			<Template>gaia/fruit/grapes</Template>
@@ -883,13 +884,13 @@
 		<Entity uid="286">
 			<Template>structures/athen/dock</Template>
 			<Player>0</Player>
-			<Position x="596" z="384"/>
+			<Position x="585.01166" z="389.81864"/>
 			<Orientation y="-1.73104"/>
 		</Entity>
 		<Entity uid="288">
 			<Template>structures/athen/dock</Template>
 			<Player>0</Player>
-			<Position x="432" z="628"/>
+			<Position x="427.3199" z="626.87751"/>
 			<Orientation y="-2.5647"/>
 		</Entity>
 		<Entity uid="289">
@@ -18254,7 +18255,7 @@
 			<Template>gaia/rock/mediterranean_large</Template>
 			<Player>0</Player>
 			<Position x="1165.66968" z="431.73151"/>
-			<Orientation y="-1.26119"/>
+			<Orientation y="-3.5502"/>
 		</Entity>
 		<Entity uid="3183">
 			<Template>gaia/rock/mediterranean_large</Template>
@@ -18278,19 +18279,19 @@
 			<Template>gaia/rock/mediterranean_large</Template>
 			<Player>0</Player>
 			<Position x="654.66498" z="403.82502"/>
-			<Orientation y="-0.73308"/>
+			<Orientation y="-3.6772"/>
 		</Entity>
 		<Entity uid="3187">
 			<Template>gaia/rock/mediterranean_large</Template>
 			<Player>0</Player>
 			<Position x="295.08606" z="1095.37244"/>
-			<Orientation y="-2.59124"/>
+			<Orientation y="-3.8743"/>
 		</Entity>
 		<Entity uid="3188">
 			<Template>gaia/rock/mediterranean_large</Template>
 			<Player>0</Player>
-			<Position x="494.73829" z="1054.20551"/>
-			<Orientation y="-0.85143"/>
+			<Position x="494.73829" z="1054.20557"/>
+			<Orientation y="-3.30858"/>
 		</Entity>
 		<Entity uid="3189">
 			<Template>gaia/rock/mediterranean_large</Template>
@@ -18302,7 +18303,7 @@
 			<Template>gaia/rock/mediterranean_large</Template>
 			<Player>0</Player>
 			<Position x="1224.00525" z="390.22883"/>
-			<Orientation y="-1.19506"/>
+			<Orientation y="-3.47042"/>
 		</Entity>
 		<Entity uid="3191">
 			<Template>gaia/rock/mediterranean_small</Template>
@@ -24486,12 +24487,6 @@
 			<Position x="1022.44251" z="679.09473"/>
 			<Orientation y="-2.76705"/>
 		</Entity>
-		<Entity uid="4360">
-			<Template>structures/athen/temple</Template>
-			<Player>0</Player>
-			<Position x="738" z="1458"/>
-			<Orientation y="-3.99144"/>
-		</Entity>
 		<Entity uid="4361">
 			<Template>actor|props/special/eyecandy/statue_aphrodite_huge.xml</Template>
 			<Position x="870" z="838"/>
@@ -25116,20 +25111,6 @@
 			<Position x="985.07032" z="434.68888"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="39478"/>
-		</Entity>
-		<Entity uid="4483">
-			<Template>structures/bridge_hele</Template>
-			<Player>0</Player>
-			<Position x="803.97754" z="337.31449"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="50285"/>
-		</Entity>
-		<Entity uid="4484">
-			<Template>structures/bridge_wooden</Template>
-			<Player>0</Player>
-			<Position x="814.21076" z="343.45722"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="26138"/>
 		</Entity>
 		<Entity uid="4485">
 			<Template>structures/brit/farmstead</Template>

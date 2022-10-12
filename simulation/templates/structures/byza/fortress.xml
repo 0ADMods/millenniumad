@@ -12,13 +12,13 @@
   <Obstruction>
     <Static width="31.0" depth="31.5"/>
   </Obstruction>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/champion_cavalry_spearman
       units/{civ}/champion_cavalry_swordsman
       units/{civ}/champion_infantry_swordsman
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/byzantines/fortress.xml</Actor>
   </VisualActor>

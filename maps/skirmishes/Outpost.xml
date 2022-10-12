@@ -2,24 +2,24 @@
 
 <Scenario version="7">
 	<Environment>
-		<SkySet>default</SkySet>
-		<SunColor r="0.729412" g="0.737255" b="0.564706"/>
-		<SunElevation angle="0.448799"/>
-		<SunRotation angle="-2.82743"/>
-		<AmbientColor r="0.576471" g="0.439216" b="0.34902"/>
+		<SkySet>desert</SkySet>
+		<SunColor r="0.717647" g="0.682353" b="0.490196"/>
+		<SunElevation angle="0.87022"/>
+		<SunRotation angle="-0.647392"/>
+		<AmbientColor r="0.372549" g="0.376471" b="0.419608"/>
 		<Fog>
-			<FogFactor>0</FogFactor>
+			<FogFactor>0.00199219</FogFactor>
 			<FogThickness>0</FogThickness>
-			<FogColor r="0.686275" g="0.611765" b="0.537255"/>
+			<FogColor r="1" g="1" b="1"/>
 		</Fog>
 		<Water>
 			<WaterBody>
 				<Type>lake</Type>
-				<Color r="0.121569" g="0.164706" b="0.258824"/>
-				<Tint r="0.156863" g="0.282353" b="0.34902"/>
+				<Color r="0.317647" g="0.247059" b="0.141176"/>
+				<Tint r="0.545098" g="0.427451" b="0.152941"/>
 				<Height>19.9</Height>
 				<Waviness>8</Waviness>
-				<Murkiness>0.87</Murkiness>
+				<Murkiness>0.96875</Murkiness>
 				<WindAngle>-0.43</WindAngle>
 			</WaterBody>
 		</Water>
@@ -32,7 +32,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="1126.69" y="179.027" z="66.7526"/>
+		<Position x="700.58" y="126.376" z="475.056"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
@@ -46,6 +46,7 @@
   "Name": "Outpost",
   "Nomad": false,
   "PlayerData": [
+    null,
     {},
     {},
     {},
@@ -24448,20 +24449,6 @@
 			<Orientation y="2.35621"/>
 			<Actor seed="36337"/>
 		</Entity>
-		<Entity uid="4731">
-			<Template>structures/bridge_hele</Template>
-			<Player>0</Player>
-			<Position x="699.18519" z="477.8495"/>
-			<Orientation y="-2.33851"/>
-			<Actor seed="50"/>
-		</Entity>
-		<Entity uid="4732">
-			<Template>structures/bridge_hele</Template>
-			<Player>0</Player>
-			<Position x="725.09314" z="500.68635"/>
-			<Orientation y="0.8703"/>
-			<Actor seed="21767"/>
-		</Entity>
 		<Entity uid="4734">
 			<Template>structures/byza/outpost</Template>
 			<Player>1</Player>
@@ -24589,12 +24576,6 @@
 			<Position x="1098.31055" z="467.31275"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="23573"/>
-		</Entity>
-		<Entity uid="4758">
-			<Template>actor|props/special/eyecandy/greek_temple_unfinished_columns.xml</Template>
-			<Position x="366.98203" z="563.82441"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="8755"/>
 		</Entity>
 		<Entity uid="4759">
 			<Template>actor|props/special/eyecandy/treasure_persian_metal_big.xml</Template>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_house">
-	<Footprint>
-		<Square width="18.0" depth="12.0"/>
-		<Height>5.0</Height>
-	</Footprint>
-	<Obstruction>
-		<Static width="16.0" depth="11.0"/>
-	</Obstruction>	
-	<Identity>
-		<Civ>caro</Civ>
-	</Identity>
-	<VisualActor>
-		<Actor>structures/carolingian/house.xml</Actor>
-		<FoundationActor>structures/fndn_4x2.xml</FoundationActor>
-	</VisualActor>
+  <Footprint>
+    <Square width="18.0" depth="12.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="16.0" depth="11.0"/>
+  </Obstruction>	
+  <Identity>
+    <Civ>caro</Civ>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/carolingian/house.xml</Actor>
+    <FoundationActor>structures/fndn_4x2.xml</FoundationActor>
+  </VisualActor>
 </Entity>

@@ -1,9 +1,6 @@
 {
 	"Code": "rus",
-	"Culture": "norse",
-	"Name": "Rus",
-	"Emblem": "session/portraits/emblems/emblem_russya.png",
-	"History": "The Rus’ was a great commercial empire, spanning from the Baltic Sea to the Bosphorus. For centuries this land has been territory of passage between the germanic tribes of the north and the hellenic civilizations of the south and a crossroad between East and West.",
+	"Culture": "rus",
 	"Music": [
 		{
 			"File": "To_Valhalla.ogg",
@@ -76,19 +73,6 @@
 			"Template": "units/rus/cavalry_scout"
 		}
 	],
-	"Formations": [
-		"special/formations/null",
-		"special/formations/box",
-		"special/formations/column_closed",
-		"special/formations/line_closed",
-		"special/formations/column_open",
-		"special/formations/line_open",
-		"special/formations/flank",
-		"special/formations/skirmish",
-		"special/formations/wedge",
-		"special/formations/battle_line",
-		"special/formations/shieldwall"
-	],
 	"AINames": [
 		"Oleg of Novgorod",
 		"Vsevolod of Kiev",
@@ -98,10 +82,9 @@
 		"Vladimir Sviatoslavich"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_cavalry": "units/rus/infantry_swordsman_b",
+		"skirmish/units/default_cavalry": "units/rus/cavalry_scout",
 		"skirmish/units/default_infantry_ranged_b": "units/rus/infantry_archer_b",
 		"skirmish/structures/default_corral": "structures/rus/farmstead",
-		"skirmish/structures/default_defense_tower": "structures/rus/wooden_tower",
 		"skirmish/structures/default_fortress": "structures/rus/civil_centre",
 		"skirmish/structures/default_house_10": "structures/{civ}/house",
 		"skirmish/structures/default_wall_tower": "",

@@ -28,7 +28,7 @@
   <Population>
     <Bonus>12</Bonus>
   </Population>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/support_trader
       units/{civ}/infantry_spearman_e
@@ -37,7 +37,7 @@
       units/{civ}/champion_cavalry
       units/{civ}/champion_infantry
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/carolingian/fortress.xml</Actor>
   </VisualActor>

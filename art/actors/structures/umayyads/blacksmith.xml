@@ -5,7 +5,7 @@
     <variant name="blacksmith">
       <mesh>structural/umay_blacksmith.dae</mesh>
       <textures>
-				<texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
         <texture file="structural/umay/umay_struct_02_norm.png" name="normTex"/>
         <texture file="structural/umay/umay_struct_02_spec.png" name="specTex"/>
        <!-- <texture file="structural/ao/uma_blacksmith_alt.png" name="aoTex"/> -->

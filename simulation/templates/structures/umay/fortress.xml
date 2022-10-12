@@ -11,12 +11,12 @@
   <Obstruction>
     <Static width="24.0" depth="26.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/champion_cavalry_spearman
       units/{civ}/champion_infantry_swordsman
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/umayyads/fortress.xml</Actor>
   </VisualActor>

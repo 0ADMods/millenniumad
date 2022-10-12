@@ -12,13 +12,13 @@
   <Obstruction>
     <Static width="30.0" depth="29.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_swordsman_e
       units/{civ}/infantry_archer_e
       units/{civ}/cavalry_spearman_e
-	  </Entities>
-  </ProductionQueue>
+	</Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/umayyads/military_colony.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

@@ -20,15 +20,6 @@
 	<Population>
 		<Bonus>4</Bonus>
 	</Population>
-	<ProductionQueue>
-		<Entities datatype="tokens">
-			units/{civ}/infantry_swordsman_b
-			units/{civ}/infantry_spearman_b
-			units/{civ}/infantry_archer_b
-		</Entities>
-	    <Technologies datatype="tokens">
-	    </Technologies>
-	</ProductionQueue>
 	<VisualActor>
 		<Actor>structures/rus/barracks.xml</Actor>
 		<FoundationActor>structures/fndn_5x5.xml</FoundationActor>

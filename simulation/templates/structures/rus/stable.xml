@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_stable">
   <Footprint>
-    <Square width="25.0" depth="25.0"/>
+    <Square width="25.0" depth="20.0"/>
     <Height>12.0</Height>
   </Footprint>
   <Health>
@@ -13,16 +13,15 @@
     <GenericName>Stables</GenericName>
   </Identity>
   <Obstruction>
-    <Static width="20.0" depth="20.0"/>
+    <Static width="23.0" depth="18.0"/>
   </Obstruction>
-   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
+  <Researcher>
     <Technologies datatype="tokens">
       upgrade_rank_advanced_cavalry
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <VisualActor>
     <Actor>structures/rus/stables.xml</Actor>
-    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+    <FoundationActor>structures/fndn_6x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

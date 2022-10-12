@@ -42,18 +42,21 @@
   <Obstruction>
     <Static width="30.0" depth="26.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
+  <ProductionQueue/>
+  <Researcher>
     <Technologies datatype="tokens">
       trader_health
       trade_gain_01
       trade_gain_02
       trade_commercial_treaty
     </Technologies>
+  </Researcher>
+  <Trainer>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}/support_trader
     </Entities>
-  </ProductionQueue>
+  </Trainer>
    <ResourceDropsite>
     <Types>food wood stone metal</Types>
     <Sharable>true</Sharable>

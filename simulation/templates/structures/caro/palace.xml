@@ -46,7 +46,7 @@
     <Radius>48</Radius>
     <Weight>40000</Weight>
   </TerritoryInfluence>
-  <ProductionQueue>
+  <Trainer>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
 	  units/{civ}/hero_charlemagne
@@ -54,13 +54,15 @@
 	  units/{civ}/champion_cavalry
 	  units/{civ}/mechanical_siege_ram
     </Entities>
+  </Trainer>
+  <Researcher>
     <Technologies datatype="tokens">
       siege_attack
       siege_cost_time
       siege_health
       siege_pack_unpack
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <ResourceTrickle>
     <Rates>
       <metal>2</metal>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>rus</Civ>
+    <GenericName>Rus</GenericName>
+    <History>The Rus’ was a great commercial empire, spanning from the Baltic Sea to the Bosphorus. For centuries this land has been territory of passage between the germanic tribes of the north and the hellenic civilizations of the south and a crossroad between East and West.</History>
+    <Icon>emblems/emblem_russya.png</Icon>
+  </Identity>
+  <Player>
+    <Formations datatype="tokens">
+      special/formations/shieldwall
+    </Formations>
+  </Player>
+</Entity>

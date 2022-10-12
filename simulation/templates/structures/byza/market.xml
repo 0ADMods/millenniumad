@@ -7,11 +7,11 @@
     <Civ>byza</Civ>
     <SpecificName>Empórios</SpecificName>
   </Identity>
-   <ProductionQueue>
+  <Researcher>
     <Technologies datatype="tokens">
-  byza/venetian_trade
+      byza/venetian_trade
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <Obstruction>
     <Static width="31" depth="34"/>
   </Obstruction>

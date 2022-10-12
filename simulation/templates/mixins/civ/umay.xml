@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity>
-  <Builder merge="">
-    <Entities datatype="tokens">
-      structures/umay/granary
-      structures/umay/military_camp
-      structures/umay/imperial_ministry
-      structures/umay/hospital_camp
-    </Entities>
-  </Builder>
   <Identity>
     <Civ>umay</Civ>
     <Lang>greek</Lang>

@@ -4,20 +4,18 @@
   <group>
     <variant frequency="100" name="Carolingian StoreHouse">
       <mesh>structural/caro_storehouse_b.dae</mesh>
-    <textures>
-       <texture file="structural/caro_struct_02.png" name="baseTex"/>
-				<texture file="structural/caro_struct_02_norm.png" name="normTex"/>
-    <!--    <texture file="structural/ao/caro_storehouse_ao.png" name="aoTex"/> -->
+      <textures>
+        <texture file="structural/caro_struct_02.png" name="baseTex"/>
+        <texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/caro_struct_02_spec.png" name="specTex"/>
       </textures>
-
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-         <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_1"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_1"/>
         <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_2"/>
         <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_3"/>
       </props>
-      
     </variant>
   </group>
-  <material>player_trans_parallax.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 </actor>

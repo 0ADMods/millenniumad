@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <Scenario version="7">
 	<Environment>
-		<SkySet>sunny</SkySet>
+		<SkySet>desert</SkySet>
 		<SunColor r="0.737255" g="0.713726" b="0.537255"/>
-		<SunElevation angle="0.539961"/>
+		<SunElevation angle="0.659612"/>
 		<SunRotation angle="0.114804"/>
 		<AmbientColor r="0.364706" g="0.376471" b="0.419608"/>
 		<Fog>
@@ -14,25 +13,25 @@
 		</Fog>
 		<Water>
 			<WaterBody>
-				<Type>ocean</Type>
+				<Type>lake</Type>
 				<Color r="0.454902" g="0.447059" b="0.301961"/>
 				<Tint r="0.356863" g="0.356863" b="0.176471"/>
 				<Height>19.9</Height>
-				<Waviness>3.4082</Waviness>
-				<Murkiness>0.769531</Murkiness>
-				<WindAngle>0</WindAngle>
+				<Waviness>10</Waviness>
+				<Murkiness>0.967773</Murkiness>
+				<WindAngle>0.625864</WindAngle>
 			</WaterBody>
 		</Water>
 		<Postproc>
 			<Brightness>0</Brightness>
 			<Contrast>1.15</Contrast>
 			<Saturation>0.84</Saturation>
-			<Bloom>0.08</Bloom>
+			<Bloom>0.199609</Bloom>
 			<PostEffect>hdr</PostEffect>
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="630.616" y="194.781" z="1150.67"/>
+		<Position x="916.139" y="88.8395" z="149.003"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
@@ -83,7 +82,7 @@
 			<Orientation y="-3.84247"/>
 		</Entity>
 		<Entity uid="163">
-			<Template>gaia/ore/desert_large</Template>
+			<Template>gaia/ore/sahara_01</Template>
 			<Player>0</Player>
 			<Position x="866" z="250"/>
 			<Orientation y="0.23641"/>
@@ -227,7 +226,7 @@
 			<Orientation y="1.13218"/>
 		</Entity>
 		<Entity uid="199">
-			<Template>gaia/ore/desert_large</Template>
+			<Template>gaia/ore/sahara_01</Template>
 			<Player>0</Player>
 			<Position x="1330" z="890"/>
 			<Orientation y="-1.08503"/>
@@ -372,7 +371,7 @@
 			<Orientation y="1.25145"/>
 		</Entity>
 		<Entity uid="234">
-			<Template>gaia/ore/desert_large</Template>
+			<Template>gaia/ore/sahara_01</Template>
 			<Player>0</Player>
 			<Position x="674" z="1286"/>
 			<Orientation y="-1.54917"/>
@@ -527,7 +526,7 @@
 			<Orientation y="0.7398"/>
 		</Entity>
 		<Entity uid="271">
-			<Template>gaia/ore/desert_large</Template>
+			<Template>gaia/ore/sahara_01</Template>
 			<Player>0</Player>
 			<Position x="298" z="634"/>
 			<Orientation y="-4.5813"/>
@@ -2000,19 +1999,19 @@
 		<Entity uid="523">
 			<Template>gaia/tree/date_palm</Template>
 			<Player>0</Player>
-			<Position x="1070" z="1390"/>
+			<Position x="1088.39942" z="1389.63392"/>
 			<Orientation y="3.07271"/>
 		</Entity>
 		<Entity uid="524">
 			<Template>gaia/tree/date_palm</Template>
 			<Player>0</Player>
-			<Position x="1070" z="1398"/>
+			<Position x="1088.39942" z="1397.63392"/>
 			<Orientation y="5.58155"/>
 		</Entity>
 		<Entity uid="525">
 			<Template>gaia/tree/date_palm</Template>
 			<Player>0</Player>
-			<Position x="1074" z="1390"/>
+			<Position x="1092.39942" z="1389.63392"/>
 			<Orientation y="0.85622"/>
 		</Entity>
 		<Entity uid="526">
@@ -2540,37 +2539,37 @@
 		<Entity uid="613">
 			<Template>gaia/tree/date_palm</Template>
 			<Player>0</Player>
-			<Position x="442" z="306"/>
+			<Position x="433.15342" z="296.9098"/>
 			<Orientation y="0.91944"/>
 		</Entity>
 		<Entity uid="614">
 			<Template>gaia/tree/date_palm</Template>
 			<Player>0</Player>
-			<Position x="434" z="330"/>
+			<Position x="425.15342" z="320.9098"/>
 			<Orientation y="2.84983"/>
 		</Entity>
 		<Entity uid="615">
 			<Template>gaia/tree/date_palm</Template>
 			<Player>0</Player>
-			<Position x="442" z="326"/>
+			<Position x="433.15342" z="316.9098"/>
 			<Orientation y="3.05639"/>
 		</Entity>
 		<Entity uid="616">
 			<Template>gaia/tree/date_palm</Template>
 			<Player>0</Player>
-			<Position x="446" z="326"/>
+			<Position x="437.15342" z="316.9098"/>
 			<Orientation y="5.66593"/>
 		</Entity>
 		<Entity uid="617">
 			<Template>gaia/tree/date_palm</Template>
 			<Player>0</Player>
-			<Position x="446" z="314"/>
+			<Position x="437.15342" z="304.9098"/>
 			<Orientation y="5.84668"/>
 		</Entity>
 		<Entity uid="618">
 			<Template>gaia/tree/date_palm</Template>
 			<Player>0</Player>
-			<Position x="446" z="322"/>
+			<Position x="437.15342" z="312.9098"/>
 			<Orientation y="2.39705"/>
 		</Entity>
 		<Entity uid="619">
@@ -2702,7 +2701,7 @@
 		<Entity uid="640">
 			<Template>gaia/tree/date_palm</Template>
 			<Player>0</Player>
-			<Position x="438" z="318"/>
+			<Position x="429.15342" z="308.9098"/>
 			<Orientation y="6.21122"/>
 		</Entity>
 		<Entity uid="641">
@@ -3290,7 +3289,7 @@
 		<Entity uid="738">
 			<Template>gaia/tree/date_palm</Template>
 			<Player>0</Player>
-			<Position x="986" z="1206"/>
+			<Position x="960.65217" z="1181.46241"/>
 			<Orientation y="0.73098"/>
 		</Entity>
 		<Entity uid="739">
@@ -3320,19 +3319,19 @@
 		<Entity uid="743">
 			<Template>gaia/tree/date_palm</Template>
 			<Player>0</Player>
-			<Position x="990" z="1178"/>
+			<Position x="964.65217" z="1153.46241"/>
 			<Orientation y="0.90375"/>
 		</Entity>
 		<Entity uid="744">
 			<Template>gaia/tree/date_palm</Template>
 			<Player>0</Player>
-			<Position x="990" z="1202"/>
+			<Position x="964.65217" z="1177.46241"/>
 			<Orientation y="3.8851"/>
 		</Entity>
 		<Entity uid="745">
 			<Template>gaia/tree/date_palm</Template>
 			<Player>0</Player>
-			<Position x="1034.72168" z="1085.46253"/>
+			<Position x="1039.53956" z="1083.06348"/>
 			<Orientation y="2.52369"/>
 		</Entity>
 		<Entity uid="746">
@@ -3404,7 +3403,7 @@
 		<Entity uid="757">
 			<Template>gaia/tree/date_palm</Template>
 			<Player>0</Player>
-			<Position x="986" z="1190"/>
+			<Position x="986.40308" z="1190.15101"/>
 			<Orientation y="1.44861"/>
 		</Entity>
 		<Entity uid="758">
@@ -8783,7 +8782,7 @@
 			<Orientation y="-2.93212"/>
 		</Entity>
 		<Entity uid="1660">
-			<Template>gaia/ore/desert_large</Template>
+			<Template>gaia/ore/sahara_01</Template>
 			<Player>0</Player>
 			<Position x="242.40119" z="928.78064"/>
 			<Orientation y="1.214"/>
@@ -8804,7 +8803,7 @@
 			<Orientation y="1.31705"/>
 		</Entity>
 		<Entity uid="1664">
-			<Template>gaia/ore/desert_large</Template>
+			<Template>gaia/ore/sahara_01</Template>
 			<Player>0</Player>
 			<Position x="1422.60596" z="537.30518"/>
 			<Orientation y="-3.2019"/>
@@ -8820,7 +8819,7 @@
 			<Orientation y="-3.46052"/>
 		</Entity>
 		<Entity uid="1667">
-			<Template>gaia/ore/desert_large</Template>
+			<Template>gaia/ore/sahara_01</Template>
 			<Player>0</Player>
 			<Position x="668.40015" z="828.25733"/>
 			<Orientation y="-3.8085"/>
@@ -14625,13 +14624,13 @@
 		<Entity uid="2861">
 			<Template>gaia/fauna_camel</Template>
 			<Player>0</Player>
-			<Position x="1068.04072" z="1420.83942"/>
+			<Position x="1086.4402" z="1420.47327"/>
 			<Orientation y="-3.88796"/>
 		</Entity>
 		<Entity uid="2862">
 			<Template>gaia/fauna_camel</Template>
 			<Player>0</Player>
-			<Position x="1067.79188" z="1411.6548"/>
+			<Position x="1086.19129" z="1411.2887"/>
 			<Orientation y="-3.81545"/>
 		</Entity>
 		<Entity uid="2863">
@@ -14745,7 +14744,7 @@
 		<Entity uid="2884">
 			<Template>gaia/tree/date_palm</Template>
 			<Player>0</Player>
-			<Position x="977.9781" z="1241.86896"/>
+			<Position x="952.63025" z="1217.3313"/>
 			<Orientation y="-4.65053"/>
 		</Entity>
 		<Entity uid="2885">
@@ -14769,7 +14768,7 @@
 		<Entity uid="2888">
 			<Template>gaia/tree/date_palm</Template>
 			<Player>0</Player>
-			<Position x="1039.49628" z="1124.24384"/>
+			<Position x="1056.5254" z="1111.38733"/>
 			<Orientation y="-4.21296"/>
 		</Entity>
 		<Entity uid="2889">
@@ -15105,7 +15104,7 @@
 		<Entity uid="2944">
 			<Template>gaia/tree/date_palm</Template>
 			<Player>0</Player>
-			<Position x="447.15381" z="343.37427"/>
+			<Position x="442.96573" z="309.6125"/>
 			<Orientation y="0.68676"/>
 		</Entity>
 		<Entity uid="2945">
@@ -15477,7 +15476,7 @@
 		<Entity uid="3006">
 			<Template>gaia/tree/tamarix</Template>
 			<Player>0</Player>
-			<Position x="449.3686" z="332.1537"/>
+			<Position x="440.52201" z="323.06348"/>
 			<Orientation y="-2.72924"/>
 		</Entity>
 		<Entity uid="3007">
@@ -16623,7 +16622,7 @@
 		<Entity uid="3199">
 			<Template>gaia/tree/aleppo_pine</Template>
 			<Player>0</Player>
-			<Position x="833.00306" z="449.05823"/>
+			<Position x="853.65577" z="426.4466"/>
 			<Orientation y="-0.3147"/>
 		</Entity>
 		<Entity uid="3200">
@@ -16719,7 +16718,7 @@
 		<Entity uid="3215">
 			<Template>gaia/tree/aleppo_pine</Template>
 			<Player>0</Player>
-			<Position x="1077.1435" z="1432.0074"/>
+			<Position x="1095.54297" z="1431.64124"/>
 			<Orientation y="1.0693"/>
 		</Entity>
 		<Entity uid="3216">
@@ -16779,7 +16778,7 @@
 		<Entity uid="3225">
 			<Template>gaia/tree/aleppo_pine</Template>
 			<Player>0</Player>
-			<Position x="829.87238" z="420.33405"/>
+			<Position x="835.67164" z="411.83313"/>
 			<Orientation y="-4.15058"/>
 		</Entity>
 		<Entity uid="3226">
@@ -16809,7 +16808,7 @@
 		<Entity uid="3230">
 			<Template>gaia/tree/aleppo_pine</Template>
 			<Player>0</Player>
-			<Position x="842.98774" z="477.71753"/>
+			<Position x="909.59162" z="426.99976"/>
 			<Orientation y="-3.36156"/>
 		</Entity>
 		<Entity uid="3231">
@@ -18698,36 +18697,22 @@
 			<Orientation y="2.35621"/>
 			<Actor seed="42983"/>
 		</Entity>
-		<Entity uid="3534">
-			<Template>structures/bridge_hele</Template>
-			<Player>0</Player>
-			<Position x="825.19587" z="667.0832"/>
-			<Orientation y="-2.37557"/>
-			<Actor seed="5896"/>
-		</Entity>
-		<Entity uid="3535">
-			<Template>structures/bridge_hele</Template>
-			<Player>0</Player>
-			<Position x="870.50696" z="688.61841"/>
-			<Orientation y="0.90084"/>
-			<Actor seed="49378"/>
-		</Entity>
 		<Entity uid="3539">
-			<Template>gaia/ore/desert_large</Template>
+			<Template>gaia/ore/sahara_01</Template>
 			<Player>0</Player>
 			<Position x="261.12537" z="315.52515"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3424"/>
 		</Entity>
 		<Entity uid="3540">
-			<Template>gaia/ore/badlands_large</Template>
+			<Template>gaia/ore/sahara_02</Template>
 			<Player>0</Player>
 			<Position x="1257.35328" z="357.9881"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="2263"/>
 		</Entity>
 		<Entity uid="3541">
-			<Template>gaia/ore/desert_large</Template>
+			<Template>gaia/ore/sahara_01</Template>
 			<Player>0</Player>
 			<Position x="1197.61927" z="313.158"/>
 			<Orientation y="2.35621"/>
@@ -18776,7 +18761,7 @@
 			<Actor seed="63786"/>
 		</Entity>
 		<Entity uid="3548">
-			<Template>gaia/rock/savanna_small</Template>
+			<Template>gaia/rock/desert_small</Template>
 			<Player>0</Player>
 			<Position x="704.45032" z="828.49701"/>
 			<Orientation y="2.35621"/>
@@ -19556,18 +19541,6 @@
 			<Position x="770.45026" z="717.39545"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="24790"/>
-		</Entity>
-		<Entity uid="3746">
-			<Template>actor|props/special/eyecandy/greek_temple_unfinished_columns.xml</Template>
-			<Position x="755.72388" z="743.6371"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="35243"/>
-		</Entity>
-		<Entity uid="3748">
-			<Template>actor|campaigns/structures/hellenes/settlement_temple.xml</Template>
-			<Position x="797.55542" z="947.73621"/>
-			<Orientation y="3.10306"/>
-			<Actor seed="1973"/>
 		</Entity>
 		<Entity uid="3749">
 			<Template>actor|campaigns/structures/hellenes/settlement_temple.xml</Template>

@@ -12,14 +12,13 @@
     <Civ>caro</Civ>
     <Classes datatype="tokens">CivSpecific</Classes>
     <SpecificName>Lorsch Abbey</SpecificName>
-     <Icon>structures/portrait_university.png</Icon>
   </Identity>
-  <ProductionQueue>
+  <Researcher>
     <Technologies datatype="tokens">
       caro/attack_flaming_pitch
       caro/attack_fire_rain
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <Population>
     <Bonus>7</Bonus>
   </Population>

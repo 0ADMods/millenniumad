@@ -34,7 +34,7 @@
   <Population>
     <Bonus>12</Bonus>
   </Population>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/champion_infantry
       units/{civ}/champion_cavalry
@@ -48,13 +48,15 @@
       units/{civ}/siege_trebuchet_packed
       units/{civ}/siege_traction_trebuchet_packed
     </Entities>
+  </Trainer>
+  <Researcher>
     <Technologies datatype="tokens">
       siege_attack
       siege_cost_time
       siege_health
       siege_pack_unpack
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <VisualActor>
     <Actor>structures/rus/fortress.xml</Actor>
 	<FoundationActor>structures/fndn_6x4.xml</FoundationActor>

@@ -37,13 +37,14 @@
   <Loot>
     <wood>20</wood>
   </Loot>
-  <ProductionQueue>
+  <ProductionQueue/>
+  <RallyPoint disable=""/>
+  <Researcher>
     <Technologies datatype="tokens">
     gather_meat
     unlock_hunter
     </Technologies>
-  </ProductionQueue>
-  <RallyPoint disable=""/>
+  </Researcher>
   <ResourceDropsite>
     <Types>food</Types>
     <Sharable>true</Sharable>

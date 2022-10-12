@@ -1,9 +1,6 @@
 {
 	"Code": "caro",
-	"Culture": "caro",
-	"Name": "Carolingians",
-	"Emblem": "session/portraits/emblems/emblem_carol.png",
-	"History": "In the late 5th and early 6th centuries, Clovis I , the warrior-leader of one of the groups of peoples collectively known as the Franks, established a strong independent monarchy in what are now the northern part of France and the southwestern part of Belgium. He expanded into southern Gaul, driving the Visigoths across the Pyrenees, and established a strong Frankish presence east of the Rhine. Charlemagne and his successors patronized a vast project to restore the fragmented western European world to an earlier idealized condition.",
+	"Culture": "frank",
 	"Music": [
 		{
 			"File": "The_Land_of_Eternal_Winter.ogg",
@@ -84,19 +81,6 @@
 		{
 			"Template": "units/caro/cavalry_spearman_b"
 		}
-	],
-	"Formations": [
-		"special/formations/null",
-		"special/formations/box",
-		"special/formations/column_closed",
-		"special/formations/line_closed",
-		"special/formations/column_open",
-		"special/formations/line_open",
-		"special/formations/flank",
-		"special/formations/skirmish",
-		"special/formations/wedge",
-		"special/formations/battle_line",
-		"special/formations/shieldwall"
 	],
 	"AINames": [
 		"Charles Martel",

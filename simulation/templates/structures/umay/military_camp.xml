@@ -20,19 +20,17 @@
     <Civ>umay</Civ>
     <Classes datatype="tokens">CivSpecific</Classes>
     <GenericName>Military Camp</GenericName>
-    <SpecificName></SpecificName>
-    <Tooltip></Tooltip>
     <Icon>structures/mercenary_camp.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="29.0" depth="29.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/umay/infantry_clubman_merc_b
       units/{civ}/cavalry_archer_merc_b
-	  </Entities>
-  </ProductionQueue>
+	</Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/mercenaries/camp_blemmye.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

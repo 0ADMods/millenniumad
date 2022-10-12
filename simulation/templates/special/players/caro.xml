@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>caro</Civ>
+    <GenericName>Carolingians</GenericName>
+    <History>In the late 5th and early 6th centuries, Clovis I , the warrior-leader of one of the groups of peoples collectively known as the Franks, established a strong independent monarchy in what are now the northern part of France and the southwestern part of Belgium. He expanded into southern Gaul, driving the Visigoths across the Pyrenees, and established a strong Frankish presence east of the Rhine. Charlemagne and his successors patronized a vast project to restore the fragmented western European world to an earlier idealized condition.</History>
+    <Icon>emblems/emblem_carol.png</Icon>
+  </Identity>
+  <Player>
+    <Formations datatype="tokens">
+      special/formations/shieldwall
+    </Formations>
+  </Player>
+</Entity>

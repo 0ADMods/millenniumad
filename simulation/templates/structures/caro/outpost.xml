@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_outpost">
-	<Identity>
-		<Civ>caro</Civ>
-	</Identity>
-	<VisualActor>
-		<Actor>structures/celts/outpost.xml</Actor>
-	</VisualActor>
+  <Identity>
+    <Civ>caro</Civ>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/celts/outpost.xml</Actor>
+  </VisualActor>
 </Entity>

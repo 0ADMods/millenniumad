@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Builder>
+    <Rate>1.0</Rate>
+    <Entities datatype="tokens">
+      structures/{civ}/civil_centre
+      structures/{civ}/crannog
+      structures/{civ}/military_colony
+      structures/{civ}/house
+      structures/{civ}/ice_house
+      structures/{civ}/pyramid_small
+      structures/{civ}/pyramid_large
+      structures/{civ}/apartment
+      structures/{civ}/storehouse
+      structures/{civ}/farmstead
+      structures/{civ}/hunting_cabin
+      structures/{civ}/mill
+      structures/{civ}/granary
+      structures/{civ}/field
+      structures/{civ}/corral
+      structures/{civ}/dock
+      structures/{civ}/barracks
+      structures/{civ}/stable
+      structures/{civ}/elephant_stable
+      structures/{civ}/forge
+      structures/{civ}/temple
+      structures/{civ}/hospital_camp
+      structures/{civ}/market
+      structures/{civ}/trading_post
+      structures/{civ}/ministry
+      structures/{civ}/outpost
+      structures/{civ}/sentry_tower
+      structures/{civ}/defense_tower
+      structures/{civ}/arsenal
+      structures/{civ}/academy
+      structures/{civ}/school
+      structures/{civ}/military_camp
+      structures/{civ}/fortress
+      structures/wallset_palisade
+      structures/{civ}/wallset_palisade
+      structures/{civ}/wallset_siege
+      structures/{civ}/wallset_stone
+      structures/{civ}/wallset_stone_02
+      structures/{civ}/wallset_stone_04
+      structures/{civ}/theater
+      structures/{civ}/apadana
+      structures/{civ}/wonder
+    </Entities>
+  </Builder>
+  <Identity>
+    <VisibleClasses datatype="tokens">Builder</VisibleClasses>
+  </Identity>
+</Entity>

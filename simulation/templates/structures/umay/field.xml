@@ -2,7 +2,6 @@
 <Entity parent="template_structure_resource_field">
   <Identity>
     <Civ>umay</Civ>
-    <SpecificName></SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/plot_field_medit.xml</Actor>

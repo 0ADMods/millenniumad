@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_farmstead">
+  <Auras datatype="tokens">
+    structures/rotary_mill
+  </Auras>
+  <BuildRestrictions>
+    <Territory>own ally neutral</Territory>
+    <PlacementType>shore</PlacementType>
+    <Category>Farmstead</Category>
+  </BuildRestrictions>
+  <Footprint>
+    <Square width="20.0" depth="17.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <GarrisonHolder disable=""/>
+  <Identity>
+    <Civ>caro</Civ>
+    <GenericName>Mill</GenericName>
+    <Classes datatype="tokens">CivSpecific</Classes>
+    <Tooltip>Build upon a shoreline in own, neutral, or allied territory to give Farmers a grain gathering bonus.</Tooltip>
+    <Icon>structures/rotarymill.png</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="20.0" depth="17.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>2</Bonus>
+  </Population>
+  <ProductionQueue disable=""/>
+  <RallyPoint disable=""/>
+  <VisualActor>
+    <Actor>structures/carolingian/watermill.xml</Actor>
+    <FoundationActor>structures/fndn_4x4_dock.xml</FoundationActor>
+  </VisualActor>
+</Entity>

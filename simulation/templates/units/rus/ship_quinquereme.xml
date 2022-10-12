@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="civ/rus|template_unit_ship_trireme">
+<Entity parent="template_unit_ship_trireme">
   <Cost>
     <BuildTime>80</BuildTime>
   </Cost>
@@ -27,21 +27,15 @@
     <Types>food wood stone metal</Types>
 	  <Sharable>false</Sharable>
   </ResourceDropsite>
-  <ProductionQueue>
+  <ProductionQueue/>
+  <Trainer>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}/infantry_swordsman_b
       units/{civ}/infantry_spearman_b
       units/{civ}/infantry_archer_b
     </Entities>
-    <TechCostMultiplier>
-      <food>1.0</food>
-      <wood>1.0</wood>
-      <stone>1.0</stone>
-      <metal>1.0</metal>
-      <time>1.0</time>
-    </TechCostMultiplier>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/norse/drakkar.xml</Actor>
   </VisualActor>

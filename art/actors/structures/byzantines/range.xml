@@ -13,8 +13,7 @@
         <prop actor="props/structures/byzantines/range_roof.xml" attachpoint="root"/>
 		<prop actor="props/structures/byzantines/range_props.xml" attachpoint="root"/>
 		<prop actor="props/structures/byzantines/range_tent.xml" attachpoint="root"/>
-		<prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
-        <prop actor="props/structures/decals/celt_barracks.xml" attachpoint="root"/>
+		<prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/bow_byza.xml" attachpoint="bow_1"/>
         <prop actor="props/units/weapons/bow_byza.xml" attachpoint="bow_2"/>
 		<prop actor="props/units/weapons/bow_byza.xml" attachpoint="bow_3"/>

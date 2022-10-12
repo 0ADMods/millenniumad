@@ -32,7 +32,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="185.386" y="247.959" z="350.35"/>
+		<Position x="659.88" y="249.182" z="48.7904"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
@@ -3881,75 +3881,12 @@
 			<Orientation y="-1.36361"/>
 			<Actor seed="48442"/>
 		</Entity>
-		<Entity uid="599">
-			<Template>structures/gaul_tavern</Template>
-			<Player>0</Player>
-			<Position x="495.5746" z="558.13953"/>
-			<Orientation y="-3.65511"/>
-			<Actor seed="22846"/>
-		</Entity>
-		<Entity uid="600">
-			<Template>structures/gaul_wonder</Template>
-			<Player>0</Player>
-			<Position x="743.4477" z="161.44446"/>
-			<Orientation y="-0.59548"/>
-			<Actor seed="37966"/>
-		</Entity>
-		<Entity uid="601">
-			<Template>structures/gaul_wonder</Template>
-			<Player>0</Player>
-			<Position x="238.98133" z="854.8628"/>
-			<Orientation y="-7.14683"/>
-			<Actor seed="37966"/>
-		</Entity>
 		<Entity uid="609">
 			<Template>structures/celt_longhouse</Template>
 			<Player>0</Player>
 			<Position x="536.67786" z="516.9037"/>
 			<Orientation y="-2.21602"/>
 			<Actor seed="60640"/>
-		</Entity>
-		<Entity uid="610">
-			<Template>structures/brit_rotarymill</Template>
-			<Player>0</Player>
-			<Position x="366.20484" z="72.29896"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="38358"/>
-		</Entity>
-		<Entity uid="611">
-			<Template>structures/brit_rotarymill</Template>
-			<Player>0</Player>
-			<Position x="554.12629" z="985.07404"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="48994"/>
-		</Entity>
-		<Entity uid="612">
-			<Template>units/brit_war_dog_b</Template>
-			<Player>0</Player>
-			<Position x="272.1678" z="837.27741"/>
-			<Orientation y="-1.9215"/>
-			<Actor seed="48690"/>
-		</Entity>
-		<Entity uid="613">
-			<Template>units/brit_war_dog_b</Template>
-			<Player>0</Player>
-			<Position x="269.13733" z="833.39148"/>
-			<Orientation y="0.43722"/>
-			<Actor seed="26624"/>
-		</Entity>
-		<Entity uid="614">
-			<Template>units/brit_war_dog_b</Template>
-			<Player>0</Player>
-			<Position x="720.18726" z="203.86017"/>
-			<Orientation y="-1.63308"/>
-			<Actor seed="5300"/>
-		</Entity>
-		<Entity uid="615">
-			<Template>units/brit_war_dog_b</Template>
-			<Player>0</Player>
-			<Position x="717.77057" z="199.40967"/>
-			<Orientation y="0.96863"/>
-			<Actor seed="35604"/>
 		</Entity>
 		<Entity uid="617">
 			<Template>actor|props/special/eyecandy/handcart_1_broken.xml</Template>
@@ -8905,70 +8842,70 @@
 			<Actor seed="38916"/>
 		</Entity>
 		<Entity uid="1442">
-			<Template>gaia/ore/temperate_large</Template>
+			<Template>gaia/ore/temperate_01</Template>
 			<Player>0</Player>
 			<Position x="153.6391" z="551.94568"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="54078"/>
 		</Entity>
 		<Entity uid="1443">
-			<Template>gaia/ore/temperate_large</Template>
+			<Template>gaia/ore/temperate_01</Template>
 			<Player>0</Player>
 			<Position x="336.53998" z="418.48136"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="54078"/>
 		</Entity>
 		<Entity uid="1444">
-			<Template>gaia/ore/temperate_large</Template>
+			<Template>gaia/ore/temperate_01</Template>
 			<Player>0</Player>
 			<Position x="663.95148" z="521.65632"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="54078"/>
 		</Entity>
 		<Entity uid="1445">
-			<Template>gaia/ore/temperate_large</Template>
+			<Template>gaia/ore/temperate_01</Template>
 			<Player>0</Player>
 			<Position x="871.75654" z="629.91248"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="54078"/>
 		</Entity>
 		<Entity uid="1446">
-			<Template>gaia/ore/temperate_large</Template>
+			<Template>gaia/ore/temperate_01</Template>
 			<Player>0</Player>
 			<Position x="680.10291" z="123.3655"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="54078"/>
 		</Entity>
 		<Entity uid="1447">
-			<Template>gaia/ore/temperate_large</Template>
+			<Template>gaia/ore/temperate_01</Template>
 			<Player>0</Player>
 			<Position x="310.83259" z="839.70142"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="54078"/>
 		</Entity>
 		<Entity uid="1448">
-			<Template>gaia/ore/temperate_large</Template>
+			<Template>gaia/ore/temperate_01</Template>
 			<Player>0</Player>
 			<Position x="445.73407" z="220.95911"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="54078"/>
 		</Entity>
 		<Entity uid="1449">
-			<Template>gaia/ore/temperate_large</Template>
+			<Template>gaia/ore/temperate_01</Template>
 			<Player>0</Player>
 			<Position x="552.11756" z="807.16474"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="54078"/>
 		</Entity>
 		<Entity uid="1450">
-			<Template>gaia/ore/temperate_large</Template>
+			<Template>gaia/ore/temperate_01</Template>
 			<Player>0</Player>
 			<Position x="516.39783" z="409.24317"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="10020"/>
 		</Entity>
 		<Entity uid="1451">
-			<Template>gaia/ore/temperate_large</Template>
+			<Template>gaia/ore/temperate_01</Template>
 			<Player>0</Player>
 			<Position x="503.3982" z="638.71814"/>
 			<Orientation y="2.35622"/>

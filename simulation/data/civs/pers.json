@@ -1,9 +1,6 @@
 {
 	"Code": "pers",
 	"Culture": "pers",
-	"Name": "Persians",
-	"Emblem": "session/portraits/emblems/emblem_persians.png",
-	"History": "The Persian Empire, when ruled by the Achaemenid dynasty, was one of the greatest empires of antiquity, stretching at its zenith from the Indus Valley in the east to Greece in the west. The Persians were the pioneers of empire-building of the ancient world, successfully imposing a centralized rule over various peoples with different customs, laws, religions and languages, and building a cosmopolitan army made up of contingents from each of these nations.",
 	"Music": [
 		{
 			"File": "Eastern_Dreams.ogg",
@@ -32,6 +29,11 @@
 			"Name": "Large Rams",
 			"History": "",
 			"Description": "Battering Rams +20% attack damage and +2 garrison capacity."
+		},
+		{
+			"Name": "Time of War",
+			"History": "The Persians were known for their large cavalry contingent",
+			"Description": "Stable −10% batch training time per phase advance."
 		}
 	],
 	"WallSets": [
@@ -57,19 +59,6 @@
 		{
 			"Template": "units/pers/cavalry_javelineer_b"
 		}
-	],
-	"Formations": [
-		"special/formations/null",
-		"special/formations/box",
-		"special/formations/column_closed",
-		"special/formations/line_closed",
-		"special/formations/column_open",
-		"special/formations/line_open",
-		"special/formations/flank",
-		"special/formations/battle_line",
-		"special/formations/skirmish",
-		"special/formations/wedge",
-		"special/formations/phalanx"
 	],
 	"AINames": [
 		"Kurush II the Great",

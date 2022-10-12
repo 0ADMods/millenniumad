@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_formation">
   <Formation>
-    <Icon>formations/shieldwall.png</Icon>
     <RequiredMemberCount>10</RequiredMemberCount>
     <DisabledTooltip>10 melee infantry units required</DisabledTooltip>
-		<FormationName>Shieldwall</FormationName>
-		<SpeedMultiplier>0.5</SpeedMultiplier>
+	<SpeedMultiplier>0.5</SpeedMultiplier>
     <UnitSeparationWidthMultiplier>0.5</UnitSeparationWidthMultiplier>
     <UnitSeparationDepthMultiplier>0.7</UnitSeparationDepthMultiplier>
     <WidthDepthRatio>5</WidthDepthRatio>
@@ -17,4 +15,8 @@
   <FormationAttack>
     <CanAttackAsFormation>true</CanAttackAsFormation>
   </FormationAttack>
+  <Identity>
+    <GenericName>Shieldwall</GenericName>
+    <Icon>formations/shieldwall.png</Icon>
+  </Identity>
 </Entity>

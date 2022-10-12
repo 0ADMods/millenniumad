@@ -1,0 +1,4 @@
+https://wildfiregames.com/forum/topic/24444-how-to-package-your-mods-on-windows/
+
+
+binaries/system/pyrogenesis -mod=mod -mod=public -mod=millenniumad -archivebuild="binaries/data/mods/millenniumad"  -archivebuild-output="millenniumad.pyromod" -archivebuild-compress

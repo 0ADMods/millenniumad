@@ -20,17 +20,19 @@
 	<Population>
 		<Bonus>4</Bonus>
 	</Population>
-	<ProductionQueue>
+  <Trainer>
 		<Entities datatype="tokens">
 			units/{civ}/infantry_swordsman_b
 			units/{civ}/infantry_spearman_b
 			units/{civ}/infantry_archer_b
 			units/{civ}/champion_berserker_barracks
 		</Entities>
+  </Trainer>
+  <Researcher>
 	    <Technologies datatype="tokens">
 	      unlock_champion_units_modded
 	    </Technologies>
-	</ProductionQueue>
+  </Researcher>
 	<VisualActor>
 		<Actor>structures/norse/barracks.xml</Actor>
 		<FoundationActor>structures/fndn_4x6.xml</FoundationActor>

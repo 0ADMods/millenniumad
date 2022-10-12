@@ -11,13 +11,13 @@
   <Obstruction>
     <Static width="17.5" depth="30.0"/>
   </Obstruction>
-     <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/umay/champion_infantry_assassin
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/umayyads/temple.xml</Actor>
-    <FoundationActor>props/special/eyecandy/greek_temple_unfinished.xml</FoundationActor>
+    <FoundationActor>structures/fndn_7x9.xml</FoundationActor>
   </VisualActor>
 </Entity>

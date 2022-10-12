@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>umay</Civ>
+    <GenericName>Umayyads</GenericName>
+    <History>Umayyad dynasty, also spelled Omayyad, the first great Muslim dynasty to rule the empire of the caliphate (661–750 CE), sometimes referred to as the Arab kingdom (reflecting traditional Muslim disapproval of the secular nature of the Umayyad state). The Umayyads, headed by Abū Sufyān, were a largely merchant family of the Quraysh tribe centred at Mecca. They had initially resisted Islam, not converting until 627, but subsequently became prominent administrators under Muhammad and his immediate successors. In the first Muslim civil war (fitnah; 656–661)—the struggle for the caliphate following the murder of ʿUthmān ibn ʿAffān, the third caliph (reigned 644–656)—Abū Sufyān’s son Muʿāwiyah, then governor of Syria, emerged victorious over ʿAlī, Muhammad’s son-in-law and fourth caliph. Muʿāwiyah then established himself as the first Umayyad caliph.</History>
+    <Icon>emblems/emblem_umay.png</Icon>
+  </Identity>
+</Entity>

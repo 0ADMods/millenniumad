@@ -35,9 +35,6 @@
   <Obstruction>
     <Static width="16.0" depth="16.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
-  </ProductionQueue>
   <ResourceTrickle>
     <Rates> 
       <food>1.0</food>

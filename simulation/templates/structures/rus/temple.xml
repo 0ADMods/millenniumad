@@ -17,17 +17,17 @@
     <Civ>rus</Civ>
     <SpecificName>Церковь</SpecificName>
   </Identity>
-   <ProductionQueue>
-    <Technologies datatype="tokens">
-      rus/divine_inspiration
-    </Technologies>
-  </ProductionQueue>
   <Obstruction>
     <Static width="12.0" depth="23.0"/>
   </Obstruction>
   <Population>
     <Bonus>7</Bonus>
   </Population>
+  <Researcher>
+    <Technologies datatype="tokens">
+      rus/divine_inspiration
+    </Technologies>
+  </Researcher>
   <VisualActor>
     <Actor>structures/rus/temple.xml</Actor>
     <FoundationActor>structures/fndn_2x4.xml</FoundationActor>

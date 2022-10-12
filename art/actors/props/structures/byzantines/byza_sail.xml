@@ -14,7 +14,7 @@
   <group>
     <variant frequency="1" name="Byza sail_a">
       <textures>
-        <texture file="props/iber_sail_b.dds" name="baseTex"/>
+        <texture file="props/iber_sail_b.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Byza sail_b">

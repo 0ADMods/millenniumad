@@ -3,7 +3,7 @@
   <Identity>
     <Civ>umay</Civ>
     <GenericName>Cavalry Spearman</GenericName>
-	  <SelectionGroupName>units/umay/cavalry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/umay/cavalry_spearman_b</SelectionGroupName>
     <SpecificName></SpecificName>
     <Icon>units/caro_cavalry_spearman.png</Icon>
   </Identity>

@@ -1,9 +1,9 @@
 {
-	"name": "millenniumad",
-	"label": "Millennium A.D.",
-	"version": "1.1.0",
+	"name": "millenniumad_working",
+	"label": "Millennium A.D. - WIP",
+	"version": "0.26.0",
 	"url": "https://github.com/0ADMods/millenniumad",
 	"description": "Cover the AD 500–1000 timeframe with new civilizations and maps.",
-	"dependencies": ["0ad=0.0.25"],
-	"type": "mod"
+	"dependencies": ["0ad=0.0.26"],
+	"type": ["Total Conversion", "Gameplay", "Factions"]
 }

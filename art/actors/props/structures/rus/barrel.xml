@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
+	<castshadow/>
 	<group>
 		<variant name="barrel">
 			<mesh>props/rus_prop_barrel_a.dae</mesh>

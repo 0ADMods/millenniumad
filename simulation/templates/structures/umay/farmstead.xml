@@ -5,7 +5,6 @@
   </Footprint>
   <Identity>
     <Civ>umay</Civ>
-    <SpecificName></SpecificName>
   </Identity>
   <Obstruction>
     <Static width="18.0" depth="15.0"/>

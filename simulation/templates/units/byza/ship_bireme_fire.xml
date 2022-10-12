@@ -1,56 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_ship_bireme">
-	<Attack>
-		<Ranged>
-			<Damage>
-				<Hack>0.0</Hack>
-				<Pierce>0.2</Pierce>
-				<Crush>0.0</Crush>
-			</Damage>
-			<MaxRange>40.0</MaxRange>
-			<MinRange>20.0</MinRange>
-			<PrepareTime>50</PrepareTime>
-			<RepeatTime>50</RepeatTime>
-			<Delay>0</Delay>
-			<Projectile>
-				<Speed>25.0</Speed>
-				<Spread>4.0</Spread>
-				<Gravity>9.81</Gravity>
-				<FriendlyFire>false</FriendlyFire>
-				<ImpactActorName>particle/flame_pig.xml</ImpactActorName>
-				<ImpactAnimationLifetime>0.1</ImpactAnimationLifetime>
-			</Projectile>
-			<Splash>
-				<Shape>Circular</Shape>
-				<Range>4</Range>
-				<FriendlyFire>false</FriendlyFire>
-				<Damage>
-					<Hack>0.0</Hack>
-					<Pierce>0.2</Pierce>
-					<Crush>0.0</Crush>
-				</Damage>
-			</Splash>
-			<Bonuses>
-				<BonusShips>
-					<Classes>Ship</Classes>
-					<Multiplier>10.0</Multiplier>
-				</BonusShips>
-			</Bonuses>
-			<PreferredClasses datatype="tokens">Ship </PreferredClasses>
-		</Ranged>
-	</Attack>
-	<Sound>
-		<SoundGroups>
-			<attack_ranged>attack/fire/spreading_fire.xml</attack_ranged>
-		</SoundGroups>
-	</Sound>
-	<Identity>
-		<Civ>byza</Civ>
-		<Icon>units/byza_bireme.png</Icon>
-		<GenericName>Byzantine Galley (Siphon)</GenericName>
-		<SpecificName>Chelandion (Aujxaves)</SpecificName>
-	</Identity>
-	<VisualActor>
-		<Actor>structures/byzantines/warship_fire.xml</Actor>
-	</VisualActor>
+  <Attack>
+    <Ranged>
+      <AttackName>Greek Fire</AttackName>
+      <Damage>
+        <Pierce>1</Pierce>
+        <Crush>0.5</Crush>
+      </Damage>
+      <MaxRange>45</MaxRange>
+      <PrepareTime>100</PrepareTime>
+      <RepeatTime>200</RepeatTime>
+      <Bonuses>
+        <BonusShip>
+          <Classes>Ship</Classes>
+          <Multiplier>3.0</Multiplier>
+        </BonusShip>
+      </Bonuses>
+      <Projectile>
+        <Speed>15</Speed>
+        <Spread>2</Spread>
+        <Gravity>3</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+      <Splash>
+        <Damage>
+          <Pierce>0.5</Pierce>
+          <Crush>0.5</Crush>
+        </Damage>
+        <Shape>Circular</Shape>
+        <Range>10</Range>
+        <FriendlyFire>true</FriendlyFire>
+      </Splash>
+      <PreferredClasses datatype="tokens">Ship</PreferredClasses>
+    </Ranged>
+  </Attack>
+  <BuildingAI disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/fire/spreading_fire.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <Identity>
+    <Civ>byza</Civ>
+    <Icon>units/byza_bireme.png</Icon>
+    <GenericName>Byzantine Siphon Galley</GenericName>
+    <SpecificName>Aujxaves Chelandion</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/byzantines/warship_fire.xml</Actor>
+  </VisualActor>
 </Entity>
