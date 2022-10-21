@@ -5,10 +5,19 @@
     <variant name="Wall Long">
       <mesh>structural/caro_wall_long.dae</mesh>
       <textures>
-       <texture file="structural/caro_struct_02.png" name="baseTex"/>
-				<texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/caro_struct_02.png" name="baseTex"/>
+        <texture file="structural/caro_struct_02_norm.png" name="normTex"/>
         <texture file="structural/ao/caro_wall_long.png" name="aoTex"/>
       </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant name="upgrading">
+      <props>
+        <prop actor="props/structures/construction/scaf_9x3_wall.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+      </props>
     </variant>
   </group>
   <group>
