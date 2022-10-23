@@ -8,7 +8,7 @@
     <SpecificName>Agorá</SpecificName>
   </Identity>
   <Footprint>
-    <Square width="41" depth="31"/>
+    <Square width="42" depth="32"/>
     <Height>23.0</Height>
   </Footprint>
   <Obstruction>
@@ -22,7 +22,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/byzantines/civic_center_c.xml</Actor>
-    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
+    <Actor>structures/byzantines/civic_center.xml</Actor>
+    <FoundationActor>structures/fndn_9x9.xml</FoundationActor>
   </VisualActor>
 </Entity>

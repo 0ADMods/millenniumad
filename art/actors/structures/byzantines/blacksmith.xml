@@ -5,10 +5,10 @@
     <variant name="blacksmith">
       <mesh>structural/byza_blacksmith_BB.dae</mesh>
       <textures>
-				<texture file="structural/byza/byza_struct_02.png" name="baseTex"/>
-				<texture file="structural/byza/byza_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/byza/byza_struct_02.png" name="baseTex"/>
+        <texture file="structural/byza/byza_struct_02_norm.png" name="normTex"/>
         <texture file="structural/ao/byza_blacksmith.png" name="aoTex"/>
-			</textures>
+      </textures>
       <props>
         <prop actor="particle/flame.xml" attachpoint="fire"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke_a"/>
@@ -51,7 +51,6 @@
       <props>
         <prop actor="props/structures/byzantines/blacksmith_roof.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/blacksmith_props.xml" attachpoint="root"/>
-        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
         <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>

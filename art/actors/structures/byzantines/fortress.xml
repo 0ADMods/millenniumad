@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="Fortress">
+    <variant frequency="100" name="Byzantine Fortress" file="structures/defensive_building.xml">
       <mesh>structural/byza_fortress.dae</mesh>
       <textures>
         <texture file="structural/byzantine_struct.png" name="baseTex"/>
@@ -13,9 +13,6 @@
         <prop actor="props/structures/byzantines/wall_gate_door.xml" attachpoint="door"/>
         <prop actor="props/structures/byzantines/fortress_roof.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/fortress_floor.xml" attachpoint="root"/>
-        <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
-        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
-        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/byza_paramerion.xml" attachpoint="sword_1"/>
         <prop actor="props/units/weapons/byza_paramerion.xml" attachpoint="sword_2"/>
         <prop actor="props/units/weapons/byza_axe.xml" attachpoint="sword_3"/>
@@ -24,6 +21,7 @@
         <prop actor="props/units/weapons/caro_cavalry_spear.xml" attachpoint="spear_2"/>
         <prop actor="props/units/weapons/spear_long_player_colour.xml" attachpoint="spear_3"/>
         <prop actor="props/units/weapons/caro_cavalry_spear.xml" attachpoint="spear_4"/>
+        <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
@@ -33,7 +31,6 @@
       <props>
         <prop actor="props/structures/byzantines/fortress_floor.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/fortress_roof.xml" attachpoint="root"/>
-        <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
         <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
