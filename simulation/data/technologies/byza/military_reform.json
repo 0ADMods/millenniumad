@@ -13,8 +13,11 @@
 	"researchTime": 40,
 	"tooltip": "Soldiers, Siege Engines, and Ships +10% health but cost 10% more",
 	"modifications": [
-		{ "value": "Health/Max","multiply": 1.1 },
-		{"value": "Cost/Resources", "multiply": 1.1 }
+		{ "value": "Health/Max", "multiply": 1.1 },
+		{ "value": "Cost/Resources/food", "multiply": 1.1 },
+		{ "value": "Cost/Resources/wood", "multiply": 1.1 },
+		{ "value": "Cost/Resources/stone", "multiply": 1.1 },
+		{ "value": "Cost/Resources/metal", "multiply": 1.1 }
  	],
 	"affects": ["Ship", "Siege", "Soldier"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
