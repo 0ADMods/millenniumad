@@ -12,7 +12,7 @@
   </Attack>
   <Identity>
     <SelectionGroupName>units/caro/infantry_spearman_b</SelectionGroupName>
-    <Icon>units/caro_infantry_spearman.png</Icon>
+    <Icon>units/caro/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/caro/infantry_spearman_a</Entity>

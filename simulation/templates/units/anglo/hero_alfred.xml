@@ -9,8 +9,10 @@
     <GenericName>Alfred the Great</GenericName>
     <SpecificName>Ælfrēd</SpecificName>
     <History>Alfred the Great was the King of Wessex in the late 9th century. He defended his kingdom succesfully against the Norse attacks. He also encouraged education and improved legal system, military structure and his people's quality of life.</History>
-    <Icon>units/anglo_hero_alfred.png</Icon>
-    <RequiredTechnology>germanic_thingstead</RequiredTechnology>
+    <Icon>units/anglo/hero_alfred.png</Icon>
+    <Requirements>
+      <Techs>germanic_thingstead</Techs>
+    </Requirements>
   </Identity>
   <VisualActor>
     <Actor>units/anglo/hero_alfred.xml</Actor>

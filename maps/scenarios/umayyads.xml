@@ -831,7 +831,7 @@
 			<Actor seed="57962"/>
 		</Entity>
 		<Entity uid="120">
-			<Template>units/umay/ship_bireme</Template>
+			<Template>units/umay/ship_scout</Template>
 			<Player>0</Player>
 			<Position x="430.53107" z="143.35758"/>
 			<Orientation y="2.35621"/>

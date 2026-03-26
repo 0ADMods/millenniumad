@@ -9,13 +9,14 @@
       <mesh>props/helmet/anglo_copper_gate_helmet_b.dae</mesh>
     </variant>
   </group>
-<group>
-	<variant frequency="1" name="Standard">
+  <group>
+    <variant frequency="1" name="Standard">
       <textures>
         <texture file="props/helmet/anglo_copper_gate_helmet.png" name="baseTex"/>
         <texture file="props/helmet/anglo_helmets_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
-	  </variant>
-</group>
- <material>player_trans_spec.xml</material>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

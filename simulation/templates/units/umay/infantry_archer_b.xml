@@ -3,8 +3,8 @@
   <Identity>
     <SelectionGroupName>units/umay/infantry_archer_b</SelectionGroupName>
     <GenericName>Infantry Archer</GenericName>
-    <SpecificName></SpecificName>
-    <Icon>units/umay_infantry_archer.png</Icon>
+    <SpecificName/>
+    <Icon>units/umay/infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/umay/infantry_archer_a</Entity>

@@ -2,7 +2,7 @@
 <Entity parent="template_unit_ship_fishing">
   <Identity>
     <Civ>anglo</Civ>
-    <Icon>units/norse_fishing_ship.png</Icon>
+    <Icon>units/norse/fishing_ship.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/norse/fishing_boat.xml</Actor>

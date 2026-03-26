@@ -4,9 +4,6 @@
     <Square width="20.0" depth="20.0"/>
     <Height>5.0</Height>
   </Footprint>
-  <Obstruction>
-    <Static width="20.0" depth="20.0"/>
-  </Obstruction>
   <GarrisonHolder>
     <Max>10</Max>
     <EjectHealth>0.1</EjectHealth>
@@ -22,20 +19,25 @@
     <Tooltip>Dropsite for the food resource. Research food gathering improvements. Raise herd animals for food.</Tooltip>
     <VisibleClasses datatype="tokens">Village Farmstead Resource</VisibleClasses>
   </Identity>
+  <Obstruction>
+    <Static width="20.0" depth="20.0"/>
+  </Obstruction>
   <Population>
     <Bonus>2</Bonus>
   </Population>
-  <ProductionQueue>
+  <RallyPoint/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      gather_animals_stockbreeding
+    </Technologies>
+  </Researcher>
+  <Trainer>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       gaia/fauna_sheep_trainable
       gaia/fauna_pig_trainable
     </Entities>
-    <Technologies datatype="tokens">
-      gather_animals_stockbreeding
-    </Technologies>
-  </ProductionQueue>
-  <RallyPoint/>
+  </Trainer>
   <VisualActor>
     <Actor>structures/norse/corral.xml</Actor>
   </VisualActor>

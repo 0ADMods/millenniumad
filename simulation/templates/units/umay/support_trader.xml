@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>umay</Civ>
-    <Icon>units/umay_support_trader.png</Icon>
+    <Icon>units/umay/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/umayyads/trader.xml</Actor>

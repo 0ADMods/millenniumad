@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
-	<castshadow/>
-	<group>
+  <castshadow/>
+  <group>
     <variant frequency="1" name="B">
-			<mesh>props/byza_market_props_tents.dae</mesh>
-			<textures>
-				<texture file="props/stall_big_stripe_a_cloth.png" name="baseTex"/>
+      <mesh>props/byza_market_props_tents.dae</mesh>
+      <textures>
+        <texture file="props/stall_big_stripe_a_cloth.png" name="baseTex"/>
         <texture file="structural/ao/byza_market.png" name="aoTex"/>
-			</textures>
-		</variant>
-	</group>
-  <material>player_trans_ao.xml</material>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_ao_norm_spec.xml</material>
 </actor>

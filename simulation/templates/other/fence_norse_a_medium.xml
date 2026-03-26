@@ -24,6 +24,7 @@
     <Static width="1.5" depth="10.5"/>
   </Obstruction>
   <ProductionQueue disable=""/>
+  <Researcher disable=""/>
   <Resistance>
     <Entity>
       <Damage>
@@ -37,6 +38,7 @@
     <HeightOffset>6.0</HeightOffset>
   </StatusBars>
   <TerritoryDecay disable=""/>
+  <Trainer disable=""/>
   <Vision>
     <Range>4</Range>
   </Vision>

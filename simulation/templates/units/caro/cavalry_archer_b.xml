@@ -5,9 +5,11 @@
     <Lang>greek</Lang>
     <SelectionGroupName>units/caro/cavalry_archer_b</SelectionGroupName>
     <GenericName>Horse Archer</GenericName>
-    <SpecificName></SpecificName>
-    <Icon>units/caro_cavalry_archer.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SpecificName/>
+    <Icon>units/caro/cavalry_archer.png</Icon>
+    <Requirements>
+      <Techs>phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/caro/cavalry_archer_a</Entity>

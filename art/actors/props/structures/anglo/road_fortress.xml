@@ -5,9 +5,11 @@
       <decal angle="0" depth="4" offsetx="0" offsetz="0" width="10"/>
       <textures>
         <texture file="props/decal_struct_sand_small.png" name="baseTex"/>
-		<texture file="props/decal_struct_sand_small_norm.png" name="normTex"/>
+        <texture file="props/decal_struct_sand_small_norm.png" name="normTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
-  <material>terrain_base.xml</material>
+  <material>terrain_norm_spec.xml</material>
 </actor>

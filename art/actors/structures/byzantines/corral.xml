@@ -5,10 +5,11 @@
     <variant name="corral">
       <mesh>structural/byza_corral.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct.png" name="baseTex"/>
-				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
+        <texture file="structural/byzantine_struct.png" name="baseTex"/>
+        <texture file="structural/byzantine_struct_norm.png" name="normTex"/>
         <texture file="structural/ao/byza_corral.png" name="aoTex"/>
-			</textures>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
       <props>
         <prop actor="props/structures/byzantines/corral_props.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/corral_roof.xml" attachpoint="root"/>
@@ -33,5 +34,5 @@
       </props>
     </variant>
   </group>
-<material>player_trans_ao_parallax.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

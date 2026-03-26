@@ -8,8 +8,10 @@
     <Civ>anglo</Civ>
     <GenericName>Offa of Mercia</GenericName>
     <SpecificName>Offa</SpecificName>
-    <Icon>units/anglo_hero_offa.png</Icon>
-    <RequiredTechnology>germanic_thingstead</RequiredTechnology>
+    <Icon>units/anglo/hero_offa.png</Icon>
+    <Requirements>
+      <Techs>germanic_thingstead</Techs>
+    </Requirements>
   </Identity>
   <VisualActor>
     <Actor>units/anglo/hero_infantry_swordsman_offa.xml</Actor>

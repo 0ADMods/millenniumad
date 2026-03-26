@@ -7,11 +7,13 @@
       <mesh>structural/byza_fishing_ship_b.dae</mesh>
       <textures>
         <texture file="structural/ptol_quinquereme.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
       <props>
         <prop actor="props/structures/byzantines/fishing_ship_cloth.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

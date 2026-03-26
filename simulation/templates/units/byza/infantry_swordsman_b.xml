@@ -2,8 +2,10 @@
 <Entity parent="civ/byza|template_unit_infantry_melee_swordsman">
   <Identity>
     <SelectionGroupName>units/byza/infantry_swordsman_b</SelectionGroupName>
-    <Icon>units/byza_infantry_swordsman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Icon>units/byza/infantry_swordsman.png</Icon>
+    <Requirements>
+      <Techs>phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/byza/infantry_swordsman_a</Entity>

@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
-  <Cost>
-    <Resources>
-      <food>0</food>
-      <metal op="mul">2</metal>
-    </Resources>
-  </Cost>
-    <Health> 
-      <Max op="mul">0.85</Max> 
-    </Health> 
   <Attack>
     <Melee>
       <Bonuses>
@@ -19,13 +10,24 @@
       </Bonuses>
     </Melee>
   </Attack>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <metal op="mul">2</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max op="mul">0.85</Max>
+  </Health>
   <Identity>
     <Civ>norse</Civ>
     <GenericName>Fanatic</GenericName>
     <SpecificName>Berserkr</SpecificName>
-    <Icon>units/norse_berserker.png</Icon>
-    <RequiredTechnology>unlock_champion_units_modded</RequiredTechnology>
+    <Icon>units/norse/berserker.png</Icon>
     <SelectionGroupName>units/norse/champion_berserker</SelectionGroupName>
+    <Requirements>
+      <Techs>unlock_champion_units_modded</Techs>
+    </Requirements>
   </Identity>
   <Resistance>
     <Entity>
@@ -35,8 +37,8 @@
       </Damage>
     </Entity>
   </Resistance>
-  <UnitMotion> 
-    <WalkSpeed op="add">5</WalkSpeed> 
+  <UnitMotion>
+    <WalkSpeed op="add">5</WalkSpeed>
     <RunMultiplier>1.5</RunMultiplier>
   </UnitMotion>
   <Vision>

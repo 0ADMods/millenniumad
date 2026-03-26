@@ -3,18 +3,20 @@
   <Identity>
     <Civ>anglo</Civ>
     <SpecificName>Smiþþe</SpecificName>
-    <RequiredTechnology>phase_town</RequiredTechnology>
     <VisibleClasses datatype="tokens">Town</VisibleClasses>
+    <Requirements>
+      <Techs>phase_town</Techs>
+    </Requirements>
   </Identity>
   <Population>
     <Bonus>4</Bonus>
   </Population>
-  <ProductionQueue>
+  <Researcher>
     <Technologies datatype="tokens">
       -soldier_resistance_pierce_01
       -soldier_resistance_pierce_02
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <VisualActor>
     <Actor>structures/anglo/blacksmith.xml</Actor>
   </VisualActor>

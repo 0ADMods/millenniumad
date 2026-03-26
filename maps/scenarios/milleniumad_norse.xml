@@ -259,14 +259,14 @@
       <Actor seed="16662"/>
     </Entity>
     <Entity uid="38">
-      <Template>units/norse/ship_trireme</Template>
+      <Template>units/norse/ship_arrow</Template>
       <Player>0</Player>
       <Position x="342.88776" z="161.46958"/>
       <Orientation y="2.35621"/>
       <Actor seed="32156"/>
     </Entity>
     <Entity uid="39">
-      <Template>units/norse/ship_quinquereme</Template>
+      <Template>units/norse/ship_siege</Template>
       <Player>0</Player>
       <Position x="358.58085" z="175.00135"/>
       <Orientation y="2.35621"/>
@@ -287,7 +287,7 @@
       <Actor seed="46686"/>
     </Entity>
     <Entity uid="42">
-      <Template>units/norse/ship_bireme</Template>
+      <Template>units/norse/ship_scout</Template>
       <Player>0</Player>
       <Position x="389.90601" z="201.32367"/>
       <Orientation y="2.35621"/>

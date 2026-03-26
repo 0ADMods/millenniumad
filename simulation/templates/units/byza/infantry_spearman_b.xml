@@ -3,7 +3,7 @@
   <Identity>
     <SelectionGroupName>units/byza/infantry_spearman_b</SelectionGroupName>
     <SpecificName>Akritēs</SpecificName>
-    <Icon>units/byza_infantry_spearman.png</Icon>
+    <Icon>units/byza/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/byza/infantry_spearman_a</Entity>

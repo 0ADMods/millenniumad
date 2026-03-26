@@ -3,7 +3,7 @@
   <Identity>
     <Civ>umay</Civ>
     <SpecificName>Ploîon Halieutikón</SpecificName>
-    <Icon>units/byza_fishing_ship.png</Icon>
+    <Icon>units/byza/fishing_ship.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/byzantines/fishing_boat.xml</Actor>

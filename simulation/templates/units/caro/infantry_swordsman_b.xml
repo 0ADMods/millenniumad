@@ -2,8 +2,10 @@
 <Entity parent="civ/caro|template_unit_infantry_melee_swordsman">
   <Identity>
     <SelectionGroupName>units/caro/infantry_swordsman_b</SelectionGroupName>
-    <Icon>units/caro_infantry_swordsman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Icon>units/caro/infantry_swordsman.png</Icon>
+    <Requirements>
+      <Techs>phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/caro/infantry_swordsman_a</Entity>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_axeman">
   <Attack>
     <Melee>
@@ -14,9 +14,11 @@
     <Civ>norse</Civ>
     <GenericName>Bodyguard</GenericName>
     <SpecificName>Huskárl</SpecificName>
-    <Icon>units/norse_huskarl.png</Icon>
-    <RequiredTechnology>unlock_champion_units_modded</RequiredTechnology>
+    <Icon>units/norse/huskarl.png</Icon>
     <SelectionGroupName>units/norse/champion_huscarl</SelectionGroupName>
+    <Requirements>
+      <Techs>unlock_champion_units_modded</Techs>
+    </Requirements>
   </Identity>
   <VisualActor>
     <Actor>units/norse/champion_huscarl.xml</Actor>

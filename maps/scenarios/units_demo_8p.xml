@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scenario version="8">
+	<Environment>
+		<SkySet>default</SkySet>
+		<SunColor r="1.0" g="1.0" b="1.0"/>
+		<SunElevation angle="0.628"/>
+		<SunRotation angle="0"/>
+		<TerrainAmbientColor r="0.3" g="0.3" b="0.3"/>
+		<UnitsAmbientColor r="0.65" g="0.65" b="0.65"/>
+		<Water>
+			<WaterBody>
+				<Type>default</Type>
+				<Height>20</Height>
+				<Shininess>0.8</Shininess>
+				<Murkiness>0.45</Murkiness>
+				<Color r="0.3" g="0.39" b="0.59"/>
+			</WaterBody>
+		</Water>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.8"/>
+		</Fog>
+		<celestialObject>
+			<RA angle="0"/>
+			<Declination angle="0.4"/>
+		</celestialObject>
+	</Environment>
+	<Camera>
+		<Position x="128" y="150" z="128"/>
+		<Rotation angle="0"/>
+	</Camera>
+	<ScriptSettings>
+		<Victory>endless</Victory>
+	</ScriptSettings>
+	<Entities>
+		<!-- Player 1 (Anglo) -->
+		<Entity uid="1">
+			<Template>units/anglo/hero_infantry_swordsman_charlemagne</Template>
+			<Player>1</Player>
+			<Position x="50" y="50" z="50"/>
+			<Orientation y="3.14159"/>
+		</Entity>
+		<Entity uid="2">
+			<Template>units/anglo/infantry_spearman_a</Template>
+			<Player>1</Player>
+			<Position x="55" y="50" z="50"/>
+			<Orientation y="3.14159"/>
+		</Entity>
+		<Entity uid="3">
+			<Template>units/anglo/infantry_archer_a</Template>
+			<Player>1</Player>
+			<Position x="60" y="50" z="50"/>
+			<Orientation y="3.14159"/>
+		</Entity>
+		<Entity uid="4">
+			<Template>structures/anglo/civil_centre</Template>
+			<Player>1</Player>
+			<Position x="40" y="50" z="40"/>
+		</Entity>
+
+		<!-- Player 2 (Byzantine) -->
+		<Entity uid="5">
+			<Template>units/byzantines/hero_basileus</Template>
+			<Player>2</Player>
+			<Position x="200" y="50" z="50"/>
+			<Orientation y="0"/>
+		</Entity>
+		<Entity uid="6">
+			<Template>units/byzantines/infantry_swordsman_a</Template>
+			<Player>2</Player>
+			<Position x="195" y="50" z="50"/>
+			<Orientation y="0"/>
+		</Entity>
+		<Entity uid="7">
+			<Template>units/byzantines/infantry_archer_a</Template>
+			<Player>2</Player>
+			<Position x="190" y="50" z="50"/>
+			<Orientation y="0"/>
+		</Entity>
+		<Entity uid="8">
+			<Template>structures/byza/civil_centre</Template>
+			<Player>2</Player>
+			<Position x="210" y="50" z="40"/>
+		</Entity>
+
+		<!-- Player 3 (Carolingian) -->
+		<Entity uid="9">
+			<Template>units/caro/infantry_spearman_a</Template>
+			<Player>3</Player>
+			<Position x="50" y="50" z="200"/>
+			<Orientation y="1.5708"/>
+		</Entity>
+		<Entity uid="10">
+			<Template>units/caro/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="50" y="50" z="195"/>
+			<Orientation y="1.5708"/>
+		</Entity>
+		<Entity uid="11">
+			<Template>structures/caro/civil_centre</Template>
+			<Player>3</Player>
+			<Position x="40" y="50" z="210"/>
+		</Entity>
+
+		<!-- Player 4 (Norse) -->
+		<Entity uid="12">
+			<Template>units/norse/infantry_spearman_a</Template>
+			<Player>4</Player>
+			<Position x="200" y="50" z="200"/>
+			<Orientation y="4.7124"/>
+		</Entity>
+		<Entity uid="13">
+			<Template>units/norse/infantry_archer_a</Template>
+			<Player>4</Player>
+			<Position x="200" y="50" z="195"/>
+			<Orientation y="4.7124"/>
+		</Entity>
+		<Entity uid="14">
+			<Template>structures/norse/civil_centre</Template>
+			<Player>4</Player>
+			<Position x="210" y="50" z="210"/>
+		</Entity>
+
+		<!-- Player 5 (Umayyad) -->
+		<Entity uid="15">
+			<Template>units/umay/infantry_spearman_a</Template>
+			<Player>5</Player>
+			<Position x="125" y="50" z="50"/>
+			<Orientation y="1.5708"/>
+		</Entity>
+		<Entity uid="16">
+			<Template>units/umay/cavalry_archer_a</Template>
+			<Player>5</Player>
+			<Position x="120" y="50" z="50"/>
+			<Orientation y="1.5708"/>
+		</Entity>
+		<Entity uid="17">
+			<Template>structures/umay/civil_centre</Template>
+			<Player>5</Player>
+			<Position x="115" y="50" z="40"/>
+		</Entity>
+
+		<!-- Player 6 (Anglo repeat) -->
+		<Entity uid="18">
+			<Template>units/anglo/infantry_spearman_a</Template>
+			<Player>6</Player>
+			<Position x="125" y="50" z="200"/>
+			<Orientation y="1.5708"/>
+		</Entity>
+		<Entity uid="19">
+			<Template>units/anglo/cavalry_swordsman_a</Template>
+			<Player>6</Player>
+			<Position x="120" y="50" z="200"/>
+			<Orientation y="1.5708"/>
+		</Entity>
+		<Entity uid="20">
+			<Template>structures/anglo/civil_centre</Template>
+			<Player>6</Player>
+			<Position x="115" y="50" z="210"/>
+		</Entity>
+
+		<!-- Player 7 (Byzantine repeat) -->
+		<Entity uid="21">
+			<Template>units/byzantines/cavalry_spearman_a</Template>
+			<Player>7</Player>
+			<Position x="50" y="50" z="125"/>
+			<Orientation y="0"/>
+		</Entity>
+		<Entity uid="22">
+			<Template>units/byzantines/infantry_javelinist_a</Template>
+			<Player>7</Player>
+			<Position x="55" y="50" z="125"/>
+			<Orientation y="0"/>
+		</Entity>
+		<Entity uid="23">
+			<Template>structures/byza/civil_centre</Template>
+			<Player>7</Player>
+			<Position x="40" y="50" z="115"/>
+		</Entity>
+
+		<!-- Player 8 (Carolingian repeat) -->
+		<Entity uid="24">
+			<Template>units/caro/cavalry_archer_a</Template>
+			<Player>8</Player>
+			<Position x="200" y="50" z="125"/>
+			<Orientation y="1.5708"/>
+		</Entity>
+		<Entity uid="25">
+			<Template>units/caro/infantry_spearman_a</Template>
+			<Player>8</Player>
+			<Position x="200" y="50" z="120"/>
+			<Orientation y="1.5708"/>
+		</Entity>
+		<Entity uid="26">
+			<Template>structures/caro/civil_centre</Template>
+			<Player>8</Player>
+			<Position x="210" y="50" z="115"/>
+		</Entity>
+	</Entities>
+</Scenario>

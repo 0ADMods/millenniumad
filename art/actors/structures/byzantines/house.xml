@@ -5,10 +5,11 @@
     <variant frequency="5" name="House A">
       <mesh>structural/byza_house_a.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct.png" name="baseTex"/>
-				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
+        <texture file="structural/byzantine_struct.png" name="baseTex"/>
+        <texture file="structural/byzantine_struct_norm.png" name="normTex"/>
         <texture file="structural/ao/byza_house_a.png" name="aoTex"/>
-			</textures>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/house_roof.xml" attachpoint="root"/>
@@ -19,27 +20,29 @@
         <prop actor="props/structures/byzantines/column.xml" attachpoint="column_e"/>
         <prop actor="props/structures/byzantines/column.xml" attachpoint="column_f"/>
         <prop actor="props/structures/byzantines/column.xml" attachpoint="column_g"/>
-			</props>
+      </props>
     </variant>
     <variant frequency="5" name="House B">
       <mesh>structural/byza_house_b.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct.png" name="baseTex"/>
-				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
+        <texture file="structural/byzantine_struct.png" name="baseTex"/>
+        <texture file="structural/byzantine_struct_norm.png" name="normTex"/>
         <texture file="structural/ao/byza_house_b.png" name="aoTex"/>
-			</textures>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/house_roof.xml" attachpoint="root"/>
-			</props>
+      </props>
     </variant>
     <variant frequency="5" name="House C">
       <mesh>structural/byza_house_c.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct.png" name="baseTex"/>
-				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
+        <texture file="structural/byzantine_struct.png" name="baseTex"/>
+        <texture file="structural/byzantine_struct_norm.png" name="normTex"/>
         <texture file="structural/ao/byza_house_c.png" name="aoTex"/>
-			</textures>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/house_roof.xml" attachpoint="root"/>
@@ -49,15 +52,16 @@
         <prop actor="props/structures/byzantines/column_large.xml" attachpoint="column_d"/>
         <prop actor="props/structures/byzantines/column_large.xml" attachpoint="column_e"/>
         <prop actor="props/structures/byzantines/column_large.xml" attachpoint="column_f"/>
-			</props>
+      </props>
     </variant>
     <variant frequency="5" name="House D">
       <mesh>structural/byza_house_d.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct.png" name="baseTex"/>
-				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
+        <texture file="structural/byzantine_struct.png" name="baseTex"/>
+        <texture file="structural/byzantine_struct_norm.png" name="normTex"/>
         <texture file="structural/ao/byza_house_d.png" name="aoTex"/>
-			</textures>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/house_roof.xml" attachpoint="root"/>
@@ -70,19 +74,20 @@
         <prop actor="props/structures/byzantines/column.xml" attachpoint="column_g"/>
         <prop actor="props/structures/byzantines/column.xml" attachpoint="column_h"/>
         <prop actor="props/structures/byzantines/column.xml" attachpoint="column_i"/>
-			</props>
+      </props>
     </variant>
     <variant frequency="5" name="House E">
       <mesh>structural/byza_house_e.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct.png" name="baseTex"/>
-				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
+        <texture file="structural/byzantine_struct.png" name="baseTex"/>
+        <texture file="structural/byzantine_struct_norm.png" name="normTex"/>
         <texture file="structural/ao/byza_house_b.png" name="aoTex"/>
-			</textures>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/house_roof.xml" attachpoint="root"/>
-			</props>
+      </props>
     </variant>
   </group>
   <group>
@@ -97,5 +102,5 @@
       </props>
     </variant>
   </group>
-<material>player_trans_ao_parallax.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

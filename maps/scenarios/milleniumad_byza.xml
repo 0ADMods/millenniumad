@@ -831,7 +831,7 @@
 			<Actor seed="7274"/>
 		</Entity>
 		<Entity uid="119">
-			<Template>units/byza/ship_bireme</Template>
+			<Template>units/byza/ship_scout</Template>
 			<Player>0</Player>
 			<Position x="446.74781" z="180.36524"/>
 			<Orientation y="2.35621"/>
@@ -852,7 +852,7 @@
 			<Actor seed="24922"/>
 		</Entity>
 		<Entity uid="122">
-			<Template>units/byza/ship_trireme</Template>
+			<Template>units/byza/ship_arrow</Template>
 			<Player>0</Player>
 			<Position x="475.2121" z="214.51218"/>
 			<Orientation y="2.35621"/>
@@ -929,7 +929,7 @@
 			<Actor seed="1756"/>
 		</Entity>
 		<Entity uid="142">
-			<Template>units/byza/ship_bireme_fire</Template>
+			<Template>units/byza/ship_scout_fire</Template>
 			<Player>0</Player>
 			<Position x="460.64673" z="194.56806"/>
 			<Orientation y="2.35621"/>

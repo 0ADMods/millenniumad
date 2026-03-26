@@ -572,7 +572,7 @@
 			<Actor seed="32262"/>
 		</Entity>
 		<Entity uid="86">
-			<Template>units/caro/ship_trireme</Template>
+			<Template>units/caro/ship_arrow</Template>
 			<Player>0</Player>
 			<Position x="455.6475" z="213.3779"/>
 			<Orientation y="2.35621"/>

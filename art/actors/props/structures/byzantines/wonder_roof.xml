@@ -5,11 +5,12 @@
     <variant name="Wonder_roof">
       <mesh>props/byza_wonder_roof.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_roof.png" name="baseTex"/>
-				<texture file="structural/byzantine_roof_norm.png" name="normTex"/>
+        <texture file="structural/byzantine_roof.png" name="baseTex"/>
+        <texture file="structural/byzantine_roof_norm.png" name="normTex"/>
         <texture file="structural/ao/byza_wonder_roof.png" name="aoTex"/>
-			</textures>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
-<material>player_trans_ao_parallax.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

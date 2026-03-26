@@ -2,15 +2,15 @@
 <Entity parent="template_structure_civic_civil_centre">
   <Identity>
     <Civ>umay</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName/>
   </Identity>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_spearman_b
       units/{civ}/infantry_archer_b
       units/{civ}/infantry_swordsman_b
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/seleucids/civic_center.xml</Actor>
   </VisualActor>

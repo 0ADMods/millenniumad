@@ -20,11 +20,11 @@
   <Obstruction>
     <Static width="22.0" depth="20.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/champion_infantry_sword
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/byzantines/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

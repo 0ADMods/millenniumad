@@ -13,7 +13,7 @@
   <Obstruction>
     <Static width="28.0" depth="13.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <Trainer>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}/infantry_archer_b
@@ -21,7 +21,7 @@
       units/{civ}/hero_charlemagne
       units/{civ}/champion_cavalry
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/carolingian/civil_centre.xml</Actor>
     <FoundationActor>structures/fndn_6x3.xml</FoundationActor>

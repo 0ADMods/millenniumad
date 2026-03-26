@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
   <group>
@@ -9,6 +9,8 @@
       </props>
       <textures>
         <texture file="props/prop_weap.dds" name="baseTex"/>
+        <texture name="specTex" file="null_white.dds"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>
@@ -29,8 +31,5 @@
       <mesh>props/weap_shaft_wood_long_e.dae</mesh>
     </variant>
   </group>
-  <material>basic_spec.xml</material>
+  <material>no_trans_norm_spec.xml</material>
 </actor>
-
-
-

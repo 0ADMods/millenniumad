@@ -411,7 +411,7 @@
 			<Actor seed="244"/>
 		</Entity>
 		<Entity uid="143">
-			<Template>units/norse/ship_bireme</Template>
+			<Template>units/norse/ship_scout</Template>
 			<Player>0</Player>
 			<Position x="357.67536" z="172.0015"/>
 			<Orientation y="2.35621"/>
@@ -432,14 +432,14 @@
 			<Actor seed="29284"/>
 		</Entity>
 		<Entity uid="146">
-			<Template>units/norse/ship_quinquereme</Template>
+			<Template>units/norse/ship_siege</Template>
 			<Player>0</Player>
 			<Position x="387.42298" z="190.28827"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11144"/>
 		</Entity>
 		<Entity uid="147">
-			<Template>units/norse/ship_trireme</Template>
+			<Template>units/norse/ship_arrow</Template>
 			<Player>0</Player>
 			<Position x="381.1875" z="152.75251"/>
 			<Orientation y="2.35621"/>

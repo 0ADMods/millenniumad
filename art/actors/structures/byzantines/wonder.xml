@@ -5,10 +5,11 @@
     <variant name="blacksmith">
       <mesh>structural/byza_wonder_a.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct3.png" name="baseTex"/>
-				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
+        <texture file="structural/byzantine_struct3.png" name="baseTex"/>
+        <texture file="structural/byzantine_struct_norm.png" name="normTex"/>
         <texture file="structural/ao/byza_wonder_a.png" name="aoTex"/>
-			</textures>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
       <props>
         <prop actor="props/structures/decals/dirt_theater.xml" attachpoint="dirt_F"/>
         <prop actor="props/structures/decals/dirt_theater.xml" attachpoint="dirt_B"/>
@@ -46,5 +47,5 @@
       </props>
     </variant>
   </group>
-<material>player_trans_ao_parallax.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

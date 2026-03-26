@@ -11,7 +11,7 @@
     <Max>75</Max>
   </Health>
   <Identity>
-    <Icon>units/caro_support_female_citizen.png</Icon>
+    <Icon>units/caro/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/caro/female_citizen.xml</Actor>

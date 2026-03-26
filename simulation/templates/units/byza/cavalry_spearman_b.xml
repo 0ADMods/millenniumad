@@ -2,12 +2,14 @@
 <Entity parent="template_unit_cavalry_melee_spearman">
   <Identity>
     <Civ>byza</Civ>
-	<Lang>greek</Lang>
+    <Lang>greek</Lang>
     <GenericName>Cavalry Spearman</GenericName>
-	  <SelectionGroupName>units/byza/cavalry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/byza/cavalry_spearman_b</SelectionGroupName>
     <SpecificName>Hippoakritēs</SpecificName>
-    <Icon>units/byza_cavalry_spearman.png</Icon>
-	<RequiredTechnology>phase_town</RequiredTechnology>
+    <Icon>units/byza/cavalry_spearman.png</Icon>
+    <Requirements>
+      <Techs>phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/byza/cavalry_spearman_a</Entity>

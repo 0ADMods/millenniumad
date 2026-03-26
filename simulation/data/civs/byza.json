@@ -1,87 +1,71 @@
 {
-	"Code": "byza",
-	"Culture": "byza",
-	"Name": "Byzantines",
-	"Emblem": "session/portraits/emblems/emblem_byzantines.png",
-	"History": "The Byzantine Empire, also referred to as the Eastern Roman Empire and Byzantium, was the continuation of the Roman Empire in its eastern provinces during Late Antiquity and the Middle Ages, when its capital city was Constantinople (modern-day Istanbul, which had been founded as Byzantium). It survived the fragmentation and fall of the Western Roman Empire in the 5th century AD and continued to exist for an additional thousand years until it fell to the Ottoman Turks in 1453. During most of its existence, the empire was the most powerful economic, cultural, and military force in Europe.",
-	"Music": [
-		{
-			"File": "Juno_Protect_You.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Mediterranean_Waves.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Elysian_Fields.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "The_Governor.ogg",
-			"Type": "peace"
-		}
-	],
-	"CivBonuses": [],
-	"WallSets": [
-		"structures/wallset_palisade",
-		"structures/byza/wallset_stone",
-		"structures/byza/wallset_stone_02",
-		"structures/byza/wallset_stone_03",
-		"structures/byza/wallset_stone_04"
-	],
-	"StartEntities": [
-		{
-			"Template": "structures/byza/civil_centre"
-		},
-		{
-			"Template": "units/byza/support_female_citizen",
-			"Count": 4
-		},
-		{
-			"Template": "units/byza/infantry_javelineer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/byza/infantry_spearman_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/byza/cavalry_javelineer_b"
-		}
-	],
-	"Formations": [
-		"special/formations/null",
-		"special/formations/box",
-		"special/formations/column_closed",
-		"special/formations/line_closed",
-		"special/formations/column_open",
-		"special/formations/line_open",
-		"special/formations/flank",
-		"special/formations/skirmish",
-		"special/formations/wedge",
-		"special/formations/battle_line",
-		"special/formations/shieldwall"
-	],
-	"AINames": [
-		"Ioustinianós",
-		"Kōnstantînos",
-		"Leōn",
-		"Nikēphoros",
-		"Michaēl",
-		"Basíleios",
-		"Alexandros",
-		"Rōmanos",
-		"Iōánnēs",
-		"Komnēnos",
-		"Manouēl",
-		"Alexios",
-		"Iraklios",
-		"Isaakios"
-	],
-	"SkirmishReplacements": {
-		"skirmish/units/default_infantry_ranged_b": "units/byza/infantry_javelineer_b",
-		"skirmish/structures/default_house_10": "structures/{civ}/house"
-	},
-	"SelectableInGameSetup": true
+    "Code": "byza",
+    "Culture": "byza",
+    "Music": [
+        {
+            "File": "Juno_Protect_You.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Mediterranean_Waves.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Elysian_Fields.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "The_Governor.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/byza/wallset_stone",
+        "structures/byza/wallset_stone_02",
+        "structures/byza/wallset_stone_03",
+        "structures/byza/wallset_stone_04"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/byza/civil_centre"
+        },
+        {
+            "Template": "units/byza/support_civilian",
+            "Count": 4
+        },
+        {
+            "Template": "units/byza/infantry_javelineer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/byza/infantry_spearman_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/byza/cavalry_javelineer_b"
+        }
+    ],
+    "AINames": [
+        "Ioustinian\u00f3s",
+        "K\u014dnstant\u00eenos",
+        "Le\u014dn",
+        "Nik\u0113phoros",
+        "Micha\u0113l",
+        "Bas\u00edleios",
+        "Alexandros",
+        "R\u014dmanos",
+        "I\u014d\u00e1nn\u0113s",
+        "Komn\u0113nos",
+        "Manou\u0113l",
+        "Alexios",
+        "Iraklios",
+        "Isaakios"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_infantry_ranged_b": "units/byza/infantry_javelineer_b",
+        "skirmish/structures/default_house_10": "structures/{civ}/house"
+    },
+    "SelectableInGameSetup": true
 }

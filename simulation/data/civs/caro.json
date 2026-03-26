@@ -1,75 +1,59 @@
 {
-	"Code": "caro",
-	"Culture": "caro",
-	"Name": "Carolingians",
-	"Emblem": "session/portraits/emblems/emblem_carolingians.png",
-	"History": "In the late 5th and early 6th centuries, Clovis I , the warrior-leader of one of the groups of peoples collectively known as the Franks, established a strong independent monarchy in what are now the northern part of France and the southwestern part of Belgium. He expanded into southern Gaul, driving the Visigoths across the Pyrenees, and established a strong Frankish presence east of the Rhine. Charlemagne and his successors patronized a vast project to restore the fragmented western European world to an earlier idealized condition.",
-	"Music": [
-		{
-			"File": "The_Land_of_Eternal_Winter.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "To_Valhalla.ogg",
-			"Type": "peace"
-		}
-	],
-	"CivBonuses": [],
-	"WallSets": [
-		"structures/wallset_palisade",
-		"structures/caro/wallset_stone"
-	],
-	"StartEntities": [
-		{
-			"Template": "structures/caro/civil_centre"
-		},
-		{
-			"Template": "units/caro/support_female_citizen",
-			"Count": 4
-		},
-		{
-			"Template": "units/caro/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/caro/infantry_spearman_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/caro/cavalry_spearman_b"
-		}
-	],
-	"Formations": [
-		"special/formations/null",
-		"special/formations/box",
-		"special/formations/column_closed",
-		"special/formations/line_closed",
-		"special/formations/column_open",
-		"special/formations/line_open",
-		"special/formations/flank",
-		"special/formations/skirmish",
-		"special/formations/wedge",
-		"special/formations/battle_line",
-		"special/formations/shieldwall"
-	],
-	"AINames": [
-		"Charles Martel",
-		"Charlemagne",
-		"Charles the Bald",
-		"Louis the Pious",
-		"Pepin the Short",
-		"Carloman I",
-		"Lothair I",
-		"Pepin of Italy",
-		"Pepin I of Aquitaine",
-		"Pepin the Hunchback",
-		"Charles the Younger",
-		"Louis the German"
-	],
-	"SkirmishReplacements": {
-		"skirmish/units/default_cavalry": "units/caro/cavalry_spearman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/caro/infantry_archer_b",
-		"skirmish/structures/default_house_10": "structures/{civ}/house"
-	},
-	"SelectableInGameSetup": true
+    "Code": "caro",
+    "Culture": "caro",
+    "Music": [
+        {
+            "File": "The_Land_of_Eternal_Winter.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "To_Valhalla.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/caro/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/caro/civil_centre"
+        },
+        {
+            "Template": "units/caro/support_civilian",
+            "Count": 4
+        },
+        {
+            "Template": "units/caro/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/caro/infantry_spearman_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/caro/cavalry_spearman_b"
+        }
+    ],
+    "AINames": [
+        "Charles Martel",
+        "Charlemagne",
+        "Charles the Bald",
+        "Louis the Pious",
+        "Pepin the Short",
+        "Carloman I",
+        "Lothair I",
+        "Pepin of Italy",
+        "Pepin I of Aquitaine",
+        "Pepin the Hunchback",
+        "Charles the Younger",
+        "Louis the German"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/caro/cavalry_spearman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/caro/infantry_archer_b",
+        "skirmish/structures/default_house_10": "structures/{civ}/house"
+    },
+    "SelectableInGameSetup": true
 }

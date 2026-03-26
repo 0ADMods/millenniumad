@@ -3,10 +3,12 @@
   <Identity>
     <Civ>anglo</Civ>
     <GenericName>Border Horseman</GenericName>
-	  <SelectionGroupName>units/anglo/cavalry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/anglo/cavalry_spearman_b</SelectionGroupName>
     <SpecificName>Rideheres</SpecificName>
-    <Icon>units/anglo_cavalry_spearman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Icon>units/anglo/cavalry_spearman.png</Icon>
+    <Requirements>
+      <Techs>phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/anglo/cavalry_spearman_a</Entity>

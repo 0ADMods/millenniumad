@@ -5,15 +5,17 @@
     <variant name="Pedestal_A">
       <mesh>props/byza_column_pedestal_a.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct_b.png" name="baseTex"/>
-				<texture file="structural/byzantine_struct_b_norm.png" name="normTex"/>
+        <texture file="structural/byzantine_struct_b.png" name="baseTex"/>
+        <texture file="structural/byzantine_struct_b_norm.png" name="normTex"/>
         <texture file="structural/byzantine_struct_b_spec.png" name="specTex"/>
         <texture file="structural/ao/byza_pedestal_a.png" name="aoTex"/>
-			</textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
       <props>
         <prop actor="props/structures/byzantines/column_b.xml" attachpoint="column"/>
-			</props>
+      </props>
     </variant>
   </group>
-<material>player_trans_ao.xml</material>
+  <material>player_trans_ao_norm_spec.xml</material>
 </actor>

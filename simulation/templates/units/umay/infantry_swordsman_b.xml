@@ -3,9 +3,11 @@
   <Identity>
     <SelectionGroupName>units/umay/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Infantry Swordsman</GenericName>
-    <SpecificName></SpecificName>
-    <Icon>units/umay_infantry_swordsman.png</Icon>
-	<RequiredTechnology>phase_town</RequiredTechnology>
+    <SpecificName/>
+    <Icon>units/umay/infantry_swordsman.png</Icon>
+    <Requirements>
+      <Techs>phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/umay/infantry_swordsman_a</Entity>

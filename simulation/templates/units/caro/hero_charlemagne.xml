@@ -4,7 +4,7 @@
     <Civ>caro</Civ>
     <GenericName>Charlemagne</GenericName>
     <SpecificName>Carolus Magnus</SpecificName>
-    <Icon>units/caro_hero_charlemagne.png</Icon>
+    <Icon>units/caro/hero_charlemagne.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/caro/hero_cavalry_swordsman_charlemagne_m.xml</Actor>

@@ -41,36 +41,42 @@
       <textures>
         <texture file="skeletal/caro/elite/chainmail1a.png" name="baseTex"/>
         <texture file="skeletal/caro/elite/chainmail1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="caro-chainmail1b">
       <textures>
         <texture file="skeletal/caro/elite/chainmail1b.png" name="baseTex"/>
         <texture file="skeletal/caro/elite/chainmail1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="caro-chainmail1c">
       <textures>
         <texture file="skeletal/caro/elite/chainmail1c.png" name="baseTex"/>
         <texture file="skeletal/caro/elite/chainmail1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="byza-chainmail1a">
       <textures>
         <texture file="skeletal/byza/elite/chainmail1a.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/chainmail1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="byza-chainmail1b">
       <textures>
         <texture file="skeletal/byza/elite/chainmail1b.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/chainmail1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="byza-chainmail1c">
       <textures>
         <texture file="skeletal/byza/elite/chainmail1c.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/chainmail1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="byza-chainmail-lamellar-geared1a">
@@ -78,6 +84,7 @@
       <textures>
         <texture file="skeletal/byza/elite/chainmail_lamellar1a_geared.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/chainmail_lamellar1_geared_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="byza-chainmail-lamellar-geared1b">
@@ -85,6 +92,7 @@
       <textures>
         <texture file="skeletal/byza/elite/chainmail_lamellar1b_geared.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/chainmail_lamellar1_geared_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="byza-chainmail-lamellar-geared1c">
@@ -92,6 +100,7 @@
       <textures>
         <texture file="skeletal/byza/elite/chainmail_lamellar1c_geared.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/chainmail_lamellar1_geared_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="byza-chainmail-lamellar-geared1d">
@@ -99,6 +108,7 @@
       <textures>
         <texture file="skeletal/byza/elite/chainmail_lamellar1d_geared.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/chainmail_lamellar1_geared_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="lamellar1a">
@@ -106,6 +116,7 @@
       <textures>
         <texture file="skeletal/byza/elite/lamellar1a.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/lamellar1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="lamellar1b">
@@ -113,6 +124,7 @@
       <textures>
         <texture file="skeletal/byza/elite/lamellar1b.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/lamellar1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="lamellar1c">
@@ -120,18 +132,21 @@
       <textures>
         <texture file="skeletal/byza/elite/lamellar1c.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/lamellar1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="lamellar_padded1a">
       <textures>
         <texture file="skeletal/byza/elite/lamellar_padded1a.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/lamellar_padded1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="lamellar_padded1b">
       <textures>
         <texture file="skeletal/byza/elite/lamellar_padded1b.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/lamellar_padded1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>
@@ -143,5 +158,5 @@
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans_spec.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

@@ -3,7 +3,7 @@
   <Identity>
     <SpecificName>Gynē</SpecificName>
     <SelectionGroupName>units/byza/support_female_citizen</SelectionGroupName>
-    <Icon>units/byza_support_female_citizen.png</Icon>
+    <Icon>units/byza/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/byzantines/female_citizen.xml</Actor>

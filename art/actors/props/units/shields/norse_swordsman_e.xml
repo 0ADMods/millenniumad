@@ -7,26 +7,26 @@
     </variant>
   </group>
   <group>
-  	<variant frequency="25" name= "4_rusty_iron_swirl_white">
-  		<textures>
-  			<texture file="props/shields/rusty_iron_swirl_04_white.png" name="baseTex"/>
-  		</textures>
-  	</variant>
-  	<variant frequency="25" name= "4_rusty_iron_swirl_black">
-  		<textures>
-  			<texture file="props/shields/rusty_iron_swirl_04_black.png" name="baseTex"/>
-  		</textures>
-  	</variant>
-  	<variant frequency="25" name= "4_iron_swirl_white">
-  		<textures>
-  			<texture file="props/shields/iron_swirl_04_white.png" name="baseTex"/>
-  		</textures>
-  	</variant>
-  	<variant frequency="25" name= "4_iron_swirl_black">
-  		<textures>
-  			<texture file="props/shields/iron_swirl_04_black.png" name="baseTex"/>
-  		</textures>
-  	</variant>
+    <variant frequency="25" name="4_rusty_iron_swirl_white">
+      <textures>
+        <texture file="props/shields/rusty_iron_swirl_04_white.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="25" name="4_rusty_iron_swirl_black">
+      <textures>
+        <texture file="props/shields/rusty_iron_swirl_04_black.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="25" name="4_iron_swirl_white">
+      <textures>
+        <texture file="props/shields/iron_swirl_04_white.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="25" name="4_iron_swirl_black">
+      <textures>
+        <texture file="props/shields/iron_swirl_04_black.png" name="baseTex"/>
+      </textures>
+    </variant>
     <variant frequency="25" name="1_iron_leather_full">
       <textures>
         <texture file="props/shields/iron_leather_full.png" name="baseTex"/>
@@ -88,5 +88,13 @@
       </textures>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

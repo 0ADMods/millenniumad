@@ -7,7 +7,7 @@
   <Identity>
     <Civ>norse</Civ>
     <SpecificName>Rambukk</SpecificName>
-    <Icon>units/celt_siege_ram.png</Icon>
+    <Icon>units/celt/siege_ram.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/norse/siege_ram.xml</Actor>

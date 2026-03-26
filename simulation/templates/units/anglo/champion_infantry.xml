@@ -4,8 +4,8 @@
     <Civ>anglo</Civ>
     <GenericName>Anglo-Saxon Royal Thane</GenericName>
     <SpecificName>Cynges Thegn</SpecificName>
-	<SelectionGroupName>units/anglo/champion_infantry</SelectionGroupName>
-    <Icon>units/anglo_champion_infantry.png</Icon>
+    <SelectionGroupName>units/anglo/champion_infantry</SelectionGroupName>
+    <Icon>units/anglo/champion_infantry.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/anglo/champion_infantry.xml</Actor>

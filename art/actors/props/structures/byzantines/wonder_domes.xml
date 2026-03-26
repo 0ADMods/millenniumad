@@ -5,11 +5,12 @@
     <variant name="Wonder_domes">
       <mesh>props/byza_wonder_domes.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct_b.png" name="baseTex"/>
-				<texture file="structural/byzantine_struct_b_norm.png" name="normTex"/>
+        <texture file="structural/byzantine_struct_b.png" name="baseTex"/>
+        <texture file="structural/byzantine_struct_b_norm.png" name="normTex"/>
         <texture file="structural/ao/byza_wonder_domes.png" name="aoTex"/>
-			</textures>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
-<material>player_trans_parallax.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 </actor>

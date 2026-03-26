@@ -5,9 +5,11 @@
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>
     <SelectionGroupName>units/umay/cavalry_archer_b</SelectionGroupName>
     <GenericName>Bedouin Camel Archer</GenericName>
-    <SpecificName></SpecificName>
-    <Icon>units/pers_cavalry_archer.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SpecificName/>
+    <Icon>units/pers/cavalry_archer.png</Icon>
+    <Requirements>
+      <Techs>phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/umay/cavalry_archer_merc_a</Entity>

@@ -3,8 +3,8 @@
   <Identity>
     <Civ>umay</Civ>
     <SelectionGroupName>units/umay/support_healer_b</SelectionGroupName>
-    <SpecificName></SpecificName>
-    <Icon>units/umay_support_healer.png</Icon>
+    <SpecificName/>
+    <Icon>units/umay/support_healer.png</Icon>
     <Rank>Basic</Rank>
   </Identity>
   <Promotion>

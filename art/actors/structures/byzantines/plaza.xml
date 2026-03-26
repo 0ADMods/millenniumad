@@ -5,10 +5,11 @@
     <variant name="Plaza">
       <mesh>structural/byza_plaza.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct.png" name="baseTex"/>
-				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
+        <texture file="structural/byzantine_struct.png" name="baseTex"/>
+        <texture file="structural/byzantine_struct_norm.png" name="normTex"/>
         <texture file="structural/ao/byza_plaza.png" name="aoTex"/>
-			</textures>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
       <props>
         <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/plaza_roof.xml" attachpoint="root"/>
@@ -57,7 +58,7 @@
         <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="cypress_large_b"/>
         <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="cypress_large_c"/>
         <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="cypress_large_d"/>
-			</props>
+      </props>
     </variant>
   </group>
   <group>
@@ -80,5 +81,5 @@
       </props>
     </variant>
   </group>
-<material>player_trans_ao_parallax.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

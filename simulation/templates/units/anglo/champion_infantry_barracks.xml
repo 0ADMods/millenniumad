@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/anglo/champion_infantry">
   <Identity>
-    <RequiredTechnology>unlock_champion_units_modded</RequiredTechnology>
+    <Requirements>
+      <Techs>unlock_champion_units_modded</Techs>
+    </Requirements>
   </Identity>
 </Entity>

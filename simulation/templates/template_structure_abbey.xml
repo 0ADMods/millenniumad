@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic">
-  <Gate>
-    <PassRange>20</PassRange>
-  </Gate>
-  <Obstruction>
-    <Obstructions>
-      <Right width="25.5" depth="24" x="0" z="12"/>
-      <Left width="25.5" depth="8" x="0" z="-12"/>
-      <Door width="5.5" depth="13" x="0" z="5"/>
-    </Obstructions>
-  </Obstruction>
   <Auras datatype="tokens">
     structures/temple_heal
   </Auras>
@@ -34,6 +24,9 @@
     <BuffHeal>3</BuffHeal>
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
+  <Gate>
+    <PassRange>20</PassRange>
+  </Gate>
   <Health>
     <Max>2000</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
@@ -43,20 +36,25 @@
     <Tooltip>Train healers. Garrison units to heal them at a quick rate (3 HP per second). Research healing and religious improvements.</Tooltip>
     <VisibleClasses datatype="tokens">Town Temple</VisibleClasses>
     <Icon>structures/temple.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs>phase_town</Techs>
+    </Requirements>
   </Identity>
   <Loot>
     <stone>50</stone>
     <metal>50</metal>
   </Loot>
+  <Obstruction>
+    <Obstructions>
+      <Right width="25.5" depth="24" x="0" z="12"/>
+      <Left width="25.5" depth="8" x="0" z="-12"/>
+      <Door width="5.5" depth="13" x="0" z="5"/>
+    </Obstructions>
+  </Obstruction>
   <Population>
     <Bonus>5</Bonus>
   </Population>
-  <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
-    <Entities datatype="tokens">
-      units/{civ}_support_healer_b
-    </Entities>
+  <Researcher>
     <Technologies datatype="tokens">
       heal_range
       heal_range_2
@@ -65,7 +63,7 @@
       heal_temple
       health_regen_units
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_temple.xml</select>
@@ -78,8 +76,14 @@
     <Radius>40</Radius>
     <Weight>30000</Weight>
   </TerritoryInfluence>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_support_healer_b
+    </Entities>
+  </Trainer>
+  <Upgrade disable=""/>
   <Vision>
     <Range>40</Range>
   </Vision>
-  <Upgrade disable=""/>
 </Entity>

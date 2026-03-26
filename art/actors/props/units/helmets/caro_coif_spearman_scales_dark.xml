@@ -11,6 +11,7 @@
       <textures>
         <texture file="props/helmet/coif_scales_dark.png" name="baseTex"/>
         <texture file="props/helmet/coif_scales_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>
@@ -38,5 +39,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>basic_trans_spec.xml</material>
+  <material>basic_trans_norm_spec.xml</material>
 </actor>

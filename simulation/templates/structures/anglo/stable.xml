@@ -7,23 +7,27 @@
   <Identity>
     <Civ>anglo</Civ>
     <Icon>structures/stables.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs>phase_town</Techs>
+    </Requirements>
   </Identity>
   <Population>
     <Bonus>8</Bonus>
   </Population>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      -units/{civ}/cavalry_swordsman_b
-      -units/{civ}/cavalry_javelineer_b
-      -units/{civ}/cavalry_archer_b    
-    </Entities>
+  <Researcher>
     <Technologies datatype="tokens">
       soldier_resistance_pierce_01
       soldier_resistance_pierce_02
       -cavalry_movement_speed
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      -units/{civ}/cavalry_swordsman_b
+      -units/{civ}/cavalry_javelineer_b
+      -units/{civ}/cavalry_archer_b    
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/anglo/stables.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>byza</Civ>
-    <Icon>units/hele_support_trader.png</Icon>
+    <Icon>units/hele/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/byzantines/trader.xml</Actor>

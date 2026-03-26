@@ -15,15 +15,15 @@
   </Health>
   <Identity>
     <Civ>umay</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName/>
   </Identity>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-    </Technologies>
-  </ProductionQueue>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+    </Technologies>
+  </Researcher>
   <VisualActor>
     <Actor>structures/seleucids/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

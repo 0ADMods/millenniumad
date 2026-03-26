@@ -4,7 +4,9 @@
     <Civ>byza</Civ>
     <GenericName>Inner Wall</GenericName>
     <SpecificName>Teichos</SpecificName>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Requirements>
+      <Techs>phase_city</Techs>
+    </Requirements>
   </Identity>
   <WallSet>
     <Templates>

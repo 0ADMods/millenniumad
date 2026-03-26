@@ -3,44 +3,44 @@
   <Attack>
     <Ranged>
       <Damage>
+        <Crush>0.0</Crush>
         <Hack>0.0</Hack>
         <Pierce>16.0</Pierce>
-        <Crush>0.0</Crush>
       </Damage>
+      <EffectDelay>0</EffectDelay>
       <MaxRange>72.0</MaxRange>
       <MinRange>0.0</MinRange>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
       <PrepareTime>1200</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
-      <Delay>0</Delay>
       <Projectile>
-        <Speed>75.0</Speed>
-        <Spread>1.5</Spread>
         <Gravity>9.81</Gravity>
         <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
       </Projectile>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
       <RangeOverlay>
         <LineTexture>outline_border.png</LineTexture>
         <LineTextureMask>outline_border_mask.png</LineTextureMask>
         <LineThickness>0.175</LineThickness>
       </RangeOverlay>
+      <RepeatTime>2000</RepeatTime>
     </Ranged>
   </Attack>
   <BuildRestrictions>
-    <Territory>own neutral</Territory>
     <Category>CivilCentre</Category>
     <Distance>
       <FromClass>CivilCentre</FromClass>
       <MinDistance>200</MinDistance>
     </Distance>
+    <Territory>own neutral</Territory>
   </BuildRestrictions>
   <Capturable>
     <CapturePoints op="mul">1.5</CapturePoints>
     <RegenRate op="mul">2.0</RegenRate>
   </Capturable>
   <Footprint>
-    <Square width="32.0" depth="24.0"/>
     <Height>8.0</Height>
+    <Square width="32.0" depth="24.0"/>
   </Footprint>
   <Health>
     <Max>3750</Max>
@@ -48,10 +48,10 @@
   </Health>
   <Identity>
     <Civ>norse</Civ>
-    <SpecificName>Jarl's Hold</SpecificName>
-    <History>This was be the center of the town, a great hall where the clan leader resided. All political matters were probably performed inside such a structure.</History>
-  	<Icon>structures/fortress.png</Icon>
     <Classes datatype="tokens">GarrisonFortress</Classes>
+    <History>This was be the center of the town, a great hall where the clan leader resided. All political matters were probably performed inside such a structure.</History>
+    <Icon>structures/fortress.png</Icon>
+    <SpecificName>Jarl's Hold</SpecificName>
     <VisibleClasses datatype="tokens">
       Defensive
       City
@@ -61,7 +61,23 @@
   <Obstruction>
     <Static width="30.0" depth="16.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <Researcher>
+    <Technologies datatype="tokens">
+      attack_soldiers_will
+      germanic_thingstead
+      unlock_champion_units_modded
+    </Technologies>
+  </Researcher>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush op="add">3</Crush>
+        <Hack op="add">5</Hack>
+        <Pierce op="add">5</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Trainer>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}/infantry_swordsman_b
@@ -74,21 +90,7 @@
       units/{civ}/hero_ivar_the_boneless
       units/{civ}/hero_hastein
     </Entities>
-    <Technologies datatype="tokens">
-      attack_soldiers_will
-      germanic_thingstead
-      unlock_champion_units_modded
-    </Technologies>
-  </ProductionQueue>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack op="add">5</Hack>
-        <Pierce op="add">5</Pierce>
-        <Crush op="add">3</Crush>
-      </Damage>
-    </Entity>
-  </Resistance>
+  </Trainer>
   <VisualActor>
     <Actor>structures/norse/jarls_hold.xml</Actor>
   </VisualActor>

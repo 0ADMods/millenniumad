@@ -63078,7 +63078,7 @@
 			<Orientation y="-1.74183"/>
 		</Entity>
 		<Entity uid="12245">
-			<Template>units/norse/ship_trireme</Template>
+			<Template>units/norse/ship_arrow</Template>
 			<Player>1</Player>
 			<Position x="1744.50342" z="1047.20484"/>
 			<Orientation y="-2.0082"/>
@@ -63124,7 +63124,7 @@
 			<Actor seed="31420"/>
 		</Entity>
 		<Entity uid="12260">
-			<Template>units/norse/ship_trireme</Template>
+			<Template>units/norse/ship_arrow</Template>
 			<Player>2</Player>
 			<Position x="1611.68348" z="1669.97181"/>
 			<Orientation y="-2.0109"/>

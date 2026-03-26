@@ -3,9 +3,9 @@
   <Identity>
     <Civ>caro</Civ>
     <GenericName>Cavalry Spearman</GenericName>
-	  <SelectionGroupName>units/caro/cavalry_spearman_b</SelectionGroupName>
-    <SpecificName></SpecificName>
-    <Icon>units/caro_cavalry_spearman.png</Icon>
+    <SelectionGroupName>units/caro/cavalry_spearman_b</SelectionGroupName>
+    <SpecificName/>
+    <Icon>units/caro/cavalry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/caro/cavalry_spearman_a</Entity>

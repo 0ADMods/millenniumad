@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
   <group>
     <variant name="Byza Trebuchet">
       <animations>
-        <animation file="mechanical/traction_trebuchet_idle.dae" name="Idle" speed="100" />
+        <animation file="mechanical/traction_trebuchet_idle.dae" name="Idle" speed="100"/>
         <animation file="mechanical/traction_trebuchet_attack.dae" event="0.11" load="0.85" name="attack_ranged" speed="80"/>
       </animations>
       <mesh>structural/byza_trebuchet.dae</mesh>
       <textures>
         <texture file="structural/hele_siege.dds" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
       <props>
         <prop actor="props/units/weapons/rock.xml" attachpoint="loaded-projectile"/>
@@ -23,4 +25,5 @@
       </props>
     </variant>
   </group>
+  <material>no_trans_norm_spec.xml</material>
 </actor>

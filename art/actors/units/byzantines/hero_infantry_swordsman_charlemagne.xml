@@ -5,8 +5,8 @@
     <variant file="biped/base_swordsman_shield_relax.xml">
       <mesh>skeletal/new/m_armor_dress.dae</mesh>
       <props>
-				<prop actor="props/units/helmets/old/pers_crown.xml" attachpoint="helmet"/>
-				<prop actor="props/units/heads/new/head_celt_su3.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/old/pers_crown.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/new/head_celt_su3.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/caro_infantry_sword.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/caro_infantry_sheath.xml" attachpoint="sheath_L"/>
       </props>
@@ -16,6 +16,8 @@
     <variant frequency="1" name="royal_dress">
       <textures>
         <texture file="skeletal/caro/hero/royal_dress1.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -25,5 +27,5 @@
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

@@ -30,18 +30,21 @@
       <textures>
         <texture file="skeletal/byza/elite/scale1a.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/scale1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Scale1b">
       <textures>
         <texture file="skeletal/byza/elite/scale1b.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/scale1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Scale1c">
       <textures>
         <texture file="skeletal/byza/elite/scale1c.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/scale1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="lamellar1a">
@@ -49,6 +52,7 @@
       <textures>
         <texture file="skeletal/byza/elite/lamellar1a.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/lamellar1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="lamellar1b">
@@ -56,6 +60,7 @@
       <textures>
         <texture file="skeletal/byza/elite/lamellar1b.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/lamellar1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="lamellar1c">
@@ -63,54 +68,63 @@
       <textures>
         <texture file="skeletal/byza/elite/lamellar1c.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/lamellar1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="lamellar2a">
       <textures>
         <texture file="skeletal/byza/elite/lamellar2a.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/lamellar2_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="lamellar2b">
       <textures>
         <texture file="skeletal/byza/elite/lamellar2b.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/lamellar2_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="lamellar2c">
       <textures>
         <texture file="skeletal/byza/elite/lamellar2c.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/lamellar2_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="chainmail1a">
       <textures>
         <texture file="skeletal/byza/elite/chainmail1a.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/chainmail1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="chainmail1b">
       <textures>
         <texture file="skeletal/byza/elite/chainmail1b.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/chainmail1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="chainmail1c">
       <textures>
         <texture file="skeletal/byza/elite/chainmail1c.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/chainmail1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="lamellar-padded1a">
       <textures>
         <texture file="skeletal/byza/elite/lamellar_padded1a.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/lamellar_padded1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="lamellar-padded1b">
       <textures>
         <texture file="skeletal/byza/elite/lamellar_padded1b.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/lamellar_padded1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="lamellar-pteruges-geared1a">
@@ -118,6 +132,7 @@
       <textures>
         <texture file="skeletal/byza/elite/lamellar_pteruges_geared1a.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/lamellar_pteruges_geared1.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="lamellar-pteruges-geared1b">
@@ -125,6 +140,7 @@
       <textures>
         <texture file="skeletal/byza/elite/lamellar_pteruges_geared1b.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/lamellar_pteruges_geared1.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="lamellar-pteruges-geared1c">
@@ -132,30 +148,35 @@
       <textures>
         <texture file="skeletal/byza/elite/lamellar_pteruges_geared1c.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/lamellar_pteruges_geared1.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="chainmail-pteruges1a">
       <textures>
         <texture file="skeletal/byza/elite/chainmail_pteruges1a.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/chainmail_pteruges1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="chainmail-pteruges1b">
       <textures>
         <texture file="skeletal/byza/elite/chainmail_pteruges1b.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/chainmail_pteruges1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="chainmail-pteruges1c">
       <textures>
         <texture file="skeletal/byza/elite/chainmail_pteruges1c.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/chainmail_pteruges1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="chainmail-pteruges1d">
       <textures>
         <texture file="skeletal/byza/elite/chainmail_pteruges1d.png" name="baseTex"/>
         <texture file="skeletal/byza/elite/chainmail_pteruges1_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>
@@ -166,15 +187,15 @@
     <variant file="biped/carry_wood.xml"/>
     <variant file="biped/carry_stone.xml"/>
     <variant file="biped/carry_metal.xml"/>
-		<variant file="biped/approach_tree.xml"/>
-		<variant file="biped/approach_grain.xml"/>
-		<variant file="biped/approach_fruit.xml"/>
-		<variant file="biped/approach_meat.xml"/>
-		<variant file="biped/approach_rock.xml"/>
-		<variant file="biped/approach_ore.xml"/>
-		<variant file="biped/approach_ruins.xml"/>
-		<variant file="biped/approach_praise.xml"/>
-	</group>
+    <variant file="biped/approach_tree.xml"/>
+    <variant file="biped/approach_grain.xml"/>
+    <variant file="biped/approach_fruit.xml"/>
+    <variant file="biped/approach_meat.xml"/>
+    <variant file="biped/approach_rock.xml"/>
+    <variant file="biped/approach_ore.xml"/>
+    <variant file="biped/approach_ruins.xml"/>
+    <variant file="biped/approach_praise.xml"/>
+  </group>
   <group>
     <variant frequency="1" name="Idle"/>
     <variant file="biped/attack_capture.xml"/>
@@ -191,5 +212,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans_spec.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
-	<Footprint>
-		<Square width="11.0" depth="24.0"/>
-		<Height>5.0</Height>
-	</Footprint>
-	<Obstruction>
-		<Static width="10.0" depth="23"/>
-	</Obstruction>
-	<Health>
-		<SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
-	</Health>
-	<Identity>
-		<Civ>caro</Civ>
-		<SpecificName>Gwersyllty</SpecificName>
-		<GenericName>Long House</GenericName>
-		<RequiredTechnology>phase_town</RequiredTechnology>
-		<Classes datatype="tokens"> Town </Classes>
-	</Identity>
-	<Population>
-		<Bonus>10</Bonus>
-	</Population>
-	<VisualActor>
-		<Actor>structures/carolingian/longhouse.xml</Actor>
-		<FoundationActor>structures/fndn_3x6.xml</FoundationActor>
-	</VisualActor>
+  <Footprint>
+    <Square width="11.0" depth="24.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>caro</Civ>
+    <SpecificName>Gwersyllty</SpecificName>
+    <GenericName>Long House</GenericName>
+    <Classes datatype="tokens"> Town </Classes>
+    <Requirements>
+      <Techs>phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static width="10.0" depth="23"/>
+  </Obstruction>
+  <Population>
+    <Bonus>10</Bonus>
+  </Population>
+  <VisualActor>
+    <Actor>structures/carolingian/longhouse.xml</Actor>
+    <FoundationActor>structures/fndn_3x6.xml</FoundationActor>
+  </VisualActor>
 </Entity>

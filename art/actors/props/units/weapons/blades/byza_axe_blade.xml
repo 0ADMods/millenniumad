@@ -5,6 +5,8 @@
     <variant frequency="1" name="Base">
       <textures>
         <texture file="props/prop_weap.dds" name="baseTex"/>
+        <texture name="specTex" file="null_white.dds"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>
@@ -16,5 +18,5 @@
       <mesh>props/byza_axe_blade_b.dae</mesh>
     </variant>
   </group>
-  <material>basic_spec.xml</material>
+  <material>no_trans_norm_spec.xml</material>
 </actor>

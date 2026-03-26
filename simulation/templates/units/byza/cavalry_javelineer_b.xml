@@ -3,10 +3,10 @@
   <Identity>
     <Civ>byza</Civ>
     <Lang>greek</Lang>
-	<GenericName>Cavalry Javelinist</GenericName>
+    <GenericName>Cavalry Javelinist</GenericName>
     <SelectionGroupName>units/byza/cavalry_javelineer_b</SelectionGroupName>
     <SpecificName>Hippoakritēs</SpecificName>
-    <Icon>units/byza_cavalry_javelinist.png</Icon>
+    <Icon>units/byza/cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/byza/cavalry_javelineer_a</Entity>

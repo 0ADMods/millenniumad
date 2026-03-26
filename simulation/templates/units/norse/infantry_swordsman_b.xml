@@ -2,12 +2,12 @@
 <Entity parent="civ/norse|template_unit_infantry_melee_swordsman">
   <Attack>
     <Melee>
-    <Bonuses>
-      <BonusBuilding>
-        <Classes>Structure</Classes>
-        <Multiplier>1.1</Multiplier>
-      </BonusBuilding>
-    </Bonuses>
+      <Bonuses>
+        <BonusBuilding>
+          <Classes>Structure</Classes>
+          <Multiplier>1.1</Multiplier>
+        </BonusBuilding>
+      </Bonuses>
     </Melee>
   </Attack>
   <Cost>
@@ -19,7 +19,7 @@
     <SelectionGroupName>units/norse/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Axeman</GenericName>
     <SpecificName>Seggr</SpecificName>
-    <Icon>units/norse_infantry_swordsman.png</Icon>
+    <Icon>units/norse/infantry_swordsman.png</Icon>
     <Tooltip>Counters: 1.1x vs. Structures.</Tooltip>
   </Identity>
   <Promotion>

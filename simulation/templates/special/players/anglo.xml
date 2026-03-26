@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>anglo</Civ>
+    <GenericName>Anglo-Saxons</GenericName>
+    <History>The Anglo-Saxons were a people who inhabited Great-Britain from the 5th century till the Norman Conquest in 1066. They consisted of Germanic tribes that migrated from the European mainland and native British people. During the period the Anglo-Saxon kingdoms suffered from Norse raids.</History>
+    <Icon>emblems/emblem_anglo.png</Icon>
+  </Identity>
+  <Player>
+    <Formations>special/formations/null special/formations/box special/formations/column_closed special/formations/line_closed special/formations/column_open special/formations/line_open special/formations/flank special/formations/skirmish special/formations/wedge special/formations/battle_line special/formations/shieldwall</Formations>
+  </Player>
+</Entity>

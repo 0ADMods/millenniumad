@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>anglo</Civ>
-    <Icon>units/norse_merchant.png</Icon>
+    <Icon>units/norse/merchant.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/norse/knarr.xml</Actor>

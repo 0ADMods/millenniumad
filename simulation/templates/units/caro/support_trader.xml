@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>caro</Civ>
-    <Icon>units/caro_support_trader.png</Icon>
+    <Icon>units/caro/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/caro/trader.xml</Actor>

@@ -121,5 +121,13 @@
     <variant file="biped/rider/cavalry/base_swordsman_fast_ready_shield.xml" name="Swordsman-Fast-Ready-Shield" frequency="1"/>
     <variant file="biped/rider/death_shield.xml"/>
   </group>
-  <material>player_trans.xml</material>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

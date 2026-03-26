@@ -7,18 +7,18 @@
   <Identity>
     <Civ>umay</Civ>
     <Classes datatype="tokens">CivSpecific</Classes>
-    <Tooltip></Tooltip>
+    <Tooltip/>
   </Identity>
   <Obstruction>
     <Static width="30.0" depth="29.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_swordsman_e
       units/{civ}/infantry_archer_e
       units/{civ}/cavalry_spearman_e
 	  </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/seleucids/military_colony.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

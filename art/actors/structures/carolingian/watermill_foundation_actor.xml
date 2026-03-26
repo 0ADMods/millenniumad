@@ -1,38 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
-	<castshadow/>
-	<group>
-		<variant frequency="1" name="Base">
-			<mesh>structural/found_dock_4x4.dae</mesh>
-			<props>
-				<prop actor="props/structures/construction/found_dock_4x4_chains.xml" attachpoint="root"/>
-				<prop actor="props/special/eyecandy/delimitator.xml" attachpoint="delimitator001" maxheight="20" minheight="-20"/>
-				<prop actor="props/special/eyecandy/delimitator.xml" attachpoint="delimitator002" maxheight="20" minheight="-20"/>
-				<prop actor="props/special/eyecandy/brick.xml" attachpoint="brick001" maxheight="20" minheight="-20"/>
-				<prop actor="props/special/eyecandy/box.xml" attachpoint="box001" maxheight="20" minheight="-20"/>
-				<prop actor="props/special/eyecandy/brick_pile_10.xml" attachpoint="brickpile004" maxheight="20" minheight="-20"/>
-				<prop actor="props/special/eyecandy/brick_pile_08.xml" attachpoint="brickpile003" maxheight="20" minheight="-20"/>
-				<prop actor="props/special/eyecandy/brick_pile_07.xml" attachpoint="brickpile002" maxheight="20" minheight="-20"/>
-				<prop actor="props/special/eyecandy/brick_pile_07.xml" attachpoint="brickpile001" maxheight="20" minheight="-20"/>
-				<prop actor="props/special/eyecandy/wood_pile.xml" attachpoint="woodpile001" maxheight="20" minheight="-20"/>
-				<prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
-			</props>
-			<textures>
-				<texture file="structural/foundation.dds" name="baseTex"/>
-			</textures>
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>structural/found_dock_4x4.dae</mesh>
+      <props>
+        <prop actor="props/structures/construction/found_dock_4x4_chains.xml" attachpoint="root"/>
+        <prop actor="props/special/eyecandy/delimitator.xml" attachpoint="delimitator001" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/delimitator.xml" attachpoint="delimitator002" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/brick.xml" attachpoint="brick001" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/box.xml" attachpoint="box001" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/brick_pile_10.xml" attachpoint="brickpile004" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/brick_pile_08.xml" attachpoint="brickpile003" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/brick_pile_07.xml" attachpoint="brickpile002" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/brick_pile_07.xml" attachpoint="brickpile001" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/wood_pile.xml" attachpoint="woodpile001" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/foundation.dds" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle">
 		</variant>
-	</group>
-	<group>
-		<variant frequency="1" name="Idle">
-		</variant>
-		<variant name="scaffold">
-			<props>
-				<prop actor="structures/carolingian/watermill_foundation.xml" attachpoint="root"/>
-				<prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
-				<prop actor="props/structures/construction/found_dock_4x4_chains.xml" attachpoint="root"/>
-				<prop actor="particle/construction_dust.xml" attachpoint="root"/>
-			</props>
-		</variant>
-	</group>
-	<material>basic_trans.xml</material>
+    <variant name="scaffold">
+      <props>
+        <prop actor="structures/carolingian/watermill_foundation.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+        <prop actor="props/structures/construction/found_dock_4x4_chains.xml" attachpoint="root"/>
+        <prop actor="particle/construction_dust.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans_norm_spec.xml</material>
 </actor>

@@ -18,14 +18,16 @@
   <Population>
     <Bonus>8</Bonus>
   </Population>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}/champion_infantry_barracks
-    </Entities>
+  <Researcher>
     <Technologies datatype="tokens">
       unlock_champion_units_modded
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/champion_infantry_barracks
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/anglo/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

@@ -12,8 +12,10 @@
     <Lang>greek</Lang>
     <SelectionGroupName>units/byza/infantry_archer_b</SelectionGroupName>
     <SpecificName>Toxotēs</SpecificName>
-    <Icon>units/byza_infantry_archer.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Icon>units/byza/infantry_archer.png</Icon>
+    <Requirements>
+      <Techs>phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/byza/infantry_archer_a</Entity>

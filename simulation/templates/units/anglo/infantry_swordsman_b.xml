@@ -5,7 +5,7 @@
     <SelectionGroupName>units/anglo/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Anglo-Saxon Nobleman's Thane</GenericName>
     <SpecificName>Thegn</SpecificName>
-    <Icon>units/anglo_infantry_swordsman.png</Icon>
+    <Icon>units/anglo/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/anglo/infantry_swordsman_a</Entity>

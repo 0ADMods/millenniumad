@@ -5,11 +5,12 @@
     <variant name="Wonder_A">
       <mesh>structural/byza_wonder_c.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct2.png" name="baseTex"/>
-				<texture file="structural/byzantine_struct_norm.png" name="normTex"/>
+        <texture file="structural/byzantine_struct2.png" name="baseTex"/>
+        <texture file="structural/byzantine_struct_norm.png" name="normTex"/>
         <texture file="structural/ao/byza_wonder_c.png" name="aoTex"/>
-			</textures>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
-<material>player_trans_ao_parallax.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

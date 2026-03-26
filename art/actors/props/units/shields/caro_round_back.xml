@@ -1,17 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
-	<castshadow/>
-	<group>
-		<variant frequency="1" name="base">
-			<textures>
-				<texture file="props/caro_shields.png" name="baseTex"/>
-			</textures>
-		</variant>
-	</group>  
-	<group>
-		<variant frequency="1" name="shield-E">
-			<mesh>props/shield/shield_caro_round_back_a.dae</mesh>
-		</variant>
-	</group>
-	<material>player_trans.xml</material>
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <textures>
+        <texture file="props/caro_shields.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="shield-E">
+      <mesh>props/shield/shield_caro_round_back_a.dae</mesh>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

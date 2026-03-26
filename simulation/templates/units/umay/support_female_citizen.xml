@@ -12,7 +12,7 @@
   </Health>
   <Identity>
     <GenericName>Female Citizen</GenericName>
-    <Icon>units/umay_support_female_citizen.png</Icon>
+    <Icon>units/umay/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/umayyads/female_citizen.xml</Actor>

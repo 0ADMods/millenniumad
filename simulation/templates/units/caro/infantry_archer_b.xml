@@ -7,7 +7,7 @@
   </Cost>
   <Identity>
     <SelectionGroupName>units/caro/infantry_archer_b</SelectionGroupName>
-    <Icon>units/caro_infantry_archer.png</Icon>
+    <Icon>units/caro/infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/caro/infantry_archer_a</Entity>

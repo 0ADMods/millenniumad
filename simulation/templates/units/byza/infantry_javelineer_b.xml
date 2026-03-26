@@ -3,7 +3,7 @@
   <Identity>
     <SelectionGroupName>units/byza/infantry_javelineer_b</SelectionGroupName>
     <SpecificName>Akontistēs</SpecificName>
-    <Icon>units/byza_infantry_javelinist.png</Icon>
+    <Icon>units/byza/infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/byza/infantry_javelineer_a</Entity>

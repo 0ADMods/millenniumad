@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_ship_trireme">
+<Entity parent="template_unit_ship_warship_arrow">
   <Cost>
     <BuildTime>40</BuildTime>
   </Cost>
@@ -14,9 +14,9 @@
     <Max>1600</Max>
   </Health>
   <Identity>
-    <Civ>anglo</Civ>
+    <Civ>caro</Civ>
     <Tooltip>Transport many soldiers across the sea.</Tooltip>
-    <Icon>units/celt_ship_trireme.png</Icon>
+    <Icon>units/celt/ship_arrow.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed>14</WalkSpeed>

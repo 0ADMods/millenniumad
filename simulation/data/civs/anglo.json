@@ -1,110 +1,94 @@
 {
-	"Code": "anglo",
-	"Culture": "anglo",
-	"Name": "Anglo-Saxons",
-	"Emblem": "session/portraits/emblems/emblem_anglo.png",
-	"History": "The Anglo-Saxons were a people who inhabited Great-Britain from the 5th century till the Norman Conquest in 1066. They consisted of Germanic tribes that migrated from the European mainland and native British people. During the period the Anglo-Saxon kingdoms suffered from Norse raids.",
-	"Music": [
-		{
-			"File": "The_Road_Ahead.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Celtic_Pride.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Cisalpine_Gaul.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Water's_Edge.ogg",
-			"Type": "peace"
-		}
-	],
-	"CivBonuses": [],
-	"WallSets": [
-		"structures/wallset_palisade",
-		"structures/anglo/wallset_stone"
-	],
-	"StartEntities": [
-		{
-			"Template": "structures/anglo/civil_centre"
-		},
-		{
-			"Template": "units/anglo/support_female_citizen",
-			"Count": 4
-		},
-		{
-			"Template": "units/anglo/infantry_spearman_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/anglo/infantry_javelineer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/anglo/cavalry_spearman_b"
-		}
-	],
-	"Formations": [
-		"special/formations/null",
-		"special/formations/box",
-		"special/formations/column_closed",
-		"special/formations/line_closed",
-		"special/formations/column_open",
-		"special/formations/line_open",
-		"special/formations/flank",
-		"special/formations/skirmish",
-		"special/formations/wedge",
-		"special/formations/battle_line",
-		"special/formations/shieldwall"
-	],
-	"AINames": [
-		"Penda of Mercia",
-		"Wulfhere of Mercia",
-		"Æthelbald of Mercia",
-		"Offa of Mercia",
-		"Cenwulf of Mercia",
-		"Peada of Middle Anglia",
-		"Rædwald of East Anglia",
-		"Æthelhere of East Anglia",
-		"Ceawlin of Wessex",
-		"Cynegils of Wessex",
-		"Cenwalh of Wessex",
-		"Ecgberht of Wessex",
-		"Sigeberht of Essex",
-		"Æthelberht of Kent",
-		"Ælle of Deira",
-		"Edwin of Deira",
-		"Osric of Deira",
-		"Oswine of Deira",
-		"Æthelwald of Deira",
-		"Ida of Bernicia",
-		"Æthelric of Bernicia",
-		"Æthelfrith of Bernicia",
-		"Eanfrith of Bernicia",
-		"Oswald of Bernicia",
-		"Oswiu of Northumbria",
-		"Ecgfrith of Northumbria",
-		"Aldfrith of Northumbria",
-		"Osred of Northumbria",
-		"Ceolwulf of Northumbria",
-		"Eadberht of Northumbria",
-		"Æthelwald Moll of Northumbria",
-		"Alhred of Northumbria",
-		"Æthelred of Northumbria",
-		"Ælfwald of Northumbria",
-		"Eardwulf of Northumbria",
-		"Eanred of Northumbria",
-		"Alfred the Great",
-		"Æthelstan",
-		"Edward the Elder"
-	],
-	"SkirmishReplacements": {
-		"skirmish/structures/default_house_5": "structures/{civ}/house",
-		"skirmish/units/default_cavalry": "units/{civ}/cavalry_spearman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/anglo/infantry_javelineer_b"
-	},
-	"SelectableInGameSetup": true
+    "Code": "anglo",
+    "Culture": "anglo",
+    "Music": [
+        {
+            "File": "The_Road_Ahead.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Celtic_Pride.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Cisalpine_Gaul.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Water's_Edge.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/anglo/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/anglo/civil_centre"
+        },
+        {
+            "Template": "units/anglo/support_civilian",
+            "Count": 4
+        },
+        {
+            "Template": "units/anglo/infantry_spearman_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/anglo/infantry_javelineer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/anglo/cavalry_spearman_b"
+        }
+    ],
+    "AINames": [
+        "Penda of Mercia",
+        "Wulfhere of Mercia",
+        "\u00c6thelbald of Mercia",
+        "Offa of Mercia",
+        "Cenwulf of Mercia",
+        "Peada of Middle Anglia",
+        "R\u00e6dwald of East Anglia",
+        "\u00c6thelhere of East Anglia",
+        "Ceawlin of Wessex",
+        "Cynegils of Wessex",
+        "Cenwalh of Wessex",
+        "Ecgberht of Wessex",
+        "Sigeberht of Essex",
+        "\u00c6thelberht of Kent",
+        "\u00c6lle of Deira",
+        "Edwin of Deira",
+        "Osric of Deira",
+        "Oswine of Deira",
+        "\u00c6thelwald of Deira",
+        "Ida of Bernicia",
+        "\u00c6thelric of Bernicia",
+        "\u00c6thelfrith of Bernicia",
+        "Eanfrith of Bernicia",
+        "Oswald of Bernicia",
+        "Oswiu of Northumbria",
+        "Ecgfrith of Northumbria",
+        "Aldfrith of Northumbria",
+        "Osred of Northumbria",
+        "Ceolwulf of Northumbria",
+        "Eadberht of Northumbria",
+        "\u00c6thelwald Moll of Northumbria",
+        "Alhred of Northumbria",
+        "\u00c6thelred of Northumbria",
+        "\u00c6lfwald of Northumbria",
+        "Eardwulf of Northumbria",
+        "Eanred of Northumbria",
+        "Alfred the Great",
+        "\u00c6thelstan",
+        "Edward the Elder"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/structures/default_house_5": "structures/{civ}/house",
+        "skirmish/units/default_cavalry": "units/{civ}/cavalry_spearman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/anglo/infantry_javelineer_b"
+    },
+    "SelectableInGameSetup": true
 }
