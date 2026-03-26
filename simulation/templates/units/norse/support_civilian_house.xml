@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="norse/support_civilian">
+<Entity parent="units/norse/support_civilian">
   <Cost>
     <BuildTime>30</BuildTime>
   </Cost>
