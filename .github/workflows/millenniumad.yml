@@ -1,0 +1,37 @@
+name: Build a 0ad pyromod file
+
+on:
+  push:
+    tags:
+      - v**
+
+env:
+  MOD_NAME: millenniumad
+
+jobs:
+  release-pyromod:
+    runs-on: ubuntu-latest
+    env:
+      MOD_VERSION: ${{ github.ref_name }}
+    steps:
+    - uses: actions/checkout@v3
+    - run: echo "MOD_VERSION=${MOD_VERSION:1}" >> $GITHUB_ENV
+    - uses: 0ad-matters/gh-action-build-pyromod@v1
+      with:
+        name: ${{ env.MOD_NAME }}
+        version: ${{ env.MOD_VERSION }}
+      id: build-pyromod
+    - name: Create sha256sum
+      run: |
+        OUTPUT_FILE="$MOD_NAME-$MOD_VERSION.pyromod"
+        cd output
+        sha256sum $OUTPUT_FILE > $OUTPUT_FILE.sha256sum
+    - name: Release PyroMod
+      uses: ncipollo/release-action@v1
+      with:
+        allowUpdates: True
+        prerelease: False
+        artifacts: "output/${{ env.MOD_NAME }}*.*"
+        token: ${{ secrets.GITHUB_TOKEN }}
+        omitNameDuringUpdate: True
+        omitBodyDuringUpdate: True
