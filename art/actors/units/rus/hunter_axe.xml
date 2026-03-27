@@ -2,13 +2,13 @@
 <actor version="1">
   <castshadow/>
   <group>
-		<variant>
-			<mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+    <variant>
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/helmets/rus_cap_fur.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_german_a.xml" attachpoint="head"/>
-				<prop actor="props/units/weapons/dane_axe.xml" attachpoint="weapon_R"/>
-       <prop actor="props/units/capes/cape_long_gaul.xml" attachpoint="root"/>
+        <prop actor="props/units/weapons/dane_axe.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/capes/cape_long_gaul.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
@@ -29,7 +29,7 @@
       </textures>
     </variant>
   </group>
- <group>
+  <group>
     <variant file="biped/base_spearman_shield_relax_celt_fast.xml" name="Spearman-Shield-Relax-Fast" frequency="1"/>
     <variant file="biped/base_swordsman_shield_relax_celt.xml" name="Swordsman-Shield-Relax" frequency="1"/>
     <variant file="biped/base_spearman_shield_relax_celt.xml" name="Spearman-Shield-Relax" frequency="1"/>
@@ -64,5 +64,13 @@
     <variant file="biped/cape_build_farm.xml"/>
     <variant file="biped/death_cape.xml"/>
   </group>
-	<material>player_trans.xml</material>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

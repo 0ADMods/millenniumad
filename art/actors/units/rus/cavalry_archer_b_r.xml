@@ -37,12 +37,12 @@
   <group>
     <variant frequency="3" name="Helmet_a">
       <props>
-          <prop actor="props/units/helmets/xion_cloth.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/xion_cloth.xml" attachpoint="helmet"/>
       </props>
     </variant>
     <variant frequency="2" name="Helmet_b">
       <props>
-          <prop actor="props/units/helmets/xion_hide.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/xion_hide.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
@@ -58,5 +58,13 @@
     <variant file="biped/gather_meat.xml"/>
     <variant file="biped/rider/death_ranged.xml"/>
   </group>
-  <material>player_trans.xml</material>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

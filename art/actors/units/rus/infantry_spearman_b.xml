@@ -10,31 +10,31 @@
     </variant>
   </group>
   <group>
-     <variant frequency="2" name="spear_a">
+    <variant frequency="2" name="spear_a">
       <props>
-          <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
     <variant frequency="2" name="spear_b">
       <props>
-          <prop actor="props/units/weapons/spear_rus.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/spear_rus.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>
-   <group>
-     <variant frequency="2" name="Helmet_a">
+  <group>
+    <variant frequency="2" name="Helmet_a">
       <props>
-          <prop actor="props/units/helmets/rus_cap_a.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/rus_cap_a.xml" attachpoint="helmet"/>
       </props>
     </variant>
     <variant frequency="2" name="Helmet_b">
       <props>
-          <prop actor="props/units/helmets/rus_cap_b.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/rus_cap_b.xml" attachpoint="helmet"/>
       </props>
     </variant>
-     <variant frequency="2" name="no_helmet">
+    <variant frequency="2" name="no_helmet">
       <props>
-          <prop actor="" attachpoint="helmet"/>
+        <prop actor="" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
@@ -127,5 +127,13 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans.xml</material>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

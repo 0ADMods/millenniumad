@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
-
   <castshadow/>
-
   <group>
     <variant frequency="1" name="beard-large">
       <mesh>props/head_beard_large.dae</mesh>
@@ -10,10 +8,14 @@
   </group>
   <group>
     <variant frequency="1" name="face-e">
-      <textures><texture file="props/head/rus_priest_head.png" name="baseTex"/></textures>
+      <textures>
+        <texture file="props/head/rus_priest_head.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
-   <group>
+  <group>
     <variant frequency="75" name="Blonde Light">
       <color>255 226 159</color>
     </variant>
@@ -33,6 +35,5 @@
       <color>205 205 205</color>
     </variant>
   </group>
-  <material>objectcolor.xml</material>
-
+  <material>objectcolor_norm_spec.xml</material>
 </actor>
