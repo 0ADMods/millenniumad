@@ -10,7 +10,7 @@
     <History>Ivar the Boneless, son of Ragnar Lothbrok, was a Norse warlord and one of the commanders of the Great Heathen Army which invaded the Anglo-Saxon kingdoms of England. Later he founded the Uí Ímair dynasty, which dominated the Irish Sea during the Viking Age.</History>
     <Icon>units/norse/ivar_the_boneless.png</Icon>
     <Requirements>
-      <Techs>germanic_thingstead</Techs>
+      <Techs datatype="tokens">germanic_thingstead</Techs>
     </Requirements>
   </Identity>
   <VisualActor>

@@ -2,7 +2,7 @@
 <Entity parent="units/norse/champion_infantry_spearman">
   <Identity>
     <Requirements>
-      <Techs>unlock_champion_units_modded</Techs>
+      <Techs datatype="tokens">unlock_champion_units_modded</Techs>
     </Requirements>
   </Identity>
 </Entity>

@@ -17,7 +17,7 @@
     <Icon>units/norse/huskarl.png</Icon>
     <SelectionGroupName>units/norse/champion_huscarl</SelectionGroupName>
     <Requirements>
-      <Techs>unlock_champion_units_modded</Techs>
+      <Techs datatype="tokens">unlock_champion_units_modded</Techs>
     </Requirements>
   </Identity>
   <VisualActor>

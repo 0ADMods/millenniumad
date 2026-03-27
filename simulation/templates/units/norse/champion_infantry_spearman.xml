@@ -26,7 +26,7 @@
     <Icon>units/norse/berserker.png</Icon>
     <SelectionGroupName>units/norse/champion_berserker</SelectionGroupName>
     <Requirements>
-      <Techs>unlock_champion_units_modded</Techs>
+      <Techs datatype="tokens">unlock_champion_units_modded</Techs>
     </Requirements>
   </Identity>
   <Resistance>

@@ -10,7 +10,7 @@
     <History>Hastein was a notable Norse Chieftain that made several raiding voyages during the late 9th century. He's particularly known for his raids in the Mediterranean area.</History>
     <Icon>units/norse/hastein.png</Icon>
     <Requirements>
-      <Techs>germanic_thingstead</Techs>
+      <Techs datatype="tokens">germanic_thingstead</Techs>
     </Requirements>
   </Identity>
   <VisualActor>

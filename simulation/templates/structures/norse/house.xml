@@ -64,9 +64,7 @@
     <Bonus>5</Bonus>
   </Population>
   <Researcher>
-    <Technologies datatype="tokens">
-			-unlock_females_house
-		</Technologies>
+    <Technologies datatype="tokens"/>
   </Researcher>
   <ResourceDropsite>
     <Sharable>true</Sharable>
@@ -81,7 +79,6 @@
     <Entities datatype="tokens">
 			units/{civ}/infantry_swordsman_b_house
 			units/{civ}/support_female_citizen
-			-units/{civ}/support_female_citizen_house
 		</Entities>
   </Trainer>
   <Vision>

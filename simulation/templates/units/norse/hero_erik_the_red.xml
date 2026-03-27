@@ -9,7 +9,7 @@
     <SpecificName>Eiríkr hinn rauði</SpecificName>
     <Icon>units/norse/erik_the_red.png</Icon>
     <Requirements>
-      <Techs>germanic_thingstead</Techs>
+      <Techs datatype="tokens">germanic_thingstead</Techs>
     </Requirements>
   </Identity>
   <VisualActor>
