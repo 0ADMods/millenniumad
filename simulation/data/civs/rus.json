@@ -95,5 +95,5 @@
         "skirmish/structures/default_wall_medium": "",
         "skirmish/structures/default_wall_long": ""
     },
-    "SelectableInGameSetup": false
+	"SelectableInGameSetup": true
 }
