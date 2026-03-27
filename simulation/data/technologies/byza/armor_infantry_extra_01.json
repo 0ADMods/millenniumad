@@ -1,0 +1,16 @@
+{
+	"genericName": "Padded Armor",
+	"description": "Plywood construction for large shields.",
+	"cost": {"metal": 900},
+	"requirements": {"tech": "byza/military_reform"},
+	"requirementsTooltip": "Unlocked with Military Reform (Imperial Ministry)",
+	"icon": "byza/armour.png",
+	"researchTime": 60,
+	"tooltip": "Infantry Spearmen +2 pierce armor levels, but -10% speed.",
+	"modifications": [
+		{"value": "Resistance/Entity/Damage/Pierce", "add": 2.0},
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 0.1 }
+	],
+	"affects": ["Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
