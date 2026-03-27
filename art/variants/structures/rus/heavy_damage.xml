@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="heavydamage" frequency="0">
+  <textures>
+   <texture file="structural/damage/rus_struct_02_damage_heavy.png" name="baseTex"/>
+	<texture file="structural/damage/rus_struct_02_damage_heavy_norm.png" name="normTex"/> 
+  </textures>
+  <props>
+    <prop actor="particle/bigflame.xml" attachpoint="root"/>
+    <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+    <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+  </props>
+</variant>
