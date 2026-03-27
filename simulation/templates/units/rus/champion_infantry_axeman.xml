@@ -14,7 +14,7 @@
     <Civ>rus</Civ>
     <GenericName>Варяжская стража</GenericName>
     <SpecificName>Varangian Guard</SpecificName>
-    <Icon>units/norse_huskarl.png</Icon>
+    <Icon>units/norse/huskarl.png</Icon>
     <Tooltip>.</Tooltip>
     <Requirements>
       <Techs datatype="tokens">

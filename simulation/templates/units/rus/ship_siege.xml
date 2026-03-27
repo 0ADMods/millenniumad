@@ -18,14 +18,14 @@
     <Civ>rus</Civ>
     <SpecificName>Drekár</SpecificName>
     <Tooltip>Elite Warship. Trains units and is a resource dropsite.</Tooltip>
-    <Icon>units/norse_drekkar.png</Icon>
+    <Icon>units/norse/drekkar.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed>12.5</WalkSpeed>
   </UnitMotion>
   <ResourceDropsite>
     <Types>food wood stone metal</Types>
-	  <Sharable>false</Sharable>
+    <Sharable>false</Sharable>
   </ResourceDropsite>
   <Trainer>
     <Entities datatype="tokens">
@@ -34,20 +34,6 @@
       units/{civ}/infantry_archer_b
     </Entities>
   </Trainer>
-  <!-- <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}/infantry_swordsman_b
-      units/{civ}/infantry_spearman_b
-      units/{civ}/infantry_archer_b
-    </Entities>
-    <TechCostMultiplier>
-      <food>1.0</food>
-      <wood>1.0</wood>
-      <stone>1.0</stone>
-      <metal>1.0</metal>
-      <time>1.0</time>
-    </TechCostMultiplier>
-  </ProductionQueue> -->
   <VisualActor>
     <Actor>structures/norse/drakkar.xml</Actor>
   </VisualActor>

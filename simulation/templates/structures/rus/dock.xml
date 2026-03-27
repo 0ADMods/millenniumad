@@ -24,8 +24,8 @@
   </Population>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/ship_trireme
-      units/{civ}/ship_bireme
+      units/{civ}/ship_arrow
+      units/{civ}/ship_scout
     </Entities>
   </Trainer>
   <VisualActor>
