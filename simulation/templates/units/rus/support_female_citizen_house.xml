@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/rus/support_female_citizen">
+  <Cost>
+    <BuildTime>30</BuildTime>
+  </Cost>
+  <Identity>
+    <Requirements>
+      <Techs datatype="tokens">
+        unlock_females_house
+      </Techs>
+    </Requirements>
+  </Identity>
+</Entity>
