@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/norse/infantry_spearman_b">
+<Entity parent="units/rus/infantry_spearman_b">
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/norse/infantry_spearman_e</Entity>
+    <Entity>units/rus/infantry_spearman_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/rus/infantry_spearman_a.xml</Actor>

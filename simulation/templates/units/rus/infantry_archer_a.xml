@@ -4,7 +4,7 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/norse/infantry_archer_e</Entity>
+    <Entity>units/rus/infantry_archer_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/norse/infantry_archer_a.xml</Actor>
