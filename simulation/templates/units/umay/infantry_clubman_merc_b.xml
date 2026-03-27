@@ -14,7 +14,7 @@
     <VisibleClasses datatype="tokens">-Swordsman Clubman</VisibleClasses>
     <Icon>units/umay/infantry_clubman.png</Icon>
     <Requirements>
-      <Techs>phase_town</Techs>
+      <Techs datatype="tokens">phase_town</Techs>
     </Requirements>
   </Identity>
   <Promotion>

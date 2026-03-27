@@ -1,0 +1,25 @@
+{
+	"genericName": "Jihād",
+	"description": "The will to fight is crucial to victory. Inspire your troops with higher pay.",
+	"cost": {
+		"food": 1200,
+		"wood": 600,
+		"stone": 0,
+		"metal": 1500
+	},
+	"requirements": { "tech": "umay/board_war" },
+	"requirementsTooltip": "Unlocked with Diwan al-Jund (Board of War)",
+	"icon": "clenched_fist.png",
+	"researchTime": 40,
+	"tooltip": "Soldiers, Siege Engines, and Ships +25% attack damage.",
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack", "multiply": 1.25 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 1.25 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.25 },
+		{ "value": "Attack/Ranged/Damage/Hack", "multiply": 1.25 },
+		{ "value": "Attack/Ranged/Damage/Pierce", "multiply": 1.25 },
+		{ "value": "Attack/Ranged/Damage/Crush", "multiply": 1.25 }
+ 	],
+	"affects": ["Ship", "Siege", "Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

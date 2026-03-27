@@ -1,0 +1,24 @@
+{
+	"pair": "umay/pair_diwan2",
+	"genericName": "Board of Revenue",
+	"specificName": { "umay": "Dīwān al-kharāj" },
+	"description": "The Central Board of Revenue administered the entire finances of the empire. Higher taxes give a short term boost to the treasury, but may affect other areas of the economy.",
+	"cost": {
+		"food": 1600,
+		"wood": 250,
+		"stone": 250
+	},	
+
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "umay/tech_taxes.png",
+	"researchTime": 50,
+	"tooltip": "Tax paying units and structures +20% coin trickle rate, but also -10% resource gathering rates.",
+	"modifications": [
+		{"value": "ResourceTrickle/Rates/metal", "multiply": 2 },
+		{"value": "ResourceTrickle/Rates/metal", "add": 2 },
+		{"value": "ResourceGatherer/BaseSpeed", "multiply": 0.8}
+	],
+	"affects": ["Resource", "Structure", "umay/imperial_ministry", "Worker", "TaxPayer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,31 @@
+{
+	"genericName": "Board of War",
+	"specificName": { "umay": "Diwan al-Jund" },
+	"description": "On the pattern of the Byzantine system, the Umayyads reformed their army organization in general and divided it into five corps: the centre, two wings, vanguards, and rearguards, following the same formation while on the march or on a battlefield.",
+	"cost": {
+		"food": 1500,
+		"wood": 1500,
+		"stone": 0,
+		"metal": 800
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city" },
+			{ "civ": "umay" }
+		]
+	},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "umay/tech_war.png",
+	"researchTime": 40,
+	"tooltip": "All military units +25% health, but building cost and time increase",
+	"modifications": [
+		{ "value": "Cost/BuildTime","multiply": 1.4 },
+		{ "value": "Health/Max","multiply": 1.2 },
+		{ "value": "Cost/Resources/food", "multiply": 2.0 },
+		{ "value": "Cost/Resources/wood", "multiply": 1.8 },
+		{ "value": "Cost/Resources/stone", "multiply": 1.5 },
+		{ "value": "Cost/Resources/metal", "multiply": 1.8 }
+	],
+	"affects": ["Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

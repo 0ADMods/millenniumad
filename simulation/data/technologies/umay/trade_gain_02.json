@@ -1,0 +1,20 @@
+{
+	"genericName": "Coinage",
+	"description": "The Umayyad Empire minted coins that improved the commerce throughout all the Muslim world.",
+	"cost": {
+		"wood": 200,
+		"metal": 400
+	},
+	"requirements": { "tech": "umay/taxes_increase_1" },
+	"requirementsTooltip": "Unlocked with Dīwān al-kharāj (Board of Revenue).",
+	"icon": "umay/tech_coin.png",
+	"researchTime": 40,
+	"tooltip": "Traders +15% trade gain.",
+	"modifications": [
+		{ "value": "Trader/GainMultiplier", "multiply": 1.15 },
+		{ "value": "Trader/GainMultiplier/metal", "multiply": 1.1 },
+		{"value": "ResourceTrickle/Rates/metal", "add": 1 }
+	],
+	"affects": ["Trader"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
