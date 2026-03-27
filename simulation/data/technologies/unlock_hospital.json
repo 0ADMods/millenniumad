@@ -1,0 +1,14 @@
+{	
+	"genericName": "Surgery",
+	"description": "The Umayyad caliphate pioneered the medical field",
+	"cost": {
+		"food": 800,
+		"wood": 400
+	},
+	"requirements": { "tech": "umay/gather_increase_1" },
+	"requirementsTooltip": "Unlocked with Diwan al-Rasa'il (Board of Correspondence)",
+	"icon": "umay/bloody_hands.png",
+	"researchTime": 40,
+	"tooltip": "Unlock hospital camps to heal nearby units",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

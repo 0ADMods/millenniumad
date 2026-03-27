@@ -10,7 +10,7 @@
     <SpecificName>Offa</SpecificName>
     <Icon>units/anglo/hero_offa.png</Icon>
     <Requirements>
-      <Techs>germanic_thingstead</Techs>
+      <Techs datatype="tokens">germanic_thingstead</Techs>
     </Requirements>
   </Identity>
   <VisualActor>

@@ -1,0 +1,16 @@
+{
+	"genericName": "Imperial Army",
+	"autoResearch": true,
+	"description": "Soldiers are stronger but cost 20% more.",
+	"requirements": { "civ": "byza" },
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 1.25 },
+		{ "value": "Attack/Melee/Damage/Hack", "add": 5 },
+		{ "value": "Attack/Melee/Damage/Pierce", "add": 5 },
+		{"value": "Cost/Resources/food", "multiply": 1.25 },
+		{"value": "Cost/Resources/wood", "multiply": 1.25 },
+		{"value": "Cost/Resources/metal", "multiply": 1.25 },
+		{"value": "Cost/Resources/stone", "multiply": 1.25 }
+	],
+	"affects": ["Infantry", "Structure"]
+}

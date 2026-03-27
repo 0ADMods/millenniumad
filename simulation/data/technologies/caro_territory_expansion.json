@@ -1,0 +1,11 @@
+{
+	"genericName": "Papal Coronation",
+	"description": "Thanks to the legitimacy of the Pope, the new Holy Empire could spread its reach in all Europe.",
+	"cost": {"metal": 650},
+	"requirements": {"tech": "phase_village"},
+	"icon": "tech_pope.png",
+	"researchTime": 40,
+	"tooltip": "Territory +33% expansion.",
+	"modifications": [{ "value": "TerritoryInfluence/Radius", "multiply": 1.3, "affects": "CivCentre" }],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <textures>
+        <texture file="props/prop_weap.dds" name="baseTex"/>
+        <texture file="props/prop_weap_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="Caro Mace">
+      <mesh>props/weap_caro_mace.dae</mesh>
+    </variant>
+  </group>
+  <material>objectcolor_norm_spec.xml</material>
+</actor>
