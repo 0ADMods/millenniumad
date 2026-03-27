@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_axeman">
   <Attack>
     <Melee>
@@ -21,7 +21,7 @@
         unlock_mercenaries
       </Techs>
     </Requirements>
-    <SelectionGroupName>units/norse/champion_huscarl</SelectionGroupName>
+    <SelectionGroupName>units/rus/champion_huscarl</SelectionGroupName>
   </Identity>
   <VisualActor>
     <Actor>units/rus/champion_huscarl.xml</Actor>

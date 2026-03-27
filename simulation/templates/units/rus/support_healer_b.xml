@@ -5,7 +5,7 @@
   </Auras>
   <Identity>
     <Civ>rus</Civ>
-    <SelectionGroupName>units/norse/support_healer_b</SelectionGroupName>
+    <SelectionGroupName>units/rus/support_healer_b</SelectionGroupName>
     <SpecificName>Священник</SpecificName>
     <GenericName>Priest</GenericName>
     <Icon>units/rus/rus_priest.png</Icon>

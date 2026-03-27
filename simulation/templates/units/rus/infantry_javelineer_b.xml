@@ -10,7 +10,7 @@
   </Health>
   <Identity>
     <Civ>rus</Civ>
-    <SelectionGroupName>units/brit/infantry_javelineer_b</SelectionGroupName>
+    <SelectionGroupName>units/rus/infantry_javelineer_b</SelectionGroupName>
     <GenericName>Hunter</GenericName>
     <SpecificName>Okhotnik</SpecificName>
     <Icon>units/rus/rus_hunter.png</Icon>

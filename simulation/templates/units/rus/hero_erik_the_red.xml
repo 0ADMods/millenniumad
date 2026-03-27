@@ -4,7 +4,7 @@
     units/heroes/norse_hero_erik_the_red
   </Auras>
   <Identity>
-    <Civ>norse</Civ>
+    <Civ>rus</Civ>
     <GenericName>Erik the Red</GenericName>
     <SpecificName>Eiríkr hinn rauði</SpecificName>
     <Icon>units/norse_erik_the_red.png</Icon>

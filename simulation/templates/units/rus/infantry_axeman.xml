@@ -20,7 +20,7 @@
   </Cost>
   <Identity>
     <Civ>rus</Civ>
-    <SelectionGroupName>units/norse/infantry_swordsman_b</SelectionGroupName>
+    <SelectionGroupName>units/rus/infantry_axeman</SelectionGroupName>
     <GenericName>Axeman</GenericName>
     <SpecificName>Voiny s toporom</SpecificName>
     <Icon>units/rus/rus_hunter_axe.png</Icon>
