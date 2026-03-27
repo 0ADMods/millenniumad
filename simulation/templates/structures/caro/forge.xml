@@ -13,7 +13,7 @@
 	  Village
 	</Classes>
     <Requirements>
-      <Techs>phase_village</Techs>
+      <Techs datatype="tokens">phase_village</Techs>
     </Requirements>
   </Identity>
   <Obstruction>

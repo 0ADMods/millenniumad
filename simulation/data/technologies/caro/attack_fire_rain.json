@@ -1,0 +1,22 @@
+{
+	"genericName": "Fire rain",
+	"description": "The simplest flaming arrows had oil- or resin-soaked tows tied just below the arrowhead and were effective against wooden structures.",
+	"cost": {
+		"wood": 1200,
+		"metal": 600
+
+	},
+	"supersedes": "caro/attack_flaming_pitch",
+	"requirements": { "tech": "phase_city" },
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "fire_arrows.png",
+	"researchTime": 60,
+	"tooltip": "Ranged infantry +5 crush attack (for a strong anti-building attack), but attack rate -50% slower and cost +20 wood.",
+	"modifications": [
+		{"value": "Attack/Ranged/Damage/Crush", "add": 4.0},
+		{"value": "Attack/Ranged/RepeatTime", "multiply": 1.1},
+		{"value": "Cost/Resources/wood", "add": 10}
+	],
+	"affects": ["Infantry Ranged"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
