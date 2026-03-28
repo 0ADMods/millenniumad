@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Scenario version="8">
+<Scenario version="7">
 	<Environment>
 		<SkySet>default</SkySet>
 		<SunColor r="1.0" g="1.0" b="1.0"/>
@@ -9,10 +9,11 @@
 		<Water>
 			<WaterBody>
 				<Type>default</Type>
-				<Height>20</Height>
-				<Shininess>0.8</Shininess>
-				<Murkiness>0.45</Murkiness>
 				<Color r="0.3" g="0.39" b="0.59"/>
+				<Height>20</Height>
+				<Waviness>5</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<Tint r="0.3" g="0.39" b="0.59"/>
 			</WaterBody>
 		</Water>
 		<Fog>
@@ -28,6 +29,7 @@
 	<Camera>
 		<Position x="128" y="150" z="128"/>
 		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
