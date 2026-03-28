@@ -8,7 +8,7 @@
     <GenericName>Erik the Red</GenericName>
     <SpecificName>Eiríkr hinn rauði</SpecificName>
     <Icon>units/norse/erik_the_red.png</Icon>
-    <Tooltip>.</Tooltip>
+    <Tooltip>Requires Thingstead.</Tooltip>
     <Requirements>
       <Techs datatype="tokens">
         germanic_thingstead
