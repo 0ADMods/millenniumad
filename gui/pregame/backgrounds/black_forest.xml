@@ -2,7 +2,7 @@
 <sprites>
 	<sprite name="background-black_forest1-1">
 		<image
-			texture="pregame/backgrounds/black_forest1-1.png"
+			texture="pregame/backgrounds/black_forest1_1.png"
 			fixed_h_aspect_ratio="2"
 			round_coordinates="false"
 		/>
