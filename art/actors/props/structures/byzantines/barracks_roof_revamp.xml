@@ -3,7 +3,7 @@
 	<castshadow/>
 		<group>
 			<variant>
-				<mesh>props/byza_barracks_REVAMP_roof.dae</mesh>
+				<mesh>props/byza_barracks_revamp_roof.dae</mesh>
 				<textures>
 					<texture file="structural/rome_struct_2.png" name="baseTex"/>
 					<texture file="structural/rome_struct_2_norm.png" name="normTex"/>

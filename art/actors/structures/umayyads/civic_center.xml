@@ -16,7 +16,7 @@
     <variant name="death">
       <props>
         <prop actor="props/structures/byzantines/civic_center_front.xml" attachpoint="root"/>
-        <prop actor="structures/byzantines/civic_center_b.xml" attachpoint="root"/>
+        <prop actor="structures/byzantines/civic_center_02.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/civic_center_roof.xml" attachpoint="root"/>
         <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>

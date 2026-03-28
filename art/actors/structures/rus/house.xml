@@ -3,7 +3,7 @@
 	<castshadow/>
 	<group>
 		<variant frequency="2" name="Rus House B">
-			<mesh>structural/rus_house_B.dae</mesh>
+			<mesh>structural/rus_house_02.dae</mesh>
 			<textures>
 				<texture file="structural/rus/rus_struct_02.png" name="baseTex"/>
 				<texture file="structural/rus/rus_struct_02_norm.png" name="normTex"/>
@@ -15,7 +15,7 @@
 			</props>
 		</variant>
 		<variant frequency="2" name="Rus House D">
-			<mesh>structural/rus_house_D.dae</mesh>
+			<mesh>structural/rus_house_04.dae</mesh>
 			<textures>
 				<texture file="structural/rus/rus_struct_02.png" name="baseTex"/>
 				<texture file="structural/rus/rus_struct_02_norm.png" name="normTex"/>
@@ -26,7 +26,7 @@
 			</props>
 		</variant>
 		<variant frequency="2" name="Rus House E">
-			<mesh>structural/rus_house_E.dae</mesh>
+			<mesh>structural/rus_house_05.dae</mesh>
 			<textures>
 				<texture file="structural/rus/rus_struct_02.png" name="baseTex"/>
 				<texture file="structural/rus/rus_struct_02_norm.png" name="normTex"/>
@@ -37,7 +37,7 @@
 			</props>
 		</variant>
 		<variant frequency="2" name="Rus House F">
-			<mesh>structural/rus_house_F.dae</mesh>
+			<mesh>structural/rus_house_06.dae</mesh>
 			<textures>
 				<texture file="structural/rus/rus_struct_02.png" name="baseTex"/>
 				<texture file="structural/rus/rus_struct_02_norm.png" name="normTex"/>

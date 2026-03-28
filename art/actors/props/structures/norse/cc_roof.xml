@@ -5,7 +5,7 @@
 		<variant frequency="100" name="Roof Tiles">
 			<mesh>structural/norse_longhouse_roof_tiles.dae</mesh>
 			 <textures>
-				<texture file="structural/norse_roof_b.png" name="baseTex"/>
+				<texture file="structural/norse_roof_02.png" name="baseTex"/>
 				<texture file="structural/norse_roof_b_norm.png" name="normTex"/>
 				<texture file="structural/norse_roof_b_spec.png" name="specTex"/>
 				<texture file="structural/ao/norse_longhouse_roof_tiles_ao.png" name="aoTex"/>

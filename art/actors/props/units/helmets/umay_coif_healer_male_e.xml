@@ -12,32 +12,32 @@
   <group>
     <variant frequency="1" name="coif-cloth-white">
       <textures>
-        <texture file="props/helmet/cloth-white.png" name="baseTex"/>
+        <texture file="props/helmet/cloth_white.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="coif-cloth-red">
       <textures>
-        <texture file="props/helmet/cloth-red.png" name="baseTex"/>
+        <texture file="props/helmet/cloth_red.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="coif-cloth-green">
       <textures>
-        <texture file="props/helmet/cloth-green.png" name="baseTex"/>
+        <texture file="props/helmet/cloth_green.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="coif-cloth-blue">
       <textures>
-        <texture file="props/helmet/cloth-blue.png" name="baseTex"/>
+        <texture file="props/helmet/cloth_blue.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="coif-cloth-yellow">
       <textures>
-        <texture file="props/helmet/cloth-yellow.png" name="baseTex"/>
+        <texture file="props/helmet/cloth_yellow.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="coif-cloth-black">
       <textures>
-        <texture file="props/helmet/cloth-black.png" name="baseTex"/>
+        <texture file="props/helmet/cloth_black.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

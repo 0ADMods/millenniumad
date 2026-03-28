@@ -19,12 +19,12 @@
         <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_e"/>
         <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_f"/>
         <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_g"/>
-        <prop actor="props/structures/norse/food_basket_a.xml" attachpoint="basket_a"/>
-        <prop actor="props/structures/norse/food_basket_a.xml" attachpoint="basket_b"/>
-        <prop actor="props/structures/norse/food_basket_b.xml" attachpoint="basket_c"/>
-        <prop actor="props/structures/norse/food_basket_c.xml" attachpoint="basket_d"/>
-        <prop actor="props/structures/norse/food_basket_a.xml" attachpoint="basket_e"/>
-        <prop actor="props/structures/norse/food_basket_a.xml" attachpoint="basket_f"/>
+        <prop actor="props/structures/norse/food_basket_01.xml" attachpoint="basket_a"/>
+        <prop actor="props/structures/norse/food_basket_01.xml" attachpoint="basket_b"/>
+        <prop actor="props/structures/norse/food_basket_02.xml" attachpoint="basket_c"/>
+        <prop actor="props/structures/norse/food_basket_03.xml" attachpoint="basket_d"/>
+        <prop actor="props/structures/norse/food_basket_01.xml" attachpoint="basket_e"/>
+        <prop actor="props/structures/norse/food_basket_01.xml" attachpoint="basket_f"/>
       </props>
       <textures>
         <texture file="structural/norse_knarr.png" name="baseTex"/>

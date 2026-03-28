@@ -52,7 +52,7 @@
     "",
     ""
   ],
-  "Preview": "Passage.png",
+  "Preview": "passage.png",
   "RevealMap": false,
   "Script": "syria.js",
   "Seed": 8171,
@@ -18699,14 +18699,14 @@
 			<Actor seed="42983"/>
 		</Entity>
 		<Entity uid="3534">
-			<Template>structures/bridge_hele</Template>
+			<Template>actor|props/special/eyecandy/bridge_edge_hele.xml</Template>
 			<Player>0</Player>
 			<Position x="825.19587" z="667.0832"/>
 			<Orientation y="-2.37557"/>
 			<Actor seed="5896"/>
 		</Entity>
 		<Entity uid="3535">
-			<Template>structures/bridge_hele</Template>
+			<Template>actor|props/special/eyecandy/bridge_edge_hele.xml</Template>
 			<Player>0</Player>
 			<Position x="870.50696" z="688.61841"/>
 			<Orientation y="0.90084"/>

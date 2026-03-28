@@ -3,9 +3,9 @@
   <castshadow/>
   <group>
     <variant name="Column_B">
-      <mesh>props/byza_column_b.dae</mesh>
+      <mesh>props/byza_column_02.dae</mesh>
       <textures>
-        <texture file="structural/byzantine_struct_b.png" name="baseTex"/>
+        <texture file="structural/byzantine_struct_02.png" name="baseTex"/>
         <texture file="structural/byzantine_struct_b_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>

@@ -106,28 +106,28 @@
         <texture file="skeletal/umay/elite/scale2b.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="scale-chainmail2a">
+    <variant frequency="1" name="scale_chainmail2a">
       <mesh>skeletal/new/m_dress.dae</mesh>
       <textures>
-        <texture file="skeletal/umay/elite/scale-chainmail2a.png" name="baseTex"/>
+        <texture file="skeletal/umay/elite/scale_chainmail2a.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="scale-chainmail2b">
+    <variant frequency="1" name="scale_chainmail2b">
       <mesh>skeletal/new/m_dress.dae</mesh>
       <textures>
-        <texture file="skeletal/umay/elite/scale-chainmail2b.png" name="baseTex"/>
+        <texture file="skeletal/umay/elite/scale_chainmail2b.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="scale-chainmail2c">
+    <variant frequency="1" name="scale_chainmail2c">
       <mesh>skeletal/new/m_dress.dae</mesh>
       <textures>
-        <texture file="skeletal/umay/elite/scale-chainmail2c.png" name="baseTex"/>
+        <texture file="skeletal/umay/elite/scale_chainmail2c.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="scale-chainmail2d">
+    <variant frequency="1" name="scale_chainmail2d">
       <mesh>skeletal/new/m_dress.dae</mesh>
       <textures>
-        <texture file="skeletal/umay/elite/scale-chainmail2d.png" name="baseTex"/>
+        <texture file="skeletal/umay/elite/scale_chainmail2d.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

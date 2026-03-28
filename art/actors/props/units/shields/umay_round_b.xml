@@ -9,12 +9,12 @@
   <group>
     <variant frequency="1" name="wicker-dark">
       <textures>
-        <texture file="props/shields/umay/wicker-dark.png" name="baseTex"/>
+        <texture file="props/shields/umay/wicker_dark.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="wicker-light">
       <textures>
-        <texture file="props/shields/umay/wicker-light.png" name="baseTex"/>
+        <texture file="props/shields/umay/wicker_light.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

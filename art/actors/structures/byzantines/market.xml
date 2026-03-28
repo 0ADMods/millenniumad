@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant name="market">
-      <mesh>structural/byza_market_a.dae</mesh>
+      <mesh>structural/byza_market_01.dae</mesh>
       <textures>
         <texture file="structural/byzantine_struct.png" name="baseTex"/>
         <texture file="structural/byzantine_struct_norm.png" name="normTex"/>
@@ -14,7 +14,7 @@
         <prop actor="props/structures/byzantines/market_roof.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/market_props.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/market_floor.xml" attachpoint="root"/>
-        <prop actor="structures/byzantines/market_b.xml" attachpoint="root"/>
+        <prop actor="structures/byzantines/market_02.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
       </props>
     </variant>
@@ -26,7 +26,7 @@
         <prop actor="props/structures/byzantines/market_props.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/market_roof.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/market_floor.xml" attachpoint="root"/>
-        <prop actor="structures/byzantines/market_b.xml" attachpoint="root"/>
+        <prop actor="structures/byzantines/market_02.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
         <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>

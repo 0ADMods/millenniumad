@@ -3,9 +3,9 @@
   <castshadow/>
   <group>
     <variant name="market">
-      <mesh>structural/byza_market_b.dae</mesh>
+      <mesh>structural/byza_market_02.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct_b.png" name="baseTex"/>
+				<texture file="structural/byzantine_struct_02.png" name="baseTex"/>
 				<texture file="structural/byzantine_struct_b_norm.png" name="normTex"/>
         <texture file="structural/byzantine_struct_b_spec.png" name="specTex"/>
         <texture file="structural/ao/byza_market.png" name="aoTex"/>

@@ -35,19 +35,19 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="scale-chainmail1a">
+    <variant frequency="1" name="scale_chainmail1a">
       <textures>
-        <texture file="skeletal/umay/champion/scale-chainmail1a.png" name="baseTex"/>
+        <texture file="skeletal/umay/champion/scale_chainmail1a.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="scale-chainmail1b">
+    <variant frequency="1" name="scale_chainmail1b">
       <textures>
-        <texture file="skeletal/umay/champion/scale-chainmail1b.png" name="baseTex"/>
+        <texture file="skeletal/umay/champion/scale_chainmail1b.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="scale-chainmail1c">
+    <variant frequency="1" name="scale_chainmail1c">
       <textures>
-        <texture file="skeletal/umay/champion/scale-chainmail1c.png" name="baseTex"/>
+        <texture file="skeletal/umay/champion/scale_chainmail1c.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

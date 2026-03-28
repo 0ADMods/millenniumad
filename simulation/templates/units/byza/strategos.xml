@@ -97,6 +97,6 @@ Use to boost the efficiency of nearby units and buildings. Garrison within a bui
     <Range>30</Range>
   </Vision>
   <VisualActor>
-    <Actor>units/byzantines/minister_B.xml</Actor>
+    <Actor>units/byzantines/minister_b.xml</Actor>
   </VisualActor>
 </Entity>

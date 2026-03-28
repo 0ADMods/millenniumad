@@ -7,7 +7,7 @@
       <textures>
         <texture file="structural/rome_struct_2.png" name="baseTex"/>
         <texture file="structural/rome_struct_2_norm.png" name="normTex"/>
-        <texture file="structural/ao/byza_house_a.png" name="aoTex"/>
+        <texture file="structural/ao/byza_house_01.png" name="aoTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
@@ -16,7 +16,7 @@
       <textures>
         <texture file="structural/rome_struct_2.png" name="baseTex"/>
         <texture file="structural/rome_struct_2_norm.png" name="normTex"/>
-        <texture file="structural/ao/byza_house_b.png" name="aoTex"/>
+        <texture file="structural/ao/byza_house_02.png" name="aoTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
@@ -25,7 +25,7 @@
       <textures>
         <texture file="structural/rome_struct_2.png" name="baseTex"/>
         <texture file="structural/rome_struct_2_norm.png" name="normTex"/>
-        <texture file="structural/ao/byza_house_c.png" name="aoTex"/>
+        <texture file="structural/ao/byza_house_03.png" name="aoTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
@@ -34,7 +34,7 @@
       <textures>
         <texture file="structural/rome_struct_2.png" name="baseTex"/>
         <texture file="structural/rome_struct_2_norm.png" name="normTex"/>
-        <texture file="structural/ao/byza_house_d.png" name="aoTex"/>
+        <texture file="structural/ao/byza_house_04.png" name="aoTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
@@ -43,7 +43,7 @@
       <textures>
         <texture file="structural/rome_struct_2.png" name="baseTex"/>
         <texture file="structural/rome_struct_2_norm.png" name="normTex"/>
-        <texture file="structural/ao/byza_house_b.png" name="aoTex"/>
+        <texture file="structural/ao/byza_house_02.png" name="aoTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>

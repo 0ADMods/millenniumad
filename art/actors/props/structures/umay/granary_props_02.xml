@@ -2,7 +2,7 @@
 <actor version="1">
 	<group>
 		<variant name="granary_props">
-			<mesh>props/uma_granary_props_b.dae</mesh>
+			<mesh>props/uma_granary_props_02.dae</mesh>
 		</variant>
 	</group>
 	<group>

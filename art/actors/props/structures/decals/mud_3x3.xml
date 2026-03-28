@@ -5,8 +5,8 @@
       <decal angle="0" depth="20" offsetx="0" offsetz="0" width="20"/>
       <textures>
         <texture file="props/decals/decal_mud_small.png" name="baseTex"/>
-        <texture file="props/decals/decal_mud_NRM.png" name="normTex"/>
-        <texture file="props/decals/decal_mud_SPEC.png" name="specTex"/>
+      <texture file="props/decals/decal_mud_nrm.png" name="normTex"/>
+      <texture file="props/decals/decal_mud_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

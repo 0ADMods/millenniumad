@@ -15,10 +15,10 @@
   </group>
   <group>
     <variant frequency="1" name="house1">
-      <mesh>structural/umay_house_C.dae</mesh>
+      <mesh>structural/umay_house_03.dae</mesh>
     </variant>
     <variant frequency="1" name="house2">
-      <mesh>structural/umay_house_B.dae</mesh>
+      <mesh>structural/umay_house_02.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
         <prop actor="props/structures/norse/barrel.xml" attachpoint="barrel_01"/>
@@ -27,13 +27,13 @@
       </props>
     </variant>
     <variant frequency="1" name="house3">
-      <mesh>structural/umay_house_B.dae</mesh>
+      <mesh>structural/umay_house_02.dae</mesh>
     </variant>
     <variant frequency="1" name="house4">
-       <mesh>structural/Umayyad_house_D.dae</mesh>
+       <mesh>structural/umayyad_house_04.dae</mesh>
     </variant>
     <variant frequency="1" name="house5">
-      <mesh>structural/umay_house_B.dae</mesh>
+      <mesh>structural/umay_house_02.dae</mesh>
     </variant>
   </group>
     <!-- <group>

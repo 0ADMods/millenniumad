@@ -7,7 +7,7 @@
 	},
 	"requirements": { "tech": "phase_city" },
 	"requirementsTooltip": "Unlocked in City Phase",
-	"icon": "byza/hagia sophia_cross.png",
+	"icon": "byza/hagia_sophia_cross.png",
 	"researchTime": 30,
 	"tooltip": "",
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

@@ -3,9 +3,9 @@
 	<castshadow/>
 	<group>
 			<variant name="Carolingian Lorsch Abbey Gate">
-				<mesh>structural/caro_fortress_struct_B.dae</mesh>
+				<mesh>structural/caro_fortress_struct_02.dae</mesh>
 			<textures>
-				<texture file="structural/caro_struct_b.png" name="baseTex"/>
+				<texture file="structural/caro_struct_02.png" name="baseTex"/>
 				<texture file="structural/caro_struct_b_norm.png" name="normTex"/>
 				<texture file="structural/caro_struct_b_spec.png" name="specTex"/>
 				<texture file="structural/ao/caro_lorsch_gate.png" name="aoTex"/>

@@ -51,7 +51,7 @@
     {},
     {}
   ],
-  "Preview": "Outpost.png",
+  "Preview": "outpost.png",
   "RevealMap": false,
   "Script": "lower_nubia.js",
   "Seed": 6133,
@@ -24449,14 +24449,14 @@
 			<Actor seed="36337"/>
 		</Entity>
 		<Entity uid="4731">
-			<Template>structures/bridge_hele</Template>
+			<Template>actor|props/special/eyecandy/bridge_edge_hele.xml</Template>
 			<Player>0</Player>
 			<Position x="699.18519" z="477.8495"/>
 			<Orientation y="-2.33851"/>
 			<Actor seed="50"/>
 		</Entity>
 		<Entity uid="4732">
-			<Template>structures/bridge_hele</Template>
+			<Template>actor|props/special/eyecandy/bridge_edge_hele.xml</Template>
 			<Player>0</Player>
 			<Position x="725.09314" z="500.68635"/>
 			<Orientation y="0.8703"/>
@@ -25614,7 +25614,7 @@
 			<Actor seed="19433"/>
 		</Entity>
 		<Entity uid="4968">
-			<Template>actor|geology/stonemine_desert_badlands_new.xml</Template>
+			<Template>actor|geology/stonemine_desert_badlands_large.xml</Template>
 			<Position x="715.02936" z="805.88819"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41001"/>

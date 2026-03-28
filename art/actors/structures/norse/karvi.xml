@@ -36,11 +36,11 @@
         <prop actor="props/units/weapons/norse_spear.xml" attachpoint="weapon_c"/>
         <prop actor="props/units/weapons/norse_axe.xml" attachpoint="weapon_d"/>
         <prop actor="props/units/weapons/norse_axe.xml" attachpoint="weapon_e"/>
-        <prop actor="props/structures/norse/food_basket_a.xml" attachpoint="food_basket_a"/>
-        <prop actor="props/structures/norse/food_basket_a.xml" attachpoint="food_basket_b"/>
-        <prop actor="props/structures/norse/food_basket_b.xml" attachpoint="food_basket_c"/>
-        <prop actor="props/structures/norse/food_basket_c.xml" attachpoint="food_basket_d"/>
-        <prop actor="props/structures/norse/food_basket_a.xml" attachpoint="food_basket_e"/>
+        <prop actor="props/structures/norse/food_basket_01.xml" attachpoint="food_basket_a"/>
+        <prop actor="props/structures/norse/food_basket_01.xml" attachpoint="food_basket_b"/>
+        <prop actor="props/structures/norse/food_basket_02.xml" attachpoint="food_basket_c"/>
+        <prop actor="props/structures/norse/food_basket_03.xml" attachpoint="food_basket_d"/>
+        <prop actor="props/structures/norse/food_basket_01.xml" attachpoint="food_basket_e"/>
       </props>
       <textures>
         <texture file="structural/norse_snekkja.png" name="baseTex"/>

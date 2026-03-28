@@ -15,10 +15,10 @@
         <prop actor="props/fauna/fish_dead.xml" attachpoint="fish_dead_b"/>
         <prop actor="props/fauna/fish_dead.xml" attachpoint="fish_dead_c"/>
         <prop actor="props/fauna/fish_dead.xml" attachpoint="fish_dead_d"/>
-        <prop actor="props/structures/norse/food_basket_a.xml" attachpoint="food_a"/>
-        <prop actor="props/structures/norse/food_basket_b.xml" attachpoint="food_b"/>
-        <prop actor="props/structures/norse/food_basket_c.xml" attachpoint="food_c"/>
-        <prop actor="props/structures/norse/food_basket_b.xml" attachpoint="food_d"/>
+        <prop actor="props/structures/norse/food_basket_01.xml" attachpoint="food_a"/>
+        <prop actor="props/structures/norse/food_basket_02.xml" attachpoint="food_b"/>
+        <prop actor="props/structures/norse/food_basket_03.xml" attachpoint="food_c"/>
+        <prop actor="props/structures/norse/food_basket_02.xml" attachpoint="food_d"/>
         <prop actor="props/structures/norse/fish_stand.xml" attachpoint="fish_stand"/>
         <prop actor="props/structures/norse/table.xml" attachpoint="table_a"/>
         <prop actor="props/structures/norse/table.xml" attachpoint="table_b"/>

@@ -24,7 +24,7 @@
         <texture file="structural/ao/uma_granary.png" name="aoTex"/>
       </textures>  
       <props>
-        <prop actor="props/structures/umay/granary_props_b.xml" attachpoint="root"/>
+        <prop actor="props/structures/umay/granary_props_02.xml" attachpoint="root"/>
          <prop actor="props/structures/decals/iber_corral_mud.xml" attachpoint="root"/>
       </props>  
  </variant>

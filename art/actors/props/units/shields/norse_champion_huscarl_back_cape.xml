@@ -19,12 +19,12 @@
     </variant>
     <variant frequency="25" name="5_rusty_iron_raven">
       <textures>
-        <texture file="props/shields/raven-player_shield-white.png" name="baseTex"/>
+        <texture file="props/shields/raven_player_shield_white.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="25" name="5_rusty_iron_raven">
       <textures>
-        <texture file="props/shields/raven-player_shield-black.png" name="baseTex"/>
+        <texture file="props/shields/raven_player_shield_black.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

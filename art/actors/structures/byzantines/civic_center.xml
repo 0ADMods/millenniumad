@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant name="civic_center">
-      <mesh>structural/byza_civic_center_a.dae</mesh>
+      <mesh>structural/byza_civic_center_01.dae</mesh>
       <textures>
         <texture file="structural/byzantine_struct.png" name="baseTex"/>
         <texture file="structural/byzantine_struct_norm.png" name="normTex"/>
@@ -13,7 +13,7 @@
       <props>
         <prop actor="props/structures/byzantines/civic_center_roof.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/civic_center_front.xml" attachpoint="root"/>
-        <prop actor="structures/byzantines/civic_center_b.xml" attachpoint="root"/>
+        <prop actor="structures/byzantines/civic_center_02.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
@@ -25,7 +25,7 @@
     <variant name="death">
       <props>
         <prop actor="props/structures/byzantines/civic_center_front.xml" attachpoint="root"/>
-        <prop actor="structures/byzantines/civic_center_b.xml" attachpoint="root"/>
+        <prop actor="structures/byzantines/civic_center_02.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/civic_center_roof.xml" attachpoint="root"/>
         <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>

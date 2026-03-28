@@ -16,9 +16,9 @@
         <prop actor="props/structures/byzantines/fence_medium.xml" attachpoint="fence_d"/>
         <prop actor="props/structures/byzantines/fence_medium.xml" attachpoint="fence_short_a"/>
         <prop actor="props/structures/byzantines/fence_medium.xml" attachpoint="fence_short_b"/>
-        <prop actor="props/structures/byzantines/column_pedestal_a.xml" attachpoint="column_left"/>
-        <prop actor="props/structures/byzantines/column_pedestal_a.xml" attachpoint="column_right"/>
-        <prop actor="props/structures/byzantines/column_pedestal_b.xml" attachpoint="column_mid"/>
+        <prop actor="props/structures/byzantines/column_pedestal_01.xml" attachpoint="column_left"/>
+        <prop actor="props/structures/byzantines/column_pedestal_01.xml" attachpoint="column_right"/>
+        <prop actor="props/structures/byzantines/column_pedestal_02.xml" attachpoint="column_mid"/>
         <prop actor="flora/trees/cypress_sm_branches.xml" attachpoint="bush_a"/>
         <prop actor="flora/trees/cypress_sm_branches.xml" attachpoint="bush_b"/>
         <prop actor="flora/trees/cypress_sm_branches.xml" attachpoint="bush_c"/>

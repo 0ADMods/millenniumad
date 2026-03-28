@@ -2,18 +2,18 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="Pedestal_A">
-      <mesh>props/byza_column_pedestal_a.dae</mesh>
+    <variant name="Pedestal_B">
+      <mesh>props/byza_column_pedestal_02.dae</mesh>
       <textures>
-        <texture file="structural/byzantine_struct_b.png" name="baseTex"/>
+        <texture file="structural/byzantine_struct_02.png" name="baseTex"/>
         <texture file="structural/byzantine_struct_b_norm.png" name="normTex"/>
         <texture file="structural/byzantine_struct_b_spec.png" name="specTex"/>
-        <texture file="structural/ao/byza_pedestal_a.png" name="aoTex"/>
+        <texture file="structural/ao/byza_pedestal_02.png" name="aoTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>
       <props>
-        <prop actor="props/structures/byzantines/column_b.xml" attachpoint="column"/>
+        <prop actor="props/structures/byzantines/column_02.xml" attachpoint="column"/>
       </props>
     </variant>
   </group>

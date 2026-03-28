@@ -51,7 +51,7 @@
     {},
     {}
   ],
-  "Preview": "Provence.png",
+  "Preview": "provence.png",
   "RevealMap": false,
   "Script": "hellas.js",
   "Seed": 2663,
@@ -25118,14 +25118,14 @@
 			<Actor seed="39478"/>
 		</Entity>
 		<Entity uid="4483">
-			<Template>structures/bridge_hele</Template>
+			<Template>actor|props/special/eyecandy/bridge_edge_hele.xml</Template>
 			<Player>0</Player>
 			<Position x="803.97754" z="337.31449"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="50285"/>
 		</Entity>
 		<Entity uid="4484">
-			<Template>structures/bridge_wooden</Template>
+			<Template>actor|props/special/eyecandy/bridge_edge_wooden.xml</Template>
 			<Player>0</Player>
 			<Position x="814.21076" z="343.45722"/>
 			<Orientation y="2.35621"/>

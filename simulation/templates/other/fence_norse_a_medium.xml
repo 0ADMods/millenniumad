@@ -43,6 +43,6 @@
     <Range>4</Range>
   </Vision>
   <VisualActor>
-    <Actor>props/structures/norse/fence_a_medium.xml</Actor>
+    <Actor>props/structures/norse/fence_01_medium.xml</Actor>
   </VisualActor>
 </Entity>

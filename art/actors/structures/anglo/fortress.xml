@@ -18,7 +18,7 @@
 			</props>
 		</variant>
 		<variant frequency="5" name="Anglo fortress B">
-			<mesh>structural/anglo_fortress_b.dae</mesh>
+			<mesh>structural/anglo_fortress_02.dae</mesh>
 			<textures>
 				<texture file="structural/anglo_struct.png" name="baseTex"/>
 				<texture file="structural/anglo_struct_norm.png" name="normTex"/>
@@ -31,7 +31,7 @@
 			</props>
 		</variant>
 		<variant frequency="5" name="Anglo fortress C">
-			<mesh>structural/anglo_fortress_c.dae</mesh>
+			<mesh>structural/anglo_fortress_03.dae</mesh>
 			<textures>
 				<texture file="structural/anglo_struct.png" name="baseTex"/>
 				<texture file="structural/anglo_struct_norm.png" name="normTex"/>

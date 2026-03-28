@@ -3,11 +3,11 @@
   <castshadow/>
   <group>
     <variant name="blacksmith">
-      <mesh>structural/byza_wonder_a.dae</mesh>
+      <mesh>structural/byza_wonder_01.dae</mesh>
       <textures>
         <texture file="structural/byzantine_struct3.png" name="baseTex"/>
         <texture file="structural/byzantine_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/byza_wonder_a.png" name="aoTex"/>
+        <texture file="structural/ao/byza_wonder_01.png" name="aoTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>
       <props>
@@ -15,8 +15,8 @@
         <prop actor="props/structures/decals/dirt_theater.xml" attachpoint="dirt_B"/>
         <prop actor="props/structures/decals/dirt_theater.xml" attachpoint="dirt_R"/>
         <prop actor="props/structures/decals/dirt_theater.xml" attachpoint="dirt_L"/>
-        <prop actor="props/structures/byzantines/wonder_b.xml" attachpoint="root"/>
-        <prop actor="props/structures/byzantines/wonder_c.xml" attachpoint="root"/>
+        <prop actor="props/structures/byzantines/wonder_02.xml" attachpoint="root"/>
+        <prop actor="props/structures/byzantines/wonder_03.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/wonder_roof.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/wonder_props.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/wonder_domes.xml" attachpoint="root"/>
@@ -34,8 +34,8 @@
     <variant frequency="1" name="alive"/>
     <variant name="death">
       <props>
-        <prop actor="props/structures/byzantines/wonder_b.xml" attachpoint="root"/>
-        <prop actor="props/structures/byzantines/wonder_c.xml" attachpoint="root"/>
+        <prop actor="props/structures/byzantines/wonder_02.xml" attachpoint="root"/>
+        <prop actor="props/structures/byzantines/wonder_03.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/wonder_roof.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/wonder_props.xml" attachpoint="root"/>
         <prop actor="props/structures/byzantines/wonder_domes.xml" attachpoint="root"/>

@@ -46,7 +46,7 @@
     <Range>4</Range>
   </Vision>
   <VisualActor>
-    <Actor>props/structures/norse/fence_a_short.xml</Actor>
+    <Actor>props/structures/norse/fence_01_short.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>6</Length>

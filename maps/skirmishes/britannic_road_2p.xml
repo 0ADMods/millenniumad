@@ -3882,21 +3882,21 @@
 			<Actor seed="48442"/>
 		</Entity>
 		<Entity uid="599">
-			<Template>structures/gaul_tavern</Template>
+			<Template>structures/gaul/tavern</Template>
 			<Player>0</Player>
 			<Position x="495.5746" z="558.13953"/>
 			<Orientation y="-3.65511"/>
 			<Actor seed="22846"/>
 		</Entity>
 		<Entity uid="600">
-			<Template>structures/gaul_wonder</Template>
+			<Template>structures/gaul/wonder</Template>
 			<Player>0</Player>
 			<Position x="743.4477" z="161.44446"/>
 			<Orientation y="-0.59548"/>
 			<Actor seed="37966"/>
 		</Entity>
 		<Entity uid="601">
-			<Template>structures/gaul_wonder</Template>
+			<Template>structures/gaul/wonder</Template>
 			<Player>0</Player>
 			<Position x="238.98133" z="854.8628"/>
 			<Orientation y="-7.14683"/>
@@ -3910,42 +3910,42 @@
 			<Actor seed="60640"/>
 		</Entity>
 		<Entity uid="610">
-			<Template>structures/brit_rotarymill</Template>
+			<Template>structures/brit/rotarymill</Template>
 			<Player>0</Player>
 			<Position x="366.20484" z="72.29896"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="38358"/>
 		</Entity>
 		<Entity uid="611">
-			<Template>structures/brit_rotarymill</Template>
+			<Template>structures/brit/rotarymill</Template>
 			<Player>0</Player>
 			<Position x="554.12629" z="985.07404"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48994"/>
 		</Entity>
 		<Entity uid="612">
-			<Template>units/brit_war_dog_b</Template>
+			<Template>units/brit/war_dog</Template>
 			<Player>0</Player>
 			<Position x="272.1678" z="837.27741"/>
 			<Orientation y="-1.9215"/>
 			<Actor seed="48690"/>
 		</Entity>
 		<Entity uid="613">
-			<Template>units/brit_war_dog_b</Template>
+			<Template>units/brit/war_dog</Template>
 			<Player>0</Player>
 			<Position x="269.13733" z="833.39148"/>
 			<Orientation y="0.43722"/>
 			<Actor seed="26624"/>
 		</Entity>
 		<Entity uid="614">
-			<Template>units/brit_war_dog_b</Template>
+			<Template>units/brit/war_dog</Template>
 			<Player>0</Player>
 			<Position x="720.18726" z="203.86017"/>
 			<Orientation y="-1.63308"/>
 			<Actor seed="5300"/>
 		</Entity>
 		<Entity uid="615">
-			<Template>units/brit_war_dog_b</Template>
+			<Template>units/brit/war_dog</Template>
 			<Player>0</Player>
 			<Position x="717.77057" z="199.40967"/>
 			<Orientation y="0.96863"/>
