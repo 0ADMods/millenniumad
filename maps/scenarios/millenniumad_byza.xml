@@ -38,8 +38,8 @@
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
-  "Name": "Unnamed map",
-  "Description": "Give an interesting description of your map.",
+  "Name": "Byzantine Structures",
+  "Description": "Scenario showcasing the Byzantine structure set used by MillenniumAD.",
   "PlayerData": [
     null,
     {

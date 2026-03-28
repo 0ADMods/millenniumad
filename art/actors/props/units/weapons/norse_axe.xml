@@ -5,6 +5,7 @@
     <variant>
       <textures>
         <texture file="props/prop_weap.dds" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
 				<texture file="props/prop_weap_spec.png" name="specTex"/>
       </textures>
     </variant>
@@ -20,7 +21,5 @@
 			<mesh>props/weap_norse_axe_c.dae</mesh>
 		</variant>
 	</group>
-  <material>basic_spec.xml</material>
+  <material>no_trans_norm_spec.xml</material>
 </actor>
-
-

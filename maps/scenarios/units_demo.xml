@@ -5,8 +5,7 @@
 		<SunColor r="1.0" g="1.0" b="1.0"/>
 		<SunElevation angle="0.628"/>
 		<SunRotation angle="0"/>
-		<TerrainAmbientColor r="0.3" g="0.3" b="0.3"/>
-		<UnitsAmbientColor r="0.65" g="0.65" b="0.65"/>
+		<AmbientColor r="0.65" g="0.65" b="0.65"/>
 		<Water>
 			<WaterBody>
 				<Type>default</Type>
@@ -30,9 +29,39 @@
 		<Position x="128" y="150" z="128"/>
 		<Rotation angle="0"/>
 	</Camera>
-	<ScriptSettings>
-		<Victory>endless</Victory>
-	</ScriptSettings>
+	<ScriptSettings><![CDATA[
+{
+  "CircularMap": false,
+  "Description": "Demonstration scenario showcasing MillenniumAD units and structures.",
+  "GameType": "endless",
+  "Keywords": [
+    "demo"
+  ],
+  "LockTeams": false,
+  "Name": "Units Demo (5)",
+  "PlayerData": [
+    "",
+    {
+      "Name": "Player 1"
+    },
+    {
+      "Name": "Player 2"
+    },
+    {
+      "Name": "Player 3"
+    },
+    {
+      "Name": "Player 4"
+    },
+    {
+      "Name": "Player 5"
+    }
+  ],
+  "Preview": "",
+  "RevealMap": true,
+  "VictoryConditions": []
+}
+]]></ScriptSettings>
 	<Entities>
 		<!-- Player 1 (Anglo) -->
 		<Entity uid="1">

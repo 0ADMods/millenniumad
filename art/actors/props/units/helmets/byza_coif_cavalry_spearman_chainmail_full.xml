@@ -10,20 +10,21 @@
     <variant frequency="1" name="coif-chainmail">
       <textures>
         <texture file="props/helmet/chainmail.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
   <group>
-		<!--<variant file="biped/rider/cavalry/base_spearman_relax_shield_02.xml"/>-->
-		<variant file="biped/rider/cavalry/base_spearman_relax_shield_01.xml" frequency="1" name="Spearman-Relax-Shield-01"/>
-		<variant file="biped/rider/carry_meat.xml"/>
+    <variant file="biped/rider/cavalry/base_spearman_relax_shield_01.xml" frequency="1" name="Spearman-Relax-Shield-01"/>
+    <variant file="biped/rider/carry_meat.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
     <variant file="biped/rider/promotion_shield.xml"/>
     <variant file="biped/rider/attack_slaughter_shield_hele.xml"/>
     <variant file="biped/gather_meat.xml"/>
-		<variant file="biped/rider/death_shield.xml"/>
-	</group>
-  <material>basic_trans.xml</material>
+    <variant file="biped/rider/death_shield.xml"/>
+  </group>
+  <material>basic_trans_norm_spec.xml</material>
 </actor>

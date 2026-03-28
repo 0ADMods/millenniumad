@@ -38,8 +38,8 @@
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
-  "Name": "Unnamed map",
-  "Description": "Give an interesting description of your map.",
+  "Name": "Norse Actors",
+  "Description": "Scenario showcasing Norse unit and actor variants used by MillenniumAD.",
   "PlayerData": [
     null,
     {

@@ -40,7 +40,7 @@
 {
   "AISeed": 0,
   "CircularMap": true,
-  "Description": "Give an interesting description of your map.",
+  "Description": "Scenario showcasing a Carolingian outpost layout and surrounding structures.",
   "GameType": "conquest",
   "Keywords": [
     "demo"

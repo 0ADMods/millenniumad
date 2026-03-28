@@ -39,8 +39,8 @@
   <ScriptSettings>
     <![CDATA[
 {
-  "Name": "Unnamed map",
-  "Description": "Give an interesting description of your map.",
+  "Name": "Norse Structures",
+  "Description": "Scenario showcasing the Norse structure set used by MillenniumAD.",
   "PlayerData": [
     null,
     {

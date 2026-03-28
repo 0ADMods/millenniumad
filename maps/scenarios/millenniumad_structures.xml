@@ -38,8 +38,8 @@
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
-  "Name": "Unnamed map",
-  "Description": "Give an interesting description of your map.",
+  "Name": "MillenniumAD Structures",
+  "Description": "Scenario showcasing structure sets from multiple MillenniumAD civilizations.",
   "PlayerData": [
     null,
     {

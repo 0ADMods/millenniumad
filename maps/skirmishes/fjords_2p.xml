@@ -40,11 +40,11 @@
 {
   "AISeed": 0,
   "CircularMap": true,
-  "Description": "Give an interesting description of your map.",
+  "Description": "A skirmish map of narrow fjords and coastal inlets that favor naval movement and contested shorelines.",
   "GameType": "conquest",
   "Keywords": [],
   "LockTeams": false,
-  "Name": "Fjords",
+  "Name": "Fjords (2)",
   "PlayerData": [
     "",
     {

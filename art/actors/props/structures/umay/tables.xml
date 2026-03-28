@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
-	<group>
-		<variant name="barrel">
-			<mesh>props/umay_props_table.dae</mesh>
-		</variant>
-	</group>
-	<group>
-		<variant>
+  <group>
+    <variant name="barrel">
+      <mesh>props/umay_props_table.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant>
       <textures>
         <texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
-		</variant>
-	</group>
- 	<material>player_trans_parallax.xml</material>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

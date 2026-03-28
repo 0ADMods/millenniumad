@@ -2,8 +2,8 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant name="Carolingian Lorsch Abbey Gate">
-			<mesh>structural/caro_mayenne_castle.dae</mesh>
+			<variant name="Carolingian Lorsch Abbey Gate">
+				<mesh>structural/caro_fortress_struct_B.dae</mesh>
 			<textures>
 				<texture file="structural/caro_struct_b.png" name="baseTex"/>
 				<texture file="structural/caro_struct_b_norm.png" name="normTex"/>
