@@ -453,7 +453,7 @@
         <input semantic="OUTPUT" source="#door_origin_pose_matrix-output"/>
         <input semantic="INTERPOLATION" source="#door_origin_pose_matrix-interpolation"/>
       </sampler>
-      <channel source="#door_origin_pose_matrix-sampler" target="origin/transform"/>
+      <channel source="#door_origin_pose_matrix-sampler" target="origin_01/transform"/>
     </animation>
     <animation id="door_door_right_pose_matrix">
       <source id="door_door_right_pose_matrix-input">
@@ -485,7 +485,7 @@
         <input semantic="OUTPUT" source="#door_door_right_pose_matrix-output"/>
         <input semantic="INTERPOLATION" source="#door_door_right_pose_matrix-interpolation"/>
       </sampler>
-      <channel source="#door_door_right_pose_matrix-sampler" target="door_right/transform"/>
+      <channel source="#door_door_right_pose_matrix-sampler" target="door_right_01/transform"/>
     </animation>
     <animation id="door_lock_right_pose_matrix">
       <source id="door_lock_right_pose_matrix-input">
@@ -517,7 +517,7 @@
         <input semantic="OUTPUT" source="#door_lock_right_pose_matrix-output"/>
         <input semantic="INTERPOLATION" source="#door_lock_right_pose_matrix-interpolation"/>
       </sampler>
-      <channel source="#door_lock_right_pose_matrix-sampler" target="lock_right/transform"/>
+      <channel source="#door_lock_right_pose_matrix-sampler" target="lock_right_01/transform"/>
     </animation>
     <animation id="door_door_left_pose_matrix">
       <source id="door_door_left_pose_matrix-input">
@@ -549,7 +549,7 @@
         <input semantic="OUTPUT" source="#door_door_left_pose_matrix-output"/>
         <input semantic="INTERPOLATION" source="#door_door_left_pose_matrix-interpolation"/>
       </sampler>
-      <channel source="#door_door_left_pose_matrix-sampler" target="door_left/transform"/>
+      <channel source="#door_door_left_pose_matrix-sampler" target="door_left_01/transform"/>
     </animation>
     <animation id="door_lock_left_pose_matrix">
       <source id="door_lock_left_pose_matrix-input">
@@ -581,7 +581,7 @@
         <input semantic="OUTPUT" source="#door_lock_left_pose_matrix-output"/>
         <input semantic="INTERPOLATION" source="#door_lock_left_pose_matrix-interpolation"/>
       </sampler>
-      <channel source="#door_lock_left_pose_matrix-sampler" target="lock_left/transform"/>
+      <channel source="#door_lock_left_pose_matrix-sampler" target="lock_left_01/transform"/>
     </animation>
     <animation id="door_prop_right_flag_pose_matrix">
       <source id="door_prop_right_flag_pose_matrix-input">
@@ -677,7 +677,7 @@
         <input semantic="OUTPUT" source="#door_origin2_pose_matrix-output"/>
         <input semantic="INTERPOLATION" source="#door_origin2_pose_matrix-interpolation"/>
       </sampler>
-      <channel source="#door_origin2_pose_matrix-sampler" target="origin2/transform"/>
+      <channel source="#door_origin2_pose_matrix-sampler" target="origin_02/transform"/>
     </animation>
     <animation id="door_door_right2_pose_matrix">
       <source id="door_door_right2_pose_matrix-input">
@@ -709,7 +709,7 @@
         <input semantic="OUTPUT" source="#door_door_right2_pose_matrix-output"/>
         <input semantic="INTERPOLATION" source="#door_door_right2_pose_matrix-interpolation"/>
       </sampler>
-      <channel source="#door_door_right2_pose_matrix-sampler" target="door_right2/transform"/>
+      <channel source="#door_door_right2_pose_matrix-sampler" target="door_right_02/transform"/>
     </animation>
     <animation id="door_lock_right_001_pose_matrix">
       <source id="door_lock_right_001_pose_matrix-input">
@@ -741,7 +741,7 @@
         <input semantic="OUTPUT" source="#door_lock_right_001_pose_matrix-output"/>
         <input semantic="INTERPOLATION" source="#door_lock_right_001_pose_matrix-interpolation"/>
       </sampler>
-      <channel source="#door_lock_right_001_pose_matrix-sampler" target="lock_right_001/transform"/>
+      <channel source="#door_lock_right_001_pose_matrix-sampler" target="lock_right_02/transform"/>
     </animation>
     <animation id="door_door_left2_pose_matrix">
       <source id="door_door_left2_pose_matrix-input">
@@ -773,7 +773,7 @@
         <input semantic="OUTPUT" source="#door_door_left2_pose_matrix-output"/>
         <input semantic="INTERPOLATION" source="#door_door_left2_pose_matrix-interpolation"/>
       </sampler>
-      <channel source="#door_door_left2_pose_matrix-sampler" target="door_left2/transform"/>
+      <channel source="#door_door_left2_pose_matrix-sampler" target="door_left_02/transform"/>
     </animation>
     <animation id="door_lock_left_001_pose_matrix">
       <source id="door_lock_left_001_pose_matrix-input">
@@ -805,7 +805,7 @@
         <input semantic="OUTPUT" source="#door_lock_left_001_pose_matrix-output"/>
         <input semantic="INTERPOLATION" source="#door_lock_left_001_pose_matrix-interpolation"/>
       </sampler>
-      <channel source="#door_lock_left_001_pose_matrix-sampler" target="lock_left_001/transform"/>
+      <channel source="#door_lock_left_001_pose_matrix-sampler" target="lock_left_02/transform"/>
     </animation>
     <animation id="door_prop_right_flag2_pose_matrix">
       <source id="door_prop_right_flag2_pose_matrix-input">
@@ -1189,7 +1189,7 @@
       <skin source="#Anglo_wall-mesh">
         <bind_shape_matrix>1.231473 0 0 0 0 1 0 -2.38419e-7 0 0 0.9999999 0 0 0 0 1</bind_shape_matrix>
         <source id="door_Anglo_wall_gate_door-skin-joints">
-          <Name_array id="door_Anglo_wall_gate_door-skin-joints-array" count="8">origin door_right lock_right door_left lock_left origin2 door_right2 door_left2</Name_array>
+          <Name_array id="door_Anglo_wall_gate_door-skin-joints-array" count="8">origin_01 door_right_01 lock_right_01 door_left_01 lock_left_01 origin_02 door_right_02 door_left_02</Name_array>
           <technique_common>
             <accessor source="#door_Anglo_wall_gate_door-skin-joints-array" count="8" stride="1">
               <param name="JOINT" type="name"/>
@@ -1227,17 +1227,17 @@
   </library_controllers>
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
-      <node id="door" name="door" type="NODE">
+      <node id="door_root" name="door_root" type="NODE">
         <translate sid="location">0 3.19189 0</translate>
         <rotate sid="rotationZ">0 0 1 0</rotate>
         <rotate sid="rotationY">0 1 0 0</rotate>
         <rotate sid="rotationX">1 0 0 0</rotate>
         <scale sid="scale">0.4431503 0.4431503 0.4431503</scale>
-        <node id="origin" name="origin" sid="origin" type="JOINT">
+        <node id="origin_01" name="origin_01" sid="origin_01" type="JOINT">
           <matrix sid="transform">1 0 0 0 0 1 0 -1.138844 0 0 1 0 0 0 0 1</matrix>
-          <node id="door_right" name="door_right" sid="door_right" type="JOINT">
+          <node id="door_right_01" name="door_right_01" sid="door_right_01" type="JOINT">
             <matrix sid="transform">1 0 0 -8.472649 0 1 0 2.556916 0 0 1 5.809892 0 0 0 1</matrix>
-            <node id="lock_right" name="lock_right" sid="lock_right" type="JOINT">
+            <node id="lock_right_01" name="lock_right_01" sid="lock_right_01" type="JOINT">
               <matrix sid="transform">1 0 0 4.614739 0 1 0 7.15256e-7 0 0 1 4.76837e-7 0 0 0 1</matrix>
               <extra>
                 <technique profile="blender">
@@ -1257,9 +1257,9 @@
               </technique>
             </extra>
           </node>
-          <node id="door_left" name="door_left" sid="door_left" type="JOINT">
+          <node id="door_left_01" name="door_left_01" sid="door_left_01" type="JOINT">
             <matrix sid="transform">1 0 0 8.020119 0 1 0 2.556916 0 0 1 5.809893 0 0 0 1</matrix>
-            <node id="lock_left" name="lock_left" sid="lock_left" type="JOINT">
+            <node id="lock_left_01" name="lock_left_01" sid="lock_left_01" type="JOINT">
               <matrix sid="transform">1 0 0 -8.034131 0 1 0 3.57628e-7 0 0 1 1.43051e-6 0 0 0 1</matrix>
               <extra>
                 <technique profile="blender">
@@ -1310,11 +1310,11 @@
             </technique>
           </extra>
         </node>
-        <node id="origin2" name="origin2" sid="origin2" type="JOINT">
+        <node id="origin_02" name="origin_02" sid="origin_02" type="JOINT">
           <matrix sid="transform">-1 0 0 0 0 -1 0 -13.47424 0 0 1 0 0 0 0 1</matrix>
-          <node id="door_right2" name="door_right2" sid="door_right2" type="JOINT">
+          <node id="door_right_02" name="door_right_02" sid="door_right_02" type="JOINT">
             <matrix sid="transform">1 0 0 8.472649 0 0.9999999 0 2.556916 0 0 1 5.809892 0 0 0 1</matrix>
-            <node id="lock_right_001" name="lock_right.001" sid="lock_right_001" type="JOINT">
+            <node id="lock_right_02" name="lock_right_02" sid="lock_right_02" type="JOINT">
               <matrix sid="transform">0.9999999 -5.96046e-8 0 -4.614739 0 1 0 1.90735e-6 0 0 1 4.76837e-7 0 0 0 1</matrix>
               <extra>
                 <technique profile="blender">
@@ -1334,9 +1334,9 @@
               </technique>
             </extra>
           </node>
-          <node id="door_left2" name="door_left2" sid="door_left2" type="JOINT">
+          <node id="door_left_02" name="door_left_02" sid="door_left_02" type="JOINT">
             <matrix sid="transform">1 0 0 -8.005614 0 0.9999999 0 2.598615 0 0 1 5.727289 0 0 0 1</matrix>
-            <node id="lock_left_001" name="lock_left.001" sid="lock_left_001" type="JOINT">
+            <node id="lock_left_02" name="lock_left_02" sid="lock_left_02" type="JOINT">
               <matrix sid="transform">1 0 0 8.019626 0 0.9999999 0 -0.04169655 0 0 1 0.08260441 0 0 0 1</matrix>
               <extra>
                 <technique profile="blender">
@@ -1395,8 +1395,8 @@
         <rotate sid="rotationX">1 0 0 0</rotate>
         <scale sid="scale">1 1 1</scale>
         <instance_controller url="#door_Anglo_wall_gate_door-skin">
-          <skeleton>#origin</skeleton>
-          <skeleton>#origin2</skeleton>
+          <skeleton>#origin_01</skeleton>
+          <skeleton>#origin_02</skeleton>
           <bind_material>
             <technique_common>
               <instance_material symbol="Material-material" target="#Material-material"/>
