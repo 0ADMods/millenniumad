@@ -1,39 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?>
-<actor version="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<actor version='1'>
   <castshadow/>
   <group>
-    <variant frequency="1" name="Umayyad_Colony" file="structures/defensive_building.xml">
+    <variant frequency='1' name='Umayyad_Colony' file='structures/defensive_building.xml'>
       <mesh>structural/umay_colony.dae</mesh>
       <textures>
-        <texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
-        <texture file="structural/umay/umay_struct_02_norm.png" name="normTex"/>
-        <texture file="structural/ao/umay_colony_ao.png" name="aoTex"/>
+        <texture file='structural/umay/umay_struct_02.png' name='baseTex'/>
+        <texture file='structural/umay/umay_struct_02_norm.png' name='normTex'/>
+        <texture file='structural/ao/umay_colony_ao.png' name='aoTex'/>
+        <texture file='structural/umay/umay_struct_02_spec.png' name='specTex'/>
       </textures>
       <props>
-        <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
+        <prop actor='props/structures/decals/dirt_8x8.xml' attachpoint='root'/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="ungarrisoned"/>
-    <variant name="garrisoned">
+    <variant frequency='1' name='ungarrisoned'/>
+    <variant name='garrisoned'>
       <props>
-        <prop actor="props/special/common/garrison_flag_seleucids.xml" attachpoint="garrisoned"/>
+        <prop actor='props/special/common/garrison_flag_seleucids.xml' attachpoint='garrisoned'/>
       </props>
     </variant>
   </group>
   <group>
-    <variant name="alive" frequency="1"/>
-    <variant file="structures/umay/medium_damage.xml"/>
-    <variant file="structures/umay/heavy_damage.xml"/>
-    <variant file="structures/umay/destruction_medium.xml" name="death">
+    <variant name='alive' frequency='1'/>
+    <variant file='structures/umay/medium_damage.xml'/>
+    <variant file='structures/umay/heavy_damage.xml'/>
+    <variant file='structures/umay/destruction_medium.xml' name='death'>
       <props>
-        <prop actor="props/structures/byzantines/farmstead_hay.xml" attachpoint="root"/>
-        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
-        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
-        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor='props/structures/byzantines/farmstead_hay.xml' attachpoint='root'/>
+        <prop actor='particle/destruction_smoke_med.xml' attachpoint='root'/>
+        <prop actor='particle/destruction_dust_med.xml' attachpoint='root'/>
+        <prop actor='particle/destruction_dust_med.xml' attachpoint='root'/>
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+  <material>player_trans_ao_norm_spec.xml</material>
 </actor>

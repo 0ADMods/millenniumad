@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<actor version="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<actor version='1'>
   <float/>
   <group>
-    <variant name="Base">
-      <particles file="smoke_curved.xml"/>
+    <variant name='Base'>
+      <particles file='smoke_curved.xml'/>
     </variant>
   </group>
-  <material>basic_trans_norm_spec.xml</material>
 </actor>
