@@ -18,6 +18,7 @@
   <Population>
     <Bonus>8</Bonus>
   </Population>
+  <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
       unlock_champion_units_modded

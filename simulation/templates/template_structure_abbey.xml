@@ -54,6 +54,7 @@
   <Population>
     <Bonus>5</Bonus>
   </Population>
+  <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
       heal_range

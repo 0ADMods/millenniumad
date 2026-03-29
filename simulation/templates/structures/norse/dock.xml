@@ -17,6 +17,7 @@
   <Population>
     <Bonus>2</Bonus>
   </Population>
+  <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
       ship_speed_norse

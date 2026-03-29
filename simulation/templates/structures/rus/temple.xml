@@ -23,6 +23,7 @@
   <Population>
     <Bonus>7</Bonus>
   </Population>
+   <ProductionQueue/>
    <Researcher>
     <Technologies datatype="tokens">
       rus/divine_inspiration

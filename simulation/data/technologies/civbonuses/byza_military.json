@@ -3,6 +3,7 @@
 	"autoResearch": true,
 	"description": "Soldiers are stronger but cost 20% more.",
 	"requirements": { "civ": "byza" },
+	"requirementsTooltip": "Available only to the Byzantines.",
 	"modifications": [
 		{ "value": "Health/Max", "multiply": 1.25 },
 		{ "value": "Attack/Melee/Damage/Hack", "add": 5 },

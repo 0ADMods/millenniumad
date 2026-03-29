@@ -13,6 +13,7 @@
   <Obstruction>
     <Static width="37.0" depth="20.0"/>
   </Obstruction>
+  <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
       germanic_thingstead

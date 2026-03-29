@@ -4,6 +4,7 @@
     <Civ>byza</Civ>
     <SpecificName>Stratēgeîon</SpecificName>
   </Identity>
+  <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
       siege_attack

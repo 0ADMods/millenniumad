@@ -4,6 +4,7 @@
     <Civ>caro</Civ>
     <SpecificName>Workshop</SpecificName>
   </Identity>
+  <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
       siege_attack

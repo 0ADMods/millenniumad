@@ -3,6 +3,7 @@
 	"autoResearch": true,
 	"description": "Workers +5 resource capacity.",
 	"requirements": { "civ": "caro" },
+	"requirementsTooltip": "Available only to the Carolingians.",
 	"modifications": [
 		{ "value": "ResourceGatherer/Capacities/food", "add": 5 },
 		{ "value": "ResourceGatherer/Capacities/wood", "add": 5 },

@@ -26,6 +26,7 @@
     <Bonus>2</Bonus>
   </Population>
   <RallyPoint/>
+  <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
       gather_animals_stockbreeding

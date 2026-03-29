@@ -61,6 +61,7 @@
   <Population>
     <Bonus>10</Bonus>
   </Population>
+  <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
     umay/pair_diwan2

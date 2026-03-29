@@ -2,6 +2,7 @@
 	"genericName": "Weaker Structures",
 	"autoResearch": true,
 	"requirements": { "civ": "anglo" },
+	"requirementsTooltip": "Available only to the Anglo-Saxons.",
 	"description": "Structures −10% health.",
 	"modifications": [
 		{ "value": "Cost/BuildTime", "multiply": 0.9 },

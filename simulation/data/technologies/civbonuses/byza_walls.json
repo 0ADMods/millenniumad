@@ -3,6 +3,7 @@
 	"autoResearch": true,
 	"description": "The Byzantines were well-known for their strong city walls, enabling them to repeatedly resist sieges.",
 	"requirements": { "civ": "byza" },
+	"requirementsTooltip": "Available only to the Byzantines.",
 	"tooltip": "High Walls +100% stone cost, +100% build time, and +100% health. Inner Walls +70% stone cost, +70% build time, and +70% health. Outer Walls −15% stone cost, −15% build time, and −15% health.",
 	"modifications": [
 		{ "value": "Cost/BuildTime", "multiply": 2, "affects": "HighWall" },

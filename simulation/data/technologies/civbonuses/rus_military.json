@@ -3,6 +3,7 @@
 	"autoResearch": true,
 	"description": "Soldiers are weaker but cost 10% less.",
 	"requirements": { "civ": "rus" },
+	"requirementsTooltip": "Available only to the Rus.",
 	"modifications": [
 		{ "value": "Health/Max", "multiply": 0.9 },
 		{ "value": "Resistance/Entity/Damage/Hack", "add": -2.0 },

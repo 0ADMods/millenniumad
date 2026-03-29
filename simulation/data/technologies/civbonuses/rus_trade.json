@@ -3,6 +3,7 @@
 	"autoResearch": true,
 	"description": "Traders +10% trade gain.",
 	"requirements": { "civ": "rus" },
+	"requirementsTooltip": "Available only to the Rus.",
 	"modifications": [
 		{ "value": "Trader/GainMultiplier", "multiply": 1.1 }
 	],

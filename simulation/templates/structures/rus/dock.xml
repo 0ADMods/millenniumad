@@ -14,6 +14,7 @@
   <Obstruction>
     <Static width="35.0" depth="40.0"/>
   </Obstruction>
+  <ProductionQueue/>
   <Researcher>
      <Technologies datatype="tokens">
       ship_speed_norse

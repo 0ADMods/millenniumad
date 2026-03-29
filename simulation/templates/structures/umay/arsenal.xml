@@ -3,6 +3,7 @@
   <Identity>
     <Civ>umay</Civ>
   </Identity>
+  <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
       siege_attack

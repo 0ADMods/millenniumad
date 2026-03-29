@@ -2,6 +2,7 @@
 	"genericName": "Fertile Land",
 	"autoResearch": true,
 	"requirements": { "civ": "anglo" },
+	"requirementsTooltip": "Available only to the Anglo-Saxons.",
 	"description": "Workers +10% gather speed.",
 	"modifications": [
 		{ "value": "ResourceGatherer/BaseSpeed", "multiply": 1.1 }

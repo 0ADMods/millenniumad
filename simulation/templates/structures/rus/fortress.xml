@@ -34,6 +34,7 @@
   <Population>
     <Bonus>12</Bonus>
   </Population>
+  <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
       siege_attack

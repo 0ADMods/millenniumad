@@ -11,6 +11,7 @@
   <Population>
     <Bonus>4</Bonus>
   </Population>
+  <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
       -soldier_resistance_pierce_01
