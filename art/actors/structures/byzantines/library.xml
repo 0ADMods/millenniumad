@@ -7,7 +7,6 @@
       <textures>
         <texture file='structural/byza/byza_struct_02.png' name='baseTex'/>
         <texture file='structural/byza/byza_struct_02_norm.png' name='normTex'/>
-        <texture file='structural/ao/byza_library_ao.png' name='aoTex'/>
         <texture file='structural/byza/byza_struct_02_spec.png' name='specTex'/>
       </textures>
       <props>
@@ -40,5 +39,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_norm_spec.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

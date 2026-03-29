@@ -27,12 +27,7 @@
     <Types>food wood stone metal</Types>
     <Sharable>false</Sharable>
   </ResourceDropsite>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}/infantry_swordsman_b
-      units/{civ}/infantry_spearman_b
-      units/{civ}/infantry_archer_b
-    </Entities>
+  <Researcher>
     <TechCostMultiplier>
       <food>1.0</food>
       <wood>1.0</wood>
@@ -40,7 +35,14 @@
       <metal>1.0</metal>
       <time>1.0</time>
     </TechCostMultiplier>
-  </ProductionQueue>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_swordsman_b
+      units/{civ}/infantry_spearman_b
+      units/{civ}/infantry_archer_b
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/norse/drakkar.xml</Actor>
   </VisualActor>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scenario version="7">
+	<Terrain patches="30" texture="blackness" priority="0" height="4096"/>
+	<Environment>
+		<SkySet>default</SkySet>
+		<SunColor r="1.0" g="1.0" b="1.0"/>
+		<SunElevation angle="0.628"/>
+		<SunRotation angle="0"/>
+		<AmbientColor r="0.65" g="0.65" b="0.65"/>
+		<Water>
+			<WaterBody>
+				<Type>default</Type>
+				<Color r="0.3" g="0.39" b="0.59"/>
+				<Height>20</Height>
+				<Waviness>5</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<Tint r="0.3" g="0.39" b="0.59"/>
+			</WaterBody>
+		</Water>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.8"/>
+		</Fog>
+	</Environment>
+	<ScriptSettings><![CDATA[
+{
+  "CircularMap": false,
+  "Description": "Demonstration scenario showcasing MillenniumAD units and structures.",
+  "GameType": "endless",
+  "Keywords": [
+    "demo"
+  ],
+  "LockTeams": false,
+  "Name": "Units Demo (6)",
+  "PlayerData": [
+    "",
+    {
+      "Civ": "anglo",
+      "Name": "Player 1"
+    },
+    {
+      "Civ": "byza",
+      "Name": "Player 2"
+    },
+    {
+      "Civ": "caro",
+      "Name": "Player 3"
+    },
+    {
+      "Civ": "norse",
+      "Name": "Player 4"
+    },
+    {
+      "Civ": "rus",
+      "Name": "Player 5"
+    },
+    {
+      "Civ": "umay",
+      "Name": "Player 6"
+    }
+  ],
+  "Preview": "",
+  "RevealMap": true,
+  "TriggerScripts": [
+    "scripts/units_demo.js"
+  ],
+  "VictoryConditions": []
+}
+]]></ScriptSettings>
+	<Entities/>
+</Scenario>
