@@ -8,8 +8,6 @@
         <texture file="skeletal/rus_basic_cloth.png" name="baseTex"/>
         <texture file="skeletal/xion_cloth_norm.png" name="specTex"/>
         <texture file="skeletal/xion_cloth_spec.png" name="normTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
