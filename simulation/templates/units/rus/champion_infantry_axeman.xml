@@ -20,6 +20,7 @@
       <Techs datatype="tokens">
         unlock_mercenaries
       </Techs>
+      <Tooltip>Requires Mercenaries.</Tooltip>
     </Requirements>
     <SelectionGroupName>units/rus/champion_huscarl</SelectionGroupName>
   </Identity>

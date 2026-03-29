@@ -31,6 +31,7 @@
       <Techs datatype="tokens">
         unlock_hospital
       </Techs>
+      <Tooltip>Requires the hospital unlock.</Tooltip>
     </Requirements>
   </Identity>
   <Obstruction>

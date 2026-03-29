@@ -35,6 +35,7 @@
       <Techs datatype="tokens">
         phase_town
       </Techs>
+      <Tooltip>Unlocked in Town Phase.</Tooltip>
   </Requirements>
       <Cost>
         <food>10</food>

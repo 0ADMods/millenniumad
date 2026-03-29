@@ -22,6 +22,7 @@
       <Techs datatype="tokens">
         phase_town
       </Techs>
+      <Tooltip>Unlocked in Town Phase.</Tooltip>
   </Requirements>
   </Identity>
   <Obstruction>

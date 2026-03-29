@@ -19,6 +19,7 @@
       <Techs datatype="tokens">
         unlock_hunter
       </Techs>
+      <Tooltip>Requires Hunting Tradition.</Tooltip>
     </Requirements>
   </Identity>
  <Promotion disable=""/>

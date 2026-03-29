@@ -43,6 +43,7 @@ Use to boost the efficiency of nearby units and buildings. Garrison within a bui
       <Techs datatype="tokens">
         byza/economy_reform
       </Techs>
+      <Tooltip>Requires Economic Reforms.</Tooltip>
     </Requirements>
   </Identity>
   <Minimap>

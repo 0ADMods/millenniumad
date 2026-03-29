@@ -27,6 +27,7 @@
       <Techs datatype="tokens">
         phase_town
       </Techs>
+      <Tooltip>Unlocked in Town Phase.</Tooltip>
   </Requirements>
     <Icon>structures/library_scroll.png</Icon>
   </Identity>

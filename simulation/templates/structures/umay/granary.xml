@@ -31,6 +31,7 @@
       <Techs datatype="tokens">
         phase_town
       </Techs>
+      <Tooltip>Unlocked in Town Phase.</Tooltip>
   </Requirements>
     <Tooltip>Gain a trickle of Food resource for each Granary built.</Tooltip>
     <History>An agadir is a fortified communal granary found in the Maghreb. Some of these date back to the 10th century.</History>
