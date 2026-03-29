@@ -18,6 +18,7 @@
 			<Techs datatype="tokens">
 				phase_village
 			</Techs>
+			<Tooltip>Unlocked in Village Phase.</Tooltip>
 		</Requirements>
 		<Classes datatype="tokens">Town</Classes>
 	</Identity>

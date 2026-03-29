@@ -6,6 +6,7 @@
   <Identity>
     <Requirements>
       <Techs datatype="tokens">unlock_females_house</Techs>
+      <Tooltip>Requires the house female-citizen unlock.</Tooltip>
     </Requirements>
   </Identity>
 </Entity>

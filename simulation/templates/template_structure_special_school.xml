@@ -27,9 +27,8 @@
     <VisibleClasses datatype="tokens">Library</VisibleClasses>
     <Tooltip>.</Tooltip>
     <Requirements>
-      <Techs datatype="tokens">
-        phase_city
-      </Techs>
+      <Techs datatype="tokens">phase_city</Techs>
+      <Tooltip>Unlocked in City Phase.</Tooltip>
     </Requirements>
     <Icon>structures/library_scroll.png</Icon>
   </Identity>

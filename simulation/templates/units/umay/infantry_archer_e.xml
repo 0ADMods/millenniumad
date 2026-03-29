@@ -4,6 +4,7 @@
     <Rank>Elite</Rank>
     <Requirements>
       <Techs datatype="tokens">phase_city</Techs>
+      <Tooltip>Unlocked in City Phase.</Tooltip>
     </Requirements>
   </Identity>
   <Promotion disable=""/>

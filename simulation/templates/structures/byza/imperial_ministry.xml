@@ -48,9 +48,8 @@
   </Classes>
     <History>The Byzantine Empire had a complex system of aristocracy and bureaucracy, which was inherited from the Roman Empire. Beneath the emperor, a multitude of officials and court functionaries operated the complex administrative machinery that was necessary to run the empire. In addition to those officials, a large number of honorific titles existed, which the emperor awarded to his subjects or to friendly foreign rulers.</History>
     <Requirements>
-      <Techs datatype="tokens">
-        phase_city
-      </Techs>
+      <Techs datatype="tokens">phase_city</Techs>
+      <Tooltip>Unlocked in City Phase.</Tooltip>
     </Requirements>
     <Icon>structures/palace.png</Icon>
     <Tooltip>Build to unlock a powerful suite of Administrative technologies.</Tooltip>

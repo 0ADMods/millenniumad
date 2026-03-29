@@ -48,9 +48,8 @@
   </Classes>
     <History>Boyars were the member of the highest rank of the feudal system in early slavic societies. The title Boila is predecessor or old form of the title "Bolyar", Bulgarian adaptation from Greek and Byzantine bureaucratic traditions.</History>
     <Requirements>
-      <Techs datatype="tokens">
-        phase_city
-      </Techs>
+      <Techs datatype="tokens">phase_city</Techs>
+      <Tooltip>Unlocked in City Phase.</Tooltip>
     </Requirements>
     <Icon>structures/palace.png</Icon>
     <Tooltip>Build to unlock a powerful suite of Administrative technologies.</Tooltip>

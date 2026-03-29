@@ -6,6 +6,7 @@
     <SpecificName>Teichos</SpecificName>
     <Requirements>
       <Techs datatype="tokens">phase_city</Techs>
+      <Tooltip>Unlocked in City Phase.</Tooltip>
     </Requirements>
   </Identity>
   <WallSet>

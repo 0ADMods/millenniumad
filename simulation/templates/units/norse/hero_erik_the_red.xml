@@ -10,6 +10,7 @@
     <Icon>units/norse/erik_the_red.png</Icon>
     <Requirements>
       <Techs datatype="tokens">germanic_thingstead</Techs>
+      <Tooltip>Requires Thingstead.</Tooltip>
     </Requirements>
   </Identity>
   <VisualActor>

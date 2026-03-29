@@ -27,9 +27,8 @@
 Strong Against: Nothing.
 Weak Against: Everything.</Tooltip>
     <Requirements>
-      <Techs datatype="tokens">
-        phase_village
-      </Techs>
+      <Techs datatype="tokens">phase_village</Techs>
+      <Tooltip>Unlocked in Village Phase.</Tooltip>
     </Requirements>
   </Identity>
   <Loot>

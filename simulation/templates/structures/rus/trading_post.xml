@@ -24,9 +24,8 @@
       <Entity>structures/rus/fortress</Entity>
       <Tooltip>Upgrade to fortified outpost</Tooltip>
     <Requirements>
-      <Techs datatype="tokens">
-        phase_city
-      </Techs>
+      <Techs datatype="tokens">phase_city</Techs>
+      <Tooltip>Unlocked in City Phase.</Tooltip>
     </Requirements>
       <Cost>
         <wood>500</wood>

@@ -27,6 +27,7 @@
     <SelectionGroupName>units/norse/champion_berserker</SelectionGroupName>
     <Requirements>
       <Techs datatype="tokens">unlock_champion_units_modded</Techs>
+      <Tooltip>Requires the champion unit unlock.</Tooltip>
     </Requirements>
   </Identity>
   <Resistance>
