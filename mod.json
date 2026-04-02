@@ -1,7 +1,7 @@
 {
 	"name": "millenniumad",
 	"label": "Millennium A.D.",
-	"version": "0.28.3",
+	"version": "0.28.4",
 	"url": "https://github.com/0ADMods/millenniumad",
 	"description": "Cover the AD 500–1000 timeframe with new civilizations and maps.",
 	"dependencies": ["0ad=0.28.0"],
